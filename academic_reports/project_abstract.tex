@@ -1,56 +1,61 @@
+
 \documentclass[a4page]{article}
 
 \usepackage{enumerate}
 \usepackage{fullpage}
 \usepackage{url}
+\usepackage{microtype}
 
-\author{Martin Kukla \\
-mk74@st-andrews.ac.uk}
-\title{Senior Honours Project's Abstract}
-\date{\today}
+\title{Energy-efficient sensing with Android smartphones. \\ 
+\large Description, Objectives, Ethics and Resources}
+\date{}
 
 \begin{document}
 \maketitle
 
 \begin{table}[!th]
 \begin{tabular}{l p{0.8\textwidth}}
-Supervisor & Tristan Henderson - tnhh@st-andrews.ac.uk\\
-Project Title & Energy-efficient sensing with Android smartphones \\
+Author & Martin Kukla - mk74@st-andrews.ac.uk \\
+Supervisor & Tristan Henderson - tnhh@st-andrews.ac.uk \\
+Date & {\today}
 \end{tabular}
 \end{table}
 
 \section{Description}
-Context-aware mobile applications which exploit heavy-energy sensors(e.g. GPS) has grown in popularity in the recent years. As users tend to spend more time in those applications, battery life becomes crucial issue for mobile phones. In order to limit inconvenience for users, the usage of sensors could be optimized. Context-aware mobile applications could use sensors more energy-efficiently without any negligence in data accuracy(e.g. using cheaper sensors where possible such as preferring an accelerometer to an 802.11 radio).
+Mobile-sensing applications consume significant portions of battery life. This energy usage, however, could be optimized without neglecting the sensors' data accuracy. This project will 
+provide an energy-efficient sensing library for Android smartphones. The energy saving algorithm will be tested and evaluated against baseline implementation. The project could help in understanding energy costs of different sensors and reduce the energy consumption of context-aware mobile applications.
 
 \section{Objectives}
-This project aims to create an energy-efficient sensing library, which will provide an API for mobile applications. As a proof of concept, I intent to develop a test mobile application, which will make use of this API. Moreover, the project should satisfy a following set of requirements:
+This project aims to create an energy-efficient sensing library, which will provide an API for mobile applications. As a proof of concept, we intend to develop a test mobile application, which will make use of this API. Moreover, the project should satisfy a following set of requirements:
 \begin{enumerate}[(a)]
   \item Primary requirements
   \begin{itemize}
-  	\item All software components of the project will work on Android mobile operating system.
-    \item Energy efficiency and accuracy of the library should be tested against a baseline implementation.
-    \item The project is required to determine empirically energy cost of different sensors.
-    \item The library will be integrated with ESM mobile application
-    \item As part of the project, real users study with the test application should be conducted. 
+  	\item All software components of the project will work on the Android mobile operating 
+system.
+    \item Energy efficiency and accuracy of the library should be tested against a baseline 
+implementation.
+    \item The project should empirically determine energy costs of different sensors.
+    \item The library will be integrated with Tristan's experience sampling method~ (ESM) mobile application.
+    \item As part of the project, a study with real users should be conducted.
   \end{itemize}
   \item Secondary requirements
   \begin{itemize}
-	\item The library will provide online feedback on energy cost of different sensors.
-  	\item Software components are expected to work on a variety of Android devices.
-    \item The library should adapt its energy saving algorithm according to current battery life.    
-    \item The library intents to manage mobile applications' contention for sensor usage.  
+	\item The library will calculate energy costs of different sensors in real time.
+  	\item Software components should work on a variety of Android devices.
+    \item The energy saving algorithm should be adaptive according to current battery life.
+    \item The library intends to manage mobile applications' contention for sensor usage.  
   \end{itemize}
   \item Tertiary requirements
   \begin{itemize}
-  	\item The energy saving algorithm is expected to improve its performance by learning on user behaviour. 
+  	\item The energy saving algorithm should improve its performance by learning from user behaviour. 
   \end{itemize}
 \end{enumerate}
 
 \section{Ethics}
-	WE ARE GOING TO DISCUSS IT ON NEXT MONDAY I ASSUME, AREN'T WE? Martin
+	The project raises ethical concerns related to user's privacy. In the study with real users, a testing mobile application will be installed on participants' devices. The application will collect all sensors' data including sensitive information e.g., localization or activity~ (which applications a participant is running). Those data, however, will not be extracted out of participant's device. Instead, only one number indicating algorithm's accuracy will be copied. If requested, a participant may also intentionally share the whole set of gathered data. To face project's ethical concerns, we submitted a full ethical application form to the University Teaching and Research Ethics Committee~ (UTREC).
     
 \section{Resources}
-In order to complete the project, the variety of Android devices is in need. Since being enrolled for CS4303 Video Games, I will be given Google Nexus 7 for the first semester. I would like to ask for the possibility of using it across the second semester as well. Tristan has already equipped me with HTC flyer 7 inch and will provide me with any additional devices if requested.
+To complete the secondary requirements, the project needs to be tested on Google Nexus 7. Being enrolled for CS4303 Video Games, we will have an access to this device in the first semester. If possible, we would like to keep this tablet for the rest of the academic year. All of other variety of Android devices are provided by Tristan.
 
 \bibliographystyle{plain}
 
