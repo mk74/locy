@@ -1,0 +1,21 @@
+Raport prior to Meeting 7/10.:
+I have done:
+	-read how satellite navigation works/GPS/ mobile phone tracking(trilateration/multilateration/triangulation), accuracy, geofencing
+	-read Android: what sensors/ what OS - changes, overview/ activity recognition/fused location provider/ SensorFramework/ android's architecture
+	-Read about EmotionSense and extracted part of library which we are interested: AdaptiveSensing.java and SociableSense's paper
+	-Run Android:
+		-set up environment(decided on Eclipse + ADT, not Android Studio)
+		-code HelloWorld(+ java refresher)
+		-code list all sensors with power(!) + print Accelerometer's values
+		-clone app using ActivityRecognition + make it working on my tablet testing of that, when wifi on/off
+
+What I should do:
+	-context-survey: 
+		-evolution of all frameworks which I am checking
+		-what do they do? what don't they do? 
+		-what's good? what's bad?
+			-ActivityRecognition/ Fused Location provider/ Sensor Framework
+			-research papers' solutions
+	-design API/architecture basing on that context-survey
+	-investigate energy usage of sensors(is it like what Google says in their API )
+		-reproduce Table nr 1 from Senseless paper
