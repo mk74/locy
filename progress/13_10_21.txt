@@ -1,0 +1,34 @@
+I have done:
+  -clear directories + added prototypes to github
+  -energy measurement:
+	-rough idea how they work:
+		-states of hardware ->energy consumption (e.g. PowerTutor) 
+		-other do baseline computations and then delta difference (e.g. TrepnProfiler)
+	-found software and evaluate it (betterBatteryStats, PowerTutor, Battery Stats Plus, Battery monitor widget and Trepn Profiler)
+		-PowerTutor
+			-power consumption as metrics
+			-http://powertutor.org/
+			-specified for Nexus 1
+			-don't take into consideration accelerometer, camera
+		-TrepProfiler:
+			-power consumption as metrics
+			-https://developer.qualcomm.com/mobile-development/performance-tools/trepn-profiler
+			-low-level software running on specific chipset
+				-provider of those chipset is producer of that software
+				-though most of Android phones (no tablets) are from qualcomm
+					https://developer.qualcomm.com/devices
+				-works for Nexus 7
+			-repetitive measurement return the same results
+			-console access (I thought that it meant online measurement, but it is not possible when mobile phone is charging)
+			-looks like Anroid's equivalent of Nokia Profiler Tool, which was widely used in research 
+			-possible to log to file (csv) 
+		-BetterBatteryStats
+			-battery life as metrics
+		-Battery Stats Plus
+			-battery life as metrics
+		-Battery monitor widget
+			-power consumption as metrics
+			-not easily possible to do automatic testing
+	-my choice: Trepn Profiler
+	-I played with Trepn Profiler from adb shell
+	-started writing apps for measurement
