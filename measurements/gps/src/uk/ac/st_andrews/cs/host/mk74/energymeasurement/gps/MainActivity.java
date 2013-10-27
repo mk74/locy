@@ -8,6 +8,20 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.view.Menu;
 
+class EmptyLocationListener implements LocationListener{
+	@Override
+	public void onLocationChanged(Location loc) {}
+
+	@Override
+	public void onProviderDisabled(String arg0) {}
+
+	@Override
+	public void onProviderEnabled(String arg0) {}
+
+	@Override
+	public void onStatusChanged(String arg0, int arg1, Bundle arg2) {}
+}
+
 public class MainActivity extends Activity {
 
 	@Override
@@ -16,21 +30,7 @@ public class MainActivity extends Activity {
 		
 		LocationManager locManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 		
-		LocationListener locListener = new LocationListener() {
-
-			@Override
-			public void onLocationChanged(Location loc) {}
-
-			@Override
-			public void onProviderDisabled(String arg0) {}
-
-			@Override
-			public void onProviderEnabled(String arg0) {}
-
-			@Override
-			public void onStatusChanged(String arg0, int arg1, Bundle arg2) {}
-			
-		};
+		LocationListener locListener = new EmptyLocationListener();
 		
 		String locProvider = LocationManager.GPS_PROVIDER;
 		locManager.requestLocationUpdates(locProvider, 0, 0, locListener);
