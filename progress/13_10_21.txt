@@ -32,3 +32,21 @@ I have done:
 	-my choice: Trepn Profiler
 	-I played with Trepn Profiler from adb shell
 	-started writing apps for measurement
+
+Meeting:
+	1. Energy measurement
+		-test for an hour on power consumption metrics - 'short measurement'
+		-test on battery life later till the battery is depleted - 'full measurement'
+		-check whether order of sensors is the same?
+		-to show on variety of devices
+			-if not Snapdragon processor, make full measurment
+		-measure the worst possible outcome
+			-while loop
+				-wifi-gps
+				-left camera running
+		-new sensros to table 1:
+			magetometer, microphone
+	2. Architecture/design:
+		-keep documentation of each sensor when you are writing apps
+			-what's good/what's bad
+	3. Discussing my context-survey
