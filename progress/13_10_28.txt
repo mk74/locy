@@ -1,0 +1,66 @@
+Progress:
+	-got into: http://productforums.google.com/forum/#!topic/nexus/YY96l_nYAWs%5B1-25-false%5D
+		-but manage by updating OS and restore factory settings
+	-wrote 
+		EnergyMeasurementGPS
+		EnergyMeasurementNetwork
+		EnergyMeasurementAccelerometer
+		EnergyMeasurementGyroscope
+		EnergyMeasurementLight
+		EnergyMeasurementMagneticField
+		EnergyMeasurementProximity
+	-did experiments each 15 minutes WITHOUT PRINTING INFO:
+		-network-based							849 mW
+		-network-based, wifi on						926 mW
+		-gps indoor							1,194,10 mW
+		-gps outdoor							1053,50 mW				but Wifi was on(!)						
+		-gps outdoor moving around					764,68 mW
+
+		-mistakes made/ questions arises:
+			-forgot to switch off Wifi during GPS outdoor in-place experiment
+			-didn't print any values on screen
+				-do I actually get any data?
+				-does it require additional CPU power
+					e.g. for GPS?	
+	-did small experiments on wifi on when i am doing wifi on:
+		conclusion: requires Wifi on to calculate things
+	-hypothesis so far:
+		gps indoor> gps outdoor(?) / network-based(wifi on) /gps outdoor moving around / 
+			
+	-did experiments when printing values:
+		-network-based
+			-trepn_start, wifi on, EnergyMeasurement, leave for 15 minutes
+				-digression: when i go to NetMeasure it gives me result immediately (without EnergyMeasurement it doesn't)
+			-result: 925 mW			(run for ~16 mins, but it is average anyway)
+		-gps outdoor:
+			-trepn_start, wifi on, EnergyMeasurement, leave for 15 minutes
+			-result: 1720 mW
+		-gps outdoor moving:
+			-result: 1583,13 mW
+		-gps indoor will be the same since searching and no single locatino is given
+			-result: 1194,10
+	-hypothesis so far:
+		gps outdoor > gps outdoor moving > gps indoor > network-based
+
+	-did small experiments on accelerometer:
+		-trepn_start, AccMeasure, leave for 15 minutes
+				1577.34	mW	 but it updated screen every 0.8 secs()
+		the same, without printing values
+				911 mW	 again it updated every 0.8 secs
+		problem with specifying rate, since it updates much faster than it was said!
+				796 mW when specified rate equals 1000000 seconds(!), but again without printing values
+		need to invesigate this further(!)
+		What to do? how to compare those values?
+
+
+-other small concerns about my experiments:
+	-all google's play service SDK is on as I chose so at the beginning, I think that I should switch it off
+
+-generally experiments should be repeated 
+	-switch off Google Play Service SDK
+	-run for an hour
+
+
+todo:
+	investigate accelerometer's issues
+	finish experiments
