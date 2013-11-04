@@ -1,4 +1,4 @@
-Progress:
+I have done:
 	-got into: http://productforums.google.com/forum/#!topic/nexus/YY96l_nYAWs%5B1-25-false%5D
 		-but manage by updating OS and restore factory settings
 	-wrote 
@@ -66,3 +66,22 @@ todo:
 	investigate accelerometer's issues
 	write script for running experiments
 	finish experiments
+
+Meeting:
+	-produce list of all sensors
+		-should be first thing in the report
+	-discussing network based localization
+		-everything is done server-side
+		-in experiment there was not difference whether it was printing values or not(as values are fetched from cloud)
+		-my questions whether it is possible without Wifi On/Google servers
+			-skyhook, wiggle
+			-but all stuff is done through the network anyway
+			-using regulatory information to detect in which country you are(different channels are forbidden in different countries)
+			-digression: how routers know their locations
+							-can't use GPS as they are indoor
+							-but relative locaization actually matters
+	-difference between energy usage between gps outdoor and gps outdoor moving may be important but be focusedo n other things first
+	-results about accelerometer's energy cost seems to be unreal:
+		-could be bug in many places(my nexus/ my code/ Trepn Profiler)
+		-so better yo run full experiment about battery depleting
+
