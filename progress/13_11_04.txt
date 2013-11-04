@@ -1,0 +1,37 @@
+I have done:
+	-research new Android Kitkat 4.4 / Nexus 5
+		-Kitkat:
+			-soon available for Nexus 7 - "coming weeks"
+			-source code available on Android Open Source Project
+			-focused on consistent experience across the entire yser base
+				"One OS to Rule them ALL"
+				-fighting fragmentation
+				-so reducing OS resources
+					-but mainly memory ("All about memory optimization")
+		-Nexus 5
+				-novel way of using  LTE -> signal amplifier changes -> energy saving
+
+	-research Mozilla Location Service
+		-so far: publicly available data, but still need to query them over the internet
+		-planning: put data on mobile phone
+			-wokring on how to obscure them
+				-in Google Location Service, you need to include 2-3 access which are next to this access point, so it "proves" that the requeste is near the access points
+				-^^ mozilla wants to do the same and keep data on mobile phone -> crypto
+					-unlike Google Location Service, they don't store MAC or SSID, but SHA1(MAC+SSID) only - they claim that at least.
+				-https://groups.google.com/forum/#!topic/mozilla.dev.security/0qT0grS_PIY
+
+	-experiments:
+		-env:
+			-reset to factory setting/switch off google location services
+			-apps are printing to LogCat, but don't update screen
+			-mobile phone 100%, switch off eveything else
+			-screen on for first half an hour
+		-question: how much % is left
+		-(first run for half an hour GPS indoor: 98% left)
+		-run for 4 hours each
+			-90% left for GPS indoor
+			-98% left for network-based
+			-99% accelerometer
+
+
+Meeting:
