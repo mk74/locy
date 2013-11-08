@@ -7,7 +7,8 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.view.Menu;
-import android.widget.TextView;
+import android.view.Window;
+import android.view.WindowManager;
 
 public class MainActivity extends Activity {
 
@@ -25,17 +26,20 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onSensorChanged(SensorEvent event) {
-				TextView tv = (TextView) findViewById(R.id.textView1);
 				String output = "Values: " + event.values[0] + " " + event.values[1] + " " + event.values[2] +"\n";
-				tv.setText(output);
 				System.out.println(output);
 			}
 			
 		}
 		
-		mSensorManager.registerListener(new EmptySensorEventListener(), mAccelerometer, 0);
+		int rate = 1000000 * 1000000;
+		mSensorManager.registerListener(new EmptySensorEventListener(), mAccelerometer, rate);
 		
+		Window w = getWindow();
+		w.setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON, 
+				WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		setContentView(R.layout.activity_main);
+		
 	}
 
 	@Override
