@@ -7,6 +7,8 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
@@ -21,9 +23,8 @@ public class MainActivity extends Activity {
 			
 			@Override
 			public void onLocationChanged(Location loc) {				
-				TextView tv = (TextView) findViewById(R.id.textView1);
-				tv.setText("Position: " + loc.getLongitude() + " " + loc.getLatitude() + "\n");
-				System.out.println("Position: " + loc.getLongitude() + " " + loc.getLatitude() + "\n");
+				String output = "Position: " + loc.getLongitude() + " " + loc.getLatitude() + "\n";
+				System.out.println(output);
 			}
 
 			@Override
@@ -42,6 +43,9 @@ public class MainActivity extends Activity {
 		locManager.requestLocationUpdates(locProvider, 0, 0, locListener);
 		System.out.println("Location listener is registered\n");
 		
+		Window w = getWindow();
+		w.setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON, 
+				WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		setContentView(R.layout.activity_main);
 	}
 
