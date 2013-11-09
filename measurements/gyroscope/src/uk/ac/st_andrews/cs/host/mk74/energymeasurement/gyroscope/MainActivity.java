@@ -9,7 +9,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
