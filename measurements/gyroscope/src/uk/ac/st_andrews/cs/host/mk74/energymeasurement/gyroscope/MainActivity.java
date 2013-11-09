@@ -7,6 +7,8 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
@@ -25,9 +27,7 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onSensorChanged(SensorEvent event) {
-				TextView tv = (TextView) findViewById(R.id.textView1);
 				String output = "Values: " + event.values[0] + " " + event.values[1] + " " + event.values[2] +"\n";
-				tv.setText(output);
 				System.out.println(output);
 			}
 			
@@ -35,6 +35,9 @@ public class MainActivity extends Activity {
 		
 		mSensorManager.registerListener(new EmptySensorEventListener(), mGyroscope, 0);
 		
+		Window w = getWindow();
+		w.setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON, 
+				WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		setContentView(R.layout.activity_main);
 	}
 
