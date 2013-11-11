@@ -1,0 +1,90 @@
+Progress:
+
+I have done:
+    -research other ways of getting battery info
+        -batteryManager
+            -api to get info on battery
+            -gives "scale" and "level", but both are integers and equal to 100 -> percentage precision
+            -the same with "adb shell dumpsys battery"
+    
+    -Run experiments
+        -Edited sample apps: awake and bright screen on
+        -Google Nexus 7:
+            accelerometer                                   after 9.5 hours 63%
+                                                            after 10 hours 62%
+            network-based location started 11:19pm          after 9.5 hours 76%
+                                                            after 10 hours 74%
+            gyroscope started 12:09pm                       after 9.5 hours 40% 
+                                                            after 10 hours  36%
+            WHY? 
+                -I/O operations
+                -mobile phone being in place during WiFi stuff
+
+        -HTC flyer(did research/playing around with it before):
+            accelerometer                                   after 7 hours and 18 minutes 0%
+            gyroscope                                       after 8 hours and 14 minutes 0%
+
+    -created separate experiments_tables.txt file
+    
+    -Coded:
+        -update all sensor apps:
+        -listAllSensorsApp added
+        -create Library and sample app using this library
+            -got idea how library works on Android platform
+            -in future, it may be done as service, system one if possible?
+            -so far:
+                -library: reading accelerometer data, batching them, calculate average of them, calculate Euclidean distance between current Values and old Values; 
+                -app:prints it on screen
+        -questions:
+            -still no concept of time?
+                -batching 20 requests takes less than a sec
+                    -question how often accelerometer dat may be read?
+                        -previously it was believed that twice a sec, but probably speed was limited by I/O operations
+            -make usage of physics instead of experimental methods ?
+
+    -more context survey
+        -Android Kitkat 4.4:
+            -new sensor software-based though: TYPE_GEOMAGNETIC_TOTATION_VECTOR, as TYPE_ROTATION_VECTOR
+                -uses magnetometer, requires less power, and most effective while user is outdoors
+            -new step sensors in hardware:
+                -all in Nexus 5
+                -TYPE_STEP_DETECTOR timestamp when step occured
+                -TYPE_STEP_COUNTER slower, but more accurate(additional algorithms to verify things)
+            -batched sensor events
+                -reduce frequency of calls to SensorEventListener
+                    -but still the same amount of events
+                -allows to specify "maximum report latency"
+                -CPU needs to be awake to deliver batched events
+                    -but collects when is asleep(may drop as limitation on memory)
+                -batching sensor events requires support by the hardware sensor
+
+        -TrepnProfiler:
+            -new version 4.1 released in November
+                -didn't see any significant on ChangeLog
+            -spot mistake in previous reasoning - our experiments were still valid
+
+        -Proximity sensor is missing on Nexus 7
+            -may be implemented using ambient light sensor
+
+        -academia:
+            -went through MobiSyS, HotMobile and IPSN(Information Processing in Sensor Networks) conferences and add some papers to citeULike
+            -why localization solely based on accelerometer and compass/gyroscope is not possible?
+                -noise
+                    -what is a source of that noise?
+                -calibration/syncrhonization
+                    -GPS
+                        -GAC: Energy efficient hybrid GPS-Accelerometer-Compass GSM location
+                    -indoor:
+                        -wifi-based fingerprint database (by wardriving)
+                        -dynamic/automatic solutions(without any prior work in environment):
+                            -user surveys -> Growing organic...
+                            -organic creation -> unLoc
+                -CompAcc
+                    -uses path signuteres generated from Google Maps
+            -got interested in indoor localization
+
+    -other useful things Android platform
+        -adb console over Wifi
+        -testing apps on Android Emulator:
+            -android-gps-emulator https://code.google.com/p/android-gps-emulator/
+            -sensor-simulator https://code.google.com/p/openintents/wiki/SensorSimulator
