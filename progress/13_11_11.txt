@@ -88,3 +88,21 @@ I have done:
         -testing apps on Android Emulator:
             -android-gps-emulator https://code.google.com/p/android-gps-emulator/
             -sensor-simulator https://code.google.com/p/openintents/wiki/SensorSimulator
+
+Meeting:
+    -at the end, should it be library or service?
+        -run in the background
+        -differences between "system service" and "normal service"?
+    -measurements:
+        -data vs information
+            -shouldn't compare network-based location with accelerometer
+                -accelerometer is a raw data, network-based location is an information (processed data)
+            -the same GPS shouldn't do triangulation but just read satellite signal
+            -so compare: 802.11, network-based location, GPS(just sensing), GPS with printing( includes triangulation, as energy usage was bigger)
+        -define the same time interval for all sample apps I/O operations
+    -should leave TrepnProfiler so far, even if its results are valid so far
+    -discuss CompAcc and similar technologies
+        -still noise, but more frequent measurement available
+            -more data doesn't mean you have advantage
+            -over-fitting of data
+    -other mobile operating systems(MeeGo, MIUI, Salfish_OS)
