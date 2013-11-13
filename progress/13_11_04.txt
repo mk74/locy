@@ -3,7 +3,7 @@ I have done:
 		-Kitkat:
 			-soon available for Nexus 7 - "coming weeks"
 			-source code available on Android Open Source Project
-			-focused on consistent experience across the entire yser base
+			-focused on consistent experience across the entire user base
 				"One OS to Rule them ALL"
 				-fighting fragmentation
 				-so reducing OS resources
@@ -12,19 +12,19 @@ I have done:
 				-novelty way of using  LTE -> signal amplifier changes -> energy saving
 
 	-research Mozilla Location Service
-		-so far: publicly available data, but still need to query them over the internet
+		-so far: publicly available data, but still need to query them over the Internet
 		-planning: put data on mobile phone
-			-wokring on how to obscure them
+			-working on how to obscure them
 				-in Google Location Service, you need to include 2-3 access which are next to this access point, so it "proves" that the request is near the access points
-				-^^ mozilla wants to do the same and keep data on mobile phone -> crypto
+				-^^ mozilla wants to do the same and keep data on mobile phone -> cryptography
 					-unlike Google Location Service, they don't store MAC or SSID, but SHA1(MAC+SSID) only - they claim that at least.
 				-https://groups.google.com/forum/#!topic/mozilla.dev.security/0qT0grS_PIY
 
 	-experiments:
-		-env:
-			-reset to factory setting/switch off google location services
+		-environment:
+			-reset to factory setting and switch off Google location services
 			-apps are printing to LogCat, but don't update screen
-			-mobile phone 100%, switch off eveything else
+			-mobile phone 100%, switch off everything else
 			-screen on for first half an hour
 		-question: how much % is left
 		-(first run for half an hour GPS indoor: 98% left)
@@ -35,7 +35,7 @@ I have done:
 			
 
 Some random ideas:
-localization based on altitude changes detected by accelerometer/gyroscope?
+localization based on altitude changes detected by accelerometer and gyroscope?
 
 Meeting:
 	1. new Kitkat provides "batching of sensor request". Research it
@@ -50,7 +50,7 @@ Meeting:
 				-so far, need to rely on battery life instead 
 				-only information on percentage of battery life left is available
 					-but it is not accurate enough to show difference between some physical sensors(e.g. accelerometer and gyroscope)?
-						-would be good to see numbers or promils?
+						-would be good to see numbers or per mil
 							-investigate other ways to extract energy information from device
 							-API for battery, what it gives back?
 				-"stay awake" issue in Android phones

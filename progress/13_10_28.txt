@@ -37,7 +37,7 @@ I have done:
 			-result: 1720 mW
 		-gps outdoor moving:
 			-result: 1583,13 mW
-		-gps indoor will be the same since searching and no single locatino is given
+		-gps indoor will be the same since searching and no single location is given
 			-result: 1194,10
 	-hypothesis so far:
 		gps outdoor > gps outdoor moving > gps indoor > network-based
@@ -49,20 +49,20 @@ I have done:
 				911 mW	 again it updated every 0.8 secs
 		problem with specifying rate, since it updates much faster than it was said!
 				796 mW when specified rate equals 1000000 seconds(!), but again without printing values
-		need to invesigate this further(!)
+		need to investigate this further(!)
 		What to do? how to compare those values?
 
 
 -other small concerns about my experiments:
 	-all google's play service SDK is on as I chose so at the beginning, I think that I should switch it off
-	-screen is on all the time(but durign the baseline as well)
+	-screen is on all the time(but during the baseline as well)
 
 -generally experiments should be repeated 
 	-switch off Google Play Service SDK
 	-run for an hour
 
 
-todo:
+To do:
 	investigate accelerometer's issues
 	write script for running experiments
 	finish experiments
@@ -79,8 +79,8 @@ Meeting:
 			-using regulatory information to detect in which country you are(different channels are forbidden in different countries)
 			-digression: how routers know their locations
 							-can't use GPS as they are indoor
-							-but relative locaization actually matters
-	-difference between energy usage between gps outdoor and gps outdoor moving may be important but be focusedo n other things first
+							-but relative localization actually matters
+	-difference between energy usage between gps outdoor and gps outdoor moving may be important but be focused on other things first
 	-results about accelerometer's energy cost seems to be unreal:
 		-could be bug in many places(my nexus/ my code/ Trepn Profiler)
 		-so better yo run full experiment about battery depleting
