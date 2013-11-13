@@ -1,5 +1,8 @@
 package uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 import android.app.Activity;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
@@ -11,11 +14,13 @@ import android.view.Window;
 import android.view.WindowManager;
 
 public class MainActivity extends Activity {
+	public float[] values;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
+		values = new float[]{(float) 0.0, (float) 0.0, (float) 0.0};
 		SensorManager mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
 		Sensor mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
 		
@@ -26,14 +31,27 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onSensorChanged(SensorEvent event) {
-				String output = "Values: " + event.values[0] + " " + event.values[1] + " " + event.values[2] +"\n";
-				System.out.println(output);
+				for(int i=0; i<3; i++)
+					values[i] = event.values[i];
 			}
 			
 		}
 		
-		int rate = 1000000 * 1000000;
+		int rate = 0;
 		mSensorManager.registerListener(new EmptySensorEventListener(), mAccelerometer, rate);
+		
+		TimerTask readValues = new TimerTask() {
+			
+			@Override
+			public void run() {
+				String output = "Values: " + values[0] + " " + values[1] + " " + values[2] +"\n";
+				System.out.println(output);
+			}
+		};
+		Timer timer = new Timer();
+		long delay = 5 * 1000;
+		long period = 5 * 1000;
+		timer.schedule(readValues, delay, period);
 		
 		Window w = getWindow();
 		w.setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON, 
