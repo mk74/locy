@@ -12,15 +12,15 @@ I have done:
         -Google Nexus 7:
             accelerometer                                   after 9.5 hours 63%
                                                             after 10 hours 62%
-            network-based location started 11:19pm          after 9.5 hours 76%
+            network-based localization                      after 9.5 hours 76%
                                                             after 10 hours 74%
-            gyroscope started 12:09pm                       after 9.5 hours 40% 
+            gyroscope started                               after 9.5 hours 40% 
                                                             after 10 hours  36%
             WHY? 
                 -I/O operations
                 -mobile phone being in place during WiFi stuff
 
-        -HTC flyer(did research/playing around with it before):
+        -HTC flyer:
             accelerometer                                   after 7 hours and 18 minutes 0%
             only screen on                                  after 8 hours and 14 minutes 0%
 
@@ -34,11 +34,11 @@ I have done:
             -in future, it may be done as service, system one if possible?
             -so far:
                 -library: reading accelerometer data, batching them, calculate average of them, calculate Euclidean distance between current Values and old Values; 
-                -app:prints it on screen
+                -app: prints it on screen
         -questions:
             -still no concept of time?
                 -batching 20 requests takes less than a sec
-                    -question how often accelerometer dat may be read?
+                    -question how often accelerometer date may be read?
                         -previously it was believed that twice a sec, but probably speed was limited by I/O operations
             -make usage of physics instead of experimental methods ?
 
@@ -48,7 +48,7 @@ I have done:
                 -uses magnetometer, requires less power, and most effective while user is outdoors
             -new step sensors in hardware:
                 -all in Nexus 5
-                -TYPE_STEP_DETECTOR timestamp when step occured
+                -TYPE_STEP_DETECTOR timestamp when step occurred
                 -TYPE_STEP_COUNTER slower, but more accurate(additional algorithms to verify things)
             -batched sensor events
                 -reduce frequency of calls to SensorEventListener
@@ -68,19 +68,19 @@ I have done:
 
         -academia:
             -went through MobiSyS, HotMobile and IPSN(Information Processing in Sensor Networks) conferences and add some papers to citeULike
-            -why localization solely based on accelerometer and compass/gyroscope is not possible?
+            -why localization solely based on accelerometer and compass(gyroscope) is not possible?
                 -noise
                     -what is a source of that noise?
-                -calibration/syncrhonization
+                -calibration/ synchronization
                     -GPS
                         -GAC: Energy efficient hybrid GPS-Accelerometer-Compass GSM location
                     -indoor:
-                        -wifi-based fingerprint database (by wardriving)
-                        -dynamic/automatic solutions(without any prior work in environment):
+                        -wifi-based fingerprint database (by war-driving)
+                        -automatic solutions(without any prior work in environment):
                             -user surveys -> Growing organic...
-                            -organic creation -> unLoc
+                            -unsupervised learning -> unLoc
                 -CompAcc
-                    -uses path signuteres generated from Google Maps
+                    -uses path signatures generated from Google Maps
             -got interested in indoor localization
 
     -other useful things Android platform
