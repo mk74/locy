@@ -20,6 +20,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
+		((WifiManager) getSystemService(Context.WIFI_SERVICE)).setWifiEnabled(true);
 		TimerTask scanNetworksTask = new TimerTask() {
 			
 			@Override
