@@ -1,0 +1,56 @@
+Progress:
+
+I have done:
+	-edited sample apps:
+		-printing values every 5 secs
+		-accelerometer, gyroscope, GPS
+			-side note: 0 as rate for accelerometer and gyroscope
+
+	-new APP 802.11Wifi
+		-scans and prints all hot-spots
+
+	-GPSSatellites sample app:
+			(trying to separate triangulation from satellites readings)
+			-to get GPS Event, you need to register location updates
+			-location updates onChangedLocation method gets Location object on which latitude and longitude is already present
+			-earlier experiment is valid
+				-exp: I was not printing position -> use less energy, print  position -> use more energy
+					-thought: triangulation is done when printing(getting this vars)
+					-reality: I/O operations' cost only
+		-conclusion: Android API doesn't allow to read GPS satellites without doing triangulation
+
+	-tested all new versions of sample apps on both devices
+
+	-propose new way of making experiments
+		-measure time which is needed to deplete battery life from 99% to 98%
+
+	-run exps:
+		Google Nexus 7:
+			accelerometer						after half an hour still 	100%
+												after an hour 				98%
+			wifi scan							after half an hour			100%
+												after an hour 				98%		
+
+		Google Nexus 7	(10 hours):
+			-accelerometer 													64%
+			-gyroscope														64%
+			-indoor wifi scan												63%
+			-gps indoor														57%
+
+		HTC flyer:
+			accelerometer						after an hour				86%
+
+		
+	-context survey:
+?		-WifiSLAM	
+			-wifi-based indoor localization
+?		how indoor localization will be done?
+		-new idea: calibration based only on wifi scan list, instead of network-based location
+			-how accurate is measuring distance to access point basing on signal strength
+
+	-other Android stuff
+		-pipe LogCat to file
+			-http://simonguest.com/2013/07/03/persistent-logging-in-android/
+			-after restart: logcat -v time -r 4096 -n 100  -f  /mnt/sdcard/logs/logcat.txt &
+				-clear: logcat -c && rm /mnt/sdcard/logs/logcat*
+			-would be useful to have root access to put it as service
