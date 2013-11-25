@@ -1,0 +1,29 @@
+I have done:
+    -Idea: "Measuring the time in which battery is being depleted by 1%"
+
+    -written the module which checks elapsed time between two battery levels
+        plugged this module into accelerometer, WiFI802.11 Scan and Gyroscope
+
+    -run the accelerometer app on the range 95% -> 94%
+        -it takes 720 seconds 
+
+    -run the apps on the range 99% -> %98:
+        accelerometer:
+            -1: 660 seconds
+            -2: 660 seconds
+            -3: 660 seconds
+
+        WIfI802.11 Scan:
+            -1: 780 seconds
+            -2: 780 seconds
+
+        Gyroscope:
+            -1: 720 seconds
+    
+    -the energy hypothesis: 
+        accelerometer > gyroscope > Wifi802.11 scan
+
+    -beside:
+        run 10 hours experiment of previous sample app:
+            -WifiScan   62%
+            -previous result was 63%

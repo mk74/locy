@@ -1,3 +1,5 @@
+All experiments' results are sorted(from most energy efficient solution to the least one).
+
 [Power consumption] Trepn profiler for 15 minutes:  
     -accelerometer                                  796 mW
     -network-based location(indoor)                 925 mW
@@ -18,17 +20,23 @@
     -gyroscope                                      36%
 
 [HTC flyer][Battery life] Till battery is depleted:
-    -accelerometer                                  7 hours and 18 minutes
     -only screen on                                 8 hours and 14 minutes
+    -accelerometer                                  7 hours and 18 minutes
+   
 
 
 
-[Edited apps]Printing fixtures on the same interval for all sample apps:
+[Edited apps] Printing fixtures on the same interval for all sample apps:
 
 [Battery life] Run for 10 hours(screen is on and bright), battery life, which is left, is
     -accelerometer                                  64%
     -gyroscope                                      64%
     -indoor wifi scan                               63%
     -gps indoor                                     57%
+
+[Battery life] Measuring elapsed time for depleting battery life from 99% to 98%
+    -indoor wifi scan                               780 seconds
+    -gyroscope                                      720 seconds 
+    -accelerometer                                  660 seconds
 
 
