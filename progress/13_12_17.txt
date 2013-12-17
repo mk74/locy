@@ -1,0 +1,74 @@
+I have done:
+    WiFiScan experiments:
+        -I compared against KisMac
+                    -strength different and sometimes see a bit different amount of networks but usually the ones with smallest strength are missing)
+        -I was checking whether WiFI scan results change
+
+    HTC flyer experiments, battery depleted from 99% to 98%(Time interval 5 secs):
+         accelerometer:  300 secs
+         gyroscope:      300 secs
+         wifi scan:      30 secs
+                         215 secs        (both scans when mobile phone is in place)
+
+
+
+    Google Nexus  7 experiments, battery depleted from 99% to 98%(Time interval 5 secs):
+
+          wifi scan:      845 secs            when I am moving
+          wifi scan:      785 secs            when the phone is in place
+          accelerometer:  720 secs
+          gyroscope:      720 secs
+
+          wifi scan in place later:
+                            725
+                            725
+                            785
+                            665
+
+
+    Other ideas:
+        -measuring power by physical device http://www.msoon.com/LabEquipment/PowerMonitor/
+            -very, very expensive, but probably difficult to plug normal power monitor
+
+        -Google Nexus 7 experiments, battery depleted from 99% to 98%(decrease time interval to 1 sec):
+            -results:
+                Wifi Scan: 601
+                           600
+                           601
+
+                    (WiFI results stay the same for three consecutive seconds)
+
+                Accelerometer:  662
+                                661
+                                661
+
+                Gyroscope:      661
+
+            -Active and passive scanning 
+                -there is active scan startScanActive() - undocumented, ** hide ** 
+                    why?
+
+            -Google Nexus 7, WiFI Time Scan from startScan to receive intent that results are available:
+                ~2.30 secs
+
+    Other fun:
+        -I went through the lab and figerprint 4 places in terms of available networks and strength
+            didn't make sense from geometric point of view
+
+Questions:
+    -in gelocation API on Android, I can specify minimum distance. How does it work?
+    -some data framework for WiFI Scans
+
+I have NOT done:
+    -two links about Power measurement
+    -Valentin Radu's paper
+    -how much time WiFiScan takes on HTC flyer
+
+        
+
+
+
+
+
+
+
