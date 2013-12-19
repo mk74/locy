@@ -50,7 +50,8 @@ public class MainActivity extends Activity {
 		mSensorManager.registerListener(new EmptySensorEventListener(), mAccelerometer, rate);
 		
 		//print results every sec and check battery life whether the defined range was depleted  
-		TimerTask readValues = new TimerTask() {			
+		TimerTask readValues = new TimerTask() {
+			
 			@Override
 			public void run() {
 				String output = "Values: " + values[0] + " " + values[1] + " " + values[2] +"\n";
