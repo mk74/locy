@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 		
 		//WiFi Setup
 		final WifiManager wifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
-		((WifiManager) getSystemService(Context.WIFI_SERVICE)).setWifiEnabled(true);
+		wifiManager.setWifiEnabled(true);
 		
 		//schedule new scan, only if previous is finished
 		IntentFilter i = new IntentFilter();
