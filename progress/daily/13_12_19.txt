@@ -1,0 +1,52 @@
+I have done:
+	-I found http://howto.cnet.com/8301-11310_39-57596807-285/stop-android-4.3-from-always-scanning-for-wi-fi-networks/
+		After switching this option off:
+			Accelerometer: 	722
+			WiFi Scan: 	601
+		
+	-new device from Tristan:
+		-HTC desire
+		-Android 2.3.3
+
+	-edited measurement apps
+		-accelerometer
+		-gyroscope
+		-WiFiScan
+		-light
+		-magnetic field
+		-proximity
+		-Network/GPS location providers
+		-microphone
+
+	-check how long WiFi scan takes on HTC:
+		-results are not clear, more investigation needed
+		-it happened that scan was completed within 1 sec, but there were no results on this WiFi scan.
+		-it happened that program was not triggered for half a minute
+			no wifi scan completed, no previous scan results printed(by TimerTask)
+		-it happened that program behaved as expected but took 3 secs
+		-after some time, behaviour stables around 13/15 secs
+		-there is also bug in program!
+		-to do:
+			-check whether it is not active probing ?
+			-check whether timer action is always triggered in the same way
+		-don't investigate it further, stayed focused on main thing
+
+	-changed slightly app and WiFI Scan on Google Nexus 7 takes 0.5 sec(!)
+		-don't investigate it further, stayed focused on main thing
+
+
+!	-worth looking inside Android code:
+		-WiFi Scan
+		-location service:
+			-gps based
+			-network based (http://stackoverflow.com/questions/9507557/android-requestlocationupdates-updates-location-at-most-every-45-seconds)
+
+Next:
+	-camera app
+	-run experiments
+	-write naive baseline app
+		how to scan and be connected at the same time?
+	-write simple/light fingerprint database/backend
+	-clear repo
+	-fun: sniff probes
+	-write day report at the end
