@@ -21,7 +21,7 @@ import android.widget.TextView;
 public class MainActivity extends Activity {
 	final private static int BATTERY_LEVEL_START=99;
 	final private static int BATTERY_LEVEL_END=98;
-	final private static int SEC_FREQUENCY = 1;
+	final private static int BATTERY_CHECK_FREQUENCY = 1;
 	
 	public float[] values;
 	public Date batteryLevelStartTime, batteryLevelEndTime;
@@ -93,8 +93,8 @@ public class MainActivity extends Activity {
 			}
 		};
 		Timer timer = new Timer();
-		long delay = SEC_FREQUENCY * 1000;
-		long period = SEC_FREQUENCY * 1000;
+		long delay = BATTERY_CHECK_FREQUENCY * 1000;
+		long period = BATTERY_CHECK_FREQUENCY * 1000;
 		timer.schedule(readValues, delay, period);
 		
 		Window w = getWindow();
