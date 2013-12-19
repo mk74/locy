@@ -34,7 +34,6 @@ public class MainActivity extends Activity {
 		values = new float[]{(float) 0.0};
 		SensorManager mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
 		Sensor mLight = mSensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
-		
 		class EmptySensorEventListener implements SensorEventListener{
 
 			@Override
