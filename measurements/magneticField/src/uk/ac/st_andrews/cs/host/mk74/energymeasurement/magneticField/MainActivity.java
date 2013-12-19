@@ -48,6 +48,7 @@ public class MainActivity extends Activity {
 		}
 		int rate = 0;
 		mSensorManager.registerListener(new EmptySensorEventListener(), mMagneticField, rate);
+		
 		//print results every sec and check battery life whether the defined range was depleted  
 		TimerTask readValues = new TimerTask() {
 			
