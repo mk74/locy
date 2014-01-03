@@ -1,9 +1,6 @@
 package uk.ac.st_andrews.cs.host.mk74.energymeasurement.bluetooth;
 
 import java.util.Date;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -14,8 +11,6 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.net.wifi.ScanResult;
-import android.net.wifi.WifiManager;
 import android.os.BatteryManager;
 import android.os.Bundle;
 import android.view.Menu;
@@ -54,7 +49,7 @@ public class MainActivity extends Activity {
 		        String action = intent.getAction();
 		        if (BluetoothDevice.ACTION_FOUND.equals(action)) {
 		            BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
-		            buff.append(device.getName() + "\n" + device.getAddress());
+		            buff.append(device.getName() + " " + device.getAddress() + "\n" );
 		        }
 		        if (BluetoothAdapter.ACTION_DISCOVERY_FINISHED.equals(action)){
 		        	buff = new StringBuffer("");
