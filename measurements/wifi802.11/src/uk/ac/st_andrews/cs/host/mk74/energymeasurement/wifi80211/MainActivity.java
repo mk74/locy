@@ -43,7 +43,6 @@ public class MainActivity extends Activity {
 			@Override
 			public void onReceive(Context c, Intent i){
 				wifiManager.startScan();
-				System.out.println("New scan started");
 		    }
 		};
 		registerReceiver(receiver, i );
