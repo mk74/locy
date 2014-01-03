@@ -45,7 +45,10 @@ public class MainActivity extends Activity {
 		if (!mBluetoothAdapter.isEnabled()) {
 		    Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
 		    startActivityForResult(enableBtIntent, REQUEST_ENABLE_BT);
-		}
+		    while(!mBluetoothAdapter.isEnabled()){
+		    	//wait till bluetooth is enabled
+		    }
+		}	
 		final BroadcastReceiver bluetoothReceiver = new BroadcastReceiver() {
 		    public void onReceive(Context context, Intent intent) {
 		        String action = intent.getAction();
@@ -62,8 +65,6 @@ public class MainActivity extends Activity {
 		IntentFilter filter = new IntentFilter(BluetoothDevice.ACTION_FOUND);
 		filter.addAction(BluetoothAdapter.ACTION_DISCOVERY_FINISHED);
 		registerReceiver(bluetoothReceiver, filter);
-		mBluetoothAdapter.startDiscovery();
-		
 		
 		//run first discovery, print results every sec and check battery life whether the given range was depleted 
 		mBluetoothAdapter.startDiscovery();
