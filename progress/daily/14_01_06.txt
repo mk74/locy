@@ -1,0 +1,30 @@
+Progress:
+    -Camera - app
+        -finished the app recording + preview + saving the video to file
+        -preview was necessary but I minimized it
+        -I can minimize it more and change the size of video which I am saving
+        -Nexus 7 gives "AWB not confident" as output from Camera, but everything works -> no information on what it is
+    
+    -htc phone:
+        -stayed with cyanogenmod    
+
+    -list of sensors available on each device
+
+    -test new apps:
+        google nexus 7:
+            camera                          301
+            bluetooth le                    722
+            microphone                      722
+            classic bluetooth               781 
+            magnetic field                  782
+            ambient light                   841
+
+        htc tablet:
+            cam                             210
+            mic                             270
+
+    -EXPERIMENTS:
+        prior:
+            -env
+                logcat -c && rm /mnt/sdcard/logs/logcat* && logcat -v time -r 4096 -n 100 -f /mnt/sdcard/logs/logcat.txt &
+                airplane mode, switch off wifi/location service and location service in WiFi(!!)
