@@ -1,0 +1,54 @@
+Progress:
+    running tests:
+        Nexus 7:
+            bluetooth:              782
+            bluetooth LE:           661
+        
+        HTC desire:
+            accelerometer:          200
+            camera:                 101
+            micro:                  150
+            
+
+        HTC flyer:
+            bluetooth               30          30
+            
+
+    exps:
+        Nexus 7:
+            accelerometer:          781 
+            magnetic field:         782
+            Gyroscope:              721
+            Ambient Light           902
+            
+            microphone              721
+            WifiScan                781         481     902(switched to printing only one line - how many wifi, but prints the same result)
+            Network-location based
+            GPS indoor
+            camera                              241
+
+        HTC desire:
+            
+        HTC flyer:
+            accelerometer           270
+            Magnetic field          270
+
+    problems:
+        Google Nexus 7:
+            bluetooth LE is counter-intiutive
+                it prints out a lot of inside information to log
+?           there is "WiFI optimization" option? I do exps with this on
+
+        htc flyer:
+            -problem with charging to 100%
+            -those random results
+        htc desire:
+            -cam is giving strange output mp4 file
+            -problem with charging to 100% - takes forever
+                
+    Others:
+        EnergyMeasurementPlain
+            I have written plain sample measurement(does not do anything, just wait for battery depletion) app for comparison
+
+        difficulties with measurement
+            thinking about Monsoon PowerMonitor
