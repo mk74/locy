@@ -1,0 +1,33 @@
+Progress:
+    test:
+        htc phone:
+            wifiScan                    150
+    
+    exps:
+        Nexus:
+            WiFiScan                    541
+            GPS                         541
+            Network-based localization  842
+            Plain                       902
+
+            Cam                         241
+            mic                         782
+            acce                        721         
+
+        Flyer:
+            Light                       30      270
+            WiFi Scan                   240
+            gps                         30
+
+    others:
+        Network-based localization is quite high but:
+            -new location is coming every 20 secs
+            -probably wifi scan is done rarely
+                suitable for outdoor localization, but not indoor
+        HTC flyer:
+            from time to time, takes a while to deplete from 100 to 99, but then depletes next 5 percenrtages very fast
+            
+        did cleaning in app's directory
+
+        started writing SensorsGraphPlotter app(draws graph functions of sensors data in real-time)
+            used http://androidplot.com/
