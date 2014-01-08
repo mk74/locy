@@ -1,8 +1,6 @@
 package uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211;
 
 import java.util.Date;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -11,7 +9,6 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
 import android.os.BatteryManager;
 import android.os.Bundle;
@@ -34,6 +31,9 @@ public class MainActivity extends Activity {
 		//WiFi Setup
 		final WifiManager wifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
 		wifiManager.setWifiEnabled(true);
+		while(!wifiManager.isWifiEnabled()){
+			//wait till WiFI is enabled
+		}
 		
 		//schedule new scan, only if previous is finished
 		IntentFilter i = new IntentFilter();
@@ -54,16 +54,8 @@ public class MainActivity extends Activity {
 			
 			@Override
 			public void run() {				
-				//print available WiFi Scan results:
-				List<ScanResult> scans = wifiManager.getScanResults();
-				StringBuffer buff = new StringBuffer("");
-				Iterator<ScanResult> it = scans.iterator();
-				while(it.hasNext()){
-					ScanResult scanResult = it.next();
-					buff.append("SSID: " + scanResult.SSID+ "\tBSSID:" + scanResult.BSSID + "\tcapabilites" + scanResult.capabilities);
-					buff.append("\tfrequency:" + scanResult.frequency + "\tlevel:" + scanResult.level + "\n");
-				}
-				System.out.println(buff.toString());
+				//print amount of visible networks
+				System.out.println(wifiManager.getScanResults().size());
 				
 				//battery measurements && time which was needed to deplete the battery range
 				IntentFilter ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
