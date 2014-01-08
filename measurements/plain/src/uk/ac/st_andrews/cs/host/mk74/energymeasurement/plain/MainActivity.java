@@ -34,6 +34,8 @@ public class MainActivity extends Activity {
 			
 			@Override
 			public void run() {
+				System.out.println("Empty value");
+				
 				IntentFilter ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
 				Intent batteryStats = registerReceiver(null, ifilter);
 				int level = batteryStats.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
