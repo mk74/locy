@@ -1,0 +1,1785 @@
+--------- beginning of /dev/log/system
+01-07 14:32:12.871 I/PowerManagerService(  523): Waking up from sleep...
+--------- beginning of /dev/log/main
+01-07 14:32:12.901 D/audio_hw_primary(  180): adev_set_parameters: enter: screen_state=on
+01-07 14:32:12.911 D/audio_hw_primary(  180): adev_set_parameters: exit with code(-2)
+01-07 14:32:12.921 I/WindowManager(  523): Lock screen displayed!
+01-07 14:32:12.951 D/SurfaceFlinger(  177): Screen acquired, type=0 flinger=0xb7637478
+01-07 14:32:13.191 D/SurfaceControl(  523): Excessive delay in unblankDisplay() while turning screen on: 240ms
+01-07 14:32:13.221 I/dalvikvm(  597): Jit: resizing JitTable from 4096 to 8192
+01-07 14:32:13.241 V/DigitalWidgetViewsFactory( 3584): DigitalWidget sets next alarm string to null
+01-07 14:32:13.241 D/YouTube MDX( 5450): Recieved intent android.intent.action.SCREEN_ON
+01-07 14:32:14.442 D/audio_hw_primary(  180): start_output_stream: enter: usecase(1: low-latency-playback) devices(0x2)
+01-07 14:32:14.442 D/audio_hw_primary(  180): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+01-07 14:32:14.442 D/audio_hw_primary(  180): enable_snd_device: sending audio calibration for snd_device(2) acdb_id(14)
+01-07 14:32:14.442 D/ACDB-LOADER(  180): ACDB -> send_afe_cal
+01-07 14:32:14.442 D/audio_hw_primary(  180): enable_snd_device: snd_device(2: speaker)
+01-07 14:32:14.442 D/PhoneStatusBar(  597): disable: < expand icons alerts ticker system_info BACK HOME recent* CLOCK search >
+01-07 14:32:14.452 D/audio_hw_primary(  180): enable_audio_route: apply mixer path: low-latency-playback
+01-07 14:32:14.462 D/audio_hw_primary(  180): start_output_stream: exit
+01-07 14:32:14.482 D/PhoneStatusBar(  597): disable: < expand icons alerts ticker system_info back* home* recent clock* search >
+01-07 14:32:14.492 W/InputMethodManagerService(  523): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@42755e18 attribute=android.view.inputmethod.EditorInfo@42648ab8, token = android.os.BinderProxy@427c5d50
+01-07 14:32:14.953 V/TAG     (  523): bug 7643792: fitSystemWindows([0,50][0,0])
+01-07 14:32:17.706 D/audio_hw_primary(  180): out_standby: enter: usecase(1: low-latency-playback)
+01-07 14:32:17.756 D/audio_hw_primary(  180): stop_output_stream: enter: usecase(1: low-latency-playback)
+01-07 14:32:17.756 D/audio_hw_primary(  180): disable_audio_route: reset mixer path: low-latency-playback
+01-07 14:32:17.756 D/audio_hw_primary(  180): disable_snd_device: snd_device(2: speaker)
+01-07 14:32:17.766 D/audio_hw_primary(  180): stop_output_stream: exit: status(0)
+01-07 14:32:17.766 D/audio_hw_primary(  180): out_standby: exit
+01-07 14:32:18.987 D/AndroidRuntime( 5617): 
+01-07 14:32:18.987 D/AndroidRuntime( 5617): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-07 14:32:18.987 D/AndroidRuntime( 5617): CheckJNI is OFF
+01-07 14:32:18.997 D/dalvikvm( 5617): Trying to load lib libjavacore.so 0x0
+01-07 14:32:19.007 D/dalvikvm( 5617): Added shared lib libjavacore.so 0x0
+01-07 14:32:19.017 D/dalvikvm( 5617): Trying to load lib libnativehelper.so 0x0
+01-07 14:32:19.017 D/dalvikvm( 5617): Added shared lib libnativehelper.so 0x0
+01-07 14:32:19.137 D/AndroidRuntime( 5617): Calling main entry com.android.commands.pm.Pm
+01-07 14:32:19.157 I/ActivityManager(  523): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=5631 uid=10013 gids={50013, 1015, 1023, 2001, 1028}
+01-07 14:32:19.187 W/ActivityManager(  523): No content provider found for permission revoke: file:///data/local/tmp/EnergyMeasurementGyroscope.apk
+01-07 14:32:19.197 I/ActivityManager(  523): Start proc com.android.vending for broadcast com.android.vending/com.google.android.vending.verifier.PackageVerificationReceiver: pid=5644 uid=10049 gids={50049, 3003, 1015, 1028}
+01-07 14:32:19.277 D/Finsky  ( 5644): [1] FinskyApp.onCreate: Initializing network with DFE https://android.clients.google.com/fdfe/
+01-07 14:32:19.297 D/Finsky  ( 5644): [1] DailyHygiene.goMakeHygieneIfDirty: Dirty, need more hygiene.
+01-07 14:32:19.317 D/dalvikvm( 5644): GC_CONCURRENT freed 317K, 4% free 9058K/9412K, paused 2ms+2ms, total 23ms
+01-07 14:32:19.317 D/dalvikvm( 5644): WAIT_FOR_CONCURRENT_GC blocked 6ms
+01-07 14:32:19.337 W/Settings( 5644): Setting download_manager_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+01-07 14:32:19.337 W/Settings( 5644): Setting download_manager_recommended_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+01-07 14:32:19.337 W/Finsky  ( 5644): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+01-07 14:32:19.337 W/Finsky  ( 5644): [1] FinskyApp.getDfeApi: No account configured on this device.
+01-07 14:32:19.347 D/Finsky  ( 5644): [1] PackageVerificationReceiver.checkPrerequisites: Skipping verification because network inactive
+01-07 14:32:19.357 D/Finsky  ( 5644): [1] PackageVerificationReceiver.checkPrerequisites: Skipping verification because network inactive
+01-07 14:32:19.357 W/ActivityManager(  523): No content provider found for permission revoke: file:///data/local/tmp/EnergyMeasurementGyroscope.apk
+01-07 14:32:19.357 I/PackageManager(  523): Copying native libraries to /data/app-lib/vmdl1674477998
+01-07 14:32:19.367 W/PackageManager(  523): Invalid verification token 5 received
+01-07 14:32:19.367 D/Finsky  ( 5644): [1] GmsCoreHelper.cleanupNlp: result=false type=4
+01-07 14:32:19.397 I/ActivityManager(  523): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope appid=10072 user=-1
+01-07 14:32:19.467 I/PackageManager(  523): Package uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope codePath changed from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope-1.apk; Retaining data and using new
+01-07 14:32:19.477 I/PackageManager(  523): Running dexopt on: uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope
+01-07 14:32:19.738 D/dalvikvm( 5676): DexOpt: load 43ms, verify+opt 163ms, 957308 bytes
+01-07 14:32:19.788 W/PackageManager(  523): Code path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope-1.apk
+01-07 14:32:19.788 I/ActivityManager(  523): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope appid=10072 user=-1
+01-07 14:32:19.788 W/PackageManager(  523): Resource path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope-1.apk
+01-07 14:32:19.908 D/dalvikvm(  523): GC_CONCURRENT freed 1659K, 13% free 18691K/21252K, paused 2ms+9ms, total 65ms
+01-07 14:32:19.908 D/dalvikvm(  523): WAIT_FOR_CONCURRENT_GC blocked 27ms
+01-07 14:32:19.948 I/ActivityManager(  523): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope appid=10072 user=0
+01-07 14:32:19.968 I/InputReader(  523): Reconfiguring input devices.  changes=0x00000010
+01-07 14:32:19.978 I/ActivityManager(  523): Start proc android.process.acore for broadcast com.android.providers.contacts/.PackageIntentReceiver: pid=5677 uid=10000 gids={50000, 3003, 1015, 1028}
+01-07 14:32:19.978 W/ActivityManager(  523): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope flg=0x8000010 (has extras) }: user 10 is stopped
+01-07 14:32:20.008 D/dalvikvm(  754): GC_CONCURRENT freed 355K, 5% free 9296K/9700K, paused 1ms+1ms, total 17ms
+01-07 14:32:20.008 D/dalvikvm(  754): WAIT_FOR_CONCURRENT_GC blocked 10ms
+01-07 14:32:20.018 I/InputReader(  523): Reconfiguring input devices.  changes=0x00000010
+01-07 14:32:20.018 W/ActivityManager(  523): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope flg=0x8000010 (has extras) }: user 10 is stopped
+01-07 14:32:20.028 W/ActivityManager(  523): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope flg=0x8000010 (has extras) }: user 10 is stopped
+01-07 14:32:20.048 W/ActivityManager(  523): Skipping broadcast of Intent { act=android.intent.action.MY_PACKAGE_REPLACED flg=0x8000010 pkg=uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope (has extras) }: user 10 is stopped
+01-07 14:32:20.058 D/BackupManagerService(  523): Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope flg=0x8000010 (has extras) }
+01-07 14:32:20.078 D/BackupManagerService(  523): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope flg=0x8000010 (has extras) }
+01-07 14:32:20.078 V/BackupManagerService(  523): removePackageParticipantsLocked: uid=10072 #1
+01-07 14:32:20.078 V/BackupManagerService(  523): addPackageParticipantsLocked: #1
+01-07 14:32:20.108 D/dalvikvm( 5677): GC_CONCURRENT freed 199K, 3% free 9088K/9324K, paused 1ms+2ms, total 17ms
+01-07 14:32:20.128 D/dalvikvm(  523): GC_EXPLICIT freed 1944K, 19% free 17315K/21252K, paused 12ms+7ms, total 78ms
+01-07 14:32:20.128 I/ActivityManager(  523): Start proc com.android.keychain for broadcast com.android.keychain/.KeyChainBroadcastReceiver: pid=5702 uid=1000 gids={41000, 1015, 1028, 3002, 3001, 3003, 3007}
+01-07 14:32:20.148 D/AndroidRuntime( 5617): Shutting down VM
+01-07 14:32:20.148 D/jdwp    ( 5617): Got wake-up signal, bailing out of select
+01-07 14:32:20.148 D/dalvikvm( 5617): Debugger has detached; object registry had 1 entries
+01-07 14:32:20.148 D/dalvikvm( 5384): GC_CONCURRENT freed 184K, 3% free 9214K/9436K, paused 2ms+1ms, total 14ms
+01-07 14:32:20.168 W/ContextImpl( 5702): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1385 android.content.ContextWrapper.startService:473 android.content.ContextWrapper.startService:473 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2424 
+01-07 14:32:20.198 I/ActivityManager(  523): Start proc com.android.musicfx for broadcast com.android.musicfx/.Compatibility$Receiver: pid=5715 uid=10042 gids={50042, 3003, 3002, 1028}
+01-07 14:32:20.208 I/ContactLocale( 5677): AddressBook Labels [en_US]: [, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, , А, Б, В, Г, Д, Е, Є, Ж, З, И, І, Ї, Й, К, Л, М, Н, О, П, Р, С, Т, У, Ф, Х, Ц, Ч, Ш, Щ, Ю, Я, , א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, , ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, , ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, , ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, , あ, か, さ, た, な, は, ま, や, ら, わ, #, ]
+01-07 14:32:20.238 I/ActivityManager(  523): Start proc com.google.android.gms for broadcast com.google.android.gms/.games.receiver.GamesSystemBroadcastReceiver: pid=5731 uid=10021 gids={50021, 3003, 1007, 1028, 1015, 1006, 2001, 3006}
+01-07 14:32:20.258 D/dalvikvm(  178): GC_EXPLICIT freed 40K, 1% free 8863K/8944K, paused 1ms+2ms, total 19ms
+01-07 14:32:20.268 D/dalvikvm(  178): GC_EXPLICIT freed <1K, 1% free 8863K/8944K, paused 1ms+2ms, total 16ms
+01-07 14:32:20.288 D/dalvikvm(  178): GC_EXPLICIT freed <1K, 1% free 8863K/8944K, paused 2ms+2ms, total 17ms
+01-07 14:32:20.318 I/ActivityManager(  523): Start proc com.google.android.googlequicksearchbox for broadcast com.google.android.googlequicksearchbox/com.google.android.apps.sidekick.GmmLocationProviderImpl$GmmPackageWatcher: pid=5751 uid=10057 gids={50057, 3003, 1028, 3002, 1015}
+01-07 14:32:20.348 D/dalvikvm( 5731): GC_CONCURRENT freed 283K, 4% free 9010K/9332K, paused 3ms+2ms, total 30ms
+01-07 14:32:20.378 D/dalvikvm( 5731): No JNI_OnLoad found in /system/lib/libAppDataSearch.so 0x42158188, skipping init
+01-07 14:32:20.378 D/Icing   ( 5731): Init last flush num docs 53 last docstore size 14336
+01-07 14:32:20.378 D/Icing   ( 5731): Docid map file has data, scanning...
+01-07 14:32:20.378 D/Icing   ( 5731): Scanning /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.docids found 125 documents, last docstore location 33792
+01-07 14:32:20.378 D/Icing   ( 5731): File /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.perdocdata contains 125 records of size 6
+01-07 14:32:20.388 I/ActivityManager(  523): Start proc com.google.android.partnersetup for content provider com.google.android.partnersetup/.RlzAppProvider: pid=5775 uid=10026 gids={50026, 3003, 1028}
+01-07 14:32:20.398 D/Icing   ( 5731): Corpus scoring data inited successfully num corpora 1
+01-07 14:32:20.398 D/Icing   ( 5731): Init docstore ok num docs 125 bytes 34304
+01-07 14:32:20.398 V/Icing   ( 5731): Lite index crc computed in 0.092ms
+01-07 14:32:20.398 V/Icing   ( 5731): Lite index init ok in 5.096ms
+01-07 14:32:20.408 D/Icing   ( 5731): Lite index recovered docid (52, 124]
+01-07 14:32:20.408 V/Icing   ( 5731): Warming lite-index took 0.000ms
+01-07 14:32:20.408 V/Icing   ( 5731): Warming lexicon took 0.427ms
+01-07 14:32:20.408 V/Icing   ( 5731): Warming display mappings took 0.153ms
+01-07 14:32:20.408 D/Icing   ( 5731): Init index ok num docs 125
+01-07 14:32:20.408 D/Icing   ( 5731): Init done
+01-07 14:32:20.448 I/Icing   ( 5731): 0 corpora need re-polling
+01-07 14:32:20.448 D/dalvikvm( 5751): GC_CONCURRENT freed 259K, 4% free 9101K/9400K, paused 3ms+7ms, total 36ms
+01-07 14:32:20.458 W/GAV2    ( 5751): Thread[main,5,main]: Need to call initialize() and be in fallback mode to start dispatch.
+01-07 14:32:20.478 I/PeopleDatabaseHelper( 5731): cleanUpNonGplusAccounts done.
+01-07 14:32:20.508 D/dalvikvm( 5731): GC_CONCURRENT freed 329K, 4% free 9123K/9488K, paused 2ms+3ms, total 29ms
+01-07 14:32:20.558 I/ActivityManager(  523): Start proc com.google.android.talk for broadcast com.google.android.talk/com.google.android.apps.babel.phone.PackageReplacedReceiver: pid=5827 uid=10030 gids={50030, 3003, 1015, 1006, 3002, 1028}
+01-07 14:32:20.628 W/Settings( 5827): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+01-07 14:32:20.628 D/dalvikvm( 5827): GC_CONCURRENT freed 313K, 4% free 9047K/9400K, paused 3ms+2ms, total 21ms
+01-07 14:32:20.628 D/dalvikvm( 5827): WAIT_FOR_CONCURRENT_GC blocked 13ms
+01-07 14:32:20.669 D/AndroidRuntime( 5813): 
+01-07 14:32:20.669 D/AndroidRuntime( 5813): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-07 14:32:20.669 D/AndroidRuntime( 5813): CheckJNI is OFF
+01-07 14:32:20.669 D/dalvikvm( 5813): Trying to load lib libjavacore.so 0x0
+01-07 14:32:20.679 D/dalvikvm( 5813): Added shared lib libjavacore.so 0x0
+01-07 14:32:20.689 D/dalvikvm( 5813): Trying to load lib libnativehelper.so 0x0
+01-07 14:32:20.689 D/dalvikvm( 5813): Added shared lib libnativehelper.so 0x0
+01-07 14:32:20.699 D/dalvikvm(  804): GC_EXPLICIT freed 124K, 5% free 9409K/9812K, paused 2ms+4ms, total 30ms
+01-07 14:32:20.699 I/Velvet.VelvetFactory( 5751): refreshing search history.
+01-07 14:32:20.699 W/GAV2    ( 5751): Thread[Thread-344,5,main]: dispatch call queued.  Need to call GAServiceManager.getInstance().initialize().
+01-07 14:32:20.709 D/dalvikvm( 5751): GC_CONCURRENT freed 239K, 3% free 9271K/9548K, paused 1ms+2ms, total 28ms
+01-07 14:32:20.719 I/Recovery( 5731): Received: Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.recovery.AccountRecoveryBackgroundService$Receiver }
+01-07 14:32:20.719 I/GCoreUlr(  711): Ensuring that reporting is stopped because of reasons: (no Google accounts)
+01-07 14:32:20.719 D/GCoreFlp(  711): Unknown pending intent to remove.
+01-07 14:32:20.729 I/GCoreUlr(  711): Unbound from all location providers
+01-07 14:32:20.729 I/ActivityManager(  523): Start proc com.google.android.gsf.login for service com.google.android.gms/.recovery.AccountRecoveryBackgroundService: pid=5882 uid=10021 gids={50021, 3003, 1007, 1028, 1015, 1006, 2001, 3006}
+01-07 14:32:20.739 D/GCM     (  804): GcmService start Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.gcm.GcmService } com.google.android.gms.INITIALIZE
+01-07 14:32:20.759 W/Sidekick_LocationOracleImpl( 5751): Best location was null
+01-07 14:32:20.769 I/Recovery( 5731): Received: Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.recovery.AccountRecoveryBackgroundService$Receiver }
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): Background task refresh_search_history failed
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): java.lang.NullPointerException
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:187)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at com.google.android.apps.sidekick.LocationOracleImpl.getBgHandler(LocationOracleImpl.java:280)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at com.google.android.apps.sidekick.LocationOracleImpl.requestRecentLocation(LocationOracleImpl.java:568)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at com.google.android.searchcommon.google.complete.AndroidProxySuggestionFetcher.fetch(AndroidProxySuggestionFetcher.java:82)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at com.google.android.searchcommon.google.complete.CompleteServerClient.query(CompleteServerClient.java:91)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at com.google.android.searchcommon.google.AbstractGoogleWebSource.doQueryInternal(AbstractGoogleWebSource.java:61)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at com.google.android.searchcommon.google.AbstractGoogleSource.getSuggestions(AbstractGoogleSource.java:65)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at com.google.android.searchcommon.google.WebSuggestSourceWrapper.getSuggestions(WebSuggestSourceWrapper.java:55)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at com.google.android.searchcommon.google.WebSuggestSourceWithLocalHistory.getSuggestions(WebSuggestSourceWithLocalHistory.java:111)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at com.google.android.searchcommon.google.WebSuggestSourceWrapper.getSuggestions(WebSuggestSourceWrapper.java:55)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at com.google.android.searchcommon.google.ZeroQueryCachingWebSuggestSource.getSuggestions(ZeroQueryCachingWebSuggestSource.java:105)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at com.google.android.searchcommon.google.WebSuggestSourceWrapper.getSuggestions(WebSuggestSourceWrapper.java:55)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at com.google.android.searchcommon.google.DeletedQueryRemovingSourceWrapper.getSuggestions(DeletedQueryRemovingSourceWrapper.java:48)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at com.google.android.velvet.VelvetFactory$1.call(VelvetFactory.java:559)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at com.google.android.velvet.VelvetFactory$1.call(VelvetFactory.java:555)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at com.google.android.searchcommon.util.NamingTaskExecutor$1.run(NamingTaskExecutor.java:50)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at java.lang.Thread.run(Thread.java:841)
+01-07 14:32:20.779 E/Velvet.VelvetBackgroundTasksImpl( 5751): 	at com.google.android.searchcommon.util.PriorityThreadFactory$1.run(PriorityThreadFactory.java:49)
+01-07 14:32:20.789 D/GCM     (  804): GcmService start Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.gcm.GcmService } com.google.android.gms.INITIALIZE
+01-07 14:32:20.819 D/AndroidRuntime( 5813): Calling main entry com.android.commands.am.Am
+01-07 14:32:20.819 D/dalvikvm( 5813): Note: class Landroid/app/ActivityManagerNative; has 163 unimplemented (abstract) methods
+01-07 14:32:20.829 D/AndroidRuntime( 5813): Shutting down VM
+01-07 14:32:20.829 D/jdwp    ( 5813): Got wake-up signal, bailing out of select
+01-07 14:32:20.829 D/dalvikvm( 5813): Debugger has detached; object registry had 1 entries
+01-07 14:32:20.829 I/ActivityManager(  523): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope/.MainActivity} from pid 5813
+01-07 14:32:20.839 D/dalvikvm( 5908): Late-enabling CheckJNI
+01-07 14:32:20.839 I/ActivityManager(  523): Start proc uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope for activity uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope/.MainActivity: pid=5908 uid=10072 gids={50072, 1028}
+01-07 14:32:20.919 E/qcom_sensors_hal(  523): hal_process_report_ind: Bad item quality: 11 
+01-07 14:32:20.969 D/libEGL  ( 5908): loaded /system/lib/egl/libEGL_adreno200.so
+01-07 14:32:20.969 D/libEGL  ( 5908): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+01-07 14:32:20.979 D/libEGL  ( 5908): loaded /system/lib/egl/libGLESv2_adreno200.so
+01-07 14:32:20.979 E/qcom_sensors_hal(  523): hal_process_report_ind: Bad item quality: 11 
+01-07 14:32:20.979 I/Adreno200-EGL( 5908): <qeglDrvAPI_eglInitialize:265>: EGL 1.4 QUALCOMM Build: Iabe52cfaeae4c5fab1acacfe6f056ba15fa93274
+01-07 14:32:21.009 D/dalvikvm( 5827): GC_CONCURRENT freed 394K, 5% free 9061K/9492K, paused 2ms+2ms, total 21ms
+01-07 14:32:21.019 D/OpenGLRenderer( 5908): Enabling debug mode 0
+01-07 14:32:21.069 I/ActivityManager(  523): Displayed uk.ac.st_andrews.cs.host.mk74.energymeasurement.gyroscope/.MainActivity: +238ms
+01-07 14:32:21.089 D/dalvikvm( 5677): GC_CONCURRENT freed 199K, 3% free 9354K/9592K, paused 1ms+1ms, total 15ms
+01-07 14:32:21.860 W/ActivityManager(  523): Permission denied: checkComponentPermission() owningUid=10057
+01-07 14:32:21.860 W/ActivityManager(  523): Permission denied: checkComponentPermission() owningUid=10057
+01-07 14:32:21.880 W/ActivityManager(  523): Permission denied: checkComponentPermission() owningUid=10057
+01-07 14:32:21.880 W/ActivityManager(  523): Permission denied: checkComponentPermission() owningUid=10057
+01-07 14:32:21.900 W/ActivityManager(  523): Permission denied: checkComponentPermission() owningUid=10057
+01-07 14:32:21.900 W/ActivityManager(  523): Permission denied: checkComponentPermission() owningUid=10057
+01-07 14:32:21.910 W/ActivityManager(  523): Permission denied: checkComponentPermission() owningUid=10057
+01-07 14:32:21.920 I/System.out( 5908): Values: 0.010864258 -0.035247803 0.04307556
+01-07 14:32:21.920 W/ActivityManager(  523): Permission denied: checkComponentPermission() owningUid=10057
+01-07 14:32:21.970 D/dalvikvm( 5731): GC_CONCURRENT freed 281K, 4% free 9245K/9568K, paused 5ms+4ms, total 31ms
+01-07 14:32:21.980 W/ActivityManager(  523): Permission denied: checkComponentPermission() owningUid=10057
+01-07 14:32:21.980 W/ActivityManager(  523): Permission denied: checkComponentPermission() owningUid=10057
+01-07 14:32:21.990 W/ActivityManager(  523): Permission denied: checkComponentPermission() owningUid=10057
+01-07 14:32:21.990 W/ActivityManager(  523): Permission denied: checkComponentPermission() owningUid=10057
+01-07 14:32:22.711 D/dalvikvm( 5908): Debugger has detached; object registry had 1 entries
+01-07 14:32:22.811 D/PicasaSyncManager( 5384): battery info: false
+01-07 14:32:22.811 D/PicasaUploaderSyncManager( 5407): battery info: false
+01-07 14:32:22.921 I/System.out( 5908): Values: 1.0538788 -0.018692017 0.67219543
+01-07 14:32:23.922 I/System.out( 5908): Values: 0.19244385 -0.044326782 0.6332092
+01-07 14:32:24.923 I/System.out( 5908): Values: 0.03062439 -0.09933472 0.020111084
+01-07 14:32:25.463 W/GAV2    ( 5751): Thread[GAThread,5,main]: Service unavailable (code=1), will retry.
+01-07 14:32:25.463 W/ActivityManager(  523): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+01-07 14:32:25.473 I/GAV2    ( 5751): Thread[GAThread,5,main]: No campaign data found.
+01-07 14:32:25.924 I/System.out( 5908): Values: 0.002319336 -0.041122437 0.019577026
+01-07 14:32:26.915 I/System.out( 5908): Values: 1.8310547E-4 -0.038986206 0.018508911
+01-07 14:32:27.916 I/System.out( 5908): Values: 0.0012512207 -0.043258667 0.017974854
+01-07 14:32:28.917 I/System.out( 5908): Values: 0.0012512207 -0.03845215 0.017440796
+01-07 14:32:29.918 I/System.out( 5908): Values: -8.8500977E-4 -0.03578186 0.017974854
+01-07 14:32:30.468 W/GAV2    ( 5751): Thread[Service Reconnect,5,main]: Service unavailable (code=1), using local store.
+01-07 14:32:30.468 W/ActivityManager(  523): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+01-07 14:32:30.919 I/System.out( 5908): Values: 1.8310547E-4 -0.04058838 0.016906738
+01-07 14:32:31.930 I/System.out( 5908): Values: -0.001953125 -0.04219055 0.018508911
+01-07 14:32:32.930 I/System.out( 5908): Values: 7.171631E-4 -0.043258667 0.019042969
+01-07 14:32:33.931 I/System.out( 5908): Values: 0.0012512207 -0.039520264 0.018508911
+01-07 14:32:34.932 I/System.out( 5908): Values: 1.8310547E-4 -0.04272461 0.019577026
+01-07 14:32:35.593 D/dalvikvm( 5644): GC_CONCURRENT freed 196K, 3% free 9292K/9528K, paused 4ms+7ms, total 42ms
+01-07 14:32:35.693 D/Finsky  ( 5644): [1] 5.onFinished: Installation state replication succeeded.
+01-07 14:32:35.923 I/System.out( 5908): Values: -0.0014190674 -0.04058838 0.017974854
+01-07 14:32:36.924 I/System.out( 5908): Values: 0.0017852783 -0.041656494 0.019577026
+01-07 14:32:37.935 I/System.out( 5908): Values: -0.0024871826 -0.04272461 0.017974854
+01-07 14:32:38.926 I/System.out( 5908): Values: -3.5095215E-4 -0.043258667 0.017974854
+01-07 14:32:39.927 I/System.out( 5908): Values: -3.5095215E-4 -0.04005432 0.018508911
+01-07 14:32:40.938 I/System.out( 5908): Values: 1.8310547E-4 -0.04219055 0.019042969
+01-07 14:32:41.939 I/System.out( 5908): Values: 0.0012512207 -0.041122437 0.017974854
+01-07 14:32:42.940 I/System.out( 5908): Values: 0.0044555664 -0.04005432 0.017440796
+01-07 14:32:43.941 I/System.out( 5908): Values: 0.0017852783 -0.041656494 0.017440796
+01-07 14:32:44.942 I/System.out( 5908): Values: -0.0014190674 -0.04272461 0.019042969
+01-07 14:32:45.943 I/System.out( 5908): Values: -3.5095215E-4 -0.04219055 0.017974854
+01-07 14:32:46.944 I/System.out( 5908): Values: 0.002319336 -0.043258667 0.016906738
+01-07 14:32:47.935 I/System.out( 5908): Values: 7.171631E-4 -0.046463013 0.016906738
+01-07 14:32:48.936 I/System.out( 5908): Values: 0.011932373 -0.028839111 0.019042969
+01-07 14:32:49.937 I/System.out( 5908): Values: -8.8500977E-4 -0.039520264 0.020111084
+01-07 14:32:50.938 I/System.out( 5908): Values: -0.0024871826 -0.041122437 0.016906738
+01-07 14:32:51.939 I/System.out( 5908): Values: 1.8310547E-4 -0.03791809 0.019042969
+01-07 14:32:52.940 I/System.out( 5908): Values: 0.0028533936 -0.043792725 0.017440796
+01-07 14:32:53.941 I/System.out( 5908): Values: -0.0030212402 -0.041656494 0.020645142
+01-07 14:32:54.942 I/System.out( 5908): Values: -8.8500977E-4 -0.043258667 0.017440796
+01-07 14:32:55.943 I/System.out( 5908): Values: -0.0024871826 -0.043792725 0.017974854
+01-07 14:32:56.944 I/System.out( 5908): Values: -0.001953125 -0.04058838 0.017440796
+01-07 14:32:57.935 I/System.out( 5908): Values: 7.171631E-4 -0.043258667 0.017440796
+01-07 14:32:58.936 I/System.out( 5908): Values: 7.171631E-4 -0.04058838 0.019042969
+01-07 14:32:59.937 I/System.out( 5908): Values: 7.171631E-4 -0.044326782 0.018508911
+01-07 14:33:00.938 I/System.out( 5908): Values: 0.0012512207 -0.04272461 0.017440796
+01-07 14:33:01.949 I/System.out( 5908): Values: 7.171631E-4 -0.04058838 0.019042969
+01-07 14:33:02.950 I/System.out( 5908): Values: -3.5095215E-4 -0.041656494 0.017440796
+01-07 14:33:03.951 I/System.out( 5908): Values: 1.8310547E-4 -0.04219055 0.017440796
+01-07 14:33:04.952 I/System.out( 5908): Values: 0.0012512207 -0.043258667 0.019577026
+01-07 14:33:05.953 I/System.out( 5908): Values: -3.5095215E-4 -0.041122437 0.017974854
+01-07 14:33:06.944 I/System.out( 5908): Values: -8.8500977E-4 -0.043258667 0.017974854
+01-07 14:33:07.945 I/System.out( 5908): Values: 0.0017852783 -0.036849976 0.017974854
+01-07 14:33:08.946 I/System.out( 5908): Values: -3.5095215E-4 -0.045394897 0.019577026
+01-07 14:33:09.947 I/System.out( 5908): Values: -0.001953125 -0.04272461 0.019042969
+01-07 14:33:10.948 I/System.out( 5908): Values: -3.5095215E-4 -0.04272461 0.019042969
+01-07 14:33:11.949 I/System.out( 5908): Values: -0.001953125 -0.04219055 0.018508911
+01-07 14:33:12.950 I/System.out( 5908): Values: 0.0012512207 -0.043792725 0.015838623
+01-07 14:33:13.950 I/System.out( 5908): Values: 0.0017852783 -0.04005432 0.017440796
+01-07 14:33:14.951 I/System.out( 5908): Values: -3.5095215E-4 -0.04219055 0.017974854
+01-07 14:33:15.952 I/System.out( 5908): Values: -3.5095215E-4 -0.04272461 0.020645142
+01-07 14:33:16.953 I/System.out( 5908): Values: -3.5095215E-4 -0.04058838 0.017440796
+01-07 14:33:17.954 I/System.out( 5908): Values: 7.171631E-4 -0.043258667 0.017974854
+01-07 14:33:18.945 I/System.out( 5908): Values: -0.001953125 -0.04486084 0.017440796
+01-07 14:33:19.946 I/System.out( 5908): Values: 1.8310547E-4 -0.04272461 0.016906738
+01-07 14:33:20.947 I/System.out( 5908): Values: -8.8500977E-4 -0.039520264 0.018508911
+01-07 14:33:21.948 I/System.out( 5908): Values: 1.8310547E-4 -0.0491333 0.01637268
+01-07 14:33:22.949 I/System.out( 5908): Values: 0.0012512207 -0.041656494 0.017440796
+01-07 14:33:23.960 I/System.out( 5908): Values: -3.5095215E-4 -0.043258667 0.016906738
+01-07 14:33:24.961 I/System.out( 5908): Values: 8.239746E-4 -6.5612793E-4 4.7302246E-4
+01-07 14:33:25.962 I/System.out( 5908): Values: 0.0018920898 -1.2207031E-4 0.0015411377
+01-07 14:33:26.963 I/System.out( 5908): Values: -7.7819824E-4 -1.2207031E-4 -0.001663208
+01-07 14:33:27.954 I/System.out( 5908): Values: 0.0018920898 9.460449E-4 -0.001663208
+01-07 14:33:28.955 I/System.out( 5908): Values: 0.0024261475 4.119873E-4 4.7302246E-4
+01-07 14:33:29.956 I/System.out( 5908): Values: 2.89917E-4 -0.0022583008 0.0010070801
+01-07 14:33:30.957 I/System.out( 5908): Values: 8.239746E-4 -0.0022583008 4.7302246E-4
+01-07 14:33:31.958 I/System.out( 5908): Values: 8.239746E-4 4.119873E-4 0.0010070801
+01-07 14:33:32.959 I/System.out( 5908): Values: -7.7819824E-4 -0.0011901855 4.7302246E-4
+01-07 14:33:33.960 I/System.out( 5908): Values: -0.0018463135 -1.2207031E-4 -0.0011291504
+01-07 14:33:34.961 I/System.out( 5908): Values: 2.89917E-4 0.0020141602 -6.1035156E-5
+01-07 14:33:35.962 I/System.out( 5908): Values: -2.4414063E-4 -0.0027923584 -5.950928E-4
+01-07 14:33:36.963 I/System.out( 5908): Values: 0.0013580322 -6.5612793E-4 0.0010070801
+01-07 14:33:37.954 I/System.out( 5908): Values: 0.0024261475 -0.0022583008 0.0010070801
+01-07 14:33:38.965 I/System.out( 5908): Values: -0.002380371 4.119873E-4 0.0031433105
+01-07 14:33:39.966 I/System.out( 5908): Values: -2.4414063E-4 -6.5612793E-4 -0.0011291504
+01-07 14:33:40.967 I/System.out( 5908): Values: 2.89917E-4 -6.5612793E-4 4.7302246E-4
+01-07 14:33:41.968 I/System.out( 5908): Values: 0.0024261475 -6.5612793E-4 -0.0021972656
+01-07 14:33:42.028 D/dalvikvm( 5908): GC_CONCURRENT freed 232K, 3% free 9017K/9288K, paused 11ms+2ms, total 57ms
+01-07 14:33:42.969 I/System.out( 5908): Values: -0.0018463135 -0.0011901855 -6.1035156E-5
+01-07 14:33:43.970 I/System.out( 5908): Values: -0.0013122559 -6.5612793E-4 0.0015411377
+01-07 14:33:44.971 I/System.out( 5908): Values: 8.239746E-4 0.0014801025 -0.001663208
+01-07 14:33:45.972 I/System.out( 5908): Values: -2.4414063E-4 -0.0022583008 -5.950928E-4
+01-07 14:33:46.973 I/System.out( 5908): Values: -0.0018463135 -0.003326416 -0.0021972656
+01-07 14:33:47.964 I/System.out( 5908): Values: -0.0013122559 0.0030822754 -0.0011291504
+01-07 14:33:48.975 I/System.out( 5908): Values: 0.0013580322 -0.0011901855 -5.950928E-4
+01-07 14:33:49.966 I/System.out( 5908): Values: -2.4414063E-4 -6.5612793E-4 0.0010070801
+01-07 14:33:50.967 I/System.out( 5908): Values: -2.4414063E-4 0.0014801025 4.7302246E-4
+01-07 14:33:51.968 I/System.out( 5908): Values: 0.0018920898 -1.2207031E-4 -0.0011291504
+01-07 14:33:52.969 I/System.out( 5908): Values: 0.002960205 -0.0017242432 -6.1035156E-5
+01-07 14:33:53.970 I/System.out( 5908): Values: 8.239746E-4 -0.0043945313 -5.950928E-4
+01-07 14:33:54.971 I/System.out( 5908): Values: -7.7819824E-4 9.460449E-4 -6.1035156E-5
+01-07 14:33:55.971 I/System.out( 5908): Values: 2.89917E-4 -0.0027923584 -0.0027313232
+01-07 14:33:56.972 I/System.out( 5908): Values: -7.7819824E-4 -0.0011901855 -6.1035156E-5
+01-07 14:33:57.963 I/System.out( 5908): Values: 2.89917E-4 -0.0011901855 0.0020751953
+01-07 14:33:58.974 I/System.out( 5908): Values: -0.002380371 -1.2207031E-4 -5.950928E-4
+01-07 14:33:59.965 I/System.out( 5908): Values: -0.0013122559 -6.5612793E-4 4.7302246E-4
+01-07 14:34:00.966 I/System.out( 5908): Values: -7.7819824E-4 9.460449E-4 0.002609253
+01-07 14:34:01.967 I/System.out( 5908): Values: -0.0018463135 -6.5612793E-4 4.7302246E-4
+01-07 14:34:02.968 I/System.out( 5908): Values: -0.003982544 -1.2207031E-4 -6.1035156E-5
+01-07 14:34:03.979 I/System.out( 5908): Values: -7.7819824E-4 4.119873E-4 -6.1035156E-5
+01-07 14:34:04.980 I/System.out( 5908): Values: -2.4414063E-4 -1.2207031E-4 -0.0011291504
+01-07 14:34:05.981 I/System.out( 5908): Values: 2.89917E-4 -0.0027923584 -6.1035156E-5
+01-07 14:34:06.982 I/System.out( 5908): Values: -0.0013122559 -1.2207031E-4 -0.0021972656
+01-07 14:34:07.983 I/System.out( 5908): Values: -0.0018463135 0.0020141602 -6.1035156E-5
+01-07 14:34:08.984 I/System.out( 5908): Values: -7.7819824E-4 4.119873E-4 4.7302246E-4
+01-07 14:34:09.975 I/System.out( 5908): Values: 2.89917E-4 9.460449E-4 0.0031433105
+01-07 14:34:10.976 I/System.out( 5908): Values: 2.89917E-4 -0.0022583008 0.0010070801
+01-07 14:34:11.977 I/System.out( 5908): Values: -2.4414063E-4 -0.0017242432 0.0015411377
+01-07 14:34:12.978 I/System.out( 5908): Values: -2.4414063E-4 -6.5612793E-4 4.7302246E-4
+01-07 14:34:13.979 I/System.out( 5908): Values: -0.0013122559 -1.2207031E-4 -0.0021972656
+01-07 14:34:14.980 I/System.out( 5908): Values: -2.4414063E-4 0.0020141602 4.7302246E-4
+01-07 14:34:15.981 I/System.out( 5908): Values: -0.0029144287 4.119873E-4 0.0010070801
+01-07 14:34:16.982 I/System.out( 5908): Values: 8.239746E-4 -0.0022583008 -0.0027313232
+01-07 14:34:17.983 I/System.out( 5908): Values: -0.0013122559 -6.5612793E-4 -0.0011291504
+01-07 14:34:18.974 I/System.out( 5908): Values: -0.0018463135 -6.5612793E-4 4.7302246E-4
+01-07 14:34:19.975 I/System.out( 5908): Values: -0.0013122559 0.0025482178 -6.1035156E-5
+01-07 14:34:20.976 I/System.out( 5908): Values: -0.0013122559 -6.5612793E-4 0.0020751953
+01-07 14:34:21.977 I/System.out( 5908): Values: 2.89917E-4 -1.2207031E-4 -6.1035156E-5
+01-07 14:34:22.988 I/System.out( 5908): Values: -0.0013122559 -0.0017242432 4.7302246E-4
+01-07 14:34:23.979 I/System.out( 5908): Values: -7.7819824E-4 9.460449E-4 -0.0011291504
+01-07 14:34:24.990 I/System.out( 5908): Values: 0.001876831 -0.0010223389 -1.5258789E-5
+01-07 14:34:25.991 I/System.out( 5908): Values: 2.746582E-4 -0.0010223389 0.0015869141
+01-07 14:34:26.992 I/System.out( 5908): Values: 8.087158E-4 0.0011138916 0.0010528564
+01-07 14:34:27.993 I/System.out( 5908): Values: 2.746582E-4 -0.0010223389 0.0015869141
+01-07 14:34:28.994 I/System.out( 5908): Values: 0.0013427734 0.003250122 -1.5258789E-5
+01-07 14:34:29.985 I/System.out( 5908): Values: 8.087158E-4 5.79834E-4 5.187988E-4
+01-07 14:34:30.996 I/System.out( 5908): Values: 2.746582E-4 4.5776367E-5 -0.001083374
+01-07 14:34:31.987 I/System.out( 5908): Values: 2.746582E-4 0.0043182373 -1.5258789E-5
+01-07 14:34:32.988 I/System.out( 5908): Values: -7.9345703E-4 -0.002090454 -1.5258789E-5
+01-07 14:34:33.989 I/System.out( 5908): Values: -0.0013275146 0.0016479492 0.0021209717
+01-07 14:34:34.990 I/System.out( 5908): Values: 2.746582E-4 5.79834E-4 -0.0021514893
+01-07 14:34:35.991 I/System.out( 5908): Values: -7.9345703E-4 0.0011138916 -1.5258789E-5
+01-07 14:34:36.992 I/System.out( 5908): Values: 0.0024108887 -0.0010223389 -1.5258789E-5
+01-07 14:34:37.992 I/System.out( 5908): Values: -0.0023956299 -0.0010223389 5.187988E-4
+01-07 14:34:38.993 I/System.out( 5908): Values: -2.593994E-4 4.5776367E-5 0.0010528564
+01-07 14:34:39.984 I/System.out( 5908): Values: -0.0013275146 0.003250122 -1.5258789E-5
+01-07 14:34:40.995 I/System.out( 5908): Values: -0.0039978027 -0.0031585693 0.0010528564
+01-07 14:34:41.986 I/System.out( 5908): Values: -0.0013275146 -0.0026245117 5.187988E-4
+01-07 14:34:42.987 I/System.out( 5908): Values: -0.0018615723 -0.0015563965 5.187988E-4
+01-07 14:34:43.988 I/System.out( 5908): Values: -2.593994E-4 5.79834E-4 -0.001083374
+01-07 14:34:44.989 I/System.out( 5908): Values: -7.9345703E-4 0.0011138916 0.0015869141
+01-07 14:34:45.990 I/System.out( 5908): Values: -0.0029296875 -0.0042266846 -0.001083374
+01-07 14:34:47.001 I/System.out( 5908): Values: 0.0013427734 -0.0010223389 0.0010528564
+01-07 14:34:48.002 I/System.out( 5908): Values: -0.0013275146 -0.0010223389 0.0010528564
+01-07 14:34:49.003 I/System.out( 5908): Values: 0.001876831 4.5776367E-5 -1.5258789E-5
+01-07 14:34:49.994 I/System.out( 5908): Values: 0.0013427734 4.5776367E-5 -0.001083374
+01-07 14:34:51.005 I/System.out( 5908): Values: -0.0013275146 -4.8828125E-4 -5.493164E-4
+01-07 14:34:51.996 I/System.out( 5908): Values: -0.0013275146 0.0011138916 -5.493164E-4
+01-07 14:34:52.997 I/System.out( 5908): Values: -7.9345703E-4 5.79834E-4 -1.5258789E-5
+01-07 14:34:53.998 I/System.out( 5908): Values: 8.087158E-4 0.0021820068 0.0010528564
+01-07 14:34:54.999 I/System.out( 5908): Values: 0.0029449463 -0.0010223389 0.0021209717
+01-07 14:34:56.000 I/System.out( 5908): Values: 0.0040130615 -0.0010223389 0.0010528564
+01-07 14:34:57.001 I/System.out( 5908): Values: 0.003479004 0.0016479492 5.187988E-4
+01-07 14:34:58.002 I/System.out( 5908): Values: 2.746582E-4 -0.0010223389 0.0015869141
+01-07 14:34:59.003 I/System.out( 5908): Values: -7.9345703E-4 5.79834E-4 0.0021209717
+01-07 14:34:59.994 I/System.out( 5908): Values: 0.0013427734 -4.8828125E-4 -0.0016174316
+01-07 14:35:01.005 I/System.out( 5908): Values: 8.087158E-4 -0.0010223389 0.0010528564
+01-07 14:35:01.996 I/System.out( 5908): Values: 0.0013427734 4.5776367E-5 -5.493164E-4
+01-07 14:35:03.007 I/System.out( 5908): Values: 2.746582E-4 0.0021820068 -5.493164E-4
+01-07 14:35:04.008 I/System.out( 5908): Values: 2.746582E-4 -0.002090454 -0.001083374
+01-07 14:35:05.009 I/System.out( 5908): Values: -7.9345703E-4 -0.0042266846 -1.5258789E-5
+01-07 14:35:06.010 I/System.out( 5908): Values: 0.001876831 -0.0010223389 -5.493164E-4
+01-07 14:35:07.011 I/System.out( 5908): Values: -2.593994E-4 5.79834E-4 -0.001083374
+01-07 14:35:08.012 I/System.out( 5908): Values: 0.001876831 -0.0010223389 5.187988E-4
+01-07 14:35:09.013 I/System.out( 5908): Values: -7.9345703E-4 0.0011138916 0.0015869141
+01-07 14:35:10.014 I/System.out( 5908): Values: -0.0029296875 -4.8828125E-4 0.0010528564
+01-07 14:35:11.015 I/System.out( 5908): Values: -2.593994E-4 -0.002090454 -0.001083374
+01-07 14:35:12.006 I/System.out( 5908): Values: -2.593994E-4 0.0021820068 0.0010528564
+01-07 14:35:13.007 I/System.out( 5908): Values: -0.0018615723 -0.0015563965 5.187988E-4
+01-07 14:35:14.008 I/System.out( 5908): Values: 0.001876831 4.5776367E-5 -0.001083374
+01-07 14:35:15.009 I/System.out( 5908): Values: -0.0023956299 4.5776367E-5 -1.5258789E-5
+01-07 14:35:16.010 I/System.out( 5908): Values: 0.0024108887 -0.0026245117 5.187988E-4
+01-07 14:35:17.011 I/System.out( 5908): Values: 0.0013427734 -4.8828125E-4 0.0015869141
+01-07 14:35:18.012 I/System.out( 5908): Values: -7.9345703E-4 -0.002090454 -1.5258789E-5
+01-07 14:35:19.013 I/System.out( 5908): Values: -0.0018615723 -0.0015563965 -1.5258789E-5
+01-07 14:35:20.013 I/System.out( 5908): Values: 0.0013427734 5.79834E-4 -0.001083374
+01-07 14:35:21.004 I/System.out( 5908): Values: -7.9345703E-4 0.0021820068 0.0010528564
+01-07 14:35:22.005 I/System.out( 5908): Values: -7.9345703E-4 -4.8828125E-4 -1.5258789E-5
+01-07 14:35:23.006 I/System.out( 5908): Values: 8.087158E-4 0.003250122 -0.001083374
+01-07 14:35:24.017 I/System.out( 5908): Values: -0.0013275146 0.0011138916 0.0010528564
+01-07 14:35:25.018 I/System.out( 5908): Values: -8.239746E-4 -0.0034332275 -5.493164E-4
+01-07 14:35:26.019 I/System.out( 5908): Values: -0.0024261475 -7.6293945E-4 0.0021209717
+01-07 14:35:26.019 I/System.out( 5908): Battery level start is reached
+01-07 14:35:27.020 I/System.out( 5908): Values: 2.4414063E-4 0.0019073486 -5.493164E-4
+01-07 14:35:28.021 I/System.out( 5908): Values: 7.7819824E-4 -2.2888184E-4 -5.493164E-4
+01-07 14:35:29.022 I/System.out( 5908): Values: -8.239746E-4 0.001373291 -5.493164E-4
+01-07 14:35:30.023 I/System.out( 5908): Values: -8.239746E-4 -0.0012969971 0.0015869141
+01-07 14:35:31.014 I/System.out( 5908): Values: 0.0029144287 -2.2888184E-4 0.0015869141
+01-07 14:35:32.015 I/System.out( 5908): Values: -0.0013580322 0.0019073486 0.0010528564
+01-07 14:35:33.026 I/System.out( 5908): Values: -2.89917E-4 -2.2888184E-4 -5.493164E-4
+01-07 14:35:34.017 I/System.out( 5908): Values: -2.89917E-4 3.0517578E-4 -5.493164E-4
+01-07 14:35:35.018 I/System.out( 5908): Values: -0.0018920898 -7.6293945E-4 -0.0016174316
+01-07 14:35:36.019 I/System.out( 5908): Values: -0.0013580322 -2.2888184E-4 -0.001083374
+01-07 14:35:37.020 I/System.out( 5908): Values: -0.0013580322 -0.0034332275 0.0021209717
+01-07 14:35:38.021 I/System.out( 5908): Values: -2.89917E-4 0.0019073486 0.0015869141
+01-07 14:35:39.032 I/System.out( 5908): Values: 7.7819824E-4 -7.6293945E-4 0.0010528564
+01-07 14:35:40.023 I/System.out( 5908): Values: 2.4414063E-4 -2.2888184E-4 5.187988E-4
+01-07 14:35:41.024 I/System.out( 5908): Values: 2.4414063E-4 3.0517578E-4 5.187988E-4
+01-07 14:35:42.025 I/System.out( 5908): Values: -0.0013580322 -0.0012969971 -1.5258789E-5
+01-07 14:35:43.026 I/System.out( 5908): Values: -0.0018920898 -0.0012969971 -0.0021514893
+01-07 14:35:44.027 I/System.out( 5908): Values: 0.0013122559 -0.00289917 -5.493164E-4
+01-07 14:35:45.028 I/System.out( 5908): Values: -2.89917E-4 -7.6293945E-4 5.187988E-4
+01-07 14:35:46.029 I/System.out( 5908): Values: -0.0013580322 3.0517578E-4 -0.0016174316
+01-07 14:35:47.030 I/System.out( 5908): Values: -8.239746E-4 3.0517578E-4 0.0010528564
+01-07 14:35:48.031 I/System.out( 5908): Values: -8.239746E-4 -7.6293945E-4 5.187988E-4
+01-07 14:35:49.032 I/System.out( 5908): Values: 7.7819824E-4 -0.00289917 0.0015869141
+01-07 14:35:50.033 I/System.out( 5908): Values: 0.0013122559 -0.0018310547 -1.5258789E-5
+01-07 14:35:51.034 I/System.out( 5908): Values: 2.4414063E-4 3.0517578E-4 0.0021209717
+01-07 14:35:52.035 I/System.out( 5908): Values: 0.0018463135 3.0517578E-4 5.187988E-4
+01-07 14:35:53.036 I/System.out( 5908): Values: -2.89917E-4 -7.6293945E-4 -5.493164E-4
+01-07 14:35:54.027 I/System.out( 5908): Values: -8.239746E-4 0.0024414063 -1.5258789E-5
+01-07 14:35:55.028 I/System.out( 5908): Values: -2.89917E-4 -2.2888184E-4 0.0015869141
+01-07 14:35:56.029 I/System.out( 5908): Values: -0.002960205 -0.00289917 -0.0016174316
+01-07 14:35:57.030 I/System.out( 5908): Values: 2.4414063E-4 -7.6293945E-4 0.0026550293
+01-07 14:35:58.031 I/System.out( 5908): Values: 2.4414063E-4 -0.0023651123 0.0015869141
+01-07 14:35:59.032 I/System.out( 5908): Values: 7.7819824E-4 -0.0018310547 0.0010528564
+01-07 14:36:00.043 I/System.out( 5908): Values: 0.0013122559 -7.6293945E-4 -0.001083374
+01-07 14:36:01.044 I/System.out( 5908): Values: -2.89917E-4 -2.2888184E-4 -1.5258789E-5
+01-07 14:36:02.034 I/System.out( 5908): Values: 0.0034484863 -2.2888184E-4 0.0015869141
+01-07 14:36:03.035 I/System.out( 5908): Values: -2.89917E-4 0.001373291 -0.0016174316
+01-07 14:36:04.036 I/System.out( 5908): Values: -2.89917E-4 0.001373291 0.0021209717
+01-07 14:36:05.037 I/System.out( 5908): Values: -2.89917E-4 -0.0012969971 -0.001083374
+01-07 14:36:06.038 I/System.out( 5908): Values: -2.89917E-4 3.0517578E-4 -0.0021514893
+01-07 14:36:07.039 I/System.out( 5908): Values: 2.4414063E-4 3.0517578E-4 0.0010528564
+01-07 14:36:08.040 I/System.out( 5908): Values: -0.0024261475 3.0517578E-4 -0.0026855469
+01-07 14:36:09.041 I/System.out( 5908): Values: 2.4414063E-4 -0.0012969971 -1.5258789E-5
+01-07 14:36:10.042 I/System.out( 5908): Values: 7.7819824E-4 -2.2888184E-4 -0.001083374
+01-07 14:36:11.043 I/System.out( 5908): Values: 0.0013122559 0.0019073486 -1.5258789E-5
+01-07 14:36:12.044 I/System.out( 5908): Values: 2.4414063E-4 0.0061798096 5.187988E-4
+01-07 14:36:13.035 I/System.out( 5908): Values: 7.7819824E-4 0.001373291 -1.5258789E-5
+01-07 14:36:14.036 I/System.out( 5908): Values: 0.0018463135 3.0517578E-4 -1.5258789E-5
+01-07 14:36:15.047 I/System.out( 5908): Values: 7.7819824E-4 -7.6293945E-4 0.0010528564
+01-07 14:36:16.048 I/System.out( 5908): Values: -2.89917E-4 0.0019073486 -0.001083374
+01-07 14:36:17.049 I/System.out( 5908): Values: 7.7819824E-4 -0.0034332275 5.187988E-4
+01-07 14:36:18.050 I/System.out( 5908): Values: 2.4414063E-4 -0.00289917 -5.493164E-4
+01-07 14:36:19.051 I/System.out( 5908): Values: 2.4414063E-4 3.0517578E-4 -1.5258789E-5
+01-07 14:36:20.052 I/System.out( 5908): Values: -0.0013580322 -2.2888184E-4 -1.5258789E-5
+01-07 14:36:21.053 I/System.out( 5908): Values: -0.0018920898 -0.003967285 -0.001083374
+01-07 14:36:22.054 I/System.out( 5908): Values: 7.7819824E-4 3.0517578E-4 0.0010528564
+01-07 14:36:23.045 I/System.out( 5908): Values: 7.7819824E-4 0.001373291 0.0015869141
+01-07 14:36:24.056 I/System.out( 5908): Values: -0.0024261475 -0.0012969971 -1.5258789E-5
+01-07 14:36:25.047 I/System.out( 5908): Values: 3.0517578E-4 -0.003692627 5.187988E-4
+01-07 14:36:26.048 I/System.out( 5908): Values: -2.2888184E-4 5.79834E-4 0.0010528564
+01-07 14:36:27.049 I/System.out( 5908): Values: -0.0018310547 5.79834E-4 -5.493164E-4
+01-07 14:36:28.050 I/System.out( 5908): Values: -0.0012969971 -0.0010223389 0.0010528564
+01-07 14:36:29.051 I/System.out( 5908): Values: 3.0517578E-4 -0.0015563965 5.187988E-4
+01-07 14:36:30.052 I/System.out( 5908): Values: 0.001373291 4.5776367E-5 -1.5258789E-5
+01-07 14:36:31.053 I/System.out( 5908): Values: -2.2888184E-4 0.0021820068 5.187988E-4
+01-07 14:36:32.054 I/System.out( 5908): Values: 0.0019073486 0.0037841797 -0.0016174316
+01-07 14:36:33.055 I/System.out( 5908): Values: -7.6293945E-4 0.0011138916 -1.5258789E-5
+01-07 14:36:34.056 I/System.out( 5908): Values: -0.00289917 -0.0015563965 5.187988E-4
+01-07 14:36:35.057 I/System.out( 5908): Values: -0.0012969971 0.0021820068 -5.493164E-4
+01-07 14:36:36.058 I/System.out( 5908): Values: -7.6293945E-4 0.0016479492 -1.5258789E-5
+01-07 14:36:37.059 I/System.out( 5908): Values: -2.2888184E-4 0.0011138916 -1.5258789E-5
+01-07 14:36:38.060 I/System.out( 5908): Values: -0.0018310547 -0.0010223389 -1.5258789E-5
+01-07 14:36:39.061 I/System.out( 5908): Values: -0.0023651123 4.5776367E-5 -0.0021514893
+01-07 14:36:40.062 I/System.out( 5908): Values: -2.2888184E-4 -0.0010223389 -1.5258789E-5
+01-07 14:36:41.063 I/System.out( 5908): Values: -7.6293945E-4 0.0016479492 0.0026550293
+01-07 14:36:42.064 I/System.out( 5908): Values: 8.392334E-4 -0.002090454 -1.5258789E-5
+01-07 14:36:43.065 I/System.out( 5908): Values: 3.0517578E-4 -4.8828125E-4 -5.493164E-4
+01-07 14:36:44.065 I/System.out( 5908): Values: 0.001373291 -0.0015563965 -1.5258789E-5
+01-07 14:36:45.066 I/System.out( 5908): Values: 3.0517578E-4 0.0016479492 -0.001083374
+01-07 14:36:45.137 D/dalvikvm( 5908): GC_CONCURRENT freed 389K, 5% free 9016K/9444K, paused 9ms+5ms, total 68ms
+01-07 14:36:46.067 I/System.out( 5908): Values: -7.6293945E-4 -4.8828125E-4 -0.0016174316
+01-07 14:36:47.058 I/System.out( 5908): Values: 0.0019073486 0.0027160645 -1.5258789E-5
+01-07 14:36:48.069 I/System.out( 5908): Values: -7.6293945E-4 0.0021820068 0.0010528564
+01-07 14:36:49.070 I/System.out( 5908): Values: -0.0018310547 -0.0026245117 0.0021209717
+01-07 14:36:50.071 I/System.out( 5908): Values: -0.00289917 4.5776367E-5 0.0010528564
+01-07 14:36:51.072 I/System.out( 5908): Values: 0.0019073486 -0.0015563965 5.187988E-4
+01-07 14:36:52.073 I/System.out( 5908): Values: -2.2888184E-4 0.0021820068 0.0015869141
+01-07 14:36:53.064 I/System.out( 5908): Values: -2.2888184E-4 0.0016479492 -0.001083374
+01-07 14:36:54.065 I/System.out( 5908): Values: -0.0018310547 0.0011138916 0.0010528564
+01-07 14:36:55.066 I/System.out( 5908): Values: -7.6293945E-4 5.79834E-4 -1.5258789E-5
+01-07 14:36:56.067 I/System.out( 5908): Values: 8.392334E-4 -0.0010223389 -5.493164E-4
+01-07 14:36:57.068 I/System.out( 5908): Values: 3.0517578E-4 0.0016479492 -1.5258789E-5
+01-07 14:36:58.069 I/System.out( 5908): Values: 3.0517578E-4 0.0011138916 -5.493164E-4
+01-07 14:36:59.070 I/System.out( 5908): Values: 8.392334E-4 -0.0026245117 -5.493164E-4
+01-07 14:37:00.071 I/System.out( 5908): Values: -7.6293945E-4 -4.8828125E-4 -1.5258789E-5
+01-07 14:37:01.072 I/System.out( 5908): Values: 0.001373291 -4.8828125E-4 -5.493164E-4
+01-07 14:37:02.073 I/System.out( 5908): Values: 3.0517578E-4 -0.0015563965 0.0015869141
+01-07 14:37:03.074 I/System.out( 5908): Values: -2.2888184E-4 0.0011138916 -0.001083374
+01-07 14:37:04.065 I/System.out( 5908): Values: 0.001373291 4.5776367E-5 -0.0016174316
+01-07 14:37:05.066 I/System.out( 5908): Values: 0.0019073486 -0.003692627 0.0015869141
+01-07 14:37:06.067 I/System.out( 5908): Values: -0.0023651123 0.0011138916 5.187988E-4
+01-07 14:37:07.068 I/System.out( 5908): Values: 0.001373291 4.5776367E-5 -0.0016174316
+01-07 14:37:08.069 I/System.out( 5908): Values: 0.0019073486 -0.0010223389 5.187988E-4
+01-07 14:37:09.070 I/System.out( 5908): Values: 3.0517578E-4 -0.0026245117 0.0010528564
+01-07 14:37:10.071 I/System.out( 5908): Values: 0.001373291 -4.8828125E-4 0.0015869141
+01-07 14:37:11.072 I/System.out( 5908): Values: 3.0517578E-4 -0.0015563965 -0.0016174316
+01-07 14:37:12.073 I/System.out( 5908): Values: 0.0019073486 0.0037841797 0.0021209717
+01-07 14:37:13.074 I/System.out( 5908): Values: 0.0019073486 0.0016479492 -5.493164E-4
+01-07 14:37:14.065 I/System.out( 5908): Values: -0.0023651123 -0.0026245117 0.0021209717
+01-07 14:37:15.066 I/System.out( 5908): Values: -2.2888184E-4 -0.0015563965 5.187988E-4
+01-07 14:37:16.067 I/System.out( 5908): Values: -2.2888184E-4 -0.0010223389 -1.5258789E-5
+01-07 14:37:17.068 I/System.out( 5908): Values: -0.0012969971 4.5776367E-5 5.187988E-4
+01-07 14:37:18.069 I/System.out( 5908): Values: 0.001373291 4.5776367E-5 -1.5258789E-5
+01-07 14:37:19.070 I/System.out( 5908): Values: -2.2888184E-4 -0.0010223389 -1.5258789E-5
+01-07 14:37:20.071 I/System.out( 5908): Values: 3.0517578E-4 0.0021820068 0.0010528564
+01-07 14:37:21.072 I/System.out( 5908): Values: 0.0019073486 4.5776367E-5 -1.5258789E-5
+01-07 14:37:22.083 I/System.out( 5908): Values: -7.6293945E-4 -4.8828125E-4 5.187988E-4
+01-07 14:37:23.084 I/System.out( 5908): Values: 3.0517578E-4 -4.8828125E-4 -5.493164E-4
+01-07 14:37:24.075 I/System.out( 5908): Values: -0.0023651123 5.79834E-4 5.187988E-4
+01-07 14:37:25.075 I/System.out( 5908): Values: -0.0022125244 5.187988E-4 0.0025787354
+01-07 14:37:26.076 I/System.out( 5908): Values: 4.5776367E-4 -0.0016174316 0.0015106201
+01-07 14:37:27.077 I/System.out( 5908): Values: 4.5776367E-4 0.0010528564 -6.2561035E-4
+01-07 14:37:27.198 D/dalvikvm(  523): JIT code cache reset in 2 ms (1048552 bytes 2/0)
+01-07 14:37:27.208 D/dalvikvm(  523): GC_CONCURRENT freed 1860K, 18% free 17445K/21164K, paused 15ms+9ms, total 133ms
+01-07 14:37:28.078 I/System.out( 5908): Values: -0.0011444092 -0.0021514893 0.0020446777
+01-07 14:37:29.079 I/System.out( 5908): Values: 0.0015258789 0.0021209717 4.4250488E-4
+01-07 14:37:30.080 I/System.out( 5908): Values: -0.0011444092 -0.001083374 -0.0016937256
+01-07 14:37:31.081 I/System.out( 5908): Values: 0.0031280518 5.187988E-4 -6.2561035E-4
+01-07 14:37:32.082 I/System.out( 5908): Values: -7.6293945E-5 0.0010528564 -0.001159668
+01-07 14:37:33.083 I/System.out( 5908): Values: -6.1035156E-4 -0.0021514893 -0.0027618408
+01-07 14:37:34.074 I/System.out( 5908): Values: 4.5776367E-4 -0.003753662 -0.0016937256
+01-07 14:37:35.075 I/System.out( 5908): Values: 9.918213E-4 0.0010528564 -0.0016937256
+01-07 14:37:36.076 I/System.out( 5908): Values: 0.0025939941 -0.001083374 -0.0016937256
+01-07 14:37:37.077 I/System.out( 5908): Values: 0.0020599365 0.0010528564 4.4250488E-4
+01-07 14:37:38.078 I/System.out( 5908): Values: 9.918213E-4 0.0026550293 0.0015106201
+01-07 14:37:39.089 I/System.out( 5908): Values: -7.6293945E-5 5.187988E-4 -0.001159668
+01-07 14:37:40.090 I/System.out( 5908): Values: -7.6293945E-5 0.0026550293 0.0015106201
+01-07 14:37:41.091 I/System.out( 5908): Values: -6.1035156E-4 -1.5258789E-5 0.0015106201
+01-07 14:37:42.092 I/System.out( 5908): Values: 4.5776367E-4 5.187988E-4 -6.2561035E-4
+01-07 14:37:43.093 I/System.out( 5908): Values: 0.0020599365 0.0021209717 4.4250488E-4
+01-07 14:37:44.084 I/System.out( 5908): Values: 0.0015258789 5.187988E-4 -0.001159668
+01-07 14:37:45.085 I/System.out( 5908): Values: -0.0016784668 -0.001083374 -0.001159668
+01-07 14:37:46.096 I/System.out( 5908): Values: 9.918213E-4 -0.003753662 9.765625E-4
+01-07 14:37:47.087 I/System.out( 5908): Values: 0.0020599365 0.0015869141 -9.1552734E-5
+01-07 14:37:48.088 I/System.out( 5908): Values: -0.0032806396 -0.0042877197 0.0015106201
+01-07 14:37:49.089 I/System.out( 5908): Values: 0.0025939941 0.0026550293 4.4250488E-4
+01-07 14:37:50.090 I/System.out( 5908): Values: 0.0015258789 5.187988E-4 4.4250488E-4
+01-07 14:37:51.091 I/System.out( 5908): Values: 0.0025939941 -0.001083374 -6.2561035E-4
+01-07 14:37:52.092 I/System.out( 5908): Values: 0.0015258789 -0.001083374 -6.2561035E-4
+01-07 14:37:53.093 I/System.out( 5908): Values: -6.1035156E-4 0.0015869141 4.4250488E-4
+01-07 14:37:54.084 I/System.out( 5908): Values: -0.0016784668 -0.0021514893 -9.1552734E-5
+01-07 14:37:55.095 I/System.out( 5908): Values: 4.5776367E-4 -5.493164E-4 -9.1552734E-5
+01-07 14:37:56.096 I/System.out( 5908): Values: 0.0015258789 0.0021209717 0.0015106201
+01-07 14:37:57.097 I/System.out( 5908): Values: -6.1035156E-4 -0.0032196045 9.765625E-4
+01-07 14:37:58.098 I/System.out( 5908): Values: 9.918213E-4 0.0010528564 -9.1552734E-5
+01-07 14:37:59.099 I/System.out( 5908): Values: 9.918213E-4 -0.0021514893 4.4250488E-4
+01-07 14:38:00.100 I/System.out( 5908): Values: -7.6293945E-5 -0.0032196045 -9.1552734E-5
+01-07 14:38:01.101 I/System.out( 5908): Values: 0.0020599365 -0.0016174316 -9.1552734E-5
+01-07 14:38:02.102 I/System.out( 5908): Values: 4.5776367E-4 0.0010528564 -0.0016937256
+01-07 14:38:03.103 I/System.out( 5908): Values: -7.6293945E-5 0.0010528564 -9.1552734E-5
+01-07 14:38:04.094 I/System.out( 5908): Values: -6.1035156E-4 -0.001083374 0.0015106201
+01-07 14:38:05.095 I/System.out( 5908): Values: -0.0011444092 0.0015869141 -6.2561035E-4
+01-07 14:38:06.106 I/System.out( 5908): Values: -7.6293945E-5 -1.5258789E-5 0.0015106201
+01-07 14:38:07.096 I/System.out( 5908): Values: 4.5776367E-4 5.187988E-4 -6.2561035E-4
+01-07 14:38:08.097 I/System.out( 5908): Values: 0.0015258789 -1.5258789E-5 9.765625E-4
+01-07 14:38:09.098 I/System.out( 5908): Values: -0.0022125244 0.0015869141 4.4250488E-4
+01-07 14:38:10.099 I/System.out( 5908): Values: -0.002746582 0.0026550293 -0.0022277832
+01-07 14:38:11.100 I/System.out( 5908): Values: -6.1035156E-4 -1.5258789E-5 -9.1552734E-5
+01-07 14:38:12.101 I/System.out( 5908): Values: -6.1035156E-4 5.187988E-4 9.765625E-4
+01-07 14:38:13.102 I/System.out( 5908): Values: -0.0022125244 0.0010528564 9.765625E-4
+01-07 14:38:14.103 I/System.out( 5908): Values: -6.1035156E-4 -0.0021514893 4.4250488E-4
+01-07 14:38:15.104 I/System.out( 5908): Values: -0.0016784668 -0.0021514893 -6.2561035E-4
+01-07 14:38:16.095 I/System.out( 5908): Values: 0.0015258789 -0.005355835 -0.0016937256
+01-07 14:38:17.096 I/System.out( 5908): Values: -0.0011444092 -5.493164E-4 4.4250488E-4
+01-07 14:38:18.097 I/System.out( 5908): Values: -0.002746582 -0.001083374 -6.2561035E-4
+01-07 14:38:19.108 I/System.out( 5908): Values: 0.0015258789 -0.0016174316 -9.1552734E-5
+01-07 14:38:20.099 I/System.out( 5908): Values: -6.1035156E-4 -0.001083374 -9.1552734E-5
+01-07 14:38:21.120 I/System.out( 5908): Values: 0.0015258789 -5.493164E-4 -0.001159668
+01-07 14:38:22.121 I/System.out( 5908): Values: 4.5776367E-4 -1.5258789E-5 -9.1552734E-5
+01-07 14:38:23.122 I/System.out( 5908): Values: 4.5776367E-4 0.0015869141 -6.2561035E-4
+01-07 14:38:24.123 I/System.out( 5908): Values: -0.0011444092 -0.001083374 -9.1552734E-5
+01-07 14:38:25.114 I/System.out( 5908): Values: 4.272461E-4 0.0015258789 0.0030670166
+01-07 14:38:25.665 D/dalvikvm(  711): GC_CONCURRENT freed 387K, 7% free 9852K/10584K, paused 16ms+2ms, total 37ms
+01-07 14:38:26.115 I/System.out( 5908): Values: 0.0014953613 -0.0016784668 -1.373291E-4
+01-07 14:38:27.116 I/System.out( 5908): Values: -0.002243042 -0.0011444092 9.3078613E-4
+01-07 14:38:28.117 I/System.out( 5908): Values: 4.272461E-4 9.918213E-4 -1.373291E-4
+01-07 14:38:29.118 I/System.out( 5908): Values: -0.0027770996 9.918213E-4 -0.0022735596
+01-07 14:38:30.119 I/System.out( 5908): Values: -1.0681152E-4 4.5776367E-4 -1.373291E-4
+01-07 14:38:31.120 I/System.out( 5908): Values: -0.0011749268 -0.0011444092 0.0014648438
+01-07 14:38:32.121 I/System.out( 5908): Values: -0.0017089844 -0.0032806396 0.002532959
+01-07 14:38:33.122 I/System.out( 5908): Values: -1.0681152E-4 4.5776367E-4 -1.373291E-4
+01-07 14:38:34.133 I/System.out( 5908): Values: 0.0014953613 -0.0011444092 0.0019989014
+01-07 14:38:35.124 I/System.out( 5908): Values: -0.0017089844 0.0036621094 -1.373291E-4
+01-07 14:38:36.125 I/System.out( 5908): Values: 4.272461E-4 -0.0016784668 9.3078613E-4
+01-07 14:38:37.126 I/System.out( 5908): Values: -0.002243042 9.918213E-4 -6.713867E-4
+01-07 14:38:38.127 I/System.out( 5908): Values: -6.4086914E-4 -7.6293945E-5 -6.713867E-4
+01-07 14:38:39.128 I/System.out( 5908): Values: -6.4086914E-4 0.0015258789 -0.001739502
+01-07 14:38:40.129 I/System.out( 5908): Values: 9.613037E-4 -0.0011444092 -0.001739502
+01-07 14:38:41.130 I/System.out( 5908): Values: 4.272461E-4 -7.6293945E-5 -0.0012054443
+01-07 14:38:42.131 I/System.out( 5908): Values: 0.002029419 9.918213E-4 3.9672852E-4
+01-07 14:38:43.132 I/System.out( 5908): Values: 0.002029419 -0.0011444092 -6.713867E-4
+01-07 14:38:44.133 I/System.out( 5908): Values: 4.272461E-4 -0.0011444092 -6.713867E-4
+01-07 14:38:45.134 I/System.out( 5908): Values: -1.0681152E-4 0.0025939941 0.0014648438
+01-07 14:38:46.125 I/System.out( 5908): Values: -0.0011749268 4.5776367E-4 -1.373291E-4
+01-07 14:38:47.126 I/System.out( 5908): Values: -1.0681152E-4 -0.002746582 3.9672852E-4
+01-07 14:38:47.176 I/EventLogService(  804): Aggregate from 1389103727031 (log), 1389103727031 (data)
+01-07 14:38:47.236 I/ServiceDumpSys(  804): dumping service [account]
+01-07 14:38:48.127 I/System.out( 5908): Values: -0.0011749268 4.5776367E-4 -6.713867E-4
+01-07 14:38:48.207 I/EntropyMixer(  523): Writing entropy...
+01-07 14:38:49.128 I/System.out( 5908): Values: -0.0011749268 -0.0011444092 -0.0012054443
+01-07 14:38:50.128 I/System.out( 5908): Values: 4.272461E-4 0.004196167 9.3078613E-4
+01-07 14:38:51.129 I/System.out( 5908): Values: 4.272461E-4 -6.1035156E-4 -6.713867E-4
+01-07 14:38:52.130 I/System.out( 5908): Values: -0.002243042 9.918213E-4 -6.713867E-4
+01-07 14:38:53.131 I/System.out( 5908): Values: -0.0017089844 -0.002746582 -1.373291E-4
+01-07 14:38:54.132 I/System.out( 5908): Values: 0.0014953613 0.0015258789 3.9672852E-4
+01-07 14:38:55.143 I/System.out( 5908): Values: -0.002243042 4.5776367E-4 -0.0022735596
+01-07 14:38:56.134 I/System.out( 5908): Values: 9.613037E-4 -7.6293945E-5 -0.0012054443
+01-07 14:38:57.135 I/System.out( 5908): Values: 0.0030975342 -0.0022125244 3.9672852E-4
+01-07 14:38:58.136 I/System.out( 5908): Values: -0.0017089844 -0.002746582 3.9672852E-4
+01-07 14:38:59.137 I/System.out( 5908): Values: -0.0011749268 -0.0016784668 0.0036010742
+01-07 14:39:00.138 I/System.out( 5908): Values: -0.0011749268 0.0015258789 -1.373291E-4
+01-07 14:39:01.139 I/System.out( 5908): Values: -0.0011749268 -7.6293945E-5 3.9672852E-4
+01-07 14:39:02.140 I/System.out( 5908): Values: 4.272461E-4 -0.0059509277 -6.713867E-4
+01-07 14:39:03.141 I/System.out( 5908): Values: -1.0681152E-4 -6.1035156E-4 -1.373291E-4
+01-07 14:39:04.142 I/System.out( 5908): Values: 9.613037E-4 4.5776367E-4 -6.713867E-4
+01-07 14:39:05.143 I/System.out( 5908): Values: 0.0025634766 -0.0011444092 3.9672852E-4
+01-07 14:39:06.144 I/System.out( 5908): Values: 4.272461E-4 0.0031280518 3.9672852E-4
+01-07 14:39:07.145 I/System.out( 5908): Values: -0.0017089844 0.0031280518 -0.0012054443
+01-07 14:39:08.146 I/System.out( 5908): Values: -6.4086914E-4 -0.0011444092 3.9672852E-4
+01-07 14:39:09.147 I/System.out( 5908): Values: -1.0681152E-4 -0.0016784668 -0.0012054443
+01-07 14:39:10.148 I/System.out( 5908): Values: -0.0017089844 -0.0011444092 0.0014648438
+01-07 14:39:11.149 I/System.out( 5908): Values: 9.613037E-4 -7.6293945E-5 -6.713867E-4
+01-07 14:39:12.150 I/System.out( 5908): Values: 9.613037E-4 4.5776367E-4 0.0019989014
+01-07 14:39:13.151 I/System.out( 5908): Values: -0.0011749268 -0.0011444092 -1.373291E-4
+01-07 14:39:14.152 I/System.out( 5908): Values: 9.613037E-4 9.918213E-4 -1.373291E-4
+01-07 14:39:15.153 I/System.out( 5908): Values: -0.0017089844 0.0020599365 3.9672852E-4
+01-07 14:39:16.144 I/System.out( 5908): Values: -0.002243042 -6.1035156E-4 -1.373291E-4
+01-07 14:39:17.145 I/System.out( 5908): Values: -6.4086914E-4 -0.0016784668 -6.713867E-4
+01-07 14:39:18.146 I/System.out( 5908): Values: 4.272461E-4 -0.0011444092 -0.001739502
+01-07 14:39:19.147 I/System.out( 5908): Values: -1.0681152E-4 -7.6293945E-5 -0.0012054443
+01-07 14:39:20.148 I/System.out( 5908): Values: -1.0681152E-4 -0.0011444092 -0.0012054443
+01-07 14:39:21.149 I/System.out( 5908): Values: -0.0017089844 -6.1035156E-4 -0.0022735596
+01-07 14:39:22.150 I/System.out( 5908): Values: -0.0011749268 -7.6293945E-5 -0.0022735596
+01-07 14:39:23.151 I/System.out( 5908): Values: 0.0014953613 -7.6293945E-5 -6.713867E-4
+01-07 14:39:24.162 I/System.out( 5908): Values: 0.002029419 -0.0022125244 -0.0012054443
+01-07 14:39:25.163 I/System.out( 5908): Values: -0.0018005371 -0.0012817383 9.1552734E-4
+01-07 14:39:26.164 I/System.out( 5908): Values: -7.324219E-4 0.0013885498 -0.0012207031
+01-07 14:39:27.155 I/System.out( 5908): Values: -0.0028686523 3.2043457E-4 0.0025177002
+01-07 14:39:28.156 I/System.out( 5908): Values: -0.0012664795 0.0013885498 -6.866455E-4
+01-07 14:39:29.157 I/System.out( 5908): Values: 8.69751E-4 8.544922E-4 0.001449585
+01-07 14:39:30.158 I/System.out( 5908): Values: -7.324219E-4 -7.4768066E-4 3.8146973E-4
+01-07 14:39:31.159 I/System.out( 5908): Values: -1.9836426E-4 8.544922E-4 -0.0012207031
+01-07 14:39:32.159 I/System.out( 5908): Values: -0.0023345947 3.2043457E-4 9.1552734E-4
+01-07 14:39:33.160 I/System.out( 5908): Values: -0.0012664795 3.2043457E-4 -0.0012207031
+01-07 14:39:34.161 I/System.out( 5908): Values: -0.0023345947 -7.4768066E-4 -0.0017547607
+01-07 14:39:35.162 I/System.out( 5908): Values: 0.0014038086 0.0013885498 -6.866455E-4
+01-07 14:39:36.163 I/System.out( 5908): Values: 3.3569336E-4 0.0013885498 -1.5258789E-4
+01-07 14:39:37.154 I/System.out( 5908): Values: 0.0014038086 3.2043457E-4 3.8146973E-4
+01-07 14:39:38.155 I/System.out( 5908): Values: -1.9836426E-4 -2.1362305E-4 3.8146973E-4
+01-07 14:39:39.156 I/System.out( 5908): Values: -0.0028686523 -2.1362305E-4 -1.5258789E-4
+01-07 14:39:40.157 I/System.out( 5908): Values: 0.0040740967 -0.006088257 3.8146973E-4
+01-07 14:39:41.158 I/System.out( 5908): Values: 8.69751E-4 8.544922E-4 -0.0012207031
+01-07 14:39:42.159 I/System.out( 5908): Values: 8.69751E-4 8.544922E-4 -6.866455E-4
+01-07 14:39:43.160 I/System.out( 5908): Values: -0.0028686523 0.004058838 -0.0022888184
+01-07 14:39:44.161 I/System.out( 5908): Values: 8.69751E-4 8.544922E-4 -1.5258789E-4
+01-07 14:39:45.162 I/System.out( 5908): Values: 0.0030059814 8.544922E-4 -0.0012207031
+01-07 14:39:46.163 I/System.out( 5908): Values: -0.0018005371 -7.4768066E-4 -6.866455E-4
+01-07 14:39:47.154 I/System.out( 5908): Values: -0.0012664795 -7.4768066E-4 -1.5258789E-4
+01-07 14:39:48.155 I/System.out( 5908): Values: -0.0023345947 3.2043457E-4 0.0019836426
+01-07 14:39:48.225 D/dalvikvm( 5908): GC_CONCURRENT freed 386K, 5% free 9016K/9440K, paused 15ms+1ms, total 62ms
+01-07 14:39:49.166 I/System.out( 5908): Values: 0.0014038086 -0.0018157959 9.1552734E-4
+01-07 14:39:50.157 I/System.out( 5908): Values: -0.0018005371 -2.1362305E-4 3.8146973E-4
+01-07 14:39:51.158 I/System.out( 5908): Values: -1.9836426E-4 0.0035247803 -0.0017547607
+01-07 14:39:52.169 I/System.out( 5908): Values: -0.0012664795 -0.0028839111 3.8146973E-4
+01-07 14:39:53.170 I/System.out( 5908): Values: 3.3569336E-4 -0.0012817383 -1.5258789E-4
+01-07 14:39:54.171 I/System.out( 5908): Values: 0.0019378662 8.544922E-4 -0.0012207031
+01-07 14:39:55.172 I/System.out( 5908): Values: -7.324219E-4 8.544922E-4 -1.5258789E-4
+01-07 14:39:56.173 I/System.out( 5908): Values: -0.0012664795 0.0019226074 -1.5258789E-4
+01-07 14:39:57.164 I/System.out( 5908): Values: 0.0019378662 8.544922E-4 -6.866455E-4
+01-07 14:39:58.165 I/System.out( 5908): Values: -0.0018005371 3.2043457E-4 -1.5258789E-4
+01-07 14:39:59.166 I/System.out( 5908): Values: 3.3569336E-4 3.2043457E-4 -1.5258789E-4
+01-07 14:40:00.167 I/System.out( 5908): Values: 0.0030059814 3.2043457E-4 -1.5258789E-4
+01-07 14:40:01.178 I/System.out( 5908): Values: -0.0012664795 -0.0039520264 -1.5258789E-4
+01-07 14:40:02.169 I/System.out( 5908): Values: -0.0018005371 0.002456665 -0.0012207031
+01-07 14:40:03.170 I/System.out( 5908): Values: 3.3569336E-4 0.0013885498 -0.0017547607
+01-07 14:40:04.171 I/System.out( 5908): Values: -0.0018005371 -2.1362305E-4 -0.0012207031
+01-07 14:40:05.172 I/System.out( 5908): Values: -0.0028686523 0.004058838 -6.866455E-4
+01-07 14:40:06.173 I/System.out( 5908): Values: 0.0019378662 -2.1362305E-4 0.0019836426
+01-07 14:40:07.174 I/System.out( 5908): Values: -1.9836426E-4 0.0013885498 -6.866455E-4
+01-07 14:40:08.165 I/System.out( 5908): Values: 0.0014038086 -0.0034179688 3.8146973E-4
+01-07 14:40:09.166 I/System.out( 5908): Values: -1.9836426E-4 -2.1362305E-4 -0.0017547607
+01-07 14:40:10.167 I/System.out( 5908): Values: -1.9836426E-4 -0.0023498535 3.8146973E-4
+01-07 14:40:11.168 I/System.out( 5908): Values: -7.324219E-4 3.2043457E-4 3.8146973E-4
+01-07 14:40:12.169 I/System.out( 5908): Values: 0.0014038086 0.002456665 9.1552734E-4
+01-07 14:40:13.169 I/System.out( 5908): Values: -7.324219E-4 -0.0039520264 -1.5258789E-4
+01-07 14:40:14.170 I/System.out( 5908): Values: 8.69751E-4 -0.0028839111 -1.5258789E-4
+01-07 14:40:15.171 I/System.out( 5908): Values: 0.0030059814 -0.0018157959 3.8146973E-4
+01-07 14:40:16.172 I/System.out( 5908): Values: 0.0024719238 -0.0012817383 0.0019836426
+01-07 14:40:17.173 I/System.out( 5908): Values: -0.0012664795 -0.0018157959 -0.0012207031
+01-07 14:40:18.174 I/System.out( 5908): Values: -7.324219E-4 0.0019226074 9.1552734E-4
+01-07 14:40:19.165 I/System.out( 5908): Values: -0.0018005371 -2.1362305E-4 3.8146973E-4
+01-07 14:40:20.176 I/System.out( 5908): Values: -0.0028686523 -7.4768066E-4 -0.0012207031
+01-07 14:40:21.177 I/System.out( 5908): Values: -7.324219E-4 -0.0012817383 0.0019836426
+01-07 14:40:22.178 I/System.out( 5908): Values: -0.0023345947 -7.4768066E-4 3.8146973E-4
+01-07 14:40:23.179 I/System.out( 5908): Values: -7.324219E-4 -7.4768066E-4 -1.5258789E-4
+01-07 14:40:24.180 I/System.out( 5908): Values: -0.0028686523 -7.4768066E-4 0.001449585
+01-07 14:40:25.181 I/System.out( 5908): Values: 1.5258789E-5 -0.0011444092 -2.1362305E-4
+01-07 14:40:26.182 I/System.out( 5908): Values: 0.001083374 -0.0022125244 -0.0028839111
+01-07 14:40:27.183 I/System.out( 5908): Values: -5.187988E-4 9.918213E-4 -2.1362305E-4
+01-07 14:40:28.174 I/System.out( 5908): Values: 5.493164E-4 9.918213E-4 3.2043457E-4
+01-07 14:40:29.175 I/System.out( 5908): Values: 0.001083374 -0.0016784668 0.0013885498
+01-07 14:40:30.176 I/System.out( 5908): Values: -5.187988E-4 0.0015258789 8.544922E-4
+01-07 14:40:31.177 I/System.out( 5908): Values: 1.5258789E-5 -0.002746582 3.2043457E-4
+01-07 14:40:32.178 I/System.out( 5908): Values: 0.0026855469 4.5776367E-4 -2.1362305E-4
+01-07 14:40:33.179 I/System.out( 5908): Values: 0.001083374 -7.6293945E-5 8.544922E-4
+01-07 14:40:34.180 I/System.out( 5908): Values: 0.001083374 -0.0011444092 3.2043457E-4
+01-07 14:40:35.181 I/System.out( 5908): Values: 0.0016174316 0.0025939941 -2.1362305E-4
+01-07 14:40:36.192 I/System.out( 5908): Values: -0.0010528564 0.0020599365 -2.1362305E-4
+01-07 14:40:37.183 I/System.out( 5908): Values: -0.0010528564 0.0015258789 -2.1362305E-4
+01-07 14:40:38.184 I/System.out( 5908): Values: -0.003189087 -6.1035156E-4 3.2043457E-4
+01-07 14:40:39.185 I/System.out( 5908): Values: 5.493164E-4 -6.1035156E-4 -7.4768066E-4
+01-07 14:40:40.186 I/System.out( 5908): Values: -0.0021209717 -6.1035156E-4 8.544922E-4
+01-07 14:40:41.187 I/System.out( 5908): Values: -5.187988E-4 4.5776367E-4 -0.0012817383
+01-07 14:40:42.188 I/System.out( 5908): Values: 0.001083374 9.918213E-4 -7.4768066E-4
+01-07 14:40:43.189 I/System.out( 5908): Values: 0.0026855469 -7.6293945E-5 0.0019226074
+01-07 14:40:44.190 I/System.out( 5908): Values: 0.0021514893 9.918213E-4 -2.1362305E-4
+01-07 14:40:45.191 I/System.out( 5908): Values: 1.5258789E-5 9.918213E-4 -7.4768066E-4
+01-07 14:40:46.192 I/System.out( 5908): Values: -0.0015869141 4.5776367E-4 -2.1362305E-4
+01-07 14:40:47.193 I/System.out( 5908): Values: 5.493164E-4 4.5776367E-4 -2.1362305E-4
+01-07 14:40:48.184 I/System.out( 5908): Values: 0.0016174316 -6.1035156E-4 3.2043457E-4
+01-07 14:40:49.195 I/System.out( 5908): Values: -0.0010528564 -6.1035156E-4 0.0013885498
+01-07 14:40:50.186 I/System.out( 5908): Values: 0.0026855469 0.0031280518 8.544922E-4
+01-07 14:40:51.187 I/System.out( 5908): Values: 5.493164E-4 0.0015258789 8.544922E-4
+01-07 14:40:52.188 I/System.out( 5908): Values: -0.0015869141 0.0025939941 -0.0012817383
+01-07 14:40:53.189 I/System.out( 5908): Values: -0.0015869141 -0.0022125244 8.544922E-4
+01-07 14:40:54.190 I/System.out( 5908): Values: -0.0010528564 -6.1035156E-4 -0.0023498535
+01-07 14:40:55.190 I/System.out( 5908): Values: -5.187988E-4 -6.1035156E-4 0.0019226074
+01-07 14:40:56.191 I/System.out( 5908): Values: 5.493164E-4 -0.0032806396 -0.0018157959
+01-07 14:40:57.192 I/System.out( 5908): Values: 1.5258789E-5 -0.0011444092 -0.0023498535
+01-07 14:40:58.203 I/System.out( 5908): Values: 0.001083374 0.0025939941 -2.1362305E-4
+01-07 14:40:59.204 I/System.out( 5908): Values: -0.0010528564 4.5776367E-4 -0.0012817383
+01-07 14:41:00.195 I/System.out( 5908): Values: 0.0016174316 4.5776367E-4 -2.1362305E-4
+01-07 14:41:01.196 I/System.out( 5908): Values: -5.187988E-4 0.0020599365 -2.1362305E-4
+01-07 14:41:02.197 I/System.out( 5908): Values: 0.001083374 -0.0016784668 8.544922E-4
+01-07 14:41:03.198 I/System.out( 5908): Values: 5.493164E-4 -0.002746582 3.2043457E-4
+01-07 14:41:04.199 I/System.out( 5908): Values: -0.0026550293 9.918213E-4 -2.1362305E-4
+01-07 14:41:05.200 I/System.out( 5908): Values: 0.0021514893 0.0025939941 0.0013885498
+01-07 14:41:06.201 I/System.out( 5908): Values: 0.001083374 -6.1035156E-4 0.002456665
+01-07 14:41:07.202 I/System.out( 5908): Values: -0.0015869141 -0.0011444092 -7.4768066E-4
+01-07 14:41:08.203 I/System.out( 5908): Values: 0.0016174316 -6.1035156E-4 -2.1362305E-4
+01-07 14:41:09.204 I/System.out( 5908): Values: 0.0026855469 -0.0016784668 -0.0018157959
+01-07 14:41:10.205 I/System.out( 5908): Values: -0.0010528564 -7.6293945E-5 -0.0012817383
+01-07 14:41:11.206 I/System.out( 5908): Values: -0.0010528564 -0.0038146973 -2.1362305E-4
+01-07 14:41:12.207 I/System.out( 5908): Values: -0.0010528564 -6.1035156E-4 0.0013885498
+01-07 14:41:13.208 I/System.out( 5908): Values: 0.0032196045 -0.0022125244 -7.4768066E-4
+01-07 14:41:14.209 I/System.out( 5908): Values: -5.187988E-4 4.5776367E-4 -2.1362305E-4
+01-07 14:41:15.210 I/System.out( 5908): Values: -0.0015869141 -0.0032806396 3.2043457E-4
+01-07 14:41:16.211 I/System.out( 5908): Values: -0.0015869141 0.0025939941 8.544922E-4
+01-07 14:41:17.212 I/System.out( 5908): Values: -0.0010528564 9.918213E-4 8.544922E-4
+01-07 14:41:18.213 I/System.out( 5908): Values: 5.493164E-4 0.0025939941 8.544922E-4
+01-07 14:41:19.214 I/System.out( 5908): Values: 0.0016174316 0.0020599365 3.2043457E-4
+01-07 14:41:20.215 I/System.out( 5908): Values: 0.001083374 4.5776367E-4 -2.1362305E-4
+01-07 14:41:21.206 I/System.out( 5908): Values: 0.001083374 -6.1035156E-4 8.544922E-4
+01-07 14:41:22.217 I/System.out( 5908): Values: -5.187988E-4 0.0020599365 -7.4768066E-4
+01-07 14:41:23.208 I/System.out( 5908): Values: -0.0037231445 9.918213E-4 8.544922E-4
+01-07 14:41:24.209 I/System.out( 5908): Values: 1.5258789E-5 -6.1035156E-4 -0.0012817383
+01-07 14:41:25.210 I/System.out( 5908): Values: 0.0010528564 -6.1035156E-4 3.0517578E-4
+01-07 14:41:26.221 I/System.out( 5908): Values: -0.001083374 -7.6293945E-5 3.0517578E-4
+01-07 14:41:27.212 I/System.out( 5908): Values: -0.0021514893 -0.002746582 -0.0012969971
+01-07 14:41:28.223 I/System.out( 5908): Values: -0.0021514893 -7.6293945E-5 -2.2888184E-4
+01-07 14:41:29.224 I/System.out( 5908): Values: 5.187988E-4 -0.002746582 -7.6293945E-4
+01-07 14:41:30.215 I/System.out( 5908): Values: -1.5258789E-5 -0.0016784668 -2.2888184E-4
+01-07 14:41:31.216 I/System.out( 5908): Values: -5.493164E-4 -7.6293945E-5 -0.0018310547
+01-07 14:41:32.217 I/System.out( 5908): Values: -0.0021514893 -0.002746582 3.0517578E-4
+01-07 14:41:33.218 I/System.out( 5908): Values: 0.0010528564 -0.0038146973 0.001373291
+01-07 14:41:34.219 I/System.out( 5908): Values: -1.5258789E-5 9.918213E-4 -7.6293945E-4
+01-07 14:41:35.220 I/System.out( 5908): Values: 0.0010528564 -0.0022125244 -2.2888184E-4
+01-07 14:41:36.221 I/System.out( 5908): Values: 0.0010528564 -6.1035156E-4 -7.6293945E-4
+01-07 14:41:37.221 I/System.out( 5908): Values: -0.0021514893 0.00793457 -2.2888184E-4
+01-07 14:41:38.222 I/System.out( 5908): Values: 0.0010528564 -6.1035156E-4 0.0019073486
+01-07 14:41:39.223 I/System.out( 5908): Values: 0.0021209717 -0.002746582 -7.6293945E-4
+01-07 14:41:40.214 I/System.out( 5908): Values: -5.493164E-4 -7.6293945E-5 3.0517578E-4
+01-07 14:41:41.215 I/System.out( 5908): Values: 5.187988E-4 -0.0011444092 0.0024414063
+01-07 14:41:42.216 I/System.out( 5908): Values: -1.5258789E-5 0.0020599365 -2.2888184E-4
+01-07 14:41:43.217 I/System.out( 5908): Values: -1.5258789E-5 4.5776367E-4 -2.2888184E-4
+01-07 14:41:44.218 I/System.out( 5908): Values: -0.0021514893 4.5776367E-4 3.0517578E-4
+01-07 14:41:45.219 I/System.out( 5908): Values: 0.0010528564 0.0015258789 8.392334E-4
+01-07 14:41:46.220 I/System.out( 5908): Values: -1.5258789E-5 9.918213E-4 3.0517578E-4
+01-07 14:41:47.221 I/System.out( 5908): Values: 0.0015869141 0.0015258789 8.392334E-4
+01-07 14:41:48.222 I/System.out( 5908): Values: -0.0016174316 4.5776367E-4 -2.2888184E-4
+01-07 14:41:49.223 I/System.out( 5908): Values: -0.001083374 -6.1035156E-4 -2.2888184E-4
+01-07 14:41:50.214 I/System.out( 5908): Values: -1.5258789E-5 -0.0016784668 0.001373291
+01-07 14:41:51.225 I/System.out( 5908): Values: 0.0021209717 9.918213E-4 -7.6293945E-4
+01-07 14:41:52.216 I/System.out( 5908): Values: -0.001083374 -0.0011444092 0.001373291
+01-07 14:41:53.217 I/System.out( 5908): Values: -5.493164E-4 9.918213E-4 8.392334E-4
+01-07 14:41:54.218 I/System.out( 5908): Values: -5.493164E-4 9.918213E-4 0.0024414063
+01-07 14:41:55.219 I/System.out( 5908): Values: -0.001083374 -0.0016784668 3.0517578E-4
+01-07 14:41:56.220 I/System.out( 5908): Values: 0.0026550293 -6.1035156E-4 -0.0012969971
+01-07 14:41:57.221 I/System.out( 5908): Values: -0.0021514893 -0.0011444092 -2.2888184E-4
+01-07 14:41:58.232 I/System.out( 5908): Values: 0.0010528564 -7.6293945E-5 3.0517578E-4
+01-07 14:41:59.233 I/System.out( 5908): Values: 0.0021209717 -0.00541687 0.0019073486
+01-07 14:42:00.234 I/System.out( 5908): Values: 0.0021209717 0.0025939941 -7.6293945E-4
+01-07 14:42:01.225 I/System.out( 5908): Values: -1.5258789E-5 -0.0011444092 0.0019073486
+01-07 14:42:02.226 I/System.out( 5908): Values: -5.493164E-4 0.0015258789 -2.2888184E-4
+01-07 14:42:03.227 I/System.out( 5908): Values: -0.0032196045 4.5776367E-4 -0.0012969971
+01-07 14:42:04.228 I/System.out( 5908): Values: 5.187988E-4 4.5776367E-4 0.001373291
+01-07 14:42:05.229 I/System.out( 5908): Values: -0.0026855469 4.5776367E-4 -0.0023651123
+01-07 14:42:06.230 I/System.out( 5908): Values: -0.0021514893 4.5776367E-4 3.0517578E-4
+01-07 14:42:07.231 I/System.out( 5908): Values: -0.001083374 9.918213E-4 -2.2888184E-4
+01-07 14:42:08.232 I/System.out( 5908): Values: -0.001083374 -6.1035156E-4 3.0517578E-4
+01-07 14:42:09.233 I/System.out( 5908): Values: -5.493164E-4 -0.0011444092 8.392334E-4
+01-07 14:42:10.234 I/System.out( 5908): Values: 0.0010528564 4.5776367E-4 0.001373291
+01-07 14:42:11.235 I/System.out( 5908): Values: -0.0016174316 -0.0011444092 3.0517578E-4
+01-07 14:42:12.226 I/System.out( 5908): Values: 0.0010528564 -7.6293945E-5 -7.6293945E-4
+01-07 14:42:13.227 I/System.out( 5908): Values: -5.493164E-4 4.5776367E-4 -0.0018310547
+01-07 14:42:14.228 I/System.out( 5908): Values: 0.0015869141 0.0015258789 -0.0012969971
+01-07 14:42:15.229 I/System.out( 5908): Values: 0.0021209717 9.918213E-4 -0.00289917
+01-07 14:42:16.230 I/System.out( 5908): Values: 0.0010528564 -6.1035156E-4 8.392334E-4
+01-07 14:42:17.241 I/System.out( 5908): Values: 0.0021209717 9.918213E-4 -7.6293945E-4
+01-07 14:42:18.242 I/System.out( 5908): Values: 0.0010528564 -0.0011444092 8.392334E-4
+01-07 14:42:19.242 I/System.out( 5908): Values: -0.001083374 -6.1035156E-4 8.392334E-4
+01-07 14:42:20.243 I/System.out( 5908): Values: -5.493164E-4 -0.002746582 -0.00289917
+01-07 14:42:21.234 I/System.out( 5908): Values: 0.0026550293 -0.002746582 0.001373291
+01-07 14:42:22.235 I/System.out( 5908): Values: -0.0026855469 9.918213E-4 0.0019073486
+01-07 14:42:23.236 I/System.out( 5908): Values: 5.187988E-4 -7.6293945E-5 -2.2888184E-4
+01-07 14:42:24.237 I/System.out( 5908): Values: -5.950928E-4 0.0030517578 -0.0012207031
+01-07 14:42:25.238 I/System.out( 5908): Values: 0.0010070801 -1.5258789E-4 -1.5258789E-4
+01-07 14:42:26.239 I/System.out( 5908): Values: -0.001663208 3.8146973E-4 9.1552734E-4
+01-07 14:42:27.240 I/System.out( 5908): Values: -5.950928E-4 -0.0012207031 -0.0012207031
+01-07 14:42:28.241 I/System.out( 5908): Values: -5.950928E-4 0.0019836426 -0.0022888184
+01-07 14:42:29.242 I/System.out( 5908): Values: 4.7302246E-4 0.001449585 -6.866455E-4
+01-07 14:42:30.243 I/System.out( 5908): Values: 0.0015411377 -0.0033569336 -6.866455E-4
+01-07 14:42:31.234 I/System.out( 5908): Values: 4.7302246E-4 -0.0012207031 0.0019836426
+01-07 14:42:32.235 I/System.out( 5908): Values: -0.0011291504 9.1552734E-4 0.0025177002
+01-07 14:42:33.236 I/System.out( 5908): Values: -0.0032653809 0.0019836426 0.001449585
+01-07 14:42:34.237 I/System.out( 5908): Values: -5.950928E-4 -0.0012207031 -0.0012207031
+01-07 14:42:35.238 I/System.out( 5908): Values: 0.004211426 -6.866455E-4 0.001449585
+01-07 14:42:36.249 I/System.out( 5908): Values: 4.7302246E-4 -6.866455E-4 3.8146973E-4
+01-07 14:42:37.240 I/System.out( 5908): Values: 0.0031433105 -1.5258789E-4 -1.5258789E-4
+01-07 14:42:38.251 I/System.out( 5908): Values: 0.0010070801 -0.0017547607 0.0019836426
+01-07 14:42:39.252 I/System.out( 5908): Values: -6.1035156E-5 -0.0012207031 0.001449585
+01-07 14:42:40.253 I/System.out( 5908): Values: -6.1035156E-5 3.8146973E-4 -0.0012207031
+01-07 14:42:41.244 I/System.out( 5908): Values: -6.1035156E-5 -0.0012207031 3.8146973E-4
+01-07 14:42:42.245 I/System.out( 5908): Values: 0.0015411377 3.8146973E-4 3.8146973E-4
+01-07 14:42:43.256 I/System.out( 5908): Values: 0.0020751953 -0.0017547607 -1.5258789E-4
+01-07 14:42:44.247 I/System.out( 5908): Values: -0.001663208 -0.0012207031 -0.002822876
+01-07 14:42:45.248 I/System.out( 5908): Values: -0.001663208 -1.5258789E-4 9.1552734E-4
+01-07 14:42:46.249 I/System.out( 5908): Values: 0.0020751953 0.0035858154 -1.5258789E-4
+01-07 14:42:47.250 I/System.out( 5908): Values: -6.1035156E-5 -0.0012207031 9.1552734E-4
+01-07 14:42:48.251 I/System.out( 5908): Values: -6.1035156E-5 0.0025177002 0.001449585
+01-07 14:42:49.252 I/System.out( 5908): Values: -6.1035156E-5 -1.5258789E-4 -0.0012207031
+01-07 14:42:50.253 I/System.out( 5908): Values: 0.0010070801 0.0030517578 3.8146973E-4
+01-07 14:42:51.254 I/System.out( 5908): Values: -0.0021972656 -1.5258789E-4 -6.866455E-4
+01-07 14:42:51.314 D/dalvikvm( 5908): GC_CONCURRENT freed 386K, 5% free 9016K/9440K, paused 15ms+2ms, total 60ms
+01-07 14:42:52.255 I/System.out( 5908): Values: -6.1035156E-5 3.8146973E-4 0.001449585
+01-07 14:42:53.256 I/System.out( 5908): Values: -5.950928E-4 -1.5258789E-4 -0.0017547607
+01-07 14:42:54.257 I/System.out( 5908): Values: 0.0010070801 -0.0017547607 -1.5258789E-4
+01-07 14:42:55.258 I/System.out( 5908): Values: -6.1035156E-5 -1.5258789E-4 -0.0022888184
+01-07 14:42:56.259 I/System.out( 5908): Values: 4.7302246E-4 -1.5258789E-4 -0.0012207031
+01-07 14:42:57.260 I/System.out( 5908): Values: 0.0010070801 -0.002822876 -6.866455E-4
+01-07 14:42:58.261 I/System.out( 5908): Values: -5.950928E-4 3.8146973E-4 -6.866455E-4
+01-07 14:42:59.262 I/System.out( 5908): Values: -6.1035156E-5 -6.866455E-4 0.001449585
+01-07 14:43:00.002 I/ActivityManager(  523): No longer want com.google.android.music:main (pid 5279): empty for 1849s
+01-07 14:43:00.062 W/ActivityManager(  523): Scheduling restart of crashed service com.google.android.music/.playback.MusicPlaybackService in 5000ms
+01-07 14:43:00.263 I/System.out( 5908): Values: 0.0010070801 -6.866455E-4 9.1552734E-4
+01-07 14:43:01.253 I/System.out( 5908): Values: 0.0010070801 -0.002822876 -6.866455E-4
+01-07 14:43:02.254 I/System.out( 5908): Values: -0.0021972656 -1.5258789E-4 -0.0022888184
+01-07 14:43:03.255 I/System.out( 5908): Values: 4.7302246E-4 -0.0012207031 -1.5258789E-4
+01-07 14:43:04.256 I/System.out( 5908): Values: 4.7302246E-4 -0.0022888184 9.1552734E-4
+01-07 14:43:05.117 I/ActivityManager(  523): Start proc com.google.android.music:main for service com.google.android.music/.playback.MusicPlaybackService: pid=5989 uid=10041 gids={50041, 3003, 1015, 1028}
+01-07 14:43:05.167 I/MusicStore( 5989): Database version: 70
+01-07 14:43:05.207 D/dalvikvm( 5989): GC_CONCURRENT freed 321K, 4% free 9049K/9412K, paused 3ms+1ms, total 18ms
+01-07 14:43:05.247 D/dalvikvm(  804): GC_EXPLICIT freed 186K, 5% free 9407K/9812K, paused 2ms+3ms, total 25ms
+01-07 14:43:05.257 I/System.out( 5908): Values: 0.002609253 -1.5258789E-4 -6.866455E-4
+01-07 14:43:05.297 D/SystemUtils( 5989): getSystemProperty: lpa.decode=null
+01-07 14:43:05.317 D/CacheService( 5989): onCreate
+01-07 14:43:05.317 D/CacheService( 5989): onBind
+01-07 14:43:05.327 I/LocalDevicePlayback( 5989): Streaming client created.
+01-07 14:43:06.258 I/System.out( 5908): Values: -6.1035156E-5 -1.5258789E-4 9.1552734E-4
+01-07 14:43:06.388 D/dalvikvm( 5989): GC_CONCURRENT freed 175K, 3% free 9309K/9544K, paused 6ms+6ms, total 40ms
+01-07 14:43:06.449 I/MediaStoreImporter( 5989): Update: incremental Added music: 0 Updated music: 0 Deleted music: 0 Created playlists: 0 Updated playlists: 0 Deleted playlists: 0 Inserted playlist items: 0 Deleted playlist items: 0 Removed orphaned playlist items: 0
+01-07 14:43:07.259 I/System.out( 5908): Values: -0.0011291504 -6.866455E-4 -1.5258789E-4
+01-07 14:43:08.260 I/System.out( 5908): Values: -5.950928E-4 -0.0017547607 -6.866455E-4
+01-07 14:43:09.261 I/System.out( 5908): Values: 0.0015411377 0.001449585 -0.0017547607
+01-07 14:43:10.262 I/System.out( 5908): Values: -5.950928E-4 -0.002822876 -1.5258789E-4
+01-07 14:43:10.362 I/MusicLeanback( 5989): Conditions not met for autocaching.
+01-07 14:43:10.362 I/MusicLeanback( 5989): Stop autocaching.
+01-07 14:43:11.263 I/System.out( 5908): Values: 0.0020751953 -0.0017547607 -1.5258789E-4
+01-07 14:43:12.264 I/System.out( 5908): Values: -0.001663208 -1.5258789E-4 -1.5258789E-4
+01-07 14:43:13.255 I/System.out( 5908): Values: -0.0011291504 -1.5258789E-4 -0.0012207031
+01-07 14:43:14.266 I/System.out( 5908): Values: 0.0020751953 -0.0012207031 0.0025177002
+01-07 14:43:15.257 I/System.out( 5908): Values: 4.7302246E-4 -0.0012207031 3.8146973E-4
+01-07 14:43:16.268 I/System.out( 5908): Values: 0.0010070801 -0.0012207031 -1.5258789E-4
+01-07 14:43:17.269 I/System.out( 5908): Values: -0.0011291504 -6.866455E-4 -1.5258789E-4
+01-07 14:43:18.270 I/System.out( 5908): Values: 0.0020751953 3.8146973E-4 3.8146973E-4
+01-07 14:43:19.271 I/System.out( 5908): Values: 0.0010070801 0.0025177002 -1.5258789E-4
+01-07 14:43:20.272 I/System.out( 5908): Values: -0.0021972656 3.8146973E-4 -1.5258789E-4
+01-07 14:43:21.273 I/System.out( 5908): Values: 0.0015411377 -1.5258789E-4 -0.0017547607
+01-07 14:43:22.274 I/System.out( 5908): Values: -5.950928E-4 0.001449585 -0.0012207031
+01-07 14:43:23.265 I/System.out( 5908): Values: 0.0010070801 -1.5258789E-4 3.8146973E-4
+01-07 14:43:24.266 I/System.out( 5908): Values: 3.8146973E-4 5.79834E-4 5.340576E-4
+01-07 14:43:25.267 I/System.out( 5908): Values: 3.8146973E-4 5.79834E-4 0.0
+01-07 14:43:26.268 I/System.out( 5908): Values: 3.8146973E-4 -0.0015563965 0.0010681152
+01-07 14:43:27.269 I/System.out( 5908): Values: 3.8146973E-4 0.0016479492 -0.0016021729
+01-07 14:43:28.270 I/System.out( 5908): Values: -1.5258789E-4 0.0011138916 0.0010681152
+01-07 14:43:29.271 I/System.out( 5908): Values: -1.5258789E-4 0.0011138916 -0.0010681152
+01-07 14:43:30.272 I/System.out( 5908): Values: 0.0035858154 0.0027160645 -0.0010681152
+01-07 14:43:31.273 I/System.out( 5908): Values: 3.8146973E-4 0.0016479492 0.0010681152
+01-07 14:43:32.274 I/System.out( 5908): Values: -1.5258789E-4 5.79834E-4 0.0
+01-07 14:43:33.275 I/System.out( 5908): Values: -1.5258789E-4 -0.002090454 5.340576E-4
+01-07 14:43:34.276 I/System.out( 5908): Values: -1.5258789E-4 -0.0010223389 0.0
+01-07 14:43:35.277 I/System.out( 5908): Values: -1.5258789E-4 4.5776367E-5 0.0
+01-07 14:43:36.278 I/System.out( 5908): Values: -1.5258789E-4 5.79834E-4 -5.340576E-4
+01-07 14:43:37.279 I/System.out( 5908): Values: -6.866455E-4 -0.002090454 0.002670288
+01-07 14:43:38.280 I/System.out( 5908): Values: 3.8146973E-4 0.0016479492 0.0010681152
+01-07 14:43:39.281 I/System.out( 5908): Values: -0.0017547607 0.0027160645 0.0010681152
+01-07 14:43:40.282 I/System.out( 5908): Values: -0.0012207031 -0.004760742 -0.0021362305
+01-07 14:43:41.283 I/System.out( 5908): Values: -0.002822876 -0.0015563965 -0.0010681152
+01-07 14:43:42.284 I/System.out( 5908): Values: 0.0019836426 4.5776367E-5 0.0
+01-07 14:43:43.274 I/System.out( 5908): Values: -0.0012207031 4.5776367E-5 5.340576E-4
+01-07 14:43:44.275 I/System.out( 5908): Values: -1.5258789E-4 0.0011138916 0.0
+01-07 14:43:45.276 I/System.out( 5908): Values: -1.5258789E-4 0.003250122 -0.0010681152
+01-07 14:43:46.277 I/System.out( 5908): Values: -1.5258789E-4 5.79834E-4 0.0
+01-07 14:43:47.278 I/System.out( 5908): Values: -0.0017547607 -4.8828125E-4 -0.0010681152
+01-07 14:43:48.279 I/System.out( 5908): Values: 0.001449585 -0.003692627 0.0016021729
+01-07 14:43:49.280 I/System.out( 5908): Values: -0.0022888184 -0.0010223389 0.0
+01-07 14:43:50.281 I/System.out( 5908): Values: -0.0017547607 -0.0015563965 0.002670288
+01-07 14:43:51.282 I/System.out( 5908): Values: -0.0022888184 -4.8828125E-4 0.0010681152
+01-07 14:43:52.283 I/System.out( 5908): Values: 3.8146973E-4 -0.0031585693 5.340576E-4
+01-07 14:43:53.274 I/System.out( 5908): Values: -1.5258789E-4 -0.0010223389 5.340576E-4
+01-07 14:43:54.285 I/System.out( 5908): Values: -1.5258789E-4 5.79834E-4 -0.0010681152
+01-07 14:43:55.286 I/System.out( 5908): Values: -0.0017547607 0.0011138916 5.340576E-4
+01-07 14:43:56.277 I/System.out( 5908): Values: -6.866455E-4 -0.0015563965 -5.340576E-4
+01-07 14:43:57.278 I/System.out( 5908): Values: -0.002822876 -0.0026245117 0.0016021729
+01-07 14:43:58.289 I/System.out( 5908): Values: -0.0038909912 -4.8828125E-4 -0.0010681152
+01-07 14:43:59.290 I/System.out( 5908): Values: 3.8146973E-4 5.79834E-4 -5.340576E-4
+01-07 14:44:00.291 I/System.out( 5908): Values: -0.0033569336 -0.003692627 0.0
+01-07 14:44:01.292 I/System.out( 5908): Values: 0.0025177002 -4.8828125E-4 0.0
+01-07 14:44:02.293 I/System.out( 5908): Values: 3.8146973E-4 -4.8828125E-4 5.340576E-4
+01-07 14:44:03.294 I/System.out( 5908): Values: 3.8146973E-4 -0.003692627 0.0
+01-07 14:44:04.295 I/System.out( 5908): Values: -6.866455E-4 -0.0015563965 -0.0010681152
+01-07 14:44:05.296 I/System.out( 5908): Values: 0.004119873 -4.8828125E-4 -0.0016021729
+01-07 14:44:06.297 I/System.out( 5908): Values: 3.8146973E-4 0.0021820068 -0.0010681152
+01-07 14:44:07.298 I/System.out( 5908): Values: -0.0012207031 -4.8828125E-4 5.340576E-4
+01-07 14:44:08.299 I/System.out( 5908): Values: -0.0022888184 -0.0026245117 5.340576E-4
+01-07 14:44:09.300 I/System.out( 5908): Values: -6.866455E-4 -0.0026245117 -0.0016021729
+01-07 14:44:10.301 I/System.out( 5908): Values: -6.866455E-4 -0.0015563965 5.340576E-4
+01-07 14:44:11.302 I/System.out( 5908): Values: -0.0012207031 -4.8828125E-4 -5.340576E-4
+01-07 14:44:12.303 I/System.out( 5908): Values: 9.1552734E-4 0.0011138916 0.0
+01-07 14:44:13.294 I/System.out( 5908): Values: 0.001449585 5.79834E-4 0.0
+01-07 14:44:14.305 I/System.out( 5908): Values: -1.5258789E-4 -4.8828125E-4 0.0
+01-07 14:44:15.296 I/System.out( 5908): Values: 0.0019836426 -0.0015563965 -0.0010681152
+01-07 14:44:16.297 I/System.out( 5908): Values: -0.0022888184 -0.0031585693 -0.0010681152
+01-07 14:44:17.298 I/System.out( 5908): Values: -1.5258789E-4 4.5776367E-5 -0.0016021729
+01-07 14:44:18.299 I/System.out( 5908): Values: -0.0017547607 -0.0010223389 -5.340576E-4
+01-07 14:44:19.300 I/System.out( 5908): Values: 0.001449585 -0.0015563965 -0.0016021729
+01-07 14:44:20.301 I/System.out( 5908): Values: 3.8146973E-4 5.79834E-4 0.0
+01-07 14:44:21.302 I/System.out( 5908): Values: 9.1552734E-4 -0.0015563965 -0.0010681152
+01-07 14:44:22.313 I/System.out( 5908): Values: -6.866455E-4 -0.0015563965 -0.0016021729
+01-07 14:44:23.304 I/System.out( 5908): Values: -0.0033569336 5.79834E-4 5.340576E-4
+01-07 14:44:24.305 I/System.out( 5908): Values: -0.0022888184 3.5095215E-4 0.0011138916
+01-07 14:44:25.305 I/System.out( 5908): Values: -1.5258789E-4 -0.0017852783 -4.8828125E-4
+01-07 14:44:26.306 I/System.out( 5908): Values: 0.001449585 8.8500977E-4 -0.002090454
+01-07 14:44:27.307 I/System.out( 5908): Values: 9.1552734E-4 0.001953125 5.79834E-4
+01-07 14:44:28.308 I/System.out( 5908): Values: -0.0017547607 -1.8310547E-4 5.79834E-4
+01-07 14:44:29.309 I/System.out( 5908): Values: 0.001449585 0.0030212402 -0.0015563965
+01-07 14:44:30.310 I/System.out( 5908): Values: -0.0022888184 -1.8310547E-4 0.0011138916
+01-07 14:44:31.311 I/System.out( 5908): Values: 3.8146973E-4 -7.171631E-4 4.5776367E-5
+01-07 14:44:32.312 I/System.out( 5908): Values: 0.0019836426 0.0024871826 -0.0010223389
+01-07 14:44:33.313 I/System.out( 5908): Values: 3.8146973E-4 8.8500977E-4 4.5776367E-5
+01-07 14:44:34.314 I/System.out( 5908): Values: 9.1552734E-4 -1.8310547E-4 -4.8828125E-4
+01-07 14:44:35.305 I/System.out( 5908): Values: 0.0030517578 -0.0033874512 -0.002090454
+01-07 14:44:36.306 I/System.out( 5908): Values: -0.0012207031 8.8500977E-4 4.5776367E-5
+01-07 14:44:37.307 I/System.out( 5908): Values: -0.0012207031 0.001953125 5.79834E-4
+01-07 14:44:38.308 I/System.out( 5908): Values: 0.001449585 3.5095215E-4 0.0016479492
+01-07 14:44:39.309 I/System.out( 5908): Values: 9.1552734E-4 -1.8310547E-4 5.79834E-4
+01-07 14:44:40.310 I/System.out( 5908): Values: 0.0025177002 8.8500977E-4 0.0021820068
+01-07 14:44:41.311 I/System.out( 5908): Values: -0.0038909912 0.0014190674 4.5776367E-5
+01-07 14:44:42.312 I/System.out( 5908): Values: -6.866455E-4 -0.0017852783 4.5776367E-5
+01-07 14:44:43.313 I/System.out( 5908): Values: -0.0017547607 -0.0012512207 -4.8828125E-4
+01-07 14:44:44.314 I/System.out( 5908): Values: 3.8146973E-4 0.0014190674 4.5776367E-5
+01-07 14:44:45.315 I/System.out( 5908): Values: 0.001449585 -0.002319336 4.5776367E-5
+01-07 14:44:46.316 I/System.out( 5908): Values: 0.001449585 0.0014190674 4.5776367E-5
+01-07 14:44:47.317 I/System.out( 5908): Values: -0.002822876 3.5095215E-4 -4.8828125E-4
+01-07 14:44:48.318 I/System.out( 5908): Values: 3.8146973E-4 -0.0017852783 0.0011138916
+01-07 14:44:49.319 I/System.out( 5908): Values: -0.0017547607 0.001953125 0.0016479492
+01-07 14:44:50.320 I/System.out( 5908): Values: 0.0025177002 -0.0017852783 -0.002090454
+01-07 14:44:51.321 I/System.out( 5908): Values: -1.5258789E-4 -1.8310547E-4 -0.0015563965
+01-07 14:44:52.332 I/System.out( 5908): Values: -6.866455E-4 -7.171631E-4 5.79834E-4
+01-07 14:44:53.333 I/System.out( 5908): Values: 3.8146973E-4 0.001953125 0.0011138916
+01-07 14:44:54.334 I/System.out( 5908): Values: 0.0025177002 -0.0012512207 4.5776367E-5
+01-07 14:44:55.335 I/System.out( 5908): Values: 9.1552734E-4 8.8500977E-4 -0.0010223389
+01-07 14:44:56.336 I/System.out( 5908): Values: 3.8146973E-4 0.0035552979 5.79834E-4
+01-07 14:44:57.327 I/System.out( 5908): Values: 0.0025177002 0.001953125 0.003250122
+01-07 14:44:58.328 I/System.out( 5908): Values: 9.1552734E-4 -0.0017852783 4.5776367E-5
+01-07 14:44:59.329 I/System.out( 5908): Values: -0.0012207031 -1.8310547E-4 -0.0010223389
+01-07 14:45:00.330 I/System.out( 5908): Values: 0.001449585 3.5095215E-4 5.79834E-4
+01-07 14:45:01.331 I/System.out( 5908): Values: 0.0025177002 3.5095215E-4 -0.002090454
+01-07 14:45:01.591 V/DigitalWidgetViewsFactory( 3584): DigitalWidget sets next alarm string to null
+01-07 14:45:02.332 I/System.out( 5908): Values: -0.0017547607 -1.8310547E-4 -0.0010223389
+01-07 14:45:03.333 I/System.out( 5908): Values: 3.8146973E-4 -0.0017852783 -4.8828125E-4
+01-07 14:45:04.334 I/System.out( 5908): Values: -6.866455E-4 -0.0028533936 4.5776367E-5
+01-07 14:45:05.345 I/System.out( 5908): Values: 0.0019836426 -0.0017852783 0.0027160645
+01-07 14:45:06.336 I/System.out( 5908): Values: -0.002822876 -0.0017852783 5.79834E-4
+01-07 14:45:07.336 I/System.out( 5908): Values: 3.8146973E-4 8.8500977E-4 0.0016479492
+01-07 14:45:08.337 I/System.out( 5908): Values: 9.1552734E-4 3.5095215E-4 5.79834E-4
+01-07 14:45:09.338 I/System.out( 5908): Values: 3.8146973E-4 -7.171631E-4 4.5776367E-5
+01-07 14:45:10.349 I/System.out( 5908): Values: -0.0012207031 0.0014190674 4.5776367E-5
+01-07 14:45:11.350 I/System.out( 5908): Values: -6.866455E-4 -0.0033874512 -4.8828125E-4
+01-07 14:45:12.351 I/System.out( 5908): Values: 0.0019836426 -7.171631E-4 0.0011138916
+01-07 14:45:13.352 I/System.out( 5908): Values: 0.0025177002 -7.171631E-4 -0.0010223389
+01-07 14:45:14.353 I/System.out( 5908): Values: -1.5258789E-4 0.0035552979 4.5776367E-5
+01-07 14:45:15.344 I/System.out( 5908): Values: -1.5258789E-4 -0.0017852783 5.79834E-4
+01-07 14:45:16.345 I/System.out( 5908): Values: 0.001449585 0.001953125 4.5776367E-5
+01-07 14:45:17.346 I/System.out( 5908): Values: -6.866455E-4 -0.0017852783 4.5776367E-5
+01-07 14:45:18.347 I/System.out( 5908): Values: -0.0017547607 -7.171631E-4 -4.8828125E-4
+01-07 14:45:19.348 I/System.out( 5908): Values: -0.0012207031 0.0014190674 5.79834E-4
+01-07 14:45:20.349 I/System.out( 5908): Values: 3.8146973E-4 -0.0028533936 5.79834E-4
+01-07 14:45:21.350 I/System.out( 5908): Values: 0.001449585 -0.0012512207 4.5776367E-5
+01-07 14:45:22.351 I/System.out( 5908): Values: -1.5258789E-4 -0.0012512207 -0.0015563965
+01-07 14:45:23.352 I/System.out( 5908): Values: 0.0030517578 0.0014190674 -0.0015563965
+01-07 14:45:24.353 I/System.out( 5908): Values: -0.0026397705 -0.0015106201 0.0015716553
+01-07 14:45:25.354 I/System.out( 5908): Values: -5.0354004E-4 0.001159668 0.0010375977
+01-07 14:45:26.345 I/System.out( 5908): Values: 3.0517578E-5 -4.4250488E-4 5.0354004E-4
+01-07 14:45:27.346 I/System.out( 5908): Values: -0.0015716553 0.0027618408 -0.002166748
+01-07 14:45:28.347 I/System.out( 5908): Values: 0.0010986328 9.1552734E-5 -0.0016326904
+01-07 14:45:29.348 I/System.out( 5908): Values: 0.0010986328 -4.4250488E-4 -5.645752E-4
+01-07 14:45:30.349 I/System.out( 5908): Values: -5.0354004E-4 -0.0015106201 -3.0517578E-5
+01-07 14:45:31.350 I/System.out( 5908): Values: 0.0010986328 0.0016937256 -3.0517578E-5
+01-07 14:45:32.351 I/System.out( 5908): Values: -5.0354004E-4 -4.4250488E-4 -5.645752E-4
+01-07 14:45:33.352 I/System.out( 5908): Values: 0.0016326904 0.0016937256 0.0015716553
+01-07 14:45:34.353 I/System.out( 5908): Values: -0.0010375977 0.001159668 -3.0517578E-5
+01-07 14:45:35.354 I/System.out( 5908): Values: -0.0031738281 9.1552734E-5 -3.0517578E-5
+01-07 14:45:36.355 I/System.out( 5908): Values: 0.0010986328 6.2561035E-4 -3.0517578E-5
+01-07 14:45:37.356 I/System.out( 5908): Values: -0.0015716553 -9.765625E-4 0.0010375977
+01-07 14:45:38.357 I/System.out( 5908): Values: 3.0517578E-5 -4.4250488E-4 0.002105713
+01-07 14:45:39.358 I/System.out( 5908): Values: 0.002166748 0.001159668 -3.0517578E-5
+01-07 14:45:40.359 I/System.out( 5908): Values: -0.0037078857 9.1552734E-5 5.0354004E-4
+01-07 14:45:41.360 I/System.out( 5908): Values: 3.0517578E-5 9.1552734E-5 -3.0517578E-5
+01-07 14:45:42.361 I/System.out( 5908): Values: 0.0010986328 -4.4250488E-4 5.0354004E-4
+01-07 14:45:43.362 I/System.out( 5908): Values: -0.0015716553 -9.765625E-4 5.0354004E-4
+01-07 14:45:44.363 I/System.out( 5908): Values: 5.645752E-4 -4.4250488E-4 -0.0016326904
+01-07 14:45:45.364 I/System.out( 5908): Values: 5.645752E-4 -0.0025787354 0.0010375977
+01-07 14:45:46.355 I/System.out( 5908): Values: -0.0015716553 -0.0020446777 5.0354004E-4
+01-07 14:45:47.366 I/System.out( 5908): Values: 5.645752E-4 6.2561035E-4 0.0026397705
+01-07 14:45:48.367 I/System.out( 5908): Values: -5.0354004E-4 9.1552734E-5 5.0354004E-4
+01-07 14:45:49.357 I/System.out( 5908): Values: -5.0354004E-4 6.2561035E-4 0.0010375977
+01-07 14:45:50.358 I/System.out( 5908): Values: -0.0010375977 -0.0015106201 -5.645752E-4
+01-07 14:45:51.359 I/System.out( 5908): Values: -5.0354004E-4 0.0016937256 0.0010375977
+01-07 14:45:52.360 I/System.out( 5908): Values: -0.0015716553 9.1552734E-5 -0.0010986328
+01-07 14:45:53.361 I/System.out( 5908): Values: -0.0010375977 -9.765625E-4 0.002105713
+01-07 14:45:54.362 I/System.out( 5908): Values: 3.0517578E-5 0.001159668 -3.0517578E-5
+01-07 14:45:54.432 D/dalvikvm( 5908): GC_CONCURRENT freed 386K, 5% free 9016K/9440K, paused 9ms+1ms, total 57ms
+01-07 14:45:55.363 I/System.out( 5908): Values: 0.0010986328 6.2561035E-4 0.0015716553
+01-07 14:45:56.364 I/System.out( 5908): Values: 0.002166748 0.001159668 5.0354004E-4
+01-07 14:45:57.365 I/System.out( 5908): Values: -0.002105713 -0.0025787354 -3.0517578E-5
+01-07 14:45:58.366 I/System.out( 5908): Values: 0.0016326904 -9.765625E-4 0.0010375977
+01-07 14:45:59.367 I/System.out( 5908): Values: 3.0517578E-5 0.0022277832 5.0354004E-4
+01-07 14:46:00.368 I/System.out( 5908): Values: 3.0517578E-5 0.0027618408 5.0354004E-4
+01-07 14:46:01.369 I/System.out( 5908): Values: -5.0354004E-4 0.0016937256 -3.0517578E-5
+01-07 14:46:02.370 I/System.out( 5908): Values: 5.645752E-4 9.1552734E-5 0.0015716553
+01-07 14:46:03.371 I/System.out( 5908): Values: -0.0015716553 0.0016937256 -3.0517578E-5
+01-07 14:46:04.372 I/System.out( 5908): Values: 3.0517578E-5 -0.0015106201 0.0010375977
+01-07 14:46:05.373 I/System.out( 5908): Values: 0.0016326904 0.0043640137 0.0015716553
+01-07 14:46:06.364 I/System.out( 5908): Values: -0.0010375977 6.2561035E-4 -0.003768921
+01-07 14:46:07.375 I/System.out( 5908): Values: -0.0010375977 0.0022277832 -0.0010986328
+01-07 14:46:08.366 I/System.out( 5908): Values: 0.0010986328 -9.765625E-4 5.0354004E-4
+01-07 14:46:09.367 I/System.out( 5908): Values: 0.0010986328 -9.765625E-4 5.0354004E-4
+01-07 14:46:10.368 I/System.out( 5908): Values: -0.0010375977 6.2561035E-4 -5.645752E-4
+01-07 14:46:11.369 I/System.out( 5908): Values: 0.0010986328 0.0022277832 -0.0010986328
+01-07 14:46:12.370 I/System.out( 5908): Values: 0.0010986328 -0.004180908 5.0354004E-4
+01-07 14:46:13.371 I/System.out( 5908): Values: 0.0010986328 9.1552734E-5 -5.645752E-4
+01-07 14:46:14.372 I/System.out( 5908): Values: -0.0010375977 -4.4250488E-4 -0.0027008057
+01-07 14:46:15.373 I/System.out( 5908): Values: 0.0010986328 0.001159668 5.0354004E-4
+01-07 14:46:16.374 I/System.out( 5908): Values: 3.0517578E-5 -0.0015106201 -0.0010986328
+01-07 14:46:17.375 I/System.out( 5908): Values: 3.0517578E-5 -0.004180908 -3.0517578E-5
+01-07 14:46:18.366 I/System.out( 5908): Values: 0.002166748 -0.0015106201 -0.0010986328
+01-07 14:46:19.367 I/System.out( 5908): Values: -5.0354004E-4 -0.0015106201 0.0010375977
+01-07 14:46:20.368 I/System.out( 5908): Values: -0.0010375977 0.0022277832 5.0354004E-4
+01-07 14:46:21.369 I/System.out( 5908): Values: 0.0016326904 0.0032958984 -3.0517578E-5
+01-07 14:46:22.370 I/System.out( 5908): Values: -5.0354004E-4 -0.004180908 0.0015716553
+01-07 14:46:23.371 I/System.out( 5908): Values: 3.0517578E-5 9.1552734E-5 -5.645752E-4
+01-07 14:46:24.372 I/System.out( 5908): Values: -6.5612793E-4 4.8828125E-4 -1.5258789E-5
+01-07 14:46:25.373 I/System.out( 5908): Values: 0.0025482178 0.0010223389 -1.5258789E-5
+01-07 14:46:26.374 I/System.out( 5908): Values: 0.0030822754 -0.003250122 -1.5258789E-5
+01-07 14:46:27.385 I/System.out( 5908): Values: -0.0011901855 4.8828125E-4 0.0026550293
+01-07 14:46:28.376 I/System.out( 5908): Values: 0.0014801025 0.002090454 0.0021209717
+01-07 14:46:29.377 I/System.out( 5908): Values: 4.119873E-4 -0.0011138916 -1.5258789E-5
+01-07 14:46:30.378 I/System.out( 5908): Values: 4.119873E-4 0.0010223389 0.0010528564
+01-07 14:46:31.378 I/System.out( 5908): Values: -1.2207031E-4 -0.0021820068 0.0015869141
+01-07 14:46:32.379 I/System.out( 5908): Values: 9.460449E-4 -5.79834E-4 5.187988E-4
+01-07 14:46:33.380 I/System.out( 5908): Values: -1.2207031E-4 -4.5776367E-5 -5.493164E-4
+01-07 14:46:34.381 I/System.out( 5908): Values: 0.0025482178 -5.79834E-4 5.187988E-4
+01-07 14:46:35.382 I/System.out( 5908): Values: 0.0030822754 -0.0021820068 -0.0016174316
+01-07 14:46:36.383 I/System.out( 5908): Values: -6.5612793E-4 -4.5776367E-5 0.0015869141
+01-07 14:46:37.374 I/System.out( 5908): Values: -1.2207031E-4 -0.0027160645 -0.0016174316
+01-07 14:46:38.375 I/System.out( 5908): Values: -0.0011901855 -0.0011138916 -1.5258789E-5
+01-07 14:46:39.376 I/System.out( 5908): Values: 0.0014801025 -0.0021820068 -1.5258789E-5
+01-07 14:46:40.377 I/System.out( 5908): Values: -0.0017242432 -0.0016479492 -1.5258789E-5
+01-07 14:46:41.388 I/System.out( 5908): Values: 9.460449E-4 0.0015563965 5.187988E-4
+01-07 14:46:42.389 I/System.out( 5908): Values: -1.2207031E-4 -4.5776367E-5 -1.5258789E-5
+01-07 14:46:43.390 I/System.out( 5908): Values: 4.119873E-4 -0.0011138916 0.0015869141
+01-07 14:46:44.391 I/System.out( 5908): Values: -0.0027923584 0.002090454 5.187988E-4
+01-07 14:46:45.392 I/System.out( 5908): Values: 9.460449E-4 0.0010223389 -1.5258789E-5
+01-07 14:46:46.393 I/System.out( 5908): Values: -6.5612793E-4 -4.5776367E-5 -1.5258789E-5
+01-07 14:46:47.394 I/System.out( 5908): Values: -0.0011901855 -0.0016479492 -5.493164E-4
+01-07 14:46:48.395 I/System.out( 5908): Values: -6.5612793E-4 -5.79834E-4 0.0010528564
+01-07 14:46:49.396 I/System.out( 5908): Values: 0.0020141602 -0.0021820068 5.187988E-4
+01-07 14:46:50.397 I/System.out( 5908): Values: 0.0020141602 -0.0027160645 -1.5258789E-5
+01-07 14:46:51.398 I/System.out( 5908): Values: -6.5612793E-4 -5.79834E-4 5.187988E-4
+01-07 14:46:52.399 I/System.out( 5908): Values: -6.5612793E-4 -0.003250122 0.0010528564
+01-07 14:46:53.400 I/System.out( 5908): Values: -0.0022583008 -0.0016479492 -5.493164E-4
+01-07 14:46:54.401 I/System.out( 5908): Values: 9.460449E-4 -0.0016479492 0.0021209717
+01-07 14:46:55.402 I/System.out( 5908): Values: -0.0011901855 0.0010223389 -0.0016174316
+01-07 14:46:56.403 I/System.out( 5908): Values: 9.460449E-4 -0.0011138916 -1.5258789E-5
+01-07 14:46:57.394 I/System.out( 5908): Values: -0.0017242432 -0.0016479492 -1.5258789E-5
+01-07 14:46:58.395 I/System.out( 5908): Values: 0.0014801025 0.002090454 -5.493164E-4
+01-07 14:46:59.396 I/System.out( 5908): Values: 0.0020141602 -4.5776367E-5 -1.5258789E-5
+01-07 14:47:00.407 I/System.out( 5908): Values: 0.0014801025 -5.79834E-4 -0.0016174316
+01-07 14:47:01.398 I/System.out( 5908): Values: -0.0043945313 4.8828125E-4 0.0010528564
+01-07 14:47:02.399 I/System.out( 5908): Values: 0.0020141602 4.8828125E-4 0.0015869141
+01-07 14:47:03.400 I/System.out( 5908): Values: -6.5612793E-4 -5.79834E-4 -5.493164E-4
+01-07 14:47:04.401 I/System.out( 5908): Values: -0.0017242432 4.8828125E-4 0.0010528564
+01-07 14:47:05.402 I/System.out( 5908): Values: -0.0017242432 -4.5776367E-5 -1.5258789E-5
+01-07 14:47:06.403 I/System.out( 5908): Values: -0.0011901855 0.0015563965 -1.5258789E-5
+01-07 14:47:07.404 I/System.out( 5908): Values: -0.0011901855 -5.79834E-4 5.187988E-4
+01-07 14:47:08.405 I/System.out( 5908): Values: -0.0017242432 0.0010223389 5.187988E-4
+01-07 14:47:09.406 I/System.out( 5908): Values: -0.0022583008 -5.79834E-4 -1.5258789E-5
+01-07 14:47:10.397 I/System.out( 5908): Values: 4.119873E-4 -4.5776367E-5 -0.001083374
+01-07 14:47:11.408 I/System.out( 5908): Values: -0.0022583008 -5.79834E-4 -1.5258789E-5
+01-07 14:47:12.398 I/System.out( 5908): Values: -0.0022583008 0.0010223389 -1.5258789E-5
+01-07 14:47:13.399 I/System.out( 5908): Values: -6.5612793E-4 0.0026245117 -0.001083374
+01-07 14:47:14.410 I/System.out( 5908): Values: -6.5612793E-4 0.0042266846 5.187988E-4
+01-07 14:47:15.401 I/System.out( 5908): Values: 4.119873E-4 4.8828125E-4 -0.0016174316
+01-07 14:47:16.402 I/System.out( 5908): Values: 4.119873E-4 -0.0021820068 -0.001083374
+01-07 14:47:17.413 I/System.out( 5908): Values: -1.2207031E-4 -5.79834E-4 -5.493164E-4
+01-07 14:47:18.404 I/System.out( 5908): Values: 9.460449E-4 0.0010223389 0.0015869141
+01-07 14:47:19.405 I/System.out( 5908): Values: 4.119873E-4 4.8828125E-4 -0.0021514893
+01-07 14:47:20.406 I/System.out( 5908): Values: -1.2207031E-4 0.0031585693 5.187988E-4
+01-07 14:47:21.407 I/System.out( 5908): Values: -0.0017242432 0.002090454 -0.0016174316
+01-07 14:47:22.408 I/System.out( 5908): Values: -6.5612793E-4 -4.5776367E-5 5.187988E-4
+01-07 14:47:23.409 I/System.out( 5908): Values: -0.0017242432 -5.79834E-4 0.0021209717
+01-07 14:47:24.410 I/System.out( 5908): Values: -0.002166748 0.0017089844 -1.6784668E-4
+01-07 14:47:25.411 I/System.out( 5908): Values: -5.645752E-4 -0.002029419 -0.0017700195
+01-07 14:47:26.412 I/System.out( 5908): Values: 0.0015716553 -0.002029419 -0.0023040771
+01-07 14:47:27.413 I/System.out( 5908): Values: -3.0517578E-5 -9.613037E-4 9.0026855E-4
+01-07 14:47:27.413 I/System.out( 5908): Battery level end is reached
+01-07 14:47:27.413 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:28.414 I/System.out( 5908): Values: 0.002105713 0.002243042 -1.6784668E-4
+01-07 14:47:28.414 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:29.405 I/System.out( 5908): Values: 5.0354004E-4 0.0017089844 -0.0017700195
+01-07 14:47:29.405 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:30.406 I/System.out( 5908): Values: -3.0517578E-5 0.0017089844 -1.6784668E-4
+01-07 14:47:30.406 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:31.407 I/System.out( 5908): Values: -5.645752E-4 -9.613037E-4 3.6621094E-4
+01-07 14:47:31.407 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:32.408 I/System.out( 5908): Values: -5.645752E-4 -4.272461E-4 -1.6784668E-4
+01-07 14:47:32.428 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:33.409 I/System.out( 5908): Values: 0.0010375977 0.0017089844 -7.019043E-4
+01-07 14:47:33.429 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:34.410 I/System.out( 5908): Values: -0.0016326904 0.002243042 9.0026855E-4
+01-07 14:47:34.420 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:35.411 I/System.out( 5908): Values: 0.0015716553 -9.613037E-4 9.0026855E-4
+01-07 14:47:35.421 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:36.412 I/System.out( 5908): Values: -0.0010986328 -9.613037E-4 -7.019043E-4
+01-07 14:47:36.422 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:37.413 I/System.out( 5908): Values: -5.645752E-4 0.0011749268 -7.019043E-4
+01-07 14:47:37.423 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:38.414 I/System.out( 5908): Values: -0.002166748 0.0011749268 0.0014343262
+01-07 14:47:38.414 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:39.405 I/System.out( 5908): Values: -0.002166748 1.0681152E-4 9.0026855E-4
+01-07 14:47:39.415 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:40.406 I/System.out( 5908): Values: 0.0026397705 1.0681152E-4 -1.6784668E-4
+01-07 14:47:40.416 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:41.407 I/System.out( 5908): Values: -0.0016326904 0.0033111572 9.0026855E-4
+01-07 14:47:41.417 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:42.408 I/System.out( 5908): Values: -0.002166748 0.0011749268 9.0026855E-4
+01-07 14:47:42.428 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:43.409 I/System.out( 5908): Values: 0.0015716553 -0.0025634766 9.0026855E-4
+01-07 14:47:43.429 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:44.420 I/System.out( 5908): Values: -0.0027008057 -0.002029419 9.0026855E-4
+01-07 14:47:44.420 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:45.421 I/System.out( 5908): Values: 0.0026397705 -0.002029419 9.0026855E-4
+01-07 14:47:45.421 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:46.422 I/System.out( 5908): Values: 5.0354004E-4 -4.272461E-4 -0.0012359619
+01-07 14:47:46.422 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:47.423 I/System.out( 5908): Values: -3.0517578E-5 0.0011749268 -7.019043E-4
+01-07 14:47:47.443 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:48.424 I/System.out( 5908): Values: -3.0517578E-5 0.0011749268 -1.6784668E-4
+01-07 14:47:48.424 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:49.415 I/System.out( 5908): Values: 5.0354004E-4 -4.272461E-4 -0.0017700195
+01-07 14:47:49.415 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:50.416 I/System.out( 5908): Values: -0.0016326904 -0.0014953613 9.0026855E-4
+01-07 14:47:50.416 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:51.417 I/System.out( 5908): Values: 0.0010375977 6.4086914E-4 -7.019043E-4
+01-07 14:47:51.417 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:52.418 I/System.out( 5908): Values: -3.0517578E-5 0.0033111572 3.6621094E-4
+01-07 14:47:52.438 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:53.419 I/System.out( 5908): Values: -5.645752E-4 -0.002029419 -7.019043E-4
+01-07 14:47:53.429 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:54.419 I/System.out( 5908): Values: 0.002105713 -0.002029419 0.0014343262
+01-07 14:47:54.430 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:55.420 I/System.out( 5908): Values: 5.0354004E-4 0.0011749268 0.0014343262
+01-07 14:47:55.430 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:56.421 I/System.out( 5908): Values: -3.0517578E-5 0.0011749268 3.6621094E-4
+01-07 14:47:56.431 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:57.422 I/System.out( 5908): Values: 5.0354004E-4 0.002243042 9.0026855E-4
+01-07 14:47:57.432 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:58.423 I/System.out( 5908): Values: -0.0010986328 -0.0014953613 -0.0033721924
+01-07 14:47:58.423 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:47:59.414 I/System.out( 5908): Values: -0.0010986328 6.4086914E-4 -0.0023040771
+01-07 14:47:59.424 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:00.425 I/System.out( 5908): Values: 0.0010375977 1.0681152E-4 -7.019043E-4
+01-07 14:48:00.425 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:01.426 I/System.out( 5908): Values: 0.0010375977 -9.613037E-4 -0.0012359619
+01-07 14:48:01.426 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:02.427 I/System.out( 5908): Values: -0.0027008057 -9.613037E-4 3.6621094E-4
+01-07 14:48:02.427 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:03.428 I/System.out( 5908): Values: -0.0016326904 0.0011749268 -1.6784668E-4
+01-07 14:48:03.428 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:04.429 I/System.out( 5908): Values: 0.0015716553 -9.613037E-4 -1.6784668E-4
+01-07 14:48:04.429 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:05.430 I/System.out( 5908): Values: 0.0010375977 -9.613037E-4 0.0019683838
+01-07 14:48:05.430 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:06.431 I/System.out( 5908): Values: 5.0354004E-4 -0.002029419 -7.019043E-4
+01-07 14:48:06.431 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:07.432 I/System.out( 5908): Values: 0.0010375977 -0.002029419 0.0014343262
+01-07 14:48:07.432 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:08.433 I/System.out( 5908): Values: 0.0037078857 0.0038452148 -7.019043E-4
+01-07 14:48:08.443 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:09.434 I/System.out( 5908): Values: -3.0517578E-5 -4.272461E-4 9.0026855E-4
+01-07 14:48:09.434 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:10.435 I/System.out( 5908): Values: -3.0517578E-5 -9.613037E-4 -0.0012359619
+01-07 14:48:10.435 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:11.426 I/System.out( 5908): Values: 0.0010375977 -9.613037E-4 -0.0012359619
+01-07 14:48:11.436 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:12.427 I/System.out( 5908): Values: 0.0031738281 -0.0014953613 -0.0023040771
+01-07 14:48:12.447 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:13.428 I/System.out( 5908): Values: -3.0517578E-5 6.4086914E-4 0.0014343262
+01-07 14:48:13.438 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:14.429 I/System.out( 5908): Values: 0.0031738281 1.0681152E-4 0.0019683838
+01-07 14:48:14.449 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:15.430 I/System.out( 5908): Values: 0.002105713 6.4086914E-4 -0.0017700195
+01-07 14:48:15.440 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:16.431 I/System.out( 5908): Values: 0.0026397705 0.0043792725 -0.0012359619
+01-07 14:48:16.441 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:17.432 I/System.out( 5908): Values: 5.0354004E-4 -0.0036315918 -1.6784668E-4
+01-07 14:48:17.442 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:18.433 I/System.out( 5908): Values: -3.0517578E-5 0.002243042 -0.0012359619
+01-07 14:48:18.453 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:19.434 I/System.out( 5908): Values: -3.0517578E-5 -0.002029419 0.0014343262
+01-07 14:48:19.444 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:20.425 I/System.out( 5908): Values: 5.0354004E-4 0.0011749268 0.0014343262
+01-07 14:48:20.435 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:21.436 I/System.out( 5908): Values: -3.0517578E-5 -0.0036315918 -1.6784668E-4
+01-07 14:48:21.436 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:22.427 I/System.out( 5908): Values: -0.0016326904 0.0017089844 3.6621094E-4
+01-07 14:48:22.437 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:23.438 I/System.out( 5908): Values: -5.645752E-4 -4.272461E-4 3.6621094E-4
+01-07 14:48:23.448 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:24.439 I/System.out( 5908): Values: 0.0025939941 0.0022277832 0.0020751953
+01-07 14:48:24.439 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:25.440 I/System.out( 5908): Values: 0.0015258789 9.1552734E-5 -5.950928E-4
+01-07 14:48:25.440 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:26.441 I/System.out( 5908): Values: -6.1035156E-4 0.001159668 -0.0011291504
+01-07 14:48:26.451 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:27.442 I/System.out( 5908): Values: -7.6293945E-5 6.2561035E-4 -0.001663208
+01-07 14:48:27.442 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:28.443 I/System.out( 5908): Values: -0.0016784668 -0.0015106201 4.7302246E-4
+01-07 14:48:28.453 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:29.444 I/System.out( 5908): Values: -0.0011444092 -0.0025787354 -0.0011291504
+01-07 14:48:29.444 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:30.445 I/System.out( 5908): Values: 4.5776367E-4 0.0016937256 -0.001663208
+01-07 14:48:30.445 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:31.436 I/System.out( 5908): Values: -7.6293945E-5 -0.0015106201 4.7302246E-4
+01-07 14:48:31.446 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:32.437 I/System.out( 5908): Values: -0.0011444092 0.001159668 4.7302246E-4
+01-07 14:48:32.457 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:33.448 I/System.out( 5908): Values: 9.918213E-4 -4.4250488E-4 -6.1035156E-5
+01-07 14:48:33.448 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:34.449 I/System.out( 5908): Values: -7.6293945E-5 0.0022277832 -5.950928E-4
+01-07 14:48:34.459 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:34.529 D/dalvikvm( 5908): GC_CONCURRENT freed 376K, 5% free 9027K/9440K, paused 17ms+1ms, total 81ms
+01-07 14:48:35.450 I/System.out( 5908): Values: -0.0022125244 0.001159668 -0.0021972656
+01-07 14:48:35.450 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:36.450 I/System.out( 5908): Values: -0.0022125244 0.0022277832 -5.950928E-4
+01-07 14:48:36.450 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:37.451 I/System.out( 5908): Values: 9.918213E-4 0.0016937256 -6.1035156E-5
+01-07 14:48:37.451 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:38.452 I/System.out( 5908): Values: -0.0038146973 -9.765625E-4 -5.950928E-4
+01-07 14:48:38.462 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:39.453 I/System.out( 5908): Values: 0.0015258789 9.1552734E-5 4.7302246E-4
+01-07 14:48:39.453 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:40.454 I/System.out( 5908): Values: -0.0011444092 -0.0015106201 -0.0011291504
+01-07 14:48:40.454 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:41.445 I/System.out( 5908): Values: -7.6293945E-5 -0.0020446777 0.0015411377
+01-07 14:48:41.455 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:42.446 I/System.out( 5908): Values: -7.6293945E-5 -4.4250488E-4 -0.0011291504
+01-07 14:48:42.466 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:43.447 I/System.out( 5908): Values: 0.0015258789 9.1552734E-5 -5.950928E-4
+01-07 14:48:43.457 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:44.448 I/System.out( 5908): Values: 9.918213E-4 -4.4250488E-4 -5.950928E-4
+01-07 14:48:44.458 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:45.449 I/System.out( 5908): Values: -7.6293945E-5 -0.0015106201 -0.001663208
+01-07 14:48:45.459 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:46.450 I/System.out( 5908): Values: -0.0022125244 -0.0015106201 4.7302246E-4
+01-07 14:48:46.460 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:47.451 I/System.out( 5908): Values: -7.6293945E-5 -0.0020446777 -0.0021972656
+01-07 14:48:47.471 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:48.462 I/System.out( 5908): Values: -7.6293945E-5 0.0016937256 -5.950928E-4
+01-07 14:48:48.462 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:49.463 I/System.out( 5908): Values: 9.918213E-4 -9.765625E-4 -6.1035156E-5
+01-07 14:48:49.463 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:50.454 I/System.out( 5908): Values: -0.0022125244 0.001159668 0.0010070801
+01-07 14:48:50.454 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:51.455 I/System.out( 5908): Values: 9.918213E-4 6.2561035E-4 -0.001663208
+01-07 14:48:51.455 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:52.456 I/System.out( 5908): Values: 9.918213E-4 0.0027618408 -0.001663208
+01-07 14:48:52.456 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:53.457 I/System.out( 5908): Values: -6.1035156E-4 0.0032958984 -6.1035156E-5
+01-07 14:48:53.457 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:54.458 I/System.out( 5908): Values: -7.6293945E-5 0.0027618408 -6.1035156E-5
+01-07 14:48:54.458 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:55.459 I/System.out( 5908): Values: 0.0025939941 9.1552734E-5 -6.1035156E-5
+01-07 14:48:55.459 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:56.460 I/System.out( 5908): Values: -0.0016784668 6.2561035E-4 -6.1035156E-5
+01-07 14:48:56.470 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:57.461 I/System.out( 5908): Values: 4.5776367E-4 -0.0015106201 0.0015411377
+01-07 14:48:57.461 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:58.462 I/System.out( 5908): Values: 0.0015258789 -0.0015106201 -5.950928E-4
+01-07 14:48:58.472 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:48:59.463 I/System.out( 5908): Values: -0.002746582 0.0027618408 -6.1035156E-5
+01-07 14:48:59.463 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:00.454 I/System.out( 5908): Values: 0.0015258789 9.1552734E-5 -6.1035156E-5
+01-07 14:49:00.464 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:01.465 I/System.out( 5908): Values: 4.5776367E-4 0.0016937256 0.0010070801
+01-07 14:49:01.465 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:02.466 I/System.out( 5908): Values: 4.5776367E-4 -9.765625E-4 0.0020751953
+01-07 14:49:02.476 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:03.457 I/System.out( 5908): Values: 0.0015258789 6.2561035E-4 0.0020751953
+01-07 14:49:03.467 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:04.458 I/System.out( 5908): Values: -7.6293945E-5 0.0016937256 0.0010070801
+01-07 14:49:04.468 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:05.469 I/System.out( 5908): Values: -7.6293945E-5 9.1552734E-5 -0.0021972656
+01-07 14:49:05.469 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:06.470 I/System.out( 5908): Values: -0.0011444092 -9.765625E-4 -6.1035156E-5
+01-07 14:49:06.480 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:07.471 I/System.out( 5908): Values: -0.0016784668 -9.765625E-4 -0.001663208
+01-07 14:49:07.471 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:08.472 I/System.out( 5908): Values: -0.002746582 -4.4250488E-4 -0.001663208
+01-07 14:49:08.482 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:09.473 I/System.out( 5908): Values: -0.0016784668 6.2561035E-4 0.0010070801
+01-07 14:49:09.473 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:10.464 I/System.out( 5908): Values: -6.1035156E-4 -4.4250488E-4 -0.0011291504
+01-07 14:49:10.464 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:11.465 I/System.out( 5908): Values: 0.0015258789 6.2561035E-4 0.0010070801
+01-07 14:49:11.465 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:12.466 I/System.out( 5908): Values: -7.6293945E-5 9.1552734E-5 4.7302246E-4
+01-07 14:49:12.466 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:13.467 I/System.out( 5908): Values: -0.0016784668 0.003829956 -5.950928E-4
+01-07 14:49:13.467 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:14.468 I/System.out( 5908): Values: 4.5776367E-4 -0.0020446777 4.7302246E-4
+01-07 14:49:14.468 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:15.469 I/System.out( 5908): Values: -0.0038146973 0.0022277832 0.0010070801
+01-07 14:49:15.469 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:16.470 I/System.out( 5908): Values: -0.0011444092 0.0016937256 -0.001663208
+01-07 14:49:16.470 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:17.471 I/System.out( 5908): Values: 0.0020599365 6.2561035E-4 -0.001663208
+01-07 14:49:17.471 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:18.471 I/System.out( 5908): Values: 9.918213E-4 -0.0036468506 -5.950928E-4
+01-07 14:49:18.471 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:19.472 I/System.out( 5908): Values: 9.918213E-4 6.2561035E-4 0.0015411377
+01-07 14:49:19.482 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:20.463 I/System.out( 5908): Values: -0.0016784668 0.001159668 -6.1035156E-5
+01-07 14:49:20.473 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:21.474 I/System.out( 5908): Values: 4.5776367E-4 -0.0020446777 0.0015411377
+01-07 14:49:21.474 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:22.465 I/System.out( 5908): Values: -0.0011444092 6.2561035E-4 -6.1035156E-5
+01-07 14:49:22.475 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:23.466 I/System.out( 5908): Values: -0.0011444092 9.1552734E-5 -6.1035156E-5
+01-07 14:49:23.476 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:24.467 I/System.out( 5908): Values: 3.5095215E-4 -0.0012207031 -0.001083374
+01-07 14:49:24.477 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:25.468 I/System.out( 5908): Values: 8.8500977E-4 3.8146973E-4 5.187988E-4
+01-07 14:49:25.488 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:26.469 I/System.out( 5908): Values: -7.171631E-4 -0.002822876 -0.0021514893
+01-07 14:49:26.479 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:27.470 I/System.out( 5908): Values: -0.0012512207 0.001449585 -1.5258789E-5
+01-07 14:49:27.490 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:28.471 I/System.out( 5908): Values: 3.5095215E-4 -0.0017547607 -5.493164E-4
+01-07 14:49:28.491 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:29.472 I/System.out( 5908): Values: -1.8310547E-4 -0.0017547607 0.0021209717
+01-07 14:49:29.482 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:30.473 I/System.out( 5908): Values: 3.5095215E-4 -6.866455E-4 -0.0016174316
+01-07 14:49:30.483 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:31.474 I/System.out( 5908): Values: 3.5095215E-4 0.0030517578 -1.5258789E-5
+01-07 14:49:31.484 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:32.465 I/System.out( 5908): Values: -1.8310547E-4 -6.866455E-4 0.0010528564
+01-07 14:49:32.475 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:33.466 I/System.out( 5908): Values: 0.0014190674 0.0019836426 0.0010528564
+01-07 14:49:33.476 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:34.467 I/System.out( 5908): Values: -7.171631E-4 0.001449585 -1.5258789E-5
+01-07 14:49:34.477 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:35.468 I/System.out( 5908): Values: -7.171631E-4 0.0025177002 -1.5258789E-5
+01-07 14:49:35.478 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:36.469 I/System.out( 5908): Values: 0.0014190674 3.8146973E-4 -1.5258789E-5
+01-07 14:49:36.479 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:37.480 I/System.out( 5908): Values: -0.002319336 -0.0012207031 -0.0026855469
+01-07 14:49:37.480 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:38.481 I/System.out( 5908): Values: 0.0014190674 0.0019836426 -1.5258789E-5
+01-07 14:49:38.491 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:39.482 I/System.out( 5908): Values: -0.0012512207 -6.866455E-4 -5.493164E-4
+01-07 14:49:39.482 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:40.483 I/System.out( 5908): Values: -1.8310547E-4 -6.866455E-4 0.0015869141
+01-07 14:49:40.483 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:41.474 I/System.out( 5908): Values: 0.0014190674 9.1552734E-4 0.0010528564
+01-07 14:49:41.484 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:42.475 I/System.out( 5908): Values: -0.0017852783 0.0019836426 -1.5258789E-5
+01-07 14:49:42.495 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:43.476 I/System.out( 5908): Values: 0.0014190674 -6.866455E-4 -1.5258789E-5
+01-07 14:49:43.476 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:44.487 I/System.out( 5908): Values: -0.0017852783 -6.866455E-4 -5.493164E-4
+01-07 14:49:44.487 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:45.478 I/System.out( 5908): Values: 3.5095215E-4 0.0019836426 0.003189087
+01-07 14:49:45.488 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:46.479 I/System.out( 5908): Values: -1.8310547E-4 -6.866455E-4 -5.493164E-4
+01-07 14:49:46.489 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:47.480 I/System.out( 5908): Values: 0.001953125 -6.866455E-4 5.187988E-4
+01-07 14:49:47.490 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:48.481 I/System.out( 5908): Values: -0.0012512207 -6.866455E-4 0.0015869141
+01-07 14:49:48.491 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:49.482 I/System.out( 5908): Values: 0.0040893555 -0.0017547607 -0.0016174316
+01-07 14:49:49.492 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:50.483 I/System.out( 5908): Values: -1.8310547E-4 -6.866455E-4 5.187988E-4
+01-07 14:49:50.493 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:51.474 I/System.out( 5908): Values: -0.002319336 -0.0012207031 -5.493164E-4
+01-07 14:49:51.484 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:52.485 I/System.out( 5908): Values: -1.8310547E-4 0.001449585 5.187988E-4
+01-07 14:49:52.485 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:53.486 I/System.out( 5908): Values: -0.0017852783 -0.0012207031 -1.5258789E-5
+01-07 14:49:53.486 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:54.487 I/System.out( 5908): Values: 3.5095215E-4 3.8146973E-4 0.0010528564
+01-07 14:49:54.487 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:55.488 I/System.out( 5908): Values: -7.171631E-4 -1.5258789E-4 0.0010528564
+01-07 14:49:55.488 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:56.489 I/System.out( 5908): Values: -0.002319336 -1.5258789E-4 0.0010528564
+01-07 14:49:56.489 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:57.490 I/System.out( 5908): Values: -0.0012512207 0.006790161 5.187988E-4
+01-07 14:49:57.490 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:58.491 I/System.out( 5908): Values: -0.0017852783 -6.866455E-4 -1.5258789E-5
+01-07 14:49:58.501 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:49:59.492 I/System.out( 5908): Values: -0.0012512207 -0.0012207031 5.187988E-4
+01-07 14:49:59.492 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:00.492 I/System.out( 5908): Values: -0.0012512207 -0.0012207031 -1.5258789E-5
+01-07 14:50:00.492 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:01.493 I/System.out( 5908): Values: -7.171631E-4 -6.866455E-4 5.187988E-4
+01-07 14:50:01.493 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:02.494 I/System.out( 5908): Values: 3.5095215E-4 -6.866455E-4 -0.001083374
+01-07 14:50:02.504 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:03.495 I/System.out( 5908): Values: 3.5095215E-4 -6.866455E-4 0.0010528564
+01-07 14:50:03.495 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:04.486 I/System.out( 5908): Values: 8.8500977E-4 -0.0038909912 -5.493164E-4
+01-07 14:50:04.486 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:05.487 I/System.out( 5908): Values: 0.0014190674 -0.0033569336 -1.5258789E-5
+01-07 14:50:05.497 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:06.488 I/System.out( 5908): Values: 3.5095215E-4 0.0030517578 0.0010528564
+01-07 14:50:06.488 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:07.489 I/System.out( 5908): Values: -1.8310547E-4 -0.0012207031 5.187988E-4
+01-07 14:50:07.489 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:08.490 I/System.out( 5908): Values: 8.8500977E-4 -1.5258789E-4 -1.5258789E-5
+01-07 14:50:08.500 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:09.491 I/System.out( 5908): Values: 8.8500977E-4 -0.0022888184 0.0010528564
+01-07 14:50:09.501 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:10.492 I/System.out( 5908): Values: -0.0012512207 -0.0012207031 -1.5258789E-5
+01-07 14:50:10.502 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:11.493 I/System.out( 5908): Values: 0.0030212402 -0.0022888184 5.187988E-4
+01-07 14:50:11.503 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:12.484 I/System.out( 5908): Values: -0.0012512207 3.8146973E-4 -0.001083374
+01-07 14:50:12.494 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:13.495 I/System.out( 5908): Values: -0.0017852783 -0.0017547607 5.187988E-4
+01-07 14:50:13.495 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:14.486 I/System.out( 5908): Values: 3.5095215E-4 0.0025177002 0.0010528564
+01-07 14:50:14.496 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:15.487 I/System.out( 5908): Values: 0.0014190674 0.0019836426 5.187988E-4
+01-07 14:50:15.497 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:16.488 I/System.out( 5908): Values: -0.0017852783 -0.0012207031 -0.0016174316
+01-07 14:50:16.498 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:17.489 I/System.out( 5908): Values: 0.0051574707 -6.866455E-4 -0.001083374
+01-07 14:50:17.509 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:18.500 I/System.out( 5908): Values: -0.002319336 -0.0022888184 -1.5258789E-5
+01-07 14:50:18.500 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:19.501 I/System.out( 5908): Values: -7.171631E-4 -0.0012207031 0.0015869141
+01-07 14:50:19.501 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:20.502 I/System.out( 5908): Values: -0.0012512207 -0.0012207031 -0.001083374
+01-07 14:50:20.502 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:21.503 I/System.out( 5908): Values: -0.0017852783 9.1552734E-4 -5.493164E-4
+01-07 14:50:21.503 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:22.504 I/System.out( 5908): Values: 0.0024871826 0.0019836426 -5.493164E-4
+01-07 14:50:22.504 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:23.505 I/System.out( 5908): Values: 8.8500977E-4 -0.0012207031 0.0015869141
+01-07 14:50:23.505 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:24.496 I/System.out( 5908): Values: 0.0010986328 -0.002319336 4.5776367E-4
+01-07 14:50:24.496 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:25.497 I/System.out( 5908): Values: 0.0032348633 0.0014190674 -7.6293945E-5
+01-07 14:50:25.497 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:26.498 I/System.out( 5908): Values: 0.002166748 3.5095215E-4 0.0015258789
+01-07 14:50:26.508 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:27.499 I/System.out( 5908): Values: 3.0517578E-5 0.001953125 -7.6293945E-5
+01-07 14:50:27.519 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:28.500 I/System.out( 5908): Values: 5.645752E-4 3.5095215E-4 0.0015258789
+01-07 14:50:28.520 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:29.501 I/System.out( 5908): Values: 0.002166748 -0.0033874512 9.918213E-4
+01-07 14:50:29.511 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:30.502 I/System.out( 5908): Values: 0.0010986328 -0.0012512207 0.0015258789
+01-07 14:50:30.512 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:31.503 I/System.out( 5908): Values: -0.0010375977 -0.0033874512 -0.0011444092
+01-07 14:50:31.513 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:32.504 I/System.out( 5908): Values: 3.0517578E-5 0.0014190674 9.918213E-4
+01-07 14:50:32.514 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:33.505 I/System.out( 5908): Values: -5.0354004E-4 -0.0017852783 0.0015258789
+01-07 14:50:33.505 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:34.496 I/System.out( 5908): Values: -0.0010375977 0.0024871826 -7.6293945E-5
+01-07 14:50:34.516 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:35.497 I/System.out( 5908): Values: 5.645752E-4 -1.8310547E-4 -7.6293945E-5
+01-07 14:50:35.507 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:36.508 I/System.out( 5908): Values: 0.002166748 0.0014190674 -6.1035156E-4
+01-07 14:50:36.518 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:37.499 I/System.out( 5908): Values: -0.0015716553 3.5095215E-4 9.918213E-4
+01-07 14:50:37.519 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:38.510 I/System.out( 5908): Values: 0.0016326904 -7.171631E-4 9.918213E-4
+01-07 14:50:38.510 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:39.511 I/System.out( 5908): Values: 3.0517578E-5 8.8500977E-4 -6.1035156E-4
+01-07 14:50:39.511 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:40.512 I/System.out( 5908): Values: -0.0010375977 3.5095215E-4 -7.6293945E-5
+01-07 14:50:40.512 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:41.513 I/System.out( 5908): Values: -5.0354004E-4 -0.003921509 4.5776367E-4
+01-07 14:50:41.513 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:42.513 I/System.out( 5908): Values: -0.0015716553 0.0014190674 -0.0032806396
+01-07 14:50:42.513 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:43.504 I/System.out( 5908): Values: -0.0015716553 0.001953125 4.5776367E-4
+01-07 14:50:43.504 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:44.505 I/System.out( 5908): Values: 3.0517578E-5 8.8500977E-4 4.5776367E-4
+01-07 14:50:44.505 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:45.506 I/System.out( 5908): Values: -0.0031738281 0.0035552979 0.0015258789
+01-07 14:50:45.506 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:46.507 I/System.out( 5908): Values: -0.002105713 0.0014190674 -0.0016784668
+01-07 14:50:46.507 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:47.508 I/System.out( 5908): Values: -0.002105713 -1.8310547E-4 -0.0011444092
+01-07 14:50:47.518 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:48.509 I/System.out( 5908): Values: -5.0354004E-4 0.0014190674 -7.6293945E-5
+01-07 14:50:48.509 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:49.510 I/System.out( 5908): Values: 0.003768921 0.0014190674 -7.6293945E-5
+01-07 14:50:49.510 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:50.511 I/System.out( 5908): Values: 0.0032348633 -7.171631E-4 -7.6293945E-5
+01-07 14:50:50.511 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:51.512 I/System.out( 5908): Values: 0.0027008057 3.5095215E-4 -0.0011444092
+01-07 14:50:51.522 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:51.582 D/dalvikvm( 5908): GC_CONCURRENT freed 375K, 5% free 9039K/9452K, paused 10ms+1ms, total 57ms
+01-07 14:50:52.513 I/System.out( 5908): Values: 0.0010986328 -0.0017852783 9.918213E-4
+01-07 14:50:52.523 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:53.504 I/System.out( 5908): Values: -0.0015716553 -0.0017852783 -0.0011444092
+01-07 14:50:53.514 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:54.505 I/System.out( 5908): Values: 0.0016326904 -0.0012512207 9.918213E-4
+01-07 14:50:54.515 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:55.506 I/System.out( 5908): Values: 5.645752E-4 -1.8310547E-4 -7.6293945E-5
+01-07 14:50:55.516 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:56.507 I/System.out( 5908): Values: 0.003768921 0.0035552979 0.0020599365
+01-07 14:50:56.527 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:57.508 I/System.out( 5908): Values: -0.0031738281 3.5095215E-4 0.0015258789
+01-07 14:50:57.518 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:58.519 I/System.out( 5908): Values: 0.0010986328 -0.0012512207 -7.6293945E-5
+01-07 14:50:58.519 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:50:59.520 I/System.out( 5908): Values: 5.645752E-4 -7.171631E-4 -6.1035156E-4
+01-07 14:50:59.520 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:00.521 I/System.out( 5908): Values: -0.0015716553 -0.002319336 9.918213E-4
+01-07 14:51:00.521 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:01.522 I/System.out( 5908): Values: 3.0517578E-5 8.8500977E-4 4.5776367E-4
+01-07 14:51:01.522 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:02.523 I/System.out( 5908): Values: 0.002166748 0.0014190674 -6.1035156E-4
+01-07 14:51:02.523 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:03.514 I/System.out( 5908): Values: 0.0016326904 -1.8310547E-4 -0.0011444092
+01-07 14:51:03.514 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:04.515 I/System.out( 5908): Values: 0.002166748 8.8500977E-4 0.0020599365
+01-07 14:51:04.515 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:05.516 I/System.out( 5908): Values: 0.0010986328 -1.8310547E-4 4.5776367E-4
+01-07 14:51:05.516 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:06.517 I/System.out( 5908): Values: 3.0517578E-5 -0.002319336 0.0031280518
+01-07 14:51:06.517 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:07.518 I/System.out( 5908): Values: -0.002105713 3.5095215E-4 -7.6293945E-5
+01-07 14:51:07.518 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:08.519 I/System.out( 5908): Values: -0.002105713 8.8500977E-4 -6.1035156E-4
+01-07 14:51:08.529 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:09.520 I/System.out( 5908): Values: -0.0015716553 3.5095215E-4 -0.0011444092
+01-07 14:51:09.530 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:10.521 I/System.out( 5908): Values: 5.645752E-4 8.8500977E-4 -0.0016784668
+01-07 14:51:10.531 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:11.522 I/System.out( 5908): Values: 0.0010986328 0.0030212402 -7.6293945E-5
+01-07 14:51:11.532 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:12.523 I/System.out( 5908): Values: -5.0354004E-4 8.8500977E-4 -6.1035156E-4
+01-07 14:51:12.533 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:13.524 I/System.out( 5908): Values: 0.0016326904 -7.171631E-4 9.918213E-4
+01-07 14:51:13.534 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:14.525 I/System.out( 5908): Values: 0.0010986328 -7.171631E-4 4.5776367E-4
+01-07 14:51:14.525 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:15.526 I/System.out( 5908): Values: 0.0016326904 0.001953125 -0.0011444092
+01-07 14:51:15.526 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:16.517 I/System.out( 5908): Values: -0.0010375977 -7.171631E-4 -0.0011444092
+01-07 14:51:16.527 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:17.518 I/System.out( 5908): Values: -0.0015716553 -0.0012512207 -6.1035156E-4
+01-07 14:51:17.528 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:18.529 I/System.out( 5908): Values: -0.0015716553 -7.171631E-4 4.5776367E-4
+01-07 14:51:18.539 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:19.530 I/System.out( 5908): Values: -0.002105713 0.0014190674 -0.0011444092
+01-07 14:51:19.530 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:20.531 I/System.out( 5908): Values: -0.002105713 0.001953125 -0.0011444092
+01-07 14:51:20.531 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:21.532 I/System.out( 5908): Values: 0.0010986328 -1.8310547E-4 4.5776367E-4
+01-07 14:51:21.532 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:22.533 I/System.out( 5908): Values: 0.0016326904 -0.002319336 -7.6293945E-5
+01-07 14:51:22.533 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:23.534 I/System.out( 5908): Values: 3.0517578E-5 -0.0028533936 -0.0011444092
+01-07 14:51:23.534 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:24.534 I/System.out( 5908): Values: -0.0020446777 0.0032958984 -0.0016784668
+01-07 14:51:24.534 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:25.525 I/System.out( 5908): Values: 6.2561035E-4 6.2561035E-4 -6.1035156E-4
+01-07 14:51:25.525 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:26.526 I/System.out( 5908): Values: 9.1552734E-5 -9.765625E-4 0.0015258789
+01-07 14:51:26.536 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:27.527 I/System.out( 5908): Values: -0.0036468506 -4.4250488E-4 -6.1035156E-4
+01-07 14:51:27.527 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:28.528 I/System.out( 5908): Values: 6.2561035E-4 0.0059661865 -6.1035156E-4
+01-07 14:51:28.538 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:29.529 I/System.out( 5908): Values: 6.2561035E-4 0.001159668 4.5776367E-4
+01-07 14:51:29.539 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:30.530 I/System.out( 5908): Values: 9.1552734E-5 9.1552734E-5 -0.0022125244
+01-07 14:51:30.540 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:31.531 I/System.out( 5908): Values: -0.0020446777 -0.003112793 4.5776367E-4
+01-07 14:51:31.531 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:32.532 I/System.out( 5908): Values: 0.001159668 9.1552734E-5 -0.0011444092
+01-07 14:51:32.542 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:33.533 I/System.out( 5908): Values: 0.0022277832 -0.003112793 0.0015258789
+01-07 14:51:33.553 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:34.534 I/System.out( 5908): Values: -9.765625E-4 0.001159668 -0.0016784668
+01-07 14:51:34.534 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:35.535 I/System.out( 5908): Values: -0.0020446777 0.0027618408 -0.0022125244
+01-07 14:51:35.535 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:36.536 I/System.out( 5908): Values: -4.4250488E-4 9.1552734E-5 -7.6293945E-5
+01-07 14:51:36.536 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:37.537 I/System.out( 5908): Values: 0.0027618408 -9.765625E-4 -0.0016784668
+01-07 14:51:37.537 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:38.538 I/System.out( 5908): Values: 9.1552734E-5 -0.0025787354 -0.0016784668
+01-07 14:51:38.538 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:39.539 I/System.out( 5908): Values: -9.765625E-4 -0.0020446777 -0.0022125244
+01-07 14:51:39.539 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:40.540 I/System.out( 5908): Values: 9.1552734E-5 -0.0015106201 -7.6293945E-5
+01-07 14:51:40.540 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:41.541 I/System.out( 5908): Values: 9.1552734E-5 9.1552734E-5 -7.6293945E-5
+01-07 14:51:41.551 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:42.542 I/System.out( 5908): Values: -0.0020446777 0.001159668 0.0015258789
+01-07 14:51:42.542 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:43.543 I/System.out( 5908): Values: -4.4250488E-4 -9.765625E-4 -6.1035156E-4
+01-07 14:51:43.543 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:44.544 I/System.out( 5908): Values: 0.0022277832 -0.0020446777 -0.0011444092
+01-07 14:51:44.544 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:45.535 I/System.out( 5908): Values: -9.765625E-4 6.2561035E-4 -0.002746582
+01-07 14:51:45.535 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:46.546 I/System.out( 5908): Values: 0.001159668 0.001159668 -0.002746582
+01-07 14:51:46.546 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:47.537 I/System.out( 5908): Values: -0.24824524 -0.48483276 1.1689758
+01-07 14:51:47.537 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:48.538 I/System.out( 5908): Values: 0.3424225 -0.21406555 -0.23399353
+01-07 14:51:48.538 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:49.539 I/System.out( 5908): Values: 0.19769287 0.14108276 -0.05935669
+01-07 14:51:49.549 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:50.540 I/System.out( 5908): Values: -0.26853943 -0.49871826 -0.43746948
+01-07 14:51:50.550 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:50.920 I/EntropyMixer(  523): Writing entropy...
+01-07 14:51:50.950 D/PicasaSyncManager( 5384): battery info: true
+01-07 14:51:50.950 D/PicasaUploaderSyncManager( 5407): battery info: true
+01-07 14:51:50.950 W/PowerUI (  597): unknown intent: Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x8000010 }
+01-07 14:51:51.541 I/System.out( 5908): Values: -0.0025787354 -0.14730835 -0.31463623
+01-07 14:51:51.551 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:51.961 D/MtpService(  661): updating state; isCurrentUser=true, mMtpLocked=false
+01-07 14:51:51.961 D/MtpService(  661): addStorageLocked 65537 /storage/emulated/0
+01-07 14:51:51.961 D/MtpService(  661): updating state; isCurrentUser=true, mMtpLocked=false
+01-07 14:51:51.961 D/MtpService(  661): starting MTP server in MTP mode
+01-07 14:51:51.961 D/MtpService(  661): addStorageLocked 65537 /storage/emulated/0
+01-07 14:51:52.542 I/System.out( 5908): Values: 0.64256287 0.19342041 -0.5421448
+01-07 14:51:52.552 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:53.543 I/System.out( 5908): Values: -0.0015106201 -0.0025787354 -0.002746582
+01-07 14:51:53.553 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:54.193 D/dalvikvm(  661): GC_CONCURRENT freed 380K, 5% free 9339K/9776K, paused 2ms+3ms, total 44ms
+01-07 14:51:54.334 D/dalvikvm(  523): GC_EXPLICIT freed 1507K, 19% free 17317K/21164K, paused 2ms+6ms, total 86ms
+01-07 14:51:54.534 I/System.out( 5908): Values: 0.0027618408 -0.0025787354 -6.1035156E-4
+01-07 14:51:54.534 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:55.545 I/System.out( 5908): Values: 0.0027618408 0.0022277832 -0.002746582
+01-07 14:51:55.545 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:56.536 I/System.out( 5908): Values: -0.0025787354 -0.0025787354 -0.0059509277
+01-07 14:51:56.546 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:57.537 I/System.out( 5908): Values: -9.765625E-4 -0.0020446777 -0.00541687
+01-07 14:51:57.547 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:58.538 I/System.out( 5908): Values: 9.1552734E-5 -0.0020446777 -6.1035156E-4
+01-07 14:51:58.538 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:51:59.539 I/System.out( 5908): Values: 0.0016937256 -4.4250488E-4 -0.0011444092
+01-07 14:51:59.549 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:00.540 I/System.out( 5908): Values: -0.0036468506 -0.0025787354 -0.004348755
+01-07 14:52:00.550 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:01.541 I/System.out( 5908): Values: 6.2561035E-4 6.2561035E-4 -0.0016784668
+01-07 14:52:01.551 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:02.542 I/System.out( 5908): Values: 6.2561035E-4 0.001159668 -0.0016784668
+01-07 14:52:02.552 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:03.543 I/System.out( 5908): Values: -0.0020446777 -0.0015106201 -0.0011444092
+01-07 14:52:03.553 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:04.544 I/System.out( 5908): Values: 0.0027618408 0.001159668 9.918213E-4
+01-07 14:52:04.544 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:05.544 I/System.out( 5908): Values: -0.0015106201 -0.0052490234 -0.0022125244
+01-07 14:52:05.544 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:06.535 I/System.out( 5908): Values: -4.4250488E-4 -9.765625E-4 -6.1035156E-4
+01-07 14:52:06.545 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:07.536 I/System.out( 5908): Values: -0.004714966 -0.0079193115 -0.002746582
+01-07 14:52:07.546 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:08.537 I/System.out( 5908): Values: -0.0025787354 -0.0020446777 -0.0022125244
+01-07 14:52:08.547 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:09.538 I/System.out( 5908): Values: 6.2561035E-4 -0.0015106201 -0.0011444092
+01-07 14:52:09.548 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:10.549 I/System.out( 5908): Values: 9.1552734E-5 6.2561035E-4 -0.0016784668
+01-07 14:52:10.549 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:11.550 I/System.out( 5908): Values: -0.0036468506 6.2561035E-4 -0.0016784668
+01-07 14:52:11.550 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:12.551 I/System.out( 5908): Values: -0.0015106201 -9.765625E-4 -6.1035156E-4
+01-07 14:52:12.551 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:13.552 I/System.out( 5908): Values: -4.4250488E-4 -9.765625E-4 -0.0022125244
+01-07 14:52:13.552 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:14.553 I/System.out( 5908): Values: -0.0063171387 -0.004180908 -0.0016784668
+01-07 14:52:14.553 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:15.544 I/System.out( 5908): Values: 6.2561035E-4 9.1552734E-5 -0.0016784668
+01-07 14:52:15.544 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:16.545 I/System.out( 5908): Values: 0.0016937256 0.0043640137 -6.1035156E-4
+01-07 14:52:16.545 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:17.546 I/System.out( 5908): Values: 9.1552734E-5 -9.765625E-4 -0.0022125244
+01-07 14:52:17.546 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:18.547 I/System.out( 5908): Values: -0.004180908 -0.003112793 -6.1035156E-4
+01-07 14:52:18.547 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:19.548 I/System.out( 5908): Values: 0.0022277832 9.1552734E-5 -0.0016784668
+01-07 14:52:19.548 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:20.549 I/System.out( 5908): Values: -0.0063171387 -0.003112793 -0.002746582
+01-07 14:52:20.549 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:21.550 I/System.out( 5908): Values: -0.0015106201 -0.0020446777 -6.1035156E-4
+01-07 14:52:21.550 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:22.551 I/System.out( 5908): Values: -4.4250488E-4 -0.0036468506 -0.0022125244
+01-07 14:52:22.551 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:23.552 I/System.out( 5908): Values: -0.004180908 -0.005783081 4.5776367E-4
+01-07 14:52:23.552 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:24.553 I/System.out( 5908): Values: -0.0027313232 -0.0012969971 -9.0026855E-4
+01-07 14:52:24.553 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:25.544 I/System.out( 5908): Values: -0.0027313232 -0.00289917 -9.0026855E-4
+01-07 14:52:25.544 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:26.555 I/System.out( 5908): Values: -6.1035156E-5 -0.0023651123 7.019043E-4
+01-07 14:52:26.555 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:27.556 I/System.out( 5908): Values: 0.0020751953 -2.2888184E-4 -3.6621094E-4
+01-07 14:52:27.556 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:28.547 I/System.out( 5908): Values: -0.001663208 -0.003967285 7.019043E-4
+01-07 14:52:28.547 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:29.548 I/System.out( 5908): Values: 0.0020751953 0.001373291 -9.0026855E-4
+01-07 14:52:29.548 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:30.549 I/System.out( 5908): Values: -0.0021972656 -0.0018310547 -9.0026855E-4
+01-07 14:52:30.559 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:31.550 I/System.out( 5908): Values: -0.0027313232 -0.0034332275 7.019043E-4
+01-07 14:52:31.550 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:32.551 I/System.out( 5908): Values: -0.0011291504 0.004043579 0.0012359619
+01-07 14:52:32.551 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:33.552 I/System.out( 5908): Values: -0.001663208 0.0029754639 -0.0014343262
+01-07 14:52:33.552 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:34.553 I/System.out( 5908): Values: -6.1035156E-5 -0.0012969971 -3.6621094E-4
+01-07 14:52:34.563 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:35.544 I/System.out( 5908): Values: -0.0037994385 -7.6293945E-4 1.6784668E-4
+01-07 14:52:35.554 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:36.555 I/System.out( 5908): Values: -0.0027313232 -0.0023651123 -3.6621094E-4
+01-07 14:52:36.555 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:37.546 I/System.out( 5908): Values: 0.0010070801 8.392334E-4 -3.6621094E-4
+01-07 14:52:37.556 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:38.547 I/System.out( 5908): Values: 0.0020751953 0.001373291 7.019043E-4
+01-07 14:52:38.557 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:39.548 I/System.out( 5908): Values: 0.0010070801 0.0024414063 -9.0026855E-4
+01-07 14:52:39.558 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:40.549 I/System.out( 5908): Values: 0.0015411377 -0.0023651123 0.00390625
+01-07 14:52:40.559 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:41.550 I/System.out( 5908): Values: -5.950928E-4 3.0517578E-4 -9.0026855E-4
+01-07 14:52:41.560 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:42.561 I/System.out( 5908): Values: -0.001663208 -0.003967285 0.0017700195
+01-07 14:52:42.561 I/System.out( 5908): Time difference in secs is: 721
+01-07 14:52:43.562 I/System.out( 5908): Values: -0.001663208 -0.003967285 7.019043E-4
+01-07 14:52:43.562 I/System.out( 5908): Time difference in secs is: 721
