@@ -1,0 +1,1489 @@
+--------- beginning of /dev/log/system
+01-09 15:01:58.649 I/PowerManagerService(  512): Waking up from sleep...
+--------- beginning of /dev/log/main
+01-09 15:01:58.689 D/audio_hw_primary(  180): adev_set_parameters: enter: screen_state=on
+01-09 15:01:58.689 D/audio_hw_primary(  180): adev_set_parameters: exit with code(-2)
+01-09 15:01:58.699 I/WindowManager(  512): Lock screen displayed!
+01-09 15:01:58.709 D/SurfaceFlinger(  177): Screen acquired, type=0 flinger=0xb736d478
+01-09 15:01:58.939 D/SurfaceControl(  512): Excessive delay in unblankDisplay() while turning screen on: 241ms
+01-09 15:01:58.999 V/DigitalWidgetViewsFactory( 4127): DigitalWidget sets next alarm string to null
+01-09 15:01:59.009 D/YouTube MDX( 6428): Recieved intent android.intent.action.SCREEN_ON
+01-09 15:02:00.220 D/audio_hw_primary(  180): start_output_stream: enter: usecase(1: low-latency-playback) devices(0x2)
+01-09 15:02:00.220 D/audio_hw_primary(  180): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+01-09 15:02:00.220 D/audio_hw_primary(  180): enable_snd_device: sending audio calibration for snd_device(2) acdb_id(14)
+01-09 15:02:00.220 D/ACDB-LOADER(  180): ACDB -> send_afe_cal
+01-09 15:02:00.220 D/audio_hw_primary(  180): enable_snd_device: snd_device(2: speaker)
+01-09 15:02:00.230 D/audio_hw_primary(  180): enable_audio_route: apply mixer path: low-latency-playback
+01-09 15:02:00.230 D/PhoneStatusBar(  585): disable: < expand icons alerts ticker system_info BACK HOME recent* CLOCK search >
+01-09 15:02:00.240 D/audio_hw_primary(  180): start_output_stream: exit
+01-09 15:02:00.260 D/PhoneStatusBar(  585): disable: < expand icons alerts ticker system_info back* home* recent clock* search >
+01-09 15:02:00.270 W/InputMethodManagerService(  512): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@42576800 attribute=android.view.inputmethod.EditorInfo@4290ce10, token = android.os.BinderProxy@429796b8
+01-09 15:02:00.731 V/TAG     (  512): bug 7643792: fitSystemWindows([0,50][0,0])
+01-09 15:02:03.474 D/audio_hw_primary(  180): out_standby: enter: usecase(1: low-latency-playback)
+01-09 15:02:03.514 D/audio_hw_primary(  180): stop_output_stream: enter: usecase(1: low-latency-playback)
+01-09 15:02:03.514 D/audio_hw_primary(  180): disable_audio_route: reset mixer path: low-latency-playback
+01-09 15:02:03.514 D/audio_hw_primary(  180): disable_snd_device: snd_device(2: speaker)
+01-09 15:02:03.524 D/audio_hw_primary(  180): stop_output_stream: exit: status(0)
+01-09 15:02:03.524 D/audio_hw_primary(  180): out_standby: exit
+01-09 15:02:13.113 D/AndroidRuntime( 6625): 
+01-09 15:02:13.113 D/AndroidRuntime( 6625): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-09 15:02:13.113 D/AndroidRuntime( 6625): CheckJNI is OFF
+01-09 15:02:13.123 D/dalvikvm( 6625): Trying to load lib libjavacore.so 0x0
+01-09 15:02:13.133 D/dalvikvm( 6625): Added shared lib libjavacore.so 0x0
+01-09 15:02:13.143 D/dalvikvm( 6625): Trying to load lib libnativehelper.so 0x0
+01-09 15:02:13.143 D/dalvikvm( 6625): Added shared lib libnativehelper.so 0x0
+01-09 15:02:13.213 I/ActivityManager(  512): START u0 {act=android.intent.action.CHOOSER cmp=android/com.android.internal.app.ChooserActivity (has extras)} from pid 766
+01-09 15:02:13.273 D/AndroidRuntime( 6625): Calling main entry com.android.commands.pm.Pm
+01-09 15:02:13.283 D/dalvikvm(  512): JIT code cache reset in 1 ms (1048408 bytes 3/0)
+01-09 15:02:13.293 D/dalvikvm(  512): GC_FOR_ALLOC freed 1009K, 13% free 18067K/20664K, paused 77ms, total 79ms
+01-09 15:02:13.293 I/dalvikvm-heap(  512): Grow heap (frag case) to 18.223MB for 566416-byte allocation
+01-09 15:02:13.363 D/dalvikvm(  512): GC_FOR_ALLOC freed 2K, 13% free 18618K/21220K, paused 68ms, total 68ms
+01-09 15:02:13.373 W/ActivityManager(  512): No content provider found for permission revoke: file:///data/local/tmp/EnergyMeasurementPlain.apk
+01-09 15:02:13.383 D/Finsky  ( 4841): [1] PackageVerificationReceiver.checkPrerequisites: Skipping verification because network inactive
+01-09 15:02:13.393 D/Finsky  ( 4841): [1] PackageVerificationReceiver.checkPrerequisites: Skipping verification because network inactive
+01-09 15:02:13.393 W/ActivityManager(  512): No content provider found for permission revoke: file:///data/local/tmp/EnergyMeasurementPlain.apk
+01-09 15:02:13.403 I/PackageManager(  512): Copying native libraries to /data/app-lib/vmdl-1281140216
+01-09 15:02:13.403 W/PackageManager(  512): Invalid verification token 7 received
+01-09 15:02:13.443 I/ActivityManager(  512): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain appid=10094 user=-1
+01-09 15:02:13.553 I/PackageManager(  512): Package uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain codePath changed from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-1.apk; Retaining data and using new
+01-09 15:02:13.563 I/PackageManager(  512): Running dexopt on: uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain
+01-09 15:02:13.613 I/ActivityManager(  512): Displayed android/com.android.internal.app.ChooserActivity: +232ms
+01-09 15:02:13.814 D/dalvikvm( 6642): DexOpt: load 44ms, verify+opt 160ms, 953668 bytes
+01-09 15:02:13.864 W/PackageManager(  512): Code path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-1.apk
+01-09 15:02:13.864 I/ActivityManager(  512): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain appid=10094 user=-1
+01-09 15:02:13.864 W/PackageManager(  512): Resource path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-1.apk
+01-09 15:02:14.024 I/ActivityManager(  512): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain appid=10094 user=0
+01-09 15:02:14.034 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain flg=0x8000010 (has extras) }: user 10 is stopped
+01-09 15:02:14.054 D/dalvikvm( 4874): GC_EXPLICIT freed 145K, 6% free 9174K/9684K, paused 1ms+2ms, total 23ms
+01-09 15:02:14.054 I/InputReader(  512): Reconfiguring input devices.  changes=0x00000010
+01-09 15:02:14.114 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain flg=0x8000010 (has extras) }: user 10 is stopped
+01-09 15:02:14.124 I/InputReader(  512): Reconfiguring input devices.  changes=0x00000010
+01-09 15:02:14.124 W/ContextImpl( 4899): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1385 android.content.ContextWrapper.startService:473 android.content.ContextWrapper.startService:473 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2424 
+01-09 15:02:14.134 D/dalvikvm(  652): GC_CONCURRENT freed 267K, 4% free 9133K/9436K, paused 2ms+1ms, total 21ms
+01-09 15:02:14.154 D/BackupManagerService(  512): Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain flg=0x8000010 (has extras) }
+01-09 15:02:14.154 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain flg=0x8000010 (has extras) }: user 10 is stopped
+01-09 15:02:14.164 I/Launcher(  766): Deferring update until onResume
+01-09 15:02:14.174 I/Launcher(  766): Deferring update until onResume
+01-09 15:02:14.174 D/BackupManagerService(  512): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain flg=0x8000010 (has extras) }
+01-09 15:02:14.174 V/BackupManagerService(  512): removePackageParticipantsLocked: uid=10094 #1
+01-09 15:02:14.174 V/BackupManagerService(  512): addPackageParticipantsLocked: #1
+01-09 15:02:14.184 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.MY_PACKAGE_REPLACED flg=0x8000010 pkg=uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain (has extras) }: user 10 is stopped
+01-09 15:02:14.194 D/dalvikvm(  753): GC_CONCURRENT freed 523K, 8% free 9141K/9840K, paused 1ms+2ms, total 17ms
+01-09 15:02:14.264 D/dalvikvm(  512): GC_EXPLICIT freed 3290K, 21% free 16846K/21220K, paused 3ms+6ms, total 79ms
+01-09 15:02:14.264 D/AndroidRuntime( 6625): Shutting down VM
+01-09 15:02:14.264 D/jdwp    ( 6625): Got wake-up signal, bailing out of select
+01-09 15:02:14.264 D/dalvikvm( 6625): Debugger has detached; object registry had 1 entries
+01-09 15:02:14.274 D/dalvikvm( 4488): GC_CONCURRENT freed 340K, 4% free 9270K/9648K, paused 3ms+2ms, total 21ms
+01-09 15:02:14.314 D/dalvikvm( 4913): GC_CONCURRENT freed 366K, 5% free 8896K/9300K, paused 2ms+1ms, total 19ms
+01-09 15:02:14.404 I/Velvet.VelvetFactory( 4955): refreshing search history.
+01-09 15:02:14.404 W/Sidekick_LocationOracleImpl( 4955): Best location was null
+01-09 15:02:14.424 D/dalvikvm( 4955): GC_CONCURRENT freed 388K, 5% free 9382K/9804K, paused 3ms+2ms, total 19ms
+01-09 15:02:14.434 D/dalvikvm(  704): GC_FOR_ALLOC freed 297K, 9% free 10005K/10944K, paused 21ms, total 21ms
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): Background task refresh_search_history failed
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): java.lang.NullPointerException
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:187)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.apps.sidekick.LocationOracleImpl.getBgHandler(LocationOracleImpl.java:280)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.apps.sidekick.LocationOracleImpl.requestRecentLocation(LocationOracleImpl.java:568)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.complete.AndroidProxySuggestionFetcher.fetch(AndroidProxySuggestionFetcher.java:82)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.complete.CompleteServerClient.query(CompleteServerClient.java:91)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.AbstractGoogleWebSource.doQueryInternal(AbstractGoogleWebSource.java:61)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.AbstractGoogleSource.getSuggestions(AbstractGoogleSource.java:65)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.WebSuggestSourceWrapper.getSuggestions(WebSuggestSourceWrapper.java:55)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.WebSuggestSourceWithLocalHistory.getSuggestions(WebSuggestSourceWithLocalHistory.java:111)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.WebSuggestSourceWrapper.getSuggestions(WebSuggestSourceWrapper.java:55)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.ZeroQueryCachingWebSuggestSource.getSuggestions(ZeroQueryCachingWebSuggestSource.java:105)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.WebSuggestSourceWrapper.getSuggestions(WebSuggestSourceWrapper.java:55)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.DeletedQueryRemovingSourceWrapper.getSuggestions(DeletedQueryRemovingSourceWrapper.java:48)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.velvet.VelvetFactory$1.call(VelvetFactory.java:559)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.velvet.VelvetFactory$1.call(VelvetFactory.java:555)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.util.NamingTaskExecutor$1.run(NamingTaskExecutor.java:50)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at java.lang.Thread.run(Thread.java:841)
+01-09 15:02:14.434 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.util.PriorityThreadFactory$1.run(PriorityThreadFactory.java:49)
+01-09 15:02:14.454 I/GCoreUlr(  704): Ensuring that reporting is stopped because of reasons: (no Google accounts)
+01-09 15:02:14.454 D/GCoreFlp(  704): Unknown pending intent to remove.
+01-09 15:02:14.454 I/GCoreUlr(  704): Unbound from all location providers
+01-09 15:02:14.474 D/dalvikvm(  704): GC_FOR_ALLOC freed 51K, 9% free 10008K/10944K, paused 18ms, total 18ms
+01-09 15:02:14.775 D/AndroidRuntime( 6670): 
+01-09 15:02:14.775 D/AndroidRuntime( 6670): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-09 15:02:14.775 D/AndroidRuntime( 6670): CheckJNI is OFF
+01-09 15:02:14.785 D/dalvikvm( 6670): Trying to load lib libjavacore.so 0x0
+01-09 15:02:14.795 D/dalvikvm( 6670): Added shared lib libjavacore.so 0x0
+01-09 15:02:14.805 D/dalvikvm( 6670): Trying to load lib libnativehelper.so 0x0
+01-09 15:02:14.805 D/dalvikvm( 6670): Added shared lib libnativehelper.so 0x0
+01-09 15:02:14.855 D/dalvikvm(  512): GC_FOR_ALLOC freed 1490K, 21% free 16783K/21220K, paused 60ms, total 66ms
+01-09 15:02:14.895 W/InputMethodManagerService(  512): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@429631e0 attribute=null, token = android.os.BinderProxy@429796b8
+01-09 15:02:14.925 D/AndroidRuntime( 6670): Calling main entry com.android.commands.am.Am
+01-09 15:02:14.925 D/dalvikvm( 6670): Note: class Landroid/app/ActivityManagerNative; has 163 unimplemented (abstract) methods
+01-09 15:02:14.935 I/ActivityManager(  512): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain/.MainActivity} from pid 6670
+01-09 15:02:15.005 D/dalvikvm(  512): GC_FOR_ALLOC freed 1791K, 22% free 16751K/21220K, paused 55ms, total 55ms
+01-09 15:02:15.005 D/AndroidRuntime( 6670): Shutting down VM
+01-09 15:02:15.005 D/jdwp    ( 6670): Got wake-up signal, bailing out of select
+01-09 15:02:15.005 D/dalvikvm( 6670): Debugger has detached; object registry had 1 entries
+01-09 15:02:15.005 D/dalvikvm( 6691): Late-enabling CheckJNI
+01-09 15:02:15.005 I/ActivityManager(  512): Start proc uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain for activity uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain/.MainActivity: pid=6691 uid=10094 gids={50094, 1028}
+01-09 15:02:15.025 E/jdwp    ( 6691): Failed writing handshake bytes: Broken pipe (-1 of 14)
+01-09 15:02:15.025 D/dalvikvm( 6691): Debugger has detached; object registry had 0 entries
+01-09 15:02:15.085 W/WindowManager(  512): Rebuild removed 3 windows but added 2
+01-09 15:02:15.085 W/WindowManager(  512): This window was lost: Window{422a44d0 u0 android/com.android.internal.app.ChooserActivity EXITING}
+01-09 15:02:15.085 W/WindowManager(  512): mDisplayId=0 mSession=Session{42874948 766:u0a10035} mClient=android.os.BinderProxy@425ce318
+01-09 15:02:15.085 W/WindowManager(  512): mOwnerUid=10035 mShowToOwnerOnly=true package=android appop=NONE
+01-09 15:02:15.085 W/WindowManager(  512): mAttrs=WM.LayoutParams{(0,0)(wrapxwrap) sim=#120 ty=1 fl=#1820002 pfl=0x8 fmt=-2 wanim=0x103029a}
+01-09 15:02:15.085 W/WindowManager(  512): Requested w=1160 h=507 mLayoutSeq=635
+01-09 15:02:15.085 W/WindowManager(  512): mBaseLayer=21000 mSubLayer=0 mAnimLayer=21015+0=21015 mLastLayer=21015
+01-09 15:02:15.085 W/WindowManager(  512): mToken=AppWindowToken{4289a868 token=Token{4289a5d8 ActivityRecord{4289a488 u0 android/com.android.internal.app.ChooserActivity}}}
+01-09 15:02:15.085 W/WindowManager(  512): mRootToken=AppWindowToken{4289a868 token=Token{4289a5d8 ActivityRecord{4289a488 u0 android/com.android.internal.app.ChooserActivity}}}
+01-09 15:02:15.085 W/WindowManager(  512): mAppToken=AppWindowToken{4289a868 token=Token{4289a5d8 ActivityRecord{4289a488 u0 android/com.android.internal.app.ChooserActivity}}}
+01-09 15:02:15.085 W/WindowManager(  512): mViewVisibility=0x8 mHaveFrame=true mObscured=false
+01-09 15:02:15.085 W/WindowManager(  512): mSeq=0 mSystemUiVisibility=0x0
+01-09 15:02:15.085 W/WindowManager(  512): mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+01-09 15:02:15.085 W/WindowManager(  512): mConfiguration={1.0 234mcc?mnc en_US ldltr sw600dp w600dp h887dp 320dpi lrg port finger -keyb/v/h -nav/h s.8}
+01-09 15:02:15.085 W/WindowManager(  512): mHasSurface=true mShownFrame=[77.99487,708.3478][1237.9949,1215.3478] isReadyForDisplay()=true
+01-09 15:02:15.085 W/WindowManager(  512): mFrame=[20,683][1180,1190] last=[20,683][1180,1190]
+01-09 15:02:15.085 W/WindowManager(  512): mSystemDecorRect=[0,0][1160,507] last=[0,0][1160,507]
+01-09 15:02:15.085 W/WindowManager(  512): Frames: containing=[0,50][1200,1824] parent=[0,50][1200,1824]
+01-09 15:02:15.085 W/WindowManager(  512):     display=[0,50][1200,1824] overscan=[0,50][1200,1824]
+01-09 15:02:15.085 W/WindowManager(  512):     content=[20,683][1180,1190] visible=[20,683][1180,1190]
+01-09 15:02:15.085 W/WindowManager(  512): Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+01-09 15:02:15.085 W/WindowManager(  512): Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0]
+01-09 15:02:15.085 W/WindowManager(  512): WindowStateAnimator{42aba448 android/com.android.internal.app.ChooserActivity}:
+01-09 15:02:15.085 W/WindowManager(  512):   mAnimating=true mLocalAnimating=true mAnimationIsEntrance=false mAnimation=android.view.animation.AnimationSet@4298f4c0
+01-09 15:02:15.085 W/WindowManager(  512):   XForm: has=true hasLocal=true {alpha=0.0 matrix=[0.9000088, 0.0, 57.994873][0.0, 0.9000088, 25.347763][0.0, 0.0, 1.0]}
+01-09 15:02:15.085 W/WindowManager(  512):   mSurface=Surface(name=android/com.android.internal.app.ChooserActivity)
+01-09 15:02:15.085 W/WindowManager(  512):   mDrawState=HAS_DRAWN mLastHidden=false
+01-09 15:02:15.085 W/WindowManager(  512):   Surface: shown=true layer=21015 alpha=0.0 rect=(77.99487,708.3478) 1160.0 x 507.0
+01-09 15:02:15.085 W/WindowManager(  512):   mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+01-09 15:02:15.085 W/WindowManager(  512):   mGlobalScale=1.0 mDsDx=0.9000088 mDtDx=0.0 mDsDy=0.0 mDtDy=0.9000088
+01-09 15:02:15.085 W/WindowManager(  512): mExiting=true mRemoveOnExit=true mDestroying=false mRemoved=false
+01-09 15:02:15.085 W/WindowManager(  512): Current app token list:
+01-09 15:02:15.085 V/WindowManager(  512):   #1: Token{42896fd0 ActivityRecord{422a8a48 u0 uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain/.MainActivity}}
+01-09 15:02:15.085 V/WindowManager(  512):   #0: Token{42831d68 ActivityRecord{42831920 u0 com.android.launcher/com.android.launcher2.Launcher}}
+01-09 15:02:15.085 W/WindowManager(  512): Final window list:
+01-09 15:02:15.085 V/WindowManager(  512):   #0: Window{427b07e0 u0 SearchPanel}
+01-09 15:02:15.085 V/WindowManager(  512):   #1: Window{425615e8 u0 NavigationBar}
+01-09 15:02:15.085 V/WindowManager(  512):   #2: Window{425613c8 u0 StatusBar}
+01-09 15:02:15.085 V/WindowManager(  512):   #3: Window{426062b0 u0 Keyguard}
+01-09 15:02:15.085 V/WindowManager(  512):   #4: Window{425bb898 u0 Starting uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain}
+01-09 15:02:15.085 V/WindowManager(  512):   #5: Window{42984ab8 u0 com.android.launcher/com.android.launcher2.Launcher}
+01-09 15:02:15.085 V/WindowManager(  512):   #6: Window{42829c38 u0 com.android.systemui.ImageWallpaper}
+01-09 15:02:15.125 D/libEGL  ( 6691): loaded /system/lib/egl/libEGL_adreno200.so
+01-09 15:02:15.125 D/libEGL  ( 6691): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+01-09 15:02:15.135 D/libEGL  ( 6691): loaded /system/lib/egl/libGLESv2_adreno200.so
+01-09 15:02:15.135 I/Adreno200-EGL( 6691): <qeglDrvAPI_eglInitialize:265>: EGL 1.4 QUALCOMM Build: Iabe52cfaeae4c5fab1acacfe6f056ba15fa93274
+01-09 15:02:15.175 D/OpenGLRenderer( 6691): Enabling debug mode 0
+01-09 15:02:15.235 I/ActivityManager(  512): Displayed uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain/.MainActivity: +240ms
+01-09 15:02:15.395 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 15:02:15.395 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 15:02:15.405 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 15:02:15.405 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 15:02:15.415 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 15:02:15.415 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 15:02:15.425 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 15:02:15.425 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 15:02:15.445 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 15:02:15.445 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 15:02:16.066 I/System.out( 6691): Empty value
+01-09 15:02:17.067 I/System.out( 6691): Empty value
+01-09 15:02:17.968 D/dalvikvm( 6691): Debugger has detached; object registry had 1 entries
+01-09 15:02:18.028 W/ProcessStats(  512): Skipping unknown process pid 6619
+01-09 15:02:18.048 W/ProcessStats(  512): Skipping unknown process pid 6622
+01-09 15:02:18.048 W/ProcessStats(  512): Skipping unknown process pid 6705
+01-09 15:02:18.048 W/ProcessStats(  512): Skipping unknown process pid 6709
+01-09 15:02:18.068 I/System.out( 6691): Empty value
+01-09 15:02:18.118 D/PicasaSyncManager( 4488): battery info: false
+01-09 15:02:18.138 D/PicasaUploaderSyncManager( 4521): battery info: false
+01-09 15:02:19.069 I/System.out( 6691): Empty value
+01-09 15:02:20.070 I/System.out( 6691): Empty value
+01-09 15:02:21.071 I/System.out( 6691): Empty value
+01-09 15:02:22.082 I/System.out( 6691): Empty value
+01-09 15:02:23.073 I/System.out( 6691): Empty value
+01-09 15:02:24.084 I/System.out( 6691): Empty value
+01-09 15:02:25.085 I/System.out( 6691): Empty value
+01-09 15:02:26.086 I/System.out( 6691): Empty value
+01-09 15:02:27.077 I/System.out( 6691): Empty value
+01-09 15:02:28.088 I/System.out( 6691): Empty value
+01-09 15:02:29.089 I/System.out( 6691): Empty value
+01-09 15:02:29.369 D/dalvikvm( 4841): GC_CONCURRENT freed 443K, 5% free 9409K/9892K, paused 2ms+4ms, total 21ms
+01-09 15:02:29.449 D/Finsky  ( 4841): [1] 5.onFinished: Installation state replication succeeded.
+01-09 15:02:30.080 I/System.out( 6691): Empty value
+01-09 15:02:31.080 I/System.out( 6691): Empty value
+01-09 15:02:32.081 I/System.out( 6691): Empty value
+01-09 15:02:33.082 I/System.out( 6691): Empty value
+01-09 15:02:34.083 I/System.out( 6691): Empty value
+01-09 15:02:35.094 I/System.out( 6691): Empty value
+01-09 15:02:36.095 I/System.out( 6691): Empty value
+01-09 15:02:37.096 I/System.out( 6691): Empty value
+01-09 15:02:38.087 I/System.out( 6691): Empty value
+01-09 15:02:39.088 I/System.out( 6691): Empty value
+01-09 15:02:40.089 I/System.out( 6691): Empty value
+01-09 15:02:41.090 I/System.out( 6691): Empty value
+01-09 15:02:42.091 I/System.out( 6691): Empty value
+01-09 15:02:43.092 I/System.out( 6691): Empty value
+01-09 15:02:44.093 I/System.out( 6691): Empty value
+01-09 15:02:45.094 I/System.out( 6691): Empty value
+01-09 15:02:46.095 I/System.out( 6691): Empty value
+01-09 15:02:47.096 I/System.out( 6691): Empty value
+01-09 15:02:48.097 I/System.out( 6691): Empty value
+01-09 15:02:49.098 I/System.out( 6691): Empty value
+01-09 15:02:50.099 I/System.out( 6691): Empty value
+01-09 15:02:51.100 I/System.out( 6691): Empty value
+01-09 15:02:52.101 I/System.out( 6691): Empty value
+01-09 15:02:53.102 I/System.out( 6691): Empty value
+01-09 15:02:54.103 I/System.out( 6691): Empty value
+01-09 15:02:55.104 I/System.out( 6691): Empty value
+01-09 15:02:56.105 I/System.out( 6691): Empty value
+01-09 15:02:57.106 I/System.out( 6691): Empty value
+01-09 15:02:58.107 I/System.out( 6691): Empty value
+01-09 15:02:59.118 I/System.out( 6691): Empty value
+01-09 15:03:00.119 I/System.out( 6691): Empty value
+01-09 15:03:01.120 I/System.out( 6691): Empty value
+01-09 15:03:02.121 I/System.out( 6691): Empty value
+01-09 15:03:03.122 I/System.out( 6691): Empty value
+01-09 15:03:04.123 I/System.out( 6691): Empty value
+01-09 15:03:05.124 I/System.out( 6691): Empty value
+01-09 15:03:06.125 I/System.out( 6691): Empty value
+01-09 15:03:07.126 I/System.out( 6691): Empty value
+01-09 15:03:08.117 I/System.out( 6691): Empty value
+01-09 15:03:09.118 I/System.out( 6691): Empty value
+01-09 15:03:10.119 I/System.out( 6691): Empty value
+01-09 15:03:11.120 I/System.out( 6691): Empty value
+01-09 15:03:12.121 I/System.out( 6691): Empty value
+01-09 15:03:13.122 I/System.out( 6691): Empty value
+01-09 15:03:14.122 I/System.out( 6691): Empty value
+01-09 15:03:15.123 I/System.out( 6691): Empty value
+01-09 15:03:16.134 I/System.out( 6691): Empty value
+01-09 15:03:17.125 I/System.out( 6691): Empty value
+01-09 15:03:18.136 I/System.out( 6691): Empty value
+01-09 15:03:19.137 I/System.out( 6691): Empty value
+01-09 15:03:20.128 I/System.out( 6691): Empty value
+01-09 15:03:21.139 I/System.out( 6691): Empty value
+01-09 15:03:22.130 I/System.out( 6691): Empty value
+01-09 15:03:23.131 I/System.out( 6691): Empty value
+01-09 15:03:24.132 I/System.out( 6691): Empty value
+01-09 15:03:25.133 I/System.out( 6691): Empty value
+01-09 15:03:26.134 I/System.out( 6691): Empty value
+01-09 15:03:27.145 I/System.out( 6691): Empty value
+01-09 15:03:28.146 I/System.out( 6691): Empty value
+01-09 15:03:29.137 I/System.out( 6691): Empty value
+01-09 15:03:30.138 I/System.out( 6691): Empty value
+01-09 15:03:31.149 I/System.out( 6691): Empty value
+01-09 15:03:32.140 I/System.out( 6691): Empty value
+01-09 15:03:33.141 I/System.out( 6691): Empty value
+01-09 15:03:34.142 I/System.out( 6691): Empty value
+01-09 15:03:35.143 I/System.out( 6691): Empty value
+01-09 15:03:36.144 I/System.out( 6691): Empty value
+01-09 15:03:37.145 I/System.out( 6691): Empty value
+01-09 15:03:38.146 I/System.out( 6691): Empty value
+01-09 15:03:39.157 I/System.out( 6691): Empty value
+01-09 15:03:40.158 I/System.out( 6691): Empty value
+01-09 15:03:41.159 I/System.out( 6691): Empty value
+01-09 15:03:42.150 I/System.out( 6691): Empty value
+01-09 15:03:43.151 I/System.out( 6691): Empty value
+01-09 15:03:44.152 I/System.out( 6691): Empty value
+01-09 15:03:45.163 I/System.out( 6691): Empty value
+01-09 15:03:46.164 I/System.out( 6691): Empty value
+01-09 15:03:47.165 I/System.out( 6691): Empty value
+01-09 15:03:48.166 I/System.out( 6691): Empty value
+01-09 15:03:49.167 I/System.out( 6691): Empty value
+01-09 15:03:50.158 I/System.out( 6691): Empty value
+01-09 15:03:51.159 I/System.out( 6691): Empty value
+01-09 15:03:52.160 I/System.out( 6691): Empty value
+01-09 15:03:53.171 I/System.out( 6691): Empty value
+01-09 15:03:53.231 D/dalvikvm( 6691): GC_CONCURRENT freed 239K, 3% free 9011K/9288K, paused 12ms+6ms, total 61ms
+01-09 15:03:54.172 I/System.out( 6691): Empty value
+01-09 15:03:55.173 I/System.out( 6691): Empty value
+01-09 15:03:56.174 I/System.out( 6691): Empty value
+01-09 15:03:57.174 I/System.out( 6691): Empty value
+01-09 15:03:58.175 I/System.out( 6691): Empty value
+01-09 15:03:59.166 I/System.out( 6691): Empty value
+01-09 15:03:59.997 I/ActivityManager(  512): No longer want com.google.android.music:main (pid 6098): empty for 1849s
+01-09 15:04:00.047 W/ActivityManager(  512): Scheduling restart of crashed service com.google.android.music/.playback.MusicPlaybackService in 5000ms
+01-09 15:04:00.167 I/System.out( 6691): Empty value
+01-09 15:04:01.178 I/System.out( 6691): Empty value
+01-09 15:04:02.179 I/System.out( 6691): Empty value
+01-09 15:04:03.180 I/System.out( 6691): Empty value
+01-09 15:04:04.181 I/System.out( 6691): Empty value
+01-09 15:04:05.092 I/ActivityManager(  512): Start proc com.google.android.music:main for service com.google.android.music/.playback.MusicPlaybackService: pid=6742 uid=10041 gids={50041, 3003, 1015, 1028}
+01-09 15:04:05.142 I/MusicStore( 6742): Database version: 70
+01-09 15:04:05.182 I/System.out( 6691): Empty value
+01-09 15:04:05.202 D/dalvikvm( 6742): GC_CONCURRENT freed 286K, 4% free 9089K/9412K, paused 2ms+1ms, total 30ms
+01-09 15:04:05.202 D/dalvikvm( 6742): WAIT_FOR_CONCURRENT_GC blocked 4ms
+01-09 15:04:05.282 D/SystemUtils( 6742): getSystemProperty: lpa.decode=null
+01-09 15:04:05.302 D/CacheService( 6742): onCreate
+01-09 15:04:05.302 D/CacheService( 6742): onBind
+01-09 15:04:05.312 I/LocalDevicePlayback( 6742): Streaming client created.
+01-09 15:04:06.183 I/System.out( 6691): Empty value
+01-09 15:04:06.373 D/dalvikvm( 6742): GC_CONCURRENT freed 223K, 3% free 9299K/9564K, paused 4ms+3ms, total 32ms
+01-09 15:04:06.414 I/MediaStoreImporter( 6742): Update: incremental Added music: 0 Updated music: 0 Deleted music: 0 Created playlists: 0 Updated playlists: 0 Deleted playlists: 0 Inserted playlist items: 0 Deleted playlist items: 0 Removed orphaned playlist items: 0
+01-09 15:04:07.184 I/System.out( 6691): Empty value
+01-09 15:04:08.185 I/System.out( 6691): Empty value
+01-09 15:04:09.186 I/System.out( 6691): Empty value
+01-09 15:04:10.187 I/System.out( 6691): Empty value
+01-09 15:04:10.347 I/MusicLeanback( 6742): Conditions not met for autocaching.
+01-09 15:04:10.347 I/MusicLeanback( 6742): Stop autocaching.
+01-09 15:04:11.188 I/System.out( 6691): Empty value
+01-09 15:04:12.189 I/System.out( 6691): Empty value
+01-09 15:04:13.190 I/System.out( 6691): Empty value
+01-09 15:04:14.191 I/System.out( 6691): Empty value
+01-09 15:04:15.192 I/System.out( 6691): Empty value
+01-09 15:04:16.193 I/System.out( 6691): Empty value
+01-09 15:04:17.204 I/System.out( 6691): Empty value
+01-09 15:04:18.195 I/System.out( 6691): Empty value
+01-09 15:04:19.206 I/System.out( 6691): Empty value
+01-09 15:04:20.207 I/System.out( 6691): Empty value
+01-09 15:04:21.208 I/System.out( 6691): Empty value
+01-09 15:04:22.209 I/System.out( 6691): Empty value
+01-09 15:04:23.210 I/System.out( 6691): Empty value
+01-09 15:04:24.211 I/System.out( 6691): Empty value
+01-09 15:04:25.212 I/System.out( 6691): Empty value
+01-09 15:04:26.213 I/System.out( 6691): Empty value
+01-09 15:04:27.214 I/System.out( 6691): Empty value
+01-09 15:04:28.215 I/System.out( 6691): Empty value
+01-09 15:04:29.216 I/System.out( 6691): Empty value
+01-09 15:04:30.207 I/System.out( 6691): Empty value
+01-09 15:04:31.218 I/System.out( 6691): Empty value
+01-09 15:04:32.219 I/System.out( 6691): Empty value
+01-09 15:04:33.220 I/System.out( 6691): Empty value
+01-09 15:04:34.221 I/System.out( 6691): Empty value
+01-09 15:04:35.222 I/System.out( 6691): Empty value
+01-09 15:04:36.223 I/System.out( 6691): Empty value
+01-09 15:04:37.224 I/System.out( 6691): Empty value
+01-09 15:04:38.225 I/System.out( 6691): Empty value
+01-09 15:04:39.226 I/System.out( 6691): Empty value
+01-09 15:04:40.236 I/System.out( 6691): Empty value
+01-09 15:04:41.227 I/System.out( 6691): Empty value
+01-09 15:04:42.238 I/System.out( 6691): Empty value
+01-09 15:04:43.239 I/System.out( 6691): Empty value
+01-09 15:04:44.240 I/System.out( 6691): Empty value
+01-09 15:04:45.231 I/System.out( 6691): Empty value
+01-09 15:04:46.242 I/System.out( 6691): Empty value
+01-09 15:04:47.243 I/System.out( 6691): Empty value
+01-09 15:04:48.244 I/System.out( 6691): Empty value
+01-09 15:04:49.235 I/System.out( 6691): Empty value
+01-09 15:04:50.246 I/System.out( 6691): Empty value
+01-09 15:04:51.247 I/System.out( 6691): Empty value
+01-09 15:04:52.248 I/System.out( 6691): Empty value
+01-09 15:04:53.249 I/System.out( 6691): Empty value
+01-09 15:04:54.250 I/System.out( 6691): Empty value
+01-09 15:04:55.251 I/System.out( 6691): Empty value
+01-09 15:04:56.252 I/System.out( 6691): Empty value
+01-09 15:04:57.253 I/System.out( 6691): Empty value
+01-09 15:04:58.254 I/System.out( 6691): Empty value
+01-09 15:04:59.255 I/System.out( 6691): Empty value
+01-09 15:05:00.256 I/System.out( 6691): Empty value
+01-09 15:05:01.247 I/System.out( 6691): Empty value
+01-09 15:05:02.248 I/System.out( 6691): Empty value
+01-09 15:05:03.259 I/System.out( 6691): Empty value
+01-09 15:05:04.260 I/System.out( 6691): Empty value
+01-09 15:05:05.261 I/System.out( 6691): Empty value
+01-09 15:05:06.252 I/System.out( 6691): Empty value
+01-09 15:05:07.263 I/System.out( 6691): Empty value
+01-09 15:05:08.254 I/System.out( 6691): Empty value
+01-09 15:05:09.265 I/System.out( 6691): Empty value
+01-09 15:05:10.256 I/System.out( 6691): Empty value
+01-09 15:05:11.267 I/System.out( 6691): Empty value
+01-09 15:05:12.268 I/System.out( 6691): Empty value
+01-09 15:05:13.259 I/System.out( 6691): Empty value
+01-09 15:05:14.260 I/System.out( 6691): Empty value
+01-09 15:05:15.261 I/System.out( 6691): Empty value
+01-09 15:05:16.262 I/System.out( 6691): Empty value
+01-09 15:05:17.273 I/System.out( 6691): Empty value
+01-09 15:05:18.274 I/System.out( 6691): Empty value
+01-09 15:05:19.275 I/System.out( 6691): Empty value
+01-09 15:05:20.276 I/System.out( 6691): Empty value
+01-09 15:05:21.267 I/System.out( 6691): Empty value
+01-09 15:05:22.278 I/System.out( 6691): Empty value
+01-09 15:05:23.278 I/System.out( 6691): Empty value
+01-09 15:05:24.269 I/System.out( 6691): Empty value
+01-09 15:05:25.280 I/System.out( 6691): Empty value
+01-09 15:05:26.281 I/System.out( 6691): Empty value
+01-09 15:05:27.282 I/System.out( 6691): Empty value
+01-09 15:05:28.283 I/System.out( 6691): Empty value
+01-09 15:05:29.284 I/System.out( 6691): Empty value
+01-09 15:05:30.285 I/System.out( 6691): Empty value
+01-09 15:05:31.286 I/System.out( 6691): Empty value
+01-09 15:05:32.287 I/System.out( 6691): Empty value
+01-09 15:05:33.298 I/System.out( 6691): Empty value
+01-09 15:05:34.289 I/System.out( 6691): Empty value
+01-09 15:05:35.300 I/System.out( 6691): Empty value
+01-09 15:05:36.291 I/System.out( 6691): Empty value
+01-09 15:05:37.302 I/System.out( 6691): Empty value
+01-09 15:05:38.303 I/System.out( 6691): Empty value
+01-09 15:05:39.304 I/System.out( 6691): Empty value
+01-09 15:05:40.305 I/System.out( 6691): Empty value
+01-09 15:05:41.306 I/System.out( 6691): Empty value
+01-09 15:05:42.307 I/System.out( 6691): Empty value
+01-09 15:05:43.308 I/System.out( 6691): Empty value
+01-09 15:05:44.309 I/System.out( 6691): Empty value
+01-09 15:05:45.310 I/System.out( 6691): Empty value
+01-09 15:05:46.311 I/System.out( 6691): Empty value
+01-09 15:05:47.312 I/System.out( 6691): Empty value
+01-09 15:05:48.313 I/System.out( 6691): Empty value
+01-09 15:05:49.314 I/System.out( 6691): Empty value
+01-09 15:05:50.315 I/System.out( 6691): Empty value
+01-09 15:05:51.316 I/System.out( 6691): Empty value
+01-09 15:05:52.317 I/System.out( 6691): Empty value
+01-09 15:05:53.318 I/System.out( 6691): Empty value
+01-09 15:05:54.319 I/System.out( 6691): Empty value
+01-09 15:05:55.320 I/System.out( 6691): Empty value
+01-09 15:05:56.321 I/System.out( 6691): Empty value
+01-09 15:05:57.322 I/System.out( 6691): Empty value
+01-09 15:05:58.323 I/System.out( 6691): Empty value
+01-09 15:05:59.324 I/System.out( 6691): Empty value
+01-09 15:06:00.325 I/System.out( 6691): Empty value
+01-09 15:06:01.326 I/System.out( 6691): Empty value
+01-09 15:06:02.327 I/System.out( 6691): Empty value
+01-09 15:06:03.328 I/System.out( 6691): Empty value
+01-09 15:06:04.329 I/System.out( 6691): Empty value
+01-09 15:06:05.330 I/System.out( 6691): Empty value
+01-09 15:06:06.330 I/System.out( 6691): Empty value
+01-09 15:06:07.331 I/System.out( 6691): Empty value
+01-09 15:06:08.332 I/System.out( 6691): Empty value
+01-09 15:06:09.333 I/System.out( 6691): Empty value
+01-09 15:06:10.334 I/System.out( 6691): Empty value
+01-09 15:06:11.335 I/System.out( 6691): Empty value
+01-09 15:06:12.336 I/System.out( 6691): Empty value
+01-09 15:06:13.337 I/System.out( 6691): Empty value
+01-09 15:06:14.338 I/System.out( 6691): Empty value
+01-09 15:06:15.329 I/System.out( 6691): Empty value
+01-09 15:06:16.340 I/System.out( 6691): Empty value
+01-09 15:06:17.341 I/System.out( 6691): Empty value
+01-09 15:06:18.342 I/System.out( 6691): Empty value
+01-09 15:06:19.343 I/System.out( 6691): Empty value
+01-09 15:06:20.344 I/System.out( 6691): Empty value
+01-09 15:06:21.345 I/System.out( 6691): Empty value
+01-09 15:06:21.355 I/System.out( 6691): Battery level start is reached
+01-09 15:06:22.346 I/System.out( 6691): Empty value
+01-09 15:06:23.347 I/System.out( 6691): Empty value
+01-09 15:06:24.348 I/System.out( 6691): Empty value
+01-09 15:06:25.349 I/System.out( 6691): Empty value
+01-09 15:06:26.350 I/System.out( 6691): Empty value
+01-09 15:06:27.361 I/System.out( 6691): Empty value
+01-09 15:06:28.362 I/System.out( 6691): Empty value
+01-09 15:06:29.353 I/System.out( 6691): Empty value
+01-09 15:06:30.364 I/System.out( 6691): Empty value
+01-09 15:06:31.365 I/System.out( 6691): Empty value
+01-09 15:06:32.366 I/System.out( 6691): Empty value
+01-09 15:06:33.367 I/System.out( 6691): Empty value
+01-09 15:06:34.358 I/System.out( 6691): Empty value
+01-09 15:06:35.369 I/System.out( 6691): Empty value
+01-09 15:06:36.360 I/System.out( 6691): Empty value
+01-09 15:06:37.361 I/System.out( 6691): Empty value
+01-09 15:06:38.362 I/System.out( 6691): Empty value
+01-09 15:06:39.363 I/System.out( 6691): Empty value
+01-09 15:06:40.364 I/System.out( 6691): Empty value
+01-09 15:06:41.375 I/System.out( 6691): Empty value
+01-09 15:06:42.376 I/System.out( 6691): Empty value
+01-09 15:06:43.377 I/System.out( 6691): Empty value
+01-09 15:06:44.378 I/System.out( 6691): Empty value
+01-09 15:06:45.369 I/System.out( 6691): Empty value
+01-09 15:06:46.370 I/System.out( 6691): Empty value
+01-09 15:06:47.371 I/System.out( 6691): Empty value
+01-09 15:06:48.382 I/System.out( 6691): Empty value
+01-09 15:06:49.382 I/System.out( 6691): Empty value
+01-09 15:06:50.383 I/System.out( 6691): Empty value
+01-09 15:06:51.384 I/System.out( 6691): Empty value
+01-09 15:06:52.385 I/System.out( 6691): Empty value
+01-09 15:06:53.386 I/System.out( 6691): Empty value
+01-09 15:06:54.387 I/System.out( 6691): Empty value
+01-09 15:06:55.378 I/System.out( 6691): Empty value
+01-09 15:06:56.379 I/System.out( 6691): Empty value
+01-09 15:06:57.380 I/System.out( 6691): Empty value
+01-09 15:06:58.381 I/System.out( 6691): Empty value
+01-09 15:06:59.382 I/System.out( 6691): Empty value
+01-09 15:07:00.383 I/System.out( 6691): Empty value
+01-09 15:07:01.394 I/System.out( 6691): Empty value
+01-09 15:07:02.395 I/System.out( 6691): Empty value
+01-09 15:07:03.386 I/System.out( 6691): Empty value
+01-09 15:07:04.387 I/System.out( 6691): Empty value
+01-09 15:07:05.388 I/System.out( 6691): Empty value
+01-09 15:07:06.399 I/System.out( 6691): Empty value
+01-09 15:07:07.390 I/System.out( 6691): Empty value
+01-09 15:07:08.391 I/System.out( 6691): Empty value
+01-09 15:07:09.392 I/System.out( 6691): Empty value
+01-09 15:07:10.403 I/System.out( 6691): Empty value
+01-09 15:07:11.404 I/System.out( 6691): Empty value
+01-09 15:07:12.405 I/System.out( 6691): Empty value
+01-09 15:07:13.406 I/System.out( 6691): Empty value
+01-09 15:07:14.397 I/System.out( 6691): Empty value
+01-09 15:07:15.398 I/System.out( 6691): Empty value
+01-09 15:07:16.399 I/System.out( 6691): Empty value
+01-09 15:07:17.400 I/System.out( 6691): Empty value
+01-09 15:07:18.411 I/System.out( 6691): Empty value
+01-09 15:07:19.402 I/System.out( 6691): Empty value
+01-09 15:07:20.403 I/System.out( 6691): Empty value
+01-09 15:07:21.414 I/System.out( 6691): Empty value
+01-09 15:07:22.415 I/System.out( 6691): Empty value
+01-09 15:07:23.416 I/System.out( 6691): Empty value
+01-09 15:07:24.417 I/System.out( 6691): Empty value
+01-09 15:07:25.418 I/System.out( 6691): Empty value
+01-09 15:07:26.419 I/System.out( 6691): Empty value
+01-09 15:07:27.420 I/System.out( 6691): Empty value
+01-09 15:07:28.421 I/System.out( 6691): Empty value
+01-09 15:07:29.422 I/System.out( 6691): Empty value
+01-09 15:07:30.423 I/System.out( 6691): Empty value
+01-09 15:07:31.424 I/System.out( 6691): Empty value
+01-09 15:07:32.424 I/System.out( 6691): Empty value
+01-09 15:07:33.425 I/System.out( 6691): Empty value
+01-09 15:07:34.426 I/System.out( 6691): Empty value
+01-09 15:07:35.427 I/System.out( 6691): Empty value
+01-09 15:07:36.428 I/System.out( 6691): Empty value
+01-09 15:07:37.429 I/System.out( 6691): Empty value
+01-09 15:07:37.499 D/dalvikvm( 6691): GC_CONCURRENT freed 388K, 5% free 9009K/9436K, paused 15ms+4ms, total 67ms
+01-09 15:07:38.440 I/System.out( 6691): Empty value
+01-09 15:07:39.431 I/System.out( 6691): Empty value
+01-09 15:07:40.432 I/System.out( 6691): Empty value
+01-09 15:07:41.433 I/System.out( 6691): Empty value
+01-09 15:07:42.434 I/System.out( 6691): Empty value
+01-09 15:07:43.435 I/System.out( 6691): Empty value
+01-09 15:07:44.436 I/System.out( 6691): Empty value
+01-09 15:07:45.437 I/System.out( 6691): Empty value
+01-09 15:07:46.438 I/System.out( 6691): Empty value
+01-09 15:07:47.439 I/System.out( 6691): Empty value
+01-09 15:07:48.440 I/System.out( 6691): Empty value
+01-09 15:07:49.441 I/System.out( 6691): Empty value
+01-09 15:07:50.442 I/System.out( 6691): Empty value
+01-09 15:07:51.443 I/System.out( 6691): Empty value
+01-09 15:07:52.444 I/System.out( 6691): Empty value
+01-09 15:07:53.445 I/System.out( 6691): Empty value
+01-09 15:07:54.456 I/System.out( 6691): Empty value
+01-09 15:07:55.447 I/System.out( 6691): Empty value
+01-09 15:07:56.448 I/System.out( 6691): Empty value
+01-09 15:07:57.449 I/System.out( 6691): Empty value
+01-09 15:07:58.460 I/System.out( 6691): Empty value
+01-09 15:07:59.451 I/System.out( 6691): Empty value
+01-09 15:08:00.462 I/System.out( 6691): Empty value
+01-09 15:08:01.463 I/System.out( 6691): Empty value
+01-09 15:08:02.464 I/System.out( 6691): Empty value
+01-09 15:08:03.465 I/System.out( 6691): Empty value
+01-09 15:08:04.466 I/System.out( 6691): Empty value
+01-09 15:08:05.467 I/System.out( 6691): Empty value
+01-09 15:08:06.468 I/System.out( 6691): Empty value
+01-09 15:08:07.479 I/System.out( 6691): Empty value
+01-09 15:08:08.470 I/System.out( 6691): Empty value
+01-09 15:08:09.481 I/System.out( 6691): Empty value
+01-09 15:08:10.482 I/System.out( 6691): Empty value
+01-09 15:08:11.483 I/System.out( 6691): Empty value
+01-09 15:08:12.484 I/System.out( 6691): Empty value
+01-09 15:08:13.485 I/System.out( 6691): Empty value
+01-09 15:08:14.476 I/System.out( 6691): Empty value
+01-09 15:08:15.486 I/System.out( 6691): Empty value
+01-09 15:08:16.477 I/System.out( 6691): Empty value
+01-09 15:08:17.488 I/System.out( 6691): Empty value
+01-09 15:08:18.479 I/System.out( 6691): Empty value
+01-09 15:08:19.480 I/System.out( 6691): Empty value
+01-09 15:08:20.491 I/System.out( 6691): Empty value
+01-09 15:08:21.492 I/System.out( 6691): Empty value
+01-09 15:08:22.493 I/System.out( 6691): Empty value
+01-09 15:08:23.494 I/System.out( 6691): Empty value
+01-09 15:08:24.495 I/System.out( 6691): Empty value
+01-09 15:08:25.496 I/System.out( 6691): Empty value
+01-09 15:08:26.497 I/System.out( 6691): Empty value
+01-09 15:08:27.498 I/System.out( 6691): Empty value
+01-09 15:08:28.499 I/System.out( 6691): Empty value
+01-09 15:08:29.500 I/System.out( 6691): Empty value
+01-09 15:08:30.501 I/System.out( 6691): Empty value
+01-09 15:08:31.502 I/System.out( 6691): Empty value
+01-09 15:08:32.503 I/System.out( 6691): Empty value
+01-09 15:08:33.504 I/System.out( 6691): Empty value
+01-09 15:08:34.505 I/System.out( 6691): Empty value
+01-09 15:08:35.496 I/System.out( 6691): Empty value
+01-09 15:08:36.507 I/System.out( 6691): Empty value
+01-09 15:08:37.508 I/System.out( 6691): Empty value
+01-09 15:08:38.509 I/System.out( 6691): Empty value
+01-09 15:08:39.510 I/System.out( 6691): Empty value
+01-09 15:08:40.511 I/System.out( 6691): Empty value
+01-09 15:08:41.522 I/System.out( 6691): Empty value
+01-09 15:08:42.523 I/System.out( 6691): Empty value
+01-09 15:08:43.524 I/System.out( 6691): Empty value
+01-09 15:08:44.525 I/System.out( 6691): Empty value
+01-09 15:08:45.526 I/System.out( 6691): Empty value
+01-09 15:08:46.527 I/System.out( 6691): Empty value
+01-09 15:08:47.528 I/System.out( 6691): Empty value
+01-09 15:08:48.529 I/System.out( 6691): Empty value
+01-09 15:08:49.530 I/System.out( 6691): Empty value
+01-09 15:08:50.531 I/System.out( 6691): Empty value
+01-09 15:08:51.532 I/System.out( 6691): Empty value
+01-09 15:08:52.533 I/System.out( 6691): Empty value
+01-09 15:08:53.534 I/System.out( 6691): Empty value
+01-09 15:08:54.535 I/System.out( 6691): Empty value
+01-09 15:08:55.536 I/System.out( 6691): Empty value
+01-09 15:08:56.537 I/System.out( 6691): Empty value
+01-09 15:08:57.538 I/System.out( 6691): Empty value
+01-09 15:08:58.539 I/System.out( 6691): Empty value
+01-09 15:08:59.529 I/System.out( 6691): Empty value
+01-09 15:09:00.540 I/System.out( 6691): Empty value
+01-09 15:09:01.541 I/System.out( 6691): Empty value
+01-09 15:09:02.542 I/System.out( 6691): Empty value
+01-09 15:09:03.543 I/System.out( 6691): Empty value
+01-09 15:09:04.544 I/System.out( 6691): Empty value
+01-09 15:09:05.545 I/System.out( 6691): Empty value
+01-09 15:09:06.546 I/System.out( 6691): Empty value
+01-09 15:09:07.547 I/System.out( 6691): Empty value
+01-09 15:09:08.548 I/System.out( 6691): Empty value
+01-09 15:09:09.549 I/System.out( 6691): Empty value
+01-09 15:09:10.550 I/System.out( 6691): Empty value
+01-09 15:09:11.551 I/System.out( 6691): Empty value
+01-09 15:09:12.552 I/System.out( 6691): Empty value
+01-09 15:09:13.553 I/System.out( 6691): Empty value
+01-09 15:09:14.554 I/System.out( 6691): Empty value
+01-09 15:09:15.555 I/System.out( 6691): Empty value
+01-09 15:09:16.556 I/System.out( 6691): Empty value
+01-09 15:09:17.557 I/System.out( 6691): Empty value
+01-09 15:09:18.558 I/System.out( 6691): Empty value
+01-09 15:09:19.559 I/System.out( 6691): Empty value
+01-09 15:09:20.560 I/System.out( 6691): Empty value
+01-09 15:09:21.561 I/System.out( 6691): Empty value
+01-09 15:09:22.562 I/System.out( 6691): Empty value
+01-09 15:09:23.563 I/System.out( 6691): Empty value
+01-09 15:09:24.564 I/System.out( 6691): Empty value
+01-09 15:09:25.565 I/System.out( 6691): Empty value
+01-09 15:09:26.566 I/System.out( 6691): Empty value
+01-09 15:09:27.557 I/System.out( 6691): Empty value
+01-09 15:09:28.568 I/System.out( 6691): Empty value
+01-09 15:09:29.569 I/System.out( 6691): Empty value
+01-09 15:09:30.570 I/System.out( 6691): Empty value
+01-09 15:09:31.571 I/System.out( 6691): Empty value
+01-09 15:09:32.572 I/System.out( 6691): Empty value
+01-09 15:09:33.573 I/System.out( 6691): Empty value
+01-09 15:09:34.574 I/System.out( 6691): Empty value
+01-09 15:09:35.575 I/System.out( 6691): Empty value
+01-09 15:09:36.576 I/System.out( 6691): Empty value
+01-09 15:09:37.577 I/System.out( 6691): Empty value
+01-09 15:09:38.568 I/System.out( 6691): Empty value
+01-09 15:09:39.579 I/System.out( 6691): Empty value
+01-09 15:09:40.580 I/System.out( 6691): Empty value
+01-09 15:09:41.580 I/System.out( 6691): Empty value
+01-09 15:09:42.581 I/System.out( 6691): Empty value
+01-09 15:09:43.582 I/System.out( 6691): Empty value
+01-09 15:09:44.593 I/System.out( 6691): Empty value
+01-09 15:09:45.594 I/System.out( 6691): Empty value
+01-09 15:09:46.595 I/System.out( 6691): Empty value
+01-09 15:09:47.596 I/System.out( 6691): Empty value
+01-09 15:09:48.597 I/System.out( 6691): Empty value
+01-09 15:09:49.588 I/System.out( 6691): Empty value
+01-09 15:09:50.589 I/System.out( 6691): Empty value
+01-09 15:09:51.590 I/System.out( 6691): Empty value
+01-09 15:09:52.601 I/System.out( 6691): Empty value
+01-09 15:09:53.602 I/System.out( 6691): Empty value
+01-09 15:09:54.603 I/System.out( 6691): Empty value
+01-09 15:09:55.604 I/System.out( 6691): Empty value
+01-09 15:09:56.605 I/System.out( 6691): Empty value
+01-09 15:09:57.606 I/System.out( 6691): Empty value
+01-09 15:09:58.617 I/System.out( 6691): Empty value
+01-09 15:09:59.608 I/System.out( 6691): Empty value
+01-09 15:10:00.619 I/System.out( 6691): Empty value
+01-09 15:10:01.620 I/System.out( 6691): Empty value
+01-09 15:10:02.621 I/System.out( 6691): Empty value
+01-09 15:10:03.622 I/System.out( 6691): Empty value
+01-09 15:10:04.623 I/System.out( 6691): Empty value
+01-09 15:10:05.624 I/System.out( 6691): Empty value
+01-09 15:10:06.625 I/System.out( 6691): Empty value
+01-09 15:10:07.626 I/System.out( 6691): Empty value
+01-09 15:10:08.627 I/System.out( 6691): Empty value
+01-09 15:10:09.618 I/System.out( 6691): Empty value
+01-09 15:10:10.619 I/System.out( 6691): Empty value
+01-09 15:10:11.620 I/System.out( 6691): Empty value
+01-09 15:10:12.631 I/System.out( 6691): Empty value
+01-09 15:10:13.632 I/System.out( 6691): Empty value
+01-09 15:10:14.633 I/System.out( 6691): Empty value
+01-09 15:10:15.634 I/System.out( 6691): Empty value
+01-09 15:10:16.635 I/System.out( 6691): Empty value
+01-09 15:10:17.636 I/System.out( 6691): Empty value
+01-09 15:10:18.637 I/System.out( 6691): Empty value
+01-09 15:10:19.638 I/System.out( 6691): Empty value
+01-09 15:10:20.639 I/System.out( 6691): Empty value
+01-09 15:10:21.640 I/System.out( 6691): Empty value
+01-09 15:10:22.641 I/System.out( 6691): Empty value
+01-09 15:10:23.642 I/System.out( 6691): Empty value
+01-09 15:10:24.643 I/System.out( 6691): Empty value
+01-09 15:10:25.643 I/System.out( 6691): Empty value
+01-09 15:10:26.644 I/System.out( 6691): Empty value
+01-09 15:10:27.645 I/System.out( 6691): Empty value
+01-09 15:10:28.646 I/System.out( 6691): Empty value
+01-09 15:10:29.647 I/System.out( 6691): Empty value
+01-09 15:10:30.638 I/System.out( 6691): Empty value
+01-09 15:10:31.639 I/System.out( 6691): Empty value
+01-09 15:10:32.650 I/System.out( 6691): Empty value
+01-09 15:10:33.651 I/System.out( 6691): Empty value
+01-09 15:10:34.652 I/System.out( 6691): Empty value
+01-09 15:10:35.653 I/System.out( 6691): Empty value
+01-09 15:10:36.654 I/System.out( 6691): Empty value
+01-09 15:10:37.655 I/System.out( 6691): Empty value
+01-09 15:10:38.656 I/System.out( 6691): Empty value
+01-09 15:10:39.647 I/System.out( 6691): Empty value
+01-09 15:10:40.658 I/System.out( 6691): Empty value
+01-09 15:10:41.659 I/System.out( 6691): Empty value
+01-09 15:10:42.660 I/System.out( 6691): Empty value
+01-09 15:10:43.661 I/System.out( 6691): Empty value
+01-09 15:10:44.662 I/System.out( 6691): Empty value
+01-09 15:10:45.663 I/System.out( 6691): Empty value
+01-09 15:10:46.664 I/System.out( 6691): Empty value
+01-09 15:10:47.665 I/System.out( 6691): Empty value
+01-09 15:10:48.666 I/System.out( 6691): Empty value
+01-09 15:10:49.667 I/System.out( 6691): Empty value
+01-09 15:10:50.668 I/System.out( 6691): Empty value
+01-09 15:10:51.669 I/System.out( 6691): Empty value
+01-09 15:10:52.670 I/System.out( 6691): Empty value
+01-09 15:10:53.671 I/System.out( 6691): Empty value
+01-09 15:10:54.672 I/System.out( 6691): Empty value
+01-09 15:10:55.683 I/System.out( 6691): Empty value
+01-09 15:10:56.684 I/System.out( 6691): Empty value
+01-09 15:10:57.685 I/System.out( 6691): Empty value
+01-09 15:10:58.686 I/System.out( 6691): Empty value
+01-09 15:10:59.687 I/System.out( 6691): Empty value
+01-09 15:11:00.678 I/System.out( 6691): Empty value
+01-09 15:11:01.679 I/System.out( 6691): Empty value
+01-09 15:11:02.680 I/System.out( 6691): Empty value
+01-09 15:11:03.691 I/System.out( 6691): Empty value
+01-09 15:11:04.692 I/System.out( 6691): Empty value
+01-09 15:11:05.693 I/System.out( 6691): Empty value
+01-09 15:11:06.694 I/System.out( 6691): Empty value
+01-09 15:11:07.695 I/System.out( 6691): Empty value
+01-09 15:11:08.685 I/System.out( 6691): Empty value
+01-09 15:11:09.686 I/System.out( 6691): Empty value
+01-09 15:11:10.687 I/System.out( 6691): Empty value
+01-09 15:11:11.698 I/System.out( 6691): Empty value
+01-09 15:11:12.689 I/System.out( 6691): Empty value
+01-09 15:11:13.690 I/System.out( 6691): Empty value
+01-09 15:11:14.691 I/System.out( 6691): Empty value
+01-09 15:11:15.692 I/System.out( 6691): Empty value
+01-09 15:11:16.703 I/System.out( 6691): Empty value
+01-09 15:11:17.704 I/System.out( 6691): Empty value
+01-09 15:11:18.705 I/System.out( 6691): Empty value
+01-09 15:11:19.706 I/System.out( 6691): Empty value
+01-09 15:11:20.707 I/System.out( 6691): Empty value
+01-09 15:11:21.698 I/System.out( 6691): Empty value
+01-09 15:11:22.699 I/System.out( 6691): Empty value
+01-09 15:11:23.700 I/System.out( 6691): Empty value
+01-09 15:11:23.760 D/dalvikvm( 6691): GC_CONCURRENT freed 388K, 5% free 9010K/9436K, paused 13ms+1ms, total 56ms
+01-09 15:11:24.711 I/System.out( 6691): Empty value
+01-09 15:11:25.712 I/System.out( 6691): Empty value
+01-09 15:11:26.713 I/System.out( 6691): Empty value
+01-09 15:11:27.714 I/System.out( 6691): Empty value
+01-09 15:11:28.715 I/System.out( 6691): Empty value
+01-09 15:11:29.716 I/System.out( 6691): Empty value
+01-09 15:11:30.717 I/System.out( 6691): Empty value
+01-09 15:11:31.718 I/System.out( 6691): Empty value
+01-09 15:11:32.719 I/System.out( 6691): Empty value
+01-09 15:11:33.720 I/System.out( 6691): Empty value
+01-09 15:11:34.721 I/System.out( 6691): Empty value
+01-09 15:11:35.722 I/System.out( 6691): Empty value
+01-09 15:11:36.723 I/System.out( 6691): Empty value
+01-09 15:11:37.724 I/System.out( 6691): Empty value
+01-09 15:11:38.725 I/System.out( 6691): Empty value
+01-09 15:11:39.716 I/System.out( 6691): Empty value
+01-09 15:11:40.727 I/System.out( 6691): Empty value
+01-09 15:11:41.728 I/System.out( 6691): Empty value
+01-09 15:11:42.729 I/System.out( 6691): Empty value
+01-09 15:11:43.730 I/System.out( 6691): Empty value
+01-09 15:11:44.731 I/System.out( 6691): Empty value
+01-09 15:11:45.732 I/System.out( 6691): Empty value
+01-09 15:11:46.733 I/System.out( 6691): Empty value
+01-09 15:11:47.734 I/System.out( 6691): Empty value
+01-09 15:11:48.735 I/System.out( 6691): Empty value
+01-09 15:11:49.746 I/System.out( 6691): Empty value
+01-09 15:11:50.736 I/System.out( 6691): Empty value
+01-09 15:11:51.747 I/System.out( 6691): Empty value
+01-09 15:11:52.738 I/System.out( 6691): Empty value
+01-09 15:11:53.739 I/System.out( 6691): Empty value
+01-09 15:11:54.740 I/System.out( 6691): Empty value
+01-09 15:11:55.741 I/System.out( 6691): Empty value
+01-09 15:11:56.752 I/System.out( 6691): Empty value
+01-09 15:11:57.753 I/System.out( 6691): Empty value
+01-09 15:11:58.754 I/System.out( 6691): Empty value
+01-09 15:11:59.755 I/System.out( 6691): Empty value
+01-09 15:12:00.756 I/System.out( 6691): Empty value
+01-09 15:12:01.757 I/System.out( 6691): Empty value
+01-09 15:12:02.758 I/System.out( 6691): Empty value
+01-09 15:12:03.749 I/System.out( 6691): Empty value
+01-09 15:12:04.760 I/System.out( 6691): Empty value
+01-09 15:12:05.761 I/System.out( 6691): Empty value
+01-09 15:12:06.762 I/System.out( 6691): Empty value
+01-09 15:12:07.763 I/System.out( 6691): Empty value
+01-09 15:12:08.764 I/System.out( 6691): Empty value
+01-09 15:12:09.755 I/System.out( 6691): Empty value
+01-09 15:12:10.756 I/System.out( 6691): Empty value
+01-09 15:12:11.757 I/System.out( 6691): Empty value
+01-09 15:12:12.758 I/System.out( 6691): Empty value
+01-09 15:12:13.759 I/System.out( 6691): Empty value
+01-09 15:12:14.770 I/System.out( 6691): Empty value
+01-09 15:12:15.771 I/System.out( 6691): Empty value
+01-09 15:12:16.772 I/System.out( 6691): Empty value
+01-09 15:12:17.773 I/System.out( 6691): Empty value
+01-09 15:12:18.774 I/System.out( 6691): Empty value
+01-09 15:12:19.775 I/System.out( 6691): Empty value
+01-09 15:12:20.786 I/System.out( 6691): Empty value
+01-09 15:12:21.777 I/System.out( 6691): Empty value
+01-09 15:12:22.778 I/System.out( 6691): Empty value
+01-09 15:12:23.789 I/System.out( 6691): Empty value
+01-09 15:12:24.790 I/System.out( 6691): Empty value
+01-09 15:12:25.791 I/System.out( 6691): Empty value
+01-09 15:12:26.792 I/System.out( 6691): Empty value
+01-09 15:12:27.793 I/System.out( 6691): Empty value
+01-09 15:12:28.794 I/System.out( 6691): Empty value
+01-09 15:12:29.795 I/System.out( 6691): Empty value
+01-09 15:12:30.796 I/System.out( 6691): Empty value
+01-09 15:12:31.797 I/System.out( 6691): Empty value
+01-09 15:12:32.798 I/System.out( 6691): Empty value
+01-09 15:12:33.799 I/System.out( 6691): Empty value
+01-09 15:12:34.799 I/System.out( 6691): Empty value
+01-09 15:12:35.800 I/System.out( 6691): Empty value
+01-09 15:12:36.801 I/System.out( 6691): Empty value
+01-09 15:12:37.802 I/System.out( 6691): Empty value
+01-09 15:12:38.803 I/System.out( 6691): Empty value
+01-09 15:12:39.814 I/System.out( 6691): Empty value
+01-09 15:12:40.805 I/System.out( 6691): Empty value
+01-09 15:12:41.816 I/System.out( 6691): Empty value
+01-09 15:12:42.817 I/System.out( 6691): Empty value
+01-09 15:12:43.818 I/System.out( 6691): Empty value
+01-09 15:12:44.819 I/System.out( 6691): Empty value
+01-09 15:12:45.820 I/System.out( 6691): Empty value
+01-09 15:12:46.821 I/System.out( 6691): Empty value
+01-09 15:12:47.822 I/System.out( 6691): Empty value
+01-09 15:12:48.823 I/System.out( 6691): Empty value
+01-09 15:12:49.824 I/System.out( 6691): Empty value
+01-09 15:12:50.825 I/System.out( 6691): Empty value
+01-09 15:12:51.826 I/System.out( 6691): Empty value
+01-09 15:12:52.817 I/System.out( 6691): Empty value
+01-09 15:12:53.818 I/System.out( 6691): Empty value
+01-09 15:12:54.819 I/System.out( 6691): Empty value
+01-09 15:12:55.830 I/System.out( 6691): Empty value
+01-09 15:12:56.831 I/System.out( 6691): Empty value
+01-09 15:12:57.832 I/System.out( 6691): Empty value
+01-09 15:12:58.833 I/System.out( 6691): Empty value
+01-09 15:12:59.844 I/System.out( 6691): Empty value
+01-09 15:13:00.845 I/System.out( 6691): Empty value
+01-09 15:13:01.846 I/System.out( 6691): Empty value
+01-09 15:13:02.847 I/System.out( 6691): Empty value
+01-09 15:13:03.848 I/System.out( 6691): Empty value
+01-09 15:13:04.849 I/System.out( 6691): Empty value
+01-09 15:13:05.850 I/System.out( 6691): Empty value
+01-09 15:13:06.851 I/System.out( 6691): Empty value
+01-09 15:13:07.852 I/System.out( 6691): Empty value
+01-09 15:13:08.853 I/System.out( 6691): Empty value
+01-09 15:13:09.854 I/System.out( 6691): Empty value
+01-09 15:13:10.855 I/System.out( 6691): Empty value
+01-09 15:13:11.856 I/System.out( 6691): Empty value
+01-09 15:13:12.867 I/System.out( 6691): Empty value
+01-09 15:13:13.858 I/System.out( 6691): Empty value
+01-09 15:13:14.859 I/System.out( 6691): Empty value
+01-09 15:13:15.870 I/System.out( 6691): Empty value
+01-09 15:13:16.861 I/System.out( 6691): Empty value
+01-09 15:13:17.861 I/System.out( 6691): Empty value
+01-09 15:13:18.862 I/System.out( 6691): Empty value
+01-09 15:13:19.863 I/System.out( 6691): Empty value
+01-09 15:13:20.874 I/System.out( 6691): Empty value
+01-09 15:13:21.865 I/System.out( 6691): Empty value
+01-09 15:13:22.876 I/System.out( 6691): Empty value
+01-09 15:13:23.867 I/System.out( 6691): Empty value
+01-09 15:13:24.868 I/System.out( 6691): Empty value
+01-09 15:13:25.869 I/System.out( 6691): Empty value
+01-09 15:13:26.870 I/System.out( 6691): Empty value
+01-09 15:13:27.871 I/System.out( 6691): Empty value
+01-09 15:13:28.872 I/System.out( 6691): Empty value
+01-09 15:13:29.873 I/System.out( 6691): Empty value
+01-09 15:13:30.884 I/System.out( 6691): Empty value
+01-09 15:13:31.885 I/System.out( 6691): Empty value
+01-09 15:13:32.886 I/System.out( 6691): Empty value
+01-09 15:13:33.877 I/System.out( 6691): Empty value
+01-09 15:13:34.878 I/System.out( 6691): Empty value
+01-09 15:13:35.879 I/System.out( 6691): Empty value
+01-09 15:13:36.890 I/System.out( 6691): Empty value
+01-09 15:13:37.881 I/System.out( 6691): Empty value
+01-09 15:13:38.882 I/System.out( 6691): Empty value
+01-09 15:13:39.883 I/System.out( 6691): Empty value
+01-09 15:13:40.884 I/System.out( 6691): Empty value
+01-09 15:13:41.895 I/System.out( 6691): Empty value
+01-09 15:13:42.896 I/System.out( 6691): Empty value
+01-09 15:13:43.897 I/System.out( 6691): Empty value
+01-09 15:13:44.898 I/System.out( 6691): Empty value
+01-09 15:13:45.889 I/System.out( 6691): Empty value
+01-09 15:13:46.900 I/System.out( 6691): Empty value
+01-09 15:13:47.891 I/System.out( 6691): Empty value
+01-09 15:13:48.892 I/System.out( 6691): Empty value
+01-09 15:13:49.893 I/System.out( 6691): Empty value
+01-09 15:13:50.894 I/System.out( 6691): Empty value
+01-09 15:13:51.895 I/System.out( 6691): Empty value
+01-09 15:13:52.896 I/System.out( 6691): Empty value
+01-09 15:13:53.897 I/System.out( 6691): Empty value
+01-09 15:13:54.898 I/System.out( 6691): Empty value
+01-09 15:13:55.899 I/System.out( 6691): Empty value
+01-09 15:13:56.900 I/System.out( 6691): Empty value
+01-09 15:13:57.901 I/System.out( 6691): Empty value
+01-09 15:13:58.902 I/System.out( 6691): Empty value
+01-09 15:13:59.913 I/System.out( 6691): Empty value
+01-09 15:14:00.133 D/dalvikvm(  512): GC_CONCURRENT freed 1772K, 21% free 16836K/21220K, paused 18ms+7ms, total 108ms
+01-09 15:14:00.903 I/System.out( 6691): Empty value
+01-09 15:14:01.914 I/System.out( 6691): Empty value
+01-09 15:14:02.915 I/System.out( 6691): Empty value
+01-09 15:14:03.916 I/System.out( 6691): Empty value
+01-09 15:14:04.907 I/System.out( 6691): Empty value
+01-09 15:14:05.908 I/System.out( 6691): Empty value
+01-09 15:14:06.909 I/System.out( 6691): Empty value
+01-09 15:14:07.910 I/System.out( 6691): Empty value
+01-09 15:14:08.911 I/System.out( 6691): Empty value
+01-09 15:14:09.912 I/System.out( 6691): Empty value
+01-09 15:14:10.913 I/System.out( 6691): Empty value
+01-09 15:14:11.914 I/System.out( 6691): Empty value
+01-09 15:14:12.915 I/System.out( 6691): Empty value
+01-09 15:14:13.916 I/System.out( 6691): Empty value
+01-09 15:14:14.907 I/System.out( 6691): Empty value
+01-09 15:14:15.918 I/System.out( 6691): Empty value
+01-09 15:14:16.919 I/System.out( 6691): Empty value
+01-09 15:14:17.930 I/System.out( 6691): Empty value
+01-09 15:14:18.921 I/System.out( 6691): Empty value
+01-09 15:14:19.932 I/System.out( 6691): Empty value
+01-09 15:14:20.933 I/System.out( 6691): Empty value
+01-09 15:14:21.934 I/System.out( 6691): Empty value
+01-09 15:14:22.935 I/System.out( 6691): Empty value
+01-09 15:14:23.936 I/System.out( 6691): Empty value
+01-09 15:14:24.927 I/System.out( 6691): Empty value
+01-09 15:14:25.928 I/System.out( 6691): Empty value
+01-09 15:14:26.939 I/System.out( 6691): Empty value
+01-09 15:14:27.940 I/System.out( 6691): Empty value
+01-09 15:14:28.941 I/System.out( 6691): Empty value
+01-09 15:14:29.942 I/System.out( 6691): Empty value
+01-09 15:14:30.943 I/System.out( 6691): Empty value
+01-09 15:14:31.944 I/System.out( 6691): Empty value
+01-09 15:14:32.945 I/System.out( 6691): Empty value
+01-09 15:14:33.956 I/System.out( 6691): Empty value
+01-09 15:14:34.957 I/System.out( 6691): Empty value
+01-09 15:14:35.948 I/System.out( 6691): Empty value
+01-09 15:14:36.959 I/System.out( 6691): Empty value
+01-09 15:14:37.950 I/System.out( 6691): Empty value
+01-09 15:14:38.951 I/System.out( 6691): Empty value
+01-09 15:14:39.962 I/System.out( 6691): Empty value
+01-09 15:14:40.963 I/System.out( 6691): Empty value
+01-09 15:14:41.964 I/System.out( 6691): Empty value
+01-09 15:14:42.975 I/System.out( 6691): Empty value
+01-09 15:14:43.966 I/System.out( 6691): Empty value
+01-09 15:14:44.966 I/System.out( 6691): Empty value
+01-09 15:14:45.967 I/System.out( 6691): Empty value
+01-09 15:14:46.968 I/System.out( 6691): Empty value
+01-09 15:14:47.969 I/System.out( 6691): Empty value
+01-09 15:14:48.970 I/System.out( 6691): Empty value
+01-09 15:14:49.971 I/System.out( 6691): Empty value
+01-09 15:14:50.972 I/System.out( 6691): Empty value
+01-09 15:14:51.973 I/System.out( 6691): Empty value
+01-09 15:14:52.974 I/System.out( 6691): Empty value
+01-09 15:14:53.975 I/System.out( 6691): Empty value
+01-09 15:14:54.976 I/System.out( 6691): Empty value
+01-09 15:14:55.977 I/System.out( 6691): Empty value
+01-09 15:14:56.988 I/System.out( 6691): Empty value
+01-09 15:14:57.979 I/System.out( 6691): Empty value
+01-09 15:14:58.980 I/System.out( 6691): Empty value
+01-09 15:14:59.981 I/System.out( 6691): Empty value
+01-09 15:15:00.992 I/System.out( 6691): Empty value
+01-09 15:15:01.443 V/DigitalWidgetViewsFactory( 4127): DigitalWidget sets next alarm string to null
+01-09 15:15:01.993 I/System.out( 6691): Empty value
+01-09 15:15:02.994 I/System.out( 6691): Empty value
+01-09 15:15:03.995 I/System.out( 6691): Empty value
+01-09 15:15:04.986 I/System.out( 6691): Empty value
+01-09 15:15:05.987 I/System.out( 6691): Empty value
+01-09 15:15:06.988 I/System.out( 6691): Empty value
+01-09 15:15:07.989 I/System.out( 6691): Empty value
+01-09 15:15:08.990 I/System.out( 6691): Empty value
+01-09 15:15:09.050 D/dalvikvm( 6691): GC_CONCURRENT freed 387K, 5% free 9009K/9436K, paused 4ms+6ms, total 47ms
+01-09 15:15:09.991 I/System.out( 6691): Empty value
+01-09 15:15:10.992 I/System.out( 6691): Empty value
+01-09 15:15:11.993 I/System.out( 6691): Empty value
+01-09 15:15:13.004 I/System.out( 6691): Empty value
+01-09 15:15:14.005 I/System.out( 6691): Empty value
+01-09 15:15:15.006 I/System.out( 6691): Empty value
+01-09 15:15:15.997 I/System.out( 6691): Empty value
+01-09 15:15:17.008 I/System.out( 6691): Empty value
+01-09 15:15:17.999 I/System.out( 6691): Empty value
+01-09 15:15:19.000 I/System.out( 6691): Empty value
+01-09 15:15:20.001 I/System.out( 6691): Empty value
+01-09 15:15:21.002 I/System.out( 6691): Empty value
+01-09 15:15:22.003 I/System.out( 6691): Empty value
+01-09 15:15:23.004 I/System.out( 6691): Empty value
+01-09 15:15:24.005 I/System.out( 6691): Empty value
+01-09 15:15:25.006 I/System.out( 6691): Empty value
+01-09 15:15:26.007 I/System.out( 6691): Empty value
+01-09 15:15:27.007 I/System.out( 6691): Empty value
+01-09 15:15:28.008 I/System.out( 6691): Empty value
+01-09 15:15:29.009 I/System.out( 6691): Empty value
+01-09 15:15:30.010 I/System.out( 6691): Empty value
+01-09 15:15:31.021 I/System.out( 6691): Empty value
+01-09 15:15:32.022 I/System.out( 6691): Empty value
+01-09 15:15:33.023 I/System.out( 6691): Empty value
+01-09 15:15:34.024 I/System.out( 6691): Empty value
+01-09 15:15:35.025 I/System.out( 6691): Empty value
+01-09 15:15:36.016 I/System.out( 6691): Empty value
+01-09 15:15:37.017 I/System.out( 6691): Empty value
+01-09 15:15:38.018 I/System.out( 6691): Empty value
+01-09 15:15:39.019 I/System.out( 6691): Empty value
+01-09 15:15:40.020 I/System.out( 6691): Empty value
+01-09 15:15:41.021 I/System.out( 6691): Empty value
+01-09 15:15:42.022 I/System.out( 6691): Empty value
+01-09 15:15:43.023 I/System.out( 6691): Empty value
+01-09 15:15:44.024 I/System.out( 6691): Empty value
+01-09 15:15:45.025 I/System.out( 6691): Empty value
+01-09 15:15:46.026 I/System.out( 6691): Empty value
+01-09 15:15:47.017 I/System.out( 6691): Empty value
+01-09 15:15:48.028 I/System.out( 6691): Empty value
+01-09 15:15:49.029 I/System.out( 6691): Empty value
+01-09 15:15:50.030 I/System.out( 6691): Empty value
+01-09 15:15:51.031 I/System.out( 6691): Empty value
+01-09 15:15:52.032 I/System.out( 6691): Empty value
+01-09 15:15:53.033 I/System.out( 6691): Empty value
+01-09 15:15:54.034 I/System.out( 6691): Empty value
+01-09 15:15:55.035 I/System.out( 6691): Empty value
+01-09 15:15:56.036 I/System.out( 6691): Empty value
+01-09 15:15:57.037 I/System.out( 6691): Empty value
+01-09 15:15:58.038 I/System.out( 6691): Empty value
+01-09 15:15:59.039 I/System.out( 6691): Empty value
+01-09 15:16:00.040 I/System.out( 6691): Empty value
+01-09 15:16:01.041 I/System.out( 6691): Empty value
+01-09 15:16:02.042 I/System.out( 6691): Empty value
+01-09 15:16:03.043 I/System.out( 6691): Empty value
+01-09 15:16:04.044 I/System.out( 6691): Empty value
+01-09 15:16:05.045 I/System.out( 6691): Empty value
+01-09 15:16:06.046 I/System.out( 6691): Empty value
+01-09 15:16:07.047 I/System.out( 6691): Empty value
+01-09 15:16:08.038 I/System.out( 6691): Empty value
+01-09 15:16:09.049 I/System.out( 6691): Empty value
+01-09 15:16:10.049 I/System.out( 6691): Empty value
+01-09 15:16:11.050 I/System.out( 6691): Empty value
+01-09 15:16:12.051 I/System.out( 6691): Empty value
+01-09 15:16:13.052 I/System.out( 6691): Empty value
+01-09 15:16:14.053 I/System.out( 6691): Empty value
+01-09 15:16:15.054 I/System.out( 6691): Empty value
+01-09 15:16:16.055 I/System.out( 6691): Empty value
+01-09 15:16:17.066 I/System.out( 6691): Empty value
+01-09 15:16:18.057 I/System.out( 6691): Empty value
+01-09 15:16:19.058 I/System.out( 6691): Empty value
+01-09 15:16:20.069 I/System.out( 6691): Empty value
+01-09 15:16:21.060 I/System.out( 6691): Empty value
+01-09 15:16:22.061 I/System.out( 6691): Empty value
+01-09 15:16:23.062 I/System.out( 6691): Empty value
+01-09 15:16:24.063 I/System.out( 6691): Empty value
+01-09 15:16:25.064 I/System.out( 6691): Empty value
+01-09 15:16:26.065 I/System.out( 6691): Empty value
+01-09 15:16:27.066 I/System.out( 6691): Empty value
+01-09 15:16:28.067 I/System.out( 6691): Empty value
+01-09 15:16:29.068 I/System.out( 6691): Empty value
+01-09 15:16:30.069 I/System.out( 6691): Empty value
+01-09 15:16:31.070 I/System.out( 6691): Empty value
+01-09 15:16:32.071 I/System.out( 6691): Empty value
+01-09 15:16:33.072 I/System.out( 6691): Empty value
+01-09 15:16:34.073 I/System.out( 6691): Empty value
+01-09 15:16:35.074 I/System.out( 6691): Empty value
+01-09 15:16:36.075 I/System.out( 6691): Empty value
+01-09 15:16:37.066 I/System.out( 6691): Empty value
+01-09 15:16:38.067 I/System.out( 6691): Empty value
+01-09 15:16:39.068 I/System.out( 6691): Empty value
+01-09 15:16:40.069 I/System.out( 6691): Empty value
+01-09 15:16:41.070 I/System.out( 6691): Empty value
+01-09 15:16:42.071 I/System.out( 6691): Empty value
+01-09 15:16:43.082 I/System.out( 6691): Empty value
+01-09 15:16:44.073 I/System.out( 6691): Empty value
+01-09 15:16:45.074 I/System.out( 6691): Empty value
+01-09 15:16:46.075 I/System.out( 6691): Empty value
+01-09 15:16:47.086 I/System.out( 6691): Empty value
+01-09 15:16:48.077 I/System.out( 6691): Empty value
+01-09 15:16:49.078 I/System.out( 6691): Empty value
+01-09 15:16:50.079 I/System.out( 6691): Empty value
+01-09 15:16:51.080 I/System.out( 6691): Empty value
+01-09 15:16:52.091 I/System.out( 6691): Empty value
+01-09 15:16:53.081 I/System.out( 6691): Empty value
+01-09 15:16:54.082 I/System.out( 6691): Empty value
+01-09 15:16:55.083 I/System.out( 6691): Empty value
+01-09 15:16:56.084 I/System.out( 6691): Empty value
+01-09 15:16:57.085 I/System.out( 6691): Empty value
+01-09 15:16:58.096 I/System.out( 6691): Empty value
+01-09 15:16:59.097 I/System.out( 6691): Empty value
+01-09 15:17:00.088 I/System.out( 6691): Empty value
+01-09 15:17:01.089 I/System.out( 6691): Empty value
+01-09 15:17:02.090 I/System.out( 6691): Empty value
+01-09 15:17:03.091 I/System.out( 6691): Empty value
+01-09 15:17:04.092 I/System.out( 6691): Empty value
+01-09 15:17:05.103 I/System.out( 6691): Empty value
+01-09 15:17:06.104 I/System.out( 6691): Empty value
+01-09 15:17:07.105 I/System.out( 6691): Empty value
+01-09 15:17:08.106 I/System.out( 6691): Empty value
+01-09 15:17:09.107 I/System.out( 6691): Empty value
+01-09 15:17:10.108 I/System.out( 6691): Empty value
+01-09 15:17:11.119 I/System.out( 6691): Empty value
+01-09 15:17:12.120 I/System.out( 6691): Empty value
+01-09 15:17:13.111 I/System.out( 6691): Empty value
+01-09 15:17:14.112 I/System.out( 6691): Empty value
+01-09 15:17:15.123 I/System.out( 6691): Empty value
+01-09 15:17:16.124 I/System.out( 6691): Empty value
+01-09 15:17:17.125 I/System.out( 6691): Empty value
+01-09 15:17:18.126 I/System.out( 6691): Empty value
+01-09 15:17:19.117 I/System.out( 6691): Empty value
+01-09 15:17:20.128 I/System.out( 6691): Empty value
+01-09 15:17:21.129 I/System.out( 6691): Empty value
+01-09 15:17:22.130 I/System.out( 6691): Empty value
+01-09 15:17:23.121 I/System.out( 6691): Empty value
+01-09 15:17:24.122 I/System.out( 6691): Empty value
+01-09 15:17:25.133 I/System.out( 6691): Empty value
+01-09 15:17:26.134 I/System.out( 6691): Empty value
+01-09 15:17:27.135 I/System.out( 6691): Empty value
+01-09 15:17:28.136 I/System.out( 6691): Empty value
+01-09 15:17:29.127 I/System.out( 6691): Empty value
+01-09 15:17:30.128 I/System.out( 6691): Empty value
+01-09 15:17:31.139 I/System.out( 6691): Empty value
+01-09 15:17:32.140 I/System.out( 6691): Empty value
+01-09 15:17:33.141 I/System.out( 6691): Empty value
+01-09 15:17:34.142 I/System.out( 6691): Empty value
+01-09 15:17:35.143 I/System.out( 6691): Empty value
+01-09 15:17:36.143 I/System.out( 6691): Empty value
+01-09 15:17:37.144 I/System.out( 6691): Empty value
+01-09 15:17:38.145 I/System.out( 6691): Empty value
+01-09 15:17:39.146 I/System.out( 6691): Empty value
+01-09 15:17:40.147 I/System.out( 6691): Empty value
+01-09 15:17:41.148 I/System.out( 6691): Empty value
+01-09 15:17:42.149 I/System.out( 6691): Empty value
+01-09 15:17:43.150 I/System.out( 6691): Empty value
+01-09 15:17:44.151 I/System.out( 6691): Empty value
+01-09 15:17:45.152 I/System.out( 6691): Empty value
+01-09 15:17:46.153 I/System.out( 6691): Empty value
+01-09 15:17:47.154 I/System.out( 6691): Empty value
+01-09 15:17:48.155 I/System.out( 6691): Empty value
+01-09 15:17:49.156 I/System.out( 6691): Empty value
+01-09 15:17:50.157 I/System.out( 6691): Empty value
+01-09 15:17:51.148 I/System.out( 6691): Empty value
+01-09 15:17:52.149 I/System.out( 6691): Empty value
+01-09 15:17:53.160 I/System.out( 6691): Empty value
+01-09 15:17:54.161 I/System.out( 6691): Empty value
+01-09 15:17:55.162 I/System.out( 6691): Empty value
+01-09 15:17:56.163 I/System.out( 6691): Empty value
+01-09 15:17:57.164 I/System.out( 6691): Empty value
+01-09 15:17:58.165 I/System.out( 6691): Empty value
+01-09 15:17:59.156 I/System.out( 6691): Empty value
+01-09 15:18:00.157 I/System.out( 6691): Empty value
+01-09 15:18:01.158 I/System.out( 6691): Empty value
+01-09 15:18:02.159 I/System.out( 6691): Empty value
+01-09 15:18:03.160 I/System.out( 6691): Empty value
+01-09 15:18:04.161 I/System.out( 6691): Empty value
+01-09 15:18:05.162 I/System.out( 6691): Empty value
+01-09 15:18:06.163 I/System.out( 6691): Empty value
+01-09 15:18:07.164 I/System.out( 6691): Empty value
+01-09 15:18:08.165 I/System.out( 6691): Empty value
+01-09 15:18:09.156 I/System.out( 6691): Empty value
+01-09 15:18:10.167 I/System.out( 6691): Empty value
+01-09 15:18:11.158 I/System.out( 6691): Empty value
+01-09 15:18:12.159 I/System.out( 6691): Empty value
+01-09 15:18:13.170 I/System.out( 6691): Empty value
+01-09 15:18:14.171 I/System.out( 6691): Empty value
+01-09 15:18:15.172 I/System.out( 6691): Empty value
+01-09 15:18:16.173 I/System.out( 6691): Empty value
+01-09 15:18:17.174 I/System.out( 6691): Empty value
+01-09 15:18:18.174 I/System.out( 6691): Empty value
+01-09 15:18:19.175 I/System.out( 6691): Empty value
+01-09 15:18:20.176 I/System.out( 6691): Empty value
+01-09 15:18:21.177 I/System.out( 6691): Empty value
+01-09 15:18:22.178 I/System.out( 6691): Empty value
+01-09 15:18:23.179 I/System.out( 6691): Empty value
+01-09 15:18:24.190 I/System.out( 6691): Empty value
+01-09 15:18:25.181 I/System.out( 6691): Empty value
+01-09 15:18:26.182 I/System.out( 6691): Empty value
+01-09 15:18:27.183 I/System.out( 6691): Empty value
+01-09 15:18:28.184 I/System.out( 6691): Empty value
+01-09 15:18:29.185 I/System.out( 6691): Empty value
+01-09 15:18:30.186 I/System.out( 6691): Empty value
+01-09 15:18:31.187 I/System.out( 6691): Empty value
+01-09 15:18:32.188 I/System.out( 6691): Empty value
+01-09 15:18:33.189 I/System.out( 6691): Empty value
+01-09 15:18:34.190 I/System.out( 6691): Empty value
+01-09 15:18:35.191 I/System.out( 6691): Empty value
+01-09 15:18:36.192 I/System.out( 6691): Empty value
+01-09 15:18:37.193 I/System.out( 6691): Empty value
+01-09 15:18:38.194 I/System.out( 6691): Empty value
+01-09 15:18:39.195 I/System.out( 6691): Empty value
+01-09 15:18:40.196 I/System.out( 6691): Empty value
+01-09 15:18:41.197 I/System.out( 6691): Empty value
+01-09 15:18:42.208 I/System.out( 6691): Empty value
+01-09 15:18:43.209 I/System.out( 6691): Empty value
+01-09 15:18:44.200 I/System.out( 6691): Empty value
+01-09 15:18:45.201 I/System.out( 6691): Empty value
+01-09 15:18:46.202 I/System.out( 6691): Empty value
+01-09 15:18:47.203 I/System.out( 6691): Empty value
+01-09 15:18:48.214 I/System.out( 6691): Empty value
+01-09 15:18:49.215 I/System.out( 6691): Empty value
+01-09 15:18:50.206 I/System.out( 6691): Empty value
+01-09 15:18:51.217 I/System.out( 6691): Empty value
+01-09 15:18:52.218 I/System.out( 6691): Empty value
+01-09 15:18:53.209 I/System.out( 6691): Empty value
+01-09 15:18:54.210 I/System.out( 6691): Empty value
+01-09 15:18:55.221 I/System.out( 6691): Empty value
+01-09 15:18:55.281 D/dalvikvm( 6691): GC_CONCURRENT freed 388K, 5% free 9010K/9436K, paused 13ms+4ms, total 63ms
+01-09 15:18:56.222 I/System.out( 6691): Empty value
+01-09 15:18:57.223 I/System.out( 6691): Empty value
+01-09 15:18:58.224 I/System.out( 6691): Empty value
+01-09 15:18:59.225 I/System.out( 6691): Empty value
+01-09 15:19:00.226 I/System.out( 6691): Empty value
+01-09 15:19:01.226 I/System.out( 6691): Empty value
+01-09 15:19:02.227 I/System.out( 6691): Empty value
+01-09 15:19:03.228 I/System.out( 6691): Empty value
+01-09 15:19:04.229 I/System.out( 6691): Empty value
+01-09 15:19:05.230 I/System.out( 6691): Empty value
+01-09 15:19:06.241 I/System.out( 6691): Empty value
+01-09 15:19:07.242 I/System.out( 6691): Empty value
+01-09 15:19:08.233 I/System.out( 6691): Empty value
+01-09 15:19:09.234 I/System.out( 6691): Empty value
+01-09 15:19:10.235 I/System.out( 6691): Empty value
+01-09 15:19:11.246 I/System.out( 6691): Empty value
+01-09 15:19:12.237 I/System.out( 6691): Empty value
+01-09 15:19:13.238 I/System.out( 6691): Empty value
+01-09 15:19:14.249 I/System.out( 6691): Empty value
+01-09 15:19:15.250 I/System.out( 6691): Empty value
+01-09 15:19:16.241 I/System.out( 6691): Empty value
+01-09 15:19:17.252 I/System.out( 6691): Empty value
+01-09 15:19:18.253 I/System.out( 6691): Empty value
+01-09 15:19:19.254 I/System.out( 6691): Empty value
+01-09 15:19:20.255 I/System.out( 6691): Empty value
+01-09 15:19:21.256 I/System.out( 6691): Empty value
+01-09 15:19:22.247 I/System.out( 6691): Empty value
+01-09 15:19:23.248 I/System.out( 6691): Empty value
+01-09 15:19:24.259 I/System.out( 6691): Empty value
+01-09 15:19:25.250 I/System.out( 6691): Empty value
+01-09 15:19:26.251 I/System.out( 6691): Empty value
+01-09 15:19:27.252 I/System.out( 6691): Empty value
+01-09 15:19:28.253 I/System.out( 6691): Empty value
+01-09 15:19:29.254 I/System.out( 6691): Empty value
+01-09 15:19:30.255 I/System.out( 6691): Empty value
+01-09 15:19:31.256 I/System.out( 6691): Empty value
+01-09 15:19:32.257 I/System.out( 6691): Empty value
+01-09 15:19:33.258 I/System.out( 6691): Empty value
+01-09 15:19:34.259 I/System.out( 6691): Empty value
+01-09 15:19:35.270 I/System.out( 6691): Empty value
+01-09 15:19:36.261 I/System.out( 6691): Empty value
+01-09 15:19:37.262 I/System.out( 6691): Empty value
+01-09 15:19:38.263 I/System.out( 6691): Empty value
+01-09 15:19:39.274 I/System.out( 6691): Empty value
+01-09 15:19:40.275 I/System.out( 6691): Empty value
+01-09 15:19:41.276 I/System.out( 6691): Empty value
+01-09 15:19:42.277 I/System.out( 6691): Empty value
+01-09 15:19:43.278 I/System.out( 6691): Empty value
+01-09 15:19:44.268 I/System.out( 6691): Empty value
+01-09 15:19:45.269 I/System.out( 6691): Empty value
+01-09 15:19:46.270 I/System.out( 6691): Empty value
+01-09 15:19:47.281 I/System.out( 6691): Empty value
+01-09 15:19:48.272 I/System.out( 6691): Empty value
+01-09 15:19:49.283 I/System.out( 6691): Empty value
+01-09 15:19:50.284 I/System.out( 6691): Empty value
+01-09 15:19:51.285 I/System.out( 6691): Empty value
+01-09 15:19:52.286 I/System.out( 6691): Empty value
+01-09 15:19:53.287 I/System.out( 6691): Empty value
+01-09 15:19:54.278 I/System.out( 6691): Empty value
+01-09 15:19:55.279 I/System.out( 6691): Empty value
+01-09 15:19:56.280 I/System.out( 6691): Empty value
+01-09 15:19:57.281 I/System.out( 6691): Empty value
+01-09 15:19:58.282 I/System.out( 6691): Empty value
+01-09 15:19:59.283 I/System.out( 6691): Empty value
+01-09 15:20:00.284 I/System.out( 6691): Empty value
+01-09 15:20:01.285 I/System.out( 6691): Empty value
+01-09 15:20:02.286 I/System.out( 6691): Empty value
+01-09 15:20:03.287 I/System.out( 6691): Empty value
+01-09 15:20:04.278 I/System.out( 6691): Empty value
+01-09 15:20:05.289 I/System.out( 6691): Empty value
+01-09 15:20:06.290 I/System.out( 6691): Empty value
+01-09 15:20:07.291 I/System.out( 6691): Empty value
+01-09 15:20:08.292 I/System.out( 6691): Empty value
+01-09 15:20:09.293 I/System.out( 6691): Empty value
+01-09 15:20:10.294 I/System.out( 6691): Empty value
+01-09 15:20:11.295 I/System.out( 6691): Empty value
+01-09 15:20:12.296 I/System.out( 6691): Empty value
+01-09 15:20:13.297 I/System.out( 6691): Empty value
+01-09 15:20:14.298 I/System.out( 6691): Empty value
+01-09 15:20:15.299 I/System.out( 6691): Empty value
+01-09 15:20:16.300 I/System.out( 6691): Empty value
+01-09 15:20:17.301 I/System.out( 6691): Empty value
+01-09 15:20:18.312 I/System.out( 6691): Empty value
+01-09 15:20:19.303 I/System.out( 6691): Empty value
+01-09 15:20:20.314 I/System.out( 6691): Empty value
+01-09 15:20:21.315 I/System.out( 6691): Empty value
+01-09 15:20:22.316 I/System.out( 6691): Empty value
+01-09 15:20:23.317 I/System.out( 6691): Empty value
+01-09 15:20:23.317 I/System.out( 6691): Battery level end is reached
+01-09 15:20:23.327 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:24.318 I/System.out( 6691): Empty value
+01-09 15:20:24.318 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:25.319 I/System.out( 6691): Empty value
+01-09 15:20:25.319 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:26.320 I/System.out( 6691): Empty value
+01-09 15:20:26.320 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:27.320 I/System.out( 6691): Empty value
+01-09 15:20:27.330 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:28.321 I/System.out( 6691): Empty value
+01-09 15:20:28.321 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:29.322 I/System.out( 6691): Empty value
+01-09 15:20:29.322 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:30.323 I/System.out( 6691): Empty value
+01-09 15:20:30.323 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:31.324 I/System.out( 6691): Empty value
+01-09 15:20:31.324 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:32.325 I/System.out( 6691): Empty value
+01-09 15:20:32.325 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:33.326 I/System.out( 6691): Empty value
+01-09 15:20:33.326 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:34.317 I/System.out( 6691): Empty value
+01-09 15:20:34.317 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:35.318 I/System.out( 6691): Empty value
+01-09 15:20:35.318 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:36.319 I/System.out( 6691): Empty value
+01-09 15:20:36.319 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:37.330 I/System.out( 6691): Empty value
+01-09 15:20:37.330 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:38.321 I/System.out( 6691): Empty value
+01-09 15:20:38.331 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:39.322 I/System.out( 6691): Empty value
+01-09 15:20:39.332 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:40.323 I/System.out( 6691): Empty value
+01-09 15:20:40.333 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:41.324 I/System.out( 6691): Empty value
+01-09 15:20:41.344 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:42.325 I/System.out( 6691): Empty value
+01-09 15:20:42.335 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:43.326 I/System.out( 6691): Empty value
+01-09 15:20:43.336 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:44.327 I/System.out( 6691): Empty value
+01-09 15:20:44.337 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:45.328 I/System.out( 6691): Empty value
+01-09 15:20:45.338 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:46.329 I/System.out( 6691): Empty value
+01-09 15:20:46.329 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:47.330 I/System.out( 6691): Empty value
+01-09 15:20:47.340 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:48.331 I/System.out( 6691): Empty value
+01-09 15:20:48.331 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:49.332 I/System.out( 6691): Empty value
+01-09 15:20:49.332 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:50.333 I/System.out( 6691): Empty value
+01-09 15:20:50.343 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:51.334 I/System.out( 6691): Empty value
+01-09 15:20:51.334 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:52.335 I/System.out( 6691): Empty value
+01-09 15:20:52.335 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:53.336 I/System.out( 6691): Empty value
+01-09 15:20:53.336 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:54.337 I/System.out( 6691): Empty value
+01-09 15:20:54.347 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:55.338 I/System.out( 6691): Empty value
+01-09 15:20:55.348 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:56.339 I/System.out( 6691): Empty value
+01-09 15:20:56.339 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:57.340 I/System.out( 6691): Empty value
+01-09 15:20:57.350 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:58.341 I/System.out( 6691): Empty value
+01-09 15:20:58.341 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:20:59.342 I/System.out( 6691): Empty value
+01-09 15:20:59.342 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:00.343 I/System.out( 6691): Empty value
+01-09 15:21:00.343 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:01.344 I/System.out( 6691): Empty value
+01-09 15:21:01.344 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:02.345 I/System.out( 6691): Empty value
+01-09 15:21:02.355 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:03.346 I/System.out( 6691): Empty value
+01-09 15:21:03.346 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:04.347 I/System.out( 6691): Empty value
+01-09 15:21:04.347 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:05.348 I/System.out( 6691): Empty value
+01-09 15:21:05.348 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:06.349 I/System.out( 6691): Empty value
+01-09 15:21:06.349 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:07.350 I/System.out( 6691): Empty value
+01-09 15:21:07.350 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:08.351 I/System.out( 6691): Empty value
+01-09 15:21:08.351 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:09.351 I/System.out( 6691): Empty value
+01-09 15:21:09.351 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:10.352 I/System.out( 6691): Empty value
+01-09 15:21:10.352 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:11.353 I/System.out( 6691): Empty value
+01-09 15:21:11.353 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:12.354 I/System.out( 6691): Empty value
+01-09 15:21:12.364 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:13.355 I/System.out( 6691): Empty value
+01-09 15:21:13.355 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:14.356 I/System.out( 6691): Empty value
+01-09 15:21:14.356 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:15.347 I/System.out( 6691): Empty value
+01-09 15:21:15.357 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:16.358 I/System.out( 6691): Empty value
+01-09 15:21:16.358 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:17.359 I/System.out( 6691): Empty value
+01-09 15:21:17.369 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:18.360 I/System.out( 6691): Empty value
+01-09 15:21:18.360 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:19.361 I/System.out( 6691): Empty value
+01-09 15:21:19.361 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:20.362 I/System.out( 6691): Empty value
+01-09 15:21:20.362 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:21.363 I/System.out( 6691): Empty value
+01-09 15:21:21.363 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:22.364 I/System.out( 6691): Empty value
+01-09 15:21:22.364 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:23.365 I/System.out( 6691): Empty value
+01-09 15:21:23.365 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:24.366 I/System.out( 6691): Empty value
+01-09 15:21:24.366 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:25.367 I/System.out( 6691): Empty value
+01-09 15:21:25.367 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:26.358 I/System.out( 6691): Empty value
+01-09 15:21:26.358 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:27.359 I/System.out( 6691): Empty value
+01-09 15:21:27.369 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:28.360 I/System.out( 6691): Empty value
+01-09 15:21:28.360 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:29.371 I/System.out( 6691): Empty value
+01-09 15:21:29.371 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:30.372 I/System.out( 6691): Empty value
+01-09 15:21:30.372 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:31.373 I/System.out( 6691): Empty value
+01-09 15:21:31.383 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:31.583 I/EntropyMixer(  512): Writing entropy...
+01-09 15:21:31.603 D/PicasaSyncManager( 4488): battery info: true
+01-09 15:21:31.623 D/PicasaUploaderSyncManager( 4521): battery info: true
+01-09 15:21:31.623 W/PowerUI (  585): unknown intent: Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x8000010 }
+01-09 15:21:32.374 I/System.out( 6691): Empty value
+01-09 15:21:32.374 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:32.834 D/MtpService( 4504): updating state; isCurrentUser=true, mMtpLocked=false
+01-09 15:21:32.834 D/MtpService( 4504): addStorageLocked 65537 /storage/emulated/0
+01-09 15:21:32.854 D/MtpService( 4504): updating state; isCurrentUser=true, mMtpLocked=false
+01-09 15:21:32.864 D/MtpService( 4504): starting MTP server in MTP mode
+01-09 15:21:32.864 D/MtpService( 4504): addStorageLocked 65537 /storage/emulated/0
+01-09 15:21:32.864 D/dalvikvm( 4504): GC_CONCURRENT freed 408K, 5% free 9214K/9660K, paused 4ms+3ms, total 17ms
+01-09 15:21:33.375 I/System.out( 6691): Empty value
+01-09 15:21:33.375 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:34.376 I/System.out( 6691): Empty value
+01-09 15:21:34.376 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:35.377 I/System.out( 6691): Empty value
+01-09 15:21:35.377 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:35.707 D/dalvikvm(  512): GC_EXPLICIT freed 839K, 18% free 16730K/20200K, paused 3ms+4ms, total 68ms
+01-09 15:21:36.378 I/System.out( 6691): Empty value
+01-09 15:21:36.378 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:37.379 I/System.out( 6691): Empty value
+01-09 15:21:37.379 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:38.380 I/System.out( 6691): Empty value
+01-09 15:21:38.380 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:39.381 I/System.out( 6691): Empty value
+01-09 15:21:39.381 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:40.382 I/System.out( 6691): Empty value
+01-09 15:21:40.382 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:41.383 I/System.out( 6691): Empty value
+01-09 15:21:41.383 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:42.384 I/System.out( 6691): Empty value
+01-09 15:21:42.384 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:43.385 I/System.out( 6691): Empty value
+01-09 15:21:43.385 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:44.386 I/System.out( 6691): Empty value
+01-09 15:21:44.386 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:45.377 I/System.out( 6691): Empty value
+01-09 15:21:45.377 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:46.378 I/System.out( 6691): Empty value
+01-09 15:21:46.378 I/System.out( 6691): Time difference in secs is: 841
+01-09 15:21:47.379 I/System.out( 6691): Empty value
+01-09 15:21:47.379 I/System.out( 6691): Time difference in secs is: 841

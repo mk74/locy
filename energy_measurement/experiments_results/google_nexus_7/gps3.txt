@@ -1,0 +1,1103 @@
+--------- beginning of /dev/log/main
+01-09 14:14:00.941 D/audio_hw_primary(  180): start_output_stream: enter: usecase(1: low-latency-playback) devices(0x2)
+01-09 14:14:00.941 D/audio_hw_primary(  180): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+01-09 14:14:00.941 D/audio_hw_primary(  180): enable_snd_device: sending audio calibration for snd_device(2) acdb_id(14)
+01-09 14:14:00.941 D/ACDB-LOADER(  180): ACDB -> send_afe_cal
+01-09 14:14:00.941 D/audio_hw_primary(  180): enable_snd_device: snd_device(2: speaker)
+01-09 14:14:00.951 D/audio_hw_primary(  180): enable_audio_route: apply mixer path: low-latency-playback
+01-09 14:14:00.961 D/audio_hw_primary(  180): start_output_stream: exit
+--------- beginning of /dev/log/system
+01-09 14:14:02.513 I/ActivityManager(  512): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings} from pid 766
+01-09 14:14:02.593 D/dalvikvm(  512): GC_FOR_ALLOC freed 975K, 21% free 17260K/21776K, paused 64ms, total 64ms
+01-09 14:14:02.663 D/dalvikvm(  512): GC_FOR_ALLOC freed 1132K, 24% free 16685K/21776K, paused 61ms, total 61ms
+01-09 14:14:02.703 I/ActivityManager(  512): Start proc com.android.settings for activity com.android.settings/.Settings: pid=5816 uid=1000 gids={41000, 1015, 1028, 3002, 3001, 3003, 3007}
+01-09 14:14:02.713 D/dalvikvm(  178): GC_EXPLICIT freed 41K, 1% free 8863K/8944K, paused 2ms+2ms, total 24ms
+01-09 14:14:02.733 D/dalvikvm(  178): GC_EXPLICIT freed <1K, 1% free 8863K/8944K, paused 2ms+1ms, total 19ms
+01-09 14:14:02.753 D/dalvikvm(  178): GC_EXPLICIT freed <1K, 1% free 8863K/8944K, paused 1ms+1ms, total 17ms
+01-09 14:14:02.823 D/BluetoothManagerService(  512): Message: 20
+01-09 14:14:02.823 D/BluetoothManagerService(  512): Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@42890000:true
+01-09 14:14:02.823 D/BluetoothAdapter( 5816): 1110306248: getState() :  mService = null. Returning STATE_OFF
+01-09 14:14:02.823 D/BluetoothManagerService(  512): Message: 30
+01-09 14:14:02.823 D/BluetoothManagerService(  512): Message: 30
+01-09 14:14:02.823 W/ContextImpl( 5816): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1439 android.content.ContextWrapper.bindService:496 android.bluetooth.BluetoothInputDevice.<init>:240 android.bluetooth.BluetoothAdapter.getProfileProxy:1168 com.android.settings.bluetooth.LocalBluetoothAdapter.getProfileProxy:94 
+01-09 14:14:02.833 D/BluetoothPan( 5816): BluetoothPan() call bindService
+01-09 14:14:02.833 D/dalvikvm( 5816): GC_CONCURRENT freed 172K, 3% free 9150K/9360K, paused 1ms+3ms, total 20ms
+01-09 14:14:02.833 D/BluetoothPan( 5816): BluetoothPan(), bindService called
+01-09 14:14:02.833 D/BluetoothManagerService(  512): Message: 30
+01-09 14:14:02.833 D/LocalBluetoothProfileManager( 5816): LocalBluetoothProfileManager construction complete
+01-09 14:14:02.833 D/BluetoothAdapter( 5816): 1110306248: getState() :  mService = null. Returning STATE_OFF
+01-09 14:14:02.833 D/BluetoothAdapter( 5816): 1110306248: getState() :  mService = null. Returning STATE_OFF
+01-09 14:14:02.833 W/ContextImpl( 5816): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1439 android.content.ContextWrapper.bindService:496 android.bluetooth.BluetoothPan.<init>:141 android.bluetooth.BluetoothAdapter.getProfileProxy:1171 com.android.settings.bluetooth.PanProfile.<init>:73 
+01-09 14:14:02.833 W/ContextImpl( 5816): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1439 android.content.ContextWrapper.bindService:496 android.bluetooth.BluetoothPbap.<init>:161 com.android.settings.bluetooth.PbapServerProfile.<init>:68 com.android.settings.bluetooth.LocalBluetoothProfileManager.<init>:124 
+01-09 14:14:02.873 D/libEGL  ( 5816): loaded /system/lib/egl/libEGL_adreno200.so
+01-09 14:14:02.873 D/libEGL  ( 5816): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+01-09 14:14:02.873 D/libEGL  ( 5816): loaded /system/lib/egl/libGLESv2_adreno200.so
+01-09 14:14:02.883 I/Adreno200-EGL( 5816): <qeglDrvAPI_eglInitialize:265>: EGL 1.4 QUALCOMM Build: Iabe52cfaeae4c5fab1acacfe6f056ba15fa93274
+01-09 14:14:02.913 D/OpenGLRenderer( 5816): Enabling debug mode 0
+01-09 14:14:02.933 D/BluetoothAdapter( 5816): 1110306248: getState() :  mService = null. Returning STATE_OFF
+01-09 14:14:02.993 D/dalvikvm( 5816): GC_CONCURRENT freed 70K, 2% free 9520K/9632K, paused 2ms+1ms, total 14ms
+01-09 14:14:03.103 I/ActivityManager(  512): Displayed com.android.settings/.Settings: +420ms
+01-09 14:14:05.656 D/audio_hw_primary(  180): out_standby: enter: usecase(1: low-latency-playback)
+01-09 14:14:05.706 D/audio_hw_primary(  180): stop_output_stream: enter: usecase(1: low-latency-playback)
+01-09 14:14:05.706 D/audio_hw_primary(  180): disable_audio_route: reset mixer path: low-latency-playback
+01-09 14:14:05.706 D/audio_hw_primary(  180): disable_snd_device: snd_device(2: speaker)
+01-09 14:14:05.716 D/audio_hw_primary(  180): stop_output_stream: exit: status(0)
+01-09 14:14:05.716 D/audio_hw_primary(  180): out_standby: exit
+01-09 14:14:06.287 I/ActivityManager(  512): START u0 {act=android.intent.action.MAIN cmp=com.android.settings/.SubSettings (has extras)} from pid 5816
+01-09 14:14:06.297 D/audio_hw_primary(  180): start_output_stream: enter: usecase(1: low-latency-playback) devices(0x2)
+01-09 14:14:06.297 D/audio_hw_primary(  180): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+01-09 14:14:06.297 D/audio_hw_primary(  180): enable_snd_device: sending audio calibration for snd_device(2) acdb_id(14)
+01-09 14:14:06.297 D/ACDB-LOADER(  180): ACDB -> send_afe_cal
+01-09 14:14:06.297 D/audio_hw_primary(  180): enable_snd_device: snd_device(2: speaker)
+01-09 14:14:06.297 D/audio_hw_primary(  180): enable_audio_route: apply mixer path: low-latency-playback
+01-09 14:14:06.307 D/audio_hw_primary(  180): start_output_stream: exit
+01-09 14:14:06.367 D/dalvikvm(  512): GC_FOR_ALLOC freed 620K, 21% free 17276K/21776K, paused 64ms, total 64ms
+01-09 14:14:06.427 D/dalvikvm(  512): GC_FOR_ALLOC freed 1202K, 24% free 16627K/21776K, paused 58ms, total 58ms
+01-09 14:14:06.577 D/dalvikvm( 5816): GC_CONCURRENT freed 115K, 2% free 9821K/9972K, paused 2ms+2ms, total 22ms
+01-09 14:14:06.637 I/ActivityManager(  512): Displayed com.android.settings/.SubSettings: +192ms
+01-09 14:14:09.480 D/audio_hw_primary(  180): out_standby: enter: usecase(1: low-latency-playback)
+01-09 14:14:09.530 D/audio_hw_primary(  180): stop_output_stream: enter: usecase(1: low-latency-playback)
+01-09 14:14:09.540 D/audio_hw_primary(  180): disable_audio_route: reset mixer path: low-latency-playback
+01-09 14:14:09.540 D/audio_hw_primary(  180): disable_snd_device: snd_device(2: speaker)
+01-09 14:14:09.550 D/audio_hw_primary(  180): stop_output_stream: exit: status(0)
+01-09 14:14:09.550 D/audio_hw_primary(  180): out_standby: exit
+01-09 14:14:11.682 D/dalvikvm(  512): GC_FOR_ALLOC freed 39K, 19% free 17744K/21776K, paused 51ms, total 51ms
+01-09 14:14:11.682 I/dalvikvm-heap(  512): Grow heap (frag case) to 17.907MB for 566416-byte allocation
+01-09 14:14:11.732 D/dalvikvm(  512): GC_FOR_ALLOC freed 5K, 19% free 18291K/22332K, paused 52ms, total 52ms
+01-09 14:14:11.752 D/audio_hw_primary(  180): start_output_stream: enter: usecase(1: low-latency-playback) devices(0x2)
+01-09 14:14:11.752 D/audio_hw_primary(  180): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+01-09 14:14:11.752 D/audio_hw_primary(  180): enable_snd_device: sending audio calibration for snd_device(2) acdb_id(14)
+01-09 14:14:11.752 D/ACDB-LOADER(  180): ACDB -> send_afe_cal
+01-09 14:14:11.752 D/audio_hw_primary(  180): enable_snd_device: snd_device(2: speaker)
+01-09 14:14:11.752 D/audio_hw_primary(  180): enable_audio_route: apply mixer path: low-latency-playback
+01-09 14:14:11.762 D/audio_hw_primary(  180): start_output_stream: exit
+01-09 14:14:11.802 D/dalvikvm(  512): GC_FOR_ALLOC freed 1111K, 24% free 17182K/22332K, paused 60ms, total 60ms
+01-09 14:14:11.822 I/ActivityManager(  512): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity (has extras)} from pid 585
+01-09 14:14:11.882 D/dalvikvm(  512): GC_FOR_ALLOC freed 1112K, 24% free 17183K/22332K, paused 53ms, total 53ms
+01-09 14:14:11.972 I/ActivityManager(  512): Displayed com.android.systemui/.recent.RecentsActivity: +93ms
+01-09 14:14:12.833 D/dalvikvm(  512): GC_FOR_ALLOC freed 1690K, 26% free 16637K/22332K, paused 55ms, total 55ms
+01-09 14:14:12.843 I/ActivityManager(  512): Killing 5816:com.android.settings/1000: remove task
+01-09 14:14:12.863 W/InputDispatcher(  512): channel '428af4f8 com.android.settings/com.android.settings.SubSettings (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+01-09 14:14:12.863 E/InputDispatcher(  512): channel '428af4f8 com.android.settings/com.android.settings.SubSettings (server)' ~ Channel is unrecoverably broken and will be disposed!
+01-09 14:14:12.863 I/WindowState(  512): WIN DEATH: Window{422a0190 u0 com.android.settings/com.android.settings.Settings}
+01-09 14:14:12.873 W/InputDispatcher(  512): Attempted to unregister already unregistered input channel '428af4f8 com.android.settings/com.android.settings.SubSettings (server)'
+01-09 14:14:12.873 I/WindowState(  512): WIN DEATH: Window{428af4f8 u0 com.android.settings/com.android.settings.SubSettings}
+01-09 14:14:14.915 D/audio_hw_primary(  180): out_standby: enter: usecase(1: low-latency-playback)
+01-09 14:14:14.965 D/audio_hw_primary(  180): stop_output_stream: enter: usecase(1: low-latency-playback)
+01-09 14:14:14.965 D/audio_hw_primary(  180): disable_audio_route: reset mixer path: low-latency-playback
+01-09 14:14:14.965 D/audio_hw_primary(  180): disable_snd_device: snd_device(2: speaker)
+01-09 14:14:14.965 D/audio_hw_primary(  180): stop_output_stream: exit: status(0)
+01-09 14:14:14.965 D/audio_hw_primary(  180): out_standby: exit
+01-09 14:14:23.293 D/audio_hw_primary(  180): start_output_stream: enter: usecase(1: low-latency-playback) devices(0x2)
+01-09 14:14:23.293 D/audio_hw_primary(  180): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+01-09 14:14:23.293 D/audio_hw_primary(  180): enable_snd_device: sending audio calibration for snd_device(2) acdb_id(14)
+01-09 14:14:23.293 D/ACDB-LOADER(  180): ACDB -> send_afe_cal
+01-09 14:14:23.293 D/audio_hw_primary(  180): enable_snd_device: snd_device(2: speaker)
+01-09 14:14:23.293 D/audio_hw_primary(  180): enable_audio_route: apply mixer path: low-latency-playback
+01-09 14:14:23.303 D/audio_hw_primary(  180): start_output_stream: exit
+01-09 14:14:23.974 I/ActivityManager(  512): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity} from pid 585
+01-09 14:14:24.034 D/dalvikvm(  512): GC_FOR_ALLOC freed 1713K, 26% free 16627K/22332K, paused 51ms, total 52ms
+01-09 14:14:24.134 I/ActivityManager(  512): Displayed com.android.systemui/.recent.RecentsActivity: +91ms
+01-09 14:14:25.215 D/dalvikvm(  512): GC_FOR_ALLOC freed 2248K, 29% free 16073K/22332K, paused 63ms, total 63ms
+01-09 14:14:28.268 D/audio_hw_primary(  180): out_standby: enter: usecase(1: low-latency-playback)
+01-09 14:14:28.318 D/audio_hw_primary(  180): stop_output_stream: enter: usecase(1: low-latency-playback)
+01-09 14:14:28.318 D/audio_hw_primary(  180): disable_audio_route: reset mixer path: low-latency-playback
+01-09 14:14:28.318 D/audio_hw_primary(  180): disable_snd_device: snd_device(2: speaker)
+01-09 14:14:28.318 D/audio_hw_primary(  180): stop_output_stream: exit: status(0)
+01-09 14:14:28.318 D/audio_hw_primary(  180): out_standby: exit
+01-09 14:14:28.418 D/dalvikvm(  512): GC_CONCURRENT freed 1130K, 26% free 16625K/22332K, paused 20ms+5ms, total 110ms
+01-09 14:14:33.163 D/AndroidRuntime( 5898): 
+01-09 14:14:33.163 D/AndroidRuntime( 5898): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-09 14:14:33.163 D/AndroidRuntime( 5898): CheckJNI is OFF
+01-09 14:14:33.173 D/dalvikvm( 5898): Trying to load lib libjavacore.so 0x0
+01-09 14:14:33.183 D/dalvikvm( 5898): Added shared lib libjavacore.so 0x0
+01-09 14:14:33.193 D/dalvikvm( 5898): Trying to load lib libnativehelper.so 0x0
+01-09 14:14:33.193 D/dalvikvm( 5898): Added shared lib libnativehelper.so 0x0
+01-09 14:14:33.323 D/AndroidRuntime( 5898): Calling main entry com.android.commands.pm.Pm
+01-09 14:14:33.333 D/Finsky  ( 4841): [1] PackageVerificationReceiver.checkPrerequisites: Skipping verification because network inactive
+01-09 14:14:33.333 W/ActivityManager(  512): No content provider found for permission revoke: file:///data/local/tmp/EnergyMeasurementGPS.apk
+01-09 14:14:33.343 W/ActivityManager(  512): No content provider found for permission revoke: file:///data/local/tmp/EnergyMeasurementGPS.apk
+01-09 14:14:33.343 I/PackageManager(  512): Copying native libraries to /data/app-lib/vmdl2009454478
+01-09 14:14:33.363 D/Finsky  ( 4841): [1] PackageVerificationReceiver.checkPrerequisites: Skipping verification because network inactive
+01-09 14:14:33.393 I/ActivityManager(  512): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps appid=10069 user=-1
+01-09 14:14:33.513 I/PackageManager(  512): Running dexopt on: uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps
+01-09 14:14:33.513 I/PackageManager(  512): Package uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps codePath changed from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps-1.apk; Retaining data and using new
+01-09 14:14:33.773 D/dalvikvm( 5913): DexOpt: load 43ms, verify+opt 164ms, 961868 bytes
+01-09 14:14:33.833 W/PackageManager(  512): Code path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps-1.apk
+01-09 14:14:33.833 I/ActivityManager(  512): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps appid=10069 user=-1
+01-09 14:14:33.833 W/PackageManager(  512): Resource path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps-1.apk
+01-09 14:14:33.984 W/PackageManager(  512): Invalid verification token 5 received
+01-09 14:14:33.984 I/ActivityManager(  512): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps appid=10069 user=0
+01-09 14:14:34.024 D/dalvikvm(  585): GC_EXPLICIT freed 1705K, 71% free 15437K/52380K, paused 2ms+6ms, total 31ms
+01-09 14:14:34.054 D/dalvikvm(  512): GC_EXPLICIT freed 943K, 26% free 16673K/22324K, paused 2ms+6ms, total 65ms
+01-09 14:14:34.064 D/dalvikvm(  766): GC_EXPLICIT freed 2857K, 16% free 29492K/34832K, paused 2ms+7ms, total 38ms
+01-09 14:14:34.094 I/InputReader(  512): Reconfiguring input devices.  changes=0x00000010
+01-09 14:14:34.104 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps flg=0x8000010 (has extras) }: user 10 is stopped
+01-09 14:14:34.114 D/dalvikvm( 4874): GC_EXPLICIT freed 335K, 5% free 9194K/9580K, paused 1ms+3ms, total 53ms
+01-09 14:14:34.124 I/InputReader(  512): Reconfiguring input devices.  changes=0x00000010
+01-09 14:14:34.124 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps flg=0x8000010 (has extras) }: user 10 is stopped
+01-09 14:14:34.154 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps flg=0x8000010 (has extras) }: user 10 is stopped
+01-09 14:14:34.154 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.MY_PACKAGE_REPLACED flg=0x8000010 pkg=uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps (has extras) }: user 10 is stopped
+01-09 14:14:34.154 W/ContextImpl( 4899): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1385 android.content.ContextWrapper.startService:473 android.content.ContextWrapper.startService:473 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2424 
+01-09 14:14:34.164 D/dalvikvm(  753): GC_CONCURRENT freed 357K, 5% free 9295K/9688K, paused 2ms+2ms, total 15ms
+01-09 14:14:34.164 D/dalvikvm(  753): WAIT_FOR_CONCURRENT_GC blocked 6ms
+01-09 14:14:34.204 D/BackupManagerService(  512): Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps flg=0x8000010 (has extras) }
+01-09 14:14:34.214 D/BackupManagerService(  512): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps flg=0x8000010 (has extras) }
+01-09 14:14:34.214 V/BackupManagerService(  512): removePackageParticipantsLocked: uid=10069 #1
+01-09 14:14:34.214 V/BackupManagerService(  512): addPackageParticipantsLocked: #1
+01-09 14:14:34.234 D/dalvikvm(  512): GC_EXPLICIT freed 323K, 26% free 16715K/22324K, paused 4ms+7ms, total 81ms
+01-09 14:14:34.244 D/AndroidRuntime( 5898): Shutting down VM
+01-09 14:14:34.244 D/jdwp    ( 5898): Got wake-up signal, bailing out of select
+01-09 14:14:34.244 D/dalvikvm( 5898): Debugger has detached; object registry had 1 entries
+01-09 14:14:34.534 D/dalvikvm( 4955): GC_CONCURRENT freed 324K, 4% free 9342K/9704K, paused 1ms+1ms, total 16ms
+01-09 14:14:34.594 D/dalvikvm(  704): GC_FOR_ALLOC freed 331K, 6% free 10283K/10932K, paused 28ms, total 28ms
+01-09 14:14:34.594 I/dalvikvm-heap(  704): Grow heap (frag case) to 10.080MB for 8208-byte allocation
+01-09 14:14:34.614 D/dalvikvm(  704): GC_FOR_ALLOC freed <1K, 6% free 10290K/10944K, paused 19ms, total 19ms
+01-09 14:14:34.634 I/GCoreUlr(  704): Ensuring that reporting is stopped because of reasons: (no Google accounts)
+01-09 14:14:34.634 D/GCoreFlp(  704): Unknown pending intent to remove.
+01-09 14:14:34.634 I/GCoreUlr(  704): Unbound from all location providers
+01-09 14:14:34.654 D/dalvikvm(  704): GC_FOR_ALLOC freed 81K, 7% free 10236K/10944K, paused 20ms, total 20ms
+01-09 14:14:34.774 D/AndroidRuntime( 5939): 
+01-09 14:14:34.774 D/AndroidRuntime( 5939): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-09 14:14:34.774 D/AndroidRuntime( 5939): CheckJNI is OFF
+01-09 14:14:34.784 D/dalvikvm( 5939): Trying to load lib libjavacore.so 0x0
+01-09 14:14:34.794 D/dalvikvm( 5939): Added shared lib libjavacore.so 0x0
+01-09 14:14:34.794 D/dalvikvm( 5939): Trying to load lib libnativehelper.so 0x0
+01-09 14:14:34.794 D/dalvikvm( 5939): Added shared lib libnativehelper.so 0x0
+01-09 14:14:34.914 D/AndroidRuntime( 5939): Calling main entry com.android.commands.am.Am
+01-09 14:14:34.924 D/dalvikvm( 5939): Note: class Landroid/app/ActivityManagerNative; has 163 unimplemented (abstract) methods
+01-09 14:14:34.924 I/ActivityManager(  512): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps/.MainActivity} from pid 5939
+01-09 14:14:35.015 D/dalvikvm(  512): GC_FOR_ALLOC freed 1554K, 25% free 16837K/22324K, paused 63ms, total 63ms
+01-09 14:14:35.025 D/AndroidRuntime( 5939): Shutting down VM
+01-09 14:14:35.025 D/jdwp    ( 5939): Got wake-up signal, bailing out of select
+01-09 14:14:35.025 D/dalvikvm( 5939): Debugger has detached; object registry had 1 entries
+01-09 14:14:35.035 D/dalvikvm( 5960): Late-enabling CheckJNI
+01-09 14:14:35.035 I/ActivityManager(  512): Start proc uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps for activity uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps/.MainActivity: pid=5960 uid=10069 gids={50069, 1028}
+01-09 14:14:35.085 I/System.out( 5960): GPS Location listener is registered
+01-09 14:14:35.145 D/libEGL  ( 5960): loaded /system/lib/egl/libEGL_adreno200.so
+01-09 14:14:35.145 D/libEGL  ( 5960): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+01-09 14:14:35.145 D/libEGL  ( 5960): loaded /system/lib/egl/libGLESv2_adreno200.so
+01-09 14:14:35.155 I/Adreno200-EGL( 5960): <qeglDrvAPI_eglInitialize:265>: EGL 1.4 QUALCOMM Build: Iabe52cfaeae4c5fab1acacfe6f056ba15fa93274
+01-09 14:14:35.185 D/OpenGLRenderer( 5960): Enabling debug mode 0
+01-09 14:14:35.245 I/ActivityManager(  512): Displayed uk.ac.st_andrews.cs.host.mk74.energymeasurement.gps/.MainActivity: +219ms
+01-09 14:14:35.335 I/rmt_storage(  185): rmt_storage_rw_iovec_cb: /boot/modem_fs2: clnt_h=0x2: req_h=0xa msg_id=3: R/W request received
+01-09 14:14:35.335 I/rmt_storage(  185): wakelock acquired: 1, error no: 110
+01-09 14:14:35.335 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 Unblock worker thread (th_id: -1221335744)
+01-09 14:14:35.345 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0xa msg_id=3: Bytes written = 261632
+01-09 14:14:35.345 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0xa msg_id=3: Bytes written = 512
+01-09 14:14:35.345 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0xa msg_id=3: Send response: res=0 err=0
+01-09 14:14:35.345 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 About to block rmt_storage client thread (th_id: -1221335744) wakelock released: 1, error no: 0
+01-09 14:14:35.345 I/rmt_storage(  185): 
+01-09 14:14:35.595 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:14:35.595 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:14:35.615 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:14:35.615 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:14:35.645 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:14:35.645 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:14:35.665 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:14:35.665 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:14:35.675 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:14:35.675 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:14:35.695 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:14:35.695 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:14:36.086 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:37.077 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:38.088 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:38.098 D/dalvikvm( 5960): Debugger has detached; object registry had 1 entries
+01-09 14:14:38.478 D/PicasaSyncManager( 4488): battery info: false
+01-09 14:14:38.488 D/PicasaUploaderSyncManager( 4521): battery info: false
+01-09 14:14:39.089 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:40.090 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:41.080 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:42.081 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:43.082 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:44.083 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:45.094 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:46.085 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:47.086 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:48.087 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:49.088 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:49.539 D/dalvikvm( 4841): GC_CONCURRENT freed 471K, 6% free 9152K/9664K, paused 3ms+4ms, total 38ms
+01-09 14:14:49.639 D/dalvikvm( 4841): GC_CONCURRENT freed 112K, 3% free 9426K/9664K, paused 2ms+8ms, total 26ms
+01-09 14:14:49.649 D/Finsky  ( 4841): [1] 5.onFinished: Installation state replication succeeded.
+01-09 14:14:50.089 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:51.090 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:52.091 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:53.092 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:54.093 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:55.094 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:56.095 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:57.086 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:58.097 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:14:59.088 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:00.089 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:01.090 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:01.320 V/DigitalWidgetViewsFactory( 4127): DigitalWidget sets next alarm string to null
+01-09 14:15:02.101 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:03.102 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:04.103 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:05.104 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:06.105 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:07.106 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:08.107 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:09.108 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:10.109 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:11.110 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:12.111 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:13.122 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:14.123 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:15.124 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:16.125 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:17.126 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:18.127 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:19.128 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:20.129 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:21.130 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:22.141 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:23.132 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:24.132 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:25.143 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:26.144 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:27.145 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:28.146 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:29.147 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:30.148 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:31.149 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:32.150 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:33.161 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:34.162 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:35.163 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:36.164 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:37.165 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:38.166 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:39.167 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:40.168 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:41.169 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:42.170 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:43.171 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:44.172 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:45.173 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:46.174 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:47.165 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:48.176 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:49.167 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:50.178 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:51.179 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:52.180 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:53.181 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:54.182 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:55.183 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:56.184 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:57.195 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:58.186 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:15:59.187 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:00.188 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:01.189 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:02.190 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:03.191 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:04.192 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:05.193 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:05.623 I/rmt_storage(  185): rmt_storage_rw_iovec_cb: /boot/modem_fs1: clnt_h=0x1: req_h=0xb msg_id=3: R/W request received
+01-09 14:16:05.623 I/rmt_storage(  185): wakelock acquired: 1, error no: 110
+01-09 14:16:05.633 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1 Unblock worker thread (th_id: -1221336592)
+01-09 14:16:05.653 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1: req_h=0xb msg_id=3: Bytes written = 261632
+01-09 14:16:05.663 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1: req_h=0xb msg_id=3: Bytes written = 512
+01-09 14:16:05.663 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1: req_h=0xb msg_id=3: Send response: res=0 err=0
+01-09 14:16:05.663 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1 About to block rmt_storage client thread (th_id: -1221336592) wakelock released: 1, error no: 0
+01-09 14:16:05.663 I/rmt_storage(  185): 
+01-09 14:16:06.194 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:07.195 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:08.185 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:09.186 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:10.197 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:10.217 D/dalvikvm( 5960): GC_CONCURRENT freed 224K, 3% free 9027K/9288K, paused 2ms+2ms, total 27ms
+01-09 14:16:11.188 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:12.189 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:13.190 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:14.191 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:15.192 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:16.193 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:17.194 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:18.195 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:19.186 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:20.197 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:21.188 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:22.199 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:23.200 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:24.201 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:25.202 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:26.203 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:27.204 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:28.205 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:29.206 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:30.207 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:31.208 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:32.209 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:33.210 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:34.211 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:35.212 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:36.213 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:37.214 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:38.215 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:39.216 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:40.217 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:41.218 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:42.219 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:43.220 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:44.221 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:45.222 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:46.223 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:47.224 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:48.225 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:49.226 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:50.226 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:51.227 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:52.228 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:53.239 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:54.240 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:55.241 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:56.242 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:57.243 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:58.244 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:16:59.255 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:00.246 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:01.247 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:02.258 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:03.249 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:04.260 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:05.261 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:06.262 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:07.263 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:08.264 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:09.265 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:10.256 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:11.267 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:12.268 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:13.269 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:14.270 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:15.271 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:16.272 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:17.273 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:18.274 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:19.265 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:20.266 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:21.267 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:22.268 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:23.269 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:24.270 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:25.271 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:26.272 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:27.273 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:28.274 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:29.275 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:30.286 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:31.277 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:32.278 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:33.289 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:34.289 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:35.290 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:36.291 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:37.292 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:38.293 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:39.294 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:40.295 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:41.306 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:42.307 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:43.308 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:44.309 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:45.310 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:46.311 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:47.312 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:48.313 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:49.314 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:50.315 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:51.316 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:52.317 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:53.318 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:54.319 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:55.320 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:56.321 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:57.322 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:58.323 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:17:59.064 D/dalvikvm(  704): GC_CONCURRENT freed 390K, 7% free 10229K/10944K, paused 4ms+2ms, total 45ms
+01-09 14:17:59.324 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:00.325 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:01.326 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:02.327 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:03.318 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:04.329 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:05.330 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:06.331 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:07.342 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:08.343 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:09.334 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:10.335 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:11.336 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:12.347 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:13.338 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:14.349 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:15.340 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:16.351 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:17.351 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:18.352 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:19.353 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:20.354 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:21.355 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:22.356 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:23.347 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:24.348 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:25.349 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:26.350 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:27.351 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:28.352 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:29.353 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:30.364 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:31.365 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:32.356 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:33.357 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:34.358 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:35.359 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:36.360 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:37.361 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:38.362 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:39.363 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:40.364 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:41.365 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:41.365 I/System.out( 5960): Battery level start is reached
+01-09 14:18:42.366 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:43.357 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:44.358 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:45.359 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:46.360 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:47.361 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:48.362 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:49.373 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:50.374 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:51.375 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:52.376 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:53.377 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:54.378 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:55.379 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:56.380 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:57.381 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:58.382 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:18:59.382 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:00.383 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:01.384 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:02.385 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:03.386 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:04.387 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:05.388 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:06.389 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:07.390 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:08.391 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:09.392 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:10.393 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:11.394 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:12.395 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:13.396 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:14.397 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:15.398 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:16.399 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:17.400 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:18.401 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:19.402 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:20.403 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:21.414 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:22.415 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:23.416 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:24.407 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:25.408 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:26.409 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:27.420 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:28.421 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:29.422 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:30.423 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:31.424 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:32.425 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:33.426 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:34.427 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:35.428 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:35.488 D/dalvikvm( 5960): GC_CONCURRENT freed 386K, 5% free 9027K/9452K, paused 5ms+1ms, total 47ms
+01-09 14:19:36.429 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:37.430 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:38.431 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:39.432 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:40.433 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:41.434 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:42.424 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:43.425 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:44.426 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:45.427 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:46.428 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:47.429 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:48.430 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:49.431 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:50.432 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:51.433 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:52.434 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:53.435 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:54.436 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:55.427 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:56.428 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:57.429 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:58.440 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:19:59.441 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:00.442 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:01.443 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:02.444 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:03.445 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:04.446 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:05.447 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:06.448 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:07.459 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:08.450 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:09.451 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:10.462 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:11.463 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:12.464 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:13.465 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:14.466 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:15.467 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:16.468 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:17.469 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:18.470 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:19.471 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:20.472 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:21.483 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:22.484 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:23.485 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:24.486 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:25.486 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:26.487 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:27.488 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:28.489 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:29.490 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:30.491 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:31.492 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:32.493 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:33.494 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:34.495 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:35.496 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:36.497 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:37.498 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:38.499 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:39.500 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:40.501 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:41.502 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:42.503 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:43.504 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:44.495 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:45.506 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:46.497 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:47.508 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:48.509 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:49.510 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:50.511 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:51.512 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:52.513 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:53.514 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:54.515 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:55.506 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:56.507 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:57.508 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:58.509 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:59.510 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:20:59.990 I/ActivityManager(  512): No longer want com.google.android.gsf.login (pid 5063): empty for 1851s
+01-09 14:21:00.511 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:01.512 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:02.513 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:03.514 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:04.515 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:05.516 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:06.517 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:07.507 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:08.508 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:09.509 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:10.510 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:11.521 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:12.522 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:13.523 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:14.524 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:15.525 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:16.526 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:17.527 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:18.538 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:19.529 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:20.530 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:21.531 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:22.542 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:23.543 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:24.544 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:25.545 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:26.546 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:27.547 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:28.548 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:29.549 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:30.550 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:31.551 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:32.552 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:33.553 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:34.554 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:35.555 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:36.556 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:37.557 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:38.558 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:39.559 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:40.560 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:41.561 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:42.562 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:43.563 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:44.564 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:45.565 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:46.566 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:47.567 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:48.568 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:49.569 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:50.570 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:51.570 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:52.571 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:53.572 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:54.583 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:55.574 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:56.585 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:57.586 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:58.577 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:21:59.578 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:00.589 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:01.580 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:02.581 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:03.082 D/dalvikvm(  704): GC_CONCURRENT freed 401K, 7% free 10212K/10912K, paused 5ms+2ms, total 61ms
+01-09 14:22:03.582 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:04.583 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:05.584 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:06.575 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:07.576 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:08.577 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:09.578 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:10.579 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:11.580 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:12.591 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:13.592 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:14.593 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:15.594 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:16.595 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:17.596 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:18.587 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:19.588 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:20.589 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:21.590 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:22.591 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:23.602 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:24.603 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:25.604 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:26.605 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:27.606 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:28.607 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:29.618 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:30.619 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:31.610 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:32.611 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:33.622 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:34.622 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:35.623 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:36.624 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:37.625 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:38.626 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:39.617 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:40.618 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:41.629 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:42.630 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:43.631 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:44.632 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:45.633 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:46.634 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:47.635 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:48.636 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:49.637 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:50.638 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:51.639 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:51.759 D/dalvikvm(  512): GC_CONCURRENT freed 1914K, 25% free 16793K/22324K, paused 7ms+6ms, total 117ms
+01-09 14:22:52.640 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:53.641 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:54.652 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:55.643 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:56.654 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:57.655 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:58.656 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:22:59.657 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:00.658 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:01.659 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:01.719 D/dalvikvm( 5960): GC_CONCURRENT freed 388K, 5% free 9025K/9452K, paused 8ms+2ms, total 58ms
+01-09 14:23:02.660 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:03.661 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:04.662 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:05.663 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:06.664 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:07.665 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:08.666 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:09.657 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:10.668 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:11.669 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:12.670 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:13.671 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:14.672 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:15.673 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:16.674 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:17.674 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:18.675 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:19.676 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:20.677 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:21.678 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:22.689 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:23.680 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:24.681 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:25.682 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:26.683 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:27.684 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:28.685 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:29.686 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:30.687 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:31.688 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:32.689 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:33.690 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:34.691 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:35.692 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:36.693 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:37.694 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:38.695 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:39.686 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:40.687 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:41.688 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:42.689 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:43.700 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:44.691 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:45.692 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:46.693 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:47.694 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:48.695 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:49.706 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:50.697 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:51.698 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:52.699 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:53.700 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:54.701 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:55.702 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:56.703 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:57.714 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:58.705 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:23:59.705 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:00.706 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:01.717 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:02.708 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:03.709 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:04.710 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:05.711 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:06.712 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:07.713 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:08.724 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:09.725 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:10.716 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:11.717 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:12.718 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:13.729 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:14.720 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:15.731 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:16.732 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:17.733 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:18.734 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:19.735 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:20.736 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:21.737 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:22.748 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:23.739 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:24.750 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:25.751 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:26.752 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:27.753 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:28.754 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:29.755 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:30.756 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:31.757 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:32.748 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:33.759 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:34.760 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:35.761 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:36.762 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:37.773 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:38.774 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:39.775 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:40.776 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:41.767 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:42.778 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:43.768 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:44.769 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:45.780 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:46.781 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:47.782 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:48.783 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:49.794 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:50.785 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:51.786 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:52.797 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:53.788 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:54.789 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:55.790 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:56.791 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:57.792 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:58.803 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:24:59.794 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:00.795 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:01.796 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:02.797 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:03.798 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:04.799 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:05.800 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:06.801 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:07.802 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:08.803 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:09.804 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:10.795 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:11.796 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:12.797 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:13.798 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:14.799 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:15.800 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:16.801 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:17.802 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:18.803 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:19.463 I/EventLogService(  781): Aggregate from 1389275719324 (log), 1389275719324 (data)
+01-09 14:25:19.513 I/ServiceDumpSys(  781): dumping service [account]
+01-09 14:25:19.804 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:20.805 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:21.796 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:22.797 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:23.798 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:24.799 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:25.799 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:26.800 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:27.811 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:28.812 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:29.813 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:30.814 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:31.815 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:32.816 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:33.807 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:34.808 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:35.809 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:36.810 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:37.811 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:38.812 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:39.813 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:40.814 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:41.805 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:42.816 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:43.807 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:44.808 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:45.809 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:46.810 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:47.811 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:48.812 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:49.813 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:50.814 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:51.815 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:52.816 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:53.817 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:54.818 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:55.819 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:56.820 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:57.821 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:58.822 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:25:59.823 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:00.824 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:01.825 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:02.826 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:03.837 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:04.828 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:05.829 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:06.069 D/dalvikvm(  704): GC_CONCURRENT freed 395K, 7% free 10200K/10912K, paused 5ms+2ms, total 58ms
+01-09 14:26:06.830 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:07.830 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:08.831 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:09.832 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:10.833 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:11.834 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:12.835 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:13.836 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:14.837 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:15.838 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:16.839 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:17.840 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:18.841 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:19.842 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:20.843 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:21.844 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:22.845 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:23.846 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:24.837 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:25.848 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:26.849 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:27.850 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:28.851 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:28.911 D/dalvikvm( 5960): GC_CONCURRENT freed 388K, 5% free 9025K/9452K, paused 5ms+1ms, total 47ms
+01-09 14:26:29.852 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:30.853 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:31.854 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:32.845 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:33.846 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:34.847 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:35.848 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:36.849 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:37.850 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:38.851 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:39.852 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:40.853 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:41.854 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:42.855 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:43.856 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:44.857 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:45.848 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:46.849 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:47.850 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:48.861 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:49.861 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:50.862 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:51.863 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:52.864 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:53.865 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:54.866 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:55.867 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:56.868 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:57.869 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:58.870 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:26:59.871 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:00.872 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:01.883 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:02.884 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:03.875 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:04.886 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:05.887 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:06.878 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:07.879 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:08.890 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:09.881 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:10.892 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:11.893 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:12.894 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:13.895 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:14.896 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:15.897 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:16.898 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:17.899 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:18.900 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:19.901 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:20.902 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:21.903 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:22.904 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:23.905 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:24.906 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:25.907 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:26.908 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:27.909 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:28.910 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:29.911 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:30.912 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:31.913 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:32.914 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:33.924 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:34.925 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:35.916 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:36.927 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:37.928 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:38.919 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:39.920 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:40.921 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:41.932 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:42.933 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:42.933 I/System.out( 5960): Battery level end is reached
+01-09 14:27:42.933 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:27:43.934 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:43.934 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:27:44.935 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:44.935 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:27:45.936 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:45.936 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:27:46.927 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:46.927 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:27:47.928 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:47.928 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:27:48.939 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:48.939 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:27:49.930 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:49.940 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:27:50.931 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:50.941 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:27:51.932 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:51.942 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:27:52.943 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:52.943 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:27:53.944 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:53.944 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:27:54.945 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:54.945 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:27:55.936 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:55.936 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:27:56.937 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:56.947 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:27:57.938 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:57.948 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:27:58.949 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:58.949 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:27:59.950 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:27:59.950 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:00.951 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:00.951 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:01.571 I/EntropyMixer(  512): Writing entropy...
+01-09 14:28:01.581 W/PowerUI (  585): unknown intent: Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x8000010 }
+01-09 14:28:01.591 D/PicasaSyncManager( 4488): battery info: true
+01-09 14:28:01.601 D/PicasaUploaderSyncManager( 4521): battery info: true
+01-09 14:28:01.952 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:01.952 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:02.632 D/MtpService( 4504): updating state; isCurrentUser=true, mMtpLocked=false
+01-09 14:28:02.632 D/MtpService( 4504): addStorageLocked 65537 /storage/emulated/0
+01-09 14:28:02.643 D/MtpService( 4504): updating state; isCurrentUser=true, mMtpLocked=false
+01-09 14:28:02.643 D/MtpService( 4504): starting MTP server in MTP mode
+01-09 14:28:02.643 D/MtpService( 4504): addStorageLocked 65537 /storage/emulated/0
+01-09 14:28:02.953 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:02.953 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:03.954 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:03.954 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:04.955 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:04.955 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:05.946 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:05.946 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:06.046 D/dalvikvm(  512): GC_EXPLICIT freed 1102K, 24% free 16672K/21772K, paused 2ms+5ms, total 64ms
+01-09 14:28:06.076 D/dalvikvm( 4504): GC_CONCURRENT freed 386K, 5% free 9234K/9656K, paused 2ms+3ms, total 17ms
+01-09 14:28:06.957 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:06.957 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:07.958 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:07.958 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:08.949 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:08.949 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:09.960 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:09.960 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:10.961 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:10.961 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:11.952 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:11.962 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:12.953 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:12.963 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:13.954 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:13.964 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:14.955 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:14.965 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:15.945 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:15.955 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:16.956 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:16.956 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:17.957 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:17.957 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:18.948 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:18.958 I/System.out( 5960): Time difference in secs is: 541
+01-09 14:28:19.959 I/System.out( 5960): Values: 0.0 0.0
+01-09 14:28:19.959 I/System.out( 5960): Time difference in secs is: 541

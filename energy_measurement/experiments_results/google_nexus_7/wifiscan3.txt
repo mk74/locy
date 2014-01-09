@@ -1,0 +1,1491 @@
+--------- beginning of /dev/log/system
+01-09 13:49:32.469 I/PowerManagerService(  512): Waking up from sleep...
+--------- beginning of /dev/log/main
+01-09 13:49:32.499 D/audio_hw_primary(  180): adev_set_parameters: enter: screen_state=on
+01-09 13:49:32.499 D/audio_hw_primary(  180): adev_set_parameters: exit with code(-2)
+01-09 13:49:32.509 I/WindowManager(  512): Lock screen displayed!
+01-09 13:49:32.549 D/SurfaceFlinger(  177): Screen acquired, type=0 flinger=0xb736d478
+01-09 13:49:32.789 D/SurfaceControl(  512): Excessive delay in unblankDisplay() while turning screen on: 241ms
+01-09 13:49:32.829 V/DigitalWidgetViewsFactory( 4127): DigitalWidget sets next alarm string to null
+01-09 13:49:32.839 D/YouTube MDX( 4575): Recieved intent android.intent.action.SCREEN_ON
+01-09 13:49:34.310 D/audio_hw_primary(  180): start_output_stream: enter: usecase(1: low-latency-playback) devices(0x2)
+01-09 13:49:34.310 D/audio_hw_primary(  180): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+01-09 13:49:34.310 D/audio_hw_primary(  180): enable_snd_device: sending audio calibration for snd_device(2) acdb_id(14)
+01-09 13:49:34.310 D/ACDB-LOADER(  180): ACDB -> send_afe_cal
+01-09 13:49:34.310 D/audio_hw_primary(  180): enable_snd_device: snd_device(2: speaker)
+01-09 13:49:34.310 D/audio_hw_primary(  180): enable_audio_route: apply mixer path: low-latency-playback
+01-09 13:49:34.310 D/PhoneStatusBar(  585): disable: < expand icons alerts ticker system_info BACK HOME recent* CLOCK search >
+01-09 13:49:34.320 D/audio_hw_primary(  180): start_output_stream: exit
+01-09 13:49:34.351 D/PhoneStatusBar(  585): disable: < expand icons alerts ticker system_info back* home* recent clock* search >
+01-09 13:49:34.351 W/InputMethodManagerService(  512): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@425ec348 attribute=android.view.inputmethod.EditorInfo@42881870, token = android.os.BinderProxy@428f7f38
+01-09 13:49:34.821 V/TAG     (  512): bug 7643792: fitSystemWindows([0,50][0,0])
+01-09 13:49:37.544 D/audio_hw_primary(  180): out_standby: enter: usecase(1: low-latency-playback)
+01-09 13:49:37.594 D/audio_hw_primary(  180): stop_output_stream: enter: usecase(1: low-latency-playback)
+01-09 13:49:37.594 D/audio_hw_primary(  180): disable_audio_route: reset mixer path: low-latency-playback
+01-09 13:49:37.594 D/audio_hw_primary(  180): disable_snd_device: snd_device(2: speaker)
+01-09 13:49:37.604 D/audio_hw_primary(  180): stop_output_stream: exit: status(0)
+01-09 13:49:37.604 D/audio_hw_primary(  180): out_standby: exit
+01-09 13:49:38.074 D/audio_hw_primary(  180): start_output_stream: enter: usecase(1: low-latency-playback) devices(0x2)
+01-09 13:49:38.074 D/audio_hw_primary(  180): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+01-09 13:49:38.074 D/audio_hw_primary(  180): enable_snd_device: sending audio calibration for snd_device(2) acdb_id(14)
+01-09 13:49:38.074 D/ACDB-LOADER(  180): ACDB -> send_afe_cal
+01-09 13:49:38.074 D/audio_hw_primary(  180): enable_snd_device: snd_device(2: speaker)
+01-09 13:49:38.074 D/audio_hw_primary(  180): enable_audio_route: apply mixer path: low-latency-playback
+01-09 13:49:38.084 D/audio_hw_primary(  180): start_output_stream: exit
+01-09 13:49:38.134 I/dalvikvm(  766): Jit: resizing JitTable from 4096 to 8192
+01-09 13:49:38.835 D/dalvikvm(  766): GC_FOR_ALLOC freed 2089K, 38% free 21704K/34876K, paused 27ms, total 27ms
+01-09 13:49:38.955 D/dalvikvm(  766): GC_CONCURRENT freed 468K, 27% free 25511K/34876K, paused 2ms+4ms, total 28ms
+01-09 13:49:38.955 D/dalvikvm(  766): WAIT_FOR_CONCURRENT_GC blocked 26ms
+01-09 13:49:38.955 D/dalvikvm(  766): WAIT_FOR_CONCURRENT_GC blocked 19ms
+01-09 13:49:41.237 D/audio_hw_primary(  180): out_standby: enter: usecase(1: low-latency-playback)
+01-09 13:49:41.287 D/audio_hw_primary(  180): stop_output_stream: enter: usecase(1: low-latency-playback)
+01-09 13:49:41.287 D/audio_hw_primary(  180): disable_audio_route: reset mixer path: low-latency-playback
+01-09 13:49:41.287 D/audio_hw_primary(  180): disable_snd_device: snd_device(2: speaker)
+01-09 13:49:41.307 D/audio_hw_primary(  180): stop_output_stream: exit: status(0)
+01-09 13:49:41.307 D/audio_hw_primary(  180): out_standby: exit
+01-09 13:49:45.011 I/ActivityManager(  512): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings} from pid 766
+01-09 13:49:45.021 D/audio_hw_primary(  180): start_output_stream: enter: usecase(1: low-latency-playback) devices(0x2)
+01-09 13:49:45.021 D/audio_hw_primary(  180): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+01-09 13:49:45.021 D/audio_hw_primary(  180): enable_snd_device: sending audio calibration for snd_device(2) acdb_id(14)
+01-09 13:49:45.021 D/ACDB-LOADER(  180): ACDB -> send_afe_cal
+01-09 13:49:45.021 D/audio_hw_primary(  180): enable_snd_device: snd_device(2: speaker)
+01-09 13:49:45.031 D/audio_hw_primary(  180): enable_audio_route: apply mixer path: low-latency-playback
+01-09 13:49:45.041 D/audio_hw_primary(  180): start_output_stream: exit
+01-09 13:49:45.091 D/dalvikvm(  512): GC_FOR_ALLOC freed 1255K, 16% free 17534K/20760K, paused 80ms, total 80ms
+01-09 13:49:45.091 I/dalvikvm-heap(  512): Grow heap (frag case) to 17.702MB for 566416-byte allocation
+01-09 13:49:45.151 D/dalvikvm(  512): GC_FOR_ALLOC freed 3K, 16% free 18084K/21316K, paused 58ms, total 58ms
+01-09 13:49:45.181 I/ActivityManager(  512): Start proc com.android.settings for activity com.android.settings/.Settings: pid=4740 uid=1000 gids={41000, 1015, 1028, 3002, 3001, 3003, 3007}
+01-09 13:49:45.291 D/BluetoothManagerService(  512): Message: 20
+01-09 13:49:45.291 D/BluetoothManagerService(  512): Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@426206c0:true
+01-09 13:49:45.301 D/BluetoothAdapter( 4740): 1110297992: getState() :  mService = null. Returning STATE_OFF
+01-09 13:49:45.301 D/BluetoothManagerService(  512): Message: 30
+01-09 13:49:45.301 D/BluetoothManagerService(  512): Message: 30
+01-09 13:49:45.301 D/BluetoothPan( 4740): BluetoothPan() call bindService
+01-09 13:49:45.301 W/ContextImpl( 4740): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1439 android.content.ContextWrapper.bindService:496 android.bluetooth.BluetoothInputDevice.<init>:240 android.bluetooth.BluetoothAdapter.getProfileProxy:1168 com.android.settings.bluetooth.LocalBluetoothAdapter.getProfileProxy:94 
+01-09 13:49:45.311 D/dalvikvm( 4740): GC_CONCURRENT freed 165K, 3% free 9154K/9356K, paused 1ms+2ms, total 22ms
+01-09 13:49:45.311 D/BluetoothPan( 4740): BluetoothPan(), bindService called
+01-09 13:49:45.311 D/BluetoothManagerService(  512): Message: 30
+01-09 13:49:45.311 D/LocalBluetoothProfileManager( 4740): LocalBluetoothProfileManager construction complete
+01-09 13:49:45.311 W/ContextImpl( 4740): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1439 android.content.ContextWrapper.bindService:496 android.bluetooth.BluetoothPan.<init>:141 android.bluetooth.BluetoothAdapter.getProfileProxy:1171 com.android.settings.bluetooth.PanProfile.<init>:73 
+01-09 13:49:45.311 W/ContextImpl( 4740): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1439 android.content.ContextWrapper.bindService:496 android.bluetooth.BluetoothPbap.<init>:161 com.android.settings.bluetooth.PbapServerProfile.<init>:68 com.android.settings.bluetooth.LocalBluetoothProfileManager.<init>:124 
+01-09 13:49:45.321 D/BluetoothAdapter( 4740): 1110297992: getState() :  mService = null. Returning STATE_OFF
+01-09 13:49:45.321 D/BluetoothAdapter( 4740): 1110297992: getState() :  mService = null. Returning STATE_OFF
+01-09 13:49:45.351 D/libEGL  ( 4740): loaded /system/lib/egl/libEGL_adreno200.so
+01-09 13:49:45.351 D/libEGL  ( 4740): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+01-09 13:49:45.351 D/libEGL  ( 4740): loaded /system/lib/egl/libGLESv2_adreno200.so
+01-09 13:49:45.351 I/Adreno200-EGL( 4740): <qeglDrvAPI_eglInitialize:265>: EGL 1.4 QUALCOMM Build: Iabe52cfaeae4c5fab1acacfe6f056ba15fa93274
+01-09 13:49:45.391 D/OpenGLRenderer( 4740): Enabling debug mode 0
+01-09 13:49:45.411 D/BluetoothAdapter( 4740): 1110297992: getState() :  mService = null. Returning STATE_OFF
+01-09 13:49:45.481 D/dalvikvm( 4740): GC_CONCURRENT freed 72K, 2% free 9558K/9664K, paused 3ms+4ms, total 26ms
+01-09 13:49:45.581 I/ActivityManager(  512): Displayed com.android.settings/.Settings: +409ms
+01-09 13:49:46.733 D/WifiService(  512): setWifiEnabled: true pid=4740, uid=1000
+01-09 13:49:46.923 W/Netd    (  175): No subsystem found in netlink event
+01-09 13:49:46.923 D/NetlinkEvent(  175): Unexpected netlink message. type=0x11
+01-09 13:49:47.073 W/Netd    (  175): No subsystem found in netlink event
+01-09 13:49:47.073 D/NetlinkEvent(  175): Unexpected netlink message. type=0x11
+01-09 13:49:47.694 D/Tethering(  512): sendTetherStateChangedBroadcast 1, 0, 0
+01-09 13:49:47.704 D/Tethering(  512): InitialState.processMessage what=4
+01-09 13:49:47.704 D/Tethering(  512): sendTetherStateChangedBroadcast 0, 0, 0
+01-09 13:49:47.714 D/SoftapController(  175): Softap fwReload - Ok
+01-09 13:49:47.714 E/NetdConnector(  512): NDC Command {50 softap fwreload wlan0 STA} took too long (945ms)
+01-09 13:49:47.724 D/CommandListener(  175): Setting iface cfg
+01-09 13:49:47.724 D/CommandListener(  175): Trying to bring down wlan0
+01-09 13:49:47.754 D/BluetoothAdapter( 4740): 1110297992: getState() :  mService = null. Returning STATE_OFF
+01-09 13:49:47.764 I/wpa_supplicant( 4770): Successfully initialized wpa_supplicant
+01-09 13:49:47.764 I/wpa_supplicant( 4770): rfkill: Cannot open RFKILL control device
+01-09 13:49:47.914 D/dalvikvm(  512): GC_FOR_ALLOC freed 1743K, 23% free 16625K/21316K, paused 60ms, total 60ms
+01-09 13:49:47.974 D/dalvikvm(  512): GC_FOR_ALLOC freed 4K, 20% free 17175K/21316K, paused 57ms, total 57ms
+01-09 13:49:47.974 I/dalvikvm-heap(  512): Grow heap (frag case) to 17.352MB for 566416-byte allocation
+01-09 13:49:48.024 D/dalvikvm(  512): GC_FOR_ALLOC freed <1K, 19% free 17728K/21872K, paused 52ms, total 52ms
+01-09 13:49:48.074 D/dalvikvm(  512): GC_FOR_ALLOC freed 1112K, 25% free 16616K/21872K, paused 47ms, total 48ms
+01-09 13:49:48.084 I/wpa_supplicant( 4770): rfkill: Cannot open RFKILL control device
+01-09 13:49:48.104 W/InputMethodManagerService(  512): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@426c7240 (uid=1000 pid=4740)
+01-09 13:49:48.184 D/BluetoothAdapter( 4740): 1110297992: getState() :  mService = null. Returning STATE_OFF
+01-09 13:49:48.194 W/Settings( 2404): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+01-09 13:49:48.194 D/CommandListener(  175): Setting iface cfg
+01-09 13:49:48.194 D/CommandListener(  175): Trying to bring up p2p0
+01-09 13:49:48.224 I/dalvikvm(  704): Jit: resizing JitTable from 4096 to 8192
+01-09 13:49:48.224 D/dalvikvm(  704): GC_FOR_ALLOC freed 393K, 10% free 9969K/10972K, paused 28ms, total 28ms
+01-09 13:49:49.605 D/dalvikvm(  585): GC_FOR_ALLOC freed 926K, 73% free 14199K/52380K, paused 21ms, total 21ms
+01-09 13:49:49.635 I/ActivityManager(  512): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity} from pid 585
+01-09 13:49:49.736 D/dalvikvm(  512): GC_FOR_ALLOC freed 216K, 20% free 17634K/21872K, paused 80ms, total 80ms
+01-09 13:49:49.736 I/dalvikvm-heap(  512): Grow heap (frag case) to 17.799MB for 566416-byte allocation
+01-09 13:49:49.806 D/dalvikvm(  512): GC_FOR_ALLOC freed 7K, 19% free 18180K/22428K, paused 69ms, total 69ms
+01-09 13:49:49.876 D/dalvikvm(  512): GC_FOR_ALLOC freed 1111K, 24% free 17068K/22428K, paused 63ms, total 63ms
+01-09 13:49:49.986 I/ActivityManager(  512): Displayed com.android.systemui/.recent.RecentsActivity: +111ms
+01-09 13:49:50.016 W/IInputConnectionWrapper(  585): showStatusIcon on inactive InputConnection
+01-09 13:49:50.676 D/dalvikvm(  512): GC_FOR_ALLOC freed 1140K, 24% free 17081K/22428K, paused 49ms, total 49ms
+01-09 13:49:50.686 I/ActivityManager(  512): Killing 4740:com.android.settings/1000: remove task
+01-09 13:49:52.768 D/audio_hw_primary(  180): out_standby: enter: usecase(1: low-latency-playback)
+01-09 13:49:52.819 D/audio_hw_primary(  180): stop_output_stream: enter: usecase(1: low-latency-playback)
+01-09 13:49:52.819 D/audio_hw_primary(  180): disable_audio_route: reset mixer path: low-latency-playback
+01-09 13:49:52.819 D/audio_hw_primary(  180): disable_snd_device: snd_device(2: speaker)
+01-09 13:49:52.829 D/audio_hw_primary(  180): stop_output_stream: exit: status(0)
+01-09 13:49:52.829 D/audio_hw_primary(  180): out_standby: exit
+01-09 13:50:00.046 D/audio_hw_primary(  180): start_output_stream: enter: usecase(1: low-latency-playback) devices(0x2)
+01-09 13:50:00.046 D/audio_hw_primary(  180): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+01-09 13:50:00.046 D/audio_hw_primary(  180): enable_snd_device: sending audio calibration for snd_device(2) acdb_id(14)
+01-09 13:50:00.046 D/ACDB-LOADER(  180): ACDB -> send_afe_cal
+01-09 13:50:00.046 D/audio_hw_primary(  180): enable_snd_device: snd_device(2: speaker)
+01-09 13:50:00.056 D/audio_hw_primary(  180): enable_audio_route: apply mixer path: low-latency-playback
+01-09 13:50:00.066 D/audio_hw_primary(  180): start_output_stream: exit
+01-09 13:50:00.896 I/ActivityManager(  512): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity} from pid 585
+01-09 13:50:00.956 D/dalvikvm(  512): GC_FOR_ALLOC freed 1780K, 27% free 16521K/22428K, paused 49ms, total 50ms
+01-09 13:50:01.047 I/ActivityManager(  512): Displayed com.android.systemui/.recent.RecentsActivity: +76ms
+01-09 13:50:01.827 D/dalvikvm(  512): GC_FOR_ALLOC freed 2254K, 29% free 15959K/22428K, paused 48ms, total 49ms
+01-09 13:50:01.877 W/InputMethodManagerService(  512): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@425beee8 (uid=10054 pid=585)
+01-09 13:50:01.917 D/dalvikvm(  512): GC_CONCURRENT freed 1123K, 27% free 16508K/22428K, paused 3ms+5ms, total 84ms
+01-09 13:50:04.910 D/audio_hw_primary(  180): out_standby: enter: usecase(1: low-latency-playback)
+01-09 13:50:04.960 D/audio_hw_primary(  180): stop_output_stream: enter: usecase(1: low-latency-playback)
+01-09 13:50:04.960 D/audio_hw_primary(  180): disable_audio_route: reset mixer path: low-latency-playback
+01-09 13:50:04.960 D/audio_hw_primary(  180): disable_snd_device: snd_device(2: speaker)
+01-09 13:50:04.970 D/audio_hw_primary(  180): stop_output_stream: exit: status(0)
+01-09 13:50:04.970 D/audio_hw_primary(  180): out_standby: exit
+01-09 13:50:06.372 D/AndroidRuntime( 4814): 
+01-09 13:50:06.372 D/AndroidRuntime( 4814): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-09 13:50:06.372 D/AndroidRuntime( 4814): CheckJNI is OFF
+01-09 13:50:06.382 D/dalvikvm( 4814): Trying to load lib libjavacore.so 0x0
+01-09 13:50:06.382 D/dalvikvm( 4814): Added shared lib libjavacore.so 0x0
+01-09 13:50:06.392 D/dalvikvm( 4814): Trying to load lib libnativehelper.so 0x0
+01-09 13:50:06.392 D/dalvikvm( 4814): Added shared lib libnativehelper.so 0x0
+01-09 13:50:06.512 D/AndroidRuntime( 4814): Calling main entry com.android.commands.pm.Pm
+01-09 13:50:06.532 I/ActivityManager(  512): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=4828 uid=10013 gids={50013, 1015, 1023, 2001, 1028}
+01-09 13:50:06.562 W/ActivityManager(  512): No content provider found for permission revoke: file:///data/local/tmp/EnergyMeasurementWifi80211.apk
+01-09 13:50:06.572 I/ActivityManager(  512): Start proc com.android.vending for broadcast com.android.vending/com.google.android.vending.verifier.PackageVerificationReceiver: pid=4841 uid=10049 gids={50049, 3003, 1015, 1028}
+01-09 13:50:06.592 D/dalvikvm(  178): GC_EXPLICIT freed 40K, 1% free 8863K/8944K, paused 1ms+2ms, total 20ms
+01-09 13:50:06.612 D/dalvikvm(  178): GC_EXPLICIT freed <1K, 1% free 8863K/8944K, paused 1ms+1ms, total 17ms
+01-09 13:50:06.622 D/dalvikvm(  178): GC_EXPLICIT freed <1K, 1% free 8863K/8944K, paused 1ms+2ms, total 17ms
+01-09 13:50:06.652 D/Finsky  ( 4841): [1] FinskyApp.onCreate: Initializing network with DFE https://android.clients.google.com/fdfe/
+01-09 13:50:06.682 D/Finsky  ( 4841): [1] DailyHygiene.goMakeHygieneIfDirty: Dirty, need more hygiene.
+01-09 13:50:06.682 D/dalvikvm( 4841): GC_CONCURRENT freed 307K, 4% free 9037K/9384K, paused 2ms+2ms, total 20ms
+01-09 13:50:06.712 W/Settings( 4841): Setting download_manager_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+01-09 13:50:06.712 W/Settings( 4841): Setting download_manager_recommended_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+01-09 13:50:06.722 W/Finsky  ( 4841): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+01-09 13:50:06.722 W/Finsky  ( 4841): [1] FinskyApp.getDfeApi: No account configured on this device.
+01-09 13:50:06.722 D/Finsky  ( 4841): [1] PackageVerificationReceiver.checkPrerequisites: Skipping verification because network inactive
+01-09 13:50:06.732 D/Finsky  ( 4841): [1] PackageVerificationReceiver.checkPrerequisites: Skipping verification because network inactive
+01-09 13:50:06.732 W/ActivityManager(  512): No content provider found for permission revoke: file:///data/local/tmp/EnergyMeasurementWifi80211.apk
+01-09 13:50:06.742 I/PackageManager(  512): Copying native libraries to /data/app-lib/vmdl-2134367315
+01-09 13:50:06.742 W/PackageManager(  512): Invalid verification token 4 received
+01-09 13:50:06.752 D/Finsky  ( 4841): [1] GmsCoreHelper.cleanupNlp: result=false type=4
+01-09 13:50:06.782 I/ActivityManager(  512): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211 appid=10081 user=-1
+01-09 13:50:06.862 I/PackageManager(  512): Running dexopt on: uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211
+01-09 13:50:06.862 I/PackageManager(  512): Package uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211 codePath changed from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211-1.apk; Retaining data and using new
+01-09 13:50:07.153 D/dalvikvm( 4873): DexOpt: load 49ms, verify+opt 163ms, 958148 bytes
+01-09 13:50:07.203 W/PackageManager(  512): Code path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211 changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211-1.apk
+01-09 13:50:07.203 I/ActivityManager(  512): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211 appid=10081 user=-1
+01-09 13:50:07.203 W/PackageManager(  512): Resource path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211 changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211-1.apk
+01-09 13:50:07.333 I/ActivityManager(  512): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211 appid=10081 user=0
+01-09 13:50:07.373 D/dalvikvm(  585): GC_EXPLICIT freed 1618K, 74% free 13645K/52380K, paused 2ms+6ms, total 34ms
+01-09 13:50:07.403 D/dalvikvm(  766): GC_EXPLICIT freed 667K, 16% free 29372K/34832K, paused 1ms+4ms, total 31ms
+01-09 13:50:07.413 D/dalvikvm(  512): GC_EXPLICIT freed 1021K, 24% free 16563K/21772K, paused 2ms+7ms, total 69ms
+01-09 13:50:07.413 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211 flg=0x8000010 (has extras) }: user 10 is stopped
+01-09 13:50:07.423 I/InputReader(  512): Reconfiguring input devices.  changes=0x00000010
+01-09 13:50:07.433 I/ActivityManager(  512): Start proc android.process.acore for broadcast com.android.providers.contacts/.PackageIntentReceiver: pid=4874 uid=10000 gids={50000, 3003, 1015, 1028}
+01-09 13:50:07.443 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211 flg=0x8000010 (has extras) }: user 10 is stopped
+01-09 13:50:07.463 I/InputReader(  512): Reconfiguring input devices.  changes=0x00000010
+01-09 13:50:07.493 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211 flg=0x8000010 (has extras) }: user 10 is stopped
+01-09 13:50:07.493 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.MY_PACKAGE_REPLACED flg=0x8000010 pkg=uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211 (has extras) }: user 10 is stopped
+01-09 13:50:07.523 D/BackupManagerService(  512): Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211 flg=0x8000010 (has extras) }
+01-09 13:50:07.553 D/BackupManagerService(  512): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211 flg=0x8000010 (has extras) }
+01-09 13:50:07.563 V/BackupManagerService(  512): removePackageParticipantsLocked: uid=10081 #1
+01-09 13:50:07.563 V/BackupManagerService(  512): addPackageParticipantsLocked: #1
+01-09 13:50:07.573 D/dalvikvm( 4874): GC_CONCURRENT freed 206K, 3% free 9136K/9380K, paused 1ms+3ms, total 26ms
+01-09 13:50:07.583 D/dalvikvm(  512): GC_EXPLICIT freed 305K, 24% free 16661K/21772K, paused 3ms+7ms, total 86ms
+01-09 13:50:07.593 D/AndroidRuntime( 4814): Shutting down VM
+01-09 13:50:07.593 D/jdwp    ( 4814): Got wake-up signal, bailing out of select
+01-09 13:50:07.593 D/dalvikvm( 4814): Debugger has detached; object registry had 1 entries
+01-09 13:50:07.593 I/ActivityManager(  512): Start proc com.android.keychain for broadcast com.android.keychain/.KeyChainBroadcastReceiver: pid=4899 uid=1000 gids={41000, 1015, 1028, 3002, 3001, 3003, 3007}
+01-09 13:50:07.613 D/dalvikvm( 4488): GC_CONCURRENT freed 186K, 3% free 9216K/9440K, paused 1ms+1ms, total 16ms
+01-09 13:50:07.643 W/ContextImpl( 4899): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1385 android.content.ContextWrapper.startService:473 android.content.ContextWrapper.startService:473 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2424 
+01-09 13:50:07.683 I/ContactLocale( 4874): AddressBook Labels [en_US]: [, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, , А, Б, В, Г, Д, Е, Є, Ж, З, И, І, Ї, Й, К, Л, М, Н, О, П, Р, С, Т, У, Ф, Х, Ц, Ч, Ш, Щ, Ю, Я, , א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, , ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, , ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, , ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, , あ, か, さ, た, な, は, ま, や, ら, わ, #, ]
+01-09 13:50:07.773 I/ActivityManager(  512): Start proc com.android.musicfx for broadcast com.android.musicfx/.Compatibility$Receiver: pid=4913 uid=10042 gids={50042, 3003, 3002, 1028}
+01-09 13:50:07.833 I/ActivityManager(  512): Start proc com.google.android.gms for broadcast com.google.android.gms/.games.receiver.GamesSystemBroadcastReceiver: pid=4928 uid=10021 gids={50021, 3003, 1007, 1028, 1015, 1006, 2001, 3006}
+01-09 13:50:07.923 I/ActivityManager(  512): Start proc com.google.android.googlequicksearchbox for broadcast com.google.android.googlequicksearchbox/com.google.android.apps.sidekick.GmmLocationProviderImpl$GmmPackageWatcher: pid=4955 uid=10057 gids={50057, 3003, 1028, 3002, 1015}
+01-09 13:50:07.953 D/dalvikvm( 4928): GC_CONCURRENT freed 251K, 4% free 9005K/9296K, paused 4ms+5ms, total 32ms
+01-09 13:50:07.993 I/ActivityManager(  512): Start proc com.google.android.partnersetup for content provider com.google.android.partnersetup/.RlzAppProvider: pid=4987 uid=10026 gids={50026, 3003, 1028}
+01-09 13:50:08.033 D/dalvikvm( 4928): No JNI_OnLoad found in /system/lib/libAppDataSearch.so 0x42287af0, skipping init
+01-09 13:50:08.033 D/Icing   ( 4928): Init last flush num docs 53 last docstore size 14336
+01-09 13:50:08.033 D/Icing   ( 4928): Docid map file has data, scanning...
+01-09 13:50:08.043 D/Icing   ( 4928): Scanning /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.docids found 159 documents, last docstore location 43008
+01-09 13:50:08.043 D/Icing   ( 4928): File /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.perdocdata contains 159 records of size 6
+01-09 13:50:08.053 D/dalvikvm( 4955): GC_CONCURRENT freed 226K, 3% free 9130K/9396K, paused 3ms+12ms, total 33ms
+01-09 13:50:08.063 W/GAV2    ( 4955): Thread[main,5,main]: Need to call initialize() and be in fallback mode to start dispatch.
+01-09 13:50:08.063 D/Icing   ( 4928): Corpus scoring data inited successfully num corpora 1
+01-09 13:50:08.063 D/Icing   ( 4928): Init docstore ok num docs 159 bytes 43264
+01-09 13:50:08.073 V/Icing   ( 4928): Lite index crc computed in 0.092ms
+01-09 13:50:08.073 V/Icing   ( 4928): Lite index init ok in 1.526ms
+01-09 13:50:08.073 D/Icing   ( 4928): Lite index recovered docid (52, 158]
+01-09 13:50:08.073 V/Icing   ( 4928): Warming lite-index took 0.031ms
+01-09 13:50:08.073 V/Icing   ( 4928): Warming lexicon took 0.031ms
+01-09 13:50:08.073 V/Icing   ( 4928): Warming display mappings took 0.031ms
+01-09 13:50:08.073 D/Icing   ( 4928): Init index ok num docs 159
+01-09 13:50:08.073 D/Icing   ( 4928): Init done
+01-09 13:50:08.123 I/PeopleDatabaseHelper( 4928): cleanUpNonGplusAccounts done.
+01-09 13:50:08.133 D/dalvikvm( 4928): GC_CONCURRENT freed 290K, 4% free 9123K/9452K, paused 1ms+1ms, total 32ms
+01-09 13:50:08.143 D/AndroidRuntime( 4947): 
+01-09 13:50:08.143 D/AndroidRuntime( 4947): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-09 13:50:08.143 D/AndroidRuntime( 4947): CheckJNI is OFF
+01-09 13:50:08.153 I/Icing   ( 4928): 0 corpora need re-polling
+01-09 13:50:08.153 D/dalvikvm( 4947): Trying to load lib libjavacore.so 0x0
+01-09 13:50:08.153 D/dalvikvm( 4947): Added shared lib libjavacore.so 0x0
+01-09 13:50:08.164 D/dalvikvm( 4947): Trying to load lib libnativehelper.so 0x0
+01-09 13:50:08.164 D/dalvikvm( 4947): Added shared lib libnativehelper.so 0x0
+01-09 13:50:08.234 D/dalvikvm(  781): GC_EXPLICIT freed 401K, 7% free 9492K/10108K, paused 2ms+3ms, total 23ms
+01-09 13:50:08.264 W/GAV2    ( 4955): Thread[Thread-291,5,main]: dispatch call queued.  Need to call GAServiceManager.getInstance().initialize().
+01-09 13:50:08.264 I/Velvet.VelvetFactory( 4955): refreshing search history.
+01-09 13:50:08.264 D/dalvikvm(  704): GC_FOR_ALLOC freed 217K, 9% free 9990K/10972K, paused 22ms, total 22ms
+01-09 13:50:08.284 I/GCoreUlr(  704): Ensuring that reporting is stopped because of reasons: (no Google accounts)
+01-09 13:50:08.284 D/GCoreFlp(  704): Unknown pending intent to remove.
+01-09 13:50:08.284 I/GCoreUlr(  704): Unbound from all location providers
+01-09 13:50:08.284 I/Recovery( 4928): Received: Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.recovery.AccountRecoveryBackgroundService$Receiver }
+01-09 13:50:08.294 D/AndroidRuntime( 4947): Calling main entry com.android.commands.am.Am
+01-09 13:50:08.294 D/dalvikvm( 4947): Note: class Landroid/app/ActivityManagerNative; has 163 unimplemented (abstract) methods
+01-09 13:50:08.304 D/dalvikvm( 4955): GC_CONCURRENT freed 280K, 4% free 9266K/9584K, paused 3ms+4ms, total 38ms
+01-09 13:50:08.304 I/ActivityManager(  512): Start proc com.google.android.gsf.login for service com.google.android.gms/.recovery.AccountRecoveryBackgroundService: pid=5063 uid=10021 gids={50021, 3003, 1007, 1028, 1015, 1006, 2001, 3006}
+01-09 13:50:08.304 I/ActivityManager(  512): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211/.MainActivity} from pid 4947
+01-09 13:50:08.314 D/dalvikvm(  704): GC_FOR_ALLOC freed 88K, 10% free 9978K/10972K, paused 21ms, total 21ms
+01-09 13:50:08.324 W/Sidekick_LocationOracleImpl( 4955): Best location was null
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): Background task refresh_search_history failed
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): java.lang.NullPointerException
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:187)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.apps.sidekick.LocationOracleImpl.getBgHandler(LocationOracleImpl.java:280)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.apps.sidekick.LocationOracleImpl.requestRecentLocation(LocationOracleImpl.java:568)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.complete.AndroidProxySuggestionFetcher.fetch(AndroidProxySuggestionFetcher.java:82)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.complete.CompleteServerClient.query(CompleteServerClient.java:91)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.AbstractGoogleWebSource.doQueryInternal(AbstractGoogleWebSource.java:61)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.AbstractGoogleSource.getSuggestions(AbstractGoogleSource.java:65)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.WebSuggestSourceWrapper.getSuggestions(WebSuggestSourceWrapper.java:55)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.WebSuggestSourceWithLocalHistory.getSuggestions(WebSuggestSourceWithLocalHistory.java:111)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.WebSuggestSourceWrapper.getSuggestions(WebSuggestSourceWrapper.java:55)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.ZeroQueryCachingWebSuggestSource.getSuggestions(ZeroQueryCachingWebSuggestSource.java:105)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.WebSuggestSourceWrapper.getSuggestions(WebSuggestSourceWrapper.java:55)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.google.DeletedQueryRemovingSourceWrapper.getSuggestions(DeletedQueryRemovingSourceWrapper.java:48)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.velvet.VelvetFactory$1.call(VelvetFactory.java:559)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.velvet.VelvetFactory$1.call(VelvetFactory.java:555)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.util.NamingTaskExecutor$1.run(NamingTaskExecutor.java:50)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at java.lang.Thread.run(Thread.java:841)
+01-09 13:50:08.334 E/Velvet.VelvetBackgroundTasksImpl( 4955): 	at com.google.android.searchcommon.util.PriorityThreadFactory$1.run(PriorityThreadFactory.java:49)
+01-09 13:50:08.394 D/dalvikvm(  512): JIT code cache reset in 1 ms (1048504 bytes 2/0)
+01-09 13:50:08.404 D/dalvikvm(  512): GC_FOR_ALLOC freed 1701K, 24% free 16749K/21772K, paused 59ms, total 59ms
+01-09 13:50:08.404 D/AndroidRuntime( 4947): Shutting down VM
+01-09 13:50:08.404 D/jdwp    ( 4947): Got wake-up signal, bailing out of select
+01-09 13:50:08.404 D/dalvikvm( 4947): Debugger has detached; object registry had 1 entries
+01-09 13:50:08.434 D/dalvikvm( 5076): Late-enabling CheckJNI
+01-09 13:50:08.434 I/ActivityManager(  512): Start proc uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211 for activity uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211/.MainActivity: pid=5076 uid=10081 gids={50081, 1028}
+01-09 13:50:08.444 D/GCM     (  781): GcmService start Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.gcm.GcmService } com.google.android.gms.INITIALIZE
+01-09 13:50:08.484 D/WifiService(  512): setWifiEnabled: true pid=5076, uid=10081
+01-09 13:50:08.494 I/Recovery( 4928): Received: Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.recovery.AccountRecoveryBackgroundService$Receiver }
+01-09 13:50:08.504 D/GCM     (  781): GcmService start Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.gcm.GcmService } com.google.android.gms.INITIALIZE
+01-09 13:50:08.564 D/libEGL  ( 5076): loaded /system/lib/egl/libEGL_adreno200.so
+01-09 13:50:08.574 D/libEGL  ( 5076): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+01-09 13:50:08.574 D/libEGL  ( 5076): loaded /system/lib/egl/libGLESv2_adreno200.so
+01-09 13:50:08.574 I/Adreno200-EGL( 5076): <qeglDrvAPI_eglInitialize:265>: EGL 1.4 QUALCOMM Build: Iabe52cfaeae4c5fab1acacfe6f056ba15fa93274
+01-09 13:50:08.584 D/dalvikvm( 4874): GC_CONCURRENT freed 177K, 3% free 9363K/9580K, paused 1ms+1ms, total 18ms
+01-09 13:50:08.614 D/OpenGLRenderer( 5076): Enabling debug mode 0
+01-09 13:50:08.684 I/ActivityManager(  512): Displayed uk.ac.st_andrews.cs.host.mk74.energymeasurement.wifi80211/.MainActivity: +266ms
+01-09 13:50:09.505 I/System.out( 5076): 17
+01-09 13:50:09.555 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:50:09.555 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:50:09.605 D/dalvikvm( 4928): GC_CONCURRENT freed 295K, 4% free 9215K/9548K, paused 6ms+3ms, total 46ms
+01-09 13:50:09.615 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:50:09.615 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:50:09.635 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:50:09.635 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:50:09.645 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:50:09.645 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:50:09.665 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:50:09.665 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:50:09.705 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:50:09.705 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:50:10.496 I/System.out( 5076): 18
+01-09 13:50:11.517 I/System.out( 5076): 18
+01-09 13:50:12.508 I/System.out( 5076): 19
+01-09 13:50:12.818 D/dalvikvm(  704): GC_CONCURRENT freed 301K, 9% free 10081K/10972K, paused 3ms+3ms, total 41ms
+01-09 13:50:13.068 W/GAV2    ( 4955): Thread[GAThread,5,main]: Service unavailable (code=1), will retry.
+01-09 13:50:13.068 W/ActivityManager(  512): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+01-09 13:50:13.098 I/GAV2    ( 4955): Thread[GAThread,5,main]: No campaign data found.
+01-09 13:50:13.499 I/System.out( 5076): 19
+01-09 13:50:14.510 I/System.out( 5076): 20
+01-09 13:50:15.511 I/System.out( 5076): 20
+01-09 13:50:16.502 I/System.out( 5076): 20
+01-09 13:50:16.912 D/dalvikvm(  704): GC_CONCURRENT freed 396K, 8% free 10109K/10972K, paused 7ms+3ms, total 75ms
+01-09 13:50:17.513 I/System.out( 5076): 20
+01-09 13:50:17.533 D/dalvikvm( 5076): Debugger has detached; object registry had 1 entries
+01-09 13:50:17.583 D/dalvikvm( 5076): GC_CONCURRENT freed 209K, 3% free 9039K/9288K, paused 3ms+5ms, total 36ms
+01-09 13:50:18.103 W/ActivityManager(  512): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+01-09 13:50:18.113 D/PicasaSyncManager( 4488): battery info: false
+01-09 13:50:18.123 D/PicasaUploaderSyncManager( 4521): battery info: false
+01-09 13:50:18.133 W/GAV2    ( 4955): Thread[Service Reconnect,5,main]: Service unavailable (code=1), using local store.
+01-09 13:50:18.213 D/dalvikvm(  512): GC_CONCURRENT freed 1870K, 23% free 16781K/21772K, paused 10ms+6ms, total 74ms
+01-09 13:50:18.514 I/System.out( 5076): 20
+01-09 13:50:19.515 I/System.out( 5076): 21
+01-09 13:50:20.516 I/System.out( 5076): 21
+01-09 13:50:20.966 D/dalvikvm(  704): GC_CONCURRENT freed 390K, 8% free 10109K/10972K, paused 2ms+3ms, total 40ms
+01-09 13:50:21.517 I/System.out( 5076): 21
+01-09 13:50:22.507 I/System.out( 5076): 21
+01-09 13:50:23.158 D/dalvikvm( 4841): GC_CONCURRENT freed 221K, 3% free 9227K/9488K, paused 2ms+4ms, total 22ms
+01-09 13:50:23.308 D/Finsky  ( 4841): [1] 5.onFinished: Installation state replication succeeded.
+01-09 13:50:23.508 I/System.out( 5076): 23
+01-09 13:50:24.519 I/System.out( 5076): 23
+01-09 13:50:25.160 D/dalvikvm(  704): GC_CONCURRENT freed 383K, 8% free 10140K/10972K, paused 3ms+4ms, total 43ms
+01-09 13:50:25.520 I/System.out( 5076): 23
+01-09 13:50:26.521 I/System.out( 5076): 22
+01-09 13:50:27.522 I/System.out( 5076): 22
+01-09 13:50:28.533 I/System.out( 5076): 22
+01-09 13:50:29.404 D/dalvikvm(  704): GC_CONCURRENT freed 373K, 8% free 10162K/10972K, paused 2ms+3ms, total 33ms
+01-09 13:50:29.524 I/System.out( 5076): 20
+01-09 13:50:30.525 I/System.out( 5076): 20
+01-09 13:50:31.516 I/System.out( 5076): 20
+01-09 13:50:32.527 I/System.out( 5076): 20
+01-09 13:50:33.528 I/System.out( 5076): 20
+01-09 13:50:34.309 D/dalvikvm(  704): GC_CONCURRENT freed 381K, 7% free 10207K/10972K, paused 8ms+3ms, total 67ms
+01-09 13:50:34.539 I/System.out( 5076): 18
+01-09 13:50:35.520 I/System.out( 5076): 18
+01-09 13:50:35.710 D/dalvikvm(  512): GC_CONCURRENT freed 1916K, 22% free 16753K/21220K, paused 24ms+7ms, total 123ms
+01-09 13:50:36.531 I/System.out( 5076): 18
+01-09 13:50:37.552 I/System.out( 5076): 18
+01-09 13:50:37.602 D/dalvikvm( 5076): GC_CONCURRENT freed 351K, 5% free 9074K/9464K, paused 5ms+2ms, total 44ms
+01-09 13:50:38.523 I/System.out( 5076): 18
+01-09 13:50:39.184 D/dalvikvm(  704): GC_CONCURRENT freed 366K, 7% free 10228K/10972K, paused 3ms+3ms, total 43ms
+01-09 13:50:39.534 I/System.out( 5076): 18
+01-09 13:50:40.525 I/System.out( 5076): 18
+01-09 13:50:41.556 I/System.out( 5076): 18
+01-09 13:50:42.527 I/System.out( 5076): 20
+01-09 13:50:43.538 I/System.out( 5076): 20
+01-09 13:50:43.698 D/dalvikvm(  704): GC_CONCURRENT freed 368K, 7% free 10270K/10972K, paused 3ms+4ms, total 52ms
+01-09 13:50:44.519 I/System.out( 5076): 20
+01-09 13:50:45.540 I/System.out( 5076): 20
+01-09 13:50:46.521 I/System.out( 5076): 20
+01-09 13:50:47.542 I/System.out( 5076): 19
+01-09 13:50:48.563 I/System.out( 5076): 19
+01-09 13:50:48.643 D/dalvikvm(  704): GC_CONCURRENT freed 383K, 7% free 10310K/10972K, paused 3ms+4ms, total 49ms
+01-09 13:50:49.544 I/System.out( 5076): 19
+01-09 13:50:50.525 I/System.out( 5076): 19
+01-09 13:50:51.526 I/System.out( 5076): 19
+01-09 13:50:52.527 I/System.out( 5076): 19
+01-09 13:50:53.478 D/dalvikvm(  704): GC_CONCURRENT freed 384K, 6% free 10332K/10972K, paused 3ms+3ms, total 36ms
+01-09 13:50:53.518 I/System.out( 5076): 18
+01-09 13:50:54.529 I/System.out( 5076): 18
+01-09 13:50:55.540 I/System.out( 5076): 18
+01-09 13:50:55.640 D/dalvikvm(  512): GC_CONCURRENT freed 1913K, 22% free 16745K/21220K, paused 29ms+7ms, total 118ms
+01-09 13:50:56.541 I/System.out( 5076): 19
+01-09 13:50:57.532 I/System.out( 5076): 19
+01-09 13:50:58.252 D/dalvikvm(  704): GC_CONCURRENT freed 390K, 6% free 10351K/10972K, paused 2ms+4ms, total 51ms
+01-09 13:50:58.533 I/System.out( 5076): 20
+01-09 13:50:59.574 I/System.out( 5076): 20
+01-09 13:50:59.614 D/dalvikvm( 5076): GC_CONCURRENT freed 388K, 5% free 9082K/9508K, paused 5ms+2ms, total 68ms
+01-09 13:51:00.545 I/System.out( 5076): 20
+01-09 13:51:01.536 I/System.out( 5076): 20
+01-09 13:51:02.537 I/System.out( 5076): 20
+01-09 13:51:02.917 D/dalvikvm(  704): GC_CONCURRENT freed 407K, 6% free 10377K/10972K, paused 7ms+4ms, total 64ms
+01-09 13:51:03.528 I/System.out( 5076): 20
+01-09 13:51:04.539 I/System.out( 5076): 20
+01-09 13:51:05.529 I/System.out( 5076): 19
+01-09 13:51:06.540 I/System.out( 5076): 19
+01-09 13:51:07.541 I/System.out( 5076): 19
+01-09 13:51:07.611 D/dalvikvm(  704): GC_CONCURRENT freed 406K, 6% free 10388K/10972K, paused 2ms+3ms, total 51ms
+01-09 13:51:08.542 I/System.out( 5076): 19
+01-09 13:51:09.543 I/System.out( 5076): 19
+01-09 13:51:10.554 I/System.out( 5076): 19
+01-09 13:51:11.545 I/System.out( 5076): 19
+01-09 13:51:12.396 D/dalvikvm(  704): GC_CONCURRENT freed 399K, 6% free 10400K/10972K, paused 6ms+3ms, total 69ms
+01-09 13:51:12.536 I/System.out( 5076): 19
+01-09 13:51:13.547 I/System.out( 5076): 19
+01-09 13:51:14.488 D/dalvikvm(  512): GC_CONCURRENT freed 1914K, 22% free 16743K/21220K, paused 20ms+7ms, total 118ms
+01-09 13:51:14.538 I/System.out( 5076): 19
+01-09 13:51:15.549 I/System.out( 5076): 19
+01-09 13:51:16.540 I/System.out( 5076): 19
+01-09 13:51:17.151 D/dalvikvm(  704): GC_CONCURRENT freed 410K, 6% free 10403K/10972K, paused 2ms+3ms, total 47ms
+01-09 13:51:17.551 I/System.out( 5076): 20
+01-09 13:51:18.562 I/System.out( 5076): 20
+01-09 13:51:19.553 I/System.out( 5076): 20
+01-09 13:51:20.544 I/System.out( 5076): 20
+01-09 13:51:21.555 I/System.out( 5076): 20
+01-09 13:51:21.605 D/dalvikvm( 5076): GC_CONCURRENT freed 403K, 5% free 9084K/9524K, paused 6ms+3ms, total 71ms
+01-09 13:51:21.955 D/dalvikvm(  704): GC_CONCURRENT freed 432K, 6% free 10409K/10972K, paused 7ms+3ms, total 90ms
+01-09 13:51:22.546 I/System.out( 5076): 20
+01-09 13:51:23.547 I/System.out( 5076): 20
+01-09 13:51:24.538 I/System.out( 5076): 20
+01-09 13:51:25.549 I/System.out( 5076): 20
+01-09 13:51:26.550 I/System.out( 5076): 20
+01-09 13:51:26.660 D/dalvikvm(  704): GC_CONCURRENT freed 429K, 6% free 10413K/10972K, paused 8ms+3ms, total 75ms
+01-09 13:51:27.551 I/System.out( 5076): 18
+01-09 13:51:28.552 I/System.out( 5076): 18
+01-09 13:51:29.553 I/System.out( 5076): 18
+01-09 13:51:30.564 I/System.out( 5076): 18
+01-09 13:51:31.455 D/dalvikvm(  704): GC_CONCURRENT freed 409K, 6% free 10398K/10972K, paused 3ms+3ms, total 40ms
+01-09 13:51:31.545 I/System.out( 5076): 18
+01-09 13:51:32.546 I/System.out( 5076): 18
+01-09 13:51:33.487 D/dalvikvm(  512): GC_CONCURRENT freed 1893K, 22% free 16743K/21220K, paused 8ms+6ms, total 131ms
+01-09 13:51:33.547 I/System.out( 5076): 19
+01-09 13:51:34.548 I/System.out( 5076): 19
+01-09 13:51:35.549 I/System.out( 5076): 19
+01-09 13:51:36.189 D/dalvikvm(  704): GC_CONCURRENT freed 405K, 6% free 10399K/10972K, paused 6ms+3ms, total 58ms
+01-09 13:51:36.560 I/System.out( 5076): 18
+01-09 13:51:37.551 I/System.out( 5076): 19
+01-09 13:51:38.552 I/System.out( 5076): 19
+01-09 13:51:39.553 I/System.out( 5076): 20
+01-09 13:51:40.564 I/System.out( 5076): 20
+01-09 13:51:40.894 D/dalvikvm(  704): GC_CONCURRENT freed 412K, 6% free 10406K/10972K, paused 3ms+4ms, total 50ms
+01-09 13:51:41.565 I/System.out( 5076): 20
+01-09 13:51:42.556 I/System.out( 5076): 20
+01-09 13:51:43.577 I/System.out( 5076): 20
+01-09 13:51:43.617 D/dalvikvm( 5076): GC_CONCURRENT freed 400K, 5% free 9082K/9524K, paused 12ms+2ms, total 48ms
+01-09 13:51:44.578 I/System.out( 5076): 20
+01-09 13:51:45.579 I/System.out( 5076): 20
+01-09 13:51:45.779 D/dalvikvm(  704): GC_CONCURRENT freed 427K, 6% free 10410K/10972K, paused 7ms+3ms, total 64ms
+01-09 13:51:46.570 I/System.out( 5076): 19
+01-09 13:51:47.580 I/System.out( 5076): 19
+01-09 13:51:48.581 I/System.out( 5076): 19
+01-09 13:51:49.582 I/System.out( 5076): 19
+01-09 13:51:50.553 D/dalvikvm(  704): GC_CONCURRENT freed 417K, 6% free 10403K/10972K, paused 6ms+4ms, total 54ms
+01-09 13:51:50.573 I/System.out( 5076): 19
+01-09 13:51:51.584 I/System.out( 5076): 19
+01-09 13:51:52.565 I/System.out( 5076): 19
+01-09 13:51:52.575 D/dalvikvm(  512): GC_CONCURRENT freed 1880K, 22% free 16743K/21220K, paused 12ms+7ms, total 139ms
+01-09 13:51:53.576 I/System.out( 5076): 19
+01-09 13:51:54.577 I/System.out( 5076): 19
+01-09 13:51:55.408 D/dalvikvm(  704): GC_CONCURRENT freed 412K, 6% free 10402K/10972K, paused 5ms+4ms, total 60ms
+01-09 13:51:55.578 I/System.out( 5076): 19
+01-09 13:51:56.579 I/System.out( 5076): 19
+01-09 13:51:57.590 I/System.out( 5076): 20
+01-09 13:51:58.591 I/System.out( 5076): 20
+01-09 13:51:59.582 I/System.out( 5076): 20
+01-09 13:52:00.133 D/dalvikvm(  704): GC_CONCURRENT freed 417K, 6% free 10412K/10972K, paused 2ms+4ms, total 51ms
+01-09 13:52:00.593 I/System.out( 5076): 20
+01-09 13:52:01.584 I/System.out( 5076): 20
+01-09 13:52:02.585 I/System.out( 5076): 20
+01-09 13:52:03.576 I/System.out( 5076): 20
+01-09 13:52:04.587 I/System.out( 5076): 20
+01-09 13:52:04.647 D/dalvikvm( 5076): GC_CONCURRENT freed 394K, 5% free 9074K/9520K, paused 15ms+2ms, total 54ms
+01-09 13:52:04.847 D/dalvikvm(  704): GC_CONCURRENT freed 433K, 6% free 10413K/10972K, paused 3ms+4ms, total 65ms
+01-09 13:52:05.578 I/System.out( 5076): 20
+01-09 13:52:06.589 I/System.out( 5076): 19
+01-09 13:52:07.580 I/System.out( 5076): 19
+01-09 13:52:08.591 I/System.out( 5076): 19
+01-09 13:52:09.522 D/dalvikvm(  704): GC_CONCURRENT freed 422K, 6% free 10405K/10972K, paused 2ms+4ms, total 46ms
+01-09 13:52:09.582 I/System.out( 5076): 19
+01-09 13:52:10.593 I/System.out( 5076): 19
+01-09 13:52:10.853 D/dalvikvm(  512): GC_CONCURRENT freed 1864K, 22% free 16746K/21220K, paused 10ms+7ms, total 132ms
+01-09 13:52:11.584 I/System.out( 5076): 19
+01-09 13:52:12.585 I/System.out( 5076): 19
+01-09 13:52:13.586 I/System.out( 5076): 19
+01-09 13:52:14.186 D/dalvikvm(  704): GC_CONCURRENT freed 413K, 6% free 10403K/10972K, paused 3ms+3ms, total 52ms
+01-09 13:52:14.587 I/System.out( 5076): 19
+01-09 13:52:15.608 I/System.out( 5076): 19
+01-09 13:52:16.579 I/System.out( 5076): 19
+01-09 13:52:17.590 I/System.out( 5076): 19
+01-09 13:52:18.591 I/System.out( 5076): 19
+01-09 13:52:19.351 D/dalvikvm(  704): GC_CONCURRENT freed 411K, 5% free 10403K/10932K, paused 8ms+4ms, total 53ms
+01-09 13:52:19.602 I/System.out( 5076): 19
+01-09 13:52:20.603 I/System.out( 5076): 19
+01-09 13:52:21.594 I/System.out( 5076): 19
+01-09 13:52:22.605 I/System.out( 5076): 19
+01-09 13:52:23.586 I/System.out( 5076): 20
+01-09 13:52:24.216 D/dalvikvm(  704): GC_CONCURRENT freed 421K, 5% free 10403K/10932K, paused 6ms+3ms, total 62ms
+01-09 13:52:24.597 I/System.out( 5076): 20
+01-09 13:52:25.588 I/System.out( 5076): 20
+01-09 13:52:26.609 I/System.out( 5076): 20
+01-09 13:52:26.679 D/dalvikvm( 5076): GC_CONCURRENT freed 391K, 5% free 9083K/9520K, paused 7ms+7ms, total 87ms
+01-09 13:52:27.590 I/System.out( 5076): 20
+01-09 13:52:28.601 I/System.out( 5076): 20
+01-09 13:52:28.801 D/dalvikvm(  704): GC_CONCURRENT freed 425K, 5% free 10410K/10932K, paused 7ms+4ms, total 82ms
+01-09 13:52:29.591 I/System.out( 5076): 19
+01-09 13:52:30.332 D/dalvikvm(  512): GC_CONCURRENT freed 1888K, 22% free 16750K/21220K, paused 7ms+6ms, total 129ms
+01-09 13:52:30.602 I/System.out( 5076): 19
+01-09 13:52:31.603 I/System.out( 5076): 19
+01-09 13:52:32.604 I/System.out( 5076): 19
+01-09 13:52:33.595 I/System.out( 5076): 19
+01-09 13:52:33.776 D/dalvikvm(  704): GC_CONCURRENT freed 418K, 5% free 10402K/10932K, paused 8ms+4ms, total 55ms
+01-09 13:52:34.596 I/System.out( 5076): 19
+01-09 13:52:35.597 I/System.out( 5076): 19
+01-09 13:52:36.598 I/System.out( 5076): 20
+01-09 13:52:37.599 I/System.out( 5076): 20
+01-09 13:52:38.540 D/dalvikvm(  704): GC_CONCURRENT freed 418K, 5% free 10408K/10932K, paused 6ms+3ms, total 61ms
+01-09 13:52:38.600 I/System.out( 5076): 20
+01-09 13:52:39.601 I/System.out( 5076): 20
+01-09 13:52:40.602 I/System.out( 5076): 20
+01-09 13:52:41.613 I/System.out( 5076): 20
+01-09 13:52:42.614 I/System.out( 5076): 19
+01-09 13:52:43.035 D/dalvikvm(  704): GC_CONCURRENT freed 426K, 5% free 10410K/10932K, paused 6ms+3ms, total 82ms
+01-09 13:52:43.605 I/System.out( 5076): 20
+01-09 13:52:44.606 I/System.out( 5076): 20
+01-09 13:52:45.597 I/System.out( 5076): 20
+01-09 13:52:46.608 I/System.out( 5076): 19
+01-09 13:52:47.619 I/System.out( 5076): 19
+01-09 13:52:47.659 D/dalvikvm( 5076): GC_CONCURRENT freed 390K, 5% free 9080K/9516K, paused 9ms+2ms, total 44ms
+01-09 13:52:47.709 D/dalvikvm(  704): GC_CONCURRENT freed 425K, 5% free 10409K/10932K, paused 2ms+5ms, total 42ms
+01-09 13:52:48.610 I/System.out( 5076): 19
+01-09 13:52:49.161 D/dalvikvm(  512): GC_CONCURRENT freed 1900K, 22% free 16752K/21220K, paused 7ms+8ms, total 132ms
+01-09 13:52:49.621 I/System.out( 5076): 19
+01-09 13:52:50.612 I/System.out( 5076): 20
+01-09 13:52:51.623 I/System.out( 5076): 20
+01-09 13:52:52.624 I/System.out( 5076): 20
+01-09 13:52:52.684 D/dalvikvm(  704): GC_CONCURRENT freed 426K, 5% free 10410K/10932K, paused 8ms+13ms, total 84ms
+01-09 13:52:53.615 I/System.out( 5076): 20
+01-09 13:52:54.616 I/System.out( 5076): 20
+01-09 13:52:55.617 I/System.out( 5076): 20
+01-09 13:52:56.618 I/System.out( 5076): 20
+01-09 13:52:57.379 D/dalvikvm(  704): GC_CONCURRENT freed 430K, 5% free 10415K/10932K, paused 7ms+4ms, total 56ms
+01-09 13:52:57.629 I/System.out( 5076): 20
+01-09 13:52:58.620 I/System.out( 5076): 20
+01-09 13:52:59.621 I/System.out( 5076): 20
+01-09 13:53:00.632 I/System.out( 5076): 20
+01-09 13:53:01.623 I/System.out( 5076): 20
+01-09 13:53:02.273 D/dalvikvm(  704): GC_CONCURRENT freed 432K, 5% free 10417K/10932K, paused 13ms+3ms, total 80ms
+01-09 13:53:02.634 I/System.out( 5076): 20
+01-09 13:53:03.635 I/System.out( 5076): 20
+01-09 13:53:04.626 I/System.out( 5076): 20
+01-09 13:53:05.627 I/System.out( 5076): 21
+01-09 13:53:06.618 I/System.out( 5076): 21
+01-09 13:53:07.278 D/dalvikvm(  512): GC_CONCURRENT freed 1885K, 22% free 16719K/21220K, paused 2ms+8ms, total 83ms
+01-09 13:53:07.308 D/dalvikvm(  704): GC_CONCURRENT freed 440K, 5% free 10424K/10932K, paused 7ms+3ms, total 142ms
+01-09 13:53:07.619 I/System.out( 5076): 21
+01-09 13:53:08.620 I/System.out( 5076): 20
+01-09 13:53:08.640 D/dalvikvm( 5076): GC_CONCURRENT freed 403K, 5% free 9075K/9516K, paused 2ms+2ms, total 21ms
+01-09 13:53:09.631 I/System.out( 5076): 19
+01-09 13:53:10.622 I/System.out( 5076): 18
+01-09 13:53:11.632 I/System.out( 5076): 17
+01-09 13:53:11.843 D/dalvikvm(  704): GC_CONCURRENT freed 421K, 5% free 10409K/10932K, paused 9ms+3ms, total 42ms
+01-09 13:53:12.623 I/System.out( 5076): 17
+01-09 13:53:13.634 I/System.out( 5076): 18
+01-09 13:53:14.615 I/System.out( 5076): 19
+01-09 13:53:15.626 I/System.out( 5076): 19
+01-09 13:53:16.517 D/dalvikvm(  704): GC_CONCURRENT freed 405K, 5% free 10408K/10932K, paused 6ms+4ms, total 57ms
+01-09 13:53:16.617 I/System.out( 5076): 19
+01-09 13:53:17.628 I/System.out( 5076): 19
+01-09 13:53:18.619 I/System.out( 5076): 20
+01-09 13:53:19.630 I/System.out( 5076): 20
+01-09 13:53:20.631 I/System.out( 5076): 20
+01-09 13:53:21.292 D/dalvikvm(  704): GC_CONCURRENT freed 428K, 5% free 10416K/10932K, paused 7ms+4ms, total 79ms
+01-09 13:53:21.632 I/System.out( 5076): 20
+01-09 13:53:22.633 I/System.out( 5076): 20
+01-09 13:53:23.634 I/System.out( 5076): 20
+01-09 13:53:24.635 I/System.out( 5076): 20
+01-09 13:53:25.636 I/System.out( 5076): 20
+01-09 13:53:26.137 D/dalvikvm(  512): GC_CONCURRENT freed 1868K, 22% free 16745K/21220K, paused 8ms+5ms, total 110ms
+01-09 13:53:26.167 D/dalvikvm(  704): GC_CONCURRENT freed 429K, 5% free 10421K/10932K, paused 8ms+4ms, total 48ms
+01-09 13:53:26.637 I/System.out( 5076): 20
+01-09 13:53:27.638 I/System.out( 5076): 20
+01-09 13:53:28.649 I/System.out( 5076): 21
+01-09 13:53:29.640 I/System.out( 5076): 21
+01-09 13:53:30.651 I/System.out( 5076): 20
+01-09 13:53:30.721 D/dalvikvm( 5076): GC_CONCURRENT freed 395K, 5% free 9083K/9516K, paused 6ms+6ms, total 76ms
+01-09 13:53:30.801 D/dalvikvm(  704): GC_CONCURRENT freed 436K, 5% free 10428K/10932K, paused 2ms+4ms, total 54ms
+01-09 13:53:31.642 I/System.out( 5076): 20
+01-09 13:53:32.653 I/System.out( 5076): 20
+01-09 13:53:33.654 I/System.out( 5076): 19
+01-09 13:53:34.645 I/System.out( 5076): 19
+01-09 13:53:35.586 D/dalvikvm(  704): GC_CONCURRENT freed 431K, 5% free 10416K/10932K, paused 3ms+3ms, total 48ms
+01-09 13:53:35.636 I/System.out( 5076): 18
+01-09 13:53:36.647 I/System.out( 5076): 18
+01-09 13:53:37.638 I/System.out( 5076): 18
+01-09 13:53:38.649 I/System.out( 5076): 18
+01-09 13:53:39.650 I/System.out( 5076): 18
+01-09 13:53:40.591 D/dalvikvm(  704): GC_CONCURRENT freed 405K, 5% free 10408K/10932K, paused 3ms+3ms, total 41ms
+01-09 13:53:40.641 I/System.out( 5076): 19
+01-09 13:53:41.652 I/System.out( 5076): 19
+01-09 13:53:42.643 I/System.out( 5076): 20
+01-09 13:53:43.654 I/System.out( 5076): 20
+01-09 13:53:44.645 I/System.out( 5076): 20
+01-09 13:53:45.235 D/dalvikvm(  512): GC_CONCURRENT freed 1893K, 22% free 16746K/21220K, paused 9ms+5ms, total 114ms
+01-09 13:53:45.275 D/dalvikvm(  704): GC_CONCURRENT freed 419K, 5% free 10418K/10932K, paused 8ms+4ms, total 58ms
+01-09 13:53:45.656 I/System.out( 5076): 20
+01-09 13:53:46.637 I/System.out( 5076): 20
+01-09 13:53:47.648 I/System.out( 5076): 20
+01-09 13:53:48.649 I/System.out( 5076): 19
+01-09 13:53:49.650 I/System.out( 5076): 19
+01-09 13:53:50.020 D/dalvikvm(  704): GC_CONCURRENT freed 425K, 5% free 10414K/10932K, paused 2ms+4ms, total 44ms
+01-09 13:53:50.661 I/System.out( 5076): 20
+01-09 13:53:51.662 I/System.out( 5076): 20
+01-09 13:53:52.673 I/System.out( 5076): 20
+01-09 13:53:52.743 D/dalvikvm( 5076): GC_CONCURRENT freed 401K, 5% free 9083K/9524K, paused 5ms+9ms, total 84ms
+01-09 13:53:53.653 I/System.out( 5076): 20
+01-09 13:53:54.664 I/System.out( 5076): 20
+01-09 13:53:54.935 D/dalvikvm(  704): GC_CONCURRENT freed 430K, 5% free 10419K/10932K, paused 6ms+3ms, total 62ms
+01-09 13:53:55.655 I/System.out( 5076): 20
+01-09 13:53:56.656 I/System.out( 5076): 20
+01-09 13:53:57.657 I/System.out( 5076): 20
+01-09 13:53:58.658 I/System.out( 5076): 20
+01-09 13:53:59.679 I/System.out( 5076): 20
+01-09 13:53:59.789 D/dalvikvm(  704): GC_CONCURRENT freed 432K, 5% free 10422K/10932K, paused 9ms+3ms, total 75ms
+01-09 13:54:00.660 I/System.out( 5076): 20
+01-09 13:54:01.661 I/System.out( 5076): 20
+01-09 13:54:02.652 I/System.out( 5076): 20
+01-09 13:54:03.673 I/System.out( 5076): 20
+01-09 13:54:03.994 D/dalvikvm(  512): GC_CONCURRENT freed 1899K, 22% free 16738K/21220K, paused 21ms+6ms, total 128ms
+01-09 13:54:04.664 I/System.out( 5076): 19
+01-09 13:54:04.714 D/dalvikvm(  704): GC_CONCURRENT freed 433K, 5% free 10420K/10932K, paused 3ms+4ms, total 45ms
+01-09 13:54:05.655 I/System.out( 5076): 19
+01-09 13:54:06.656 I/System.out( 5076): 19
+01-09 13:54:07.667 I/System.out( 5076): 20
+01-09 13:54:08.668 I/System.out( 5076): 20
+01-09 13:54:09.549 D/dalvikvm(  704): GC_CONCURRENT freed 423K, 5% free 10419K/10932K, paused 3ms+4ms, total 47ms
+01-09 13:54:09.659 I/System.out( 5076): 20
+01-09 13:54:10.670 I/System.out( 5076): 20
+01-09 13:54:11.661 I/System.out( 5076): 20
+01-09 13:54:12.672 I/System.out( 5076): 20
+01-09 13:54:13.663 I/System.out( 5076): 19
+01-09 13:54:13.683 D/dalvikvm( 5076): GC_CONCURRENT freed 402K, 5% free 9074K/9524K, paused 1ms+1ms, total 20ms
+01-09 13:54:14.344 D/dalvikvm(  704): GC_CONCURRENT freed 429K, 5% free 10415K/10932K, paused 9ms+3ms, total 65ms
+01-09 13:54:14.674 I/System.out( 5076): 19
+01-09 13:54:15.655 I/System.out( 5076): 19
+01-09 13:54:16.666 I/System.out( 5076): 19
+01-09 13:54:17.657 I/System.out( 5076): 19
+01-09 13:54:18.668 I/System.out( 5076): 19
+01-09 13:54:19.038 D/dalvikvm(  704): GC_CONCURRENT freed 417K, 5% free 10409K/10932K, paused 3ms+4ms, total 47ms
+01-09 13:54:19.669 I/System.out( 5076): 19
+01-09 13:54:20.680 I/System.out( 5076): 19
+01-09 13:54:20.680 I/System.out( 5076): Battery level start is reached
+01-09 13:54:21.671 I/System.out( 5076): 19
+01-09 13:54:22.682 I/System.out( 5076): 19
+01-09 13:54:23.122 D/dalvikvm(  512): GC_CONCURRENT freed 1882K, 22% free 16752K/21220K, paused 20ms+6ms, total 132ms
+01-09 13:54:23.683 I/System.out( 5076): 19
+01-09 13:54:23.763 D/dalvikvm(  704): GC_CONCURRENT freed 417K, 5% free 10407K/10932K, paused 3ms+4ms, total 47ms
+01-09 13:54:24.684 I/System.out( 5076): 19
+01-09 13:54:25.685 I/System.out( 5076): 19
+01-09 13:54:26.676 I/System.out( 5076): 19
+01-09 13:54:27.677 I/System.out( 5076): 19
+01-09 13:54:28.477 D/dalvikvm(  704): GC_CONCURRENT freed 409K, 5% free 10408K/10932K, paused 3ms+4ms, total 47ms
+01-09 13:54:28.688 I/System.out( 5076): 19
+01-09 13:54:29.689 I/System.out( 5076): 19
+01-09 13:54:30.690 I/System.out( 5076): 19
+01-09 13:54:31.691 I/System.out( 5076): 19
+01-09 13:54:32.692 I/System.out( 5076): 19
+01-09 13:54:33.322 D/dalvikvm(  704): GC_CONCURRENT freed 413K, 5% free 10406K/10932K, paused 6ms+3ms, total 60ms
+01-09 13:54:33.703 I/System.out( 5076): 19
+01-09 13:54:34.694 I/System.out( 5076): 20
+01-09 13:54:35.725 I/System.out( 5076): 20
+01-09 13:54:35.775 D/dalvikvm( 5076): GC_CONCURRENT freed 390K, 5% free 9083K/9520K, paused 9ms+2ms, total 73ms
+01-09 13:54:36.695 I/System.out( 5076): 20
+01-09 13:54:37.696 I/System.out( 5076): 20
+01-09 13:54:37.827 D/dalvikvm(  704): GC_CONCURRENT freed 425K, 5% free 10412K/10932K, paused 7ms+4ms, total 70ms
+01-09 13:54:38.697 I/System.out( 5076): 20
+01-09 13:54:39.708 I/System.out( 5076): 20
+01-09 13:54:40.709 I/System.out( 5076): 20
+01-09 13:54:41.710 I/System.out( 5076): 20
+01-09 13:54:41.901 D/dalvikvm(  512): GC_CONCURRENT freed 1898K, 22% free 16748K/21220K, paused 9ms+7ms, total 140ms
+01-09 13:54:42.601 D/dalvikvm(  704): GC_CONCURRENT freed 430K, 5% free 10417K/10932K, paused 9ms+4ms, total 61ms
+01-09 13:54:42.701 I/System.out( 5076): 20
+01-09 13:54:43.712 I/System.out( 5076): 20
+01-09 13:54:44.703 I/System.out( 5076): 19
+01-09 13:54:45.714 I/System.out( 5076): 19
+01-09 13:54:46.695 I/System.out( 5076): 19
+01-09 13:54:47.446 D/dalvikvm(  704): GC_CONCURRENT freed 424K, 5% free 10407K/10932K, paused 3ms+4ms, total 53ms
+01-09 13:54:47.706 I/System.out( 5076): 19
+01-09 13:54:48.707 I/System.out( 5076): 18
+01-09 13:54:49.718 I/System.out( 5076): 18
+01-09 13:54:50.709 I/System.out( 5076): 19
+01-09 13:54:51.720 I/System.out( 5076): 19
+01-09 13:54:52.161 D/dalvikvm(  704): GC_CONCURRENT freed 409K, 5% free 10402K/10932K, paused 3ms+4ms, total 43ms
+01-09 13:54:52.721 I/System.out( 5076): 19
+01-09 13:54:53.722 I/System.out( 5076): 18
+01-09 13:54:54.723 I/System.out( 5076): 18
+01-09 13:54:55.724 I/System.out( 5076): 18
+01-09 13:54:56.735 I/System.out( 5076): 19
+01-09 13:54:56.825 D/dalvikvm(  704): GC_CONCURRENT freed 404K, 5% free 10401K/10932K, paused 2ms+4ms, total 47ms
+01-09 13:54:57.716 I/System.out( 5076): 19
+01-09 13:54:57.766 D/dalvikvm( 5076): GC_CONCURRENT freed 406K, 5% free 9076K/9520K, paused 1ms+10ms, total 60ms
+01-09 13:54:58.717 I/System.out( 5076): 19
+01-09 13:54:59.708 I/System.out( 5076): 19
+01-09 13:55:00.719 I/System.out( 5076): 19
+01-09 13:55:01.059 D/dalvikvm(  512): GC_CONCURRENT freed 1861K, 22% free 16749K/21220K, paused 10ms+13ms, total 134ms
+01-09 13:55:01.740 I/System.out( 5076): 19
+01-09 13:55:01.840 D/dalvikvm(  704): GC_CONCURRENT freed 410K, 5% free 10401K/10932K, paused 4ms+3ms, total 48ms
+01-09 13:55:02.721 I/System.out( 5076): 19
+01-09 13:55:03.732 I/System.out( 5076): 20
+01-09 13:55:04.723 I/System.out( 5076): 20
+01-09 13:55:05.724 I/System.out( 5076): 20
+01-09 13:55:06.635 D/dalvikvm(  704): GC_CONCURRENT freed 420K, 5% free 10411K/10932K, paused 7ms+4ms, total 84ms
+01-09 13:55:06.725 I/System.out( 5076): 20
+01-09 13:55:07.726 I/System.out( 5076): 20
+01-09 13:55:08.717 I/System.out( 5076): 19
+01-09 13:55:09.718 I/System.out( 5076): 17
+01-09 13:55:10.719 I/System.out( 5076): 18
+01-09 13:55:11.439 D/dalvikvm(  704): GC_CONCURRENT freed 416K, 5% free 10398K/10932K, paused 2ms+3ms, total 42ms
+01-09 13:55:11.730 I/System.out( 5076): 18
+01-09 13:55:12.731 I/System.out( 5076): 18
+01-09 13:55:13.732 I/System.out( 5076): 19
+01-09 13:55:14.733 I/System.out( 5076): 19
+01-09 13:55:15.724 I/System.out( 5076): 19
+01-09 13:55:16.354 D/dalvikvm(  704): GC_CONCURRENT freed 405K, 5% free 10397K/10932K, paused 6ms+3ms, total 58ms
+01-09 13:55:16.735 I/System.out( 5076): 19
+01-09 13:55:17.726 I/System.out( 5076): 19
+01-09 13:55:18.726 I/System.out( 5076): 19
+01-09 13:55:19.307 I/EventLogService(  781): Aggregate from 1389273919203 (log), 1389273919203 (data)
+01-09 13:55:19.377 I/ServiceDumpSys(  781): dumping service [account]
+01-09 13:55:19.537 D/dalvikvm(  512): GC_CONCURRENT freed 1889K, 22% free 16748K/21220K, paused 3ms+7ms, total 84ms
+01-09 13:55:19.727 I/System.out( 5076): 19
+01-09 13:55:19.778 D/dalvikvm( 5076): GC_CONCURRENT freed 388K, 5% free 9083K/9520K, paused 3ms+5ms, total 48ms
+01-09 13:55:20.738 I/System.out( 5076): 19
+01-09 13:55:20.989 D/dalvikvm(  704): GC_CONCURRENT freed 416K, 5% free 10395K/10932K, paused 3ms+4ms, total 48ms
+01-09 13:55:21.729 I/System.out( 5076): 19
+01-09 13:55:22.730 I/System.out( 5076): 19
+01-09 13:55:23.731 I/System.out( 5076): 19
+01-09 13:55:24.742 I/System.out( 5076): 19
+01-09 13:55:25.693 D/dalvikvm(  704): GC_CONCURRENT freed 409K, 5% free 10397K/10932K, paused 2ms+4ms, total 54ms
+01-09 13:55:25.733 I/System.out( 5076): 19
+01-09 13:55:26.754 I/System.out( 5076): 19
+01-09 13:55:27.745 I/System.out( 5076): 19
+01-09 13:55:28.736 I/System.out( 5076): 19
+01-09 13:55:29.737 I/System.out( 5076): 19
+01-09 13:55:30.728 I/System.out( 5076): 19
+01-09 13:55:30.748 D/dalvikvm(  704): GC_CONCURRENT freed 412K, 5% free 10396K/10932K, paused 3ms+4ms, total 52ms
+01-09 13:55:31.739 I/System.out( 5076): 20
+01-09 13:55:32.740 I/System.out( 5076): 20
+01-09 13:55:33.741 I/System.out( 5076): 20
+01-09 13:55:34.742 I/System.out( 5076): 20
+01-09 13:55:35.673 D/dalvikvm(  704): GC_CONCURRENT freed 424K, 5% free 10406K/10932K, paused 7ms+4ms, total 67ms
+01-09 13:55:35.733 I/System.out( 5076): 20
+01-09 13:55:36.744 I/System.out( 5076): 19
+01-09 13:55:37.725 I/System.out( 5076): 18
+01-09 13:55:38.746 I/System.out( 5076): 18
+01-09 13:55:39.116 D/dalvikvm(  512): GC_CONCURRENT freed 1884K, 22% free 16753K/21220K, paused 7ms+8ms, total 118ms
+01-09 13:55:39.737 I/System.out( 5076): 18
+01-09 13:55:40.538 D/dalvikvm(  704): GC_CONCURRENT freed 411K, 5% free 10396K/10932K, paused 10ms+4ms, total 50ms
+01-09 13:55:40.738 I/System.out( 5076): 18
+01-09 13:55:41.759 I/System.out( 5076): 18
+01-09 13:55:41.849 D/dalvikvm( 5076): GC_CONCURRENT freed 396K, 5% free 9082K/9520K, paused 8ms+2ms, total 111ms
+01-09 13:55:42.740 I/System.out( 5076): 19
+01-09 13:55:43.751 I/System.out( 5076): 19
+01-09 13:55:44.742 I/System.out( 5076): 19
+01-09 13:55:45.483 D/dalvikvm(  704): GC_CONCURRENT freed 407K, 5% free 10396K/10932K, paused 7ms+3ms, total 62ms
+01-09 13:55:45.753 I/System.out( 5076): 19
+01-09 13:55:46.754 I/System.out( 5076): 19
+01-09 13:55:47.755 I/System.out( 5076): 19
+01-09 13:55:48.746 I/System.out( 5076): 19
+01-09 13:55:49.737 I/System.out( 5076): 18
+01-09 13:55:50.257 D/dalvikvm(  704): GC_CONCURRENT freed 408K, 5% free 10393K/10932K, paused 3ms+3ms, total 43ms
+01-09 13:55:50.748 I/System.out( 5076): 18
+01-09 13:55:51.739 I/System.out( 5076): 19
+01-09 13:55:52.760 I/System.out( 5076): 19
+01-09 13:55:53.751 I/System.out( 5076): 19
+01-09 13:55:54.762 I/System.out( 5076): 19
+01-09 13:55:55.052 D/dalvikvm(  704): GC_CONCURRENT freed 409K, 5% free 10394K/10932K, paused 6ms+3ms, total 57ms
+01-09 13:55:55.753 I/System.out( 5076): 19
+01-09 13:55:56.764 I/System.out( 5076): 19
+01-09 13:55:57.765 I/System.out( 5076): 19
+01-09 13:55:58.756 I/System.out( 5076): 18
+01-09 13:55:59.216 D/dalvikvm(  512): GC_CONCURRENT freed 1905K, 22% free 16754K/21220K, paused 8ms+7ms, total 138ms
+01-09 13:55:59.757 I/System.out( 5076): 20
+01-09 13:55:59.857 D/dalvikvm(  704): GC_CONCURRENT freed 411K, 5% free 10396K/10932K, paused 3ms+4ms, total 47ms
+01-09 13:56:00.757 I/System.out( 5076): 20
+01-09 13:56:01.778 I/System.out( 5076): 20
+01-09 13:56:02.769 I/System.out( 5076): 20
+01-09 13:56:03.780 I/System.out( 5076): 20
+01-09 13:56:03.830 D/dalvikvm( 5076): GC_CONCURRENT freed 395K, 5% free 9083K/9520K, paused 6ms+2ms, total 61ms
+01-09 13:56:04.721 D/dalvikvm(  704): GC_CONCURRENT freed 422K, 5% free 10402K/10932K, paused 8ms+4ms, total 63ms
+01-09 13:56:04.761 I/System.out( 5076): 18
+01-09 13:56:05.772 I/System.out( 5076): 18
+01-09 13:56:06.773 I/System.out( 5076): 18
+01-09 13:56:07.774 I/System.out( 5076): 18
+01-09 13:56:08.765 I/System.out( 5076): 19
+01-09 13:56:09.726 D/dalvikvm(  704): GC_CONCURRENT freed 408K, 5% free 10392K/10932K, paused 6ms+3ms, total 51ms
+01-09 13:56:09.766 I/System.out( 5076): 19
+01-09 13:56:10.767 I/System.out( 5076): 19
+01-09 13:56:11.758 I/System.out( 5076): 19
+01-09 13:56:12.769 I/System.out( 5076): 19
+01-09 13:56:13.760 I/System.out( 5076): 18
+01-09 13:56:14.411 D/dalvikvm(  704): GC_CONCURRENT freed 404K, 5% free 10393K/10932K, paused 2ms+4ms, total 43ms
+01-09 13:56:14.771 I/System.out( 5076): 18
+01-09 13:56:15.762 I/System.out( 5076): 19
+01-09 13:56:16.773 I/System.out( 5076): 19
+01-09 13:56:17.764 I/System.out( 5076): 20
+01-09 13:56:18.325 D/dalvikvm(  512): GC_CONCURRENT freed 1877K, 22% free 16750K/21220K, paused 8ms+7ms, total 115ms
+01-09 13:56:18.765 I/System.out( 5076): 20
+01-09 13:56:18.955 D/dalvikvm(  704): GC_CONCURRENT freed 415K, 5% free 10399K/10932K, paused 3ms+4ms, total 56ms
+01-09 13:56:19.766 I/System.out( 5076): 20
+01-09 13:56:20.777 I/System.out( 5076): 20
+01-09 13:56:21.768 I/System.out( 5076): 20
+01-09 13:56:22.779 I/System.out( 5076): 20
+01-09 13:56:23.750 D/dalvikvm(  704): GC_CONCURRENT freed 432K, 5% free 10405K/10932K, paused 7ms+4ms, total 83ms
+01-09 13:56:23.770 I/System.out( 5076): 20
+01-09 13:56:24.781 I/System.out( 5076): 20
+01-09 13:56:25.792 I/System.out( 5076): 20
+01-09 13:56:25.862 D/dalvikvm( 5076): GC_CONCURRENT freed 398K, 5% free 9084K/9520K, paused 6ms+2ms, total 82ms
+01-09 13:56:26.773 I/System.out( 5076): 20
+01-09 13:56:27.784 I/System.out( 5076): 20
+01-09 13:56:28.765 I/System.out( 5076): 19
+01-09 13:56:28.795 D/dalvikvm(  704): GC_CONCURRENT freed 430K, 5% free 10406K/10932K, paused 7ms+3ms, total 86ms
+01-09 13:56:29.776 I/System.out( 5076): 19
+01-09 13:56:30.767 I/System.out( 5076): 19
+01-09 13:56:31.788 I/System.out( 5076): 19
+01-09 13:56:32.779 I/System.out( 5076): 19
+01-09 13:56:33.549 D/dalvikvm(  704): GC_CONCURRENT freed 417K, 5% free 10400K/10932K, paused 2ms+4ms, total 37ms
+01-09 13:56:33.780 I/System.out( 5076): 19
+01-09 13:56:34.781 I/System.out( 5076): 19
+01-09 13:56:35.782 I/System.out( 5076): 19
+01-09 13:56:36.783 I/System.out( 5076): 19
+01-09 13:56:37.133 D/dalvikvm(  512): GC_CONCURRENT freed 1862K, 22% free 16737K/21220K, paused 10ms+7ms, total 110ms
+01-09 13:56:37.784 I/System.out( 5076): 18
+01-09 13:56:38.484 D/dalvikvm(  704): GC_CONCURRENT freed 405K, 5% free 10396K/10932K, paused 3ms+4ms, total 46ms
+01-09 13:56:38.795 I/System.out( 5076): 18
+01-09 13:56:39.786 I/System.out( 5076): 18
+01-09 13:56:40.787 I/System.out( 5076): 18
+01-09 13:56:41.788 I/System.out( 5076): 18
+01-09 13:56:42.778 I/System.out( 5076): 18
+01-09 13:56:43.359 D/dalvikvm(  704): GC_CONCURRENT freed 395K, 5% free 10388K/10932K, paused 2ms+3ms, total 39ms
+01-09 13:56:43.789 I/System.out( 5076): 17
+01-09 13:56:44.780 I/System.out( 5076): 19
+01-09 13:56:45.791 I/System.out( 5076): 19
+01-09 13:56:46.782 I/System.out( 5076): 19
+01-09 13:56:47.803 I/System.out( 5076): 19
+01-09 13:56:47.843 D/dalvikvm( 5076): GC_CONCURRENT freed 392K, 5% free 9082K/9516K, paused 5ms+2ms, total 53ms
+01-09 13:56:48.134 D/dalvikvm(  704): GC_CONCURRENT freed 402K, 5% free 10395K/10932K, paused 6ms+4ms, total 55ms
+01-09 13:56:48.794 I/System.out( 5076): 19
+01-09 13:56:49.785 I/System.out( 5076): 20
+01-09 13:56:50.796 I/System.out( 5076): 19
+01-09 13:56:51.797 I/System.out( 5076): 19
+01-09 13:56:52.798 I/System.out( 5076): 19
+01-09 13:56:52.988 D/dalvikvm(  704): GC_CONCURRENT freed 412K, 5% free 10398K/10932K, paused 6ms+3ms, total 63ms
+01-09 13:56:53.789 I/System.out( 5076): 19
+01-09 13:56:54.810 I/System.out( 5076): 19
+01-09 13:56:55.801 I/System.out( 5076): 18
+01-09 13:56:56.792 I/System.out( 5076): 19
+01-09 13:56:57.453 D/dalvikvm(  512): GC_CONCURRENT freed 1866K, 22% free 16754K/21220K, paused 21ms+7ms, total 121ms
+01-09 13:56:57.803 I/System.out( 5076): 19
+01-09 13:56:58.133 D/dalvikvm(  704): GC_CONCURRENT freed 409K, 5% free 10396K/10932K, paused 2ms+4ms, total 46ms
+01-09 13:56:58.804 I/System.out( 5076): 19
+01-09 13:56:59.805 I/System.out( 5076): 19
+01-09 13:57:00.796 I/System.out( 5076): 19
+01-09 13:57:01.807 I/System.out( 5076): 20
+01-09 13:57:02.808 I/System.out( 5076): 20
+01-09 13:57:02.908 D/dalvikvm(  704): GC_CONCURRENT freed 415K, 5% free 10401K/10932K, paused 9ms+3ms, total 55ms
+01-09 13:57:03.809 I/System.out( 5076): 20
+01-09 13:57:04.810 I/System.out( 5076): 20
+01-09 13:57:05.801 I/System.out( 5076): 20
+01-09 13:57:06.812 I/System.out( 5076): 20
+01-09 13:57:07.803 I/System.out( 5076): 20
+01-09 13:57:07.813 D/dalvikvm(  704): GC_CONCURRENT freed 429K, 5% free 10407K/10932K, paused 7ms+4ms, total 88ms
+01-09 13:57:08.814 I/System.out( 5076): 20
+01-09 13:57:09.805 I/System.out( 5076): 20
+01-09 13:57:09.815 D/dalvikvm( 5076): GC_CONCURRENT freed 401K, 5% free 9085K/9524K, paused 2ms+1ms, total 23ms
+01-09 13:57:10.806 I/System.out( 5076): 19
+01-09 13:57:11.797 I/System.out( 5076): 19
+01-09 13:57:12.407 D/dalvikvm(  704): GC_CONCURRENT freed 427K, 5% free 10408K/10932K, paused 7ms+4ms, total 61ms
+01-09 13:57:12.808 I/System.out( 5076): 19
+01-09 13:57:13.799 I/System.out( 5076): 20
+01-09 13:57:14.810 I/System.out( 5076): 20
+01-09 13:57:15.801 D/dalvikvm(  512): GC_CONCURRENT freed 1871K, 22% free 16753K/21220K, paused 9ms+8ms, total 133ms
+01-09 13:57:15.801 I/System.out( 5076): 19
+01-09 13:57:16.812 I/System.out( 5076): 19
+01-09 13:57:17.322 D/dalvikvm(  704): GC_CONCURRENT freed 427K, 5% free 10406K/10932K, paused 6ms+4ms, total 55ms
+01-09 13:57:17.813 I/System.out( 5076): 19
+01-09 13:57:18.814 I/System.out( 5076): 19
+01-09 13:57:19.825 I/System.out( 5076): 19
+01-09 13:57:20.826 I/System.out( 5076): 19
+01-09 13:57:21.817 I/System.out( 5076): 19
+01-09 13:57:21.997 D/dalvikvm(  704): GC_CONCURRENT freed 421K, 5% free 10399K/10932K, paused 6ms+3ms, total 57ms
+01-09 13:57:22.818 I/System.out( 5076): 18
+01-09 13:57:23.819 I/System.out( 5076): 19
+01-09 13:57:24.809 I/System.out( 5076): 19
+01-09 13:57:25.810 I/System.out( 5076): 19
+01-09 13:57:26.761 D/dalvikvm(  704): GC_CONCURRENT freed 409K, 5% free 10398K/10932K, paused 2ms+4ms, total 43ms
+01-09 13:57:26.811 I/System.out( 5076): 19
+01-09 13:57:27.822 I/System.out( 5076): 19
+01-09 13:57:28.813 I/System.out( 5076): 19
+01-09 13:57:29.824 I/System.out( 5076): 19
+01-09 13:57:30.805 I/System.out( 5076): 19
+01-09 13:57:31.566 D/dalvikvm(  704): GC_CONCURRENT freed 407K, 5% free 10401K/10932K, paused 3ms+3ms, total 47ms
+01-09 13:57:31.826 I/System.out( 5076): 19
+01-09 13:57:31.876 D/dalvikvm( 5076): GC_CONCURRENT freed 398K, 5% free 9083K/9524K, paused 6ms+2ms, total 61ms
+01-09 13:57:32.817 I/System.out( 5076): 19
+01-09 13:57:33.818 I/System.out( 5076): 19
+01-09 13:57:34.819 I/System.out( 5076): 19
+01-09 13:57:34.929 D/dalvikvm(  512): GC_CONCURRENT freed 1862K, 22% free 16751K/21220K, paused 20ms+7ms, total 128ms
+01-09 13:57:35.820 I/System.out( 5076): 19
+01-09 13:57:36.291 D/dalvikvm(  704): GC_CONCURRENT freed 412K, 5% free 10400K/10932K, paused 3ms+4ms, total 57ms
+01-09 13:57:36.841 I/System.out( 5076): 19
+01-09 13:57:37.832 I/System.out( 5076): 19
+01-09 13:57:38.823 I/System.out( 5076): 19
+01-09 13:57:39.824 I/System.out( 5076): 19
+01-09 13:57:40.825 I/System.out( 5076): 19
+01-09 13:57:41.075 D/dalvikvm(  704): GC_CONCURRENT freed 409K, 5% free 10398K/10932K, paused 3ms+3ms, total 53ms
+01-09 13:57:41.816 I/System.out( 5076): 19
+01-09 13:57:42.827 I/System.out( 5076): 19
+01-09 13:57:43.828 I/System.out( 5076): 19
+01-09 13:57:44.829 I/System.out( 5076): 19
+01-09 13:57:45.830 I/System.out( 5076): 19
+01-09 13:57:45.940 D/dalvikvm(  704): GC_CONCURRENT freed 412K, 5% free 10402K/10932K, paused 3ms+3ms, total 58ms
+01-09 13:57:46.831 I/System.out( 5076): 20
+01-09 13:57:47.832 I/System.out( 5076): 20
+01-09 13:57:48.833 I/System.out( 5076): 19
+01-09 13:57:49.834 I/System.out( 5076): 19
+01-09 13:57:50.815 D/dalvikvm(  704): GC_CONCURRENT freed 419K, 5% free 10404K/10932K, paused 8ms+3ms, total 54ms
+01-09 13:57:50.815 I/System.out( 5076): 19
+01-09 13:57:51.836 I/System.out( 5076): 19
+01-09 13:57:52.837 I/System.out( 5076): 18
+01-09 13:57:53.848 I/System.out( 5076): 19
+01-09 13:57:53.908 D/dalvikvm( 5076): GC_CONCURRENT freed 396K, 5% free 9083K/9520K, paused 5ms+11ms, total 80ms
+01-09 13:57:54.318 D/dalvikvm(  512): GC_CONCURRENT freed 1860K, 22% free 16751K/21220K, paused 9ms+7ms, total 127ms
+01-09 13:57:54.839 I/System.out( 5076): 19
+01-09 13:57:55.680 D/dalvikvm(  704): GC_CONCURRENT freed 412K, 5% free 10398K/10932K, paused 3ms+4ms, total 46ms
+01-09 13:57:55.830 I/System.out( 5076): 19
+01-09 13:57:56.841 I/System.out( 5076): 20
+01-09 13:57:57.832 I/System.out( 5076): 20
+01-09 13:57:58.843 I/System.out( 5076): 20
+01-09 13:57:59.834 I/System.out( 5076): 19
+01-09 13:58:00.544 D/dalvikvm(  704): GC_CONCURRENT freed 421K, 5% free 10405K/10932K, paused 7ms+3ms, total 72ms
+01-09 13:58:00.845 I/System.out( 5076): 19
+01-09 13:58:01.856 I/System.out( 5076): 20
+01-09 13:58:02.837 I/System.out( 5076): 20
+01-09 13:58:03.838 I/System.out( 5076): 20
+01-09 13:58:04.839 I/System.out( 5076): 20
+01-09 13:58:05.389 D/dalvikvm(  704): GC_CONCURRENT freed 430K, 5% free 10410K/10932K, paused 8ms+4ms, total 65ms
+01-09 13:58:05.850 I/System.out( 5076): 20
+01-09 13:58:06.841 I/System.out( 5076): 19
+01-09 13:58:07.851 I/System.out( 5076): 19
+01-09 13:58:08.842 I/System.out( 5076): 19
+01-09 13:58:09.853 I/System.out( 5076): 19
+01-09 13:58:10.274 D/dalvikvm(  704): GC_CONCURRENT freed 420K, 5% free 10404K/10932K, paused 2ms+4ms, total 47ms
+01-09 13:58:10.874 I/System.out( 5076): 19
+01-09 13:58:11.845 I/System.out( 5076): 20
+01-09 13:58:12.856 I/System.out( 5076): 20
+01-09 13:58:13.027 D/dalvikvm(  512): GC_CONCURRENT freed 1872K, 22% free 16750K/21220K, paused 8ms+8ms, total 141ms
+01-09 13:58:13.847 I/System.out( 5076): 20
+01-09 13:58:14.878 I/System.out( 5076): 20
+01-09 13:58:14.928 D/dalvikvm( 5076): GC_CONCURRENT freed 389K, 5% free 9082K/9520K, paused 5ms+5ms, total 76ms
+01-09 13:58:14.998 D/dalvikvm(  704): GC_CONCURRENT freed 422K, 5% free 10413K/10932K, paused 3ms+4ms, total 54ms
+01-09 13:58:15.859 I/System.out( 5076): 20
+01-09 13:58:16.860 I/System.out( 5076): 20
+01-09 13:58:17.861 I/System.out( 5076): 19
+01-09 13:58:18.862 I/System.out( 5076): 20
+01-09 13:58:19.853 I/System.out( 5076): 20
+01-09 13:58:19.863 D/dalvikvm(  704): GC_CONCURRENT freed 431K, 5% free 10410K/10932K, paused 9ms+3ms, total 77ms
+01-09 13:58:20.864 I/System.out( 5076): 20
+01-09 13:58:21.855 I/System.out( 5076): 20
+01-09 13:58:22.856 I/System.out( 5076): 20
+01-09 13:58:23.857 I/System.out( 5076): 20
+01-09 13:58:24.728 D/dalvikvm(  704): GC_CONCURRENT freed 434K, 5% free 10408K/10932K, paused 7ms+3ms, total 85ms
+01-09 13:58:24.858 I/System.out( 5076): 19
+01-09 13:58:25.859 I/System.out( 5076): 19
+01-09 13:58:26.860 I/System.out( 5076): 19
+01-09 13:58:27.871 I/System.out( 5076): 19
+01-09 13:58:28.862 I/System.out( 5076): 20
+01-09 13:58:29.503 D/dalvikvm(  704): GC_CONCURRENT freed 420K, 5% free 10411K/10932K, paused 6ms+3ms, total 56ms
+01-09 13:58:29.873 I/System.out( 5076): 21
+01-09 13:58:30.864 I/System.out( 5076): 21
+01-09 13:58:31.515 D/dalvikvm(  512): GC_CONCURRENT freed 1883K, 22% free 16746K/21220K, paused 16ms+7ms, total 135ms
+01-09 13:58:31.865 I/System.out( 5076): 21
+01-09 13:58:32.856 I/System.out( 5076): 20
+01-09 13:58:33.867 I/System.out( 5076): 20
+01-09 13:58:34.257 D/dalvikvm(  704): GC_CONCURRENT freed 433K, 5% free 10422K/10932K, paused 7ms+5ms, total 68ms
+01-09 13:58:34.868 I/System.out( 5076): 19
+01-09 13:58:35.879 I/System.out( 5076): 19
+01-09 13:58:35.939 D/dalvikvm( 5076): GC_CONCURRENT freed 392K, 5% free 9082K/9520K, paused 5ms+8ms, total 73ms
+01-09 13:58:36.900 I/System.out( 5076): 19
+01-09 13:58:37.861 I/System.out( 5076): 19
+01-09 13:58:38.872 I/System.out( 5076): 19
+01-09 13:58:39.102 D/dalvikvm(  704): GC_CONCURRENT freed 424K, 5% free 10409K/10932K, paused 8ms+3ms, total 59ms
+01-09 13:58:39.863 I/System.out( 5076): 19
+01-09 13:58:40.874 I/System.out( 5076): 20
+01-09 13:58:41.875 I/System.out( 5076): 20
+01-09 13:58:42.866 I/System.out( 5076): 20
+01-09 13:58:43.857 D/dalvikvm(  704): GC_CONCURRENT freed 422K, 5% free 10416K/10932K, paused 6ms+3ms, total 69ms
+01-09 13:58:43.867 I/System.out( 5076): 19
+01-09 13:58:44.878 I/System.out( 5076): 20
+01-09 13:58:45.879 I/System.out( 5076): 19
+01-09 13:58:46.880 I/System.out( 5076): 19
+01-09 13:58:47.881 I/System.out( 5076): 19
+01-09 13:58:48.701 D/dalvikvm(  704): GC_CONCURRENT freed 421K, 5% free 10412K/10932K, paused 7ms+3ms, total 60ms
+01-09 13:58:48.872 I/System.out( 5076): 19
+01-09 13:58:49.882 I/System.out( 5076): 19
+01-09 13:58:50.753 D/dalvikvm(  512): GC_CONCURRENT freed 1890K, 22% free 16755K/21220K, paused 20ms+8ms, total 118ms
+01-09 13:58:50.873 I/System.out( 5076): 19
+01-09 13:58:51.884 I/System.out( 5076): 19
+01-09 13:58:52.865 I/System.out( 5076): 19
+01-09 13:58:53.566 D/dalvikvm(  704): GC_CONCURRENT freed 413K, 5% free 10409K/10932K, paused 3ms+3ms, total 44ms
+01-09 13:58:53.876 I/System.out( 5076): 19
+01-09 13:58:54.887 I/System.out( 5076): 19
+01-09 13:58:55.868 I/System.out( 5076): 19
+01-09 13:58:56.869 I/System.out( 5076): 20
+01-09 13:58:57.890 I/System.out( 5076): 20
+01-09 13:58:57.940 D/dalvikvm( 5076): GC_CONCURRENT freed 399K, 5% free 9084K/9520K, paused 5ms+3ms, total 60ms
+01-09 13:58:58.201 D/dalvikvm(  704): GC_CONCURRENT freed 418K, 5% free 10412K/10932K, paused 2ms+11ms, total 83ms
+01-09 13:58:58.891 I/System.out( 5076): 20
+01-09 13:58:59.892 I/System.out( 5076): 20
+01-09 13:59:00.883 I/System.out( 5076): 20
+01-09 13:59:01.894 I/System.out( 5076): 20
+01-09 13:59:02.885 I/System.out( 5076): 20
+01-09 13:59:03.055 D/dalvikvm(  704): GC_CONCURRENT freed 428K, 5% free 10418K/10932K, paused 8ms+3ms, total 75ms
+01-09 13:59:03.876 I/System.out( 5076): 20
+01-09 13:59:04.887 I/System.out( 5076): 20
+01-09 13:59:05.878 I/System.out( 5076): 20
+01-09 13:59:06.889 I/System.out( 5076): 20
+01-09 13:59:07.890 I/System.out( 5076): 20
+01-09 13:59:08.000 D/dalvikvm(  704): GC_CONCURRENT freed 434K, 5% free 10418K/10932K, paused 2ms+4ms, total 50ms
+01-09 13:59:08.891 I/System.out( 5076): 20
+01-09 13:59:09.442 D/dalvikvm(  512): GC_CONCURRENT freed 1881K, 22% free 16750K/21220K, paused 9ms+7ms, total 121ms
+01-09 13:59:09.892 I/System.out( 5076): 20
+01-09 13:59:10.893 I/System.out( 5076): 19
+01-09 13:59:11.894 I/System.out( 5076): 20
+01-09 13:59:12.815 D/dalvikvm(  704): GC_CONCURRENT freed 431K, 5% free 10418K/10932K, paused 7ms+3ms, total 74ms
+01-09 13:59:12.885 I/System.out( 5076): 20
+01-09 13:59:13.886 I/System.out( 5076): 20
+01-09 13:59:14.887 I/System.out( 5076): 20
+01-09 13:59:15.898 I/System.out( 5076): 20
+01-09 13:59:16.899 I/System.out( 5076): 19
+01-09 13:59:17.600 D/dalvikvm(  704): GC_CONCURRENT freed 430K, 5% free 10416K/10932K, paused 5ms+4ms, total 76ms
+01-09 13:59:17.900 I/System.out( 5076): 19
+01-09 13:59:18.921 I/System.out( 5076): 19
+01-09 13:59:18.971 D/dalvikvm( 5076): GC_CONCURRENT freed 395K, 5% free 9083K/9520K, paused 6ms+2ms, total 82ms
+01-09 13:59:19.902 I/System.out( 5076): 19
+01-09 13:59:20.903 I/System.out( 5076): 19
+01-09 13:59:21.894 I/System.out( 5076): 19
+01-09 13:59:22.424 D/dalvikvm(  704): GC_CONCURRENT freed 423K, 5% free 10407K/10932K, paused 6ms+3ms, total 59ms
+01-09 13:59:22.905 I/System.out( 5076): 19
+01-09 13:59:23.886 I/System.out( 5076): 19
+01-09 13:59:24.897 I/System.out( 5076): 19
+01-09 13:59:25.888 I/System.out( 5076): 19
+01-09 13:59:26.899 I/System.out( 5076): 19
+01-09 13:59:27.179 D/dalvikvm(  704): GC_CONCURRENT freed 409K, 5% free 10409K/10932K, paused 3ms+4ms, total 48ms
+01-09 13:59:27.890 I/System.out( 5076): 19
+01-09 13:59:28.600 D/dalvikvm(  512): GC_CONCURRENT freed 1898K, 22% free 16750K/21220K, paused 18ms+7ms, total 136ms
+01-09 13:59:28.901 I/System.out( 5076): 19
+01-09 13:59:29.892 I/System.out( 5076): 19
+01-09 13:59:30.903 I/System.out( 5076): 19
+01-09 13:59:31.903 I/System.out( 5076): 19
+01-09 13:59:32.024 D/dalvikvm(  704): GC_CONCURRENT freed 413K, 5% free 10407K/10932K, paused 3ms+4ms, total 51ms
+01-09 13:59:32.904 I/System.out( 5076): 19
+01-09 13:59:33.915 I/System.out( 5076): 19
+01-09 13:59:34.886 I/System.out( 5076): 19
+01-09 13:59:35.897 I/System.out( 5076): 18
+01-09 13:59:36.748 D/dalvikvm(  704): GC_CONCURRENT freed 408K, 5% free 10404K/10932K, paused 9ms+4ms, total 60ms
+01-09 13:59:36.898 I/System.out( 5076): 19
+01-09 13:59:37.909 I/System.out( 5076): 19
+01-09 13:59:38.900 I/System.out( 5076): 19
+01-09 13:59:39.911 I/System.out( 5076): 19
+01-09 13:59:40.902 I/System.out( 5076): 19
+01-09 13:59:40.922 D/dalvikvm( 5076): GC_CONCURRENT freed 401K, 5% free 9075K/9520K, paused 2ms+2ms, total 20ms
+01-09 13:59:41.563 D/dalvikvm(  704): GC_CONCURRENT freed 410K, 5% free 10404K/10932K, paused 7ms+4ms, total 57ms
+01-09 13:59:41.913 I/System.out( 5076): 19
+01-09 13:59:42.904 I/System.out( 5076): 19
+01-09 13:59:43.905 I/System.out( 5076): 19
+01-09 13:59:44.906 I/System.out( 5076): 19
+01-09 13:59:45.907 I/System.out( 5076): 19
+01-09 13:59:46.338 D/dalvikvm(  704): GC_CONCURRENT freed 412K, 5% free 10402K/10932K, paused 4ms+3ms, total 41ms
+01-09 13:59:46.898 I/System.out( 5076): 20
+01-09 13:59:47.649 D/dalvikvm(  512): GC_CONCURRENT freed 1870K, 22% free 16732K/21220K, paused 15ms+8ms, total 110ms
+01-09 13:59:47.899 I/System.out( 5076): 20
+01-09 13:59:48.920 I/System.out( 5076): 20
+01-09 13:59:49.911 I/System.out( 5076): 20
+01-09 13:59:50.912 I/System.out( 5076): 20
+01-09 13:59:51.072 D/dalvikvm(  704): GC_CONCURRENT freed 427K, 5% free 10410K/10932K, paused 7ms+4ms, total 49ms
+01-09 13:59:51.903 I/System.out( 5076): 20
+01-09 13:59:52.924 I/System.out( 5076): 20
+01-09 13:59:53.905 I/System.out( 5076): 20
+01-09 13:59:54.916 I/System.out( 5076): 20
+01-09 13:59:55.907 I/System.out( 5076): 20
+01-09 13:59:55.937 D/dalvikvm(  704): GC_CONCURRENT freed 431K, 5% free 10414K/10932K, paused 7ms+4ms, total 101ms
+01-09 13:59:56.918 I/System.out( 5076): 20
+01-09 13:59:57.919 I/System.out( 5076): 20
+01-09 13:59:58.920 I/System.out( 5076): 20
+01-09 13:59:59.951 I/System.out( 5076): 20
+01-09 14:00:00.772 D/dalvikvm(  704): GC_CONCURRENT freed 433K, 5% free 10415K/10932K, paused 6ms+4ms, total 86ms
+01-09 14:00:00.912 I/System.out( 5076): 20
+01-09 14:00:01.292 V/DigitalWidgetViewsFactory( 4127): DigitalWidget sets next alarm string to null
+01-09 14:00:01.933 I/System.out( 5076): 19
+01-09 14:00:01.993 D/dalvikvm( 5076): GC_CONCURRENT freed 384K, 5% free 9082K/9520K, paused 5ms+7ms, total 70ms
+01-09 14:00:02.924 I/System.out( 5076): 18
+01-09 14:00:03.925 I/System.out( 5076): 18
+01-09 14:00:04.926 I/System.out( 5076): 18
+01-09 14:00:05.436 D/dalvikvm(  704): GC_CONCURRENT freed 411K, 5% free 10398K/10932K, paused 2ms+3ms, total 33ms
+01-09 14:00:05.917 I/System.out( 5076): 18
+01-09 14:00:06.077 D/dalvikvm(  512): GC_CONCURRENT freed 1856K, 22% free 16758K/21220K, paused 8ms+7ms, total 119ms
+01-09 14:00:06.928 I/System.out( 5076): 18
+01-09 14:00:07.929 I/System.out( 5076): 18
+01-09 14:00:08.930 I/System.out( 5076): 19
+01-09 14:00:09.931 I/System.out( 5076): 19
+01-09 14:00:10.011 D/dalvikvm(  704): GC_CONCURRENT freed 400K, 5% free 10399K/10932K, paused 3ms+3ms, total 40ms
+01-09 14:00:10.932 I/System.out( 5076): 19
+01-09 14:00:11.933 I/System.out( 5076): 19
+01-09 14:00:12.934 I/System.out( 5076): 19
+01-09 14:00:13.945 I/System.out( 5076): 18
+01-09 14:00:14.735 D/dalvikvm(  704): GC_CONCURRENT freed 402K, 5% free 10396K/10932K, paused 7ms+4ms, total 46ms
+01-09 14:00:14.925 I/System.out( 5076): 17
+01-09 14:00:15.936 I/System.out( 5076): 17
+01-09 14:00:16.937 I/System.out( 5076): 17
+01-09 14:00:17.928 I/System.out( 5076): 17
+01-09 14:00:18.939 I/System.out( 5076): 17
+01-09 14:00:19.940 I/System.out( 5076): 18
+01-09 14:00:20.080 D/dalvikvm(  704): GC_CONCURRENT freed 425K, 5% free 10405K/10932K, paused 14ms+3ms, total 65ms
+01-09 14:00:20.941 I/System.out( 5076): 18
+01-09 14:00:21.942 I/System.out( 5076): 19
+01-09 14:00:22.943 I/System.out( 5076): 19
+01-09 14:00:23.944 I/System.out( 5076): 19
+01-09 14:00:24.765 D/dalvikvm(  704): GC_CONCURRENT freed 424K, 5% free 10393K/10932K, paused 6ms+4ms, total 61ms
+01-09 14:00:24.935 I/System.out( 5076): 19
+01-09 14:00:24.985 D/dalvikvm( 5076): GC_CONCURRENT freed 397K, 5% free 9083K/9520K, paused 4ms+4ms, total 55ms
+01-09 14:00:25.446 D/dalvikvm(  512): GC_CONCURRENT freed 1872K, 22% free 16741K/21220K, paused 9ms+7ms, total 115ms
+01-09 14:00:25.936 I/System.out( 5076): 19
+01-09 14:00:26.937 I/System.out( 5076): 18
+01-09 14:00:27.938 I/System.out( 5076): 18
+01-09 14:00:28.939 I/System.out( 5076): 17
+01-09 14:00:29.490 D/dalvikvm(  704): GC_CONCURRENT freed 398K, 5% free 10391K/10932K, paused 3ms+3ms, total 46ms
+01-09 14:00:29.950 I/System.out( 5076): 18
+01-09 14:00:30.941 I/System.out( 5076): 19
+01-09 14:00:31.952 I/System.out( 5076): 20
+01-09 14:00:32.943 I/System.out( 5076): 21
+01-09 14:00:33.954 I/System.out( 5076): 21
+01-09 14:00:34.224 D/dalvikvm(  704): GC_CONCURRENT freed 422K, 5% free 10407K/10932K, paused 5ms+4ms, total 49ms
+01-09 14:00:34.935 I/System.out( 5076): 21
+01-09 14:00:35.956 I/System.out( 5076): 21
+01-09 14:00:36.947 I/System.out( 5076): 20
+01-09 14:00:37.948 I/System.out( 5076): 21
+01-09 14:00:38.949 I/System.out( 5076): 21
+01-09 14:00:39.069 D/dalvikvm(  704): GC_CONCURRENT freed 446K, 5% free 10413K/10932K, paused 5ms+3ms, total 68ms
+01-09 14:00:39.960 I/System.out( 5076): 21
+01-09 14:00:40.961 I/System.out( 5076): 20
+01-09 14:00:41.952 I/System.out( 5076): 20
+01-09 14:00:42.953 I/System.out( 5076): 19
+01-09 14:00:43.704 D/dalvikvm(  512): GC_CONCURRENT freed 1848K, 22% free 16756K/21220K, paused 17ms+7ms, total 127ms
+01-09 14:00:43.744 D/dalvikvm(  704): GC_CONCURRENT freed 439K, 5% free 10408K/10932K, paused 6ms+3ms, total 30ms
+01-09 14:00:43.954 I/System.out( 5076): 19
+01-09 14:00:44.955 I/System.out( 5076): 18
+01-09 14:00:45.966 I/System.out( 5076): 18
+01-09 14:00:46.006 D/dalvikvm( 5076): GC_CONCURRENT freed 389K, 5% free 9081K/9520K, paused 6ms+2ms, total 54ms
+01-09 14:00:46.967 I/System.out( 5076): 17
+01-09 14:00:47.968 I/System.out( 5076): 17
+01-09 14:00:48.969 I/System.out( 5076): 17
+01-09 14:00:49.059 D/dalvikvm(  704): GC_CONCURRENT freed 437K, 5% free 10407K/10932K, paused 4ms+4ms, total 49ms
+01-09 14:00:49.970 I/System.out( 5076): 17
+01-09 14:00:50.971 I/System.out( 5076): 18
+01-09 14:00:51.972 I/System.out( 5076): 18
+01-09 14:00:52.983 I/System.out( 5076): 19
+01-09 14:00:53.783 D/dalvikvm(  704): GC_CONCURRENT freed 409K, 5% free 10396K/10932K, paused 6ms+4ms, total 52ms
+01-09 14:00:53.974 I/System.out( 5076): 19
+01-09 14:00:54.975 I/System.out( 5076): 19
+01-09 14:00:55.966 I/System.out( 5076): 21
+01-09 14:00:56.976 I/System.out( 5076): 21
+01-09 14:00:57.977 I/System.out( 5076): 21
+01-09 14:00:58.468 D/dalvikvm(  704): GC_CONCURRENT freed 427K, 5% free 10411K/10932K, paused 6ms+4ms, total 83ms
+01-09 14:00:58.978 I/System.out( 5076): 21
+01-09 14:00:59.979 I/System.out( 5076): 21
+01-09 14:01:00.990 I/System.out( 5076): 21
+01-09 14:01:01.981 I/System.out( 5076): 19
+01-09 14:01:02.402 D/dalvikvm(  512): GC_CONCURRENT freed 1868K, 22% free 16751K/21220K, paused 8ms+7ms, total 135ms
+01-09 14:01:02.982 I/System.out( 5076): 19
+01-09 14:01:03.022 D/dalvikvm(  704): GC_CONCURRENT freed 432K, 5% free 10409K/10932K, paused 14ms+4ms, total 57ms
+01-09 14:01:03.983 I/System.out( 5076): 19
+01-09 14:01:04.984 I/System.out( 5076): 19
+01-09 14:01:05.965 I/System.out( 5076): 18
+01-09 14:01:06.976 I/System.out( 5076): 18
+01-09 14:01:07.847 D/dalvikvm(  704): GC_CONCURRENT freed 408K, 5% free 10396K/10932K, paused 3ms+3ms, total 44ms
+01-09 14:01:07.967 I/System.out( 5076): 18
+01-09 14:01:07.987 D/dalvikvm( 5076): GC_CONCURRENT freed 401K, 5% free 9075K/9516K, paused 1ms+2ms, total 20ms
+01-09 14:01:08.998 I/System.out( 5076): 19
+01-09 14:01:09.969 I/System.out( 5076): 18
+01-09 14:01:10.980 I/System.out( 5076): 19
+01-09 14:01:11.991 I/System.out( 5076): 19
+01-09 14:01:12.872 D/dalvikvm(  704): GC_CONCURRENT freed 402K, 5% free 10401K/10932K, paused 6ms+3ms, total 57ms
+01-09 14:01:12.982 I/System.out( 5076): 19
+01-09 14:01:13.993 I/System.out( 5076): 20
+01-09 14:01:14.994 I/System.out( 5076): 20
+01-09 14:01:15.985 I/System.out( 5076): 20
+01-09 14:01:16.986 I/System.out( 5076): 19
+01-09 14:01:17.406 D/dalvikvm(  704): GC_CONCURRENT freed 421K, 5% free 10408K/10932K, paused 8ms+3ms, total 61ms
+01-09 14:01:17.987 I/System.out( 5076): 19
+01-09 14:01:18.988 I/System.out( 5076): 18
+01-09 14:01:19.989 I/System.out( 5076): 18
+01-09 14:01:20.990 I/System.out( 5076): 18
+01-09 14:01:21.991 I/System.out( 5076): 18
+01-09 14:01:22.221 D/dalvikvm(  512): GC_CONCURRENT freed 1900K, 22% free 16763K/21220K, paused 20ms+7ms, total 132ms
+01-09 14:01:22.241 D/dalvikvm(  704): GC_CONCURRENT freed 414K, 5% free 10393K/10932K, paused 3ms+4ms, total 26ms
+01-09 14:01:22.992 I/System.out( 5076): 19
+01-09 14:01:24.013 I/System.out( 5076): 19
+01-09 14:01:25.004 I/System.out( 5076): 19
+01-09 14:01:26.005 I/System.out( 5076): 19
+01-09 14:01:26.836 D/dalvikvm(  704): GC_CONCURRENT freed 407K, 5% free 10397K/10932K, paused 3ms+4ms, total 37ms
+01-09 14:01:26.986 I/System.out( 5076): 19
+01-09 14:01:28.007 I/System.out( 5076): 19
+01-09 14:01:29.008 I/System.out( 5076): 19
+01-09 14:01:30.009 I/System.out( 5076): 19
+01-09 14:01:30.079 D/dalvikvm( 5076): GC_CONCURRENT freed 387K, 5% free 9082K/9516K, paused 6ms+10ms, total 78ms
+01-09 14:01:31.000 I/System.out( 5076): 20
+01-09 14:01:31.780 D/dalvikvm(  704): GC_CONCURRENT freed 414K, 5% free 10404K/10932K, paused 2ms+4ms, total 52ms
+01-09 14:01:32.011 I/System.out( 5076): 20
+01-09 14:01:33.022 I/System.out( 5076): 21
+01-09 14:01:34.003 I/System.out( 5076): 21
+01-09 14:01:35.014 I/System.out( 5076): 21
+01-09 14:01:35.914 D/dalvikvm(  704): GC_CONCURRENT freed 395K, 5% free 10400K/10932K, paused 2ms+3ms, total 44ms
+01-09 14:01:36.005 I/System.out( 5076): 21
+01-09 14:01:37.016 I/System.out( 5076): 20
+01-09 14:01:38.007 I/System.out( 5076): 19
+01-09 14:01:39.018 I/System.out( 5076): 19
+01-09 14:01:40.008 I/System.out( 5076): 20
+01-09 14:01:40.659 D/dalvikvm(  512): GC_CONCURRENT freed 1882K, 22% free 16735K/21220K, paused 2ms+6ms, total 89ms
+01-09 14:01:40.679 D/dalvikvm(  704): GC_CONCURRENT freed 414K, 5% free 10410K/10932K, paused 8ms+3ms, total 129ms
+01-09 14:01:41.009 I/System.out( 5076): 20
+01-09 14:01:42.010 I/System.out( 5076): 20
+01-09 14:01:43.021 I/System.out( 5076): 20
+01-09 14:01:44.012 I/System.out( 5076): 19
+01-09 14:01:45.023 I/System.out( 5076): 19
+01-09 14:01:45.294 D/dalvikvm(  704): GC_CONCURRENT freed 423K, 5% free 10405K/10932K, paused 19ms+4ms, total 67ms
+01-09 14:01:46.014 I/System.out( 5076): 18
+01-09 14:01:47.015 I/System.out( 5076): 18
+01-09 14:01:48.016 I/System.out( 5076): 18
+01-09 14:01:49.017 I/System.out( 5076): 18
+01-09 14:01:50.008 D/dalvikvm(  704): GC_CONCURRENT freed 401K, 5% free 10392K/10932K, paused 7ms+3ms, total 46ms
+01-09 14:01:50.008 I/System.out( 5076): 18
+01-09 14:01:51.019 I/System.out( 5076): 17
+01-09 14:01:52.010 I/System.out( 5076): 19
+01-09 14:01:52.030 D/dalvikvm( 5076): GC_CONCURRENT freed 409K, 5% free 9077K/9524K, paused 1ms+2ms, total 20ms
+01-09 14:01:53.031 I/System.out( 5076): 20
+01-09 14:01:54.022 I/System.out( 5076): 20
+01-09 14:01:54.653 D/dalvikvm(  704): GC_CONCURRENT freed 407K, 5% free 10405K/10932K, paused 6ms+3ms, total 66ms
+01-09 14:01:55.033 I/System.out( 5076): 20
+01-09 14:01:56.024 I/System.out( 5076): 21
+01-09 14:01:57.025 I/System.out( 5076): 20
+01-09 14:01:58.026 I/System.out( 5076): 20
+01-09 14:01:59.027 I/System.out( 5076): 20
+01-09 14:01:59.598 D/dalvikvm(  512): GC_CONCURRENT freed 1857K, 22% free 16754K/21220K, paused 19ms+6ms, total 118ms
+01-09 14:01:59.618 D/dalvikvm(  704): GC_CONCURRENT freed 430K, 5% free 10414K/10932K, paused 4ms+3ms, total 66ms
+01-09 14:01:59.988 I/ActivityManager(  512): No longer want com.google.android.music:main (pid 4393): empty for 1849s
+01-09 14:02:00.028 I/System.out( 5076): 20
+01-09 14:02:00.058 W/ActivityManager(  512): Scheduling restart of crashed service com.google.android.music/.playback.MusicPlaybackService in 5000ms
+01-09 14:02:01.019 I/System.out( 5076): 20
+01-09 14:02:02.040 I/System.out( 5076): 20
+01-09 14:02:03.031 I/System.out( 5076): 21
+01-09 14:02:04.032 I/System.out( 5076): 20
+01-09 14:02:04.192 D/dalvikvm(  704): GC_CONCURRENT freed 440K, 5% free 10417K/10932K, paused 7ms+4ms, total 74ms
+01-09 14:02:05.033 I/System.out( 5076): 20
+01-09 14:02:05.123 I/ActivityManager(  512): Start proc com.google.android.music:main for service com.google.android.music/.playback.MusicPlaybackService: pid=5502 uid=10041 gids={50041, 3003, 1015, 1028}
+01-09 14:02:05.183 I/MusicStore( 5502): Database version: 70
+01-09 14:02:05.253 D/dalvikvm( 5502): GC_CONCURRENT freed 286K, 4% free 9090K/9412K, paused 3ms+2ms, total 33ms
+01-09 14:02:05.253 D/dalvikvm( 5502): WAIT_FOR_CONCURRENT_GC blocked 6ms
+01-09 14:02:05.333 D/SystemUtils( 5502): getSystemProperty: lpa.decode=null
+01-09 14:02:05.343 D/CacheService( 5502): onCreate
+01-09 14:02:05.343 D/CacheService( 5502): onBind
+01-09 14:02:05.363 I/LocalDevicePlayback( 5502): Streaming client created.
+01-09 14:02:06.034 I/System.out( 5076): 19
+01-09 14:02:06.414 D/dalvikvm( 5502): GC_CONCURRENT freed 223K, 3% free 9311K/9572K, paused 4ms+4ms, total 38ms
+01-09 14:02:06.464 I/MediaStoreImporter( 5502): Update: incremental Added music: 0 Updated music: 0 Deleted music: 0 Created playlists: 0 Updated playlists: 0 Deleted playlists: 0 Inserted playlist items: 0 Deleted playlist items: 0 Removed orphaned playlist items: 0
+01-09 14:02:07.035 I/System.out( 5076): 18
+01-09 14:02:08.026 I/System.out( 5076): 17
+01-09 14:02:08.616 D/dalvikvm(  704): GC_CONCURRENT freed 412K, 5% free 10401K/10932K, paused 7ms+3ms, total 43ms
+01-09 14:02:09.037 I/System.out( 5076): 17
+01-09 14:02:10.028 I/System.out( 5076): 19
+01-09 14:02:10.378 I/MusicLeanback( 5502): Conditions not met for autocaching.
+01-09 14:02:10.378 I/MusicLeanback( 5502): Stop autocaching.
+01-09 14:02:11.039 I/System.out( 5076): 19
+01-09 14:02:12.030 I/System.out( 5076): 19
+01-09 14:02:13.051 I/System.out( 5076): 19
+01-09 14:02:13.101 D/dalvikvm( 5076): GC_CONCURRENT freed 382K, 5% free 9082K/9520K, paused 6ms+2ms, total 60ms
+01-09 14:02:13.281 D/dalvikvm(  704): GC_CONCURRENT freed 406K, 5% free 10406K/10932K, paused 2ms+4ms, total 52ms
+01-09 14:02:14.032 I/System.out( 5076): 19
+01-09 14:02:15.043 I/System.out( 5076): 19
+01-09 14:02:16.044 I/System.out( 5076): 19
+01-09 14:02:16.614 D/dalvikvm(  512): GC_CONCURRENT freed 1855K, 22% free 16751K/21220K, paused 26ms+7ms, total 105ms
+01-09 14:02:17.055 I/System.out( 5076): 19
+01-09 14:02:17.915 D/dalvikvm(  704): GC_CONCURRENT freed 412K, 5% free 10404K/10932K, paused 6ms+4ms, total 52ms
+01-09 14:02:18.036 I/System.out( 5076): 19
+01-09 14:02:19.047 I/System.out( 5076): 19
+01-09 14:02:20.038 I/System.out( 5076): 20
+01-09 14:02:21.049 I/System.out( 5076): 21
+01-09 14:02:22.039 I/System.out( 5076): 21
+01-09 14:02:22.039 I/System.out( 5076): Battery level end is reached
+01-09 14:02:22.039 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:22.720 D/dalvikvm(  704): GC_CONCURRENT freed 438K, 5% free 10413K/10932K, paused 5ms+4ms, total 76ms
+01-09 14:02:23.050 I/System.out( 5076): 21
+01-09 14:02:23.050 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:24.041 I/System.out( 5076): 21
+01-09 14:02:24.041 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:25.052 I/System.out( 5076): 21
+01-09 14:02:25.052 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:26.043 I/System.out( 5076): 20
+01-09 14:02:26.043 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:27.054 I/System.out( 5076): 19
+01-09 14:02:27.054 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:27.525 D/dalvikvm(  704): GC_CONCURRENT freed 437K, 5% free 10417K/10932K, paused 6ms+5ms, total 66ms
+01-09 14:02:28.045 I/System.out( 5076): 19
+01-09 14:02:28.045 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:29.046 I/System.out( 5076): 20
+01-09 14:02:29.046 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:30.057 I/System.out( 5076): 19
+01-09 14:02:30.057 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:31.048 I/System.out( 5076): 19
+01-09 14:02:31.048 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:32.059 I/System.out( 5076): 19
+01-09 14:02:32.059 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:32.430 D/dalvikvm(  704): GC_CONCURRENT freed 426K, 5% free 10416K/10932K, paused 5ms+3ms, total 67ms
+01-09 14:02:33.050 I/System.out( 5076): 19
+01-09 14:02:33.050 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:34.071 I/System.out( 5076): 18
+01-09 14:02:34.071 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:34.121 D/dalvikvm( 5076): GC_CONCURRENT freed 396K, 5% free 9084K/9520K, paused 5ms+2ms, total 67ms
+01-09 14:02:35.032 D/dalvikvm(  512): GC_CONCURRENT freed 1846K, 21% free 16769K/21220K, paused 8ms+7ms, total 140ms
+01-09 14:02:35.052 I/System.out( 5076): 17
+01-09 14:02:35.052 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:36.053 I/System.out( 5076): 17
+01-09 14:02:36.063 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:36.894 D/dalvikvm(  704): GC_CONCURRENT freed 403K, 5% free 10405K/10932K, paused 2ms+3ms, total 45ms
+01-09 14:02:37.054 I/System.out( 5076): 18
+01-09 14:02:37.064 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:38.065 I/System.out( 5076): 19
+01-09 14:02:38.085 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:39.046 I/System.out( 5076): 19
+01-09 14:02:39.046 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:40.077 I/System.out( 5076): 19
+01-09 14:02:40.077 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:41.048 I/System.out( 5076): 19
+01-09 14:02:41.048 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:41.799 D/dalvikvm(  704): GC_CONCURRENT freed 416K, 5% free 10416K/10932K, paused 3ms+4ms, total 51ms
+01-09 14:02:42.059 I/System.out( 5076): 20
+01-09 14:02:42.079 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:43.060 I/System.out( 5076): 19
+01-09 14:02:43.110 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:44.051 I/System.out( 5076): 19
+01-09 14:02:44.051 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:45.062 I/System.out( 5076): 19
+01-09 14:02:45.072 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:46.053 I/System.out( 5076): 19
+01-09 14:02:46.053 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:46.653 D/dalvikvm(  704): GC_CONCURRENT freed 419K, 5% free 10408K/10932K, paused 2ms+4ms, total 38ms
+01-09 14:02:47.064 I/System.out( 5076): 19
+01-09 14:02:47.074 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:48.055 I/System.out( 5076): 19
+01-09 14:02:48.055 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:49.066 I/System.out( 5076): 19
+01-09 14:02:49.066 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:50.057 I/System.out( 5076): 19
+01-09 14:02:50.057 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:51.068 I/System.out( 5076): 19
+01-09 14:02:51.068 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:51.188 D/dalvikvm(  704): GC_CONCURRENT freed 413K, 5% free 10406K/10932K, paused 2ms+3ms, total 44ms
+01-09 14:02:52.069 I/System.out( 5076): 19
+01-09 14:02:52.069 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:53.060 I/System.out( 5076): 19
+01-09 14:02:53.060 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:54.061 I/System.out( 5076): 19
+01-09 14:02:54.071 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:54.401 D/dalvikvm(  512): GC_CONCURRENT freed 1920K, 22% free 16760K/21220K, paused 4ms+7ms, total 75ms
+01-09 14:02:55.072 I/System.out( 5076): 20
+01-09 14:02:55.072 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:55.092 D/dalvikvm( 5076): GC_CONCURRENT freed 391K, 5% free 9084K/9520K, paused 1ms+2ms, total 28ms
+01-09 14:02:55.652 D/dalvikvm(  704): GC_CONCURRENT freed 413K, 5% free 10410K/10932K, paused 3ms+5ms, total 44ms
+01-09 14:02:56.073 I/System.out( 5076): 20
+01-09 14:02:56.073 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:57.074 I/System.out( 5076): 20
+01-09 14:02:57.074 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:58.075 I/System.out( 5076): 20
+01-09 14:02:58.085 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:59.066 I/System.out( 5076): 20
+01-09 14:02:59.086 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:02:59.306 I/EntropyMixer(  512): Writing entropy...
+01-09 14:02:59.336 W/PowerUI (  585): unknown intent: Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x8000010 }
+01-09 14:02:59.356 D/PicasaUploaderSyncManager( 4521): battery info: true
+01-09 14:02:59.376 D/PicasaSyncManager( 4488): battery info: true
+01-09 14:03:00.067 I/System.out( 5076): 20
+01-09 14:03:00.067 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:00.407 D/MtpService( 4504): updating state; isCurrentUser=true, mMtpLocked=false
+01-09 14:03:00.407 D/MtpService( 4504): addStorageLocked 65537 /storage/emulated/0
+01-09 14:03:00.417 D/MtpService( 4504): updating state; isCurrentUser=true, mMtpLocked=false
+01-09 14:03:00.417 D/MtpService( 4504): starting MTP server in MTP mode
+01-09 14:03:00.417 D/MtpService( 4504): addStorageLocked 65537 /storage/emulated/0
+01-09 14:03:00.487 D/dalvikvm(  704): GC_CONCURRENT freed 430K, 5% free 10413K/10932K, paused 2ms+3ms, total 25ms
+01-09 14:03:01.068 I/System.out( 5076): 18
+01-09 14:03:01.068 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:02.069 I/System.out( 5076): 18
+01-09 14:03:02.079 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:02.709 D/dalvikvm( 4504): GC_CONCURRENT freed 226K, 3% free 9224K/9484K, paused 2ms+5ms, total 44ms
+01-09 14:03:02.859 D/dalvikvm(  512): GC_EXPLICIT freed 1206K, 22% free 16691K/21220K, paused 3ms+8ms, total 74ms
+01-09 14:03:03.070 I/System.out( 5076): 19
+01-09 14:03:03.070 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:04.070 I/System.out( 5076): 19
+01-09 14:03:04.070 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:04.851 D/dalvikvm(  704): GC_CONCURRENT freed 424K, 5% free 10396K/10932K, paused 7ms+4ms, total 59ms
+01-09 14:03:05.081 I/System.out( 5076): 19
+01-09 14:03:05.091 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:06.072 I/System.out( 5076): 19
+01-09 14:03:06.082 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:07.083 I/System.out( 5076): 19
+01-09 14:03:07.093 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:08.094 I/System.out( 5076): 19
+01-09 14:03:08.094 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:09.075 I/System.out( 5076): 18
+01-09 14:03:09.075 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:09.155 D/dalvikvm(  704): GC_CONCURRENT freed 408K, 5% free 10397K/10932K, paused 4ms+3ms, total 43ms
+01-09 14:03:10.086 I/System.out( 5076): 19
+01-09 14:03:10.096 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:11.077 I/System.out( 5076): 19
+01-09 14:03:11.077 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:12.088 I/System.out( 5076): 19
+01-09 14:03:12.088 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:13.079 I/System.out( 5076): 20
+01-09 14:03:13.079 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:13.620 D/dalvikvm(  704): GC_CONCURRENT freed 419K, 5% free 10406K/10932K, paused 7ms+3ms, total 75ms
+01-09 14:03:14.100 I/System.out( 5076): 20
+01-09 14:03:14.120 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:15.091 I/System.out( 5076): 19
+01-09 14:03:15.091 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:16.102 I/System.out( 5076): 19
+01-09 14:03:16.152 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:17.083 I/System.out( 5076): 19
+01-09 14:03:17.093 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:18.114 I/System.out( 5076): 18
+01-09 14:03:18.114 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:18.184 D/dalvikvm(  704): GC_CONCURRENT freed 417K, 5% free 10400K/10932K, paused 7ms+3ms, total 56ms
+01-09 14:03:19.105 I/System.out( 5076): 19
+01-09 14:03:19.125 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:20.106 I/System.out( 5076): 19
+01-09 14:03:20.126 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:20.787 D/dalvikvm(  512): GC_CONCURRENT freed 1773K, 21% free 16783K/21220K, paused 19ms+7ms, total 127ms
+01-09 14:03:21.087 I/System.out( 5076): 19
+01-09 14:03:21.087 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:22.098 I/System.out( 5076): 19
+01-09 14:03:22.098 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:22.619 D/dalvikvm(  704): GC_CONCURRENT freed 412K, 5% free 10399K/10932K, paused 3ms+4ms, total 39ms
+01-09 14:03:23.159 D/dalvikvm( 5076): GC_FOR_ALLOC freed 499K, 6% free 9097K/9632K, paused 73ms, total 74ms
+01-09 14:03:23.189 I/System.out( 5076): 19
+01-09 14:03:23.189 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:24.090 I/System.out( 5076): 19
+01-09 14:03:24.100 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:25.091 I/System.out( 5076): 19
+01-09 14:03:25.091 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:26.092 I/System.out( 5076): 17
+01-09 14:03:26.102 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:26.973 D/dalvikvm(  704): GC_CONCURRENT freed 403K, 5% free 10396K/10932K, paused 2ms+4ms, total 42ms
+01-09 14:03:27.093 I/System.out( 5076): 18
+01-09 14:03:27.093 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:28.094 I/System.out( 5076): 18
+01-09 14:03:28.104 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:29.085 I/System.out( 5076): 18
+01-09 14:03:29.105 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:30.086 I/System.out( 5076): 18
+01-09 14:03:30.106 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:31.087 I/System.out( 5076): 18
+01-09 14:03:31.097 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:31.357 D/dalvikvm(  704): GC_CONCURRENT freed 400K, 5% free 10395K/10932K, paused 7ms+4ms, total 47ms
+01-09 14:03:32.088 I/System.out( 5076): 18
+01-09 14:03:32.088 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:33.099 I/System.out( 5076): 18
+01-09 14:03:33.119 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:34.090 I/System.out( 5076): 19
+01-09 14:03:34.100 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:35.091 I/System.out( 5076): 19
+01-09 14:03:35.091 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:35.761 D/dalvikvm(  704): GC_CONCURRENT freed 405K, 5% free 10395K/10932K, paused 6ms+3ms, total 65ms
+01-09 14:03:36.092 I/System.out( 5076): 19
+01-09 14:03:36.112 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:37.093 I/System.out( 5076): 19
+01-09 14:03:37.093 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:38.094 I/System.out( 5076): 20
+01-09 14:03:38.104 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:38.945 D/dalvikvm(  512): GC_CONCURRENT freed 1875K, 21% free 16781K/21220K, paused 8ms+7ms, total 145ms
+01-09 14:03:39.095 I/System.out( 5076): 20
+01-09 14:03:39.095 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:40.086 I/System.out( 5076): 20
+01-09 14:03:40.086 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:40.146 D/dalvikvm(  704): GC_CONCURRENT freed 420K, 5% free 10402K/10932K, paused 3ms+8ms, total 94ms
+01-09 14:03:41.087 I/System.out( 5076): 20
+01-09 14:03:41.097 I/System.out( 5076): Time difference in secs is: 481
+01-09 14:03:42.088 I/System.out( 5076): 20
+01-09 14:03:42.088 I/System.out( 5076): Time difference in secs is: 481

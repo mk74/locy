@@ -1,0 +1,1322 @@
+--------- beginning of /dev/log/system
+01-09 14:36:15.333 I/PowerManagerService(  512): Waking up from sleep...
+01-09 14:36:15.373 I/WindowManager(  512): Lock screen displayed!
+--------- beginning of /dev/log/main
+01-09 14:36:15.433 D/SurfaceFlinger(  177): Screen acquired, type=0 flinger=0xb736d478
+01-09 14:36:15.443 D/audio_hw_primary(  180): adev_set_parameters: enter: screen_state=on
+01-09 14:36:15.443 D/audio_hw_primary(  180): adev_set_parameters: exit with code(-2)
+01-09 14:36:15.674 D/SurfaceControl(  512): Excessive delay in unblankDisplay() while turning screen on: 240ms
+01-09 14:36:15.714 V/DigitalWidgetViewsFactory( 4127): DigitalWidget sets next alarm string to null
+01-09 14:36:15.724 D/YouTube MDX( 4575): Recieved intent android.intent.action.SCREEN_ON
+01-09 14:36:16.474 D/audio_hw_primary(  180): start_output_stream: enter: usecase(1: low-latency-playback) devices(0x2)
+01-09 14:36:16.474 D/audio_hw_primary(  180): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+01-09 14:36:16.474 D/audio_hw_primary(  180): enable_snd_device: sending audio calibration for snd_device(2) acdb_id(14)
+01-09 14:36:16.474 D/ACDB-LOADER(  180): ACDB -> send_afe_cal
+01-09 14:36:16.474 D/audio_hw_primary(  180): enable_snd_device: snd_device(2: speaker)
+01-09 14:36:16.474 D/PhoneStatusBar(  585): disable: < expand icons alerts ticker system_info BACK HOME recent* CLOCK search >
+01-09 14:36:16.484 D/audio_hw_primary(  180): enable_audio_route: apply mixer path: low-latency-playback
+01-09 14:36:16.494 D/audio_hw_primary(  180): start_output_stream: exit
+01-09 14:36:16.524 D/PhoneStatusBar(  585): disable: < expand icons alerts ticker system_info back* home* recent clock* search >
+01-09 14:36:16.534 W/InputMethodManagerService(  512): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@424e13e8 attribute=android.view.inputmethod.EditorInfo@428f1708, token = android.os.BinderProxy@427aa0f8
+01-09 14:36:16.975 V/TAG     (  512): bug 7643792: fitSystemWindows([0,50][0,0])
+01-09 14:36:18.947 I/InputReader(  512): Reconfiguring input devices.  changes=0x00000004
+01-09 14:36:18.947 I/InputReader(  512): Device reconfigured: id=6, name='elan-touchscreen', size 1200x1920, orientation 0, mode 1, display id 0
+01-09 14:36:18.957 I/ActivityManager(  512): Config changes=1480 {1.0 234mcc?mnc en_US ldltr sw600dp w600dp h887dp 320dpi lrg port finger -keyb/v/h -nav/h s.8}
+01-09 14:36:19.017 D/audio_hw_primary(  180): adev_set_parameters: enter: rotation=0
+01-09 14:36:19.017 D/audio_hw_primary(  180): adev_set_parameters: exit with code(0)
+01-09 14:36:19.107 D/PhoneStatusBar(  585): mSettingsPanelGravity = 8388661
+01-09 14:36:19.157 D/Launcher.Model(  766): DbDebug    Modify item (Play Music) in db, id: 4 (2, 0, 0, 0) --> (2, 0, 0, 0)
+01-09 14:36:19.157 D/Launcher.Model(  766): DbDebug    Modify item (Play Books) in db, id: 6 (2, 0, 1, 0) --> (2, 0, 1, 0)
+01-09 14:36:19.157 D/Launcher.Model(  766): DbDebug    Modify item (Play Movies & TV) in db, id: 8 (2, 0, 2, 0) --> (2, 0, 2, 0)
+01-09 14:36:19.157 D/Launcher.Model(  766): DbDebug    Modify item (Play Games) in db, id: 10 (2, 0, 3, 0) --> (2, 0, 3, 0)
+01-09 14:36:19.157 D/Launcher.Model(  766): DbDebug    Modify item (Play Magazines) in db, id: 12 (2, 0, 0, 1) --> (2, 0, 0, 1)
+01-09 14:36:19.167 D/Launcher.Model(  766): DbDebug    Modify item (Google+) in db, id: 14 (2, 0, 1, 1) --> (2, 0, 1, 1)
+01-09 14:36:19.167 D/Launcher.Model(  766): DbDebug    Modify item (Keep) in db, id: 16 (2, 0, 2, 1) --> (2, 0, 2, 1)
+01-09 14:36:19.167 D/Launcher.Model(  766): DbDebug    Modify item (Drive) in db, id: 18 (2, 0, 3, 1) --> (2, 0, 3, 1)
+01-09 14:36:19.167 D/Launcher.Model(  766): DbDebug    Modify item (Calendar) in db, id: 20 (2, 0, 0, 2) --> (2, 0, 0, 2)
+01-09 14:36:19.167 D/Launcher.Model(  766): DbDebug    Modify item (Currents) in db, id: 22 (2, 0, 1, 2) --> (2, 0, 1, 2)
+01-09 14:36:19.167 D/Launcher.Model(  766): DbDebug    Modify item (Gallery) in db, id: 24 (2, 0, 2, 2) --> (2, 0, 2, 2)
+01-09 14:36:19.167 D/Launcher.Model(  766): DbDebug    Modify item (Earth) in db, id: 26 (2, 0, 3, 2) --> (2, 0, 3, 2)
+01-09 14:36:19.297 I/WindowManager(  512): Screen frozen for +413ms due to Window{42984ab8 u0 com.android.launcher/com.android.launcher2.Launcher}
+01-09 14:36:19.717 D/audio_hw_primary(  180): out_standby: enter: usecase(1: low-latency-playback)
+01-09 14:36:19.757 D/audio_hw_primary(  180): stop_output_stream: enter: usecase(1: low-latency-playback)
+01-09 14:36:19.757 D/audio_hw_primary(  180): disable_audio_route: reset mixer path: low-latency-playback
+01-09 14:36:19.757 D/audio_hw_primary(  180): disable_snd_device: snd_device(2: speaker)
+01-09 14:36:19.757 D/audio_hw_primary(  180): stop_output_stream: exit: status(0)
+01-09 14:36:19.757 D/audio_hw_primary(  180): out_standby: exit
+01-09 14:36:21.459 D/dalvikvm(  512): GC_EXPLICIT freed 888K, 22% free 17028K/21772K, paused 4ms+9ms, total 146ms
+01-09 14:36:42.420 I/ActivityManager(  512): START u0 {flg=0x10000000 cmp=android/.accounts.ChooseTypeAndAccountActivity bnds=[40,261][1160,1077] (has extras)} from pid -1
+01-09 14:36:42.440 D/audio_hw_primary(  180): start_output_stream: enter: usecase(1: low-latency-playback) devices(0x2)
+01-09 14:36:42.440 D/audio_hw_primary(  180): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+01-09 14:36:42.440 D/audio_hw_primary(  180): enable_snd_device: sending audio calibration for snd_device(2) acdb_id(14)
+01-09 14:36:42.440 D/ACDB-LOADER(  180): ACDB -> send_afe_cal
+01-09 14:36:42.440 D/audio_hw_primary(  180): enable_snd_device: snd_device(2: speaker)
+01-09 14:36:42.440 D/audio_hw_primary(  180): enable_audio_route: apply mixer path: low-latency-playback
+01-09 14:36:42.440 I/ActivityManager(  512): Start proc android:ui for activity android/.accounts.ChooseTypeAndAccountActivity: pid=6207 uid=1000 gids={41000, 1015, 1028, 3002, 3001, 3003, 3007}
+01-09 14:36:42.450 D/audio_hw_primary(  180): start_output_stream: exit
+01-09 14:36:42.490 I/ActivityManager(  512): Start proc com.google.android.gsf.login for service com.google.android.gsf.login/com.google.android.gsf.loginservice.GoogleLoginService: pid=6219 uid=10021 gids={50021, 3003, 1007, 1028, 1015, 1006, 2001, 3006}
+01-09 14:36:42.550 D/libEGL  ( 6207): loaded /system/lib/egl/libEGL_adreno200.so
+01-09 14:36:42.550 D/libEGL  ( 6207): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+01-09 14:36:42.550 D/libEGL  ( 6207): loaded /system/lib/egl/libGLESv2_adreno200.so
+01-09 14:36:42.550 I/Adreno200-EGL( 6207): <qeglDrvAPI_eglInitialize:265>: EGL 1.4 QUALCOMM Build: Iabe52cfaeae4c5fab1acacfe6f056ba15fa93274
+01-09 14:36:42.590 D/OpenGLRenderer( 6207): Enabling debug mode 0
+01-09 14:36:42.640 I/ActivityManager(  512): START u0 {flg=0x80000 cmp=com.google.android.gsf.login/.AccountIntroActivity (has extras)} from pid 6207
+01-09 14:36:42.710 D/dalvikvm(  512): GC_FOR_ALLOC freed 1019K, 22% free 17173K/21772K, paused 59ms, total 59ms
+01-09 14:36:42.720 I/ActivityManager(  512): Displayed android/.accounts.ChooseTypeAndAccountActivity: +291ms
+01-09 14:36:42.740 I/GLSActivity( 6219): Starting account intro Intent { flg=0x80000 cmp=com.google.android.gsf.login/.AccountIntroActivity (has extras) }
+01-09 14:36:42.740 I/ActivityManager(  512): START u0 {cmp=com.google.android.gsf.login/.AccountIntroUIActivity (has extras)} from pid 6219
+01-09 14:36:42.800 D/libEGL  ( 6219): loaded /system/lib/egl/libEGL_adreno200.so
+01-09 14:36:42.800 D/libEGL  ( 6219): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+01-09 14:36:42.800 D/libEGL  ( 6219): loaded /system/lib/egl/libGLESv2_adreno200.so
+01-09 14:36:42.810 I/Adreno200-EGL( 6219): <qeglDrvAPI_eglInitialize:265>: EGL 1.4 QUALCOMM Build: Iabe52cfaeae4c5fab1acacfe6f056ba15fa93274
+01-09 14:36:42.840 D/OpenGLRenderer( 6219): Enabling debug mode 0
+01-09 14:36:42.950 I/ActivityManager(  512): Displayed com.google.android.gsf.login/.AccountIntroUIActivity: +198ms (total +227ms)
+01-09 14:36:44.842 D/dalvikvm(  512): GC_FOR_ALLOC freed 1150K, 22% free 17191K/21772K, paused 55ms, total 55ms
+01-09 14:36:44.902 D/dalvikvm(  512): GC_FOR_ALLOC freed 1122K, 22% free 17174K/21772K, paused 48ms, total 49ms
+01-09 14:36:44.922 I/ActivityManager(  512): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity (has extras)} from pid 585
+01-09 14:36:44.982 D/dalvikvm(  512): GC_FOR_ALLOC freed 1116K, 22% free 17180K/21772K, paused 56ms, total 56ms
+01-09 14:36:45.082 I/ActivityManager(  512): Displayed com.android.systemui/.recent.RecentsActivity: +96ms
+01-09 14:36:45.953 D/dalvikvm(  512): GC_FOR_ALLOC freed 1135K, 22% free 17189K/21772K, paused 56ms, total 57ms
+01-09 14:36:46.023 D/dalvikvm(  512): GC_FOR_ALLOC freed 1115K, 22% free 17180K/21772K, paused 58ms, total 58ms
+01-09 14:36:46.033 I/ActivityManager(  512): No longer want com.android.defcontainer (pid 4828): empty #17
+01-09 14:36:46.033 I/ActivityManager(  512): Killing 6207:android:ui/1000: remove task
+01-09 14:36:46.053 I/WindowState(  512): WIN DEATH: Window{4279cf90 u0 android/android.accounts.ChooseTypeAndAccountActivity}
+01-09 14:36:46.113 W/ResourceType(  512): Skipping entry 0x7f05000e in package table 0 because it is not complex!
+01-09 14:36:46.113 W/ResourceType(  512): Skipping entry 0x7f05000f in package table 0 because it is not complex!
+01-09 14:36:48.035 D/audio_hw_primary(  180): out_standby: enter: usecase(1: low-latency-playback)
+01-09 14:36:48.085 D/audio_hw_primary(  180): stop_output_stream: enter: usecase(1: low-latency-playback)
+01-09 14:36:48.085 D/audio_hw_primary(  180): disable_audio_route: reset mixer path: low-latency-playback
+01-09 14:36:48.085 D/audio_hw_primary(  180): disable_snd_device: snd_device(2: speaker)
+01-09 14:36:48.095 D/audio_hw_primary(  180): stop_output_stream: exit: status(0)
+01-09 14:36:48.095 D/audio_hw_primary(  180): out_standby: exit
+01-09 14:37:09.616 D/AndroidRuntime( 6266): 
+01-09 14:37:09.616 D/AndroidRuntime( 6266): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-09 14:37:09.616 D/AndroidRuntime( 6266): CheckJNI is OFF
+01-09 14:37:09.626 D/dalvikvm( 6266): Trying to load lib libjavacore.so 0x0
+01-09 14:37:09.636 D/dalvikvm( 6266): Added shared lib libjavacore.so 0x0
+01-09 14:37:09.636 D/dalvikvm( 6266): Trying to load lib libnativehelper.so 0x0
+01-09 14:37:09.636 D/dalvikvm( 6266): Added shared lib libnativehelper.so 0x0
+01-09 14:37:09.766 D/AndroidRuntime( 6266): Calling main entry com.android.commands.pm.Pm
+01-09 14:37:09.786 I/ActivityManager(  512): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=6280 uid=10013 gids={50013, 1015, 1023, 2001, 1028}
+01-09 14:37:09.816 D/Finsky  ( 4841): [1] PackageVerificationReceiver.checkPrerequisites: Skipping verification because network inactive
+01-09 14:37:09.816 W/ActivityManager(  512): No content provider found for permission revoke: file:///data/local/tmp/EnergyMeasurementAccelerometer.apk
+01-09 14:37:09.826 D/Finsky  ( 4841): [1] PackageVerificationReceiver.checkPrerequisites: Skipping verification because network inactive
+01-09 14:37:09.836 W/ActivityManager(  512): No content provider found for permission revoke: file:///data/local/tmp/EnergyMeasurementAccelerometer.apk
+01-09 14:37:09.836 I/PackageManager(  512): Copying native libraries to /data/app-lib/vmdl95637536
+01-09 14:37:09.836 W/PackageManager(  512): Invalid verification token 6 received
+01-09 14:37:09.876 I/ActivityManager(  512): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer appid=10071 user=-1
+01-09 14:37:09.997 I/PackageManager(  512): Running dexopt on: uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer
+01-09 14:37:09.997 I/PackageManager(  512): Package uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer codePath changed from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer-1.apk; Retaining data and using new
+01-09 14:37:10.257 D/dalvikvm( 6293): DexOpt: load 44ms, verify+opt 164ms, 957308 bytes
+01-09 14:37:10.317 W/PackageManager(  512): Code path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer-1.apk
+01-09 14:37:10.317 I/ActivityManager(  512): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer appid=10071 user=-1
+01-09 14:37:10.317 W/PackageManager(  512): Resource path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer-1.apk
+01-09 14:37:10.447 I/ActivityManager(  512): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer appid=10071 user=0
+01-09 14:37:10.467 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer flg=0x8000010 (has extras) }: user 10 is stopped
+01-09 14:37:10.477 I/InputReader(  512): Reconfiguring input devices.  changes=0x00000010
+01-09 14:37:10.507 I/InputReader(  512): Reconfiguring input devices.  changes=0x00000010
+01-09 14:37:10.527 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer flg=0x8000010 (has extras) }: user 10 is stopped
+01-09 14:37:10.537 W/ContextImpl( 4899): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1385 android.content.ContextWrapper.startService:473 android.content.ContextWrapper.startService:473 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2424 
+01-09 14:37:10.547 D/dalvikvm(  753): GC_CONCURRENT freed 530K, 6% free 9276K/9840K, paused 1ms+2ms, total 18ms
+01-09 14:37:10.547 D/dalvikvm(  753): WAIT_FOR_CONCURRENT_GC blocked 9ms
+01-09 14:37:10.547 D/BackupManagerService(  512): Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer flg=0x8000010 (has extras) }
+01-09 14:37:10.547 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer flg=0x8000010 (has extras) }: user 10 is stopped
+01-09 14:37:10.557 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.MY_PACKAGE_REPLACED flg=0x8000010 pkg=uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer (has extras) }: user 10 is stopped
+01-09 14:37:10.567 D/BackupManagerService(  512): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer flg=0x8000010 (has extras) }
+01-09 14:37:10.567 V/BackupManagerService(  512): removePackageParticipantsLocked: uid=10071 #1
+01-09 14:37:10.567 V/BackupManagerService(  512): addPackageParticipantsLocked: #1
+01-09 14:37:10.637 D/dalvikvm(  512): GC_EXPLICIT freed 1356K, 18% free 17909K/21772K, paused 4ms+9ms, total 78ms
+01-09 14:37:10.637 D/dalvikvm(  512): WAIT_FOR_CONCURRENT_GC blocked 41ms
+01-09 14:37:10.637 D/dalvikvm(  512): WAIT_FOR_CONCURRENT_GC blocked 41ms
+01-09 14:37:10.637 D/dalvikvm(  512): WAIT_FOR_CONCURRENT_GC blocked 41ms
+01-09 14:37:10.637 D/dalvikvm(  512): WAIT_FOR_CONCURRENT_GC blocked 41ms
+01-09 14:37:10.637 D/AndroidRuntime( 6266): Shutting down VM
+01-09 14:37:10.637 D/jdwp    ( 6266): Got wake-up signal, bailing out of select
+01-09 14:37:10.637 D/dalvikvm( 6266): Debugger has detached; object registry had 1 entries
+01-09 14:37:10.827 D/dalvikvm(  704): GC_FOR_ALLOC freed 391K, 7% free 10157K/10912K, paused 20ms, total 20ms
+01-09 14:37:10.827 I/dalvikvm-heap(  704): Grow heap (frag case) to 9.965MB for 16400-byte allocation
+01-09 14:37:10.847 D/dalvikvm(  704): GC_FOR_ALLOC freed <1K, 7% free 10173K/10932K, paused 20ms, total 20ms
+01-09 14:37:10.877 D/dalvikvm(  704): GC_FOR_ALLOC freed 5K, 7% free 10174K/10932K, paused 24ms, total 24ms
+01-09 14:37:10.877 I/dalvikvm-heap(  704): Grow heap (frag case) to 9.973MB for 8208-byte allocation
+01-09 14:37:10.897 D/dalvikvm(  704): GC_FOR_ALLOC freed 2K, 7% free 10180K/10944K, paused 26ms, total 26ms
+01-09 14:37:10.907 I/GCoreUlr(  704): Ensuring that reporting is stopped because of reasons: (no Google accounts)
+01-09 14:37:10.947 D/dalvikvm(  704): GC_EXPLICIT freed 102K, 8% free 10084K/10944K, paused 2ms+4ms, total 39ms
+01-09 14:37:10.947 D/GCoreFlp(  704): Unknown pending intent to remove.
+01-09 14:37:10.947 I/GCoreUlr(  704): Unbound from all location providers
+01-09 14:37:11.198 D/AndroidRuntime( 6327): 
+01-09 14:37:11.198 D/AndroidRuntime( 6327): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-09 14:37:11.198 D/AndroidRuntime( 6327): CheckJNI is OFF
+01-09 14:37:11.208 D/dalvikvm( 6327): Trying to load lib libjavacore.so 0x0
+01-09 14:37:11.218 D/dalvikvm( 6327): Added shared lib libjavacore.so 0x0
+01-09 14:37:11.218 D/dalvikvm( 6327): Trying to load lib libnativehelper.so 0x0
+01-09 14:37:11.218 D/dalvikvm( 6327): Added shared lib libnativehelper.so 0x0
+01-09 14:37:11.368 D/AndroidRuntime( 6327): Calling main entry com.android.commands.am.Am
+01-09 14:37:11.368 D/dalvikvm( 6327): Note: class Landroid/app/ActivityManagerNative; has 163 unimplemented (abstract) methods
+01-09 14:37:11.378 I/ActivityManager(  512): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer/.MainActivity} from pid 6327
+01-09 14:37:11.458 D/dalvikvm(  512): GC_FOR_ALLOC freed 1563K, 21% free 17386K/21772K, paused 63ms, total 63ms
+01-09 14:37:11.478 D/AndroidRuntime( 6327): Shutting down VM
+01-09 14:37:11.488 D/jdwp    ( 6327): Got wake-up signal, bailing out of select
+01-09 14:37:11.488 D/dalvikvm( 6327): Debugger has detached; object registry had 1 entries
+01-09 14:37:11.488 D/dalvikvm( 6343): Late-enabling CheckJNI
+01-09 14:37:11.488 I/ActivityManager(  512): Start proc uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer for activity uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer/.MainActivity: pid=6343 uid=10071 gids={50071, 1028}
+01-09 14:37:11.638 D/libEGL  ( 6343): loaded /system/lib/egl/libEGL_adreno200.so
+01-09 14:37:11.638 D/libEGL  ( 6343): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+01-09 14:37:11.638 D/libEGL  ( 6343): loaded /system/lib/egl/libGLESv2_adreno200.so
+01-09 14:37:11.648 I/Adreno200-EGL( 6343): <qeglDrvAPI_eglInitialize:265>: EGL 1.4 QUALCOMM Build: Iabe52cfaeae4c5fab1acacfe6f056ba15fa93274
+01-09 14:37:11.688 D/OpenGLRenderer( 6343): Enabling debug mode 0
+01-09 14:37:11.708 D/dalvikvm( 4874): GC_CONCURRENT freed 262K, 4% free 9318K/9684K, paused 5ms+1ms, total 20ms
+01-09 14:37:11.748 I/ActivityManager(  512): Displayed uk.ac.st_andrews.cs.host.mk74.energymeasurement.accelerometer/.MainActivity: +270ms
+01-09 14:37:11.788 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:37:11.788 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:37:11.798 D/dalvikvm( 4928): GC_CONCURRENT freed 386K, 5% free 9239K/9664K, paused 1ms+2ms, total 16ms
+01-09 14:37:11.808 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:37:11.808 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:37:11.818 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:37:11.818 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:37:11.818 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:37:11.818 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:37:11.828 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:37:11.828 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:37:11.838 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:37:11.838 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 14:37:12.579 I/System.out( 6343): Values: 0.15534973 -0.2836609 9.972214
+01-09 14:37:13.580 I/System.out( 6343): Values: 0.119644165 -0.30984497 10.081711
+01-09 14:37:14.581 I/System.out( 6343): Values: 0.1743927 -0.26461792 9.962692
+01-09 14:37:15.582 I/System.out( 6343): Values: 0.15534973 -0.32650757 9.988876
+01-09 14:37:16.583 I/System.out( 6343): Values: 0.16725159 -0.2669983 10.038864
+01-09 14:37:17.584 I/System.out( 6343): Values: 0.13392639 -0.3003235 10.029343
+01-09 14:37:18.575 I/System.out( 6343): Values: 0.14582825 -0.29556274 9.912704
+01-09 14:37:18.595 D/dalvikvm( 6343): Debugger has detached; object registry had 1 entries
+01-09 14:37:19.246 D/PicasaSyncManager( 4488): battery info: false
+01-09 14:37:19.266 D/PicasaUploaderSyncManager( 4521): battery info: false
+01-09 14:37:19.286 D/dalvikvm( 4521): GC_CONCURRENT freed 272K, 4% free 8979K/9288K, paused 1ms+1ms, total 16ms
+01-09 14:37:19.576 I/System.out( 6343): Values: -1.9060516 2.6775208 10.764877
+01-09 14:37:20.206 I/ActivityManager(  512): No longer want com.google.android.youtube (pid 4575): empty #17
+01-09 14:37:20.577 I/System.out( 6343): Values: 0.1006012 0.37808228 8.784409
+01-09 14:37:21.578 I/System.out( 6343): Values: -0.13267517 -0.09799194 10.062668
+01-09 14:37:22.579 I/System.out( 6343): Values: -0.31834412 -0.0027770996 10.050766
+01-09 14:37:23.580 I/System.out( 6343): Values: -0.32548523 -0.081329346 10.091232
+01-09 14:37:24.581 I/System.out( 6343): Values: -0.31596375 -0.04800415 9.986496
+01-09 14:37:25.582 I/System.out( 6343): Values: -0.31358337 -0.057525635 10.01506
+01-09 14:37:25.802 D/dalvikvm( 4841): GC_CONCURRENT freed 407K, 5% free 9409K/9856K, paused 2ms+1ms, total 23ms
+01-09 14:37:25.862 D/Finsky  ( 4841): [1] 5.onFinished: Installation state replication succeeded.
+01-09 14:37:26.583 I/System.out( 6343): Values: -0.29692078 -0.057525635 10.07695
+01-09 14:37:27.584 I/System.out( 6343): Values: -0.30644226 -0.078948975 9.998398
+01-09 14:37:28.585 I/System.out( 6343): Values: -0.27549744 -0.038482666 10.019821
+01-09 14:37:29.576 I/System.out( 6343): Values: -0.27549744 -0.06466675 10.065048
+01-09 14:37:30.577 I/System.out( 6343): Values: -0.2707367 -0.09085083 10.019821
+01-09 14:37:31.578 I/System.out( 6343): Values: -0.311203 -0.06466675 10.093613
+01-09 14:37:32.579 I/System.out( 6343): Values: -0.2945404 -0.019439697 10.01506
+01-09 14:37:33.580 I/System.out( 6343): Values: -0.30168152 -0.057525635 10.000778
+01-09 14:37:34.580 I/System.out( 6343): Values: -0.32548523 -0.04562378 10.036484
+01-09 14:37:35.591 I/System.out( 6343): Values: -0.28977966 -0.057525635 10.100754
+01-09 14:37:36.592 I/System.out( 6343): Values: -0.3278656 -0.07180786 10.043625
+01-09 14:37:37.593 I/System.out( 6343): Values: -0.29930115 -0.052764893 10.053146
+01-09 14:37:38.594 I/System.out( 6343): Values: -0.29216003 -0.040863037 10.067429
+01-09 14:37:39.585 I/System.out( 6343): Values: -0.31834412 -0.04324341 10.038864
+01-09 14:37:40.596 I/System.out( 6343): Values: -0.29216003 -0.021820068 9.988876
+01-09 14:37:41.587 I/System.out( 6343): Values: -0.3207245 -0.062286377 10.043625
+01-09 14:37:42.588 I/System.out( 6343): Values: -0.29216003 0.0067443848 10.07933
+01-09 14:37:43.589 I/System.out( 6343): Values: -0.31358337 -0.10513306 10.036484
+01-09 14:37:44.590 I/System.out( 6343): Values: -0.3040619 -0.08370972 10.019821
+01-09 14:37:45.591 I/System.out( 6343): Values: -0.25883484 -0.059906006 10.07457
+01-09 14:37:46.592 I/System.out( 6343): Values: -0.3040619 -0.08609009 10.057907
+01-09 14:37:47.593 I/System.out( 6343): Values: -0.31834412 -0.040863037 10.043625
+01-09 14:37:48.594 I/System.out( 6343): Values: -0.28977966 -0.06466675 10.022202
+01-09 14:37:49.585 I/System.out( 6343): Values: -0.28501892 -0.012298584 10.07933
+01-09 14:37:50.596 I/System.out( 6343): Values: -0.33024597 -0.059906006 10.093613
+01-09 14:37:51.587 I/System.out( 6343): Values: -0.30644226 -0.05038452 10.046005
+01-09 14:37:52.588 I/System.out( 6343): Values: -0.2945404 -0.019439697 9.998398
+01-09 14:37:53.589 I/System.out( 6343): Values: -0.31834412 -0.081329346 9.998398
+01-09 14:37:54.590 I/System.out( 6343): Values: -0.3040619 -0.031341553 10.034103
+01-09 14:37:55.601 I/System.out( 6343): Values: -0.27311707 -0.078948975 10.007919
+01-09 14:37:56.602 I/System.out( 6343): Values: -0.33976746 -0.07180786 10.134079
+01-09 14:37:57.603 I/System.out( 6343): Values: -0.29692078 -0.07418823 10.005539
+01-09 14:37:58.604 I/System.out( 6343): Values: -0.31358337 -0.04800415 10.072189
+01-09 14:37:59.605 I/System.out( 6343): Values: -0.26359558 -0.031341553 10.072189
+01-09 14:38:00.606 I/System.out( 6343): Values: -0.32548523 -0.04800415 10.069809
+01-09 14:38:01.597 I/System.out( 6343): Values: -0.30168152 -0.017059326 10.031723
+01-09 14:38:02.598 I/System.out( 6343): Values: -0.29692078 -0.033721924 10.069809
+01-09 14:38:03.599 I/System.out( 6343): Values: -0.3350067 -0.06942749 10.07457
+01-09 14:38:04.600 I/System.out( 6343): Values: -0.27549744 -0.081329346 9.993637
+01-09 14:38:05.601 I/System.out( 6343): Values: -0.28263855 -0.10751343 10.055527
+01-09 14:38:06.602 I/System.out( 6343): Values: -0.31834412 -0.09561157 10.024582
+01-09 14:38:07.603 I/System.out( 6343): Values: -0.311203 -0.033721924 10.065048
+01-09 14:38:08.604 I/System.out( 6343): Values: -0.31358337 -0.038482666 10.046005
+01-09 14:38:09.605 I/System.out( 6343): Values: -0.2707367 -0.081329346 10.0412445
+01-09 14:38:10.606 I/System.out( 6343): Values: -0.31358337 -0.09085083 10.01506
+01-09 14:38:11.597 I/System.out( 6343): Values: -0.30644226 -0.04562378 10.050766
+01-09 14:38:12.608 I/System.out( 6343): Values: -0.30168152 -0.062286377 10.024582
+01-09 14:38:13.619 I/System.out( 6343): Values: -0.33024597 -0.036102295 10.107895
+01-09 14:38:14.620 I/System.out( 6343): Values: -0.30644226 -0.052764893 10.000778
+01-09 14:38:15.621 I/System.out( 6343): Values: -0.27549744 -0.081329346 9.965073
+01-09 14:38:16.622 I/System.out( 6343): Values: -0.311203 -0.09561157 10.069809
+01-09 14:38:17.632 I/System.out( 6343): Values: -0.29930115 -0.057525635 9.9769745
+01-09 14:38:18.623 I/System.out( 6343): Values: -0.29692078 -0.06704712 10.031723
+01-09 14:38:19.624 I/System.out( 6343): Values: -0.33738708 -0.06942749 10.07933
+01-09 14:38:20.625 I/System.out( 6343): Values: -0.31358337 -0.052764893 10.043625
+01-09 14:38:21.626 I/System.out( 6343): Values: -0.29692078 -0.07418823 10.069809
+01-09 14:38:22.627 I/System.out( 6343): Values: -0.2945404 -0.06704712 10.024582
+01-09 14:38:23.628 I/System.out( 6343): Values: -0.28263855 -0.06704712 10.072189
+01-09 14:38:24.629 I/System.out( 6343): Values: -0.2612152 -0.07418823 10.093613
+01-09 14:38:25.630 I/System.out( 6343): Values: -0.311203 -0.0932312 10.086472
+01-09 14:38:26.631 I/System.out( 6343): Values: -0.31358337 -0.014678955 10.0103
+01-09 14:38:27.632 I/System.out( 6343): Values: -0.27549744 -0.05038452 9.996017
+01-09 14:38:28.633 I/System.out( 6343): Values: -0.28977966 -0.057525635 9.967453
+01-09 14:38:29.634 I/System.out( 6343): Values: -0.28977966 -0.062286377 10.036484
+01-09 14:38:30.635 I/System.out( 6343): Values: -0.33024597 -0.059906006 10.053146
+01-09 14:38:30.695 D/dalvikvm( 6343): GC_CONCURRENT freed 230K, 3% free 9019K/9288K, paused 16ms+2ms, total 57ms
+01-09 14:38:31.626 I/System.out( 6343): Values: -0.29216003 -0.081329346 10.065048
+01-09 14:38:32.627 I/System.out( 6343): Values: -0.30882263 -0.062286377 10.034103
+01-09 14:38:33.628 I/System.out( 6343): Values: -0.26835632 -0.04800415 10.048386
+01-09 14:38:34.629 I/System.out( 6343): Values: -0.311203 -0.07418823 10.07695
+01-09 14:38:35.630 I/System.out( 6343): Values: -0.27549744 -0.09085083 10.072189
+01-09 14:38:36.631 I/System.out( 6343): Values: -0.3207245 -0.078948975 10.036484
+01-09 14:38:37.632 I/System.out( 6343): Values: -0.311203 -0.081329346 10.036484
+01-09 14:38:38.633 I/System.out( 6343): Values: -0.311203 -0.06942749 10.088852
+01-09 14:38:39.634 I/System.out( 6343): Values: -0.3516693 -0.028961182 10.017441
+01-09 14:38:40.635 I/System.out( 6343): Values: -0.30168152 -0.052764893 10.031723
+01-09 14:38:41.636 I/System.out( 6343): Values: -0.311203 -0.06942749 10.067429
+01-09 14:38:42.637 I/System.out( 6343): Values: -0.31596375 -0.036102295 10.019821
+01-09 14:38:43.638 I/System.out( 6343): Values: -0.29930115 -0.062286377 10.055527
+01-09 14:38:44.639 I/System.out( 6343): Values: -0.2945404 -0.100372314 10.046005
+01-09 14:38:45.640 I/System.out( 6343): Values: -0.29930115 -0.038482666 10.055527
+01-09 14:38:46.641 I/System.out( 6343): Values: -0.26835632 -0.057525635 10.060287
+01-09 14:38:47.642 I/System.out( 6343): Values: -0.30644226 -0.04324341 10.01268
+01-09 14:38:48.643 I/System.out( 6343): Values: -0.311203 -0.0765686 10.065048
+01-09 14:38:49.644 I/System.out( 6343): Values: -0.2873993 -0.036102295 10.024582
+01-09 14:38:50.645 I/System.out( 6343): Values: -0.28977966 -0.07180786 10.081711
+01-09 14:38:51.646 I/System.out( 6343): Values: -0.31358337 -0.04800415 10.057907
+01-09 14:38:52.647 I/System.out( 6343): Values: -0.30168152 -0.055145264 10.1436
+01-09 14:38:53.638 I/System.out( 6343): Values: -0.31358337 -0.021820068 10.103134
+01-09 14:38:54.639 I/System.out( 6343): Values: -0.28501892 -0.08370972 10.022202
+01-09 14:38:55.640 I/System.out( 6343): Values: -0.33024597 -0.06942749 10.026962
+01-09 14:38:56.641 I/System.out( 6343): Values: -0.27311707 -0.06942749 10.029343
+01-09 14:38:57.642 I/System.out( 6343): Values: -0.29216003 -0.052764893 10.055527
+01-09 14:38:58.643 I/System.out( 6343): Values: -0.30644226 -0.06704712 10.036484
+01-09 14:38:59.643 I/System.out( 6343): Values: -0.31834412 -0.040863037 10.031723
+01-09 14:39:00.654 I/System.out( 6343): Values: -0.311203 -0.0765686 10.093613
+01-09 14:39:01.645 I/System.out( 6343): Values: -0.33024597 -0.06942749 10.0412445
+01-09 14:39:02.646 I/System.out( 6343): Values: -0.27549744 -0.078948975 10.01268
+01-09 14:39:03.647 I/System.out( 6343): Values: -0.28501892 -0.052764893 10.060287
+01-09 14:39:04.648 I/System.out( 6343): Values: -0.3278656 -0.052764893 10.043625
+01-09 14:39:05.649 I/System.out( 6343): Values: -0.30168152 -0.08609009 10.026962
+01-09 14:39:06.650 I/System.out( 6343): Values: -0.28501892 -0.028961182 10.01268
+01-09 14:39:07.651 I/System.out( 6343): Values: -0.28977966 -0.057525635 10.055527
+01-09 14:39:08.652 I/System.out( 6343): Values: -0.26359558 -0.07180786 10.01506
+01-09 14:39:09.653 I/System.out( 6343): Values: -0.3207245 -0.055145264 10.01268
+01-09 14:39:10.654 I/System.out( 6343): Values: -0.29930115 -0.06466675 10.031723
+01-09 14:39:11.655 I/System.out( 6343): Values: -0.33024597 -0.0765686 10.129318
+01-09 14:39:12.656 I/System.out( 6343): Values: -0.2873993 -0.057525635 10.038864
+01-09 14:39:13.647 I/System.out( 6343): Values: -0.31596375 -0.07418823 10.046005
+01-09 14:39:14.648 I/System.out( 6343): Values: -0.2873993 -0.07418823 9.991257
+01-09 14:39:15.649 I/System.out( 6343): Values: -0.31834412 -0.038482666 10.060287
+01-09 14:39:16.650 I/System.out( 6343): Values: -0.29692078 -0.04800415 10.081711
+01-09 14:39:17.651 I/System.out( 6343): Values: -0.31358337 -0.04562378 10.01506
+01-09 14:39:18.652 I/System.out( 6343): Values: -0.30168152 -0.09085083 10.117416
+01-09 14:39:19.653 I/System.out( 6343): Values: -0.30644226 -0.04800415 10.0103
+01-09 14:39:20.664 I/System.out( 6343): Values: -0.32310486 -0.036102295 10.091232
+01-09 14:39:21.655 I/System.out( 6343): Values: -0.32548523 -0.078948975 10.105515
+01-09 14:39:22.656 I/System.out( 6343): Values: -0.2778778 -0.07180786 10.069809
+01-09 14:39:23.657 I/System.out( 6343): Values: -0.3278656 -0.05038452 10.043625
+01-09 14:39:24.658 I/System.out( 6343): Values: -0.27549744 -0.04324341 10.07933
+01-09 14:39:25.659 I/System.out( 6343): Values: -0.3278656 -0.04562378 10.060287
+01-09 14:39:26.660 I/System.out( 6343): Values: -0.2778778 -0.04800415 10.069809
+01-09 14:39:27.661 I/System.out( 6343): Values: -0.30168152 -0.0932312 10.050766
+01-09 14:39:28.662 I/System.out( 6343): Values: -0.31596375 -0.0027770996 10.031723
+01-09 14:39:29.663 I/System.out( 6343): Values: -0.31596375 -0.07418823 9.967453
+01-09 14:39:30.664 I/System.out( 6343): Values: -0.311203 -0.04562378 10.100754
+01-09 14:39:31.665 I/System.out( 6343): Values: -0.30882263 -0.033721924 10.034103
+01-09 14:39:32.656 I/System.out( 6343): Values: -0.31596375 -0.038482666 10.053146
+01-09 14:39:33.657 I/System.out( 6343): Values: -0.28025818 -0.031341553 10.007919
+01-09 14:39:34.668 I/System.out( 6343): Values: -0.3207245 -0.081329346 10.060287
+01-09 14:39:35.659 I/System.out( 6343): Values: -0.32310486 -0.052764893 10.007919
+01-09 14:39:36.670 I/System.out( 6343): Values: -0.29692078 -0.055145264 10.026962
+01-09 14:39:37.671 I/System.out( 6343): Values: -0.29216003 -0.04324341 10.024582
+01-09 14:39:38.672 I/System.out( 6343): Values: -0.28501892 -0.09085083 10.0412445
+01-09 14:39:39.673 I/System.out( 6343): Values: -0.33976746 -0.052764893 10.053146
+01-09 14:39:40.674 I/System.out( 6343): Values: -0.28501892 -0.055145264 10.069809
+01-09 14:39:41.674 I/System.out( 6343): Values: -0.31358337 -0.028961182 10.01506
+01-09 14:39:42.665 I/System.out( 6343): Values: -0.32548523 -0.07180786 10.065048
+01-09 14:39:43.666 I/System.out( 6343): Values: -0.3445282 -0.057525635 10.067429
+01-09 14:39:44.667 I/System.out( 6343): Values: -0.34214783 -0.055145264 10.031723
+01-09 14:39:45.668 I/System.out( 6343): Values: -0.31834412 -0.059906006 10.069809
+01-09 14:39:46.669 I/System.out( 6343): Values: -0.27549744 -0.06704712 10.024582
+01-09 14:39:47.670 I/System.out( 6343): Values: -0.3278656 -0.052764893 10.017441
+01-09 14:39:48.671 I/System.out( 6343): Values: -0.31358337 -0.04324341 10.053146
+01-09 14:39:49.672 I/System.out( 6343): Values: -0.2778778 -0.038482666 10.022202
+01-09 14:39:50.673 I/System.out( 6343): Values: -0.30644226 -0.0932312 10.038864
+01-09 14:39:51.674 I/System.out( 6343): Values: -0.29930115 -0.033721924 10.055527
+01-09 14:39:52.665 I/System.out( 6343): Values: -0.33976746 -0.06942749 10.0412445
+01-09 14:39:53.676 I/System.out( 6343): Values: -0.28977966 -0.04800415 10.050766
+01-09 14:39:54.667 I/System.out( 6343): Values: -0.311203 -0.102752686 10.034103
+01-09 14:39:55.668 I/System.out( 6343): Values: -0.28977966 -0.040863037 10.048386
+01-09 14:39:56.669 I/System.out( 6343): Values: -0.33024597 -0.052764893 10.043625
+01-09 14:39:57.670 I/System.out( 6343): Values: -0.30882263 -0.09085083 10.034103
+01-09 14:39:58.671 I/System.out( 6343): Values: -0.31834412 -0.09799194 10.053146
+01-09 14:39:59.682 I/System.out( 6343): Values: -0.26597595 -0.09085083 10.07933
+01-09 14:40:00.683 I/System.out( 6343): Values: -0.31358337 -0.05038452 10.065048
+01-09 14:40:01.684 I/System.out( 6343): Values: -0.32310486 -0.040863037 10.031723
+01-09 14:40:02.685 I/System.out( 6343): Values: -0.30644226 -0.05038452 10.048386
+01-09 14:40:03.676 I/System.out( 6343): Values: -0.3040619 -0.05038452 9.988876
+01-09 14:40:04.677 I/System.out( 6343): Values: -0.32310486 -0.036102295 10.115036
+01-09 14:40:05.678 I/System.out( 6343): Values: -0.3040619 -0.052764893 10.057907
+01-09 14:40:06.679 I/System.out( 6343): Values: -0.29930115 -0.10513306 10.038864
+01-09 14:40:07.680 I/System.out( 6343): Values: -0.28501892 -0.036102295 10.117416
+01-09 14:40:08.681 I/System.out( 6343): Values: -0.3207245 -0.06466675 10.062668
+01-09 14:40:09.682 I/System.out( 6343): Values: -0.36357117 -0.052764893 10.057907
+01-09 14:40:10.683 I/System.out( 6343): Values: -0.30168152 -0.06704712 10.060287
+01-09 14:40:11.684 I/System.out( 6343): Values: -0.3207245 -0.014678955 10.0412445
+01-09 14:40:12.685 I/System.out( 6343): Values: -0.30168152 -0.04800415 10.026962
+01-09 14:40:13.676 I/System.out( 6343): Values: -0.28025818 -0.031341553 10.07933
+01-09 14:40:14.677 I/System.out( 6343): Values: -0.28977966 -0.08847046 10.036484
+01-09 14:40:15.688 I/System.out( 6343): Values: -0.27549744 -0.04324341 9.972214
+01-09 14:40:16.689 I/System.out( 6343): Values: -0.30168152 -0.05038452 10.057907
+01-09 14:40:17.690 I/System.out( 6343): Values: -0.2945404 -0.08609009 10.086472
+01-09 14:40:18.691 I/System.out( 6343): Values: -0.29930115 -0.08609009 10.019821
+01-09 14:40:19.692 I/System.out( 6343): Values: -0.29930115 -0.04562378 10.053146
+01-09 14:40:20.693 I/System.out( 6343): Values: -0.3207245 -0.081329346 10.036484
+01-09 14:40:21.694 I/System.out( 6343): Values: -0.30882263 -0.07418823 10.07933
+01-09 14:40:22.695 I/System.out( 6343): Values: -0.2945404 -0.04324341 10.065048
+01-09 14:40:23.695 I/System.out( 6343): Values: -0.35881042 -0.07418823 10.057907
+01-09 14:40:24.686 I/System.out( 6343): Values: -0.32548523 -0.055145264 10.1245575
+01-09 14:40:25.687 I/System.out( 6343): Values: -0.311203 -0.04562378 9.988876
+01-09 14:40:26.688 I/System.out( 6343): Values: -0.30168152 -0.09561157 10.036484
+01-09 14:40:27.689 I/System.out( 6343): Values: -0.32548523 -0.0027770996 10.067429
+01-09 14:40:28.690 I/System.out( 6343): Values: -0.30168152 -0.08609009 10.000778
+01-09 14:40:29.691 I/System.out( 6343): Values: -0.29216003 -0.07418823 10.065048
+01-09 14:40:30.692 I/System.out( 6343): Values: -0.31358337 -0.057525635 10.093613
+01-09 14:40:31.693 I/System.out( 6343): Values: -0.3040619 -0.078948975 10.038864
+01-09 14:40:32.704 I/System.out( 6343): Values: -0.28263855 -0.062286377 10.031723
+01-09 14:40:33.695 I/System.out( 6343): Values: -0.28263855 -0.036102295 10.003159
+01-09 14:40:34.696 I/System.out( 6343): Values: -0.2778778 -0.07418823 10.129318
+01-09 14:40:35.707 I/System.out( 6343): Values: -0.34214783 -0.028961182 10.038864
+01-09 14:40:36.698 I/System.out( 6343): Values: -0.29692078 -0.057525635 10.019821
+01-09 14:40:37.699 I/System.out( 6343): Values: -0.30644226 -0.07180786 10.024582
+01-09 14:40:38.700 I/System.out( 6343): Values: -0.33738708 -0.057525635 9.962692
+01-09 14:40:39.701 I/System.out( 6343): Values: -0.32310486 -0.06942749 9.991257
+01-09 14:40:40.702 I/System.out( 6343): Values: -0.2612152 -0.036102295 10.081711
+01-09 14:40:41.703 I/System.out( 6343): Values: -0.28025818 -0.059906006 10.053146
+01-09 14:40:42.714 I/System.out( 6343): Values: -0.30644226 -0.05038452 10.019821
+01-09 14:40:43.705 I/System.out( 6343): Values: -0.31596375 -0.0932312 10.024582
+01-09 14:40:44.706 I/System.out( 6343): Values: -0.2873993 -0.04324341 10.095993
+01-09 14:40:45.707 I/System.out( 6343): Values: -0.27549744 -0.08847046 10.081711
+01-09 14:40:46.708 I/System.out( 6343): Values: -0.3207245 -0.04562378 10.062668
+01-09 14:40:47.709 I/System.out( 6343): Values: -0.33262634 -0.078948975 9.988876
+01-09 14:40:48.710 I/System.out( 6343): Values: -0.34928894 -0.06704712 10.050766
+01-09 14:40:49.711 I/System.out( 6343): Values: -0.31596375 -0.078948975 10.091232
+01-09 14:40:50.712 I/System.out( 6343): Values: -0.32310486 -0.081329346 10.081711
+01-09 14:40:51.713 I/System.out( 6343): Values: -0.28263855 -0.06466675 10.0412445
+01-09 14:40:52.714 I/System.out( 6343): Values: -0.3207245 -0.078948975 9.9769745
+01-09 14:40:53.715 I/System.out( 6343): Values: -0.28025818 -0.05038452 10.024582
+01-09 14:40:54.716 I/System.out( 6343): Values: -0.2778778 -0.057525635 10.000778
+01-09 14:40:55.717 I/System.out( 6343): Values: -0.30168152 -0.055145264 10.105515
+01-09 14:40:56.708 I/System.out( 6343): Values: -0.28977966 -0.052764893 10.0412445
+01-09 14:40:57.709 I/System.out( 6343): Values: -0.3207245 -0.031341553 10.029343
+01-09 14:40:58.710 I/System.out( 6343): Values: -0.311203 -0.038482666 10.069809
+01-09 14:40:59.721 I/System.out( 6343): Values: -0.31596375 -0.057525635 10.07457
+01-09 14:41:00.712 I/System.out( 6343): Values: -0.30882263 -0.040863037 9.998398
+01-09 14:41:01.723 I/System.out( 6343): Values: -0.3278656 -0.0932312 10.084091
+01-09 14:41:02.714 I/System.out( 6343): Values: -0.33024597 -0.057525635 10.07457
+01-09 14:41:03.725 I/System.out( 6343): Values: -0.29930115 -0.07180786 10.07695
+01-09 14:41:04.716 I/System.out( 6343): Values: -0.32310486 -0.057525635 9.991257
+01-09 14:41:05.716 I/System.out( 6343): Values: -0.311203 -0.06942749 10.038864
+01-09 14:41:06.717 I/System.out( 6343): Values: -0.2612152 -0.059906006 10.093613
+01-09 14:41:07.718 I/System.out( 6343): Values: -0.3040619 -0.04800415 10.069809
+01-09 14:41:08.719 I/System.out( 6343): Values: -0.30168152 -0.057525635 10.122177
+01-09 14:41:09.720 I/System.out( 6343): Values: -0.28977966 -0.08370972 10.091232
+01-09 14:41:10.721 I/System.out( 6343): Values: -0.33024597 -0.036102295 10.057907
+01-09 14:41:11.722 I/System.out( 6343): Values: -0.35881042 -0.014678955 10.01506
+01-09 14:41:12.723 I/System.out( 6343): Values: -0.31596375 -0.038482666 10.003159
+01-09 14:41:13.724 I/System.out( 6343): Values: -0.2945404 -0.062286377 10.062668
+01-09 14:41:14.725 I/System.out( 6343): Values: -0.29216003 -0.052764893 10.20311
+01-09 14:41:15.716 I/System.out( 6343): Values: -0.33976746 -0.038482666 9.94841
+01-09 14:41:16.717 I/System.out( 6343): Values: -0.29930115 -0.08847046 10.062668
+01-09 14:41:17.718 I/System.out( 6343): Values: -0.32548523 -0.055145264 10.053146
+01-09 14:41:18.719 I/System.out( 6343): Values: -0.2778778 -0.09799194 10.055527
+01-09 14:41:19.720 I/System.out( 6343): Values: -0.2945404 -0.0765686 10.081711
+01-09 14:41:20.721 I/System.out( 6343): Values: -0.3445282 -0.0765686 10.084091
+01-09 14:41:21.722 I/System.out( 6343): Values: -0.32548523 -0.05038452 10.050766
+01-09 14:41:22.723 I/System.out( 6343): Values: -0.25645447 -0.057525635 10.031723
+01-09 14:41:23.724 I/System.out( 6343): Values: -0.28977966 -0.052764893 10.022202
+01-09 14:41:24.725 I/System.out( 6343): Values: -0.28501892 -0.062286377 10.07695
+01-09 14:41:25.716 I/System.out( 6343): Values: -0.26359558 -0.06466675 10.07695
+01-09 14:41:26.717 I/System.out( 6343): Values: -0.31596375 -0.08847046 10.046005
+01-09 14:41:27.728 I/System.out( 6343): Values: -0.30168152 -0.057525635 10.098373
+01-09 14:41:28.719 I/System.out( 6343): Values: -0.30882263 -0.08609009 10.084091
+01-09 14:41:29.720 I/System.out( 6343): Values: -0.31834412 -0.05038452 10.050766
+01-09 14:41:30.721 I/System.out( 6343): Values: -0.2873993 -0.036102295 10.026962
+01-09 14:41:31.732 I/System.out( 6343): Values: -0.32548523 -0.02658081 10.036484
+01-09 14:41:32.733 I/System.out( 6343): Values: -0.3207245 -0.06466675 9.996017
+01-09 14:41:33.734 I/System.out( 6343): Values: -0.30644226 -0.06942749 10.07933
+01-09 14:41:33.804 D/dalvikvm( 6343): GC_CONCURRENT freed 390K, 5% free 9015K/9444K, paused 4ms+1ms, total 57ms
+01-09 14:41:34.735 I/System.out( 6343): Values: -0.28977966 -0.081329346 10.060287
+01-09 14:41:35.726 I/System.out( 6343): Values: -0.32548523 -0.06466675 10.053146
+01-09 14:41:36.727 I/System.out( 6343): Values: -0.33024597 -0.0765686 10.084091
+01-09 14:41:37.728 I/System.out( 6343): Values: -0.28263855 -0.0765686 10.048386
+01-09 14:41:38.729 I/System.out( 6343): Values: -0.31596375 -0.11941528 10.069809
+01-09 14:41:39.730 I/System.out( 6343): Values: -0.3278656 -0.06466675 10.086472
+01-09 14:41:40.731 I/System.out( 6343): Values: -0.29216003 -0.081329346 10.091232
+01-09 14:41:41.732 I/System.out( 6343): Values: -0.3040619 -0.05038452 10.057907
+01-09 14:41:42.733 I/System.out( 6343): Values: -0.33024597 -0.036102295 10.01506
+01-09 14:41:43.734 I/System.out( 6343): Values: -0.30168152 -0.08609009 10.017441
+01-09 14:41:44.735 I/System.out( 6343): Values: -0.30882263 -0.05038452 10.119797
+01-09 14:41:45.726 I/System.out( 6343): Values: -0.2778778 -0.009918213 10.017441
+01-09 14:41:46.736 I/System.out( 6343): Values: -0.2945404 -0.057525635 10.081711
+01-09 14:41:47.727 I/System.out( 6343): Values: -0.30882263 -0.04324341 10.050766
+01-09 14:41:48.728 I/System.out( 6343): Values: -0.29216003 -0.038482666 10.093613
+01-09 14:41:49.729 I/System.out( 6343): Values: -0.29692078 -0.059906006 10.057907
+01-09 14:41:50.730 I/System.out( 6343): Values: -0.2707367 -0.04562378 10.050766
+01-09 14:41:51.731 I/System.out( 6343): Values: -0.2873993 -0.036102295 10.095993
+01-09 14:41:52.732 I/System.out( 6343): Values: -0.30644226 -0.052764893 10.091232
+01-09 14:41:53.733 I/System.out( 6343): Values: -0.29930115 -0.04800415 10.053146
+01-09 14:41:54.734 I/System.out( 6343): Values: -0.2873993 -0.09085083 10.038864
+01-09 14:41:55.725 I/System.out( 6343): Values: -0.3445282 -0.08370972 10.069809
+01-09 14:41:56.736 I/System.out( 6343): Values: -0.2945404 -0.062286377 10.0412445
+01-09 14:41:57.737 I/System.out( 6343): Values: -0.31596375 -0.062286377 10.065048
+01-09 14:41:58.738 I/System.out( 6343): Values: -0.38261414 -0.09085083 10.053146
+01-09 14:41:59.739 I/System.out( 6343): Values: -0.3040619 -0.08370972 10.034103
+01-09 14:42:00.740 I/System.out( 6343): Values: -0.27549744 -0.031341553 10.065048
+01-09 14:42:01.741 I/System.out( 6343): Values: -0.29692078 -0.057525635 10.067429
+01-09 14:42:02.742 I/System.out( 6343): Values: -0.311203 -0.062286377 10.060287
+01-09 14:42:03.743 I/System.out( 6343): Values: -0.29930115 -0.0765686 10.046005
+01-09 14:42:04.744 I/System.out( 6343): Values: -0.31358337 -0.10751343 10.081711
+01-09 14:42:05.745 I/System.out( 6343): Values: -0.30882263 -0.04324341 10.105515
+01-09 14:42:06.736 I/System.out( 6343): Values: -0.311203 -0.08609009 10.050766
+01-09 14:42:07.737 I/System.out( 6343): Values: -0.32310486 -0.033721924 10.129318
+01-09 14:42:08.738 I/System.out( 6343): Values: -0.28977966 -0.04324341 10.091232
+01-09 14:42:09.739 I/System.out( 6343): Values: -0.3445282 -0.06704712 10.019821
+01-09 14:42:10.740 I/System.out( 6343): Values: -0.30644226 -0.062286377 10.0412445
+01-09 14:42:11.741 I/System.out( 6343): Values: -0.27549744 -0.07418823 10.105515
+01-09 14:42:12.742 I/System.out( 6343): Values: -0.33262634 -0.04562378 10.024582
+01-09 14:42:13.743 I/System.out( 6343): Values: -0.28501892 -0.04324341 10.07933
+01-09 14:42:14.744 I/System.out( 6343): Values: -0.30644226 -0.028961182 10.065048
+01-09 14:42:15.745 I/System.out( 6343): Values: -0.28977966 -0.059906006 10.048386
+01-09 14:42:16.746 I/System.out( 6343): Values: -0.30644226 -0.055145264 10.095993
+01-09 14:42:17.737 I/System.out( 6343): Values: -0.32548523 -0.07180786 10.024582
+01-09 14:42:18.738 I/System.out( 6343): Values: -0.32310486 -0.07418823 10.036484
+01-09 14:42:19.739 I/System.out( 6343): Values: -0.2873993 -0.11703491 10.031723
+01-09 14:42:20.740 I/System.out( 6343): Values: -0.31596375 -0.09799194 10.031723
+01-09 14:42:21.741 I/System.out( 6343): Values: -0.29930115 -0.04324341 10.07457
+01-09 14:42:22.742 I/System.out( 6343): Values: -0.34690857 -0.059906006 10.055527
+01-09 14:42:23.743 I/System.out( 6343): Values: -0.32310486 -0.057525635 10.086472
+01-09 14:42:24.744 I/System.out( 6343): Values: -0.33976746 -0.033721924 10.07457
+01-09 14:42:25.745 I/System.out( 6343): Values: -0.2707367 -0.078948975 10.034103
+01-09 14:42:26.746 I/System.out( 6343): Values: -0.33024597 -0.036102295 10.060287
+01-09 14:42:27.736 I/System.out( 6343): Values: -0.2612152 -0.078948975 10.117416
+01-09 14:42:28.737 I/System.out( 6343): Values: -0.28025818 -0.1265564 10.103134
+01-09 14:42:29.748 I/System.out( 6343): Values: -0.31596375 -0.081329346 10.13884
+01-09 14:42:30.749 I/System.out( 6343): Values: -0.31834412 -0.04800415 10.07695
+01-09 14:42:31.750 I/System.out( 6343): Values: -0.29692078 -0.055145264 10.038864
+01-09 14:42:32.751 I/System.out( 6343): Values: -0.30644226 -0.06466675 10.084091
+01-09 14:42:33.752 I/System.out( 6343): Values: -0.3278656 -0.08609009 9.986496
+01-09 14:42:34.753 I/System.out( 6343): Values: -0.32310486 -0.059906006 10.024582
+01-09 14:42:35.754 I/System.out( 6343): Values: -0.33976746 -0.04324341 10.019821
+01-09 14:42:36.745 I/System.out( 6343): Values: -0.31834412 -0.031341553 10.01268
+01-09 14:42:37.746 I/System.out( 6343): Values: -0.28501892 -0.033721924 10.038864
+01-09 14:42:38.757 I/System.out( 6343): Values: -0.2540741 -0.062286377 10.091232
+01-09 14:42:39.748 I/System.out( 6343): Values: -0.2873993 -0.06704712 10.022202
+01-09 14:42:40.749 I/System.out( 6343): Values: -0.28263855 -0.059906006 10.07457
+01-09 14:42:41.750 I/System.out( 6343): Values: -0.33976746 -0.059906006 10.046005
+01-09 14:42:42.751 I/System.out( 6343): Values: -0.3040619 -0.040863037 10.022202
+01-09 14:42:43.752 I/System.out( 6343): Values: -0.31596375 -0.06466675 10.031723
+01-09 14:42:44.753 I/System.out( 6343): Values: -0.29692078 -0.06704712 10.065048
+01-09 14:42:45.754 I/System.out( 6343): Values: -0.29692078 -0.078948975 10.069809
+01-09 14:42:46.765 I/System.out( 6343): Values: -0.31834412 -0.052764893 9.993637
+01-09 14:42:47.756 I/System.out( 6343): Values: -0.28977966 -0.06704712 10.072189
+01-09 14:42:48.757 I/System.out( 6343): Values: -0.33262634 -0.06466675 10.046005
+01-09 14:42:49.758 I/System.out( 6343): Values: -0.2945404 -0.028961182 10.036484
+01-09 14:42:50.759 I/System.out( 6343): Values: -0.32310486 -0.033721924 10.095993
+01-09 14:42:51.760 I/System.out( 6343): Values: -0.3278656 -0.06466675 10.022202
+01-09 14:42:52.761 I/System.out( 6343): Values: -0.29692078 -0.02658081 10.069809
+01-09 14:42:53.762 I/System.out( 6343): Values: -0.311203 -0.036102295 10.095993
+01-09 14:42:54.763 I/System.out( 6343): Values: -0.31358337 -0.059906006 10.069809
+01-09 14:42:55.764 I/System.out( 6343): Values: -0.31596375 -0.019439697 10.038864
+01-09 14:42:56.765 I/System.out( 6343): Values: -0.32310486 0.01626587 10.0412445
+01-09 14:42:57.766 I/System.out( 6343): Values: -0.32310486 -0.059906006 10.060287
+01-09 14:42:58.767 I/System.out( 6343): Values: -0.31358337 -0.055145264 10.026962
+01-09 14:42:59.758 I/System.out( 6343): Values: -0.29692078 -0.07418823 10.119797
+01-09 14:43:00.769 I/System.out( 6343): Values: -0.27311707 -0.036102295 10.069809
+01-09 14:43:01.760 I/System.out( 6343): Values: -0.29930115 -0.038482666 10.065048
+01-09 14:43:02.761 I/System.out( 6343): Values: -0.28977966 -0.052764893 10.034103
+01-09 14:43:03.762 I/System.out( 6343): Values: -0.29930115 -0.057525635 10.036484
+01-09 14:43:04.763 I/System.out( 6343): Values: -0.3350067 -0.06942749 10.067429
+01-09 14:43:05.764 I/System.out( 6343): Values: -0.32548523 -0.02420044 10.07933
+01-09 14:43:06.765 I/System.out( 6343): Values: -0.3207245 -0.09561157 10.062668
+01-09 14:43:07.766 I/System.out( 6343): Values: -0.36595154 -0.04324341 10.029343
+01-09 14:43:08.767 I/System.out( 6343): Values: -0.28977966 -0.08847046 10.060287
+01-09 14:43:09.757 I/System.out( 6343): Values: -0.311203 -0.07418823 10.088852
+01-09 14:43:10.768 I/System.out( 6343): Values: -0.32310486 -0.038482666 10.0412445
+01-09 14:43:11.769 I/System.out( 6343): Values: -0.31834412 -0.08370972 10.060287
+01-09 14:43:12.770 I/System.out( 6343): Values: -0.28501892 -0.038482666 10.057907
+01-09 14:43:13.771 I/System.out( 6343): Values: -0.34214783 -0.06466675 10.019821
+01-09 14:43:14.772 I/System.out( 6343): Values: -0.28977966 -0.055145264 10.112656
+01-09 14:43:15.773 I/System.out( 6343): Values: -0.30882263 -0.055145264 10.036484
+01-09 14:43:16.774 I/System.out( 6343): Values: -0.33024597 -0.06466675 10.019821
+01-09 14:43:17.775 I/System.out( 6343): Values: -0.33024597 -0.062286377 10.053146
+01-09 14:43:18.766 I/System.out( 6343): Values: -0.31834412 -0.062286377 10.069809
+01-09 14:43:19.767 I/System.out( 6343): Values: -0.28025818 -0.04800415 10.01506
+01-09 14:43:20.768 I/System.out( 6343): Values: -0.34690857 -0.059906006 10.103134
+01-09 14:43:21.769 I/System.out( 6343): Values: -0.3350067 -0.11703491 10.031723
+01-09 14:43:22.770 I/System.out( 6343): Values: -0.3207245 -0.1098938 10.024582
+01-09 14:43:22.770 I/System.out( 6343): Battery level start is reached
+01-09 14:43:23.771 I/System.out( 6343): Values: -0.29216003 -0.0765686 10.024582
+01-09 14:43:24.772 I/System.out( 6343): Values: -0.33262634 -0.062286377 10.119797
+01-09 14:43:25.773 I/System.out( 6343): Values: -0.2873993 -0.07418823 10.053146
+01-09 14:43:26.774 I/System.out( 6343): Values: -0.29216003 -0.040863037 10.029343
+01-09 14:43:27.775 I/System.out( 6343): Values: -0.33738708 -0.052764893 10.01268
+01-09 14:43:28.766 I/System.out( 6343): Values: -0.30882263 -0.06704712 10.115036
+01-09 14:43:29.767 I/System.out( 6343): Values: -0.32310486 -0.033721924 10.065048
+01-09 14:43:30.778 I/System.out( 6343): Values: -0.28263855 -0.02420044 10.034103
+01-09 14:43:31.769 I/System.out( 6343): Values: -0.33976746 -0.0932312 10.005539
+01-09 14:43:32.790 I/System.out( 6343): Values: -0.2945404 -0.100372314 10.005539
+01-09 14:43:33.791 I/System.out( 6343): Values: -0.3350067 -0.07418823 10.067429
+01-09 14:43:34.792 I/System.out( 6343): Values: -0.31834412 -0.059906006 10.095993
+01-09 14:43:35.793 I/System.out( 6343): Values: -0.33976746 -0.06942749 10.029343
+01-09 14:43:36.794 I/System.out( 6343): Values: -0.29216003 -0.078948975 10.024582
+01-09 14:43:37.795 I/System.out( 6343): Values: -0.30882263 -0.06704712 10.01268
+01-09 14:43:38.786 I/System.out( 6343): Values: -0.33262634 -0.102752686 10.119797
+01-09 14:43:39.787 I/System.out( 6343): Values: -0.31358337 -0.040863037 10.053146
+01-09 14:43:40.798 I/System.out( 6343): Values: -0.311203 -0.040863037 10.043625
+01-09 14:43:41.789 I/System.out( 6343): Values: -0.3207245 -0.036102295 10.034103
+01-09 14:43:42.790 I/System.out( 6343): Values: -0.34690857 -0.059906006 10.050766
+01-09 14:43:43.791 I/System.out( 6343): Values: -0.30644226 -0.06942749 10.026962
+01-09 14:43:44.792 I/System.out( 6343): Values: -0.33976746 -0.0765686 10.026962
+01-09 14:43:45.793 I/System.out( 6343): Values: -0.30882263 -0.08847046 10.053146
+01-09 14:43:46.794 I/System.out( 6343): Values: -0.29930115 -0.07418823 10.067429
+01-09 14:43:47.795 I/System.out( 6343): Values: -0.30644226 -0.036102295 10.053146
+01-09 14:43:48.786 I/System.out( 6343): Values: -0.29692078 -0.09085083 9.984116
+01-09 14:43:49.797 I/System.out( 6343): Values: -0.30168152 -0.04324341 10.031723
+01-09 14:43:50.788 I/System.out( 6343): Values: -0.29930115 -0.04562378 10.07457
+01-09 14:43:51.799 I/System.out( 6343): Values: -0.3350067 -0.055145264 10.060287
+01-09 14:43:52.799 I/System.out( 6343): Values: -0.32548523 -0.06704712 10.065048
+01-09 14:43:53.800 I/System.out( 6343): Values: -0.31596375 -0.028961182 10.07457
+01-09 14:43:54.801 I/System.out( 6343): Values: -0.28977966 -0.033721924 10.067429
+01-09 14:43:55.802 I/System.out( 6343): Values: -0.26835632 -0.059906006 10.060287
+01-09 14:43:56.803 I/System.out( 6343): Values: -0.33738708 -0.055145264 10.081711
+01-09 14:43:57.804 I/System.out( 6343): Values: -0.29930115 -0.0765686 10.046005
+01-09 14:43:58.795 I/System.out( 6343): Values: -0.30882263 -0.0765686 10.065048
+01-09 14:43:59.796 I/System.out( 6343): Values: -0.29692078 -0.06704712 10.065048
+01-09 14:44:00.797 I/System.out( 6343): Values: -0.28025818 -0.06466675 10.072189
+01-09 14:44:01.798 I/System.out( 6343): Values: -0.28263855 -0.040863037 10.007919
+01-09 14:44:02.799 I/System.out( 6343): Values: -0.29930115 -0.05038452 9.953171
+01-09 14:44:03.800 I/System.out( 6343): Values: -0.31596375 -0.06466675 10.112656
+01-09 14:44:04.801 I/System.out( 6343): Values: -0.33976746 -0.06942749 10.055527
+01-09 14:44:05.802 I/System.out( 6343): Values: -0.27311707 -0.081329346 10.060287
+01-09 14:44:06.803 I/System.out( 6343): Values: -0.30882263 -0.02658081 10.026962
+01-09 14:44:07.804 I/System.out( 6343): Values: -0.311203 -0.057525635 9.991257
+01-09 14:44:08.805 I/System.out( 6343): Values: -0.34214783 -0.04800415 10.024582
+01-09 14:44:09.806 I/System.out( 6343): Values: -0.31834412 -0.057525635 10.100754
+01-09 14:44:10.807 I/System.out( 6343): Values: -0.2778778 -0.028961182 10.117416
+01-09 14:44:11.808 I/System.out( 6343): Values: -0.29216003 -0.04562378 10.043625
+01-09 14:44:12.809 I/System.out( 6343): Values: -0.2945404 -0.100372314 10.093613
+01-09 14:44:13.810 I/System.out( 6343): Values: -0.26835632 -0.055145264 10.134079
+01-09 14:44:14.811 I/System.out( 6343): Values: -0.3278656 -0.055145264 10.117416
+01-09 14:44:15.812 I/System.out( 6343): Values: -0.311203 -0.08370972 10.036484
+01-09 14:44:16.813 I/System.out( 6343): Values: -0.2945404 -0.08370972 10.098373
+01-09 14:44:17.814 I/System.out( 6343): Values: -0.33976746 -0.07180786 10.048386
+01-09 14:44:18.805 I/System.out( 6343): Values: -0.29692078 -0.033721924 10.005539
+01-09 14:44:19.806 I/System.out( 6343): Values: -0.31358337 -0.07418823 10.048386
+01-09 14:44:20.807 I/System.out( 6343): Values: -0.27549744 -0.059906006 10.067429
+01-09 14:44:21.808 I/System.out( 6343): Values: -0.3207245 -0.09085083 10.050766
+01-09 14:44:22.809 I/System.out( 6343): Values: -0.29216003 -0.04562378 9.996017
+01-09 14:44:23.810 I/System.out( 6343): Values: -0.32310486 -0.078948975 9.993637
+01-09 14:44:24.811 I/System.out( 6343): Values: -0.2945404 -0.081329346 10.026962
+01-09 14:44:25.812 I/System.out( 6343): Values: -0.32548523 -0.06942749 10.069809
+01-09 14:44:26.813 I/System.out( 6343): Values: -0.33738708 -0.06704712 10.055527
+01-09 14:44:27.814 I/System.out( 6343): Values: -0.29692078 -0.04324341 10.053146
+01-09 14:44:28.815 I/System.out( 6343): Values: -0.3445282 -0.059906006 10.07933
+01-09 14:44:29.806 I/System.out( 6343): Values: -0.2778778 -0.08609009 10.081711
+01-09 14:44:30.817 I/System.out( 6343): Values: -0.2945404 -0.038482666 10.029343
+01-09 14:44:31.818 I/System.out( 6343): Values: -0.33024597 -0.04324341 10.019821
+01-09 14:44:32.819 I/System.out( 6343): Values: -0.34214783 -0.014678955 10.105515
+01-09 14:44:33.820 I/System.out( 6343): Values: -0.30168152 -0.059906006 10.091232
+01-09 14:44:34.820 I/System.out( 6343): Values: -0.32548523 -0.08370972 10.067429
+01-09 14:44:35.821 I/System.out( 6343): Values: -0.28977966 -0.04324341 10.026962
+01-09 14:44:35.902 D/dalvikvm( 6343): GC_CONCURRENT freed 385K, 5% free 9016K/9440K, paused 10ms+8ms, total 76ms
+01-09 14:44:36.822 I/System.out( 6343): Values: -0.2945404 -0.07418823 10.053146
+01-09 14:44:37.823 I/System.out( 6343): Values: -0.31358337 -0.06942749 10.065048
+01-09 14:44:38.824 I/System.out( 6343): Values: -0.3040619 -0.036102295 10.003159
+01-09 14:44:39.815 I/System.out( 6343): Values: -0.30644226 -0.0765686 10.062668
+01-09 14:44:40.826 I/System.out( 6343): Values: -0.32548523 -0.06704712 10.024582
+01-09 14:44:41.827 I/System.out( 6343): Values: -0.32548523 -0.052764893 10.043625
+01-09 14:44:42.828 I/System.out( 6343): Values: -0.2873993 -0.100372314 10.091232
+01-09 14:44:43.829 I/System.out( 6343): Values: -0.31358337 -0.062286377 10.100754
+01-09 14:44:44.830 I/System.out( 6343): Values: -0.32310486 -0.052764893 10.01506
+01-09 14:44:45.831 I/System.out( 6343): Values: -0.3278656 -0.09085083 10.129318
+01-09 14:44:46.832 I/System.out( 6343): Values: -0.30644226 -0.036102295 9.998398
+01-09 14:44:47.833 I/System.out( 6343): Values: -0.31358337 -0.04562378 10.046005
+01-09 14:44:48.834 I/System.out( 6343): Values: -0.29692078 -0.04800415 10.105515
+01-09 14:44:49.825 I/System.out( 6343): Values: -0.27311707 -0.052764893 10.017441
+01-09 14:44:50.826 I/System.out( 6343): Values: -0.3040619 -0.052764893 10.065048
+01-09 14:44:51.827 I/System.out( 6343): Values: -0.32310486 -0.06704712 10.043625
+01-09 14:44:52.828 I/System.out( 6343): Values: -0.28501892 -0.057525635 10.136459
+01-09 14:44:53.829 I/System.out( 6343): Values: -0.34214783 -0.057525635 10.065048
+01-09 14:44:54.830 I/System.out( 6343): Values: -0.2707367 -0.04324341 10.072189
+01-09 14:44:55.831 I/System.out( 6343): Values: -0.35404968 -0.06466675 10.005539
+01-09 14:44:56.832 I/System.out( 6343): Values: -0.3278656 -0.031341553 10.046005
+01-09 14:44:57.833 I/System.out( 6343): Values: -0.28263855 -0.033721924 10.112656
+01-09 14:44:58.834 I/System.out( 6343): Values: -0.30644226 -0.10513306 10.062668
+01-09 14:44:59.825 I/System.out( 6343): Values: -0.29692078 -0.040863037 10.048386
+01-09 14:45:00.135 D/dalvikvm(  512): GC_CONCURRENT freed 2605K, 23% free 16798K/21772K, paused 42ms+7ms, total 130ms
+01-09 14:45:00.836 I/System.out( 6343): Values: -0.28025818 -0.07180786 10.07695
+01-09 14:45:01.376 V/DigitalWidgetViewsFactory( 4127): DigitalWidget sets next alarm string to null
+01-09 14:45:01.827 I/System.out( 6343): Values: -0.30168152 -0.038482666 10.069809
+01-09 14:45:02.838 I/System.out( 6343): Values: -0.311203 -0.06942749 10.065048
+01-09 14:45:03.839 I/System.out( 6343): Values: -0.3278656 -0.057525635 10.000778
+01-09 14:45:04.840 I/System.out( 6343): Values: -0.30644226 -0.062286377 10.038864
+01-09 14:45:05.841 I/System.out( 6343): Values: -0.3278656 -0.040863037 10.072189
+01-09 14:45:06.842 I/System.out( 6343): Values: -0.29692078 -0.07418823 10.062668
+01-09 14:45:07.843 I/System.out( 6343): Values: -0.3207245 -0.052764893 10.060287
+01-09 14:45:08.844 I/System.out( 6343): Values: -0.30882263 -0.06942749 10.069809
+01-09 14:45:09.845 I/System.out( 6343): Values: -0.26597595 -0.007537842 10.122177
+01-09 14:45:10.846 I/System.out( 6343): Values: -0.3040619 -0.009918213 10.005539
+01-09 14:45:11.837 I/System.out( 6343): Values: -0.2945404 -0.057525635 10.024582
+01-09 14:45:12.838 I/System.out( 6343): Values: -0.32548523 -0.014678955 9.979355
+01-09 14:45:13.839 I/System.out( 6343): Values: -0.37071228 -0.059906006 10.07695
+01-09 14:45:14.840 I/System.out( 6343): Values: -0.2873993 -0.04562378 10.07695
+01-09 14:45:15.841 I/System.out( 6343): Values: -0.30168152 -0.055145264 10.038864
+01-09 14:45:16.841 I/System.out( 6343): Values: -0.33976746 -0.06942749 10.01268
+01-09 14:45:17.842 I/System.out( 6343): Values: -0.3350067 -0.0765686 10.034103
+01-09 14:45:18.843 I/System.out( 6343): Values: -0.311203 -0.04800415 10.017441
+01-09 14:45:19.854 I/System.out( 6343): Values: -0.31358337 -0.05038452 10.07457
+01-09 14:45:20.855 I/System.out( 6343): Values: -0.26835632 -0.04324341 10.095993
+01-09 14:45:21.846 I/System.out( 6343): Values: -0.2778778 -0.078948975 10.0412445
+01-09 14:45:22.847 I/System.out( 6343): Values: -0.31596375 -0.0765686 10.100754
+01-09 14:45:23.848 I/System.out( 6343): Values: -0.37071228 -0.057525635 10.060287
+01-09 14:45:24.849 I/System.out( 6343): Values: -0.29692078 -0.081329346 10.084091
+01-09 14:45:25.850 I/System.out( 6343): Values: -0.2873993 -0.052764893 10.088852
+01-09 14:45:26.851 I/System.out( 6343): Values: -0.3350067 -0.078948975 10.086472
+01-09 14:45:27.852 I/System.out( 6343): Values: -0.29930115 -0.052764893 10.048386
+01-09 14:45:28.853 I/System.out( 6343): Values: -0.3040619 -0.078948975 10.031723
+01-09 14:45:29.854 I/System.out( 6343): Values: -0.31358337 -0.09561157 10.036484
+01-09 14:45:30.855 I/System.out( 6343): Values: -0.27311707 -0.09561157 10.0412445
+01-09 14:45:31.846 I/System.out( 6343): Values: -0.29692078 -0.040863037 10.055527
+01-09 14:45:32.847 I/System.out( 6343): Values: -0.31834412 -0.09085083 10.117416
+01-09 14:45:33.848 I/System.out( 6343): Values: -0.311203 -0.057525635 10.117416
+01-09 14:45:34.849 I/System.out( 6343): Values: -0.31834412 -0.040863037 10.07457
+01-09 14:45:35.850 I/System.out( 6343): Values: -0.2873993 -0.06704712 10.084091
+01-09 14:45:36.851 I/System.out( 6343): Values: -0.31358337 -0.06466675 10.057907
+01-09 14:45:37.852 I/System.out( 6343): Values: -0.29930115 -0.08847046 10.024582
+01-09 14:45:38.853 I/System.out( 6343): Values: -0.29216003 -0.078948975 10.093613
+01-09 14:45:39.854 I/System.out( 6343): Values: -0.28501892 -0.07418823 10.088852
+01-09 14:45:40.845 I/System.out( 6343): Values: -0.3516693 -0.08609009 10.046005
+01-09 14:45:41.846 I/System.out( 6343): Values: -0.33024597 -0.062286377 10.060287
+01-09 14:45:42.847 I/System.out( 6343): Values: -0.2707367 -0.1098938 10.13884
+01-09 14:45:43.858 I/System.out( 6343): Values: -0.31596375 -0.08609009 10.055527
+01-09 14:45:44.859 I/System.out( 6343): Values: -0.30882263 -0.036102295 10.019821
+01-09 14:45:45.860 I/System.out( 6343): Values: -0.2873993 -0.031341553 10.065048
+01-09 14:45:46.861 I/System.out( 6343): Values: -0.3445282 -0.04800415 10.01268
+01-09 14:45:47.862 I/System.out( 6343): Values: -0.29692078 -0.057525635 10.024582
+01-09 14:45:48.863 I/System.out( 6343): Values: -0.29930115 -0.05038452 10.072189
+01-09 14:45:49.864 I/System.out( 6343): Values: -0.3040619 -0.078948975 10.000778
+01-09 14:45:50.865 I/System.out( 6343): Values: -0.31596375 -0.04324341 10.0412445
+01-09 14:45:51.856 I/System.out( 6343): Values: -0.31358337 -0.059906006 9.991257
+01-09 14:45:52.867 I/System.out( 6343): Values: -0.3040619 -0.06942749 10.034103
+01-09 14:45:53.858 I/System.out( 6343): Values: -0.29692078 -0.055145264 10.060287
+01-09 14:45:54.859 I/System.out( 6343): Values: -0.29692078 -0.0932312 10.100754
+01-09 14:45:55.860 I/System.out( 6343): Values: -0.32310486 -0.0765686 10.01506
+01-09 14:45:56.861 I/System.out( 6343): Values: -0.29692078 -0.038482666 10.088852
+01-09 14:45:57.861 I/System.out( 6343): Values: -0.3445282 -0.0765686 10.105515
+01-09 14:45:58.872 I/System.out( 6343): Values: -0.3040619 -0.11227417 10.034103
+01-09 14:45:59.873 I/System.out( 6343): Values: -0.31596375 -0.062286377 10.043625
+01-09 14:46:00.874 I/System.out( 6343): Values: -0.29216003 -0.028961182 10.055527
+01-09 14:46:01.875 I/System.out( 6343): Values: -0.3040619 -0.0932312 10.057907
+01-09 14:46:02.886 I/System.out( 6343): Values: -0.31358337 -0.038482666 10.091232
+01-09 14:46:03.877 I/System.out( 6343): Values: -0.34690857 -0.081329346 10.062668
+01-09 14:46:04.878 I/System.out( 6343): Values: -0.29216003 -0.11465454 10.043625
+01-09 14:46:05.879 I/System.out( 6343): Values: -0.33262634 -0.052764893 10.043625
+01-09 14:46:06.880 I/System.out( 6343): Values: -0.3445282 -0.02420044 10.107895
+01-09 14:46:07.881 I/System.out( 6343): Values: -0.3278656 -0.081329346 10.055527
+01-09 14:46:08.882 I/System.out( 6343): Values: -0.32548523 -0.06942749 10.112656
+01-09 14:46:09.883 I/System.out( 6343): Values: -0.29930115 -0.08609009 10.043625
+01-09 14:46:10.884 I/System.out( 6343): Values: -0.26835632 -0.05038452 9.993637
+01-09 14:46:11.885 I/System.out( 6343): Values: -0.28263855 -0.06942749 10.055527
+01-09 14:46:12.886 I/System.out( 6343): Values: -0.33262634 -0.11703491 10.084091
+01-09 14:46:13.877 I/System.out( 6343): Values: -0.28501892 -0.100372314 10.031723
+01-09 14:46:14.878 I/System.out( 6343): Values: -0.32548523 -0.017059326 10.084091
+01-09 14:46:15.879 I/System.out( 6343): Values: -0.36357117 -0.052764893 10.084091
+01-09 14:46:16.880 I/System.out( 6343): Values: -0.28977966 -0.062286377 10.07933
+01-09 14:46:17.881 I/System.out( 6343): Values: -0.29930115 -0.057525635 10.053146
+01-09 14:46:18.882 I/System.out( 6343): Values: -0.26359558 -0.11465454 10.084091
+01-09 14:46:19.883 I/System.out( 6343): Values: -0.3350067 -0.04562378 10.067429
+01-09 14:46:20.884 I/System.out( 6343): Values: -0.2873993 -0.038482666 10.103134
+01-09 14:46:21.885 I/System.out( 6343): Values: -0.29692078 -0.021820068 10.067429
+01-09 14:46:22.876 I/System.out( 6343): Values: -0.36595154 -0.055145264 10.067429
+01-09 14:46:23.877 I/System.out( 6343): Values: -0.3350067 -0.08609009 10.0412445
+01-09 14:46:24.878 I/System.out( 6343): Values: -0.311203 -0.059906006 10.053146
+01-09 14:46:25.889 I/System.out( 6343): Values: -0.3445282 -0.05038452 10.095993
+01-09 14:46:26.890 I/System.out( 6343): Values: -0.29216003 -0.057525635 10.105515
+01-09 14:46:27.891 I/System.out( 6343): Values: -0.3040619 -0.06466675 10.07695
+01-09 14:46:28.892 I/System.out( 6343): Values: -0.28263855 -0.059906006 10.072189
+01-09 14:46:29.893 I/System.out( 6343): Values: -0.3040619 -0.07418823 10.043625
+01-09 14:46:30.894 I/System.out( 6343): Values: -0.30644226 -0.04800415 10.07933
+01-09 14:46:31.895 I/System.out( 6343): Values: -0.33262634 -0.057525635 10.005539
+01-09 14:46:32.886 I/System.out( 6343): Values: -0.3207245 -0.059906006 10.103134
+01-09 14:46:33.887 I/System.out( 6343): Values: -0.31358337 -0.100372314 10.057907
+01-09 14:46:34.888 I/System.out( 6343): Values: -0.28977966 -0.057525635 10.007919
+01-09 14:46:35.889 I/System.out( 6343): Values: -0.31596375 -0.07180786 10.112656
+01-09 14:46:36.890 I/System.out( 6343): Values: -0.32548523 -0.06704712 10.095993
+01-09 14:46:37.891 I/System.out( 6343): Values: -0.2778778 -0.059906006 10.110275
+01-09 14:46:38.892 I/System.out( 6343): Values: -0.34214783 -0.052764893 10.093613
+01-09 14:46:39.893 I/System.out( 6343): Values: -0.3207245 -0.08370972 10.067429
+01-09 14:46:40.893 I/System.out( 6343): Values: -0.28025818 -0.100372314 10.07695
+01-09 14:46:41.894 I/System.out( 6343): Values: -0.33262634 -0.0765686 10.086472
+01-09 14:46:42.885 I/System.out( 6343): Values: -0.2873993 -0.06466675 10.055527
+01-09 14:46:43.886 I/System.out( 6343): Values: -0.29216003 -0.06466675 10.000778
+01-09 14:46:44.897 I/System.out( 6343): Values: -0.32310486 -0.02658081 10.019821
+01-09 14:46:45.888 I/System.out( 6343): Values: -0.30644226 -0.057525635 10.067429
+01-09 14:46:46.889 I/System.out( 6343): Values: -0.27549744 -0.031341553 10.034103
+01-09 14:46:47.890 I/System.out( 6343): Values: -0.32548523 -0.04324341 10.022202
+01-09 14:46:48.901 I/System.out( 6343): Values: -0.2778778 -0.07180786 10.050766
+01-09 14:46:49.902 I/System.out( 6343): Values: -0.33024597 -0.0932312 10.031723
+01-09 14:46:50.903 I/System.out( 6343): Values: -0.30168152 -0.038482666 10.048386
+01-09 14:46:51.904 I/System.out( 6343): Values: -0.34928894 -0.038482666 10.119797
+01-09 14:46:52.895 I/System.out( 6343): Values: -0.30168152 -0.038482666 10.038864
+01-09 14:46:53.896 I/System.out( 6343): Values: -0.29930115 -0.055145264 10.048386
+01-09 14:46:54.907 I/System.out( 6343): Values: -0.29216003 -0.06942749 10.048386
+01-09 14:46:55.898 I/System.out( 6343): Values: -0.29930115 -0.06704712 10.100754
+01-09 14:46:56.899 I/System.out( 6343): Values: -0.33738708 -0.06466675 10.088852
+01-09 14:46:57.900 I/System.out( 6343): Values: -0.33262634 -0.057525635 10.060287
+01-09 14:46:58.901 I/System.out( 6343): Values: -0.34690857 -0.057525635 10.084091
+01-09 14:46:59.902 I/System.out( 6343): Values: -0.26835632 -0.04324341 10.050766
+01-09 14:47:00.903 I/System.out( 6343): Values: -0.31596375 -0.07418823 10.069809
+01-09 14:47:01.904 I/System.out( 6343): Values: -0.3207245 -0.0765686 10.043625
+01-09 14:47:02.895 I/System.out( 6343): Values: -0.3040619 -0.05038452 9.94841
+01-09 14:47:03.906 I/System.out( 6343): Values: -0.29692078 -0.033721924 10.069809
+01-09 14:47:04.897 I/System.out( 6343): Values: -0.35404968 -0.036102295 10.019821
+01-09 14:47:05.898 I/System.out( 6343): Values: -0.2873993 -0.04562378 10.034103
+01-09 14:47:06.899 I/System.out( 6343): Values: -0.3040619 -0.062286377 10.029343
+01-09 14:47:07.900 I/System.out( 6343): Values: -0.28501892 -0.062286377 10.01506
+01-09 14:47:08.911 I/System.out( 6343): Values: -0.34214783 -0.04800415 10.072189
+01-09 14:47:09.912 I/System.out( 6343): Values: -0.3207245 -0.052764893 10.07457
+01-09 14:47:10.913 I/System.out( 6343): Values: -0.30168152 -0.062286377 10.038864
+01-09 14:47:11.914 I/System.out( 6343): Values: -0.3040619 -0.06942749 10.086472
+01-09 14:47:12.915 I/System.out( 6343): Values: -0.3207245 -0.04562378 10.093613
+01-09 14:47:13.916 I/System.out( 6343): Values: -0.3278656 -0.04562378 10.01506
+01-09 14:47:14.907 I/System.out( 6343): Values: -0.30644226 -0.057525635 10.017441
+01-09 14:47:15.908 I/System.out( 6343): Values: -0.2873993 -0.052764893 10.07457
+01-09 14:47:16.909 I/System.out( 6343): Values: -0.33976746 -0.06466675 10.046005
+01-09 14:47:17.910 I/System.out( 6343): Values: -0.31834412 -0.08370972 10.100754
+01-09 14:47:18.911 I/System.out( 6343): Values: -0.3350067 -0.08847046 10.081711
+01-09 14:47:19.912 I/System.out( 6343): Values: -0.29930115 -0.052764893 10.053146
+01-09 14:47:20.913 I/System.out( 6343): Values: -0.31834412 -0.04324341 10.091232
+01-09 14:47:21.914 I/System.out( 6343): Values: -0.2873993 -0.021820068 10.091232
+01-09 14:47:22.914 I/System.out( 6343): Values: -0.30882263 -0.038482666 10.0103
+01-09 14:47:23.915 I/System.out( 6343): Values: -0.31596375 -0.081329346 10.026962
+01-09 14:47:24.906 I/System.out( 6343): Values: -0.29692078 -0.019439697 10.01506
+01-09 14:47:25.907 I/System.out( 6343): Values: -0.30644226 -0.062286377 10.100754
+01-09 14:47:26.908 I/System.out( 6343): Values: -0.32310486 -0.036102295 10.046005
+01-09 14:47:27.909 I/System.out( 6343): Values: -0.33024597 -0.08847046 10.100754
+01-09 14:47:28.910 I/System.out( 6343): Values: -0.33024597 -0.07418823 10.07695
+01-09 14:47:29.921 I/System.out( 6343): Values: -0.30644226 -0.0765686 10.048386
+01-09 14:47:30.922 I/System.out( 6343): Values: -0.30168152 -0.038482666 10.093613
+01-09 14:47:31.923 I/System.out( 6343): Values: -0.29216003 -0.06466675 10.095993
+01-09 14:47:32.924 I/System.out( 6343): Values: -0.3040619 -0.100372314 10.053146
+01-09 14:47:33.925 I/System.out( 6343): Values: -0.28977966 -0.078948975 10.031723
+01-09 14:47:34.916 I/System.out( 6343): Values: -0.2707367 -0.040863037 10.105515
+01-09 14:47:35.917 I/System.out( 6343): Values: -0.33976746 -0.057525635 10.053146
+01-09 14:47:36.918 I/System.out( 6343): Values: -0.31358337 -0.057525635 10.055527
+01-09 14:47:37.919 I/System.out( 6343): Values: -0.29692078 -0.06942749 10.086472
+01-09 14:47:38.930 I/System.out( 6343): Values: -0.32310486 -0.009918213 10.067429
+01-09 14:47:39.000 D/dalvikvm( 6343): GC_CONCURRENT freed 386K, 5% free 9016K/9440K, paused 29ms+2ms, total 70ms
+01-09 14:47:39.931 I/System.out( 6343): Values: -0.31358337 -0.078948975 10.01506
+01-09 14:47:40.932 I/System.out( 6343): Values: -0.31596375 -0.04800415 10.019821
+01-09 14:47:41.933 I/System.out( 6343): Values: -0.37071228 -0.028961182 10.081711
+01-09 14:47:42.934 I/System.out( 6343): Values: -0.35404968 -0.04562378 10.062668
+01-09 14:47:43.935 I/System.out( 6343): Values: -0.29930115 -0.062286377 10.072189
+01-09 14:47:44.926 I/System.out( 6343): Values: -0.31596375 -0.021820068 10.036484
+01-09 14:47:45.927 I/System.out( 6343): Values: -0.30644226 -0.0765686 10.07695
+01-09 14:47:46.928 I/System.out( 6343): Values: -0.3040619 -0.04800415 10.050766
+01-09 14:47:47.929 I/System.out( 6343): Values: -0.2873993 -0.06466675 10.046005
+01-09 14:47:48.930 I/System.out( 6343): Values: -0.30168152 -0.059906006 10.07933
+01-09 14:47:49.931 I/System.out( 6343): Values: -0.28977966 -0.11703491 10.0412445
+01-09 14:47:50.942 I/System.out( 6343): Values: -0.30882263 -0.0765686 10.048386
+01-09 14:47:51.943 I/System.out( 6343): Values: -0.30168152 -0.059906006 10.031723
+01-09 14:47:52.944 I/System.out( 6343): Values: -0.32548523 -0.07180786 10.057907
+01-09 14:47:53.945 I/System.out( 6343): Values: -0.3278656 -0.0765686 10.07933
+01-09 14:47:54.936 I/System.out( 6343): Values: -0.2945404 -0.040863037 10.136459
+01-09 14:47:55.937 I/System.out( 6343): Values: -0.29930115 -0.06466675 10.060287
+01-09 14:47:56.938 I/System.out( 6343): Values: -0.3445282 -0.06466675 10.07933
+01-09 14:47:57.939 I/System.out( 6343): Values: -0.29930115 -0.059906006 9.991257
+01-09 14:47:58.940 I/System.out( 6343): Values: -0.28501892 -0.06704712 10.060287
+01-09 14:47:59.941 I/System.out( 6343): Values: -0.31834412 -0.07180786 10.062668
+01-09 14:48:00.942 I/System.out( 6343): Values: -0.29930115 -0.07180786 10.07933
+01-09 14:48:01.943 I/System.out( 6343): Values: -0.31596375 -0.06704712 10.084091
+01-09 14:48:02.944 I/System.out( 6343): Values: -0.31834412 -0.057525635 10.048386
+01-09 14:48:03.945 I/System.out( 6343): Values: -0.33262634 -0.0765686 10.053146
+01-09 14:48:04.945 I/System.out( 6343): Values: -0.30644226 -0.07418823 10.01506
+01-09 14:48:05.946 I/System.out( 6343): Values: -0.29930115 -0.038482666 10.0103
+01-09 14:48:06.947 I/System.out( 6343): Values: -0.3611908 -0.059906006 10.062668
+01-09 14:48:07.948 I/System.out( 6343): Values: -0.27311707 -0.036102295 10.112656
+01-09 14:48:08.949 I/System.out( 6343): Values: -0.31358337 -0.1098938 10.081711
+01-09 14:48:09.950 I/System.out( 6343): Values: -0.32548523 -0.06466675 10.038864
+01-09 14:48:10.951 I/System.out( 6343): Values: -0.2778778 -0.040863037 10.024582
+01-09 14:48:11.952 I/System.out( 6343): Values: -0.31596375 -0.09085083 10.107895
+01-09 14:48:12.953 I/System.out( 6343): Values: -0.30882263 -0.05038452 10.007919
+01-09 14:48:13.954 I/System.out( 6343): Values: -0.28977966 -0.021820068 10.046005
+01-09 14:48:14.955 I/System.out( 6343): Values: -0.3040619 -0.0765686 10.007919
+01-09 14:48:15.946 I/System.out( 6343): Values: -0.32548523 -0.06704712 10.01506
+01-09 14:48:16.947 I/System.out( 6343): Values: -0.26359558 -0.04562378 10.046005
+01-09 14:48:17.948 I/System.out( 6343): Values: -0.32548523 -0.0765686 10.098373
+01-09 14:48:18.949 I/System.out( 6343): Values: -0.3040619 -0.07418823 10.031723
+01-09 14:48:19.950 I/System.out( 6343): Values: -0.311203 -0.06704712 10.038864
+01-09 14:48:20.951 I/System.out( 6343): Values: -0.3207245 -0.08370972 10.093613
+01-09 14:48:21.952 I/System.out( 6343): Values: -0.30882263 -0.033721924 10.07695
+01-09 14:48:22.953 I/System.out( 6343): Values: -0.29930115 -0.057525635 10.062668
+01-09 14:48:23.954 I/System.out( 6343): Values: -0.3350067 -0.09799194 10.095993
+01-09 14:48:24.955 I/System.out( 6343): Values: -0.311203 -0.057525635 10.07933
+01-09 14:48:25.946 I/System.out( 6343): Values: -0.27311707 -0.055145264 10.069809
+01-09 14:48:26.947 I/System.out( 6343): Values: -0.31596375 -0.0765686 10.050766
+01-09 14:48:27.948 I/System.out( 6343): Values: -0.29216003 -0.07180786 10.126938
+01-09 14:48:28.949 I/System.out( 6343): Values: -0.30882263 -0.052764893 10.07457
+01-09 14:48:29.960 I/System.out( 6343): Values: -0.28263855 -0.062286377 10.07695
+01-09 14:48:30.961 I/System.out( 6343): Values: -0.31834412 -0.05038452 10.060287
+01-09 14:48:31.962 I/System.out( 6343): Values: -0.2945404 -0.04324341 10.07933
+01-09 14:48:32.963 I/System.out( 6343): Values: -0.34214783 -0.038482666 10.086472
+01-09 14:48:33.964 I/System.out( 6343): Values: -0.3207245 -0.012298584 10.098373
+01-09 14:48:34.965 I/System.out( 6343): Values: -0.2873993 -0.021820068 10.057907
+01-09 14:48:35.956 I/System.out( 6343): Values: -0.34214783 -0.036102295 10.038864
+01-09 14:48:36.957 I/System.out( 6343): Values: -0.33024597 -0.033721924 10.07933
+01-09 14:48:37.968 I/System.out( 6343): Values: -0.31358337 -0.06704712 10.005539
+01-09 14:48:38.969 I/System.out( 6343): Values: -0.3040619 -0.06942749 10.086472
+01-09 14:48:39.970 I/System.out( 6343): Values: -0.2778778 -0.07418823 10.07457
+01-09 14:48:40.971 I/System.out( 6343): Values: -0.31358337 -0.07180786 10.081711
+01-09 14:48:41.972 I/System.out( 6343): Values: -0.31358337 -0.07180786 10.036484
+01-09 14:48:42.973 I/System.out( 6343): Values: -0.28501892 -0.028961182 10.081711
+01-09 14:48:43.974 I/System.out( 6343): Values: -0.33976746 -0.07180786 10.057907
+01-09 14:48:44.975 I/System.out( 6343): Values: -0.3278656 -0.078948975 10.043625
+01-09 14:48:45.966 I/System.out( 6343): Values: -0.30882263 -0.07418823 10.043625
+01-09 14:48:46.966 I/System.out( 6343): Values: -0.32310486 -0.0932312 10.07695
+01-09 14:48:47.977 I/System.out( 6343): Values: -0.30644226 -0.057525635 10.038864
+01-09 14:48:48.968 I/System.out( 6343): Values: -0.31834412 -0.09561157 10.065048
+01-09 14:48:49.969 I/System.out( 6343): Values: -0.311203 -0.062286377 10.0412445
+01-09 14:48:50.970 I/System.out( 6343): Values: -0.29216003 -0.08609009 10.053146
+01-09 14:48:51.981 I/System.out( 6343): Values: -0.311203 -0.052764893 10.067429
+01-09 14:48:52.972 I/System.out( 6343): Values: -0.33024597 -0.06466675 10.122177
+01-09 14:48:53.973 I/System.out( 6343): Values: -0.31596375 -0.06704712 10.088852
+01-09 14:48:54.974 I/System.out( 6343): Values: -0.32310486 -0.04800415 10.069809
+01-09 14:48:55.975 I/System.out( 6343): Values: -0.33024597 -0.07418823 10.07933
+01-09 14:48:56.986 I/System.out( 6343): Values: -0.3207245 -0.040863037 10.055527
+01-09 14:48:57.977 I/System.out( 6343): Values: -0.30168152 -0.062286377 10.057907
+01-09 14:48:58.978 I/System.out( 6343): Values: -0.31596375 -0.040863037 10.043625
+01-09 14:48:59.979 I/System.out( 6343): Values: -0.33024597 -0.09799194 10.048386
+01-09 14:49:00.980 I/System.out( 6343): Values: -0.3040619 -0.057525635 10.060287
+01-09 14:49:01.981 I/System.out( 6343): Values: -0.3350067 -0.10513306 10.050766
+01-09 14:49:02.982 I/System.out( 6343): Values: -0.33024597 -0.057525635 10.022202
+01-09 14:49:03.983 I/System.out( 6343): Values: -0.28025818 -0.052764893 9.984116
+01-09 14:49:04.984 I/System.out( 6343): Values: -0.31596375 -0.081329346 10.050766
+01-09 14:49:05.985 I/System.out( 6343): Values: -0.32310486 -0.04562378 10.084091
+01-09 14:49:06.986 I/System.out( 6343): Values: -0.29692078 -0.0765686 10.057907
+01-09 14:49:07.977 I/System.out( 6343): Values: -0.28263855 -0.08370972 10.022202
+01-09 14:49:08.978 I/System.out( 6343): Values: -0.31834412 -0.055145264 10.034103
+01-09 14:49:09.979 I/System.out( 6343): Values: -0.30882263 -0.062286377 10.01506
+01-09 14:49:10.980 I/System.out( 6343): Values: -0.3278656 -0.06466675 10.107895
+01-09 14:49:11.981 I/System.out( 6343): Values: -0.34690857 -0.102752686 10.050766
+01-09 14:49:12.982 I/System.out( 6343): Values: -0.29930115 -0.07418823 10.086472
+01-09 14:49:13.983 I/System.out( 6343): Values: -0.33976746 -0.04800415 9.981735
+01-09 14:49:14.984 I/System.out( 6343): Values: -0.33024597 -0.07180786 10.088852
+01-09 14:49:15.985 I/System.out( 6343): Values: -0.28501892 -0.028961182 10.034103
+01-09 14:49:16.986 I/System.out( 6343): Values: -0.29692078 -0.06466675 10.115036
+01-09 14:49:17.977 I/System.out( 6343): Values: -0.29216003 -0.062286377 9.998398
+01-09 14:49:18.978 I/System.out( 6343): Values: -0.29692078 -0.033721924 10.110275
+01-09 14:49:19.979 I/System.out( 6343): Values: -0.30168152 -0.055145264 10.026962
+01-09 14:49:20.980 I/System.out( 6343): Values: -0.31358337 -0.057525635 10.093613
+01-09 14:49:21.981 I/System.out( 6343): Values: -0.32310486 -0.06704712 10.057907
+01-09 14:49:22.992 I/System.out( 6343): Values: -0.30882263 -0.06704712 10.065048
+01-09 14:49:23.993 I/System.out( 6343): Values: -0.2207489 -0.06466675 10.022202
+01-09 14:49:24.994 I/System.out( 6343): Values: -0.29692078 -0.0932312 10.048386
+01-09 14:49:25.995 I/System.out( 6343): Values: -0.28977966 -0.06466675 10.034103
+01-09 14:49:26.996 I/System.out( 6343): Values: -0.29692078 -0.06704712 10.067429
+01-09 14:49:27.986 I/System.out( 6343): Values: -0.31834412 -0.033721924 10.07457
+01-09 14:49:28.987 I/System.out( 6343): Values: -0.3040619 -0.040863037 10.046005
+01-09 14:49:29.988 I/System.out( 6343): Values: -0.3350067 -0.052764893 10.088852
+01-09 14:49:30.989 I/System.out( 6343): Values: -0.29930115 -0.078948975 10.100754
+01-09 14:49:31.990 I/System.out( 6343): Values: -0.31358337 -0.078948975 10.046005
+01-09 14:49:32.991 I/System.out( 6343): Values: -0.26835632 -0.055145264 10.095993
+01-09 14:49:33.992 I/System.out( 6343): Values: -0.29692078 -0.09799194 10.067429
+01-09 14:49:34.993 I/System.out( 6343): Values: -0.31834412 -0.04324341 10.072189
+01-09 14:49:35.994 I/System.out( 6343): Values: -0.3278656 -0.06704712 10.060287
+01-09 14:49:36.995 I/System.out( 6343): Values: -0.30168152 -0.09561157 10.072189
+01-09 14:49:37.986 I/System.out( 6343): Values: -0.29692078 -0.038482666 10.069809
+01-09 14:49:38.987 I/System.out( 6343): Values: -0.33262634 -0.09561157 10.093613
+01-09 14:49:39.988 I/System.out( 6343): Values: -0.31596375 -0.04562378 10.019821
+01-09 14:49:40.989 I/System.out( 6343): Values: -0.3207245 -0.08370972 10.07695
+01-09 14:49:41.990 I/System.out( 6343): Values: -0.3207245 -0.0765686 10.065048
+01-09 14:49:42.991 I/System.out( 6343): Values: -0.30168152 -0.055145264 10.057907
+01-09 14:49:44.002 I/System.out( 6343): Values: -0.34928894 -0.057525635 10.093613
+01-09 14:49:45.013 I/System.out( 6343): Values: -0.31596375 -0.019439697 10.103134
+01-09 14:49:46.014 I/System.out( 6343): Values: -0.3040619 -0.059906006 10.055527
+01-09 14:49:47.015 I/System.out( 6343): Values: -0.31834412 -0.052764893 10.072189
+01-09 14:49:48.006 I/System.out( 6343): Values: -0.31834412 -0.0765686 10.055527
+01-09 14:49:49.007 I/System.out( 6343): Values: -0.28501892 -0.04800415 10.038864
+01-09 14:49:50.008 I/System.out( 6343): Values: -0.33976746 -0.07418823 10.065048
+01-09 14:49:51.009 I/System.out( 6343): Values: -0.30882263 -0.040863037 10.01268
+01-09 14:49:52.010 I/System.out( 6343): Values: -0.29692078 -0.09085083 10.060287
+01-09 14:49:53.011 I/System.out( 6343): Values: -0.31596375 -0.062286377 10.093613
+01-09 14:49:54.012 I/System.out( 6343): Values: -0.30644226 -0.08609009 10.065048
+01-09 14:49:55.013 I/System.out( 6343): Values: -0.3445282 -0.062286377 10.134079
+01-09 14:49:56.014 I/System.out( 6343): Values: -0.30168152 -0.08370972 10.065048
+01-09 14:49:57.005 I/System.out( 6343): Values: -0.3350067 -0.05038452 10.093613
+01-09 14:49:58.016 I/System.out( 6343): Values: -0.3207245 -0.052764893 10.019821
+01-09 14:49:59.017 I/System.out( 6343): Values: -0.3040619 -0.0932312 10.048386
+01-09 14:50:00.018 I/System.out( 6343): Values: -0.2707367 -0.11703491 10.115036
+01-09 14:50:01.019 I/System.out( 6343): Values: -0.29930115 -0.04562378 10.01506
+01-09 14:50:02.020 I/System.out( 6343): Values: -0.30882263 -0.06704712 10.1245575
+01-09 14:50:03.021 I/System.out( 6343): Values: -0.3611908 -0.081329346 10.024582
+01-09 14:50:04.022 I/System.out( 6343): Values: -0.33976746 -0.06942749 10.022202
+01-09 14:50:05.023 I/System.out( 6343): Values: -0.34690857 -0.06466675 10.050766
+01-09 14:50:06.024 I/System.out( 6343): Values: -0.30882263 -0.078948975 10.07695
+01-09 14:50:07.025 I/System.out( 6343): Values: -0.29216003 -0.06466675 10.055527
+01-09 14:50:08.026 I/System.out( 6343): Values: -0.3350067 -0.019439697 10.024582
+01-09 14:50:09.027 I/System.out( 6343): Values: -0.25645447 -0.036102295 10.019821
+01-09 14:50:10.018 I/System.out( 6343): Values: -0.29216003 -0.10751343 10.065048
+01-09 14:50:11.018 I/System.out( 6343): Values: -0.3207245 -0.038482666 10.043625
+01-09 14:50:12.019 I/System.out( 6343): Values: -0.32310486 -0.06466675 10.103134
+01-09 14:50:13.020 I/System.out( 6343): Values: -0.34214783 -0.0932312 10.07933
+01-09 14:50:14.021 I/System.out( 6343): Values: -0.33024597 -0.06704712 10.072189
+01-09 14:50:15.022 I/System.out( 6343): Values: -0.30882263 -0.04324341 9.979355
+01-09 14:50:16.023 I/System.out( 6343): Values: -0.31596375 -0.07418823 10.0412445
+01-09 14:50:17.024 I/System.out( 6343): Values: -0.3207245 -0.07418823 10.060287
+01-09 14:50:18.025 I/System.out( 6343): Values: -0.33024597 -0.07418823 10.053146
+01-09 14:50:19.026 I/System.out( 6343): Values: -0.31358337 -0.040863037 10.107895
+01-09 14:50:20.017 I/System.out( 6343): Values: -0.27311707 -0.0765686 10.100754
+01-09 14:50:21.018 I/System.out( 6343): Values: -0.31596375 -0.059906006 10.0412445
+01-09 14:50:22.019 I/System.out( 6343): Values: -0.34690857 -0.052764893 10.036484
+01-09 14:50:23.020 I/System.out( 6343): Values: -0.2873993 -0.08609009 10.031723
+01-09 14:50:24.021 I/System.out( 6343): Values: -0.35881042 -0.07418823 10.017441
+01-09 14:50:25.022 I/System.out( 6343): Values: -0.29930115 -0.078948975 10.043625
+01-09 14:50:26.023 I/System.out( 6343): Values: -0.29930115 -0.05038452 10.117416
+01-09 14:50:27.034 I/System.out( 6343): Values: -0.2945404 -0.062286377 10.031723
+01-09 14:50:28.035 I/System.out( 6343): Values: -0.29216003 -0.052764893 10.07457
+01-09 14:50:29.026 I/System.out( 6343): Values: -0.34928894 -0.059906006 10.057907
+01-09 14:50:30.027 I/System.out( 6343): Values: -0.30168152 -0.04800415 10.022202
+01-09 14:50:31.028 I/System.out( 6343): Values: -0.3040619 -0.07418823 10.167404
+01-09 14:50:32.029 I/System.out( 6343): Values: -0.311203 -0.062286377 10.091232
+01-09 14:50:33.030 I/System.out( 6343): Values: -0.3207245 -0.06704712 10.069809
+01-09 14:50:34.031 I/System.out( 6343): Values: -0.38023376 -0.09561157 10.07695
+01-09 14:50:35.032 I/System.out( 6343): Values: -0.32548523 -0.081329346 10.07695
+01-09 14:50:36.033 I/System.out( 6343): Values: -0.3207245 -0.0765686 10.07933
+01-09 14:50:37.034 I/System.out( 6343): Values: -0.3350067 -0.05038452 10.01268
+01-09 14:50:38.035 I/System.out( 6343): Values: -0.32548523 -0.057525635 10.069809
+01-09 14:50:39.026 I/System.out( 6343): Values: -0.29930115 0.0019836426 10.029343
+01-09 14:50:40.027 I/System.out( 6343): Values: -0.31596375 -0.0765686 10.050766
+01-09 14:50:41.038 I/System.out( 6343): Values: -0.32548523 -0.08370972 10.057907
+01-09 14:50:41.098 D/dalvikvm( 6343): GC_CONCURRENT freed 384K, 5% free 9016K/9440K, paused 16ms+1ms, total 64ms
+01-09 14:50:42.029 I/System.out( 6343): Values: -0.30882263 -0.04800415 10.086472
+01-09 14:50:43.030 I/System.out( 6343): Values: -0.3350067 -0.078948975 10.067429
+01-09 14:50:44.031 I/System.out( 6343): Values: -0.311203 -0.062286377 10.050766
+01-09 14:50:45.032 I/System.out( 6343): Values: -0.30644226 -0.06704712 10.048386
+01-09 14:50:46.033 I/System.out( 6343): Values: -0.3445282 -0.06942749 10.065048
+01-09 14:50:47.034 I/System.out( 6343): Values: -0.33738708 -0.08609009 10.091232
+01-09 14:50:48.035 I/System.out( 6343): Values: -0.3350067 -0.0932312 10.01268
+01-09 14:50:49.026 I/System.out( 6343): Values: -0.33024597 -0.028961182 10.084091
+01-09 14:50:50.027 I/System.out( 6343): Values: -0.31596375 -0.057525635 10.038864
+01-09 14:50:51.038 I/System.out( 6343): Values: -0.34214783 -0.028961182 10.134079
+01-09 14:50:52.028 I/System.out( 6343): Values: -0.33024597 -0.059906006 9.993637
+01-09 14:50:53.029 I/System.out( 6343): Values: -0.28501892 -0.038482666 9.996017
+01-09 14:50:54.040 I/System.out( 6343): Values: -0.28263855 -0.04562378 10.003159
+01-09 14:50:55.041 I/System.out( 6343): Values: -0.14457703 -0.06704712 10.926743
+01-09 14:50:56.042 I/System.out( 6343): Values: -0.29930115 -0.078948975 10.022202
+01-09 14:50:57.043 I/System.out( 6343): Values: -0.29692078 -0.031341553 9.991257
+01-09 14:50:58.044 I/System.out( 6343): Values: -0.3207245 -0.07180786 10.110275
+01-09 14:50:59.035 I/System.out( 6343): Values: -0.31834412 -0.08847046 10.046005
+01-09 14:51:00.036 I/System.out( 6343): Values: -0.29930115 -0.09561157 10.050766
+01-09 14:51:01.037 I/System.out( 6343): Values: -0.311203 -0.102752686 10.112656
+01-09 14:51:02.038 I/System.out( 6343): Values: -0.34214783 -0.028961182 10.098373
+01-09 14:51:03.039 I/System.out( 6343): Values: -0.29216003 -0.07180786 10.067429
+01-09 14:51:04.040 I/System.out( 6343): Values: -0.30882263 -0.019439697 10.07695
+01-09 14:51:05.041 I/System.out( 6343): Values: -0.29216003 -0.059906006 9.988876
+01-09 14:51:06.042 I/System.out( 6343): Values: -0.32310486 -0.062286377 10.098373
+01-09 14:51:07.043 I/System.out( 6343): Values: -0.31358337 -0.062286377 10.029343
+01-09 14:51:08.044 I/System.out( 6343): Values: -0.31596375 -0.017059326 10.100754
+01-09 14:51:09.045 I/System.out( 6343): Values: -0.2873993 -0.0765686 10.034103
+01-09 14:51:10.046 I/System.out( 6343): Values: -0.30644226 -0.05038452 10.062668
+01-09 14:51:11.047 I/System.out( 6343): Values: -0.29216003 -0.059906006 10.095993
+01-09 14:51:12.048 I/System.out( 6343): Values: -0.28501892 -0.04562378 9.988876
+01-09 14:51:13.049 I/System.out( 6343): Values: -0.32548523 -0.038482666 10.060287
+01-09 14:51:14.050 I/System.out( 6343): Values: -0.33262634 -0.08370972 10.091232
+01-09 14:51:15.051 I/System.out( 6343): Values: -0.3040619 -0.078948975 10.14122
+01-09 14:51:16.052 I/System.out( 6343): Values: -0.33976746 -0.009918213 10.01506
+01-09 14:51:17.053 I/System.out( 6343): Values: -0.31834412 -0.028961182 10.105515
+01-09 14:51:18.054 I/System.out( 6343): Values: -0.33738708 -0.06942749 10.01268
+01-09 14:51:19.055 I/System.out( 6343): Values: -0.28263855 -0.06942749 10.07933
+01-09 14:51:20.056 I/System.out( 6343): Values: -0.31596375 -0.078948975 10.110275
+01-09 14:51:21.047 I/System.out( 6343): Values: -0.3207245 -0.08609009 10.005539
+01-09 14:51:22.048 I/System.out( 6343): Values: -0.28977966 -0.11227417 10.107895
+01-09 14:51:23.049 I/System.out( 6343): Values: -0.3040619 -0.04324341 10.0103
+01-09 14:51:24.050 I/System.out( 6343): Values: -0.33738708 -0.08609009 10.057907
+01-09 14:51:25.051 I/System.out( 6343): Values: -0.34214783 -0.062286377 10.07933
+01-09 14:51:26.052 I/System.out( 6343): Values: -0.29930115 -0.0765686 10.050766
+01-09 14:51:27.053 I/System.out( 6343): Values: -0.30644226 -0.059906006 10.053146
+01-09 14:51:28.054 I/System.out( 6343): Values: -0.29216003 -0.02420044 10.081711
+01-09 14:51:29.055 I/System.out( 6343): Values: -0.3040619 -0.09799194 10.062668
+01-09 14:51:30.056 I/System.out( 6343): Values: -0.35881042 -0.1098938 10.098373
+01-09 14:51:31.047 I/System.out( 6343): Values: -0.31834412 -0.04324341 10.105515
+01-09 14:51:32.048 I/System.out( 6343): Values: -0.32310486 -0.1098938 9.979355
+01-09 14:51:33.059 I/System.out( 6343): Values: -0.33738708 -0.078948975 10.017441
+01-09 14:51:34.059 I/System.out( 6343): Values: -0.3278656 -0.055145264 10.100754
+01-09 14:51:35.060 I/System.out( 6343): Values: -0.2873993 -0.055145264 10.081711
+01-09 14:51:36.061 I/System.out( 6343): Values: -0.31834412 -0.052764893 10.029343
+01-09 14:51:37.062 I/System.out( 6343): Values: -0.29692078 -0.052764893 10.048386
+01-09 14:51:38.063 I/System.out( 6343): Values: -0.3040619 -0.057525635 10.07933
+01-09 14:51:39.064 I/System.out( 6343): Values: -0.2707367 -0.057525635 10.062668
+01-09 14:51:40.065 I/System.out( 6343): Values: -0.28263855 -0.062286377 10.134079
+01-09 14:51:41.056 I/System.out( 6343): Values: -0.311203 -0.06942749 10.067429
+01-09 14:51:42.057 I/System.out( 6343): Values: -0.2778778 -0.09085083 10.069809
+01-09 14:51:43.058 I/System.out( 6343): Values: -0.30644226 -0.033721924 9.996017
+01-09 14:51:44.069 I/System.out( 6343): Values: -0.2873993 -0.06466675 10.024582
+01-09 14:51:45.060 I/System.out( 6343): Values: -0.3040619 -0.057525635 10.057907
+01-09 14:51:46.061 I/System.out( 6343): Values: -0.32310486 -0.059906006 10.060287
+01-09 14:51:47.062 I/System.out( 6343): Values: -0.2778778 -0.059906006 10.057907
+01-09 14:51:48.073 I/System.out( 6343): Values: -0.32310486 -0.062286377 10.017441
+01-09 14:51:49.074 I/System.out( 6343): Values: -0.32548523 -0.0932312 10.0412445
+01-09 14:51:50.075 I/System.out( 6343): Values: -0.31834412 -0.062286377 9.984116
+01-09 14:51:51.066 I/System.out( 6343): Values: -0.31834412 -0.100372314 10.067429
+01-09 14:51:52.067 I/System.out( 6343): Values: -0.30168152 -0.06942749 10.048386
+01-09 14:51:53.068 I/System.out( 6343): Values: -0.3207245 -0.038482666 10.029343
+01-09 14:51:54.069 I/System.out( 6343): Values: -0.311203 -0.06466675 10.062668
+01-09 14:51:55.070 I/System.out( 6343): Values: -0.31596375 -0.07180786 10.103134
+01-09 14:51:56.071 I/System.out( 6343): Values: -0.33738708 -0.036102295 10.107895
+01-09 14:51:57.072 I/System.out( 6343): Values: -0.31834412 -0.06466675 10.053146
+01-09 14:51:58.073 I/System.out( 6343): Values: -0.33262634 -0.05038452 10.086472
+01-09 14:51:59.074 I/System.out( 6343): Values: -0.28263855 -0.10751343 10.0103
+01-09 14:52:00.065 I/System.out( 6343): Values: -0.33024597 -0.06466675 10.053146
+01-09 14:52:01.076 I/System.out( 6343): Values: -0.3207245 -0.05038452 10.081711
+01-09 14:52:02.067 I/System.out( 6343): Values: -0.311203 -0.06466675 10.072189
+01-09 14:52:03.068 I/System.out( 6343): Values: -0.31834412 -0.081329346 10.095993
+01-09 14:52:04.069 I/System.out( 6343): Values: -0.31358337 -0.07180786 10.107895
+01-09 14:52:05.070 I/System.out( 6343): Values: -0.3278656 -0.06466675 10.105515
+01-09 14:52:06.071 I/System.out( 6343): Values: -0.29216003 -0.04800415 10.072189
+01-09 14:52:07.072 I/System.out( 6343): Values: -0.3040619 -0.04800415 10.053146
+01-09 14:52:08.073 I/System.out( 6343): Values: -0.28501892 -0.06704712 10.060287
+01-09 14:52:09.074 I/System.out( 6343): Values: -0.33262634 -0.052764893 10.046005
+01-09 14:52:10.075 I/System.out( 6343): Values: -0.33976746 -0.078948975 10.062668
+01-09 14:52:11.076 I/System.out( 6343): Values: -0.2945404 -0.021820068 10.036484
+01-09 14:52:12.077 I/System.out( 6343): Values: -0.31358337 -0.052764893 10.024582
+01-09 14:52:13.068 I/System.out( 6343): Values: -0.28263855 -0.04562378 10.157883
+01-09 14:52:14.069 I/System.out( 6343): Values: -0.30168152 -0.04562378 10.069809
+01-09 14:52:15.070 I/System.out( 6343): Values: -0.3278656 -0.033721924 10.103134
+01-09 14:52:16.070 I/System.out( 6343): Values: -0.33024597 -0.08609009 10.0103
+01-09 14:52:17.071 I/System.out( 6343): Values: -0.30168152 -0.021820068 10.019821
+01-09 14:52:18.072 I/System.out( 6343): Values: -0.3278656 -0.021820068 10.081711
+01-09 14:52:19.073 I/System.out( 6343): Values: -0.33976746 -0.057525635 9.991257
+01-09 14:52:20.074 I/System.out( 6343): Values: -0.3207245 -0.06704712 10.019821
+01-09 14:52:21.075 I/System.out( 6343): Values: -0.30168152 -0.040863037 10.046005
+01-09 14:52:22.076 I/System.out( 6343): Values: -0.34214783 -0.038482666 10.107895
+01-09 14:52:23.067 I/System.out( 6343): Values: -0.32310486 -0.059906006 10.057907
+01-09 14:52:24.068 I/System.out( 6343): Values: -0.29216003 -0.052764893 10.062668
+01-09 14:52:25.079 I/System.out( 6343): Values: -0.30168152 -0.012298584 10.060287
+01-09 14:52:26.080 I/System.out( 6343): Values: -0.311203 -0.031341553 10.098373
+01-09 14:52:27.081 I/System.out( 6343): Values: -0.28977966 -0.040863037 10.024582
+01-09 14:52:28.082 I/System.out( 6343): Values: -0.3040619 -0.057525635 10.055527
+01-09 14:52:29.083 I/System.out( 6343): Values: -0.30644226 -0.033721924 10.098373
+01-09 14:52:30.084 I/System.out( 6343): Values: -0.30644226 -0.057525635 10.098373
+01-09 14:52:31.085 I/System.out( 6343): Values: -0.3207245 -0.059906006 10.100754
+01-09 14:52:32.076 I/System.out( 6343): Values: -0.3278656 -0.04562378 10.091232
+01-09 14:52:33.077 I/System.out( 6343): Values: -0.311203 -0.09799194 10.055527
+01-09 14:52:34.078 I/System.out( 6343): Values: -0.3207245 -0.04562378 10.055527
+01-09 14:52:35.079 I/System.out( 6343): Values: -0.3350067 -0.04562378 10.060287
+01-09 14:52:36.080 I/System.out( 6343): Values: -0.33976746 -0.08847046 10.098373
+01-09 14:52:37.081 I/System.out( 6343): Values: -0.33262634 -0.033721924 10.048386
+01-09 14:52:38.082 I/System.out( 6343): Values: -0.3040619 -0.07180786 10.093613
+01-09 14:52:39.083 I/System.out( 6343): Values: -0.311203 -0.05038452 10.034103
+01-09 14:52:40.084 I/System.out( 6343): Values: -0.31358337 -0.04800415 10.026962
+01-09 14:52:41.085 I/System.out( 6343): Values: -0.34690857 -0.059906006 10.07933
+01-09 14:52:42.076 I/System.out( 6343): Values: -0.34928894 -0.012298584 10.07457
+01-09 14:52:43.077 I/System.out( 6343): Values: -0.32310486 -0.06942749 10.003159
+01-09 14:52:44.088 I/System.out( 6343): Values: -0.35643005 -0.055145264 9.991257
+01-09 14:52:45.079 I/System.out( 6343): Values: -0.3350067 -0.07180786 10.084091
+01-09 14:52:46.080 I/System.out( 6343): Values: -0.33024597 -0.06466675 10.088852
+01-09 14:52:47.081 I/System.out( 6343): Values: -0.33738708 -0.028961182 10.100754
+01-09 14:52:48.082 I/System.out( 6343): Values: -0.30882263 -0.05038452 10.003159
+01-09 14:52:49.083 I/System.out( 6343): Values: -0.31596375 -0.055145264 10.019821
+01-09 14:52:50.084 I/System.out( 6343): Values: -0.3207245 -0.08609009 10.131699
+01-09 14:52:51.095 I/System.out( 6343): Values: -0.33024597 -0.038482666 10.053146
+01-09 14:52:52.086 I/System.out( 6343): Values: -0.30168152 -0.033721924 10.036484
+01-09 14:52:53.087 I/System.out( 6343): Values: -0.29692078 -0.078948975 9.991257
+01-09 14:52:54.088 I/System.out( 6343): Values: -0.2873993 -0.07180786 10.103134
+01-09 14:52:55.089 I/System.out( 6343): Values: -0.32310486 -0.036102295 10.095993
+01-09 14:52:56.090 I/System.out( 6343): Values: -0.33738708 -0.021820068 10.017441
+01-09 14:52:57.091 I/System.out( 6343): Values: -0.28501892 -0.02658081 10.060287
+01-09 14:52:58.091 I/System.out( 6343): Values: -0.32548523 -0.0765686 10.131699
+01-09 14:52:59.092 I/System.out( 6343): Values: -0.30644226 -0.078948975 10.107895
+01-09 14:53:00.093 I/System.out( 6343): Values: -0.29930115 -0.07418823 10.105515
+01-09 14:53:01.094 I/System.out( 6343): Values: -0.34928894 -0.02420044 10.046005
+01-09 14:53:02.085 I/System.out( 6343): Values: -0.30882263 -0.033721924 10.065048
+01-09 14:53:03.096 I/System.out( 6343): Values: -0.33738708 -0.038482666 9.998398
+01-09 14:53:04.087 I/System.out( 6343): Values: -0.34928894 -0.06466675 10.07457
+01-09 14:53:05.088 I/System.out( 6343): Values: -0.30644226 -0.0765686 10.046005
+01-09 14:53:06.089 I/System.out( 6343): Values: -0.3207245 -0.040863037 10.07695
+01-09 14:53:07.090 I/System.out( 6343): Values: -0.31834412 -0.033721924 10.13884
+01-09 14:53:08.091 I/System.out( 6343): Values: -0.29216003 -0.10513306 10.022202
+01-09 14:53:09.092 I/System.out( 6343): Values: -0.28501892 -0.028961182 10.060287
+01-09 14:53:10.093 I/System.out( 6343): Values: -0.30644226 -0.05038452 10.067429
+01-09 14:53:11.094 I/System.out( 6343): Values: -0.3207245 -0.055145264 10.000778
+01-09 14:53:12.085 I/System.out( 6343): Values: -0.29930115 -0.06704712 10.1245575
+01-09 14:53:13.096 I/System.out( 6343): Values: -0.34690857 -0.05038452 10.060287
+01-09 14:53:14.087 I/System.out( 6343): Values: -0.31358337 -0.09085083 10.072189
+01-09 14:53:15.088 I/System.out( 6343): Values: -0.29216003 -0.059906006 10.048386
+01-09 14:53:16.089 I/System.out( 6343): Values: -0.28501892 -0.033721924 10.048386
+01-09 14:53:17.090 I/System.out( 6343): Values: -0.2945404 -0.07418823 10.036484
+01-09 14:53:18.091 I/System.out( 6343): Values: -0.3207245 -0.062286377 10.062668
+01-09 14:53:19.092 I/System.out( 6343): Values: -0.35643005 -0.06466675 10.093613
+01-09 14:53:20.093 I/System.out( 6343): Values: -0.32310486 -0.06942749 10.026962
+01-09 14:53:21.094 I/System.out( 6343): Values: -0.311203 -0.019439697 10.081711
+01-09 14:53:22.095 I/System.out( 6343): Values: -0.2873993 -0.09085083 10.069809
+01-09 14:53:23.096 I/System.out( 6343): Values: -0.34690857 -0.059906006 10.036484
+01-09 14:53:24.097 I/System.out( 6343): Values: -0.30644226 -0.038482666 10.019821
+01-09 14:53:25.098 I/System.out( 6343): Values: -0.3207245 -0.0765686 10.07695
+01-09 14:53:26.099 I/System.out( 6343): Values: -0.24931335 -0.04324341 10.065048
+01-09 14:53:27.100 I/System.out( 6343): Values: -0.30644226 -3.9672852E-4 10.100754
+01-09 14:53:28.101 I/System.out( 6343): Values: -0.3278656 -0.0765686 10.07457
+01-09 14:53:29.102 I/System.out( 6343): Values: -0.34928894 -0.038482666 10.107895
+01-09 14:53:30.103 I/System.out( 6343): Values: -0.31834412 -0.06942749 10.060287
+01-09 14:53:31.104 I/System.out( 6343): Values: -0.311203 -0.02658081 10.081711
+01-09 14:53:32.105 I/System.out( 6343): Values: -0.33262634 -0.04800415 10.01268
+01-09 14:53:33.106 I/System.out( 6343): Values: -0.311203 -0.059906006 10.098373
+01-09 14:53:34.097 I/System.out( 6343): Values: -0.311203 -0.062286377 10.081711
+01-09 14:53:35.098 I/System.out( 6343): Values: -0.31596375 -0.055145264 10.088852
+01-09 14:53:36.099 I/System.out( 6343): Values: -0.28263855 -0.07418823 10.072189
+01-09 14:53:37.100 I/System.out( 6343): Values: -0.3207245 -0.040863037 10.069809
+01-09 14:53:38.101 I/System.out( 6343): Values: -0.33976746 -0.05038452 10.072189
+01-09 14:53:39.101 I/System.out( 6343): Values: -0.29216003 -0.040863037 10.07695
+01-09 14:53:40.102 I/System.out( 6343): Values: -0.33262634 -0.09799194 10.057907
+01-09 14:53:41.103 I/System.out( 6343): Values: -0.3278656 -0.04562378 10.000778
+01-09 14:53:42.104 I/System.out( 6343): Values: -0.30644226 -0.055145264 10.060287
+01-09 14:53:43.105 I/System.out( 6343): Values: -0.30882263 -0.062286377 10.026962
+01-09 14:53:43.165 D/dalvikvm( 6343): GC_CONCURRENT freed 384K, 5% free 9016K/9440K, paused 11ms+2ms, total 57ms
+01-09 14:53:44.096 I/System.out( 6343): Values: -0.30882263 -0.040863037 10.055527
+01-09 14:53:45.097 I/System.out( 6343): Values: -0.26359558 -0.081329346 10.072189
+01-09 14:53:46.098 I/System.out( 6343): Values: -0.30644226 -0.04800415 10.026962
+01-09 14:53:47.109 I/System.out( 6343): Values: -0.31358337 -0.100372314 10.091232
+01-09 14:53:48.110 I/System.out( 6343): Values: -0.34928894 -0.055145264 10.0412445
+01-09 14:53:49.111 I/System.out( 6343): Values: -0.3207245 -0.081329346 10.072189
+01-09 14:53:50.112 I/System.out( 6343): Values: -0.30882263 -0.02658081 10.067429
+01-09 14:53:51.113 I/System.out( 6343): Values: -0.34928894 -0.07180786 10.091232
+01-09 14:53:52.114 I/System.out( 6343): Values: -0.29216003 -0.057525635 10.057907
+01-09 14:53:53.105 I/System.out( 6343): Values: -0.31596375 -0.040863037 10.084091
+01-09 14:53:54.106 I/System.out( 6343): Values: -0.32310486 -0.062286377 10.01268
+01-09 14:53:55.117 I/System.out( 6343): Values: -0.33738708 -0.081329346 10.086472
+01-09 14:53:56.108 I/System.out( 6343): Values: -0.30882263 -0.038482666 10.048386
+01-09 14:53:57.109 I/System.out( 6343): Values: -0.30168152 -0.05038452 10.105515
+01-09 14:53:58.110 I/System.out( 6343): Values: -0.3278656 -0.059906006 10.019821
+01-09 14:53:59.111 I/System.out( 6343): Values: -0.29216003 -0.036102295 10.136459
+01-09 14:54:00.112 I/System.out( 6343): Values: -0.30168152 -0.038482666 10.034103
+01-09 14:54:01.113 I/System.out( 6343): Values: -0.30882263 -0.062286377 10.000778
+01-09 14:54:02.114 I/System.out( 6343): Values: -0.2778778 -0.038482666 10.065048
+01-09 14:54:03.105 I/System.out( 6343): Values: -0.3849945 -0.04324341 10.031723
+01-09 14:54:04.106 I/System.out( 6343): Values: -0.30882263 0.0019836426 10.01506
+01-09 14:54:05.107 I/System.out( 6343): Values: -0.33976746 -0.052764893 10.050766
+01-09 14:54:06.108 I/System.out( 6343): Values: -0.33738708 -0.059906006 10.0412445
+01-09 14:54:07.109 I/System.out( 6343): Values: -0.34214783 -0.057525635 10.060287
+01-09 14:54:08.120 I/System.out( 6343): Values: -0.33262634 -0.04324341 10.091232
+01-09 14:54:09.121 I/System.out( 6343): Values: -0.311203 -0.057525635 10.095993
+01-09 14:54:10.112 I/System.out( 6343): Values: -0.3350067 -0.057525635 10.093613
+01-09 14:54:11.123 I/System.out( 6343): Values: -0.31358337 -0.036102295 10.072189
+01-09 14:54:12.124 I/System.out( 6343): Values: -0.27311707 -0.06466675 10.038864
+01-09 14:54:13.125 I/System.out( 6343): Values: -0.31834412 -0.040863037 10.072189
+01-09 14:54:14.116 I/System.out( 6343): Values: -0.2873993 -0.062286377 10.057907
+01-09 14:54:15.117 I/System.out( 6343): Values: -0.31834412 -0.06704712 10.107895
+01-09 14:54:16.118 I/System.out( 6343): Values: -0.31358337 0.0067443848 10.0412445
+01-09 14:54:17.119 I/System.out( 6343): Values: -0.33024597 -0.04562378 10.067429
+01-09 14:54:18.120 I/System.out( 6343): Values: -0.33262634 -0.059906006 10.048386
+01-09 14:54:19.121 I/System.out( 6343): Values: -0.2873993 -0.007537842 10.046005
+01-09 14:54:20.122 I/System.out( 6343): Values: -0.33976746 -0.036102295 10.043625
+01-09 14:54:21.122 I/System.out( 6343): Values: -0.3278656 -0.05038452 10.055527
+01-09 14:54:22.123 I/System.out( 6343): Values: -0.2873993 -0.02420044 10.036484
+01-09 14:54:23.124 I/System.out( 6343): Values: -0.34214783 -0.021820068 10.005539
+01-09 14:54:24.125 I/System.out( 6343): Values: -0.30882263 -0.04800415 10.069809
+01-09 14:54:24.125 I/System.out( 6343): Battery level end is reached
+01-09 14:54:24.125 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:25.126 I/System.out( 6343): Values: -0.28025818 -0.017059326 10.069809
+01-09 14:54:25.126 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:26.117 I/System.out( 6343): Values: -0.29930115 -0.033721924 10.022202
+01-09 14:54:26.137 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:27.118 I/System.out( 6343): Values: -0.2945404 -0.02420044 10.0103
+01-09 14:54:27.138 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:28.119 I/System.out( 6343): Values: -0.28263855 -0.04324341 10.07933
+01-09 14:54:28.139 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:29.130 I/System.out( 6343): Values: -0.33738708 -0.10751343 10.067429
+01-09 14:54:29.150 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:30.131 I/System.out( 6343): Values: -0.34214783 -0.057525635 10.038864
+01-09 14:54:30.141 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:31.132 I/System.out( 6343): Values: -0.2945404 -0.09085083 9.9769745
+01-09 14:54:31.142 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:32.133 I/System.out( 6343): Values: -0.31358337 -0.059906006 10.081711
+01-09 14:54:32.133 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:33.134 I/System.out( 6343): Values: -0.5349579 0.57803345 9.460434
+01-09 14:54:33.144 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:34.125 I/System.out( 6343): Values: -2.203598 0.021026611 10.357834
+01-09 14:54:34.145 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:35.126 I/System.out( 6343): Values: -1.7679901 -0.28842163 10.262619
+01-09 14:54:35.136 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:36.127 I/System.out( 6343): Values: -0.94914246 0.12576294 9.686569
+01-09 14:54:36.137 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:37.128 I/System.out( 6343): Values: -1.1776581 1.0231628 10.324509
+01-09 14:54:37.148 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:37.318 I/EntropyMixer(  512): Writing entropy...
+01-09 14:54:37.338 W/PowerUI (  585): unknown intent: Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x8000010 }
+01-09 14:54:37.338 D/PicasaSyncManager( 4488): battery info: true
+01-09 14:54:37.348 D/PicasaUploaderSyncManager( 4521): battery info: true
+01-09 14:54:37.358 I/ActivityManager(  512): Start proc com.google.android.youtube for broadcast com.google.android.youtube/.app.prefetch.PrefetchService$DeviceStateReceiver: pid=6428 uid=10063 gids={50063, 3003, 1015, 1006, 1028}
+01-09 14:54:37.478 D/dalvikvm( 6428): GC_CONCURRENT freed 276K, 4% free 9006K/9320K, paused 2ms+2ms, total 25ms
+01-09 14:54:37.569 D/dalvikvm( 6428): GC_CONCURRENT freed 268K, 4% free 9221K/9528K, paused 2ms+2ms, total 16ms
+01-09 14:54:37.589 D/dalvikvm( 6428): DexOpt: --- BEGIN 'ads-426794356.jar' (bootstrap=0) ---
+01-09 14:54:37.619 D/dalvikvm( 6455): DexOpt: load 3ms, verify+opt 5ms, 144708 bytes
+01-09 14:54:37.639 D/dalvikvm( 6428): DexOpt: --- END 'ads-426794356.jar' (success) ---
+01-09 14:54:37.639 D/dalvikvm( 6428): DEX prep '/data/data/com.google.android.youtube/cache/ads-426794356.jar': unzip in 0ms, rewrite 50ms
+01-09 14:54:37.699 D/dalvikvm( 6428): GC_CONCURRENT freed 257K, 3% free 9410K/9700K, paused 1ms+2ms, total 18ms
+01-09 14:54:37.709 I/ConversionPing( 6428): Sending ping: http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1001680686/?label=8cu4CIrA3gMQrt7R3QM&muid=EmUrK9jpBXsGnFBYwt80rw
+01-09 14:54:37.719 E/ConversionPing( 6428): ConversionPing could not reach the url, no conversion sent.
+01-09 14:54:37.739 I/ActivityManager(  512): No longer want com.google.android.gsf.login (pid 6219): empty #17
+01-09 14:54:38.129 I/System.out( 6343): Values: 0.18629456 0.23049927 9.9579315
+01-09 14:54:38.139 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:38.469 D/MtpService( 4504): updating state; isCurrentUser=true, mMtpLocked=false
+01-09 14:54:38.479 D/MtpService( 4504): addStorageLocked 65537 /storage/emulated/0
+01-09 14:54:38.479 D/MtpService( 4504): updating state; isCurrentUser=true, mMtpLocked=false
+01-09 14:54:38.479 D/MtpService( 4504): starting MTP server in MTP mode
+01-09 14:54:38.479 D/MtpService( 4504): addStorageLocked 65537 /storage/emulated/0
+01-09 14:54:39.130 I/System.out( 6343): Values: 0.10298157 0.32333374 10.0412445
+01-09 14:54:39.140 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:40.131 I/System.out( 6343): Values: 0.117263794 0.33047485 10.091232
+01-09 14:54:40.141 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:40.591 D/dalvikvm(  512): GC_EXPLICIT freed 1044K, 24% free 16677K/21772K, paused 2ms+6ms, total 77ms
+01-09 14:54:41.132 I/System.out( 6343): Values: 0.1006012 0.30429077 10.098373
+01-09 14:54:41.142 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:42.133 I/System.out( 6343): Values: 0.07203674 0.30429077 10.029343
+01-09 14:54:42.143 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:43.134 I/System.out( 6343): Values: 0.12916565 0.3685608 10.126938
+01-09 14:54:43.144 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:44.135 I/System.out( 6343): Values: 0.12440491 0.33047485 10.088852
+01-09 14:54:44.135 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:45.126 I/System.out( 6343): Values: 0.16487122 0.36141968 9.919846
+01-09 14:54:45.136 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:46.127 I/System.out( 6343): Values: 0.06489563 0.27572632 10.376877
+01-09 14:54:46.137 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:47.128 I/System.out( 6343): Values: 0.13392639 0.37332153 10.048386
+01-09 14:54:47.138 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:48.129 I/System.out( 6343): Values: 0.13392639 0.31381226 10.022202
+01-09 14:54:48.139 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:49.130 I/System.out( 6343): Values: 0.12440491 0.34713745 9.960312
+01-09 14:54:49.140 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:50.131 I/System.out( 6343): Values: 0.11012268 0.30667114 10.036484
+01-09 14:54:50.141 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:51.132 I/System.out( 6343): Values: 0.09346008 0.30667114 10.026962
+01-09 14:54:51.152 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:52.133 I/System.out( 6343): Values: 0.12916565 0.30429077 10.050766
+01-09 14:54:52.153 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:53.134 I/System.out( 6343): Values: 0.10536194 0.318573 10.0412445
+01-09 14:54:53.154 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:54.135 I/System.out( 6343): Values: 0.11250305 0.3518982 10.088852
+01-09 14:54:54.155 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:55.136 I/System.out( 6343): Values: 0.11250305 0.31619263 10.065048
+01-09 14:54:55.136 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:56.137 I/System.out( 6343): Values: 0.0839386 0.30667114 10.048386
+01-09 14:54:56.137 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:57.138 I/System.out( 6343): Values: 0.095840454 0.32809448 10.007919
+01-09 14:54:57.138 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:58.139 I/System.out( 6343): Values: 0.08631897 0.31619263 10.0103
+01-09 14:54:58.139 I/System.out( 6343): Time difference in secs is: 661
+01-09 14:54:59.140 I/System.out( 6343): Values: 0.12440491 0.318573 10.005539
+01-09 14:54:59.150 I/System.out( 6343): Time difference in secs is: 661

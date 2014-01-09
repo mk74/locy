@@ -1,0 +1,2303 @@
+--------- beginning of /dev/log/system
+01-09 13:07:11.840 I/PowerManagerService(  512): Waking up from sleep...
+--------- beginning of /dev/log/main
+01-09 13:07:11.890 D/audio_hw_primary(  180): adev_set_parameters: enter: screen_state=on
+01-09 13:07:11.890 D/audio_hw_primary(  180): adev_set_parameters: exit with code(-2)
+01-09 13:07:11.900 D/PowerManagerService-JNI(  512): Excessive delay in setInteractive(true) while turning screen on: 30ms
+01-09 13:07:11.910 D/SurfaceFlinger(  177): Screen acquired, type=0 flinger=0xb736d478
+01-09 13:07:11.920 I/WindowManager(  512): Lock screen displayed!
+01-09 13:07:12.150 D/SurfaceControl(  512): Excessive delay in unblankDisplay() while turning screen on: 242ms
+01-09 13:07:12.220 D/YouTube MDX( 2247): Recieved intent android.intent.action.SCREEN_ON
+01-09 13:07:12.230 V/DigitalWidgetViewsFactory( 4127): DigitalWidget sets next alarm string to null
+01-09 13:07:14.803 D/audio_hw_primary(  180): start_output_stream: enter: usecase(1: low-latency-playback) devices(0x2)
+01-09 13:07:14.803 D/audio_hw_primary(  180): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+01-09 13:07:14.803 D/audio_hw_primary(  180): enable_snd_device: sending audio calibration for snd_device(2) acdb_id(14)
+01-09 13:07:14.803 D/ACDB-LOADER(  180): ACDB -> send_afe_cal
+01-09 13:07:14.803 D/audio_hw_primary(  180): enable_snd_device: snd_device(2: speaker)
+01-09 13:07:14.803 D/audio_hw_primary(  180): enable_audio_route: apply mixer path: low-latency-playback
+01-09 13:07:14.803 D/PhoneStatusBar(  585): disable: < expand icons alerts ticker system_info BACK HOME recent* CLOCK search >
+01-09 13:07:14.813 D/audio_hw_primary(  180): start_output_stream: exit
+01-09 13:07:14.843 D/PhoneStatusBar(  585): disable: < expand icons alerts ticker system_info back* home* recent clock* search >
+01-09 13:07:14.843 W/InputMethodManagerService(  512): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4279c1f8 attribute=android.view.inputmethod.EditorInfo@4296d150, token = android.os.BinderProxy@428f7f38
+01-09 13:07:15.313 V/TAG     (  512): bug 7643792: fitSystemWindows([0,50][0,0])
+01-09 13:07:17.556 D/AndroidRuntime( 4243): 
+01-09 13:07:17.556 D/AndroidRuntime( 4243): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-09 13:07:17.556 D/AndroidRuntime( 4243): CheckJNI is OFF
+01-09 13:07:17.566 D/dalvikvm( 4243): Trying to load lib libjavacore.so 0x0
+01-09 13:07:17.566 D/dalvikvm( 4243): Added shared lib libjavacore.so 0x0
+01-09 13:07:17.576 D/dalvikvm( 4243): Trying to load lib libnativehelper.so 0x0
+01-09 13:07:17.576 D/dalvikvm( 4243): Added shared lib libnativehelper.so 0x0
+01-09 13:07:17.696 D/AndroidRuntime( 4243): Calling main entry com.android.commands.pm.Pm
+01-09 13:07:17.716 D/Finsky  ( 2911): [1] PackageVerificationReceiver.checkPrerequisites: Skipping verification because network inactive
+01-09 13:07:17.716 D/Finsky  ( 2911): [1] PackageVerificationReceiver.checkPrerequisites: Skipping verification because network inactive
+01-09 13:07:17.716 W/ActivityManager(  512): No content provider found for permission revoke: file:///data/local/tmp/EnergyMeasurementPlain.apk
+01-09 13:07:17.726 W/ActivityManager(  512): No content provider found for permission revoke: file:///data/local/tmp/EnergyMeasurementPlain.apk
+01-09 13:07:17.726 I/PackageManager(  512): Copying native libraries to /data/app-lib/vmdl-868065309
+01-09 13:07:17.726 W/PackageManager(  512): Invalid verification token 3 received
+01-09 13:07:17.766 I/ActivityManager(  512): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain appid=10094 user=-1
+01-09 13:07:17.846 I/PackageManager(  512): Package uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain codePath changed from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-1.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-2.apk; Retaining data and using new
+01-09 13:07:17.856 I/PackageManager(  512): Running dexopt on: uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain
+01-09 13:07:18.056 D/audio_hw_primary(  180): out_standby: enter: usecase(1: low-latency-playback)
+01-09 13:07:18.096 D/audio_hw_primary(  180): stop_output_stream: enter: usecase(1: low-latency-playback)
+01-09 13:07:18.096 D/audio_hw_primary(  180): disable_audio_route: reset mixer path: low-latency-playback
+01-09 13:07:18.096 D/audio_hw_primary(  180): disable_snd_device: snd_device(2: speaker)
+01-09 13:07:18.096 D/audio_hw_primary(  180): stop_output_stream: exit: status(0)
+01-09 13:07:18.096 D/audio_hw_primary(  180): out_standby: exit
+01-09 13:07:18.116 D/dalvikvm( 4259): DexOpt: load 43ms, verify+opt 168ms, 953668 bytes
+01-09 13:07:18.166 W/PackageManager(  512): Code path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-1.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-2.apk
+01-09 13:07:18.166 I/ActivityManager(  512): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain appid=10094 user=-1
+01-09 13:07:18.166 W/PackageManager(  512): Resource path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-1.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-2.apk
+01-09 13:07:18.296 I/ActivityManager(  512): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain appid=10094 user=0
+01-09 13:07:18.326 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain flg=0x8000010 (has extras) }: user 10 is stopped
+01-09 13:07:18.346 I/InputReader(  512): Reconfiguring input devices.  changes=0x00000010
+01-09 13:07:18.366 D/dalvikvm(  766): GC_EXPLICIT freed 4822K, 42% free 20460K/34876K, paused 2ms+20ms, total 68ms
+01-09 13:07:18.386 D/dalvikvm( 2944): GC_EXPLICIT freed 380K, 5% free 9201K/9684K, paused 3ms+3ms, total 55ms
+01-09 13:07:18.406 I/InputReader(  512): Reconfiguring input devices.  changes=0x00000010
+01-09 13:07:18.416 W/ContextImpl( 2969): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1385 android.content.ContextWrapper.startService:473 android.content.ContextWrapper.startService:473 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2424 
+01-09 13:07:18.426 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain flg=0x8000010 (has extras) }: user 10 is stopped
+01-09 13:07:18.426 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain flg=0x8000010 (has extras) }: user 10 is stopped
+01-09 13:07:18.436 W/ActivityManager(  512): Skipping broadcast of Intent { act=android.intent.action.MY_PACKAGE_REPLACED flg=0x8000010 pkg=uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain (has extras) }: user 10 is stopped
+01-09 13:07:18.436 D/BackupManagerService(  512): Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain flg=0x8000010 (has extras) }
+01-09 13:07:18.466 D/BackupManagerService(  512): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain flg=0x8000010 (has extras) }
+01-09 13:07:18.466 V/BackupManagerService(  512): removePackageParticipantsLocked: uid=10094 #1
+01-09 13:07:18.466 D/dalvikvm(  753): GC_CONCURRENT freed 522K, 8% free 9141K/9836K, paused 2ms+1ms, total 13ms
+01-09 13:07:18.466 V/BackupManagerService(  512): addPackageParticipantsLocked: #1
+01-09 13:07:18.507 D/dalvikvm(  512): GC_EXPLICIT freed 2102K, 18% free 16804K/20324K, paused 7ms+9ms, total 77ms
+01-09 13:07:18.517 D/AndroidRuntime( 4243): Shutting down VM
+01-09 13:07:18.517 D/jdwp    ( 4243): Got wake-up signal, bailing out of select
+01-09 13:07:18.517 D/dalvikvm( 4243): Debugger has detached; object registry had 1 entries
+01-09 13:07:18.747 D/dalvikvm(  704): GC_FOR_ALLOC freed 430K, 8% free 10136K/10972K, paused 18ms, total 18ms
+01-09 13:07:18.757 I/GCoreUlr(  704): Ensuring that reporting is stopped because of reasons: (no Google accounts)
+01-09 13:07:18.757 D/GCoreFlp(  704): Unknown pending intent to remove.
+01-09 13:07:18.757 I/GCoreUlr(  704): Unbound from all location providers
+01-09 13:07:18.777 D/dalvikvm(  704): GC_FOR_ALLOC freed 51K, 8% free 10153K/10972K, paused 19ms, total 19ms
+01-09 13:07:19.087 D/AndroidRuntime( 4292): 
+01-09 13:07:19.087 D/AndroidRuntime( 4292): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-09 13:07:19.087 D/AndroidRuntime( 4292): CheckJNI is OFF
+01-09 13:07:19.097 D/dalvikvm( 4292): Trying to load lib libjavacore.so 0x0
+01-09 13:07:19.107 D/dalvikvm( 4292): Added shared lib libjavacore.so 0x0
+01-09 13:07:19.117 D/dalvikvm( 4292): Trying to load lib libnativehelper.so 0x0
+01-09 13:07:19.117 D/dalvikvm( 4292): Added shared lib libnativehelper.so 0x0
+01-09 13:07:19.237 D/AndroidRuntime( 4292): Calling main entry com.android.commands.am.Am
+01-09 13:07:19.237 D/dalvikvm( 4292): Note: class Landroid/app/ActivityManagerNative; has 163 unimplemented (abstract) methods
+01-09 13:07:19.237 I/ActivityManager(  512): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain/.MainActivity} from pid 4292
+01-09 13:07:19.257 D/AndroidRuntime( 4292): Shutting down VM
+01-09 13:07:19.257 D/dalvikvm( 4308): Late-enabling CheckJNI
+01-09 13:07:19.267 D/jdwp    ( 4292): Got wake-up signal, bailing out of select
+01-09 13:07:19.267 D/dalvikvm( 4292): Debugger has detached; object registry had 1 entries
+01-09 13:07:19.267 I/ActivityManager(  512): Start proc uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain for activity uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain/.MainActivity: pid=4308 uid=10094 gids={50094, 1028}
+01-09 13:07:19.387 D/libEGL  ( 4308): loaded /system/lib/egl/libEGL_adreno200.so
+01-09 13:07:19.387 D/libEGL  ( 4308): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+01-09 13:07:19.387 D/libEGL  ( 4308): loaded /system/lib/egl/libGLESv2_adreno200.so
+01-09 13:07:19.387 I/Adreno200-EGL( 4308): <qeglDrvAPI_eglInitialize:265>: EGL 1.4 QUALCOMM Build: Iabe52cfaeae4c5fab1acacfe6f056ba15fa93274
+01-09 13:07:19.437 D/OpenGLRenderer( 4308): Enabling debug mode 0
+01-09 13:07:19.518 I/ActivityManager(  512): Displayed uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain/.MainActivity: +270ms
+01-09 13:07:19.708 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:07:19.708 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:07:19.718 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:07:19.718 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:07:19.728 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:07:19.728 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:07:19.728 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:07:19.728 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:07:19.738 D/dalvikvm( 2998): GC_CONCURRENT freed 389K, 5% free 9229K/9656K, paused 1ms+2ms, total 17ms
+01-09 13:07:19.738 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:07:19.738 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:07:19.748 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:07:19.748 W/ActivityManager(  512): Permission denied: checkComponentPermission() owningUid=10057
+01-09 13:07:20.328 I/System.out( 4308): Empty value
+01-09 13:07:21.319 I/System.out( 4308): Empty value
+01-09 13:07:22.320 I/System.out( 4308): Empty value
+01-09 13:07:23.321 I/System.out( 4308): Empty value
+01-09 13:07:23.341 D/dalvikvm( 4308): Debugger has detached; object registry had 1 entries
+01-09 13:07:24.322 I/System.out( 4308): Empty value
+01-09 13:07:24.422 D/PicasaSyncManager( 2151): battery info: false
+01-09 13:07:24.432 D/PicasaUploaderSyncManager( 2198): battery info: false
+01-09 13:07:25.323 I/System.out( 4308): Empty value
+01-09 13:07:26.324 I/System.out( 4308): Empty value
+01-09 13:07:27.325 I/System.out( 4308): Empty value
+01-09 13:07:28.326 I/System.out( 4308): Empty value
+01-09 13:07:29.327 I/System.out( 4308): Empty value
+01-09 13:07:30.328 I/System.out( 4308): Empty value
+01-09 13:07:31.339 I/System.out( 4308): Empty value
+01-09 13:07:32.330 I/System.out( 4308): Empty value
+01-09 13:07:33.331 I/System.out( 4308): Empty value
+01-09 13:07:33.731 D/dalvikvm( 2911): GC_CONCURRENT freed 145K, 3% free 9415K/9688K, paused 2ms+1ms, total 21ms
+01-09 13:07:33.771 D/Finsky  ( 2911): [1] 5.onFinished: Installation state replication succeeded.
+01-09 13:07:34.332 I/System.out( 4308): Empty value
+01-09 13:07:35.333 I/System.out( 4308): Empty value
+01-09 13:07:36.334 I/System.out( 4308): Empty value
+01-09 13:07:37.335 I/System.out( 4308): Empty value
+01-09 13:07:38.346 I/System.out( 4308): Empty value
+01-09 13:07:39.337 I/System.out( 4308): Empty value
+01-09 13:07:40.338 I/System.out( 4308): Empty value
+01-09 13:07:41.339 I/System.out( 4308): Empty value
+01-09 13:07:42.340 I/System.out( 4308): Empty value
+01-09 13:07:43.341 I/System.out( 4308): Empty value
+01-09 13:07:44.342 I/System.out( 4308): Empty value
+01-09 13:07:45.343 I/System.out( 4308): Empty value
+01-09 13:07:46.344 I/System.out( 4308): Empty value
+01-09 13:07:47.345 I/System.out( 4308): Empty value
+01-09 13:07:48.346 I/System.out( 4308): Empty value
+01-09 13:07:49.347 I/System.out( 4308): Empty value
+01-09 13:07:50.348 I/System.out( 4308): Empty value
+01-09 13:07:51.349 I/System.out( 4308): Empty value
+01-09 13:07:52.350 I/System.out( 4308): Empty value
+01-09 13:07:53.351 I/System.out( 4308): Empty value
+01-09 13:07:54.351 I/System.out( 4308): Empty value
+01-09 13:07:55.352 I/System.out( 4308): Empty value
+01-09 13:07:56.353 I/System.out( 4308): Empty value
+01-09 13:07:57.354 I/System.out( 4308): Empty value
+01-09 13:07:58.355 I/System.out( 4308): Empty value
+01-09 13:07:59.346 I/System.out( 4308): Empty value
+01-09 13:08:00.357 I/System.out( 4308): Empty value
+01-09 13:08:01.358 I/System.out( 4308): Empty value
+01-09 13:08:02.359 I/System.out( 4308): Empty value
+01-09 13:08:03.350 I/System.out( 4308): Empty value
+01-09 13:08:04.361 I/System.out( 4308): Empty value
+01-09 13:08:05.362 I/System.out( 4308): Empty value
+01-09 13:08:06.363 I/System.out( 4308): Empty value
+01-09 13:08:07.364 I/System.out( 4308): Empty value
+01-09 13:08:08.365 I/System.out( 4308): Empty value
+01-09 13:08:09.366 I/System.out( 4308): Empty value
+01-09 13:08:10.367 I/System.out( 4308): Empty value
+01-09 13:08:11.368 I/System.out( 4308): Empty value
+01-09 13:08:12.369 I/System.out( 4308): Empty value
+01-09 13:08:13.370 I/System.out( 4308): Empty value
+01-09 13:08:14.371 I/System.out( 4308): Empty value
+01-09 13:08:15.372 I/System.out( 4308): Empty value
+01-09 13:08:16.373 I/System.out( 4308): Empty value
+01-09 13:08:17.374 I/System.out( 4308): Empty value
+01-09 13:08:18.375 I/System.out( 4308): Empty value
+01-09 13:08:19.366 I/System.out( 4308): Empty value
+01-09 13:08:20.367 I/System.out( 4308): Empty value
+01-09 13:08:21.368 I/System.out( 4308): Empty value
+01-09 13:08:22.369 I/System.out( 4308): Empty value
+01-09 13:08:23.370 I/System.out( 4308): Empty value
+01-09 13:08:24.371 I/System.out( 4308): Empty value
+01-09 13:08:25.372 I/System.out( 4308): Empty value
+01-09 13:08:26.373 I/System.out( 4308): Empty value
+01-09 13:08:27.384 I/System.out( 4308): Empty value
+01-09 13:08:28.385 I/System.out( 4308): Empty value
+01-09 13:08:29.386 I/System.out( 4308): Empty value
+01-09 13:08:30.387 I/System.out( 4308): Empty value
+01-09 13:08:31.378 I/System.out( 4308): Empty value
+01-09 13:08:32.379 I/System.out( 4308): Empty value
+01-09 13:08:33.380 I/System.out( 4308): Empty value
+01-09 13:08:34.381 I/System.out( 4308): Empty value
+01-09 13:08:35.382 I/System.out( 4308): Empty value
+01-09 13:08:36.382 I/System.out( 4308): Empty value
+01-09 13:08:37.383 I/System.out( 4308): Empty value
+01-09 13:08:38.384 I/System.out( 4308): Empty value
+01-09 13:08:39.395 I/System.out( 4308): Empty value
+01-09 13:08:40.396 I/System.out( 4308): Empty value
+01-09 13:08:41.387 I/System.out( 4308): Empty value
+01-09 13:08:42.398 I/System.out( 4308): Empty value
+01-09 13:08:43.389 I/System.out( 4308): Empty value
+01-09 13:08:44.390 I/System.out( 4308): Empty value
+01-09 13:08:45.391 I/System.out( 4308): Empty value
+01-09 13:08:46.392 I/System.out( 4308): Empty value
+01-09 13:08:47.393 I/System.out( 4308): Empty value
+01-09 13:08:48.394 I/System.out( 4308): Empty value
+01-09 13:08:49.395 I/System.out( 4308): Empty value
+01-09 13:08:50.396 I/System.out( 4308): Empty value
+01-09 13:08:51.397 I/System.out( 4308): Empty value
+01-09 13:08:52.398 I/System.out( 4308): Empty value
+01-09 13:08:53.399 I/System.out( 4308): Empty value
+01-09 13:08:54.400 I/System.out( 4308): Empty value
+01-09 13:08:55.401 I/System.out( 4308): Empty value
+01-09 13:08:56.402 I/System.out( 4308): Empty value
+01-09 13:08:57.403 I/System.out( 4308): Empty value
+01-09 13:08:58.404 I/System.out( 4308): Empty value
+01-09 13:08:59.405 I/System.out( 4308): Empty value
+01-09 13:09:00.406 I/System.out( 4308): Empty value
+01-09 13:09:01.407 I/System.out( 4308): Empty value
+01-09 13:09:02.408 I/System.out( 4308): Empty value
+01-09 13:09:03.409 I/System.out( 4308): Empty value
+01-09 13:09:04.410 I/System.out( 4308): Empty value
+01-09 13:09:05.411 I/System.out( 4308): Empty value
+01-09 13:09:06.412 I/System.out( 4308): Empty value
+01-09 13:09:07.413 I/System.out( 4308): Empty value
+01-09 13:09:08.414 I/System.out( 4308): Empty value
+01-09 13:09:09.415 I/System.out( 4308): Empty value
+01-09 13:09:10.416 I/System.out( 4308): Empty value
+01-09 13:09:11.427 I/System.out( 4308): Empty value
+01-09 13:09:12.418 I/System.out( 4308): Empty value
+01-09 13:09:12.478 D/dalvikvm( 4308): GC_CONCURRENT freed 238K, 3% free 9011K/9288K, paused 9ms+4ms, total 62ms
+01-09 13:09:13.419 I/System.out( 4308): Empty value
+01-09 13:09:14.420 I/System.out( 4308): Empty value
+01-09 13:09:15.421 I/System.out( 4308): Empty value
+01-09 13:09:16.422 I/System.out( 4308): Empty value
+01-09 13:09:17.423 I/System.out( 4308): Empty value
+01-09 13:09:18.424 I/System.out( 4308): Empty value
+01-09 13:09:19.424 I/System.out( 4308): Empty value
+01-09 13:09:20.435 I/System.out( 4308): Empty value
+01-09 13:09:21.436 I/System.out( 4308): Empty value
+01-09 13:09:22.427 I/System.out( 4308): Empty value
+01-09 13:09:23.428 I/System.out( 4308): Empty value
+01-09 13:09:24.429 I/System.out( 4308): Empty value
+01-09 13:09:25.430 I/System.out( 4308): Empty value
+01-09 13:09:26.431 I/System.out( 4308): Empty value
+01-09 13:09:27.442 I/System.out( 4308): Empty value
+01-09 13:09:28.443 I/System.out( 4308): Empty value
+01-09 13:09:29.444 I/System.out( 4308): Empty value
+01-09 13:09:30.435 I/System.out( 4308): Empty value
+01-09 13:09:31.436 I/System.out( 4308): Empty value
+01-09 13:09:32.437 I/System.out( 4308): Empty value
+01-09 13:09:33.448 I/System.out( 4308): Empty value
+01-09 13:09:34.449 I/System.out( 4308): Empty value
+01-09 13:09:35.450 I/System.out( 4308): Empty value
+01-09 13:09:36.451 I/System.out( 4308): Empty value
+01-09 13:09:37.452 I/System.out( 4308): Empty value
+01-09 13:09:38.453 I/System.out( 4308): Empty value
+01-09 13:09:39.454 I/System.out( 4308): Empty value
+01-09 13:09:40.455 I/System.out( 4308): Empty value
+01-09 13:09:41.456 I/System.out( 4308): Empty value
+01-09 13:09:42.457 I/System.out( 4308): Empty value
+01-09 13:09:43.448 I/System.out( 4308): Empty value
+01-09 13:09:44.449 I/System.out( 4308): Empty value
+01-09 13:09:45.460 I/System.out( 4308): Empty value
+01-09 13:09:46.451 I/System.out( 4308): Empty value
+01-09 13:09:47.452 I/System.out( 4308): Empty value
+01-09 13:09:48.453 I/System.out( 4308): Empty value
+01-09 13:09:49.464 I/System.out( 4308): Empty value
+01-09 13:09:50.465 I/System.out( 4308): Empty value
+01-09 13:09:51.456 I/System.out( 4308): Empty value
+01-09 13:09:52.457 I/System.out( 4308): Empty value
+01-09 13:09:53.468 I/System.out( 4308): Empty value
+01-09 13:09:54.469 I/System.out( 4308): Empty value
+01-09 13:09:55.460 I/System.out( 4308): Empty value
+01-09 13:09:56.461 I/System.out( 4308): Empty value
+01-09 13:09:57.462 I/System.out( 4308): Empty value
+01-09 13:09:58.463 I/System.out( 4308): Empty value
+01-09 13:09:59.464 I/System.out( 4308): Empty value
+01-09 13:10:00.465 I/System.out( 4308): Empty value
+01-09 13:10:01.466 I/System.out( 4308): Empty value
+01-09 13:10:02.466 I/System.out( 4308): Empty value
+01-09 13:10:03.457 I/System.out( 4308): Empty value
+01-09 13:10:04.468 I/System.out( 4308): Empty value
+01-09 13:10:05.469 I/System.out( 4308): Empty value
+01-09 13:10:06.470 I/System.out( 4308): Empty value
+01-09 13:10:07.471 I/System.out( 4308): Empty value
+01-09 13:10:08.472 I/System.out( 4308): Empty value
+01-09 13:10:09.473 I/System.out( 4308): Empty value
+01-09 13:10:10.474 I/System.out( 4308): Empty value
+01-09 13:10:11.475 I/System.out( 4308): Empty value
+01-09 13:10:12.476 I/System.out( 4308): Empty value
+01-09 13:10:13.477 I/System.out( 4308): Empty value
+01-09 13:10:14.468 I/System.out( 4308): Empty value
+01-09 13:10:15.469 I/System.out( 4308): Empty value
+01-09 13:10:16.480 I/System.out( 4308): Empty value
+01-09 13:10:17.481 I/System.out( 4308): Empty value
+01-09 13:10:18.482 I/System.out( 4308): Empty value
+01-09 13:10:19.483 I/System.out( 4308): Empty value
+01-09 13:10:20.484 I/System.out( 4308): Empty value
+01-09 13:10:21.485 I/System.out( 4308): Empty value
+01-09 13:10:22.486 I/System.out( 4308): Empty value
+01-09 13:10:23.477 I/System.out( 4308): Empty value
+01-09 13:10:24.488 I/System.out( 4308): Empty value
+01-09 13:10:25.489 I/System.out( 4308): Empty value
+01-09 13:10:26.490 I/System.out( 4308): Empty value
+01-09 13:10:27.491 I/System.out( 4308): Empty value
+01-09 13:10:28.492 I/System.out( 4308): Empty value
+01-09 13:10:29.493 I/System.out( 4308): Empty value
+01-09 13:10:30.494 I/System.out( 4308): Empty value
+01-09 13:10:31.495 I/System.out( 4308): Empty value
+01-09 13:10:32.496 I/System.out( 4308): Empty value
+01-09 13:10:33.507 I/System.out( 4308): Empty value
+01-09 13:10:34.508 I/System.out( 4308): Empty value
+01-09 13:10:35.509 I/System.out( 4308): Empty value
+01-09 13:10:36.510 I/System.out( 4308): Empty value
+01-09 13:10:37.511 I/System.out( 4308): Empty value
+01-09 13:10:38.512 I/System.out( 4308): Empty value
+01-09 13:10:39.513 I/System.out( 4308): Empty value
+01-09 13:10:40.514 I/System.out( 4308): Empty value
+01-09 13:10:41.515 I/System.out( 4308): Empty value
+01-09 13:10:42.506 I/System.out( 4308): Empty value
+01-09 13:10:43.507 I/System.out( 4308): Empty value
+01-09 13:10:44.507 I/System.out( 4308): Empty value
+01-09 13:10:45.508 I/System.out( 4308): Empty value
+01-09 13:10:46.509 I/System.out( 4308): Empty value
+01-09 13:10:47.510 I/System.out( 4308): Empty value
+01-09 13:10:48.511 I/System.out( 4308): Empty value
+01-09 13:10:49.512 I/System.out( 4308): Empty value
+01-09 13:10:50.523 I/System.out( 4308): Empty value
+01-09 13:10:51.514 I/System.out( 4308): Empty value
+01-09 13:10:52.525 I/System.out( 4308): Empty value
+01-09 13:10:53.516 I/System.out( 4308): Empty value
+01-09 13:10:54.517 I/System.out( 4308): Empty value
+01-09 13:10:55.518 I/System.out( 4308): Empty value
+01-09 13:10:56.529 I/System.out( 4308): Empty value
+01-09 13:10:57.520 I/System.out( 4308): Empty value
+01-09 13:10:58.521 I/System.out( 4308): Empty value
+01-09 13:10:59.522 I/System.out( 4308): Empty value
+01-09 13:11:00.523 I/System.out( 4308): Empty value
+01-09 13:11:01.534 I/System.out( 4308): Empty value
+01-09 13:11:02.535 I/System.out( 4308): Empty value
+01-09 13:11:03.536 I/System.out( 4308): Empty value
+01-09 13:11:04.537 I/System.out( 4308): Empty value
+01-09 13:11:05.538 I/System.out( 4308): Empty value
+01-09 13:11:06.539 I/System.out( 4308): Empty value
+01-09 13:11:07.530 I/System.out( 4308): Empty value
+01-09 13:11:08.541 I/System.out( 4308): Empty value
+01-09 13:11:09.542 I/System.out( 4308): Empty value
+01-09 13:11:10.543 I/System.out( 4308): Empty value
+01-09 13:11:11.544 I/System.out( 4308): Empty value
+01-09 13:11:12.545 I/System.out( 4308): Empty value
+01-09 13:11:13.546 I/System.out( 4308): Empty value
+01-09 13:11:14.547 I/System.out( 4308): Empty value
+01-09 13:11:15.548 I/System.out( 4308): Empty value
+01-09 13:11:16.549 I/System.out( 4308): Empty value
+01-09 13:11:17.550 I/System.out( 4308): Empty value
+01-09 13:11:18.551 I/System.out( 4308): Empty value
+01-09 13:11:19.552 I/System.out( 4308): Empty value
+01-09 13:11:20.563 I/System.out( 4308): Empty value
+01-09 13:11:21.564 I/System.out( 4308): Empty value
+01-09 13:11:22.565 I/System.out( 4308): Empty value
+01-09 13:11:23.556 I/System.out( 4308): Empty value
+01-09 13:11:24.567 I/System.out( 4308): Empty value
+01-09 13:11:25.568 I/System.out( 4308): Empty value
+01-09 13:11:26.569 I/System.out( 4308): Empty value
+01-09 13:11:27.570 I/System.out( 4308): Empty value
+01-09 13:11:28.560 I/System.out( 4308): Empty value
+01-09 13:11:29.561 I/System.out( 4308): Empty value
+01-09 13:11:30.572 I/System.out( 4308): Empty value
+01-09 13:11:31.573 I/System.out( 4308): Empty value
+01-09 13:11:32.574 I/System.out( 4308): Empty value
+01-09 13:11:33.575 I/System.out( 4308): Empty value
+01-09 13:11:34.576 I/System.out( 4308): Empty value
+01-09 13:11:35.577 I/System.out( 4308): Empty value
+01-09 13:11:36.568 I/System.out( 4308): Empty value
+01-09 13:11:37.569 I/System.out( 4308): Empty value
+01-09 13:11:38.570 I/System.out( 4308): Empty value
+01-09 13:11:39.571 I/System.out( 4308): Empty value
+01-09 13:11:40.572 I/System.out( 4308): Empty value
+01-09 13:11:41.583 I/System.out( 4308): Empty value
+01-09 13:11:42.584 I/System.out( 4308): Empty value
+01-09 13:11:43.585 I/System.out( 4308): Empty value
+01-09 13:11:44.586 I/System.out( 4308): Empty value
+01-09 13:11:45.587 I/System.out( 4308): Empty value
+01-09 13:11:46.588 I/System.out( 4308): Empty value
+01-09 13:11:47.589 I/System.out( 4308): Empty value
+01-09 13:11:48.480 D/MDnsDS  (  175): MDnsSdListener::Monitor poll timed out
+01-09 13:11:48.480 D/MDnsDS  (  175): Going to poll with pollCount 1
+01-09 13:11:48.590 I/System.out( 4308): Empty value
+01-09 13:11:49.591 I/System.out( 4308): Empty value
+01-09 13:11:50.592 I/System.out( 4308): Empty value
+01-09 13:11:51.593 I/System.out( 4308): Empty value
+01-09 13:11:52.594 I/System.out( 4308): Empty value
+01-09 13:11:53.595 I/System.out( 4308): Empty value
+01-09 13:11:54.606 I/System.out( 4308): Empty value
+01-09 13:11:55.597 I/System.out( 4308): Empty value
+01-09 13:11:56.608 I/System.out( 4308): Empty value
+01-09 13:11:57.599 I/System.out( 4308): Empty value
+01-09 13:11:58.600 I/System.out( 4308): Empty value
+01-09 13:11:59.601 I/System.out( 4308): Empty value
+01-09 13:12:00.612 I/System.out( 4308): Empty value
+01-09 13:12:01.603 I/System.out( 4308): Empty value
+01-09 13:12:02.604 I/System.out( 4308): Empty value
+01-09 13:12:03.615 I/System.out( 4308): Empty value
+01-09 13:12:04.606 I/System.out( 4308): Empty value
+01-09 13:12:05.607 I/System.out( 4308): Empty value
+01-09 13:12:06.608 I/System.out( 4308): Empty value
+01-09 13:12:07.609 I/System.out( 4308): Empty value
+01-09 13:12:08.610 I/System.out( 4308): Empty value
+01-09 13:12:09.611 I/System.out( 4308): Empty value
+01-09 13:12:10.611 I/System.out( 4308): Empty value
+01-09 13:12:11.612 I/System.out( 4308): Empty value
+01-09 13:12:12.613 I/System.out( 4308): Empty value
+01-09 13:12:13.614 I/System.out( 4308): Empty value
+01-09 13:12:14.615 I/System.out( 4308): Empty value
+01-09 13:12:15.616 I/System.out( 4308): Empty value
+01-09 13:12:16.617 I/System.out( 4308): Empty value
+01-09 13:12:17.618 I/System.out( 4308): Empty value
+01-09 13:12:18.619 I/System.out( 4308): Empty value
+01-09 13:12:19.620 I/System.out( 4308): Empty value
+01-09 13:12:20.631 I/System.out( 4308): Empty value
+01-09 13:12:21.622 I/System.out( 4308): Empty value
+01-09 13:12:22.623 I/System.out( 4308): Empty value
+01-09 13:12:23.624 I/System.out( 4308): Empty value
+01-09 13:12:24.635 I/System.out( 4308): Empty value
+01-09 13:12:25.626 I/System.out( 4308): Empty value
+01-09 13:12:26.627 I/System.out( 4308): Empty value
+01-09 13:12:27.628 I/System.out( 4308): Empty value
+01-09 13:12:28.629 I/System.out( 4308): Empty value
+01-09 13:12:29.630 I/System.out( 4308): Empty value
+01-09 13:12:30.631 I/System.out( 4308): Empty value
+01-09 13:12:31.632 I/System.out( 4308): Empty value
+01-09 13:12:32.633 I/System.out( 4308): Empty value
+01-09 13:12:33.634 I/System.out( 4308): Empty value
+01-09 13:12:34.645 I/System.out( 4308): Empty value
+01-09 13:12:35.646 I/System.out( 4308): Empty value
+01-09 13:12:36.647 I/System.out( 4308): Empty value
+01-09 13:12:37.638 I/System.out( 4308): Empty value
+01-09 13:12:38.639 I/System.out( 4308): Empty value
+01-09 13:12:39.640 I/System.out( 4308): Empty value
+01-09 13:12:40.641 I/System.out( 4308): Empty value
+01-09 13:12:41.642 I/System.out( 4308): Empty value
+01-09 13:12:42.643 I/System.out( 4308): Empty value
+01-09 13:12:43.644 I/System.out( 4308): Empty value
+01-09 13:12:44.645 I/System.out( 4308): Empty value
+01-09 13:12:45.646 I/System.out( 4308): Empty value
+01-09 13:12:46.647 I/System.out( 4308): Empty value
+01-09 13:12:47.648 I/System.out( 4308): Empty value
+01-09 13:12:48.649 I/System.out( 4308): Empty value
+01-09 13:12:49.650 I/System.out( 4308): Empty value
+01-09 13:12:50.651 I/System.out( 4308): Empty value
+01-09 13:12:51.652 I/System.out( 4308): Empty value
+01-09 13:12:52.653 I/System.out( 4308): Empty value
+01-09 13:12:53.653 I/System.out( 4308): Empty value
+01-09 13:12:54.654 I/System.out( 4308): Empty value
+01-09 13:12:55.655 I/System.out( 4308): Empty value
+01-09 13:12:56.656 I/System.out( 4308): Empty value
+01-09 13:12:57.657 I/System.out( 4308): Empty value
+01-09 13:12:57.707 D/dalvikvm( 4308): GC_CONCURRENT freed 388K, 5% free 9010K/9436K, paused 9ms+1ms, total 46ms
+01-09 13:12:58.658 I/System.out( 4308): Empty value
+01-09 13:12:59.659 I/System.out( 4308): Empty value
+01-09 13:13:00.660 I/System.out( 4308): Empty value
+01-09 13:13:01.661 I/System.out( 4308): Empty value
+01-09 13:13:02.662 I/System.out( 4308): Empty value
+01-09 13:13:03.663 I/System.out( 4308): Empty value
+01-09 13:13:04.664 I/System.out( 4308): Empty value
+01-09 13:13:05.665 I/System.out( 4308): Empty value
+01-09 13:13:06.666 I/System.out( 4308): Empty value
+01-09 13:13:07.667 I/System.out( 4308): Empty value
+01-09 13:13:08.668 I/System.out( 4308): Empty value
+01-09 13:13:09.669 I/System.out( 4308): Empty value
+01-09 13:13:10.670 I/System.out( 4308): Empty value
+01-09 13:13:11.671 I/System.out( 4308): Empty value
+01-09 13:13:12.672 I/System.out( 4308): Empty value
+01-09 13:13:13.673 I/System.out( 4308): Empty value
+01-09 13:13:14.674 I/System.out( 4308): Empty value
+01-09 13:13:15.675 I/System.out( 4308): Empty value
+01-09 13:13:16.676 I/System.out( 4308): Empty value
+01-09 13:13:17.677 I/System.out( 4308): Empty value
+01-09 13:13:18.678 I/System.out( 4308): Empty value
+01-09 13:13:19.679 I/System.out( 4308): Empty value
+01-09 13:13:20.680 I/System.out( 4308): Empty value
+01-09 13:13:21.681 I/System.out( 4308): Empty value
+01-09 13:13:22.682 I/System.out( 4308): Empty value
+01-09 13:13:23.683 I/System.out( 4308): Empty value
+01-09 13:13:24.684 I/System.out( 4308): Empty value
+01-09 13:13:25.685 I/System.out( 4308): Empty value
+01-09 13:13:26.686 I/System.out( 4308): Empty value
+01-09 13:13:27.677 I/System.out( 4308): Empty value
+01-09 13:13:28.688 I/System.out( 4308): Empty value
+01-09 13:13:29.689 I/System.out( 4308): Empty value
+01-09 13:13:30.690 I/System.out( 4308): Empty value
+01-09 13:13:31.691 I/System.out( 4308): Empty value
+01-09 13:13:32.692 I/System.out( 4308): Empty value
+01-09 13:13:33.693 I/System.out( 4308): Empty value
+01-09 13:13:34.694 I/System.out( 4308): Empty value
+01-09 13:13:35.695 I/System.out( 4308): Empty value
+01-09 13:13:36.695 I/System.out( 4308): Empty value
+01-09 13:13:37.696 I/System.out( 4308): Empty value
+01-09 13:13:38.697 I/System.out( 4308): Empty value
+01-09 13:13:39.698 I/System.out( 4308): Empty value
+01-09 13:13:40.699 I/System.out( 4308): Empty value
+01-09 13:13:41.700 I/System.out( 4308): Empty value
+01-09 13:13:42.701 I/System.out( 4308): Empty value
+01-09 13:13:43.702 I/System.out( 4308): Empty value
+01-09 13:13:44.703 I/System.out( 4308): Empty value
+01-09 13:13:45.704 I/System.out( 4308): Empty value
+01-09 13:13:46.705 I/System.out( 4308): Empty value
+01-09 13:13:47.706 I/System.out( 4308): Empty value
+01-09 13:13:48.707 I/System.out( 4308): Empty value
+01-09 13:13:49.708 I/System.out( 4308): Empty value
+01-09 13:13:50.709 I/System.out( 4308): Empty value
+01-09 13:13:51.710 I/System.out( 4308): Empty value
+01-09 13:13:52.711 I/System.out( 4308): Empty value
+01-09 13:13:53.712 I/System.out( 4308): Empty value
+01-09 13:13:54.713 I/System.out( 4308): Empty value
+01-09 13:13:55.714 I/System.out( 4308): Empty value
+01-09 13:13:56.715 I/System.out( 4308): Empty value
+01-09 13:13:57.706 I/System.out( 4308): Empty value
+01-09 13:13:58.717 I/System.out( 4308): Empty value
+01-09 13:13:59.708 I/System.out( 4308): Empty value
+01-09 13:14:00.719 I/System.out( 4308): Empty value
+01-09 13:14:01.710 I/System.out( 4308): Empty value
+01-09 13:14:02.721 I/System.out( 4308): Empty value
+01-09 13:14:03.722 I/System.out( 4308): Empty value
+01-09 13:14:04.723 I/System.out( 4308): Empty value
+01-09 13:14:05.714 I/System.out( 4308): Empty value
+01-09 13:14:06.725 I/System.out( 4308): Empty value
+01-09 13:14:07.726 I/System.out( 4308): Empty value
+01-09 13:14:08.727 I/System.out( 4308): Empty value
+01-09 13:14:09.728 I/System.out( 4308): Empty value
+01-09 13:14:10.729 I/System.out( 4308): Empty value
+01-09 13:14:10.849 D/dalvikvm(  512): GC_CONCURRENT freed 1838K, 18% free 16829K/20324K, paused 22ms+7ms, total 120ms
+01-09 13:14:11.720 I/System.out( 4308): Empty value
+01-09 13:14:12.721 I/System.out( 4308): Empty value
+01-09 13:14:13.722 I/System.out( 4308): Empty value
+01-09 13:14:14.723 I/System.out( 4308): Empty value
+01-09 13:14:15.724 I/System.out( 4308): Empty value
+01-09 13:14:16.735 I/System.out( 4308): Empty value
+01-09 13:14:17.736 I/System.out( 4308): Empty value
+01-09 13:14:18.736 I/System.out( 4308): Empty value
+01-09 13:14:19.737 I/System.out( 4308): Empty value
+01-09 13:14:20.728 I/System.out( 4308): Empty value
+01-09 13:14:21.729 I/System.out( 4308): Empty value
+01-09 13:14:22.730 I/System.out( 4308): Empty value
+01-09 13:14:23.731 I/System.out( 4308): Empty value
+01-09 13:14:24.742 I/System.out( 4308): Empty value
+01-09 13:14:25.743 I/System.out( 4308): Empty value
+01-09 13:14:26.744 I/System.out( 4308): Empty value
+01-09 13:14:27.745 I/System.out( 4308): Empty value
+01-09 13:14:28.746 I/System.out( 4308): Empty value
+01-09 13:14:29.747 I/System.out( 4308): Empty value
+01-09 13:14:30.748 I/System.out( 4308): Empty value
+01-09 13:14:31.749 I/System.out( 4308): Empty value
+01-09 13:14:32.750 I/System.out( 4308): Empty value
+01-09 13:14:33.751 I/System.out( 4308): Empty value
+01-09 13:14:34.752 I/System.out( 4308): Empty value
+01-09 13:14:35.753 I/System.out( 4308): Empty value
+01-09 13:14:36.764 I/System.out( 4308): Empty value
+01-09 13:14:37.765 I/System.out( 4308): Empty value
+01-09 13:14:38.756 I/System.out( 4308): Empty value
+01-09 13:14:39.757 I/System.out( 4308): Empty value
+01-09 13:14:40.758 I/System.out( 4308): Empty value
+01-09 13:14:41.759 I/System.out( 4308): Empty value
+01-09 13:14:42.760 I/System.out( 4308): Empty value
+01-09 13:14:43.761 I/System.out( 4308): Empty value
+01-09 13:14:44.762 I/System.out( 4308): Empty value
+01-09 13:14:45.773 I/System.out( 4308): Empty value
+01-09 13:14:46.774 I/System.out( 4308): Empty value
+01-09 13:14:47.775 I/System.out( 4308): Empty value
+01-09 13:14:48.776 I/System.out( 4308): Empty value
+01-09 13:14:49.777 I/System.out( 4308): Empty value
+01-09 13:14:50.768 I/System.out( 4308): Empty value
+01-09 13:14:51.769 I/System.out( 4308): Empty value
+01-09 13:14:52.780 I/System.out( 4308): Empty value
+01-09 13:14:53.781 I/System.out( 4308): Empty value
+01-09 13:14:54.782 I/System.out( 4308): Empty value
+01-09 13:14:55.783 I/System.out( 4308): Empty value
+01-09 13:14:56.784 I/System.out( 4308): Empty value
+01-09 13:14:57.785 I/System.out( 4308): Empty value
+01-09 13:14:58.786 I/System.out( 4308): Empty value
+01-09 13:14:59.787 I/System.out( 4308): Empty value
+01-09 13:15:00.788 I/System.out( 4308): Empty value
+01-09 13:15:01.198 V/DigitalWidgetViewsFactory( 4127): DigitalWidget sets next alarm string to null
+01-09 13:15:01.789 I/System.out( 4308): Empty value
+01-09 13:15:02.789 I/System.out( 4308): Empty value
+01-09 13:15:03.790 I/System.out( 4308): Empty value
+01-09 13:15:04.791 I/System.out( 4308): Empty value
+01-09 13:15:05.792 I/System.out( 4308): Empty value
+01-09 13:15:06.793 I/System.out( 4308): Empty value
+01-09 13:15:07.794 I/System.out( 4308): Empty value
+01-09 13:15:08.795 I/System.out( 4308): Empty value
+01-09 13:15:09.796 I/System.out( 4308): Empty value
+01-09 13:15:10.797 I/System.out( 4308): Empty value
+01-09 13:15:11.798 I/System.out( 4308): Empty value
+01-09 13:15:12.789 I/System.out( 4308): Empty value
+01-09 13:15:13.800 I/System.out( 4308): Empty value
+01-09 13:15:14.801 I/System.out( 4308): Empty value
+01-09 13:15:15.802 I/System.out( 4308): Empty value
+01-09 13:15:16.803 I/System.out( 4308): Empty value
+01-09 13:15:17.804 I/System.out( 4308): Empty value
+01-09 13:15:18.805 I/System.out( 4308): Empty value
+01-09 13:15:19.806 I/System.out( 4308): Empty value
+01-09 13:15:20.807 I/System.out( 4308): Empty value
+01-09 13:15:21.808 I/System.out( 4308): Empty value
+01-09 13:15:22.809 I/System.out( 4308): Empty value
+01-09 13:15:23.810 I/System.out( 4308): Empty value
+01-09 13:15:24.811 I/System.out( 4308): Empty value
+01-09 13:15:25.812 I/System.out( 4308): Empty value
+01-09 13:15:26.813 I/System.out( 4308): Empty value
+01-09 13:15:27.814 I/System.out( 4308): Empty value
+01-09 13:15:28.815 I/System.out( 4308): Empty value
+01-09 13:15:29.816 I/System.out( 4308): Empty value
+01-09 13:15:30.807 I/System.out( 4308): Empty value
+01-09 13:15:31.818 I/System.out( 4308): Empty value
+01-09 13:15:32.819 I/System.out( 4308): Empty value
+01-09 13:15:33.820 I/System.out( 4308): Empty value
+01-09 13:15:34.821 I/System.out( 4308): Empty value
+01-09 13:15:35.822 I/System.out( 4308): Empty value
+01-09 13:15:36.823 I/System.out( 4308): Empty value
+01-09 13:15:37.824 I/System.out( 4308): Empty value
+01-09 13:15:38.825 I/System.out( 4308): Empty value
+01-09 13:15:39.826 I/System.out( 4308): Empty value
+01-09 13:15:40.827 I/System.out( 4308): Empty value
+01-09 13:15:41.828 I/System.out( 4308): Empty value
+01-09 13:15:42.839 I/System.out( 4308): Empty value
+01-09 13:15:43.830 I/System.out( 4308): Empty value
+01-09 13:15:44.830 I/System.out( 4308): Empty value
+01-09 13:15:45.831 I/System.out( 4308): Empty value
+01-09 13:15:46.842 I/System.out( 4308): Empty value
+01-09 13:15:47.833 I/System.out( 4308): Empty value
+01-09 13:15:48.844 I/System.out( 4308): Empty value
+01-09 13:15:49.845 I/System.out( 4308): Empty value
+01-09 13:15:50.846 I/System.out( 4308): Empty value
+01-09 13:15:51.847 I/System.out( 4308): Empty value
+01-09 13:15:52.838 I/System.out( 4308): Empty value
+01-09 13:15:53.839 I/System.out( 4308): Empty value
+01-09 13:15:54.840 I/System.out( 4308): Empty value
+01-09 13:15:55.841 I/System.out( 4308): Empty value
+01-09 13:15:56.852 I/System.out( 4308): Empty value
+01-09 13:15:57.853 I/System.out( 4308): Empty value
+01-09 13:15:58.854 I/System.out( 4308): Empty value
+01-09 13:15:59.855 I/System.out( 4308): Empty value
+01-09 13:16:00.856 I/System.out( 4308): Empty value
+01-09 13:16:01.857 I/System.out( 4308): Empty value
+01-09 13:16:02.858 I/System.out( 4308): Empty value
+01-09 13:16:03.859 I/System.out( 4308): Empty value
+01-09 13:16:04.860 I/System.out( 4308): Empty value
+01-09 13:16:05.861 I/System.out( 4308): Empty value
+01-09 13:16:06.862 I/System.out( 4308): Empty value
+01-09 13:16:07.873 I/System.out( 4308): Empty value
+01-09 13:16:08.874 I/System.out( 4308): Empty value
+01-09 13:16:09.875 I/System.out( 4308): Empty value
+01-09 13:16:10.876 I/System.out( 4308): Empty value
+01-09 13:16:11.867 I/System.out( 4308): Empty value
+01-09 13:16:12.868 I/System.out( 4308): Empty value
+01-09 13:16:13.869 I/System.out( 4308): Empty value
+01-09 13:16:14.870 I/System.out( 4308): Empty value
+01-09 13:16:15.871 I/System.out( 4308): Empty value
+01-09 13:16:16.872 I/System.out( 4308): Empty value
+01-09 13:16:17.873 I/System.out( 4308): Empty value
+01-09 13:16:18.874 I/System.out( 4308): Empty value
+01-09 13:16:19.875 I/System.out( 4308): Empty value
+01-09 13:16:20.886 I/System.out( 4308): Empty value
+01-09 13:16:21.877 I/System.out( 4308): Empty value
+01-09 13:16:22.888 I/System.out( 4308): Empty value
+01-09 13:16:23.879 I/System.out( 4308): Empty value
+01-09 13:16:24.880 I/System.out( 4308): Empty value
+01-09 13:16:25.881 I/System.out( 4308): Empty value
+01-09 13:16:26.882 I/System.out( 4308): Empty value
+01-09 13:16:27.882 I/System.out( 4308): Empty value
+01-09 13:16:28.893 I/System.out( 4308): Empty value
+01-09 13:16:29.894 I/System.out( 4308): Empty value
+01-09 13:16:30.895 I/System.out( 4308): Empty value
+01-09 13:16:31.886 I/System.out( 4308): Empty value
+01-09 13:16:32.887 I/System.out( 4308): Empty value
+01-09 13:16:33.888 I/System.out( 4308): Empty value
+01-09 13:16:34.899 I/System.out( 4308): Empty value
+01-09 13:16:35.890 I/System.out( 4308): Empty value
+01-09 13:16:36.891 I/System.out( 4308): Empty value
+01-09 13:16:37.902 I/System.out( 4308): Empty value
+01-09 13:16:38.903 I/System.out( 4308): Empty value
+01-09 13:16:39.904 I/System.out( 4308): Empty value
+01-09 13:16:40.905 I/System.out( 4308): Empty value
+01-09 13:16:41.906 I/System.out( 4308): Empty value
+01-09 13:16:42.907 I/System.out( 4308): Empty value
+01-09 13:16:42.957 D/dalvikvm( 4308): GC_CONCURRENT freed 388K, 5% free 9009K/9436K, paused 5ms+6ms, total 48ms
+01-09 13:16:43.918 I/System.out( 4308): Empty value
+01-09 13:16:44.929 I/System.out( 4308): Empty value
+01-09 13:16:45.930 I/System.out( 4308): Empty value
+01-09 13:16:46.931 I/System.out( 4308): Empty value
+01-09 13:16:47.932 I/System.out( 4308): Empty value
+01-09 13:16:48.933 I/System.out( 4308): Empty value
+01-09 13:16:49.934 I/System.out( 4308): Empty value
+01-09 13:16:50.935 I/System.out( 4308): Empty value
+01-09 13:16:51.936 I/System.out( 4308): Empty value
+01-09 13:16:52.937 I/System.out( 4308): Empty value
+01-09 13:16:53.938 I/System.out( 4308): Empty value
+01-09 13:16:54.939 I/System.out( 4308): Empty value
+01-09 13:16:55.940 I/System.out( 4308): Empty value
+01-09 13:16:56.941 I/System.out( 4308): Empty value
+01-09 13:16:57.952 I/System.out( 4308): Empty value
+01-09 13:16:58.943 I/System.out( 4308): Empty value
+01-09 13:16:59.954 I/System.out( 4308): Empty value
+01-09 13:17:00.945 I/System.out( 4308): Empty value
+01-09 13:17:01.946 I/System.out( 4308): Empty value
+01-09 13:17:02.947 I/System.out( 4308): Empty value
+01-09 13:17:03.948 I/System.out( 4308): Empty value
+01-09 13:17:04.949 I/System.out( 4308): Empty value
+01-09 13:17:05.950 I/System.out( 4308): Empty value
+01-09 13:17:06.951 I/System.out( 4308): Empty value
+01-09 13:17:07.952 I/System.out( 4308): Empty value
+01-09 13:17:08.953 I/System.out( 4308): Empty value
+01-09 13:17:09.954 I/System.out( 4308): Empty value
+01-09 13:17:10.955 I/System.out( 4308): Empty value
+01-09 13:17:11.955 I/System.out( 4308): Empty value
+01-09 13:17:12.956 I/System.out( 4308): Empty value
+01-09 13:17:13.957 I/System.out( 4308): Empty value
+01-09 13:17:14.958 I/System.out( 4308): Empty value
+01-09 13:17:15.959 I/System.out( 4308): Empty value
+01-09 13:17:16.960 I/System.out( 4308): Empty value
+01-09 13:17:17.961 I/System.out( 4308): Empty value
+01-09 13:17:18.962 I/System.out( 4308): Empty value
+01-09 13:17:19.963 I/System.out( 4308): Empty value
+01-09 13:17:20.964 I/System.out( 4308): Empty value
+01-09 13:17:21.965 I/System.out( 4308): Empty value
+01-09 13:17:22.966 I/System.out( 4308): Empty value
+01-09 13:17:23.957 I/System.out( 4308): Empty value
+01-09 13:17:24.968 I/System.out( 4308): Empty value
+01-09 13:17:25.969 I/System.out( 4308): Empty value
+01-09 13:17:26.970 I/System.out( 4308): Empty value
+01-09 13:17:27.971 I/System.out( 4308): Empty value
+01-09 13:17:28.972 I/System.out( 4308): Empty value
+01-09 13:17:29.973 I/System.out( 4308): Empty value
+01-09 13:17:30.974 I/System.out( 4308): Empty value
+01-09 13:17:31.975 I/System.out( 4308): Empty value
+01-09 13:17:32.976 I/System.out( 4308): Empty value
+01-09 13:17:33.977 I/System.out( 4308): Empty value
+01-09 13:17:34.968 I/System.out( 4308): Empty value
+01-09 13:17:35.979 I/System.out( 4308): Empty value
+01-09 13:17:36.970 I/System.out( 4308): Empty value
+01-09 13:17:37.971 I/System.out( 4308): Empty value
+01-09 13:17:38.972 I/System.out( 4308): Empty value
+01-09 13:17:39.973 I/System.out( 4308): Empty value
+01-09 13:17:40.974 I/System.out( 4308): Empty value
+01-09 13:17:41.975 I/System.out( 4308): Empty value
+01-09 13:17:42.976 I/System.out( 4308): Empty value
+01-09 13:17:43.987 I/System.out( 4308): Empty value
+01-09 13:17:44.978 I/System.out( 4308): Empty value
+01-09 13:17:45.979 I/System.out( 4308): Empty value
+01-09 13:17:46.980 I/System.out( 4308): Empty value
+01-09 13:17:47.981 I/System.out( 4308): Empty value
+01-09 13:17:48.982 I/System.out( 4308): Empty value
+01-09 13:17:49.983 I/System.out( 4308): Empty value
+01-09 13:17:50.994 I/System.out( 4308): Empty value
+01-09 13:17:51.995 I/System.out( 4308): Empty value
+01-09 13:17:52.996 I/System.out( 4308): Empty value
+01-09 13:17:53.986 I/System.out( 4308): Empty value
+01-09 13:17:54.987 I/System.out( 4308): Empty value
+01-09 13:17:55.988 I/System.out( 4308): Empty value
+01-09 13:17:56.989 I/System.out( 4308): Empty value
+01-09 13:17:57.990 I/System.out( 4308): Empty value
+01-09 13:17:58.991 I/System.out( 4308): Empty value
+01-09 13:17:59.992 I/System.out( 4308): Empty value
+01-09 13:18:00.993 I/System.out( 4308): Empty value
+01-09 13:18:01.994 I/System.out( 4308): Empty value
+01-09 13:18:02.995 I/System.out( 4308): Empty value
+01-09 13:18:04.006 I/System.out( 4308): Empty value
+01-09 13:18:04.997 I/System.out( 4308): Empty value
+01-09 13:18:05.998 I/System.out( 4308): Empty value
+01-09 13:18:06.999 I/System.out( 4308): Empty value
+01-09 13:18:08.000 I/System.out( 4308): Empty value
+01-09 13:18:09.001 I/System.out( 4308): Empty value
+01-09 13:18:10.002 I/System.out( 4308): Empty value
+01-09 13:18:11.003 I/System.out( 4308): Empty value
+01-09 13:18:12.004 I/System.out( 4308): Empty value
+01-09 13:18:13.005 I/System.out( 4308): Empty value
+01-09 13:18:14.006 I/System.out( 4308): Empty value
+01-09 13:18:15.007 I/System.out( 4308): Empty value
+01-09 13:18:15.998 I/System.out( 4308): Empty value
+01-09 13:18:16.999 I/System.out( 4308): Empty value
+01-09 13:18:18.010 I/System.out( 4308): Empty value
+01-09 13:18:19.001 I/System.out( 4308): Empty value
+01-09 13:18:20.002 I/System.out( 4308): Empty value
+01-09 13:18:21.003 I/System.out( 4308): Empty value
+01-09 13:18:22.014 I/System.out( 4308): Empty value
+01-09 13:18:23.015 I/System.out( 4308): Empty value
+01-09 13:18:24.016 I/System.out( 4308): Empty value
+01-09 13:18:25.017 I/System.out( 4308): Empty value
+01-09 13:18:26.018 I/System.out( 4308): Empty value
+01-09 13:18:27.019 I/System.out( 4308): Empty value
+01-09 13:18:28.020 I/System.out( 4308): Empty value
+01-09 13:18:29.021 I/System.out( 4308): Empty value
+01-09 13:18:30.022 I/System.out( 4308): Empty value
+01-09 13:18:31.023 I/System.out( 4308): Empty value
+01-09 13:18:32.024 I/System.out( 4308): Empty value
+01-09 13:18:33.025 I/System.out( 4308): Empty value
+01-09 13:18:34.036 I/System.out( 4308): Empty value
+01-09 13:18:35.027 I/System.out( 4308): Empty value
+01-09 13:18:36.028 I/System.out( 4308): Empty value
+01-09 13:18:37.028 I/System.out( 4308): Empty value
+01-09 13:18:38.029 I/System.out( 4308): Empty value
+01-09 13:18:39.030 I/System.out( 4308): Empty value
+01-09 13:18:40.031 I/System.out( 4308): Empty value
+01-09 13:18:41.032 I/System.out( 4308): Empty value
+01-09 13:18:42.043 I/System.out( 4308): Empty value
+01-09 13:18:43.044 I/System.out( 4308): Empty value
+01-09 13:18:44.045 I/System.out( 4308): Empty value
+01-09 13:18:45.036 I/System.out( 4308): Empty value
+01-09 13:18:46.037 I/System.out( 4308): Empty value
+01-09 13:18:47.038 I/System.out( 4308): Empty value
+01-09 13:18:48.049 I/System.out( 4308): Empty value
+01-09 13:18:49.040 I/System.out( 4308): Empty value
+01-09 13:18:50.051 I/System.out( 4308): Empty value
+01-09 13:18:51.042 I/System.out( 4308): Empty value
+01-09 13:18:52.043 I/System.out( 4308): Empty value
+01-09 13:18:53.054 I/System.out( 4308): Empty value
+01-09 13:18:54.055 I/System.out( 4308): Empty value
+01-09 13:18:55.056 I/System.out( 4308): Empty value
+01-09 13:18:56.047 I/System.out( 4308): Empty value
+01-09 13:18:57.058 I/System.out( 4308): Empty value
+01-09 13:18:58.059 I/System.out( 4308): Empty value
+01-09 13:18:59.060 I/System.out( 4308): Empty value
+01-09 13:19:00.061 I/System.out( 4308): Empty value
+01-09 13:19:01.062 I/System.out( 4308): Empty value
+01-09 13:19:02.063 I/System.out( 4308): Empty value
+01-09 13:19:03.064 I/System.out( 4308): Empty value
+01-09 13:19:04.065 I/System.out( 4308): Empty value
+01-09 13:19:05.056 I/System.out( 4308): Empty value
+01-09 13:19:06.067 I/System.out( 4308): Empty value
+01-09 13:19:07.068 I/System.out( 4308): Empty value
+01-09 13:19:08.069 I/System.out( 4308): Empty value
+01-09 13:19:09.070 I/System.out( 4308): Empty value
+01-09 13:19:10.071 I/System.out( 4308): Empty value
+01-09 13:19:11.072 I/System.out( 4308): Empty value
+01-09 13:19:12.073 I/System.out( 4308): Empty value
+01-09 13:19:13.074 I/System.out( 4308): Empty value
+01-09 13:19:14.075 I/System.out( 4308): Empty value
+01-09 13:19:15.076 I/System.out( 4308): Empty value
+01-09 13:19:16.077 I/System.out( 4308): Empty value
+01-09 13:19:17.068 I/System.out( 4308): Empty value
+01-09 13:19:18.079 I/System.out( 4308): Empty value
+01-09 13:19:19.080 I/System.out( 4308): Empty value
+01-09 13:19:20.080 I/System.out( 4308): Empty value
+01-09 13:19:21.081 I/System.out( 4308): Empty value
+01-09 13:19:22.082 I/System.out( 4308): Empty value
+01-09 13:19:23.083 I/System.out( 4308): Empty value
+01-09 13:19:24.084 I/System.out( 4308): Empty value
+01-09 13:19:25.085 I/System.out( 4308): Empty value
+01-09 13:19:26.086 I/System.out( 4308): Empty value
+01-09 13:19:27.087 I/System.out( 4308): Empty value
+01-09 13:19:28.088 I/System.out( 4308): Empty value
+01-09 13:19:29.089 I/System.out( 4308): Empty value
+01-09 13:19:30.090 I/System.out( 4308): Empty value
+01-09 13:19:31.091 I/System.out( 4308): Empty value
+01-09 13:19:32.092 I/System.out( 4308): Empty value
+01-09 13:19:33.093 I/System.out( 4308): Empty value
+01-09 13:19:34.094 I/System.out( 4308): Empty value
+01-09 13:19:35.095 I/System.out( 4308): Empty value
+01-09 13:19:36.096 I/System.out( 4308): Empty value
+01-09 13:19:37.097 I/System.out( 4308): Empty value
+01-09 13:19:38.088 I/System.out( 4308): Empty value
+01-09 13:19:39.089 I/System.out( 4308): Empty value
+01-09 13:19:40.090 I/System.out( 4308): Empty value
+01-09 13:19:41.091 I/System.out( 4308): Empty value
+01-09 13:19:42.092 I/System.out( 4308): Empty value
+01-09 13:19:43.103 I/System.out( 4308): Empty value
+01-09 13:19:44.104 I/System.out( 4308): Empty value
+01-09 13:19:45.105 I/System.out( 4308): Empty value
+01-09 13:19:46.096 I/System.out( 4308): Empty value
+01-09 13:19:47.107 I/System.out( 4308): Empty value
+01-09 13:19:48.098 I/System.out( 4308): Empty value
+01-09 13:19:49.099 I/System.out( 4308): Empty value
+01-09 13:19:50.100 I/System.out( 4308): Empty value
+01-09 13:19:51.111 I/System.out( 4308): Empty value
+01-09 13:19:52.112 I/System.out( 4308): Empty value
+01-09 13:19:53.113 I/System.out( 4308): Empty value
+01-09 13:19:54.114 I/System.out( 4308): Empty value
+01-09 13:19:55.115 I/System.out( 4308): Empty value
+01-09 13:19:56.116 I/System.out( 4308): Empty value
+01-09 13:19:57.117 I/System.out( 4308): Empty value
+01-09 13:19:58.118 I/System.out( 4308): Empty value
+01-09 13:19:59.119 I/System.out( 4308): Empty value
+01-09 13:20:00.120 I/System.out( 4308): Empty value
+01-09 13:20:01.121 I/System.out( 4308): Empty value
+01-09 13:20:02.122 I/System.out( 4308): Empty value
+01-09 13:20:03.122 I/System.out( 4308): Empty value
+01-09 13:20:04.123 I/System.out( 4308): Empty value
+01-09 13:20:05.124 I/System.out( 4308): Empty value
+01-09 13:20:06.125 I/System.out( 4308): Empty value
+01-09 13:20:07.126 I/System.out( 4308): Empty value
+01-09 13:20:08.127 I/System.out( 4308): Empty value
+01-09 13:20:09.118 I/System.out( 4308): Empty value
+01-09 13:20:10.129 I/System.out( 4308): Empty value
+01-09 13:20:11.130 I/System.out( 4308): Empty value
+01-09 13:20:12.131 I/System.out( 4308): Empty value
+01-09 13:20:13.132 I/System.out( 4308): Empty value
+01-09 13:20:14.133 I/System.out( 4308): Empty value
+01-09 13:20:15.134 I/System.out( 4308): Empty value
+01-09 13:20:16.135 I/System.out( 4308): Empty value
+01-09 13:20:17.136 I/System.out( 4308): Empty value
+01-09 13:20:18.137 I/System.out( 4308): Empty value
+01-09 13:20:19.138 I/System.out( 4308): Empty value
+01-09 13:20:20.139 I/System.out( 4308): Empty value
+01-09 13:20:21.140 I/System.out( 4308): Empty value
+01-09 13:20:22.141 I/System.out( 4308): Empty value
+01-09 13:20:23.142 I/System.out( 4308): Empty value
+01-09 13:20:24.143 I/System.out( 4308): Empty value
+01-09 13:20:25.144 I/System.out( 4308): Empty value
+01-09 13:20:26.145 I/System.out( 4308): Empty value
+01-09 13:20:27.146 I/System.out( 4308): Empty value
+01-09 13:20:27.196 D/dalvikvm( 4308): GC_CONCURRENT freed 385K, 5% free 9009K/9432K, paused 8ms+1ms, total 58ms
+01-09 13:20:28.137 I/System.out( 4308): Empty value
+01-09 13:20:29.148 I/System.out( 4308): Empty value
+01-09 13:20:30.149 I/System.out( 4308): Empty value
+01-09 13:20:31.150 I/System.out( 4308): Empty value
+01-09 13:20:32.151 I/System.out( 4308): Empty value
+01-09 13:20:33.152 I/System.out( 4308): Empty value
+01-09 13:20:34.153 I/System.out( 4308): Empty value
+01-09 13:20:35.154 I/System.out( 4308): Empty value
+01-09 13:20:36.155 I/System.out( 4308): Empty value
+01-09 13:20:37.156 I/System.out( 4308): Empty value
+01-09 13:20:38.157 I/System.out( 4308): Empty value
+01-09 13:20:39.148 I/System.out( 4308): Empty value
+01-09 13:20:40.159 I/System.out( 4308): Empty value
+01-09 13:20:41.150 I/System.out( 4308): Empty value
+01-09 13:20:42.151 I/System.out( 4308): Empty value
+01-09 13:20:43.162 I/System.out( 4308): Empty value
+01-09 13:20:44.163 I/System.out( 4308): Empty value
+01-09 13:20:45.164 I/System.out( 4308): Empty value
+01-09 13:20:46.164 I/System.out( 4308): Empty value
+01-09 13:20:47.165 I/System.out( 4308): Empty value
+01-09 13:20:48.166 I/System.out( 4308): Empty value
+01-09 13:20:49.157 I/System.out( 4308): Empty value
+01-09 13:20:50.168 I/System.out( 4308): Empty value
+01-09 13:20:51.169 I/System.out( 4308): Empty value
+01-09 13:20:52.170 I/System.out( 4308): Empty value
+01-09 13:20:53.161 I/System.out( 4308): Empty value
+01-09 13:20:54.172 I/System.out( 4308): Empty value
+01-09 13:20:55.173 I/System.out( 4308): Empty value
+01-09 13:20:56.174 I/System.out( 4308): Empty value
+01-09 13:20:57.165 I/System.out( 4308): Empty value
+01-09 13:20:58.166 I/System.out( 4308): Empty value
+01-09 13:20:59.177 I/System.out( 4308): Empty value
+01-09 13:21:00.168 I/System.out( 4308): Empty value
+01-09 13:21:01.169 I/System.out( 4308): Empty value
+01-09 13:21:02.180 I/System.out( 4308): Empty value
+01-09 13:21:03.181 I/System.out( 4308): Empty value
+01-09 13:21:04.182 I/System.out( 4308): Empty value
+01-09 13:21:05.183 I/System.out( 4308): Empty value
+01-09 13:21:06.184 I/System.out( 4308): Empty value
+01-09 13:21:07.185 I/System.out( 4308): Empty value
+01-09 13:21:08.186 I/System.out( 4308): Empty value
+01-09 13:21:09.187 I/System.out( 4308): Empty value
+01-09 13:21:10.188 I/System.out( 4308): Empty value
+01-09 13:21:11.189 I/System.out( 4308): Empty value
+01-09 13:21:12.190 I/System.out( 4308): Empty value
+01-09 13:21:13.191 I/System.out( 4308): Empty value
+01-09 13:21:14.192 I/System.out( 4308): Empty value
+01-09 13:21:15.193 I/System.out( 4308): Empty value
+01-09 13:21:16.194 I/System.out( 4308): Empty value
+01-09 13:21:17.195 I/System.out( 4308): Empty value
+01-09 13:21:18.196 I/System.out( 4308): Empty value
+01-09 13:21:19.187 I/System.out( 4308): Empty value
+01-09 13:21:20.198 I/System.out( 4308): Empty value
+01-09 13:21:21.189 I/System.out( 4308): Empty value
+01-09 13:21:22.190 I/System.out( 4308): Empty value
+01-09 13:21:23.191 I/System.out( 4308): Empty value
+01-09 13:21:24.202 I/System.out( 4308): Empty value
+01-09 13:21:25.203 I/System.out( 4308): Empty value
+01-09 13:21:26.204 I/System.out( 4308): Empty value
+01-09 13:21:27.205 I/System.out( 4308): Empty value
+01-09 13:21:28.205 I/System.out( 4308): Empty value
+01-09 13:21:29.206 I/System.out( 4308): Empty value
+01-09 13:21:30.207 I/System.out( 4308): Empty value
+01-09 13:21:31.198 I/System.out( 4308): Empty value
+01-09 13:21:32.209 I/System.out( 4308): Empty value
+01-09 13:21:33.210 I/System.out( 4308): Empty value
+01-09 13:21:34.211 I/System.out( 4308): Empty value
+01-09 13:21:35.212 I/System.out( 4308): Empty value
+01-09 13:21:36.213 I/System.out( 4308): Empty value
+01-09 13:21:37.214 I/System.out( 4308): Empty value
+01-09 13:21:38.205 I/System.out( 4308): Empty value
+01-09 13:21:39.216 I/System.out( 4308): Empty value
+01-09 13:21:40.217 I/System.out( 4308): Empty value
+01-09 13:21:41.218 I/System.out( 4308): Empty value
+01-09 13:21:42.209 I/System.out( 4308): Empty value
+01-09 13:21:43.210 I/System.out( 4308): Empty value
+01-09 13:21:44.211 I/System.out( 4308): Empty value
+01-09 13:21:45.222 I/System.out( 4308): Empty value
+01-09 13:21:46.223 I/System.out( 4308): Empty value
+01-09 13:21:47.214 I/System.out( 4308): Empty value
+01-09 13:21:48.225 I/System.out( 4308): Empty value
+01-09 13:21:49.226 I/System.out( 4308): Empty value
+01-09 13:21:50.227 I/System.out( 4308): Empty value
+01-09 13:21:51.228 I/System.out( 4308): Empty value
+01-09 13:21:52.219 I/System.out( 4308): Empty value
+01-09 13:21:53.230 I/System.out( 4308): Empty value
+01-09 13:21:54.231 I/System.out( 4308): Empty value
+01-09 13:21:55.232 I/System.out( 4308): Empty value
+01-09 13:21:56.233 I/System.out( 4308): Empty value
+01-09 13:21:57.234 I/System.out( 4308): Empty value
+01-09 13:21:58.235 I/System.out( 4308): Empty value
+01-09 13:21:59.236 I/System.out( 4308): Empty value
+01-09 13:22:00.227 I/System.out( 4308): Empty value
+01-09 13:22:01.228 I/System.out( 4308): Empty value
+01-09 13:22:02.239 I/System.out( 4308): Empty value
+01-09 13:22:03.240 I/System.out( 4308): Empty value
+01-09 13:22:04.241 I/System.out( 4308): Empty value
+01-09 13:22:05.242 I/System.out( 4308): Empty value
+01-09 13:22:06.243 I/System.out( 4308): Empty value
+01-09 13:22:07.244 I/System.out( 4308): Empty value
+01-09 13:22:08.245 I/System.out( 4308): Empty value
+01-09 13:22:09.246 I/System.out( 4308): Empty value
+01-09 13:22:10.247 I/System.out( 4308): Empty value
+01-09 13:22:11.247 I/System.out( 4308): Empty value
+01-09 13:22:12.248 I/System.out( 4308): Empty value
+01-09 13:22:13.259 I/System.out( 4308): Empty value
+01-09 13:22:14.250 I/System.out( 4308): Empty value
+01-09 13:22:15.251 I/System.out( 4308): Empty value
+01-09 13:22:16.252 I/System.out( 4308): Empty value
+01-09 13:22:17.253 I/System.out( 4308): Empty value
+01-09 13:22:18.264 I/System.out( 4308): Empty value
+01-09 13:22:19.265 I/System.out( 4308): Empty value
+01-09 13:22:20.266 I/System.out( 4308): Empty value
+01-09 13:22:21.257 I/System.out( 4308): Empty value
+01-09 13:22:22.258 I/System.out( 4308): Empty value
+01-09 13:22:23.259 I/System.out( 4308): Empty value
+01-09 13:22:24.260 I/System.out( 4308): Empty value
+01-09 13:22:25.271 I/System.out( 4308): Empty value
+01-09 13:22:26.272 I/System.out( 4308): Empty value
+01-09 13:22:27.273 I/System.out( 4308): Empty value
+01-09 13:22:28.274 I/System.out( 4308): Empty value
+01-09 13:22:29.275 I/System.out( 4308): Empty value
+01-09 13:22:30.276 I/System.out( 4308): Empty value
+01-09 13:22:31.267 I/System.out( 4308): Empty value
+01-09 13:22:32.278 I/System.out( 4308): Empty value
+01-09 13:22:33.269 I/System.out( 4308): Empty value
+01-09 13:22:34.280 I/System.out( 4308): Empty value
+01-09 13:22:35.281 I/System.out( 4308): Empty value
+01-09 13:22:36.282 I/System.out( 4308): Empty value
+01-09 13:22:37.283 I/System.out( 4308): Empty value
+01-09 13:22:38.284 I/System.out( 4308): Empty value
+01-09 13:22:39.285 I/System.out( 4308): Empty value
+01-09 13:22:40.286 I/System.out( 4308): Empty value
+01-09 13:22:41.287 I/System.out( 4308): Empty value
+01-09 13:22:42.288 I/System.out( 4308): Empty value
+01-09 13:22:43.289 I/System.out( 4308): Empty value
+01-09 13:22:44.290 I/System.out( 4308): Empty value
+01-09 13:22:45.291 I/System.out( 4308): Empty value
+01-09 13:22:46.292 I/System.out( 4308): Empty value
+01-09 13:22:47.303 I/System.out( 4308): Empty value
+01-09 13:22:48.304 I/System.out( 4308): Empty value
+01-09 13:22:49.305 I/System.out( 4308): Empty value
+01-09 13:22:50.306 I/System.out( 4308): Empty value
+01-09 13:22:51.297 I/System.out( 4308): Empty value
+01-09 13:22:52.298 I/System.out( 4308): Empty value
+01-09 13:22:53.299 I/System.out( 4308): Empty value
+01-09 13:22:54.299 I/System.out( 4308): Empty value
+01-09 13:22:55.300 I/System.out( 4308): Empty value
+01-09 13:22:56.301 I/System.out( 4308): Empty value
+01-09 13:22:57.302 I/System.out( 4308): Empty value
+01-09 13:22:58.303 I/System.out( 4308): Empty value
+01-09 13:22:59.304 I/System.out( 4308): Empty value
+01-09 13:23:00.315 I/System.out( 4308): Empty value
+01-09 13:23:01.306 I/System.out( 4308): Empty value
+01-09 13:23:02.307 I/System.out( 4308): Empty value
+01-09 13:23:03.308 I/System.out( 4308): Empty value
+01-09 13:23:04.319 I/System.out( 4308): Empty value
+01-09 13:23:05.310 I/System.out( 4308): Empty value
+01-09 13:23:06.311 I/System.out( 4308): Empty value
+01-09 13:23:07.312 I/System.out( 4308): Empty value
+01-09 13:23:08.313 I/System.out( 4308): Empty value
+01-09 13:23:09.324 I/System.out( 4308): Empty value
+01-09 13:23:10.325 I/System.out( 4308): Empty value
+01-09 13:23:11.326 I/System.out( 4308): Empty value
+01-09 13:23:12.317 I/System.out( 4308): Empty value
+01-09 13:23:13.328 I/System.out( 4308): Empty value
+01-09 13:23:14.319 I/System.out( 4308): Empty value
+01-09 13:23:15.320 I/System.out( 4308): Empty value
+01-09 13:23:16.321 I/System.out( 4308): Empty value
+01-09 13:23:17.322 I/System.out( 4308): Empty value
+01-09 13:23:18.323 I/System.out( 4308): Empty value
+01-09 13:23:19.324 I/System.out( 4308): Empty value
+01-09 13:23:20.325 I/System.out( 4308): Empty value
+01-09 13:23:21.326 I/System.out( 4308): Empty value
+01-09 13:23:22.327 I/System.out( 4308): Empty value
+01-09 13:23:23.328 I/System.out( 4308): Empty value
+01-09 13:23:24.329 I/System.out( 4308): Empty value
+01-09 13:23:25.330 I/System.out( 4308): Empty value
+01-09 13:23:26.331 I/System.out( 4308): Empty value
+01-09 13:23:27.332 I/System.out( 4308): Empty value
+01-09 13:23:28.333 I/System.out( 4308): Empty value
+01-09 13:23:29.334 I/System.out( 4308): Empty value
+01-09 13:23:30.335 I/System.out( 4308): Empty value
+01-09 13:23:31.336 I/System.out( 4308): Empty value
+01-09 13:23:32.337 I/System.out( 4308): Empty value
+01-09 13:23:33.338 I/System.out( 4308): Empty value
+01-09 13:23:34.339 I/System.out( 4308): Empty value
+01-09 13:23:35.340 I/System.out( 4308): Empty value
+01-09 13:23:36.341 I/System.out( 4308): Empty value
+01-09 13:23:37.341 I/System.out( 4308): Empty value
+01-09 13:23:38.342 I/System.out( 4308): Empty value
+01-09 13:23:39.343 I/System.out( 4308): Empty value
+01-09 13:23:40.344 I/System.out( 4308): Empty value
+01-09 13:23:41.345 I/System.out( 4308): Empty value
+01-09 13:23:42.356 I/System.out( 4308): Empty value
+01-09 13:23:43.347 I/System.out( 4308): Empty value
+01-09 13:23:44.348 I/System.out( 4308): Empty value
+01-09 13:23:45.349 I/System.out( 4308): Empty value
+01-09 13:23:46.350 I/System.out( 4308): Empty value
+01-09 13:23:47.351 I/System.out( 4308): Empty value
+01-09 13:23:48.352 I/System.out( 4308): Empty value
+01-09 13:23:49.353 I/System.out( 4308): Empty value
+01-09 13:23:50.354 I/System.out( 4308): Empty value
+01-09 13:23:51.355 I/System.out( 4308): Empty value
+01-09 13:23:52.356 I/System.out( 4308): Empty value
+01-09 13:23:53.357 I/System.out( 4308): Empty value
+01-09 13:23:54.358 I/System.out( 4308): Empty value
+01-09 13:23:55.359 I/System.out( 4308): Empty value
+01-09 13:23:56.360 I/System.out( 4308): Empty value
+01-09 13:23:57.361 I/System.out( 4308): Empty value
+01-09 13:23:58.362 I/System.out( 4308): Empty value
+01-09 13:23:59.373 I/System.out( 4308): Empty value
+01-09 13:24:00.374 I/System.out( 4308): Empty value
+01-09 13:24:01.375 I/System.out( 4308): Empty value
+01-09 13:24:02.376 I/System.out( 4308): Empty value
+01-09 13:24:03.377 I/System.out( 4308): Empty value
+01-09 13:24:04.368 I/System.out( 4308): Empty value
+01-09 13:24:05.369 I/System.out( 4308): Empty value
+01-09 13:24:06.370 I/System.out( 4308): Empty value
+01-09 13:24:07.381 I/System.out( 4308): Empty value
+01-09 13:24:08.372 I/System.out( 4308): Empty value
+01-09 13:24:09.373 I/System.out( 4308): Empty value
+01-09 13:24:10.374 I/System.out( 4308): Empty value
+01-09 13:24:11.375 I/System.out( 4308): Empty value
+01-09 13:24:11.435 D/dalvikvm( 4308): GC_CONCURRENT freed 385K, 5% free 9009K/9432K, paused 7ms+9ms, total 52ms
+01-09 13:24:12.376 I/System.out( 4308): Empty value
+01-09 13:24:13.377 I/System.out( 4308): Empty value
+01-09 13:24:14.378 I/System.out( 4308): Empty value
+01-09 13:24:15.379 I/System.out( 4308): Empty value
+01-09 13:24:16.380 I/System.out( 4308): Empty value
+01-09 13:24:17.381 I/System.out( 4308): Empty value
+01-09 13:24:18.382 I/System.out( 4308): Empty value
+01-09 13:24:19.382 I/System.out( 4308): Empty value
+01-09 13:24:20.383 I/System.out( 4308): Empty value
+01-09 13:24:21.384 I/System.out( 4308): Empty value
+01-09 13:24:22.385 I/System.out( 4308): Empty value
+01-09 13:24:23.386 I/System.out( 4308): Empty value
+01-09 13:24:24.387 I/System.out( 4308): Empty value
+01-09 13:24:25.388 I/System.out( 4308): Empty value
+01-09 13:24:26.389 I/System.out( 4308): Empty value
+01-09 13:24:27.390 I/System.out( 4308): Empty value
+01-09 13:24:28.391 I/System.out( 4308): Empty value
+01-09 13:24:29.392 I/System.out( 4308): Empty value
+01-09 13:24:29.392 I/System.out( 4308): Battery level start is reached
+01-09 13:24:30.393 I/System.out( 4308): Empty value
+01-09 13:24:31.394 I/System.out( 4308): Empty value
+01-09 13:24:32.395 I/System.out( 4308): Empty value
+01-09 13:24:33.396 I/System.out( 4308): Empty value
+01-09 13:24:34.397 I/System.out( 4308): Empty value
+01-09 13:24:35.398 I/System.out( 4308): Empty value
+01-09 13:24:36.389 I/System.out( 4308): Empty value
+01-09 13:24:37.390 I/System.out( 4308): Empty value
+01-09 13:24:38.401 I/System.out( 4308): Empty value
+01-09 13:24:39.402 I/System.out( 4308): Empty value
+01-09 13:24:40.403 I/System.out( 4308): Empty value
+01-09 13:24:41.404 I/System.out( 4308): Empty value
+01-09 13:24:42.405 I/System.out( 4308): Empty value
+01-09 13:24:43.396 I/System.out( 4308): Empty value
+01-09 13:24:44.397 I/System.out( 4308): Empty value
+01-09 13:24:45.398 I/System.out( 4308): Empty value
+01-09 13:24:46.409 I/System.out( 4308): Empty value
+01-09 13:24:47.410 I/System.out( 4308): Empty value
+01-09 13:24:48.411 I/System.out( 4308): Empty value
+01-09 13:24:49.402 I/System.out( 4308): Empty value
+01-09 13:24:50.413 I/System.out( 4308): Empty value
+01-09 13:24:51.414 I/System.out( 4308): Empty value
+01-09 13:24:52.415 I/System.out( 4308): Empty value
+01-09 13:24:53.416 I/System.out( 4308): Empty value
+01-09 13:24:54.417 I/System.out( 4308): Empty value
+01-09 13:24:55.418 I/System.out( 4308): Empty value
+01-09 13:24:56.409 I/System.out( 4308): Empty value
+01-09 13:24:57.410 I/System.out( 4308): Empty value
+01-09 13:24:58.411 I/System.out( 4308): Empty value
+01-09 13:24:59.422 I/System.out( 4308): Empty value
+01-09 13:25:00.002 I/ActivityManager(  512): No longer want com.google.android.youtube (pid 2247): empty for 1818s
+01-09 13:25:00.423 I/System.out( 4308): Empty value
+01-09 13:25:01.424 I/System.out( 4308): Empty value
+01-09 13:25:02.424 I/System.out( 4308): Empty value
+01-09 13:25:03.425 I/System.out( 4308): Empty value
+01-09 13:25:04.426 I/System.out( 4308): Empty value
+01-09 13:25:05.417 I/System.out( 4308): Empty value
+01-09 13:25:06.418 I/System.out( 4308): Empty value
+01-09 13:25:07.419 I/System.out( 4308): Empty value
+01-09 13:25:08.420 I/System.out( 4308): Empty value
+01-09 13:25:09.421 I/System.out( 4308): Empty value
+01-09 13:25:10.422 I/System.out( 4308): Empty value
+01-09 13:25:11.423 I/System.out( 4308): Empty value
+01-09 13:25:12.424 I/System.out( 4308): Empty value
+01-09 13:25:13.425 I/System.out( 4308): Empty value
+01-09 13:25:14.426 I/System.out( 4308): Empty value
+01-09 13:25:14.446 I/EntropyMixer(  512): Writing entropy...
+01-09 13:25:15.427 I/System.out( 4308): Empty value
+01-09 13:25:16.428 I/System.out( 4308): Empty value
+01-09 13:25:17.429 I/System.out( 4308): Empty value
+01-09 13:25:18.430 I/System.out( 4308): Empty value
+01-09 13:25:19.191 I/EventLogService(  781): Aggregate from 1389272119078 (log), 1389272119078 (data)
+01-09 13:25:19.251 I/ServiceDumpSys(  781): dumping service [account]
+01-09 13:25:19.441 I/System.out( 4308): Empty value
+01-09 13:25:20.432 I/System.out( 4308): Empty value
+01-09 13:25:21.443 I/System.out( 4308): Empty value
+01-09 13:25:22.444 I/System.out( 4308): Empty value
+01-09 13:25:23.445 I/System.out( 4308): Empty value
+01-09 13:25:24.436 I/System.out( 4308): Empty value
+01-09 13:25:25.447 I/System.out( 4308): Empty value
+01-09 13:25:26.438 I/System.out( 4308): Empty value
+01-09 13:25:27.439 I/System.out( 4308): Empty value
+01-09 13:25:28.450 I/System.out( 4308): Empty value
+01-09 13:25:29.451 I/System.out( 4308): Empty value
+01-09 13:25:30.442 I/System.out( 4308): Empty value
+01-09 13:25:31.443 I/System.out( 4308): Empty value
+01-09 13:25:32.454 I/System.out( 4308): Empty value
+01-09 13:25:33.455 I/System.out( 4308): Empty value
+01-09 13:25:34.446 I/System.out( 4308): Empty value
+01-09 13:25:35.447 I/System.out( 4308): Empty value
+01-09 13:25:36.448 I/System.out( 4308): Empty value
+01-09 13:25:37.449 I/System.out( 4308): Empty value
+01-09 13:25:38.460 I/System.out( 4308): Empty value
+01-09 13:25:39.451 I/System.out( 4308): Empty value
+01-09 13:25:40.452 I/System.out( 4308): Empty value
+01-09 13:25:41.453 I/System.out( 4308): Empty value
+01-09 13:25:42.464 I/System.out( 4308): Empty value
+01-09 13:25:43.465 I/System.out( 4308): Empty value
+01-09 13:25:44.466 I/System.out( 4308): Empty value
+01-09 13:25:45.466 I/System.out( 4308): Empty value
+01-09 13:25:46.457 I/System.out( 4308): Empty value
+01-09 13:25:47.458 I/System.out( 4308): Empty value
+01-09 13:25:48.459 I/System.out( 4308): Empty value
+01-09 13:25:49.470 I/System.out( 4308): Empty value
+01-09 13:25:50.461 I/System.out( 4308): Empty value
+01-09 13:25:51.462 I/System.out( 4308): Empty value
+01-09 13:25:52.463 I/System.out( 4308): Empty value
+01-09 13:25:53.464 I/System.out( 4308): Empty value
+01-09 13:25:54.465 I/System.out( 4308): Empty value
+01-09 13:25:55.466 I/System.out( 4308): Empty value
+01-09 13:25:56.467 I/System.out( 4308): Empty value
+01-09 13:25:57.478 I/System.out( 4308): Empty value
+01-09 13:25:58.479 I/System.out( 4308): Empty value
+01-09 13:25:59.480 I/System.out( 4308): Empty value
+01-09 13:26:00.471 I/System.out( 4308): Empty value
+01-09 13:26:01.472 I/System.out( 4308): Empty value
+01-09 13:26:02.483 I/System.out( 4308): Empty value
+01-09 13:26:03.484 I/System.out( 4308): Empty value
+01-09 13:26:04.485 I/System.out( 4308): Empty value
+01-09 13:26:05.486 I/System.out( 4308): Empty value
+01-09 13:26:06.487 I/System.out( 4308): Empty value
+01-09 13:26:07.488 I/System.out( 4308): Empty value
+01-09 13:26:08.479 I/System.out( 4308): Empty value
+01-09 13:26:09.490 I/System.out( 4308): Empty value
+01-09 13:26:10.491 I/System.out( 4308): Empty value
+01-09 13:26:11.492 I/System.out( 4308): Empty value
+01-09 13:26:12.493 I/System.out( 4308): Empty value
+01-09 13:26:13.494 I/System.out( 4308): Empty value
+01-09 13:26:14.495 I/System.out( 4308): Empty value
+01-09 13:26:15.496 I/System.out( 4308): Empty value
+01-09 13:26:16.497 I/System.out( 4308): Empty value
+01-09 13:26:17.488 I/System.out( 4308): Empty value
+01-09 13:26:18.499 I/System.out( 4308): Empty value
+01-09 13:26:19.500 I/System.out( 4308): Empty value
+01-09 13:26:20.501 I/System.out( 4308): Empty value
+01-09 13:26:21.502 I/System.out( 4308): Empty value
+01-09 13:26:22.503 I/System.out( 4308): Empty value
+01-09 13:26:23.504 I/System.out( 4308): Empty value
+01-09 13:26:24.505 I/System.out( 4308): Empty value
+01-09 13:26:25.496 I/System.out( 4308): Empty value
+01-09 13:26:26.507 I/System.out( 4308): Empty value
+01-09 13:26:27.507 I/System.out( 4308): Empty value
+01-09 13:26:28.518 I/System.out( 4308): Empty value
+01-09 13:26:29.519 I/System.out( 4308): Empty value
+01-09 13:26:30.510 I/System.out( 4308): Empty value
+01-09 13:26:31.511 I/System.out( 4308): Empty value
+01-09 13:26:32.512 I/System.out( 4308): Empty value
+01-09 13:26:33.513 I/System.out( 4308): Empty value
+01-09 13:26:34.514 I/System.out( 4308): Empty value
+01-09 13:26:35.525 I/System.out( 4308): Empty value
+01-09 13:26:36.526 I/System.out( 4308): Empty value
+01-09 13:26:37.527 I/System.out( 4308): Empty value
+01-09 13:26:38.518 I/System.out( 4308): Empty value
+01-09 13:26:39.519 I/System.out( 4308): Empty value
+01-09 13:26:40.520 I/System.out( 4308): Empty value
+01-09 13:26:41.521 I/System.out( 4308): Empty value
+01-09 13:26:42.522 I/System.out( 4308): Empty value
+01-09 13:26:43.523 I/System.out( 4308): Empty value
+01-09 13:26:44.524 I/System.out( 4308): Empty value
+01-09 13:26:45.535 I/System.out( 4308): Empty value
+01-09 13:26:46.536 I/System.out( 4308): Empty value
+01-09 13:26:47.527 I/System.out( 4308): Empty value
+01-09 13:26:48.528 I/System.out( 4308): Empty value
+01-09 13:26:49.539 I/System.out( 4308): Empty value
+01-09 13:26:50.530 I/System.out( 4308): Empty value
+01-09 13:26:51.541 I/System.out( 4308): Empty value
+01-09 13:26:52.542 I/System.out( 4308): Empty value
+01-09 13:26:53.543 I/System.out( 4308): Empty value
+01-09 13:26:54.544 I/System.out( 4308): Empty value
+01-09 13:26:55.545 I/System.out( 4308): Empty value
+01-09 13:26:56.546 I/System.out( 4308): Empty value
+01-09 13:26:57.547 I/System.out( 4308): Empty value
+01-09 13:26:58.548 I/System.out( 4308): Empty value
+01-09 13:26:59.549 I/System.out( 4308): Empty value
+01-09 13:27:00.550 I/System.out( 4308): Empty value
+01-09 13:27:01.551 I/System.out( 4308): Empty value
+01-09 13:27:02.552 I/System.out( 4308): Empty value
+01-09 13:27:03.553 I/System.out( 4308): Empty value
+01-09 13:27:04.554 I/System.out( 4308): Empty value
+01-09 13:27:05.555 I/System.out( 4308): Empty value
+01-09 13:27:06.556 I/System.out( 4308): Empty value
+01-09 13:27:07.557 I/System.out( 4308): Empty value
+01-09 13:27:08.558 I/System.out( 4308): Empty value
+01-09 13:27:09.559 I/System.out( 4308): Empty value
+01-09 13:27:10.559 I/System.out( 4308): Empty value
+01-09 13:27:11.560 I/System.out( 4308): Empty value
+01-09 13:27:12.561 I/System.out( 4308): Empty value
+01-09 13:27:13.562 I/System.out( 4308): Empty value
+01-09 13:27:14.563 I/System.out( 4308): Empty value
+01-09 13:27:15.564 I/System.out( 4308): Empty value
+01-09 13:27:16.565 I/System.out( 4308): Empty value
+01-09 13:27:17.556 I/System.out( 4308): Empty value
+01-09 13:27:18.567 I/System.out( 4308): Empty value
+01-09 13:27:19.568 I/System.out( 4308): Empty value
+01-09 13:27:20.569 I/System.out( 4308): Empty value
+01-09 13:27:21.570 I/System.out( 4308): Empty value
+01-09 13:27:22.571 I/System.out( 4308): Empty value
+01-09 13:27:23.582 I/System.out( 4308): Empty value
+01-09 13:27:24.573 I/System.out( 4308): Empty value
+01-09 13:27:25.584 I/System.out( 4308): Empty value
+01-09 13:27:26.585 I/System.out( 4308): Empty value
+01-09 13:27:27.586 I/System.out( 4308): Empty value
+01-09 13:27:28.587 I/System.out( 4308): Empty value
+01-09 13:27:29.588 I/System.out( 4308): Empty value
+01-09 13:27:30.589 I/System.out( 4308): Empty value
+01-09 13:27:31.590 I/System.out( 4308): Empty value
+01-09 13:27:32.591 I/System.out( 4308): Empty value
+01-09 13:27:33.592 I/System.out( 4308): Empty value
+01-09 13:27:34.593 I/System.out( 4308): Empty value
+01-09 13:27:35.594 I/System.out( 4308): Empty value
+01-09 13:27:36.595 I/System.out( 4308): Empty value
+01-09 13:27:37.596 I/System.out( 4308): Empty value
+01-09 13:27:38.597 I/System.out( 4308): Empty value
+01-09 13:27:39.598 I/System.out( 4308): Empty value
+01-09 13:27:40.589 I/System.out( 4308): Empty value
+01-09 13:27:41.590 I/System.out( 4308): Empty value
+01-09 13:27:42.591 I/System.out( 4308): Empty value
+01-09 13:27:43.592 I/System.out( 4308): Empty value
+01-09 13:27:44.603 I/System.out( 4308): Empty value
+01-09 13:27:45.594 I/System.out( 4308): Empty value
+01-09 13:27:46.595 I/System.out( 4308): Empty value
+01-09 13:27:47.596 I/System.out( 4308): Empty value
+01-09 13:27:48.597 I/System.out( 4308): Empty value
+01-09 13:27:49.598 I/System.out( 4308): Empty value
+01-09 13:27:50.599 I/System.out( 4308): Empty value
+01-09 13:27:51.600 I/System.out( 4308): Empty value
+01-09 13:27:52.601 I/System.out( 4308): Empty value
+01-09 13:27:53.601 I/System.out( 4308): Empty value
+01-09 13:27:53.662 D/dalvikvm( 4308): GC_CONCURRENT freed 383K, 5% free 9010K/9432K, paused 8ms+3ms, total 57ms
+01-09 13:27:54.602 I/System.out( 4308): Empty value
+01-09 13:27:55.603 I/System.out( 4308): Empty value
+01-09 13:27:56.604 I/System.out( 4308): Empty value
+01-09 13:27:57.605 I/System.out( 4308): Empty value
+01-09 13:27:58.606 I/System.out( 4308): Empty value
+01-09 13:27:59.597 I/System.out( 4308): Empty value
+01-09 13:28:00.608 I/System.out( 4308): Empty value
+01-09 13:28:01.609 I/System.out( 4308): Empty value
+01-09 13:28:02.610 I/System.out( 4308): Empty value
+01-09 13:28:03.611 I/System.out( 4308): Empty value
+01-09 13:28:04.612 I/System.out( 4308): Empty value
+01-09 13:28:05.613 I/System.out( 4308): Empty value
+01-09 13:28:06.614 I/System.out( 4308): Empty value
+01-09 13:28:07.615 I/System.out( 4308): Empty value
+01-09 13:28:08.626 I/System.out( 4308): Empty value
+01-09 13:28:09.617 I/System.out( 4308): Empty value
+01-09 13:28:10.618 I/System.out( 4308): Empty value
+01-09 13:28:11.619 I/System.out( 4308): Empty value
+01-09 13:28:12.620 I/System.out( 4308): Empty value
+01-09 13:28:13.621 I/System.out( 4308): Empty value
+01-09 13:28:14.622 I/System.out( 4308): Empty value
+01-09 13:28:15.623 I/System.out( 4308): Empty value
+01-09 13:28:16.624 I/System.out( 4308): Empty value
+01-09 13:28:17.625 I/System.out( 4308): Empty value
+01-09 13:28:18.626 I/System.out( 4308): Empty value
+01-09 13:28:19.627 I/System.out( 4308): Empty value
+01-09 13:28:20.628 I/System.out( 4308): Empty value
+01-09 13:28:21.629 I/System.out( 4308): Empty value
+01-09 13:28:22.630 I/System.out( 4308): Empty value
+01-09 13:28:23.631 I/System.out( 4308): Empty value
+01-09 13:28:24.632 I/System.out( 4308): Empty value
+01-09 13:28:25.633 I/System.out( 4308): Empty value
+01-09 13:28:26.634 I/System.out( 4308): Empty value
+01-09 13:28:27.635 I/System.out( 4308): Empty value
+01-09 13:28:28.626 I/System.out( 4308): Empty value
+01-09 13:28:29.637 I/System.out( 4308): Empty value
+01-09 13:28:30.638 I/System.out( 4308): Empty value
+01-09 13:28:31.639 I/System.out( 4308): Empty value
+01-09 13:28:32.650 I/System.out( 4308): Empty value
+01-09 13:28:33.641 I/System.out( 4308): Empty value
+01-09 13:28:34.642 I/System.out( 4308): Empty value
+01-09 13:28:35.653 I/System.out( 4308): Empty value
+01-09 13:28:36.653 I/System.out( 4308): Empty value
+01-09 13:28:37.654 I/System.out( 4308): Empty value
+01-09 13:28:38.655 I/System.out( 4308): Empty value
+01-09 13:28:39.656 I/System.out( 4308): Empty value
+01-09 13:28:40.657 I/System.out( 4308): Empty value
+01-09 13:28:41.658 I/System.out( 4308): Empty value
+01-09 13:28:42.659 I/System.out( 4308): Empty value
+01-09 13:28:43.660 I/System.out( 4308): Empty value
+01-09 13:28:44.661 I/System.out( 4308): Empty value
+01-09 13:28:45.662 I/System.out( 4308): Empty value
+01-09 13:28:46.663 I/System.out( 4308): Empty value
+01-09 13:28:47.664 I/System.out( 4308): Empty value
+01-09 13:28:48.665 I/System.out( 4308): Empty value
+01-09 13:28:49.666 I/System.out( 4308): Empty value
+01-09 13:28:50.667 I/System.out( 4308): Empty value
+01-09 13:28:51.668 I/System.out( 4308): Empty value
+01-09 13:28:52.669 I/System.out( 4308): Empty value
+01-09 13:28:53.670 I/System.out( 4308): Empty value
+01-09 13:28:54.671 I/System.out( 4308): Empty value
+01-09 13:28:55.662 I/System.out( 4308): Empty value
+01-09 13:28:56.673 I/System.out( 4308): Empty value
+01-09 13:28:57.674 I/System.out( 4308): Empty value
+01-09 13:28:58.675 I/System.out( 4308): Empty value
+01-09 13:28:59.676 I/System.out( 4308): Empty value
+01-09 13:29:00.677 I/System.out( 4308): Empty value
+01-09 13:29:01.668 I/System.out( 4308): Empty value
+01-09 13:29:02.679 I/System.out( 4308): Empty value
+01-09 13:29:03.680 I/System.out( 4308): Empty value
+01-09 13:29:04.681 I/System.out( 4308): Empty value
+01-09 13:29:05.682 I/System.out( 4308): Empty value
+01-09 13:29:06.683 I/System.out( 4308): Empty value
+01-09 13:29:07.684 I/System.out( 4308): Empty value
+01-09 13:29:08.685 I/System.out( 4308): Empty value
+01-09 13:29:09.676 I/System.out( 4308): Empty value
+01-09 13:29:10.677 I/System.out( 4308): Empty value
+01-09 13:29:11.688 I/System.out( 4308): Empty value
+01-09 13:29:12.679 I/System.out( 4308): Empty value
+01-09 13:29:13.690 I/System.out( 4308): Empty value
+01-09 13:29:14.691 I/System.out( 4308): Empty value
+01-09 13:29:15.692 I/System.out( 4308): Empty value
+01-09 13:29:16.693 I/System.out( 4308): Empty value
+01-09 13:29:17.694 I/System.out( 4308): Empty value
+01-09 13:29:18.705 I/System.out( 4308): Empty value
+01-09 13:29:19.695 I/System.out( 4308): Empty value
+01-09 13:29:20.706 I/System.out( 4308): Empty value
+01-09 13:29:21.707 I/System.out( 4308): Empty value
+01-09 13:29:22.698 I/System.out( 4308): Empty value
+01-09 13:29:23.699 I/System.out( 4308): Empty value
+01-09 13:29:24.710 I/System.out( 4308): Empty value
+01-09 13:29:25.701 I/System.out( 4308): Empty value
+01-09 13:29:26.702 I/System.out( 4308): Empty value
+01-09 13:29:27.713 I/System.out( 4308): Empty value
+01-09 13:29:28.714 I/System.out( 4308): Empty value
+01-09 13:29:29.715 I/System.out( 4308): Empty value
+01-09 13:29:30.716 I/System.out( 4308): Empty value
+01-09 13:29:31.707 I/System.out( 4308): Empty value
+01-09 13:29:32.718 I/System.out( 4308): Empty value
+01-09 13:29:33.719 I/System.out( 4308): Empty value
+01-09 13:29:34.720 I/System.out( 4308): Empty value
+01-09 13:29:35.721 I/System.out( 4308): Empty value
+01-09 13:29:36.722 I/System.out( 4308): Empty value
+01-09 13:29:37.723 I/System.out( 4308): Empty value
+01-09 13:29:38.724 I/System.out( 4308): Empty value
+01-09 13:29:39.735 I/System.out( 4308): Empty value
+01-09 13:29:40.736 I/System.out( 4308): Empty value
+01-09 13:29:41.727 I/System.out( 4308): Empty value
+01-09 13:29:42.728 I/System.out( 4308): Empty value
+01-09 13:29:43.729 I/System.out( 4308): Empty value
+01-09 13:29:44.740 I/System.out( 4308): Empty value
+01-09 13:29:45.731 I/System.out( 4308): Empty value
+01-09 13:29:46.732 I/System.out( 4308): Empty value
+01-09 13:29:47.743 I/System.out( 4308): Empty value
+01-09 13:29:48.744 I/System.out( 4308): Empty value
+01-09 13:29:49.745 I/System.out( 4308): Empty value
+01-09 13:29:50.736 I/System.out( 4308): Empty value
+01-09 13:29:51.737 I/System.out( 4308): Empty value
+01-09 13:29:52.738 I/System.out( 4308): Empty value
+01-09 13:29:53.739 I/System.out( 4308): Empty value
+01-09 13:29:54.740 I/System.out( 4308): Empty value
+01-09 13:29:55.741 I/System.out( 4308): Empty value
+01-09 13:29:56.742 I/System.out( 4308): Empty value
+01-09 13:29:57.753 I/System.out( 4308): Empty value
+01-09 13:29:58.754 I/System.out( 4308): Empty value
+01-09 13:29:59.755 I/System.out( 4308): Empty value
+01-09 13:30:00.756 I/System.out( 4308): Empty value
+01-09 13:30:01.226 V/DigitalWidgetViewsFactory( 4127): DigitalWidget sets next alarm string to null
+01-09 13:30:01.747 I/System.out( 4308): Empty value
+01-09 13:30:02.747 I/System.out( 4308): Empty value
+01-09 13:30:03.748 I/System.out( 4308): Empty value
+01-09 13:30:04.749 I/System.out( 4308): Empty value
+01-09 13:30:05.750 I/System.out( 4308): Empty value
+01-09 13:30:06.751 I/System.out( 4308): Empty value
+01-09 13:30:07.752 I/System.out( 4308): Empty value
+01-09 13:30:08.753 I/System.out( 4308): Empty value
+01-09 13:30:09.754 I/System.out( 4308): Empty value
+01-09 13:30:10.765 I/System.out( 4308): Empty value
+01-09 13:30:11.766 I/System.out( 4308): Empty value
+01-09 13:30:12.757 I/System.out( 4308): Empty value
+01-09 13:30:13.758 I/System.out( 4308): Empty value
+01-09 13:30:14.759 I/System.out( 4308): Empty value
+01-09 13:30:15.760 I/System.out( 4308): Empty value
+01-09 13:30:16.761 I/System.out( 4308): Empty value
+01-09 13:30:17.762 I/System.out( 4308): Empty value
+01-09 13:30:18.773 I/System.out( 4308): Empty value
+01-09 13:30:19.774 I/System.out( 4308): Empty value
+01-09 13:30:20.775 I/System.out( 4308): Empty value
+01-09 13:30:21.776 I/System.out( 4308): Empty value
+01-09 13:30:22.767 I/System.out( 4308): Empty value
+01-09 13:30:23.768 I/System.out( 4308): Empty value
+01-09 13:30:24.769 I/System.out( 4308): Empty value
+01-09 13:30:25.770 I/System.out( 4308): Empty value
+01-09 13:30:26.771 I/System.out( 4308): Empty value
+01-09 13:30:27.772 I/System.out( 4308): Empty value
+01-09 13:30:28.773 I/System.out( 4308): Empty value
+01-09 13:30:29.774 I/System.out( 4308): Empty value
+01-09 13:30:30.785 I/System.out( 4308): Empty value
+01-09 13:30:31.786 I/System.out( 4308): Empty value
+01-09 13:30:32.787 I/System.out( 4308): Empty value
+01-09 13:30:33.778 I/System.out( 4308): Empty value
+01-09 13:30:34.789 I/System.out( 4308): Empty value
+01-09 13:30:35.780 I/System.out( 4308): Empty value
+01-09 13:30:36.781 I/System.out( 4308): Empty value
+01-09 13:30:37.792 I/System.out( 4308): Empty value
+01-09 13:30:38.793 I/System.out( 4308): Empty value
+01-09 13:30:39.794 I/System.out( 4308): Empty value
+01-09 13:30:40.795 I/System.out( 4308): Empty value
+01-09 13:30:41.796 I/System.out( 4308): Empty value
+01-09 13:30:42.797 I/System.out( 4308): Empty value
+01-09 13:30:43.798 I/System.out( 4308): Empty value
+01-09 13:30:44.799 I/System.out( 4308): Empty value
+01-09 13:30:45.799 I/System.out( 4308): Empty value
+01-09 13:30:46.800 I/System.out( 4308): Empty value
+01-09 13:30:47.801 I/System.out( 4308): Empty value
+01-09 13:30:48.802 I/System.out( 4308): Empty value
+01-09 13:30:49.803 I/System.out( 4308): Empty value
+01-09 13:30:50.814 I/System.out( 4308): Empty value
+01-09 13:30:51.815 I/System.out( 4308): Empty value
+01-09 13:30:52.816 I/System.out( 4308): Empty value
+01-09 13:30:53.807 I/System.out( 4308): Empty value
+01-09 13:30:54.808 I/System.out( 4308): Empty value
+01-09 13:30:55.809 I/System.out( 4308): Empty value
+01-09 13:30:56.820 I/System.out( 4308): Empty value
+01-09 13:30:57.811 I/System.out( 4308): Empty value
+01-09 13:30:58.822 I/System.out( 4308): Empty value
+01-09 13:30:59.823 I/System.out( 4308): Empty value
+01-09 13:31:00.003 I/ActivityManager(  512): No longer want com.google.android.music:main (pid 4166): empty for 1849s
+01-09 13:31:00.053 W/ActivityManager(  512): Scheduling restart of crashed service com.google.android.music/.playback.MusicPlaybackService in 5000ms
+01-09 13:31:00.824 I/System.out( 4308): Empty value
+01-09 13:31:01.825 I/System.out( 4308): Empty value
+01-09 13:31:02.816 I/System.out( 4308): Empty value
+01-09 13:31:03.817 I/System.out( 4308): Empty value
+01-09 13:31:04.828 I/System.out( 4308): Empty value
+01-09 13:31:05.088 I/ActivityManager(  512): Start proc com.google.android.music:main for service com.google.android.music/.playback.MusicPlaybackService: pid=4393 uid=10041 gids={50041, 3003, 1015, 1028}
+01-09 13:31:05.138 I/MusicStore( 4393): Database version: 70
+01-09 13:31:05.188 D/dalvikvm( 4393): GC_CONCURRENT freed 219K, 3% free 9088K/9344K, paused 3ms+7ms, total 27ms
+01-09 13:31:05.268 D/SystemUtils( 4393): getSystemProperty: lpa.decode=null
+01-09 13:31:05.289 D/CacheService( 4393): onCreate
+01-09 13:31:05.299 D/CacheService( 4393): onBind
+01-09 13:31:05.309 I/LocalDevicePlayback( 4393): Streaming client created.
+01-09 13:31:05.819 I/System.out( 4308): Empty value
+01-09 13:31:06.370 D/dalvikvm( 4393): GC_CONCURRENT freed 264K, 4% free 9312K/9616K, paused 4ms+4ms, total 33ms
+01-09 13:31:06.370 D/dalvikvm( 4393): WAIT_FOR_CONCURRENT_GC blocked 4ms
+01-09 13:31:06.400 I/MediaStoreImporter( 4393): Update: incremental Added music: 0 Updated music: 0 Deleted music: 0 Created playlists: 0 Updated playlists: 0 Deleted playlists: 0 Inserted playlist items: 0 Deleted playlist items: 0 Removed orphaned playlist items: 0
+01-09 13:31:06.830 I/System.out( 4308): Empty value
+01-09 13:31:07.831 I/System.out( 4308): Empty value
+01-09 13:31:08.832 I/System.out( 4308): Empty value
+01-09 13:31:09.833 I/System.out( 4308): Empty value
+01-09 13:31:10.353 I/MusicLeanback( 4393): Conditions not met for autocaching.
+01-09 13:31:10.353 I/MusicLeanback( 4393): Stop autocaching.
+01-09 13:31:10.834 I/System.out( 4308): Empty value
+01-09 13:31:11.835 I/System.out( 4308): Empty value
+01-09 13:31:12.836 I/System.out( 4308): Empty value
+01-09 13:31:13.837 I/System.out( 4308): Empty value
+01-09 13:31:14.838 I/System.out( 4308): Empty value
+01-09 13:31:15.839 I/System.out( 4308): Empty value
+01-09 13:31:16.840 I/System.out( 4308): Empty value
+01-09 13:31:17.841 I/System.out( 4308): Empty value
+01-09 13:31:18.842 I/System.out( 4308): Empty value
+01-09 13:31:19.843 I/System.out( 4308): Empty value
+01-09 13:31:20.844 I/System.out( 4308): Empty value
+01-09 13:31:21.845 I/System.out( 4308): Empty value
+01-09 13:31:22.846 I/System.out( 4308): Empty value
+01-09 13:31:23.847 I/System.out( 4308): Empty value
+01-09 13:31:24.838 I/System.out( 4308): Empty value
+01-09 13:31:25.849 I/System.out( 4308): Empty value
+01-09 13:31:26.850 I/System.out( 4308): Empty value
+01-09 13:31:27.851 I/System.out( 4308): Empty value
+01-09 13:31:28.851 I/System.out( 4308): Empty value
+01-09 13:31:29.852 I/System.out( 4308): Empty value
+01-09 13:31:30.863 I/System.out( 4308): Empty value
+01-09 13:31:31.864 I/System.out( 4308): Empty value
+01-09 13:31:32.865 I/System.out( 4308): Empty value
+01-09 13:31:33.866 I/System.out( 4308): Empty value
+01-09 13:31:34.867 I/System.out( 4308): Empty value
+01-09 13:31:35.868 I/System.out( 4308): Empty value
+01-09 13:31:36.869 I/System.out( 4308): Empty value
+01-09 13:31:37.870 I/System.out( 4308): Empty value
+01-09 13:31:38.871 I/System.out( 4308): Empty value
+01-09 13:31:38.931 D/dalvikvm( 4308): GC_CONCURRENT freed 387K, 5% free 9010K/9436K, paused 9ms+4ms, total 56ms
+01-09 13:31:39.872 I/System.out( 4308): Empty value
+01-09 13:31:40.873 I/System.out( 4308): Empty value
+01-09 13:31:41.874 I/System.out( 4308): Empty value
+01-09 13:31:42.875 I/System.out( 4308): Empty value
+01-09 13:31:43.876 I/System.out( 4308): Empty value
+01-09 13:31:44.877 I/System.out( 4308): Empty value
+01-09 13:31:45.878 I/System.out( 4308): Empty value
+01-09 13:31:46.879 I/System.out( 4308): Empty value
+01-09 13:31:47.880 I/System.out( 4308): Empty value
+01-09 13:31:48.881 I/System.out( 4308): Empty value
+01-09 13:31:49.882 I/System.out( 4308): Empty value
+01-09 13:31:50.883 I/System.out( 4308): Empty value
+01-09 13:31:51.884 I/System.out( 4308): Empty value
+01-09 13:31:52.885 I/System.out( 4308): Empty value
+01-09 13:31:53.886 I/System.out( 4308): Empty value
+01-09 13:31:54.887 I/System.out( 4308): Empty value
+01-09 13:31:55.888 I/System.out( 4308): Empty value
+01-09 13:31:56.889 I/System.out( 4308): Empty value
+01-09 13:31:57.890 I/System.out( 4308): Empty value
+01-09 13:31:58.891 I/System.out( 4308): Empty value
+01-09 13:31:59.892 I/System.out( 4308): Empty value
+01-09 13:32:00.893 I/System.out( 4308): Empty value
+01-09 13:32:01.894 I/System.out( 4308): Empty value
+01-09 13:32:02.895 I/System.out( 4308): Empty value
+01-09 13:32:03.896 I/System.out( 4308): Empty value
+01-09 13:32:04.887 I/System.out( 4308): Empty value
+01-09 13:32:05.888 I/System.out( 4308): Empty value
+01-09 13:32:06.899 I/System.out( 4308): Empty value
+01-09 13:32:07.900 I/System.out( 4308): Empty value
+01-09 13:32:08.901 I/System.out( 4308): Empty value
+01-09 13:32:09.902 I/System.out( 4308): Empty value
+01-09 13:32:10.903 I/System.out( 4308): Empty value
+01-09 13:32:11.903 I/System.out( 4308): Empty value
+01-09 13:32:12.904 I/System.out( 4308): Empty value
+01-09 13:32:13.905 I/System.out( 4308): Empty value
+01-09 13:32:14.906 I/System.out( 4308): Empty value
+01-09 13:32:15.907 I/System.out( 4308): Empty value
+01-09 13:32:16.908 I/System.out( 4308): Empty value
+01-09 13:32:17.909 I/System.out( 4308): Empty value
+01-09 13:32:18.920 I/System.out( 4308): Empty value
+01-09 13:32:19.921 I/System.out( 4308): Empty value
+01-09 13:32:20.912 I/System.out( 4308): Empty value
+01-09 13:32:21.923 I/System.out( 4308): Empty value
+01-09 13:32:22.924 I/System.out( 4308): Empty value
+01-09 13:32:23.925 I/System.out( 4308): Empty value
+01-09 13:32:24.926 I/System.out( 4308): Empty value
+01-09 13:32:25.927 I/System.out( 4308): Empty value
+01-09 13:32:26.928 I/System.out( 4308): Empty value
+01-09 13:32:27.929 I/System.out( 4308): Empty value
+01-09 13:32:28.940 I/System.out( 4308): Empty value
+01-09 13:32:29.931 I/System.out( 4308): Empty value
+01-09 13:32:30.942 I/System.out( 4308): Empty value
+01-09 13:32:31.943 I/System.out( 4308): Empty value
+01-09 13:32:32.944 I/System.out( 4308): Empty value
+01-09 13:32:33.935 I/System.out( 4308): Empty value
+01-09 13:32:34.946 I/System.out( 4308): Empty value
+01-09 13:32:35.937 I/System.out( 4308): Empty value
+01-09 13:32:36.948 I/System.out( 4308): Empty value
+01-09 13:32:37.939 I/System.out( 4308): Empty value
+01-09 13:32:38.950 I/System.out( 4308): Empty value
+01-09 13:32:39.951 I/System.out( 4308): Empty value
+01-09 13:32:40.952 I/System.out( 4308): Empty value
+01-09 13:32:41.953 I/System.out( 4308): Empty value
+01-09 13:32:42.954 I/System.out( 4308): Empty value
+01-09 13:32:43.955 I/System.out( 4308): Empty value
+01-09 13:32:44.956 I/System.out( 4308): Empty value
+01-09 13:32:45.947 I/System.out( 4308): Empty value
+01-09 13:32:46.958 I/System.out( 4308): Empty value
+01-09 13:32:47.959 I/System.out( 4308): Empty value
+01-09 13:32:48.960 I/System.out( 4308): Empty value
+01-09 13:32:49.961 I/System.out( 4308): Empty value
+01-09 13:32:50.962 I/System.out( 4308): Empty value
+01-09 13:32:51.963 I/System.out( 4308): Empty value
+01-09 13:32:52.964 I/System.out( 4308): Empty value
+01-09 13:32:53.965 I/System.out( 4308): Empty value
+01-09 13:32:54.966 I/System.out( 4308): Empty value
+01-09 13:32:55.966 I/System.out( 4308): Empty value
+01-09 13:32:56.967 I/System.out( 4308): Empty value
+01-09 13:32:57.958 I/System.out( 4308): Empty value
+01-09 13:32:58.959 I/System.out( 4308): Empty value
+01-09 13:32:59.960 I/System.out( 4308): Empty value
+01-09 13:33:00.971 I/System.out( 4308): Empty value
+01-09 13:33:01.962 I/System.out( 4308): Empty value
+01-09 13:33:02.973 I/System.out( 4308): Empty value
+01-09 13:33:03.974 I/System.out( 4308): Empty value
+01-09 13:33:04.975 I/System.out( 4308): Empty value
+01-09 13:33:05.976 I/System.out( 4308): Empty value
+01-09 13:33:06.967 I/System.out( 4308): Empty value
+01-09 13:33:07.968 I/System.out( 4308): Empty value
+01-09 13:33:08.969 I/System.out( 4308): Empty value
+01-09 13:33:09.980 I/System.out( 4308): Empty value
+01-09 13:33:10.971 I/System.out( 4308): Empty value
+01-09 13:33:11.972 I/System.out( 4308): Empty value
+01-09 13:33:12.973 I/System.out( 4308): Empty value
+01-09 13:33:13.984 I/System.out( 4308): Empty value
+01-09 13:33:14.985 I/System.out( 4308): Empty value
+01-09 13:33:15.986 I/System.out( 4308): Empty value
+01-09 13:33:16.987 I/System.out( 4308): Empty value
+01-09 13:33:17.978 I/System.out( 4308): Empty value
+01-09 13:33:18.979 I/System.out( 4308): Empty value
+01-09 13:33:19.980 I/System.out( 4308): Empty value
+01-09 13:33:20.981 I/System.out( 4308): Empty value
+01-09 13:33:21.992 I/System.out( 4308): Empty value
+01-09 13:33:22.993 I/System.out( 4308): Empty value
+01-09 13:33:23.994 I/System.out( 4308): Empty value
+01-09 13:33:24.995 I/System.out( 4308): Empty value
+01-09 13:33:25.996 I/System.out( 4308): Empty value
+01-09 13:33:26.997 I/System.out( 4308): Empty value
+01-09 13:33:27.988 I/System.out( 4308): Empty value
+01-09 13:33:28.989 I/System.out( 4308): Empty value
+01-09 13:33:29.990 I/System.out( 4308): Empty value
+01-09 13:33:30.991 I/System.out( 4308): Empty value
+01-09 13:33:31.992 I/System.out( 4308): Empty value
+01-09 13:33:32.993 I/System.out( 4308): Empty value
+01-09 13:33:33.994 I/System.out( 4308): Empty value
+01-09 13:33:35.005 I/System.out( 4308): Empty value
+01-09 13:33:35.996 I/System.out( 4308): Empty value
+01-09 13:33:36.997 I/System.out( 4308): Empty value
+01-09 13:33:37.997 I/System.out( 4308): Empty value
+01-09 13:33:38.998 I/System.out( 4308): Empty value
+01-09 13:33:39.999 I/System.out( 4308): Empty value
+01-09 13:33:41.000 I/System.out( 4308): Empty value
+01-09 13:33:42.001 I/System.out( 4308): Empty value
+01-09 13:33:43.002 I/System.out( 4308): Empty value
+01-09 13:33:44.003 I/System.out( 4308): Empty value
+01-09 13:33:45.004 I/System.out( 4308): Empty value
+01-09 13:33:46.005 I/System.out( 4308): Empty value
+01-09 13:33:47.006 I/System.out( 4308): Empty value
+01-09 13:33:48.017 I/System.out( 4308): Empty value
+01-09 13:33:49.008 I/System.out( 4308): Empty value
+01-09 13:33:50.009 I/System.out( 4308): Empty value
+01-09 13:33:51.010 I/System.out( 4308): Empty value
+01-09 13:33:52.021 I/System.out( 4308): Empty value
+01-09 13:33:53.012 I/System.out( 4308): Empty value
+01-09 13:33:54.023 I/System.out( 4308): Empty value
+01-09 13:33:55.024 I/System.out( 4308): Empty value
+01-09 13:33:56.025 I/System.out( 4308): Empty value
+01-09 13:33:57.026 I/System.out( 4308): Empty value
+01-09 13:33:58.027 I/System.out( 4308): Empty value
+01-09 13:33:59.028 I/System.out( 4308): Empty value
+01-09 13:34:00.019 I/System.out( 4308): Empty value
+01-09 13:34:01.020 I/System.out( 4308): Empty value
+01-09 13:34:02.021 I/System.out( 4308): Empty value
+01-09 13:34:03.032 I/System.out( 4308): Empty value
+01-09 13:34:04.033 I/System.out( 4308): Empty value
+01-09 13:34:05.034 I/System.out( 4308): Empty value
+01-09 13:34:06.035 I/System.out( 4308): Empty value
+01-09 13:34:07.036 I/System.out( 4308): Empty value
+01-09 13:34:08.037 I/System.out( 4308): Empty value
+01-09 13:34:09.038 I/System.out( 4308): Empty value
+01-09 13:34:10.039 I/System.out( 4308): Empty value
+01-09 13:34:11.040 I/System.out( 4308): Empty value
+01-09 13:34:12.041 I/System.out( 4308): Empty value
+01-09 13:34:13.042 I/System.out( 4308): Empty value
+01-09 13:34:14.043 I/System.out( 4308): Empty value
+01-09 13:34:15.044 I/System.out( 4308): Empty value
+01-09 13:34:16.045 I/System.out( 4308): Empty value
+01-09 13:34:17.046 I/System.out( 4308): Empty value
+01-09 13:34:18.047 I/System.out( 4308): Empty value
+01-09 13:34:19.048 I/System.out( 4308): Empty value
+01-09 13:34:20.059 I/System.out( 4308): Empty value
+01-09 13:34:21.059 I/System.out( 4308): Empty value
+01-09 13:34:22.060 I/System.out( 4308): Empty value
+01-09 13:34:23.061 I/System.out( 4308): Empty value
+01-09 13:34:24.062 I/System.out( 4308): Empty value
+01-09 13:34:25.063 I/System.out( 4308): Empty value
+01-09 13:34:26.064 I/System.out( 4308): Empty value
+01-09 13:34:27.065 I/System.out( 4308): Empty value
+01-09 13:34:28.066 I/System.out( 4308): Empty value
+01-09 13:34:29.057 I/System.out( 4308): Empty value
+01-09 13:34:30.058 I/System.out( 4308): Empty value
+01-09 13:34:31.059 I/System.out( 4308): Empty value
+01-09 13:34:32.060 I/System.out( 4308): Empty value
+01-09 13:34:33.061 I/System.out( 4308): Empty value
+01-09 13:34:34.072 I/System.out( 4308): Empty value
+01-09 13:34:35.073 I/System.out( 4308): Empty value
+01-09 13:34:36.074 I/System.out( 4308): Empty value
+01-09 13:34:37.065 I/System.out( 4308): Empty value
+01-09 13:34:38.066 I/System.out( 4308): Empty value
+01-09 13:34:39.067 I/System.out( 4308): Empty value
+01-09 13:34:40.078 I/System.out( 4308): Empty value
+01-09 13:34:41.069 I/System.out( 4308): Empty value
+01-09 13:34:42.070 I/System.out( 4308): Empty value
+01-09 13:34:43.071 I/System.out( 4308): Empty value
+01-09 13:34:44.072 I/System.out( 4308): Empty value
+01-09 13:34:45.073 I/System.out( 4308): Empty value
+01-09 13:34:46.074 I/System.out( 4308): Empty value
+01-09 13:34:47.075 I/System.out( 4308): Empty value
+01-09 13:34:48.076 I/System.out( 4308): Empty value
+01-09 13:34:49.077 I/System.out( 4308): Empty value
+01-09 13:34:50.068 I/System.out( 4308): Empty value
+01-09 13:34:51.079 I/System.out( 4308): Empty value
+01-09 13:34:52.080 I/System.out( 4308): Empty value
+01-09 13:34:53.081 I/System.out( 4308): Empty value
+01-09 13:34:54.082 I/System.out( 4308): Empty value
+01-09 13:34:55.083 I/System.out( 4308): Empty value
+01-09 13:34:56.084 I/System.out( 4308): Empty value
+01-09 13:34:57.085 I/System.out( 4308): Empty value
+01-09 13:34:58.086 I/System.out( 4308): Empty value
+01-09 13:34:59.087 I/System.out( 4308): Empty value
+01-09 13:35:00.088 I/System.out( 4308): Empty value
+01-09 13:35:01.089 I/System.out( 4308): Empty value
+01-09 13:35:02.090 I/System.out( 4308): Empty value
+01-09 13:35:03.091 I/System.out( 4308): Empty value
+01-09 13:35:04.091 I/System.out( 4308): Empty value
+01-09 13:35:05.092 I/System.out( 4308): Empty value
+01-09 13:35:06.093 I/System.out( 4308): Empty value
+01-09 13:35:07.094 I/System.out( 4308): Empty value
+01-09 13:35:08.095 I/System.out( 4308): Empty value
+01-09 13:35:09.106 I/System.out( 4308): Empty value
+01-09 13:35:10.097 I/System.out( 4308): Empty value
+01-09 13:35:11.098 I/System.out( 4308): Empty value
+01-09 13:35:12.099 I/System.out( 4308): Empty value
+01-09 13:35:13.100 I/System.out( 4308): Empty value
+01-09 13:35:14.101 I/System.out( 4308): Empty value
+01-09 13:35:15.102 I/System.out( 4308): Empty value
+01-09 13:35:16.103 I/System.out( 4308): Empty value
+01-09 13:35:17.104 I/System.out( 4308): Empty value
+01-09 13:35:18.105 I/System.out( 4308): Empty value
+01-09 13:35:19.106 I/System.out( 4308): Empty value
+01-09 13:35:20.107 I/System.out( 4308): Empty value
+01-09 13:35:21.108 I/System.out( 4308): Empty value
+01-09 13:35:22.109 I/System.out( 4308): Empty value
+01-09 13:35:23.110 I/System.out( 4308): Empty value
+01-09 13:35:24.111 I/System.out( 4308): Empty value
+01-09 13:35:24.161 D/dalvikvm( 4308): GC_CONCURRENT freed 387K, 5% free 9010K/9436K, paused 7ms+7ms, total 51ms
+01-09 13:35:25.112 I/System.out( 4308): Empty value
+01-09 13:35:26.113 I/System.out( 4308): Empty value
+01-09 13:35:27.114 I/System.out( 4308): Empty value
+01-09 13:35:28.115 I/System.out( 4308): Empty value
+01-09 13:35:29.116 I/System.out( 4308): Empty value
+01-09 13:35:30.117 I/System.out( 4308): Empty value
+01-09 13:35:31.118 I/System.out( 4308): Empty value
+01-09 13:35:32.119 I/System.out( 4308): Empty value
+01-09 13:35:33.120 I/System.out( 4308): Empty value
+01-09 13:35:34.121 I/System.out( 4308): Empty value
+01-09 13:35:35.122 I/System.out( 4308): Empty value
+01-09 13:35:36.123 I/System.out( 4308): Empty value
+01-09 13:35:37.124 I/System.out( 4308): Empty value
+01-09 13:35:38.135 I/System.out( 4308): Empty value
+01-09 13:35:39.126 I/System.out( 4308): Empty value
+01-09 13:35:40.127 I/System.out( 4308): Empty value
+01-09 13:35:41.128 I/System.out( 4308): Empty value
+01-09 13:35:42.129 I/System.out( 4308): Empty value
+01-09 13:35:43.130 I/System.out( 4308): Empty value
+01-09 13:35:44.131 I/System.out( 4308): Empty value
+01-09 13:35:45.132 I/System.out( 4308): Empty value
+01-09 13:35:46.132 I/System.out( 4308): Empty value
+01-09 13:35:47.143 I/System.out( 4308): Empty value
+01-09 13:35:48.144 I/System.out( 4308): Empty value
+01-09 13:35:49.145 I/System.out( 4308): Empty value
+01-09 13:35:50.136 I/System.out( 4308): Empty value
+01-09 13:35:51.137 I/System.out( 4308): Empty value
+01-09 13:35:52.138 I/System.out( 4308): Empty value
+01-09 13:35:53.139 I/System.out( 4308): Empty value
+01-09 13:35:54.140 I/System.out( 4308): Empty value
+01-09 13:35:55.141 I/System.out( 4308): Empty value
+01-09 13:35:56.142 I/System.out( 4308): Empty value
+01-09 13:35:57.143 I/System.out( 4308): Empty value
+01-09 13:35:58.144 I/System.out( 4308): Empty value
+01-09 13:35:59.145 I/System.out( 4308): Empty value
+01-09 13:36:00.146 I/System.out( 4308): Empty value
+01-09 13:36:01.137 I/System.out( 4308): Empty value
+01-09 13:36:02.138 I/System.out( 4308): Empty value
+01-09 13:36:03.139 I/System.out( 4308): Empty value
+01-09 13:36:04.150 I/System.out( 4308): Empty value
+01-09 13:36:05.151 I/System.out( 4308): Empty value
+01-09 13:36:06.152 I/System.out( 4308): Empty value
+01-09 13:36:07.153 I/System.out( 4308): Empty value
+01-09 13:36:08.154 I/System.out( 4308): Empty value
+01-09 13:36:09.155 I/System.out( 4308): Empty value
+01-09 13:36:10.156 I/System.out( 4308): Empty value
+01-09 13:36:11.147 I/System.out( 4308): Empty value
+01-09 13:36:12.148 I/System.out( 4308): Empty value
+01-09 13:36:13.149 I/System.out( 4308): Empty value
+01-09 13:36:14.150 I/System.out( 4308): Empty value
+01-09 13:36:15.151 I/System.out( 4308): Empty value
+01-09 13:36:16.152 I/System.out( 4308): Empty value
+01-09 13:36:17.153 I/System.out( 4308): Empty value
+01-09 13:36:18.164 I/System.out( 4308): Empty value
+01-09 13:36:19.165 I/System.out( 4308): Empty value
+01-09 13:36:20.166 I/System.out( 4308): Empty value
+01-09 13:36:21.167 I/System.out( 4308): Empty value
+01-09 13:36:22.158 I/System.out( 4308): Empty value
+01-09 13:36:23.159 I/System.out( 4308): Empty value
+01-09 13:36:24.170 I/System.out( 4308): Empty value
+01-09 13:36:25.161 I/System.out( 4308): Empty value
+01-09 13:36:26.172 I/System.out( 4308): Empty value
+01-09 13:36:27.163 I/System.out( 4308): Empty value
+01-09 13:36:28.164 I/System.out( 4308): Empty value
+01-09 13:36:29.164 I/System.out( 4308): Empty value
+01-09 13:36:30.155 I/System.out( 4308): Empty value
+01-09 13:36:31.166 I/System.out( 4308): Empty value
+01-09 13:36:32.167 I/System.out( 4308): Empty value
+01-09 13:36:33.168 I/System.out( 4308): Empty value
+01-09 13:36:34.169 I/System.out( 4308): Empty value
+01-09 13:36:35.180 I/System.out( 4308): Empty value
+01-09 13:36:36.171 I/System.out( 4308): Empty value
+01-09 13:36:37.172 I/System.out( 4308): Empty value
+01-09 13:36:38.183 I/System.out( 4308): Empty value
+01-09 13:36:39.184 I/System.out( 4308): Empty value
+01-09 13:36:40.185 I/System.out( 4308): Empty value
+01-09 13:36:41.186 I/System.out( 4308): Empty value
+01-09 13:36:42.187 I/System.out( 4308): Empty value
+01-09 13:36:43.188 I/System.out( 4308): Empty value
+01-09 13:36:44.189 I/System.out( 4308): Empty value
+01-09 13:36:45.190 I/System.out( 4308): Empty value
+01-09 13:36:46.181 I/System.out( 4308): Empty value
+01-09 13:36:47.182 I/System.out( 4308): Empty value
+01-09 13:36:48.193 I/System.out( 4308): Empty value
+01-09 13:36:49.194 I/System.out( 4308): Empty value
+01-09 13:36:50.195 I/System.out( 4308): Empty value
+01-09 13:36:51.186 I/System.out( 4308): Empty value
+01-09 13:36:52.187 I/System.out( 4308): Empty value
+01-09 13:36:53.188 I/System.out( 4308): Empty value
+01-09 13:36:54.199 I/System.out( 4308): Empty value
+01-09 13:36:55.200 I/System.out( 4308): Empty value
+01-09 13:36:56.201 I/System.out( 4308): Empty value
+01-09 13:36:57.202 I/System.out( 4308): Empty value
+01-09 13:36:58.203 I/System.out( 4308): Empty value
+01-09 13:36:59.204 I/System.out( 4308): Empty value
+01-09 13:37:00.205 I/System.out( 4308): Empty value
+01-09 13:37:01.206 I/System.out( 4308): Empty value
+01-09 13:37:02.207 I/System.out( 4308): Empty value
+01-09 13:37:03.208 I/System.out( 4308): Empty value
+01-09 13:37:04.209 I/System.out( 4308): Empty value
+01-09 13:37:05.210 I/System.out( 4308): Empty value
+01-09 13:37:06.221 I/System.out( 4308): Empty value
+01-09 13:37:07.222 I/System.out( 4308): Empty value
+01-09 13:37:08.213 I/System.out( 4308): Empty value
+01-09 13:37:09.224 I/System.out( 4308): Empty value
+01-09 13:37:10.225 I/System.out( 4308): Empty value
+01-09 13:37:11.226 I/System.out( 4308): Empty value
+01-09 13:37:12.226 I/System.out( 4308): Empty value
+01-09 13:37:13.227 I/System.out( 4308): Empty value
+01-09 13:37:14.228 I/System.out( 4308): Empty value
+01-09 13:37:15.229 I/System.out( 4308): Empty value
+01-09 13:37:16.230 I/System.out( 4308): Empty value
+01-09 13:37:17.231 I/System.out( 4308): Empty value
+01-09 13:37:18.232 I/System.out( 4308): Empty value
+01-09 13:37:19.233 I/System.out( 4308): Empty value
+01-09 13:37:20.234 I/System.out( 4308): Empty value
+01-09 13:37:21.235 I/System.out( 4308): Empty value
+01-09 13:37:22.236 I/System.out( 4308): Empty value
+01-09 13:37:23.227 I/System.out( 4308): Empty value
+01-09 13:37:24.228 I/System.out( 4308): Empty value
+01-09 13:37:25.229 I/System.out( 4308): Empty value
+01-09 13:37:26.230 I/System.out( 4308): Empty value
+01-09 13:37:27.241 I/System.out( 4308): Empty value
+01-09 13:37:28.242 I/System.out( 4308): Empty value
+01-09 13:37:29.243 I/System.out( 4308): Empty value
+01-09 13:37:30.244 I/System.out( 4308): Empty value
+01-09 13:37:31.245 I/System.out( 4308): Empty value
+01-09 13:37:32.246 I/System.out( 4308): Empty value
+01-09 13:37:33.257 I/System.out( 4308): Empty value
+01-09 13:37:34.258 I/System.out( 4308): Empty value
+01-09 13:37:35.249 I/System.out( 4308): Empty value
+01-09 13:37:36.260 I/System.out( 4308): Empty value
+01-09 13:37:37.251 I/System.out( 4308): Empty value
+01-09 13:37:38.262 I/System.out( 4308): Empty value
+01-09 13:37:39.263 I/System.out( 4308): Empty value
+01-09 13:37:40.264 I/System.out( 4308): Empty value
+01-09 13:37:41.265 I/System.out( 4308): Empty value
+01-09 13:37:42.266 I/System.out( 4308): Empty value
+01-09 13:37:43.257 I/System.out( 4308): Empty value
+01-09 13:37:44.258 I/System.out( 4308): Empty value
+01-09 13:37:45.259 I/System.out( 4308): Empty value
+01-09 13:37:46.260 I/System.out( 4308): Empty value
+01-09 13:37:47.261 I/System.out( 4308): Empty value
+01-09 13:37:48.262 I/System.out( 4308): Empty value
+01-09 13:37:49.263 I/System.out( 4308): Empty value
+01-09 13:37:50.264 I/System.out( 4308): Empty value
+01-09 13:37:51.265 I/System.out( 4308): Empty value
+01-09 13:37:52.266 I/System.out( 4308): Empty value
+01-09 13:37:53.267 I/System.out( 4308): Empty value
+01-09 13:37:54.257 I/System.out( 4308): Empty value
+01-09 13:37:55.268 I/System.out( 4308): Empty value
+01-09 13:37:56.269 I/System.out( 4308): Empty value
+01-09 13:37:57.270 I/System.out( 4308): Empty value
+01-09 13:37:58.271 I/System.out( 4308): Empty value
+01-09 13:37:59.272 I/System.out( 4308): Empty value
+01-09 13:38:00.003 I/ActivityManager(  512): No longer want com.google.android.apps.plus (pid 2219): empty for 1835s
+01-09 13:38:00.003 I/ActivityManager(  512): No longer want com.google.android.apps.uploader (pid 2198): empty for 1835s
+01-09 13:38:00.013 I/ActivityManager(  512): No longer want com.google.android.gallery3d (pid 2151): empty for 1835s
+01-09 13:38:00.013 I/ActivityManager(  512): No longer want com.android.chrome (pid 3230): empty for 1835s
+01-09 13:38:00.013 I/ActivityManager(  512): No longer want com.google.android.gms (pid 2998): empty for 1841s
+01-09 13:38:00.023 I/ActivityManager(  512): No longer want com.google.android.googlequicksearchbox (pid 3025): empty for 1841s
+01-09 13:38:00.023 I/ActivityManager(  512): No longer want com.android.musicfx (pid 2983): empty for 1841s
+01-09 13:38:00.023 I/ActivityManager(  512): No longer want android.process.acore (pid 2944): empty for 1841s
+01-09 13:38:00.023 I/ActivityManager(  512): No longer want com.google.android.partnersetup (pid 3051): empty for 1841s
+01-09 13:38:00.023 I/ActivityManager(  512): No longer want com.android.keychain (pid 2969): empty for 1841s
+01-09 13:38:00.033 I/ActivityManager(  512): No longer want com.android.defcontainer (pid 2898): empty for 1842s
+01-09 13:38:00.133 D/dalvikvm(  512): GC_CONCURRENT freed 2047K, 16% free 16657K/19648K, paused 8ms+4ms, total 83ms
+01-09 13:38:00.273 I/System.out( 4308): Empty value
+01-09 13:38:01.274 I/System.out( 4308): Empty value
+01-09 13:38:02.275 I/System.out( 4308): Empty value
+01-09 13:38:03.276 I/System.out( 4308): Empty value
+01-09 13:38:04.277 I/System.out( 4308): Empty value
+01-09 13:38:05.278 I/System.out( 4308): Empty value
+01-09 13:38:06.279 I/System.out( 4308): Empty value
+01-09 13:38:07.280 I/System.out( 4308): Empty value
+01-09 13:38:08.281 I/System.out( 4308): Empty value
+01-09 13:38:09.282 I/System.out( 4308): Empty value
+01-09 13:38:10.283 I/System.out( 4308): Empty value
+01-09 13:38:11.284 I/System.out( 4308): Empty value
+01-09 13:38:12.285 I/System.out( 4308): Empty value
+01-09 13:38:13.286 I/System.out( 4308): Empty value
+01-09 13:38:14.297 I/System.out( 4308): Empty value
+01-09 13:38:15.288 I/System.out( 4308): Empty value
+01-09 13:38:16.289 I/System.out( 4308): Empty value
+01-09 13:38:17.300 I/System.out( 4308): Empty value
+01-09 13:38:18.291 I/System.out( 4308): Empty value
+01-09 13:38:19.302 I/System.out( 4308): Empty value
+01-09 13:38:20.303 I/System.out( 4308): Empty value
+01-09 13:38:21.304 I/System.out( 4308): Empty value
+01-09 13:38:22.305 I/System.out( 4308): Empty value
+01-09 13:38:23.306 I/System.out( 4308): Empty value
+01-09 13:38:24.307 I/System.out( 4308): Empty value
+01-09 13:38:25.308 I/System.out( 4308): Empty value
+01-09 13:38:26.309 I/System.out( 4308): Empty value
+01-09 13:38:27.310 I/System.out( 4308): Empty value
+01-09 13:38:28.311 I/System.out( 4308): Empty value
+01-09 13:38:29.312 I/System.out( 4308): Empty value
+01-09 13:38:30.323 I/System.out( 4308): Empty value
+01-09 13:38:31.314 I/System.out( 4308): Empty value
+01-09 13:38:32.325 I/System.out( 4308): Empty value
+01-09 13:38:33.326 I/System.out( 4308): Empty value
+01-09 13:38:34.317 I/System.out( 4308): Empty value
+01-09 13:38:35.318 I/System.out( 4308): Empty value
+01-09 13:38:36.319 I/System.out( 4308): Empty value
+01-09 13:38:37.320 I/System.out( 4308): Empty value
+01-09 13:38:38.320 I/System.out( 4308): Empty value
+01-09 13:38:39.321 I/System.out( 4308): Empty value
+01-09 13:38:40.322 I/System.out( 4308): Empty value
+01-09 13:38:41.323 I/System.out( 4308): Empty value
+01-09 13:38:42.324 I/System.out( 4308): Empty value
+01-09 13:38:43.325 I/System.out( 4308): Empty value
+01-09 13:38:44.336 I/System.out( 4308): Empty value
+01-09 13:38:45.337 I/System.out( 4308): Empty value
+01-09 13:38:46.338 I/System.out( 4308): Empty value
+01-09 13:38:47.339 I/System.out( 4308): Empty value
+01-09 13:38:48.340 I/System.out( 4308): Empty value
+01-09 13:38:49.341 I/System.out( 4308): Empty value
+01-09 13:38:50.342 I/System.out( 4308): Empty value
+01-09 13:38:51.343 I/System.out( 4308): Empty value
+01-09 13:38:52.344 I/System.out( 4308): Empty value
+01-09 13:38:53.345 I/System.out( 4308): Empty value
+01-09 13:38:54.346 I/System.out( 4308): Empty value
+01-09 13:38:55.347 I/System.out( 4308): Empty value
+01-09 13:38:56.338 I/System.out( 4308): Empty value
+01-09 13:38:57.339 I/System.out( 4308): Empty value
+01-09 13:38:58.350 I/System.out( 4308): Empty value
+01-09 13:38:59.351 I/System.out( 4308): Empty value
+01-09 13:39:00.352 I/System.out( 4308): Empty value
+01-09 13:39:01.353 I/System.out( 4308): Empty value
+01-09 13:39:02.354 I/System.out( 4308): Empty value
+01-09 13:39:03.355 I/System.out( 4308): Empty value
+01-09 13:39:04.356 I/System.out( 4308): Empty value
+01-09 13:39:05.347 I/System.out( 4308): Empty value
+01-09 13:39:06.358 I/System.out( 4308): Empty value
+01-09 13:39:07.359 I/System.out( 4308): Empty value
+01-09 13:39:08.360 I/System.out( 4308): Empty value
+01-09 13:39:09.361 I/System.out( 4308): Empty value
+01-09 13:39:09.411 D/dalvikvm( 4308): GC_CONCURRENT freed 387K, 5% free 9010K/9436K, paused 8ms+4ms, total 53ms
+01-09 13:39:10.362 I/System.out( 4308): Empty value
+01-09 13:39:11.363 I/System.out( 4308): Empty value
+01-09 13:39:12.364 I/System.out( 4308): Empty value
+01-09 13:39:13.375 I/System.out( 4308): Empty value
+01-09 13:39:14.376 I/System.out( 4308): Empty value
+01-09 13:39:15.367 I/System.out( 4308): Empty value
+01-09 13:39:16.368 I/System.out( 4308): Empty value
+01-09 13:39:17.369 I/System.out( 4308): Empty value
+01-09 13:39:18.370 I/System.out( 4308): Empty value
+01-09 13:39:19.371 I/System.out( 4308): Empty value
+01-09 13:39:20.372 I/System.out( 4308): Empty value
+01-09 13:39:21.372 I/System.out( 4308): Empty value
+01-09 13:39:22.383 I/System.out( 4308): Empty value
+01-09 13:39:23.384 I/System.out( 4308): Empty value
+01-09 13:39:24.385 I/System.out( 4308): Empty value
+01-09 13:39:25.386 I/System.out( 4308): Empty value
+01-09 13:39:26.377 I/System.out( 4308): Empty value
+01-09 13:39:27.378 I/System.out( 4308): Empty value
+01-09 13:39:28.379 I/System.out( 4308): Empty value
+01-09 13:39:29.380 I/System.out( 4308): Empty value
+01-09 13:39:30.381 I/System.out( 4308): Empty value
+01-09 13:39:31.382 I/System.out( 4308): Empty value
+01-09 13:39:32.383 I/System.out( 4308): Empty value
+01-09 13:39:32.393 I/System.out( 4308): Battery level end is reached
+01-09 13:39:32.393 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:33.384 I/System.out( 4308): Empty value
+01-09 13:39:33.394 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:34.395 I/System.out( 4308): Empty value
+01-09 13:39:34.395 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:35.386 I/System.out( 4308): Empty value
+01-09 13:39:35.386 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:36.387 I/System.out( 4308): Empty value
+01-09 13:39:36.387 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:37.388 I/System.out( 4308): Empty value
+01-09 13:39:37.388 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:38.399 I/System.out( 4308): Empty value
+01-09 13:39:38.399 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:39.400 I/System.out( 4308): Empty value
+01-09 13:39:39.400 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:40.401 I/System.out( 4308): Empty value
+01-09 13:39:40.401 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:41.402 I/System.out( 4308): Empty value
+01-09 13:39:41.402 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:42.403 I/System.out( 4308): Empty value
+01-09 13:39:42.403 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:43.404 I/System.out( 4308): Empty value
+01-09 13:39:43.404 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:44.405 I/System.out( 4308): Empty value
+01-09 13:39:44.405 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:45.406 I/System.out( 4308): Empty value
+01-09 13:39:45.406 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:46.407 I/System.out( 4308): Empty value
+01-09 13:39:46.407 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:47.408 I/System.out( 4308): Empty value
+01-09 13:39:47.408 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:48.409 I/System.out( 4308): Empty value
+01-09 13:39:48.409 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:49.410 I/System.out( 4308): Empty value
+01-09 13:39:49.410 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:50.411 I/System.out( 4308): Empty value
+01-09 13:39:50.411 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:51.412 I/System.out( 4308): Empty value
+01-09 13:39:51.412 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:52.413 I/System.out( 4308): Empty value
+01-09 13:39:52.423 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:53.414 I/System.out( 4308): Empty value
+01-09 13:39:53.424 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:54.415 I/System.out( 4308): Empty value
+01-09 13:39:54.425 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:55.416 I/System.out( 4308): Empty value
+01-09 13:39:55.416 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:56.417 I/System.out( 4308): Empty value
+01-09 13:39:56.417 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:57.418 I/System.out( 4308): Empty value
+01-09 13:39:57.418 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:58.419 I/System.out( 4308): Empty value
+01-09 13:39:58.419 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:39:59.420 I/System.out( 4308): Empty value
+01-09 13:39:59.420 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:00.431 I/System.out( 4308): Empty value
+01-09 13:40:00.431 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:01.422 I/System.out( 4308): Empty value
+01-09 13:40:01.432 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:02.433 I/System.out( 4308): Empty value
+01-09 13:40:02.433 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:03.424 I/System.out( 4308): Empty value
+01-09 13:40:03.434 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:04.424 I/System.out( 4308): Empty value
+01-09 13:40:04.434 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:05.425 I/System.out( 4308): Empty value
+01-09 13:40:05.425 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:06.426 I/System.out( 4308): Empty value
+01-09 13:40:06.426 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:07.427 I/System.out( 4308): Empty value
+01-09 13:40:07.427 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:08.428 I/System.out( 4308): Empty value
+01-09 13:40:08.428 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:09.429 I/System.out( 4308): Empty value
+01-09 13:40:09.429 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:10.430 I/System.out( 4308): Empty value
+01-09 13:40:10.430 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:11.431 I/System.out( 4308): Empty value
+01-09 13:40:11.431 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:12.432 I/System.out( 4308): Empty value
+01-09 13:40:12.432 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:13.433 I/System.out( 4308): Empty value
+01-09 13:40:13.433 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:14.434 I/System.out( 4308): Empty value
+01-09 13:40:14.434 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:15.435 I/System.out( 4308): Empty value
+01-09 13:40:15.435 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:16.436 I/System.out( 4308): Empty value
+01-09 13:40:16.436 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:17.437 I/System.out( 4308): Empty value
+01-09 13:40:17.437 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:18.438 I/System.out( 4308): Empty value
+01-09 13:40:18.438 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:19.439 I/System.out( 4308): Empty value
+01-09 13:40:19.439 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:20.440 I/System.out( 4308): Empty value
+01-09 13:40:20.440 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:21.441 I/System.out( 4308): Empty value
+01-09 13:40:21.441 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:22.442 I/System.out( 4308): Empty value
+01-09 13:40:22.442 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:23.443 I/System.out( 4308): Empty value
+01-09 13:40:23.453 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:24.444 I/System.out( 4308): Empty value
+01-09 13:40:24.454 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:25.445 I/System.out( 4308): Empty value
+01-09 13:40:25.445 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:26.436 I/System.out( 4308): Empty value
+01-09 13:40:26.446 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:27.447 I/System.out( 4308): Empty value
+01-09 13:40:27.457 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:28.448 I/System.out( 4308): Empty value
+01-09 13:40:28.448 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:28.548 I/EntropyMixer(  512): Writing entropy...
+01-09 13:40:28.548 W/PowerUI (  585): unknown intent: Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x8000010 }
+01-09 13:40:28.548 I/ActivityManager(  512): Start proc com.android.chrome for broadcast com.android.chrome/org.chromium.base.PowerStatusReceiver: pid=4467 uid=10009 gids={50009, 1006, 3003, 1015, 1028}
+01-09 13:40:28.598 I/ActivityManager(  512): Start proc com.google.android.gallery3d for broadcast com.google.android.gallery3d/com.google.android.picasasync.BatteryReceiver: pid=4488 uid=10019 gids={50019, 1006, 3003, 1015, 1028}
+01-09 13:40:28.598 I/ActivityManager(  512): No longer want android.process.media (pid 2180): empty for 1983s
+01-09 13:40:28.678 I/ActivityManager(  512): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=4504 uid=10015 gids={50015, 1015, 1023, 1024, 1028, 2001, 3003, 3007}
+01-09 13:40:28.698 D/dalvikvm( 4488): GC_CONCURRENT freed 322K, 4% free 9009K/9368K, paused 2ms+3ms, total 24ms
+01-09 13:40:28.738 I/ActivityManager(  512): Start proc com.google.android.apps.uploader for broadcast com.google.android.apps.uploader/com.google.android.picasasync.BatteryReceiver: pid=4521 uid=10040 gids={50040, 3003, 1015, 1028}
+01-09 13:40:28.738 I/ActivityManager(  512): No longer want com.android.vending (pid 2911): empty for 1975s
+01-09 13:40:28.748 D/UploadsManager( 4488):    wifiOnlyPhoto changed to true
+01-09 13:40:28.748 D/UploadsManager( 4488):    wifiOnlyVideo changed to true
+01-09 13:40:28.748 D/UploadsManager( 4488):    syncOnBattery changed to true
+01-09 13:40:28.748 D/PicasaSync( 4488): sync account database
+01-09 13:40:28.768 W/ActivityManager(  512): Scheduling restart of crashed service com.android.vending/com.google.android.finsky.services.DailyHygiene in 5000ms
+01-09 13:40:28.778 D/PicasaSync( 4488): accounts in DB=0
+01-09 13:40:28.788 D/PicasaSyncManager( 4488): background data: true
+01-09 13:40:28.798 D/PicasaSyncManager( 4488): battery info: true
+01-09 13:40:28.798 D/PicasaUploader( 4521):    wifiOnlyPhoto changed to true
+01-09 13:40:28.798 D/PicasaUploader( 4521):    wifiOnlyVideo changed to true
+01-09 13:40:28.798 D/PicasaUploader( 4521):    syncOnBattery changed to true
+01-09 13:40:28.798 I/ActivityManager(  512): Start proc com.google.android.apps.plus for broadcast com.google.android.apps.plus/.iu.InstantUploadEnvironment$BatteryReceiver: pid=4546 uid=10050 gids={50050, 3003, 3002, 1015, 1006, 1028}
+01-09 13:40:28.808 D/PicasaUploaderSync( 4521): sync account database
+01-09 13:40:28.818 D/PicasaUploaderSync( 4521): accounts in DB=0
+01-09 13:40:28.818 D/PicasaUploaderSyncManager( 4521): background data: true
+01-09 13:40:28.828 D/PicasaUploaderSyncManager( 4521): battery info: true
+01-09 13:40:28.878 D/dalvikvm( 4546): GC_CONCURRENT freed 351K, 5% free 9024K/9412K, paused 2ms+2ms, total 20ms
+01-09 13:40:28.878 D/dalvikvm( 4546): WAIT_FOR_CONCURRENT_GC blocked 8ms
+01-09 13:40:28.888 D/dalvikvm( 4546): WAIT_FOR_CONCURRENT_GC blocked 14ms
+01-09 13:40:28.918 D/dalvikvm( 4546): GC_CONCURRENT freed 111K, 2% free 9420K/9572K, paused 2ms+2ms, total 16ms
+01-09 13:40:28.918 D/dalvikvm( 4546): WAIT_FOR_CONCURRENT_GC blocked 7ms
+01-09 13:40:28.918 D/dalvikvm( 4546): WAIT_FOR_CONCURRENT_GC blocked 8ms
+01-09 13:40:28.918 D/dalvikvm( 4546): WAIT_FOR_CONCURRENT_GC blocked 8ms
+01-09 13:40:28.978 D/dalvikvm( 4546): GC_CONCURRENT freed 148K, 2% free 9772K/9968K, paused 1ms+3ms, total 23ms
+01-09 13:40:28.978 D/dalvikvm( 4546): WAIT_FOR_CONCURRENT_GC blocked 11ms
+01-09 13:40:29.028 D/dalvikvm( 4546): GC_CONCURRENT freed 140K, 2% free 10119K/10320K, paused 2ms+3ms, total 24ms
+01-09 13:40:29.028 D/dalvikvm( 4546): WAIT_FOR_CONCURRENT_GC blocked 13ms
+01-09 13:40:29.099 D/dalvikvm( 4546): GC_CONCURRENT freed 140K, 2% free 10455K/10668K, paused 2ms+3ms, total 33ms
+01-09 13:40:29.099 D/dalvikvm( 4546): WAIT_FOR_CONCURRENT_GC blocked 24ms
+01-09 13:40:29.169 D/dalvikvm( 4546): GC_CONCURRENT freed 329K, 4% free 10572K/10988K, paused 1ms+1ms, total 29ms
+01-09 13:40:29.169 D/dalvikvm( 4546): WAIT_FOR_CONCURRENT_GC blocked 26ms
+01-09 13:40:29.199 D/dalvikvm( 4546): GC_FOR_ALLOC freed 62K, 4% free 10636K/10988K, paused 23ms, total 23ms
+01-09 13:40:29.219 D/dalvikvm( 4546): GC_FOR_ALLOC freed 126K, 5% free 10764K/11244K, paused 22ms, total 23ms
+01-09 13:40:29.219 I/dalvikvm-heap( 4546): Grow heap (frag case) to 10.784MB for 250434-byte allocation
+01-09 13:40:29.249 D/dalvikvm( 4546): GC_FOR_ALLOC freed 0K, 5% free 11008K/11492K, paused 24ms, total 24ms
+01-09 13:40:29.279 D/dalvikvm( 4546): GC_FOR_ALLOC freed 499K, 7% free 11010K/11748K, paused 27ms, total 27ms
+01-09 13:40:29.309 D/dalvikvm( 4546): GC_FOR_ALLOC freed 369K, 6% free 11127K/11748K, paused 24ms, total 24ms
+01-09 13:40:29.339 D/dalvikvm( 4546): GC_FOR_ALLOC freed 126K, 5% free 11255K/11748K, paused 22ms, total 22ms
+01-09 13:40:29.409 D/dalvikvm( 4546): GC_CONCURRENT freed 373K, 4% free 11683K/12092K, paused 1ms+2ms, total 28ms
+01-09 13:40:29.409 D/dalvikvm( 4546): WAIT_FOR_CONCURRENT_GC blocked 12ms
+01-09 13:40:29.449 I/System.out( 4308): Empty value
+01-09 13:40:29.449 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:29.559 D/dalvikvm( 4546): GC_CONCURRENT freed 206K, 2% free 12422K/12664K, paused 3ms+4ms, total 41ms
+01-09 13:40:29.559 D/dalvikvm( 4546): WAIT_FOR_CONCURRENT_GC blocked 19ms
+01-09 13:40:29.709 D/dalvikvm( 4546): GC_CONCURRENT freed 499K, 4% free 13112K/13648K, paused 1ms+2ms, total 37ms
+01-09 13:40:29.709 D/dalvikvm( 4546): WAIT_FOR_CONCURRENT_GC blocked 21ms
+01-09 13:40:29.909 D/dalvikvm( 4546): GC_CONCURRENT freed 587K, 5% free 13944K/14568K, paused 1ms+2ms, total 45ms
+01-09 13:40:29.909 D/dalvikvm( 4546): WAIT_FOR_CONCURRENT_GC blocked 29ms
+01-09 13:40:29.969 D/gp.PicasaPhotoCP( 4546): set fsid first time:-1
+01-09 13:40:29.989 I/ActivityManager(  512): Start proc com.google.android.youtube for broadcast com.google.android.youtube/.app.prefetch.PrefetchService$DeviceStateReceiver: pid=4575 uid=10063 gids={50063, 3003, 1015, 1006, 1028}
+01-09 13:40:30.100 D/dalvikvm( 4575): GC_CONCURRENT freed 272K, 4% free 9000K/9308K, paused 3ms+3ms, total 22ms
+01-09 13:40:30.200 D/dalvikvm( 4575): GC_CONCURRENT freed 274K, 4% free 9228K/9540K, paused 2ms+3ms, total 17ms
+01-09 13:40:30.220 D/dalvikvm( 4575): DexOpt: --- BEGIN 'ads-426794356.jar' (bootstrap=0) ---
+01-09 13:40:30.250 D/dalvikvm( 4602): DexOpt: load 4ms, verify+opt 5ms, 144708 bytes
+01-09 13:40:30.270 D/dalvikvm( 4575): DexOpt: --- END 'ads-426794356.jar' (success) ---
+01-09 13:40:30.270 D/dalvikvm( 4575): DEX prep '/data/data/com.google.android.youtube/cache/ads-426794356.jar': unzip in 0ms, rewrite 52ms
+01-09 13:40:30.340 D/dalvikvm( 4575): GC_CONCURRENT freed 258K, 4% free 9411K/9708K, paused 1ms+2ms, total 19ms
+01-09 13:40:30.350 I/ConversionPing( 4575): Sending ping: http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1001680686/?label=8cu4CIrA3gMQrt7R3QM&muid=EmUrK9jpBXsGnFBYwt80rw
+01-09 13:40:30.350 E/ConversionPing( 4575): ConversionPing could not reach the url, no conversion sent.
+01-09 13:40:30.350 W/SocketClient(  175): write error (Broken pipe)
+01-09 13:40:30.360 D/MtpService( 4504): updating state; isCurrentUser=true, mMtpLocked=false
+01-09 13:40:30.360 D/MtpService( 4504): addStorageLocked 65537 /storage/emulated/0
+01-09 13:40:30.370 D/MtpService( 4504): updating state; isCurrentUser=true, mMtpLocked=false
+01-09 13:40:30.370 D/MtpService( 4504): starting MTP server in MTP mode
+01-09 13:40:30.370 D/MtpService( 4504): addStorageLocked 65537 /storage/emulated/0
+01-09 13:40:30.450 I/System.out( 4308): Empty value
+01-09 13:40:30.450 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:31.030 D/dalvikvm( 4504): GC_CONCURRENT freed 220K, 3% free 9050K/9308K, paused 3ms+2ms, total 27ms
+01-09 13:40:31.141 D/dalvikvm(  512): GC_EXPLICIT freed 612K, 16% free 16620K/19648K, paused 3ms+7ms, total 94ms
+01-09 13:40:31.451 I/System.out( 4308): Empty value
+01-09 13:40:31.451 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:32.452 I/System.out( 4308): Empty value
+01-09 13:40:32.452 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:33.453 I/System.out( 4308): Empty value
+01-09 13:40:33.453 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:33.723 W/GAV2    ( 4488): Thread[GAThread,5,main]: Service unavailable (code=1), will retry.
+01-09 13:40:33.723 W/ActivityManager(  512): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+01-09 13:40:33.733 I/GAV2    ( 4488): Thread[GAThread,5,main]: No campaign data found.
+01-09 13:40:34.454 I/System.out( 4308): Empty value
+01-09 13:40:34.454 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:35.455 I/System.out( 4308): Empty value
+01-09 13:40:35.465 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:36.456 I/System.out( 4308): Empty value
+01-09 13:40:36.456 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:37.457 I/System.out( 4308): Empty value
+01-09 13:40:37.457 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:38.448 I/System.out( 4308): Empty value
+01-09 13:40:38.448 I/System.out( 4308): Time difference in secs is: 902
+01-09 13:40:38.728 W/GAV2    ( 4488): Thread[Service Reconnect,5,main]: Service unavailable (code=1), using local store.
+01-09 13:40:38.728 W/ActivityManager(  512): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+01-09 13:40:39.459 I/System.out( 4308): Empty value
+01-09 13:40:39.459 I/System.out( 4308): Time difference in secs is: 902
