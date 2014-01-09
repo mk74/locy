@@ -1,0 +1,64 @@
+I have done:
+    -measurement apps:
+        -added:
+            -Bluetooth
+                -scan takes 12 secs + quering each available device
+            -Bluetooth Low Energy
+                -scan duration is set by user
+                -new in Android version 18
+                -shaky(no callcback when finished, prints a lot of logs)
+            -Camera
+                -needs to have preview, but minimized
+                -saving video to file
+                -also a lot of log prints
+            -Plain app
+                -printing "Empty line"
+        -polished others
+            -consistent about the size of print logs
+                -e.g. WiFI scan prints only number of available networks
+
+    -looked at:
+        -Near Field Communication(NFC)
+            -controlled by Android/ not easily switched off/on <- can by WRITE_SETTINGS
+
+    -experiments
+        -settings:
+            -found one option which I did not switch of for WiFIScan
+                -it allowed to keep scanning and sending information to Google even if WiFi is Off
+            -"forget" about all WiFi Networks
+                -when WiFi was on, it was automatically connecting to known networks
+        -problems:
+            -htc flyer and desire:
+                -takes forever to charge to 100%
+            -htc flyer
+                -many samples are failed ones:
+                    -battery depletion from 100% to 99% takes very long time
+                    -then depletion from 99% to 95% takes immiedietely
+
+        -results:
+            -htc flyer and desire:
+(to discuss?)   only partial results
+            -Google Nexus 7:
+                -run three times each and averaged:
+                    Accelerometer:              721                                 (781     721     661)
+                    Magnetic field:             ~761                                (782     782     721)
+                    Gyroscope                   ~721                                (721     722     721)     
+                    Ambient Light               ~861                                (841     902     841)
+            
+                    Microphone                  ~742                                (722     782     722)
+                    Bluetooth classic           ~761                                (781     782     722)
+                    Bluetooth low energy        ~661                                (722     661     601)
+
+                    WiFiScan                    501                                 (541     481     481)
+                    GPS                         541                                 (541     541     541)
+                    Camera                      261                                 (301     241     241)
+
+                    Plain                       ~881                                (902     902     841)
+
+                -for comparison
+                    Network-based localization  842
+
+
+
+What I am up to:
+    -SensorsGraphPlotter
