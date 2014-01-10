@@ -1,5 +1,6 @@
 package uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Date;
 import java.util.Timer;
@@ -24,17 +25,22 @@ public class MainActivity extends Activity {
 	final private static int BATTERY_CHECK_FREQUENCY = 1;
 	
 	public Date batteryLevelStartTime, batteryLevelEndTime;
+	
+	MediaRecorder mRecorder;
+	private static final String MIC_FILE_PATH = Environment.getExternalStorageDirectory().getPath() + "/measurement_mic.3gp";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
-		//start capturing microphone
-		String mFileName = Environment.getExternalStorageDirectory().getAbsolutePath() + "/energymic.3gp";
-        final MediaRecorder mRecorder = new MediaRecorder();
+		//clear last run, start capturing microphone
+		File myFile = new File(MIC_FILE_PATH);
+		if(myFile.exists())
+		    myFile.delete();
+        mRecorder = new MediaRecorder();
         mRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
         mRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
-        mRecorder.setOutputFile(mFileName);
+        mRecorder.setOutputFile(MIC_FILE_PATH);
         mRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
         try {
             mRecorder.prepare();
@@ -103,6 +109,14 @@ public class MainActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
+	}
+	
+	@Override
+	protected void onPause() {
+		super.onPause();
+		mRecorder.stop();
+		mRecorder.reset();
+		mRecorder.release();
 	}
 
 }
