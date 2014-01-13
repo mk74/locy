@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
 	private static final int REQUEST_ENABLE_BT = 1;
 	
 	public Date batteryLevelStartTime, batteryLevelEndTime;
-	public StringBuffer buff = new StringBuffer("");
+	public int amountDevices = 0;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -48,11 +48,10 @@ public class MainActivity extends Activity {
 		    public void onReceive(Context context, Intent intent) {
 		        String action = intent.getAction();
 		        if (BluetoothDevice.ACTION_FOUND.equals(action)) {
-		            BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
-		            buff.append(device.getName() + " " + device.getAddress() + "\n" );
+		            amountDevices++;
 		        }
 		        if (BluetoothAdapter.ACTION_DISCOVERY_FINISHED.equals(action)){
-		        	buff = new StringBuffer("");
+		        	amountDevices = 0;
 		        	mBluetoothAdapter.startDiscovery();
 		        }
 		    }
@@ -68,7 +67,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void run() {				
 				//print available devices:
-				System.out.println(buff.toString());
+				System.out.println("Values:" + amountDevices);
 				
 				//battery measurements && time which was needed to deplete the battery range
 				IntentFilter ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
