@@ -3,6 +3,7 @@ package uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam;
 import java.io.File;
 import java.io.IOException;
 import java.util.Date;
+import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -43,11 +44,16 @@ public class MainActivity extends Activity {
 				WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		setContentView(R.layout.activity_main);
 
-		//clear last run, set up camera, its preview and start recording within half a sec
+		//clear last run, set up camera, its preview(with "smallest" size) and start recording within half a sec
 		File myFile = new File(CAM_FILE_PATH);
 		if(myFile.exists())
 		    myFile.delete();
 		mCamera = getCameraInstance();
+		Camera.Parameters params = mCamera.getParameters();
+		List<Camera.Size> previewSizes = params.getSupportedPreviewSizes();
+		Camera.Size previewSize = previewSizes.get(previewSizes.size()-1);
+ 	    params.setPreviewSize(previewSize.width, previewSize.height);
+ 	    mCamera.setParameters(params);
 		mPreview = new CameraPreview(getApplicationContext(), mCamera);
 		FrameLayout preview = (FrameLayout) findViewById(R.id.camera_preview);
 		preview.addView(mPreview);
