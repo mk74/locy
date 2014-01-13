@@ -1,0 +1,20 @@
+Progress MONDAY:
+	-continue making experiments
+		-HTC flyer:
+			in the middle of experiments, the results started dropping - faster battery depletion 
+	
+	-realized that i could more efficiently detect battery depletion(asynchronously)
+		but still need to have TimerThread to print results every sec
+
+	-new idea, experiments - offloading it to cloud, Google Nexus 7:
+		-connected accelerometer:	661
+		-connected WiFiScan:		601	
+
+	-trying to solve bug in camera app on external saving on HTC desire
+		turned out not enough dynamic memory on HTC desire, but I decreased the preview size and it's fine
+?!		those preview sizes may be different across mobile phones, but camera is still significantly energy consuming so we don't need exact information
+
+	-keeping consistency for Bluetooth app
+
+	-HTC flyer, bluetooth
+		-quite significant variation on results
