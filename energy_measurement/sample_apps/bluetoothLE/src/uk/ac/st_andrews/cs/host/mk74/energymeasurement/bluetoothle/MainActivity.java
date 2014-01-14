@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
 	final private static int BLE_SCAN_PERIOD = 10;
 	
 	public Date batteryLevelStartTime, batteryLevelEndTime;
-	public StringBuffer buff = new StringBuffer("");
+	public int amountDevices = 0;
 	public int bleScanTime=10;
 
 	
@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
 		        runOnUiThread(new Runnable() {
 		           @Override
 		           public void run() {
-		        	   buff.append(device.getName() + " " + device.getAddress() + "\n");
+		        	   amountDevices++;
 		           }
 		       });
 		   }
@@ -70,7 +70,7 @@ public class MainActivity extends Activity {
 						@Override
 						public void run() {
 							mBluetoothAdapter.stopLeScan(mLeScanCallback);
-							buff = new StringBuffer();
+							amountDevices = 0;
 							System.out.println("About to start new scanning");
 							mBluetoothAdapter.startLeScan(mLeScanCallback);
 							System.out.println("Started new scanning");
@@ -81,7 +81,7 @@ public class MainActivity extends Activity {
 					bleScanTime++;
 				
 				//print available devices:
-				System.out.println(buff.toString());
+				System.out.println("Values:" + amountDevices);
 				
 				//battery measurements && time which was needed to deplete the battery range
 				IntentFilter ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
