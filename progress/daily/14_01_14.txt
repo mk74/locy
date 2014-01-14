@@ -1,0 +1,22 @@
+Progress:
+	-polished Bluetooth LE app
+		consistency output
+		noticed that if there are no devices available, it prints out much less things to LogCat
+		^^ showed this in experiments
+
+	-experiments for HTC desire
+		-finished: 3 samples for each sensor
+		-in many places the results were invalid(somehow doubled?), so repeat for them
+			-though questionable and requires further consultancy with Tristan 
+		-light/proximity results
+			-still problem with light, it seems to be much more energy efficient than over physical sensors
+				-the result of staying in one place and not changing its value
+			-to some extend, the same problem with proximity
+				is proximity based on light in this phone?
+			-other thing to check
+				-different % will work better
+		
+
+	-experiments for HTC flyer
+		-finished: 3 samples for each sensor
+		-some invalid results which needs to be redo
