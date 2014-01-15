@@ -1,0 +1,1471 @@
+--------- beginning of /dev/log/main
+01-13 19:41:41.630 D/dalvikvm( 1770): GC_EXPLICIT freed 101K, 6% free 6839K/7239K, paused 5ms+2ms
+01-13 19:41:46.635 D/dalvikvm( 1885): GC_EXPLICIT freed 15K, 5% free 6476K/6787K, paused 6ms+2ms
+01-13 19:41:56.134 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-13 19:41:56.134 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-13 19:41:56.134 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-13 19:41:56.134 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+--------- beginning of /dev/log/system
+01-13 19:41:56.134 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-13 19:41:56.144 D/BatteryService( 1574): SendIntentforPowersaver
+01-13 19:41:56.144 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 2 2 false
+01-13 19:41:56.154 D/PowerUI ( 1644): closing low battery warning: level=99
+01-13 19:41:56.154 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 99, mPluggedBatteryLevel = 95, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-13 19:41:56.164 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:41:56.174 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:41:56.184 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:42:01.259 I/power   ( 1574): *** set_screen_state 0
+01-13 19:42:01.259 D/PowerManagerService( 1574): setScreenStateLocked++, on: false, err: 0
+01-13 19:42:01.259 D/PowerManagerService( 1574): setScreenStateLocked, turn off the button light 
+01-13 19:42:01.259 D/lights  ( 1574): set_light_buttons_func: on=0 brightness=0
+01-13 19:42:01.269 D/lights  ( 1574): set_rotated_rgb_led: on=0 brightness=0
+01-13 19:42:01.269 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber-portrait/brightness string=0,len=1
+01-13 19:42:01.279 D/lights  ( 1574): set_rotated_rgb_led: on=0 brightness=0
+01-13 19:42:01.279 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green-portrait/brightness string=0,len=1
+01-13 19:42:01.279 D/lights  ( 1574): set_rotated_rgb_led: on=0 brightness=0
+01-13 19:42:01.279 E/lights  ( 1574): [LedErr] open attr failed name=/sys/class/leds/blue-portrait/brightness errno: 2
+01-13 19:42:01.279 V/KeyguardViewMediator( 1574): password timeout now
+01-13 19:42:01.289 D/HtcLockScreen( 1574): createPatternUnlockScreen() ...
+01-13 19:42:01.299 D/HtcLockScreen( 1574): packageInfo - PackageInfo{40fd00f0 com.htc.lockscreen}
+01-13 19:42:01.299 D/Sensors ( 1574): Enable akm: en = 0
+01-13 19:42:01.339 D/HostWidgetManager( 1676): pauseWidgets: 2
+01-13 19:42:01.349 D/PhoneWindow( 1676): couldn't save which view has focus because the focused view android.widget.RelativeLayout@407c7858 has no id.
+01-13 19:42:01.369 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-13 19:42:01.369 D/UsbnetService( 1574): onReceive SCREEN_OFF
+01-13 19:42:01.369 D/ContactMessageStore( 1661): start background delete task...
+01-13 19:42:01.369 D/AlarmManager( 1574): ACTION_SCREEN_OFF
+01-13 19:42:01.379 D/RemoveMe( 1661): DCT got intent android.intent.action.SCREEN_OFF
+01-13 19:42:01.379 D/DataConnectionTracker( 1661): power saving case 6
+01-13 19:42:01.379 D/ConnectivityService( 1574): getMobileDataEnabled returning false
+01-13 19:42:01.389 D/DataConnectionTracker( 1661): power saving case 6
+01-13 19:42:01.389 D/RemoveMe( 1661): DCT got intent android.intent.action.SCREEN_OFF
+01-13 19:42:01.389 D/ConnectivityService( 1574): getMobileDataEnabled returning false
+01-13 19:42:01.399 I/TabletStatusBar( 1644): DISABLE_CLOCK: yes
+01-13 19:42:01.399 I/TabletStatusBar( 1644): DISABLE_EXPAND: yes
+01-13 19:42:01.399 D/RemoveMe( 1661): DCT got intent android.intent.action.SCREEN_OFF
+01-13 19:42:01.399 I/TabletStatusBar( 1644): DISABLE_NAVIGATION: yes
+01-13 19:42:01.449 D/SurfaceFlinger( 1438): getTokenForSurface(0xb4bdc) => 0 (client=0xa26f0, bitmap=00000003), pid=1574
+01-13 19:42:01.449 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+01-13 19:42:01.459 D/AutoSetting( 1770): service - mHandler: cancel location update
+01-13 19:42:01.459 D/AutoSetting( 1770): service -           changes count: 0
+01-13 19:42:01.489 D/dalvikvm( 1684): GC_EXPLICIT freed 6K, 8% free 7014K/7623K, paused 1ms+1ms
+01-13 19:42:01.499 D/AK8975  ( 1448): Compass CLOSE 
+01-13 19:42:01.519 D/SurfaceFlinger( 1438): About to give-up screen, flinger = 0xa830
+01-13 19:42:01.519 D/dalvikvm( 1684): GC_EXPLICIT freed 1K, 8% free 7014K/7623K, paused 2ms+2ms
+01-13 19:42:01.519 I/TabletStatusBar( 1644): DISABLE_BACK: yes
+01-13 19:42:01.539 D/ContactMessageStore( 1661): size: 0 , 0
+01-13 19:42:01.549 D/SurfaceFlinger( 1438): getTokenForSurface(0xc7d7c) => 0 (client=0xa9630, bitmap=00000001), pid=1684
+01-13 19:42:01.559 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+01-13 19:42:01.569 D/IdleScreen_base( 1684): onRingUnlockEnd
+01-13 19:42:01.569 D/ContactMessageStore( 1661): Background delete complete
+01-13 19:42:01.589 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+01-13 19:42:01.619 W/msm7x30.hwcomposer( 1438): hwc_set invalid context or list
+01-13 19:42:01.619 D/msm7x30.hwcomposer( 1438): HWC called FB enableHDMIOutput(0)
+01-13 19:42:02.971 D/KeyguardViewMediator( 1574): wakeWhenReadyLocked(26)
+01-13 19:42:02.971 I/power   ( 1574): *** set_screen_state 1
+01-13 19:42:02.981 D/PowerManagerService( 1574): setScreenStateLocked++, on: true, err: 0
+01-13 19:42:02.981 D/lights  ( 1574): set_light_buttons_func: on=16777215 brightness=255
+01-13 19:42:02.981 D/lights  ( 1574): set_rotated_rgb_led: on=0 brightness=0
+01-13 19:42:02.981 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber-portrait/brightness string=0,len=1
+01-13 19:42:02.981 D/lights  ( 1574): set_rotated_rgb_led: on=1 brightness=255
+01-13 19:42:02.981 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green-portrait/brightness string=255,len=3
+01-13 19:42:02.981 D/lights  ( 1574): set_rotated_rgb_led: on=0 brightness=0
+01-13 19:42:02.981 E/lights  ( 1574): [LedErr] open attr failed name=/sys/class/leds/blue-portrait/brightness errno: 2
+01-13 19:42:02.981 D/PowerManagerService( 1574): button light setOrientation:-1
+01-13 19:42:02.981 D/PowerManagerService( 1574): setPenMenuButtonLed: 2
+01-13 19:42:02.981 D/PowerManagerService( 1574): Set pen menu button led (amber, green, blue) = 0, -1, 0), portrait = true
+01-13 19:42:02.991 D/Sensors ( 1574): Enable akm: en = 1
+01-13 19:42:02.991 D/Launcher.Model( 1676): updateAppUsageStatCache +
+01-13 19:42:03.001 D/Launcher.Model( 1676): updateAppUsageStatCache - diff: 2
+01-13 19:42:03.001 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-13 19:42:03.001 D/UsbnetService( 1574): onReceive SCREEN_ON
+01-13 19:42:03.001 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-13 19:42:03.001 D/AlarmManager( 1574): ACTION_SCREEN_ON
+01-13 19:42:03.031 D/SurfaceFlinger( 1438): Screen about to return, flinger = 0xa830
+01-13 19:42:03.041 D/msm7x30.hwcomposer( 1438): HWC called FB enableHDMIOutput(0)
+01-13 19:42:03.041 D/PREF    ( 1676): setWidgetTilt .FriendStreamLarge2Widget : 17
+01-13 19:42:03.051 D/HostWidgetManager( 1676): onResumeInKeyguard: 2
+01-13 19:42:03.051 D/FxWorkspace( 1676): prepareUnlockAnimation
+01-13 19:42:03.061 D/FxWorkspaceClient( 1676): showAllScreens()
+01-13 19:42:03.061 D/FxWorkspaceClient( 1676): freezeAllScreens
+01-13 19:42:03.061 D/AK8975  ( 1448): Compass Start
+01-13 19:42:03.071 D/UnlockAnimator( 1676): setFrame: unlock_to_03
+01-13 19:42:03.071 D/Rotate.Performance( 1676): FxWorkspace.show()
+01-13 19:42:03.081 D/RemoveMe( 1661): DCT got intent android.intent.action.SCREEN_ON
+01-13 19:42:03.081 D/ConnectivityService( 1574): getMobileDataEnabled returning false
+01-13 19:42:03.091 D/ConnectivityService( 1574): getMobileDataEnabled returning false
+01-13 19:42:03.101 D/RemoveMe( 1661): DCT got intent android.intent.action.SCREEN_ON
+01-13 19:42:03.111 D/RemoveMe( 1661): DCT got intent android.intent.action.SCREEN_ON
+01-13 19:42:04.482 D/HtcLockScreen3.0( 1574): HtcLockScreen: onInterceptTouchEvent ACTION_DOWN
+01-13 19:42:04.883 D/HtcLockScreen3.0( 1574): HtcLockScreen: onInterceptTouchEvent ACTION_UP
+01-13 19:42:04.893 D/IdleScreen_base( 1684): onRingUnlockStart
+01-13 19:42:05.193 D/KeyguardViewManager( 1574): hide()
+01-13 19:42:05.203 I/TabletStatusBar( 1644): DISABLE_CLOCK: no
+01-13 19:42:05.203 I/TabletStatusBar( 1644): DISABLE_NAVIGATION: no
+01-13 19:42:05.213 D/MyHTC   ( 1885): PoweronReceiver.onReceive(): intent=android.intent.action.USER_PRESENT
+01-13 19:42:05.213 D/FxWorkspace( 1676): unlockAnimation
+01-13 19:42:05.213 D/FxWorkspace( 1676): onUnlockAnimationStart()
+01-13 19:42:05.213 D/UnlockAnimator( 1676): playMarker: unlock_to_03
+01-13 19:42:05.213 D/FxWorkspaceClient( 1676): showAllScreens()
+01-13 19:42:05.213 D/Rotate.Performance( 1676): FxWorkspace.show()
+01-13 19:42:05.233 D/Sensors ( 1574): Enable akm: en = 0
+01-13 19:42:05.233 D/Twitter-MessageReceiver( 2459): action android.intent.action.USER_PRESENT
+01-13 19:42:05.243 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+01-13 19:42:05.253 W/InputManagerService( 1574): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@406bd588
+01-13 19:42:05.263 D/SyncProvider( 2459): match settings
+01-13 19:42:05.273 D/FacebookReceiver( 2459): Intent.ACTION_USER_PRESENT SyncInterval=3600000,currTime=1389642125272
+01-13 19:42:05.273 D/FacebookReceiver( 2459): Intent.ACTION_USER_PRESENT lastStreamSyncTime=1389642125276,lastFriendSyncTime=1389642125276
+01-13 19:42:05.283 D/SyncProvider( 2459): match settings
+01-13 19:42:05.283 I/SharedBufferStack( 1676): ShareClientTryLock succeed after 23 trial
+01-13 19:42:05.293 D/FlickrReceiver( 2459): Intent.ACTION_USER_PRESENT SyncInterval=3600000,currTime=1389642125286
+01-13 19:42:05.293 D/FlickrReceiver( 2459): Intent.ACTION_USER_PRESENT lastStreamSyncTime=1389642125294,lastFriendSyncTime=1389642125294
+01-13 19:42:05.323 I/TabletStatusBar( 1644): DISABLE_BACK: no
+01-13 19:42:05.333 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=45, status=0, token=0)
+01-13 19:42:05.333 D/Sensors ( 1574): Enable akm: en = 1
+01-13 19:42:05.353 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=44, status=0, token=0)
+01-13 19:42:05.353 D/Sensors ( 1574): Enable akm: en = 0
+01-13 19:42:05.403 D/dalvikvm( 1684): GC_EXPLICIT freed 154K, 8% free 7015K/7623K, paused 2ms+2ms
+01-13 19:42:05.443 D/dalvikvm( 1684): GC_EXPLICIT freed 2K, 9% free 7014K/7623K, paused 6ms+5ms
+01-13 19:42:05.443 D/SyncProvider( 2459): match settings
+01-13 19:42:05.683 D/AK8975  ( 1448): Compass CLOSE 
+01-13 19:42:05.743 D/dalvikvm( 1684): GC_EXPLICIT freed 2K, 9% free 7014K/7623K, paused 1ms+2ms
+01-13 19:42:05.783 D/dalvikvm( 1684): GC_EXPLICIT freed 1K, 9% free 7014K/7623K, paused 1ms+1ms
+01-13 19:42:06.204 D/FxWorkspace( 1676): onUnlockAnimationEnd()
+01-13 19:42:06.204 D/HostWidgetManager( 1676): onUserPresent: 2
+01-13 19:42:06.204 D/HostWidgetManager( 1676): resumeWidgets: 2 sort: true
+01-13 19:42:06.204 D/FxWorkspace( 1676): changeScreensVisibility
+01-13 19:42:06.204 D/FxWorkspace( 1676): changeScreensVisibility
+01-13 19:42:06.704 D/Sensors ( 1574): Enable akm: en = 1
+01-13 19:42:06.714 D/AK8975  ( 1448): Compass Start
+01-13 19:42:15.283 D/AutoSetting( 1770): service - mRequestRunnable: screen on delay 10s, request NLP now
+01-13 19:42:15.283 D/AutoSetting( 1770): service - requestNLP() NetworkLocationProvider not enabled
+01-13 19:42:19.787 D/AndroidRuntime( 2697): 
+01-13 19:42:19.787 D/AndroidRuntime( 2697): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-13 19:42:19.787 D/AndroidRuntime( 2697): CheckJNI is OFF
+01-13 19:42:19.877 D/CursorWindowStats( 2697): Get CursorWindow size from framework resource:4194304
+01-13 19:42:19.927 D/AndroidRuntime( 2697): Calling main entry com.android.commands.pm.Pm
+01-13 19:42:19.937 I/ActivityManager( 1574): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=2705 uid=10087 gids={1015, 2001}
+01-13 19:42:20.007 D/dalvikvm( 2705): GC_EXPLICIT freed 34K, 5% free 6458K/6787K, paused 1ms+1ms
+01-13 19:42:20.288 W/ActivityManager( 1574): No content provider found for: 
+01-13 19:42:20.308 W/ActivityManager( 1574): No content provider found for: 
+01-13 19:42:20.308 I/ActivityManager( 1574): No longer want com.htc.laputa.HtcLaputaInstaller (pid 2220): hidden #16
+01-13 19:42:20.318 D/PackageParser( 1574): Scanning package: /data/app/vmdl-927143983.tmp
+01-13 19:42:20.378 I/PackageManager( 1574): Removing non-system package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-13 19:42:20.378 I/ActivityManager( 1574): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone uid=10107
+01-13 19:42:20.748 D/PackageManager( 1574): Scanning package uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-13 19:42:20.748 I/PackageManager( 1574): Package uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone codePath changed from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-1.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-2.apk; Retaining data and using new
+01-13 19:42:20.748 I/PackageManager( 1574): Unpacking native libraries for /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-2.apk
+01-13 19:42:20.998 D/dalvikvm( 2713): DexOpt: load 38ms, verify+opt 148ms
+01-13 19:42:21.168 I/ActivityManager( 1574): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone uid=10107
+01-13 19:42:21.168 W/PackageManager( 1574): Code path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-1.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-2.apk
+01-13 19:42:21.168 D/PackageManager( 1574):   Activities: uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone.MainActivity
+01-13 19:42:21.168 W/PackageManager( 1574): Resource path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-1.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-2.apk
+01-13 19:42:21.269 D/dalvikvm( 1574): GC_CONCURRENT freed 1776K, 13% free 15845K/18055K, paused 2ms+5ms
+01-13 19:42:21.389 D/PackageManager( 1574): [embedded] New package installed in /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-2.apk
+01-13 19:42:21.569 I/ActivityManager( 1574): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone uid=10107
+01-13 19:42:21.639 D/dalvikvm( 1676): GC_EXPLICIT freed 2037K, 19% free 11151K/13703K, paused 2ms+3ms
+01-13 19:42:21.669 D/dalvikvm( 1666): GC_EXPLICIT freed 788K, 11% free 7799K/8711K, paused 1ms+4ms
+01-13 19:42:21.739 D/PackageManager( 1574): generateServicesMap(android.accounts.AccountAuthenticator): 13 services unchanged
+01-13 19:42:21.769 D/PackageManager( 1574): generateServicesMap(android.content.SyncAdapter): 21 services unchanged
+01-13 19:42:21.779 D/Launcher.Model( 1676): onReceive intent=Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone flg=0x10000010 (has extras) }
+01-13 19:42:21.779 D/PhoneApp( 1661): -- PackageChangeBroadcastReceiver  action = android.intent.action.PACKAGE_REMOVED
+01-13 19:42:21.779 I/ActivityManager( 1574): Start proc com.android.smith for broadcast com.android.smith/.PackageReceiver: pid=2714 uid=10009 gids={1007, 1015}
+01-13 19:42:21.829 I/SM:lib  ( 2714): JNI_OnLoad(): library version = 5
+01-13 19:42:21.829 I/SM:lib  ( 2714): JNI_OnLoad(): result = 0x10004
+01-13 19:42:21.829 D/SM:HtcNative( 2714): system lib, 4.0.honeycomb.HTK75C-flyer-l5-s16
+01-13 19:42:21.829 D/SM:PackageReceiver( 2714): package removed: package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-13 19:42:21.839 D/PackageManager( 1574): generateServicesMap(android.accounts.AccountAuthenticator): 13 services unchanged
+01-13 19:42:21.839 D/Launcher.Model( 1676): onReceive intent=Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone flg=0x10000010 (has extras) }
+01-13 19:42:21.839 D/Launcher.Model( 1676): mAllAppsList.updatePackage uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-13 19:42:21.839 I/ActivityManager( 1574): No longer want com.htc.ereader.drmengine (pid 2291): hidden #16
+01-13 19:42:21.849 D/PhoneApp( 1661): -- PackageChangeBroadcastReceiver  action = android.intent.action.PACKAGE_ADDED
+01-13 19:42:21.849 D/WidgetScanner( 1676): onReceive: Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone flg=0x10000010 cmp=com.htc.launcher/.widget.WidgetScannerTrigger (has extras) }
+01-13 19:42:21.859 I/ActivityManager( 1574): Start proc com.htc.launcher.widgetscanner for service com.htc.launcher/.widget.WidgetScannerService: pid=2721 uid=9999 gids={3003, 3002, 3001, 2001, 1015}
+01-13 19:42:21.859 D/PackageManager( 1574): generateServicesMap(android.content.SyncAdapter): 21 services unchanged
+01-13 19:42:21.869 I/ActivityManager( 1574): Start proc com.htc.opensense for broadcast com.htc.opensense/.pluginmanager.RegisterReceiver: pid=2723 uid=10013 gids={2001, 3003, 1006, 1015}
+01-13 19:42:22.300 I/ActivityManager( 1574): Start proc com.htc.cs for broadcast com.htc.cs/.plugin.PluginRegisterReceiver: pid=2736 uid=10041 gids={3003, 1015}
+01-13 19:42:22.380 I/ActivityThread( 2736): Pub com.htc.connectedservice.csprovider: com.htc.cs.provider.ConnectedServiceProvider
+01-13 19:42:22.400 I/ActivityThread( 2736): Pub com.htc.cs.dashboard: com.htc.cs.sync.dashboard.DashboardProvider
+01-13 19:42:22.400 D/vicky   ( 2736): vicky received: android.intent.action.PACKAGE_REMOVED
+01-13 19:42:22.420 I/ActivityManager( 1574): Start proc com.htc.recommend for broadcast com.htc.recommend/.receiver.AppInstalledReceiver: pid=2745 uid=10056 gids={2001, 3003}
+01-13 19:42:22.440 D/CombinedWidgetProvider( 1676): +addAppWidget
+01-13 19:42:22.440 D/CombinedWidgetProvider( 1676): addAppWidget: WidgetSummary(YouTube/APP_WIDGET/[I@4075ab80 x [I@4075aba0/-1/ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.widget.WidgetProvider}/[I@4075abc0)
+01-13 19:42:22.450 D/CombinedWidgetProvider( 1676): addAppWidget: WidgetSummary(Twitter (large)/APP_WIDGET/[I@40a154a8 x [I@409e5208/-1/ComponentInfo{com.twitter.android/com.twitter.android.client.WidgetLargeProvider}/[I@4084bde8)
+01-13 19:42:22.450 D/CombinedWidgetProvider( 1676): addAppWidget: WidgetSummary(Twitter (small)/APP_WIDGET/[I@40c087c8 x [I@40c087e8/-1/ComponentInfo{com.twitter.android/com.twitter.android.client.WidgetSmallProvider}/[I@40c08808)
+01-13 19:42:22.450 D/CombinedWidgetProvider( 1676): addAppWidget: WidgetSummary(Traffic/APP_WIDGET/[I@40c05dc8 x [I@40c05918/-1/ComponentInfo{com.google.android.apps.maps/com.google.googlenav.appwidget.traffic.TrafficAppWidget}/[I@40c05938)
+01-13 19:42:22.450 D/CombinedWidgetProvider( 1676): addAppWidget: WidgetSummary(Latitude/APP_WIDGET/[I@40c038e0 x [I@40c034e8/-1/ComponentInfo{com.google.android.apps.maps/com.google.googlenav.appwidget.friends.FriendsAppWidgetProvider}/[I@40c03508)
+01-13 19:42:22.450 D/CombinedWidgetProvider( 1676): addAppWidget: WidgetSummary(Market/APP_WIDGET/[I@40a12db8 x [I@40a12dd8/-1/ComponentInfo{com.android.vending/com.android.vending.MarketWidgetProvider}/[I@40a12df8)
+01-13 19:42:22.450 D/CombinedWidgetProvider( 1676): addAppWidget: WidgetSummary(Google Search/APP_WIDGET/[I@407d2300 x [I@407ba758/-1/ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchWidgetProvider}/[I@407ba778)
+01-13 19:42:22.450 D/CombinedWidgetProvider( 1676): addAppWidget: WidgetSummary(Gmail/APP_WIDGET/[I@4072f608 x [I@4072db50/-1/ComponentInfo{com.google.android.gm/com.google.android.gm.widget.GmailWidgetProvider}/[I@4072db70)
+01-13 19:42:22.450 D/CombinedWidgetProvider( 1676): addAppWidget: WidgetSummary(Bookmarks/APP_WIDGET/[I@40a121c8 x [I@409fcbd8/-1/ComponentInfo{com.android.browser/com.android.browser.widget.BookmarkThumbnailWidgetProvider}/[I@409fcbf8)
+01-13 19:42:22.450 D/CombinedWidgetProvider( 1676): -addAppWidget
+01-13 19:42:22.450 D/CombinedWidgetProvider( 1676): +addHtcWidgets, cat: -1
+01-13 19:42:22.450 D/CombinedWidgetProvider( 1676):  uri: content://com.htc.launcher.widget.htcwidget/htcwidgets?widget_only=true
+01-13 19:42:22.460 D/HtcWidgetProvider( 1676): row 1
+01-13 19:42:22.470 I/RegisterService( 2723): android.intent.action.PACKAGE_REMOVED package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-13 19:42:22.480 D/CombinedWidgetProvider( 1676): addHtcWidget: WidgetSummary(Tips for Home/HTC_WIDGET/[I@408a9038 x [I@408c6df0/1101/ComponentInfo{com.htc.rosiewidgets.tip/com.htc.rosiewidgets.tip.TipWidgetItem}/[I@408c6e10)
+01-13 19:42:22.490 D/CombinedWidgetProvider( 1676): -addHtcWidgets
+01-13 19:42:22.490 D/CombinedWidgetProvider( 1676): +addFxWidgets , provider: null
+01-13 19:42:22.490 D/FxWidgetProviderInfoCollector( 1676): getAllStyles + [Ljava.lang.String;@406d1dc8 @ 
+01-13 19:42:22.490 D/FxWidgetProvider( 1676): row 94
+01-13 19:42:22.500 D/LauncherApplication( 2721): + LauncherApplication onCreate()
+01-13 19:42:22.680 I/ActivityManager( 1574): No longer want com.htc.demoflopackageinstaller (pid 2417): hidden #16
+01-13 19:42:22.710 I/ActivityThread( 2745): Pub com.htc.recommend.provider.HTCRecommendCarouselProvider: com.htc.recommend.provider.HTCRecommendCarouselProvider
+01-13 19:42:22.710 D/LauncherApplication( 2721): - LauncherApplication onCreate()
+01-13 19:42:22.730 I/ActivityThread( 2745): Pub com.htc.recommend.provider.HTCRecommendContentProvider: com.htc.recommend.provider.HTCRecommendContentProvider
+01-13 19:42:22.740 D/HTC Recommends( 2745): /mnt/sdcard/.LHYGB/CKCL
+01-13 19:42:22.740 D/HTC Recommends( 2745): no token file
+01-13 19:42:22.740 D/HTC Recommends( 2745): no token file
+01-13 19:42:22.740 D/HTC Recommends( 2745): Log settings are 
+01-13 19:42:22.740 D/HTC Recommends( 2745): Enable General Log : false
+01-13 19:42:22.740 D/HTC Recommends( 2745): Enable Analytic Log : false
+01-13 19:42:22.740 D/HTC Recommends( 2745): Enable Normal Log Level (dependent on General Log) : false
+01-13 19:42:22.740 D/HTC Recommends( 2745): Enable Critical Log Level (dependent on General Log) : false
+01-13 19:42:22.750 D/SqliteDatabaseCpp( 2745): dbopen(): path = /data/data/com.htc.recommend/databases , key = `tgvegkmmejd, flag = 6, file size = 40960
+01-13 19:42:22.750 D/SqliteDatabaseCpp( 2745): dbopen(): path = /data/data/com.htc.recommend/databases , key = `tgvegkmmejd, mode: delete, disk free size: 7854 M, handle: 0x15dd30
+01-13 19:42:22.760 D/dalvikvm( 2721): GC_CONCURRENT freed 169K, 5% free 6765K/7047K, paused 1ms+5ms
+01-13 19:42:22.820 D/WidgetScanner( 2721): onReceiveInternal: Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone flg=0x10000010 cmp=com.htc.launcher/.widget.WidgetScannerService (has extras) }
+01-13 19:42:22.820 D/HtcWidgetScanner( 2721): onPackageRemoved: uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-13 19:42:22.910 D/HtcWidgetProvider( 1676): update 0
+01-13 19:42:22.930 D/FxWidgetScanner( 2721): onPackageRemoved: uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-13 19:42:22.930 D/FxWidgetScanner( 2721): removeFxWidgetList
+01-13 19:42:23.050 D/FxWidgetScanner( 2721): delete 0
+01-13 19:42:23.060 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.070 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Watch/FX_WIDGET/[I@407ad610 x [I@407ad630/-2/ComponentInfo{com.htc.widget3d.watch/com.htc.widget3d.watch.WatchProvider}/[I@407ad650)
+01-13 19:42:23.070 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.070 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Airplane Mode/FX_WIDGET/[I@409ee638 x [I@409ee658/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.AirplaneWidget}/[I@409ee678)
+01-13 19:42:23.080 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.080 D/WidgetScanner( 2721): upadted? false
+01-13 19:42:23.220 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Bluetooth/FX_WIDGET/[I@40d2f5b8 x [I@40d2f5d8/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.BTWidget}/[I@40d2f5f8)
+01-13 19:42:23.220 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.220 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(GPS/FX_WIDGET/[I@40d61e20 x [I@40d61e40/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.GPSWidget}/[I@40c4d8e0)
+01-13 19:42:23.220 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.230 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Wi-Fi Hotspot/FX_WIDGET/[I@40d49c10 x [I@40d4a1d0/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.HotspotWidget}/[I@40d4a1f0)
+01-13 19:42:23.230 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.240 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Mobile Network/FX_WIDGET/[I@40c70330 x [I@40c70350/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.MobileNetworkWidget}/[I@40c70370)
+01-13 19:42:23.240 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.250 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Wi-Fi/FX_WIDGET/[I@40bd5638 x [I@40a05210/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.WiFiWidget}/[I@40a05230)
+01-13 19:42:23.250 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.270 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@407e1c10 x [I@407e1c30/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@407f31e8)
+01-13 19:42:23.270 D/FxWidgetProvider( 1676): row 3
+01-13 19:42:23.270 D/FxWidgetProviderInfoCollector( 1676): more than one style shared the same component! Return the first one found.
+01-13 19:42:23.280 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@40a0be48 x [I@40a0c220/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@40a0c240)
+01-13 19:42:23.280 D/FxWidgetProvider( 1676): row 3
+01-13 19:42:23.280 D/FxWidgetProviderInfoCollector( 1676): more than one style shared the same component! Return the first one found.
+01-13 19:42:23.290 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@409ef878 x [I@409ef898/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@409ef8b8)
+01-13 19:42:23.290 D/FxWidgetProvider( 1676): row 3
+01-13 19:42:23.290 D/FxWidgetProviderInfoCollector( 1676): more than one style shared the same component! Return the first one found.
+01-13 19:42:23.301 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@407bc040 x [I@407bc770/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@407bc790)
+01-13 19:42:23.301 D/FxWidgetProvider( 1676): row 3
+01-13 19:42:23.301 D/FxWidgetProviderInfoCollector( 1676): more than one style shared the same component! Return the first one found.
+01-13 19:42:23.301 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@40bdb298 x [I@40bdb2b8/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@40be0420)
+01-13 19:42:23.301 D/FxWidgetProvider( 1676): row 3
+01-13 19:42:23.311 D/FxWidgetProviderInfoCollector( 1676): more than one style shared the same component! Return the first one found.
+01-13 19:42:23.311 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@407ce9d0 x [I@407ce9f0/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@407cea10)
+01-13 19:42:23.311 D/FxWidgetProvider( 1676): row 3
+01-13 19:42:23.311 D/FxWidgetProviderInfoCollector( 1676): more than one style shared the same component! Return the first one found.
+01-13 19:42:23.321 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@40aa9360 x [I@40aa9380/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@40aa93a0)
+01-13 19:42:23.321 D/FxWidgetProvider( 1676): row 5
+01-13 19:42:23.321 D/FxWidgetProviderInfoCollector( 1676): more than one style shared the same component! Return the first one found.
+01-13 19:42:23.321 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(People/FX_WIDGET/[I@40aab430 x [I@40aab450/-2/ComponentInfo{com.htc.htccontactwidgets_3d_fusion/com.htc.htccontactwidgets_3d_fusion.WidgetReceiver}/[I@40aab470)
+01-13 19:42:23.331 D/FxWidgetProvider( 1676): row 5
+01-13 19:42:23.331 D/FxWidgetProviderInfoCollector( 1676): more than one style shared the same component! Return the first one found.
+01-13 19:42:23.331 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(People/FX_WIDGET/[I@40aada50 x [I@40aada70/-2/ComponentInfo{com.htc.htccontactwidgets_3d_fusion/com.htc.htccontactwidgets_3d_fusion.WidgetReceiver}/[I@40aada90)
+01-13 19:42:23.331 D/FxWidgetProvider( 1676): row 5
+01-13 19:42:23.331 D/FxWidgetProviderInfoCollector( 1676): more than one style shared the same component! Return the first one found.
+01-13 19:42:23.341 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(People/FX_WIDGET/[I@40b94530 x [I@40b94550/-2/ComponentInfo{com.htc.htccontactwidgets_3d_fusion/com.htc.htccontactwidgets_3d_fusion.WidgetReceiver}/[I@40b94570)
+01-13 19:42:23.341 D/FxWidgetProvider( 1676): row 5
+01-13 19:42:23.341 D/FxWidgetProviderInfoCollector( 1676): more than one style shared the same component! Return the first one found.
+01-13 19:42:23.341 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(People/FX_WIDGET/[I@40b96940 x [I@40b96960/-2/ComponentInfo{com.htc.htccontactwidgets_3d_fusion/com.htc.htccontactwidgets_3d_fusion.WidgetReceiver}/[I@40b96980)
+01-13 19:42:23.351 D/FxWidgetProvider( 1676): row 5
+01-13 19:42:23.351 D/FxWidgetProviderInfoCollector( 1676): more than one style shared the same component! Return the first one found.
+01-13 19:42:23.351 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(People/FX_WIDGET/[I@40bb6e50 x [I@40bb6e70/-2/ComponentInfo{com.htc.htccontactwidgets_3d_fusion/com.htc.htccontactwidgets_3d_fusion.WidgetReceiver}/[I@40bb6e90)
+01-13 19:42:23.361 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.361 I/ActivityThread( 2745): Pub com.htc.recommend.provider.HTCRecommendSuggestionProvider: com.htc.recommend.provider.HTCRecommendSuggestionProvider
+01-13 19:42:23.361 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Calendar/FX_WIDGET/[I@40bb92e0 x [I@40bb9300/-2/ComponentInfo{com.htc.htccalendarwidgets/com.htc.htccalendarwidgets.WidgetReceiver}/[I@40bb9320)
+01-13 19:42:23.361 D/FxWidgetProvider( 1676): row 3
+01-13 19:42:23.371 D/FxWidgetProviderInfoCollector( 1676): more than one style shared the same component! Return the first one found.
+01-13 19:42:23.371 I/ActivityManager( 1574): Start proc com.htc.wdm for broadcast com.htc.wdm/.receiver.HTCDirectReceiver: pid=2755 uid=10070 gids={3003, 2001, 1015}
+01-13 19:42:23.381 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Calendar/FX_WIDGET/[I@40cedaa8 x [I@40cedac8/-2/ComponentInfo{com.htc.htccalendarwidgets/com.htc.htccalendarwidgets.WidgetReceiver}/[I@40cedae8)
+01-13 19:42:23.381 D/FxWidgetProvider( 1676): row 3
+01-13 19:42:23.381 D/FxWidgetProviderInfoCollector( 1676): more than one style shared the same component! Return the first one found.
+01-13 19:42:23.381 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Calendar/FX_WIDGET/[I@40ceff00 x [I@40ceff20/-2/ComponentInfo{com.htc.htccalendarwidgets/com.htc.htccalendarwidgets.WidgetReceiver}/[I@40ceff40)
+01-13 19:42:23.381 D/FxWidgetProvider( 1676): row 3
+01-13 19:42:23.381 D/FxWidgetProviderInfoCollector( 1676): more than one style shared the same component! Return the first one found.
+01-13 19:42:23.391 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Calendar/FX_WIDGET/[I@40cf1e08 x [I@40cf1e28/-2/ComponentInfo{com.htc.htccalendarwidgets/com.htc.htccalendarwidgets.WidgetReceiver}/[I@40cf1e48)
+01-13 19:42:23.391 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.401 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Calendar/FX_WIDGET/[I@4094dd30 x [I@4094dd50/-2/ComponentInfo{com.htc.htccalendarwidgets/com.htc.htccalendarwidgets.WidgetReceiver}/[I@4094dd70)
+01-13 19:42:23.401 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.401 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Bookmarks/FX_WIDGET/[I@409500a8 x [I@409500c8/-2/ComponentInfo{com.htc.fusion.htcbookmarkwidget/com.htc.fusion.htcbookmarkwidget.WidgetReceiver}/[I@409500e8)
+01-13 19:42:23.411 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.411 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Bookmarks/FX_WIDGET/[I@40999918 x [I@40999938/-2/ComponentInfo{com.htc.fusion.htcbookmarkwidget/com.htc.fusion.htcbookmarkwidget.WidgetReceiver}/[I@40999958)
+01-13 19:42:23.411 I/ActivityManager( 1574): No longer want com.htc.home.personalize (pid 1877): hidden #16
+01-13 19:42:23.411 I/ActivityManager( 1574): No longer want com.htc.ereader (pid 2408): hidden #17
+01-13 19:42:23.421 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.421 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@4099be40 x [I@4099be60/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@4099be80)
+01-13 19:42:23.431 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.431 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40d04a20 x [I@40d04a40/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40d04a60)
+01-13 19:42:23.441 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.441 I/ActivityThread( 2755): Pub com.htc.wdm.provider.HtcDirectCarouselProvider: com.htc.wdm.provider.HtcDirectCarouselProvider
+01-13 19:42:23.451 I/ActivityThread( 2755): Pub com.htc.wdm.status.HtcDirectProvider: com.htc.wdm.status.HtcDirectProvider
+01-13 19:42:23.461 D/HTC Hub ( 2755): /mnt/sdcard/.LHYGB/CKCL
+01-13 19:42:23.461 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40d06da8 x [I@40d06dc8/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40d06de8)
+01-13 19:42:23.471 D/HTC Hub ( 2755): no token file
+01-13 19:42:23.471 D/HTC Hub ( 2755): no token file
+01-13 19:42:23.471 D/HTC Hub ( 2755): Log settings are 
+01-13 19:42:23.471 D/HTC Hub ( 2755): Enable General Log : false
+01-13 19:42:23.471 D/HTC Hub ( 2755): Enable Analytic Log : false
+01-13 19:42:23.471 D/HTC Hub ( 2755): Enable Normal Log Level (dependent on General Log) : false
+01-13 19:42:23.471 D/HTC Hub ( 2755): Enable Critical Log Level (dependent on General Log) : false
+01-13 19:42:23.471 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.471 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40c71020 x [I@40c71040/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40c71060)
+01-13 19:42:23.481 I/ActivityManager( 1574): No longer want com.htc.sdm (pid 2191): hidden #16
+01-13 19:42:23.491 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.491 I/ActivityManager( 1574): Start proc com.htc.htchubsyncprovider for content provider com.htc.htchubsyncprovider/.provider.MyDownloadsProvider: pid=2763 uid=10069 gids={3003, 2001, 1015}
+01-13 19:42:23.511 D/SM:PackageReceiver( 2714): package added: package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-13 19:42:23.511 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40c73278 x [I@40c73298/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40c732b8)
+01-13 19:42:23.511 I/ActivityManager( 1574): No longer want com.htc.musicenhancer (pid 2396): hidden #16
+01-13 19:42:23.521 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.521 D/WidgetScanner( 1676): onReceive: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone flg=0x10000010 cmp=com.htc.launcher/.widget.WidgetScannerTrigger (has extras) }
+01-13 19:42:23.541 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40c75568 x [I@40c75588/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40c755a8)
+01-13 19:42:23.541 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.541 I/ActivityManager( 1574): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=2771 uid=10031 gids={}
+01-13 19:42:23.551 D/WidgetScanner( 2721): onReceiveInternal: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone flg=0x10000010 cmp=com.htc.launcher/.widget.WidgetScannerService (has extras) }
+01-13 19:42:23.551 I/RegisterService( 2723): android.intent.action.PACKAGE_ADDED package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-13 19:42:23.551 D/HtcWidgetScanner( 2721): onPackageAdded: uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-13 19:42:23.581 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40c8cf20 x [I@40c8cf40/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40c8cf60)
+01-13 19:42:23.581 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.591 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Twitter/FX_WIDGET/[I@40c51d48 x [I@40c51d68/-2/ComponentInfo{com.htc.Twitter3DWidget/com.htc.Twitter3DWidget.TwitterWidgetProvider}/[I@40c51d88)
+01-13 19:42:23.601 I/ActivityThread( 2763): Pub com.htc.wdm.provider.WDMProvider: com.htc.htchubsyncprovider.provider.WDMProvider
+01-13 19:42:23.611 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.621 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Twitter/FX_WIDGET/[I@40c540f0 x [I@40c54110/-2/ComponentInfo{com.htc.Twitter3DWidget/com.htc.Twitter3DWidget.TwitterWidgetProvider}/[I@40c54130)
+01-13 19:42:23.621 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.631 I/ActivityThread( 2763): Pub com.htc.wotaproviders.MyDownloadsProvider: com.htc.htchubsyncprovider.provider.MyDownloadsProvider
+01-13 19:42:23.631 I/ActivityThread( 2771): Pub com.svox.pico.providers.SettingsProvider: com.svox.pico.providers.SettingsProvider
+01-13 19:42:23.661 D/vicky   ( 2736): vicky received: android.intent.action.PACKAGE_ADDED
+01-13 19:42:23.671 D/dalvikvm( 1676): GC_CONCURRENT freed 1033K, 16% free 11576K/13703K, paused 2ms+17ms
+01-13 19:42:23.691 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Twitter/FX_WIDGET/[I@40c56508 x [I@40c56528/-2/ComponentInfo{com.htc.Twitter3DWidget/com.htc.Twitter3DWidget.TwitterWidgetProvider}/[I@40c56548)
+01-13 19:42:23.691 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.701 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Twitter/FX_WIDGET/[I@40d58130 x [I@40d56f90/-2/ComponentInfo{com.htc.Twitter3DWidget/com.htc.Twitter3DWidget.TwitterWidgetProvider}/[I@40d56080)
+01-13 19:42:23.701 D/GTalkService( 1710): [GTalkService.1] handlePackageInstalled: re-initialize providers
+01-13 19:42:23.701 I/ActivityManager( 1574): No longer want com.htc.pen (pid 2116): hidden #16
+01-13 19:42:23.711 D/GTalkService( 1710): [RawStanzaProvidersMgr] ##### searchProvidersFromIntent
+01-13 19:42:23.721 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.721 I/ActivityManager( 1574): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.RlzPingBroadcastReceiver: pid=2779 uid=10081 gids={3003}
+01-13 19:42:23.741 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Trends/FX_WIDGET/[I@40c62db0 x [I@40c5b1f0/-2/ComponentInfo{com.htc.Trends3DWidget/com.htc.Trends3DWidget.TrendsWidgetProvider}/[I@40c5b148)
+01-13 19:42:23.741 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.761 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Sync All/FX_WIDGET/[I@40c3b4f8 x [I@40c3ae78/-2/ComponentInfo{com.htc.Sync3DWidget/com.htc.Sync3DWidget.SyncWidgetProvider}/[I@40c3aa68)
+01-13 19:42:23.761 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.801 D/dalvikvm( 1439): GC_EXPLICIT freed 12K, 5% free 6453K/6787K, paused 1ms+11ms
+01-13 19:42:23.811 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Music/FX_WIDGET/[I@40c258f8 x [I@40c25278/-2/ComponentInfo{com.htc.MusicWidget3D/com.htc.MusicWidget3D.MusicWidget3DProvider}/[I@40c24e68)
+01-13 19:42:23.811 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.841 D/dalvikvm( 1439): GC_EXPLICIT freed <1K, 5% free 6453K/6787K, paused 1ms+1ms
+01-13 19:42:23.861 D/dalvikvm( 1439): GC_EXPLICIT freed <1K, 5% free 6453K/6787K, paused 1ms+1ms
+01-13 19:42:23.871 D/PhoneApp( 1661): EVENT_QUERY_MO_PACKAGES
+01-13 19:42:23.871 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Music/FX_WIDGET/[I@40c11f18 x [I@40c115d0/-2/ComponentInfo{com.htc.MusicWidget3D/com.htc.MusicWidget3D.MusicWidget3DProvider}/[I@40c10c88)
+01-13 19:42:23.871 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.881 I/ActivityThread( 2779): Pub com.google.android.partnersetup.rlzprovider: com.google.android.partnersetup.RlzProvider
+01-13 19:42:23.881 I/ActivityThread( 2779): Pub com.google.android.partnersetup.rlzappprovider: com.google.android.partnersetup.RlzAppProvider
+01-13 19:42:23.891 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Music/FX_WIDGET/[I@40c00540 x [I@40c00410/-2/ComponentInfo{com.htc.MusicWidget3D/com.htc.MusicWidget3D.MusicWidget3DProvider}/[I@40c002e0)
+01-13 19:42:23.891 D/HtcWidgetProvider( 1676): row 3
+01-13 19:42:23.891 D/SqliteDatabaseCpp( 2763): dbopen(): path = /data/data/com.htc.htchubsyncprovider/databases , key = mqdksjlkYdw, flag = 6, file size = 6144
+01-13 19:42:23.901 D/SqliteDatabaseCpp( 2763): dbopen(): path = /data/data/com.htc.htchubsyncprovider/databases , key = mqdksjlkYdw, mode: delete, disk free size: 7854 M, handle: 0xdad60
+01-13 19:42:23.901 D/PhoneApp( 1661): -- N1 =0
+01-13 19:42:23.901 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.911 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Friend Stream/FX_WIDGET/[I@40ae8720 x [I@40ae7190/-2/ComponentInfo{com.htc.FriendStream3DWidget/com.htc.FriendStream3DWidget.FriendStreamWidgetProvider}/[I@40ae5d80)
+01-13 19:42:23.911 D/SM:PackageReceiver( 2714): package replaced: package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-13 19:42:23.911 I/ActivityManager( 1574): No longer want android.process.media (pid 1745): hidden #16
+01-13 19:42:23.931 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.931 I/ActivityManager( 1574): Start proc com.google.android.apps.maps:FriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.android.ServiceReceiver: pid=2787 uid=10046 gids={3003, 1015}
+01-13 19:42:23.931 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Friend Stream/FX_WIDGET/[I@409f0a60 x [I@409e7688/-2/ComponentInfo{com.htc.FriendStream3DWidget/com.htc.FriendStream3DWidget.FriendStreamWidgetProvider}/[I@409e6800)
+01-13 19:42:23.941 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.941 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Friend Stream/FX_WIDGET/[I@40844268 x [I@408439d0/-2/ComponentInfo{com.htc.FriendStream3DWidget/com.htc.FriendStream3DWidget.FriendStreamWidgetProvider}/[I@40842bf8)
+01-13 19:42:23.951 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.961 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Friend Stream/FX_WIDGET/[I@40764de0 x [I@40763718/-2/ComponentInfo{com.htc.FriendStream3DWidget/com.htc.FriendStream3DWidget.FriendStreamWidgetProvider}/[I@40761be0)
+01-13 19:42:23.961 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:23.981 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Friend Channel/FX_WIDGET/[I@4069a5a0 x [I@40693880/-2/ComponentInfo{com.htc.FriendStream3DWidget/com.htc.FriendStream3DWidget.FriendStreamWidgetProvider}/[I@4068f6f8)
+01-13 19:42:23.981 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.021 I/RegisterService( 2723): android.intent.action.PACKAGE_REPLACED package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-13 19:42:24.031 D/HtcWidgetScanner( 2721): count(onPackageUpdated) - 3
+01-13 19:42:24.031 D/FxWidgetScanner( 2721): onPackageAdded: uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-13 19:42:24.051 W/BinderNative( 2511): Uncaught exception from death notification
+01-13 19:42:24.051 W/BinderNative( 2511): java.lang.NullPointerException
+01-13 19:42:24.051 W/BinderNative( 2511): 	at android.app.ActivityThread.removeDeadProvider(ActivityThread.java:4405)
+01-13 19:42:24.051 W/BinderNative( 2511): 	at android.app.ActivityThread$ProviderClientRecord.binderDied(ActivityThread.java:314)
+01-13 19:42:24.051 W/BinderNative( 2511): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:418)
+01-13 19:42:24.051 W/BinderNative( 2511): 	at dalvik.system.NativeStart.run(Native Method)
+01-13 19:42:24.061 D/dalvikvm( 2787): GC_CONCURRENT freed 152K, 4% free 6807K/7047K, paused 1ms+2ms
+01-13 19:42:24.121 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(My Shelf/FX_WIDGET/[I@40c0ec08 x [I@40c0e648/-2/ComponentInfo{com.htc.ereader.widget3d/com.htc.ereader.widget3d.ereaderwidget3d.SimpleWidgetProvider}/[I@40c0d9e8)
+01-13 19:42:24.121 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.121 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Weather/FX_WIDGET/[I@409d4e08 x [I@409d49f8/-2/ComponentInfo{com.htc.widget3d.weather/com.htc.widget3d.weather.WeatherWidgetProvider}/[I@409d2af0)
+01-13 19:42:24.141 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.151 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Weather/FX_WIDGET/[I@407c9690 x [I@407c68c0/-2/ComponentInfo{com.htc.widget3d.weather/com.htc.widget3d.weather.WeatherWidgetProvider}/[I@407c58d0)
+01-13 19:42:24.151 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.151 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Weather/FX_WIDGET/[I@4070a810 x [I@40704c28/-2/ComponentInfo{com.htc.widget3d.weather/com.htc.widget3d.weather.WeatherWidgetProvider}/[I@40701750)
+01-13 19:42:24.171 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.171 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Screen Timeout/FX_WIDGET/[I@40c93e18 x [I@40c93e38/-2/ComponentInfo{com.htc.rosiewidgets.screentimeout/com.htc.rosiewidgets.screentimeout.ScreenTimeoutWidgetProvider}/[I@40c93e58)
+01-13 19:42:24.171 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.181 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Screen Brightness/FX_WIDGET/[I@40c94a60 x [I@40c94a80/-2/ComponentInfo{com.htc.rosiewidgets.screenbrightness/com.htc.rosiewidgets.screenbrightness.ScreenBrightnessWidgetProvider}/[I@40c94aa0)
+01-13 19:42:24.181 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.181 D/dalvikvm( 2787): GC_CONCURRENT freed 133K, 4% free 7134K/7367K, paused 1ms+1ms
+01-13 19:42:24.191 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Notes/FX_WIDGET/[I@40c95990 x [I@40c959b0/-2/ComponentInfo{com.htc.htcrichnoteswidget3d/com.htc.htcrichnoteswidget3d.NotesWidgetProvider}/[I@40c959d0)
+01-13 19:42:24.191 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.201 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Notes/FX_WIDGET/[I@40c968a8 x [I@40c968c8/-2/ComponentInfo{com.htc.htcrichnoteswidget3d/com.htc.htcrichnoteswidget3d.NotesWidgetProvider}/[I@40c968e8)
+01-13 19:42:24.201 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.211 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(HTC Likes/FX_WIDGET/[I@40c977c0 x [I@40c977e0/-2/ComponentInfo{com.htc.android.fusion.recommend/com.htc.android.fusion.recommend.RosieIntentReceiver}/[I@40c97800)
+01-13 19:42:24.211 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.221 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Profile/FX_WIDGET/[I@40c987e8 x [I@40c98808/-2/ComponentInfo{com.htc.widget.profile/com.htc.widget.profile.HtcWidgetReceiver}/[I@40c98828)
+01-13 19:42:24.221 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.221 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Power Dashboard/FX_WIDGET/[I@40c998e8 x [I@40c99908/-2/ComponentInfo{com.htc.rosiewidgets.powerstrip/com.htc.rosiewidgets.powerstrip.PowerStripWidgetProvider}/[I@40c99928)
+01-13 19:42:24.231 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.231 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Photo Album/FX_WIDGET/[I@40c9a8a0 x [I@40c9a8c0/-2/ComponentInfo{com.htc.photowidget3d/com.htc.photowidget3d.album.PhotoAlbumWidgetProvider}/[I@40c9a8e0)
+01-13 19:42:24.241 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.241 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Photo Frame/FX_WIDGET/[I@40c9b8c8 x [I@40c9b8e8/-2/ComponentInfo{com.htc.photowidget3d/com.htc.photowidget3d.frame.PhotoFrameWidgetProvider}/[I@40c9b908)
+01-13 19:42:24.241 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.251 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Photo Grid/FX_WIDGET/[I@408515f8 x [I@4084d778/-2/ComponentInfo{com.htc.rosiewidgets.photogridwidget3d/com.htc.rosiewidgets.photogridwidget3d.PhotoGridWidget3DProvider}/[I@4084d798)
+01-13 19:42:24.251 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.251 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Navigate/FX_WIDGET/[I@407ae060 x [I@407ae080/-2/ComponentInfo{com.htc.laputa.widget3d.navigate/com.htc.laputa.widget3d.navigate.NavigateWidgetProvider}/[I@407ad5a8)
+01-13 19:42:24.261 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.261 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Navigate/FX_WIDGET/[I@407239e0 x [I@4071eac0/-2/ComponentInfo{com.htc.laputa.widget3d.navigate/com.htc.laputa.widget3d.navigate.NavigateWidgetProvider}/[I@4071eae0)
+01-13 19:42:24.261 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.261 D/dalvikvm( 1710): GC_EXPLICIT freed 155K, 8% free 6839K/7367K, paused 1ms+10ms
+01-13 19:42:24.271 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Locations/FX_WIDGET/[I@40c389c0 x [I@40c389e0/-2/ComponentInfo{com.htc.laputa.widget3d.locations/com.htc.laputa.widget3d.locations.LocationsWidgetProvider}/[I@40c37f30)
+01-13 19:42:24.281 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.281 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(News/FX_WIDGET/[I@409efe50 x [I@409e8f10/-2/ComponentInfo{com.htc.googlereaderwidget/com.htc.googlereaderwidget.RosieWidgetReceiver}/[I@409e8f30)
+01-13 19:42:24.291 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.291 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(News/FX_WIDGET/[I@40bf82e8 x [I@40bf8308/-2/ComponentInfo{com.htc.googlereaderwidget/com.htc.googlereaderwidget.RosieWidgetReceiver}/[I@40bf8208)
+01-13 19:42:24.291 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.301 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Data Dashboard/FX_WIDGET/[I@4081e380 x [I@4081e3a0/-2/ComponentInfo{com.htc.rosiewidgets.datastrip/com.htc.rosiewidgets.datastrip.DataStripWidgetProvider}/[I@4081e3c0)
+01-13 19:42:24.301 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.311 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Data Roaming/FX_WIDGET/[I@4094cc60 x [I@4094cc80/-2/ComponentInfo{com.htc.rosiewidgets.dataroaming/com.htc.rosiewidgets.dataroaming.WidgetProvider}/[I@4094cca0)
+01-13 19:42:24.311 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.311 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40c469f8 x [I@40c46d48/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40c46d68)
+01-13 19:42:24.322 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.322 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40c3c450 x [I@40c3c678/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40c3c698)
+01-13 19:42:24.322 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.332 D/FxWidgetScanner( 2721): addWidgetList
+01-13 19:42:24.332 D/Socket_Alarm( 2787): registerHTCSocketMonitorCallBack
+01-13 19:42:24.332 D/Socket_Alarm( 2787): set mSocketMonitor
+01-13 19:42:24.332 D/Socket_Alarm( 2787): HTCSocketMonitorImpl::HTCSocketMonitorImpl
+01-13 19:42:24.342 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Weather Clock/FX_WIDGET/[I@40c31da8 x [I@40c322a8/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40c322c8)
+01-13 19:42:24.342 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.362 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Travel Clock/FX_WIDGET/[I@40c28a48 x [I@40c28800/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40c28460)
+01-13 19:42:24.362 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.372 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Digital Clock/FX_WIDGET/[I@40c0c100 x [I@40c1f648/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40c1f668)
+01-13 19:42:24.372 I/ActivityManager( 1574): No longer want com.htc.bgp (pid 1770): hidden #16
+01-13 19:42:24.382 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.382 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@407b5768 x [I@407ae900/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@407ae920)
+01-13 19:42:24.382 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.382 I/ActivityManager( 1574): Start proc com.google.android.googlequicksearchbox for broadcast com.google.android.googlequicksearchbox/.SourceUpdateReceiver: pid=2795 uid=10080 gids={3003}
+01-13 19:42:24.422 D/FxWidgetScanner( 2721): ResolveInfo size 0
+01-13 19:42:24.422 D/PhoneApp( 1661): -- N2 =0
+01-13 19:42:24.432 D/WidgetScanner( 2721): upadted? false
+01-13 19:42:24.432 I/ActivityThread( 2795): Pub com.google.android.googlequicksearchbox.shortcuts: com.google.android.googlequicksearchbox.WebHistoryProvider
+01-13 19:42:24.432 I/ActivityManager( 1574): No longer want com.android.settings (pid 2662): hidden #16
+01-13 19:42:24.442 I/ActivityThread( 2795): Pub com.google.android.googlequicksearchbox.google: com.google.android.googlequicksearchbox.google.GoogleSuggestionProvider
+01-13 19:42:24.482 D/dalvikvm( 2252): GC_CONCURRENT freed 485K, 9% free 6716K/7303K, paused 6ms+242ms
+01-13 19:42:24.482 W/ActivityManager( 1574): Scheduling restart of crashed service com.htc.android.psclient/.ConnectToPCService in 5000ms
+01-13 19:42:24.482 V/LocationManagerService( 1574): Location listener died
+01-13 19:42:24.482 V/LocationManagerService( 1574): _removeUpdates: listener = Receiver{41083c70 Listener android.os.BinderProxy@41083b80}mUpdateRecords: {passive=UpdateRecord{410847e0 mProvider: passive mUid: 10013}}
+01-13 19:42:24.482 D/PhoneApp( 1661): -- N3 =0
+01-13 19:42:24.482 W/ActivityManager( 1574): Scheduling restart of crashed service com.htc.htclocationservice/.AutoSettingService in 14999ms
+01-13 19:42:24.642 D/dalvikvm( 1574): GC_EXPLICIT freed 1787K, 13% free 15870K/18055K, paused 2ms+30ms
+01-13 19:42:24.692 D/AndroidRuntime( 2697): Shutting down VM
+01-13 19:42:24.692 D/dalvikvm( 2697): GC_CONCURRENT freed 105K, 83% free 364K/2048K, paused 0ms+1ms
+01-13 19:42:24.692 D/dalvikvm( 2697): Debugger has detached; object registry had 1 entries
+01-13 19:42:24.692 I/AndroidRuntime( 2697): NOTE: attach of thread 'Binder Thread #3' failed
+01-13 19:42:24.762 D/dalvikvm( 1574): GC_EXPLICIT freed 54K, 13% free 15823K/18055K, paused 2ms+5ms
+01-13 19:42:24.762 W/ContentService( 1574): binderDied() at ObserverNode name auto_time
+01-13 19:42:24.772 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@409d56a8 x [I@409c5c28/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@409c5c48)
+01-13 19:42:24.772 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.782 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40c0b5c0 x [I@40c0b5e0/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40c0b740)
+01-13 19:42:24.782 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.802 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@409e8c58 x [I@409e8c78/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@409e8c98)
+01-13 19:42:24.802 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.812 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40700f90 x [I@40700fb0/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40700fd0)
+01-13 19:42:24.822 D/SqliteDatabaseCpp( 2795): dbopen(): path = /data/data/com.google.android.googlequicksearchbox/databases , key = iwf-`awtkvq, flag = 6, file size = 6144
+01-13 19:42:24.822 D/SqliteDatabaseCpp( 2795): dbopen(): path = /data/data/com.google.android.googlequicksearchbox/databases , key = iwf-`awtkvq, mode: delete, disk free size: 7855 M, handle: 0x1935b0
+01-13 19:42:24.822 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.842 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@4074e118 x [I@4074e138/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@4074e158)
+01-13 19:42:24.842 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.862 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@407e78c8 x [I@407e78e8/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@407e7908)
+01-13 19:42:24.862 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.862 I/ActivityManager( 1574): Start proc com.htc.pen for broadcast com.htc.pen/.plugin.PenReceiver: pid=2813 uid=10040 gids={}
+01-13 19:42:24.872 I/ActivityManager( 1574): No longer want com.htc.notes (pid 2471): hidden #16
+01-13 19:42:24.872 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Social Clock/FX_WIDGET/[I@40c2c830 x [I@40c2c850/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40c2c870)
+01-13 19:42:24.882 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.882 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Beam Clock/FX_WIDGET/[I@409dd878 x [I@409dd898/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@409dd8b8)
+01-13 19:42:24.892 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.912 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Ring Clock/FX_WIDGET/[I@408274e0 x [I@40827500/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40827520)
+01-13 19:42:24.912 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.922 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Spin Cycle Clock/FX_WIDGET/[I@40c290f8 x [I@40c29118/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40c29138)
+01-13 19:42:24.932 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.932 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@406f3948 x [I@406f3968/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@406f3988)
+01-13 19:42:24.942 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.952 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Calculator/FX_WIDGET/[I@40c3e4f0 x [I@40c3e510/-2/ComponentInfo{com.htc.android.fusion.calculator/com.htc.android.fusion.calculator.RosieIntentReceiver}/[I@40c3e530)
+01-13 19:42:24.952 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.952 I/ActivityThread( 2813): Pub com.htc.penmenu: com.htc.pen.provider.PenMenuProvider
+01-13 19:42:24.962 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Calculator/FX_WIDGET/[I@407f0f88 x [I@407f0fa8/-2/ComponentInfo{com.htc.android.fusion.calculator/com.htc.android.fusion.calculator.RosieIntentReceiver}/[I@407f0fc8)
+01-13 19:42:24.962 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.982 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Calculator/FX_WIDGET/[I@40c8cea0 x [I@40d38718/-2/ComponentInfo{com.htc.android.fusion.calculator/com.htc.android.fusion.calculator.RosieIntentReceiver}/[I@40d38738)
+01-13 19:42:24.982 I/ActivityThread( 2813): Pub com.htc.pen: com.htc.pen.provider.PenProvider
+01-13 19:42:24.982 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:24.992 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Calculator/FX_WIDGET/[I@40d43780 x [I@40d437a0/-2/ComponentInfo{com.htc.android.fusion.calculator/com.htc.android.fusion.calculator.RosieIntentReceiver}/[I@40d437c0)
+01-13 19:42:25.002 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:25.002 D/SqliteDatabaseCpp( 2813): dbopen(): path = /data/data/com.htc.pen/databases , key = hej, flag = 6, file size = 15360
+01-13 19:42:25.012 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Auto-sync/FX_WIDGET/[I@409f54e8 x [I@409f5508/-2/ComponentInfo{com.htc.rosiewidgets.backgrounddata/com.htc.rosiewidgets.backgrounddata.BackgroundDataWidgetProvider}/[I@409f5528)
+01-13 19:42:25.012 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:25.012 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Auto-rotate/FX_WIDGET/[I@409e6798 x [I@40b96790/-2/ComponentInfo{com.htc.autorotatewidget/com.htc.autorotatewidget.AutoRotateWidgetProvider}/[I@40b967b0)
+01-13 19:42:25.022 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:25.032 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Stocks/FX_WIDGET/[I@407048c0 x [I@407048e0/-2/ComponentInfo{com.htc.android.fusion.StockWidget/com.htc.android.fusion.StockWidget.RosieWidgetReceiver}/[I@40704900)
+01-13 19:42:25.032 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:25.032 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Stocks/FX_WIDGET/[I@40d46268 x [I@40d46288/-2/ComponentInfo{com.htc.android.fusion.StockWidget/com.htc.android.fusion.StockWidget.RosieWidgetReceiver}/[I@40d462a8)
+01-13 19:42:25.042 D/FxWidgetProvider( 1676): row 1
+01-13 19:42:25.042 D/CombinedWidgetProvider( 1676): addFxWidget: WidgetSummary(Stocks/FX_WIDGET/[I@40712110 x [I@40712130/-2/ComponentInfo{com.htc.android.fusion.StockWidget/com.htc.android.fusion.StockWidget.RosieWidgetReceiver}/[I@40bcaf88)
+01-13 19:42:25.042 D/CombinedWidgetProvider( 1676): -addFxWidgets diff: 2558
+01-13 19:42:25.052 D/CombinedWidgetProvider( 1676): +addAppWidgetCategories
+01-13 19:42:25.052 D/CombinedWidgetProvider( 1676): add AppWidget category: WidgetCategory(YouTube/APP_WIDGET/0)
+01-13 19:42:25.052 D/CombinedWidgetProvider( 1676): add AppWidget category: WidgetCategory(Twitter (large)/APP_WIDGET/0)
+01-13 19:42:25.052 D/CombinedWidgetProvider( 1676): add AppWidget category: WidgetCategory(Twitter (small)/APP_WIDGET/0)
+01-13 19:42:25.052 D/CombinedWidgetProvider( 1676): add AppWidget category: WidgetCategory(Traffic/APP_WIDGET/0)
+01-13 19:42:25.052 D/CombinedWidgetProvider( 1676): add AppWidget category: WidgetCategory(Latitude/APP_WIDGET/0)
+01-13 19:42:25.052 D/CombinedWidgetProvider( 1676): add AppWidget category: WidgetCategory(Market/APP_WIDGET/0)
+01-13 19:42:25.052 D/CombinedWidgetProvider( 1676): add AppWidget category: WidgetCategory(Google Search/APP_WIDGET/0)
+01-13 19:42:25.052 D/CombinedWidgetProvider( 1676): add AppWidget category: WidgetCategory(Gmail/APP_WIDGET/0)
+01-13 19:42:25.052 D/CombinedWidgetProvider( 1676): add AppWidget category: WidgetCategory(Bookmarks/APP_WIDGET/0)
+01-13 19:42:25.052 D/CombinedWidgetProvider( 1676): -addAppWidgetCategories
+01-13 19:42:25.052 D/CombinedWidgetProvider( 1676): +addHtcWidgetCategories
+01-13 19:42:25.052 D/CombinedWidgetProvider( 1676):  uri: content://com.htc.launcher.widget.htcwidget/htcwidgets?category_only=true
+01-13 19:42:25.052 D/HtcWidgetProvider( 1676): row 1
+01-13 19:42:25.062 D/CombinedWidgetProvider( 1676): addHtcWidget Category: WidgetCategory(Tips for Home/HTC_WIDGET/1101)
+01-13 19:42:25.062 D/CombinedWidgetProvider( 1676): -addHtcWidgetCategories
+01-13 19:42:25.062 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories
+01-13 19:42:25.062 D/FxWidgetProvider( 1676): row 94
+01-13 19:42:25.112 D/AndroidRuntime( 2809): 
+01-13 19:42:25.112 D/AndroidRuntime( 2809): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-13 19:42:25.122 D/AndroidRuntime( 2809): CheckJNI is OFF
+01-13 19:42:25.282 D/CursorWindowStats( 2809): Get CursorWindow size from framework resource:4194304
+01-13 19:42:25.343 D/AndroidRuntime( 2809): Calling main entry com.android.commands.am.Am
+01-13 19:42:25.353 D/SqliteDatabaseCpp( 2813): dbopen(): path = /data/data/com.htc.pen/databases , key = hej, mode: delete, disk free size: 7855 M, handle: 0x19bb90
+01-13 19:42:25.373 I/ActivityManager( 1574): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone/.MainActivity } from pid 2809
+01-13 19:42:25.403 D/ActivityManager( 1574): isSketcherDisabledInCurrentTask():false, ActivityRecord{409adf88 uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone/.MainActivity}
+01-13 19:42:25.403 D/AndroidRuntime( 2809): Shutting down VM
+01-13 19:42:25.413 D/dalvikvm( 2809): GC_CONCURRENT freed 107K, 81% free 397K/2048K, paused 0ms+0ms
+01-13 19:42:25.413 D/dalvikvm( 2809): Debugger has detached; object registry had 1 entries
+01-13 19:42:25.433 D/HostWidgetManager( 1676): pauseWidgets: 2
+01-13 19:42:25.433 I/ActivityManager( 1574): Start proc uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone for activity uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone/.MainActivity: pid=2831 uid=10107 gids={1015}
+01-13 19:42:25.443 I/AndroidRuntime( 2809): NOTE: attach of thread 'Binder Thread #4' failed
+01-13 19:42:25.443 D/SurfaceFlinger( 1438): getTokenForSurface(0xb4bdc) => 0 (client=0xa26f0, bitmap=00000003), pid=1574
+01-13 19:42:25.443 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  2 
+01-13 19:42:25.483 D/dalvikvm( 2831): Debugger has detached; object registry had 1 entries
+01-13 19:42:25.503 D/Sensors ( 1574): Enable akm: en = 0
+01-13 19:42:25.513 V/WindowManager( 1574): Starting animation in AppWindowToken{40c0ea20 token=ActivityRecord{40c0cb68 com.htc.launcher/.Launcher}} @ 2138868
+01-13 19:42:25.513 V/WindowManager( 1574): Starting animation in AppWindowToken{409eb940 token=ActivityRecord{409adf88 uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone/.MainActivity}} @ 2138868
+01-13 19:42:25.533 V/WindowManager( 1574): Finished animation in AppWindowToken{40c0ea20 token=ActivityRecord{40c0cb68 com.htc.launcher/.Launcher}} @ 2138890
+01-13 19:42:25.533 V/WindowManager( 1574): Finished animation in AppWindowToken{409eb940 token=ActivityRecord{409adf88 uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone/.MainActivity}} @ 2138890
+01-13 19:42:25.573 I/AudioHardwareMSM7X30( 1441): ============= recording driver open. =============
+01-13 19:42:25.573 I/AudioHardwareMSM7X30( 1441): do_aic3254_control (1, 0, 1)
+01-13 19:42:25.573 I/AudioHardwareMSM7X30( 1441): ============= no active record node =============
+01-13 19:42:25.573 I/AudioHardwareMSM7X30( 1441): ====release wakelock======
+01-13 19:42:25.583 D/MPEG4Writer( 1441): MPEG4Writer::start E
+01-13 19:42:25.583 I/MPEG4Writer( 1441): limits: 2147483647/0 bytes/us, bit rate: 12200 bps and the estimated moov size 3072 bytes
+01-13 19:42:25.583 I/AudioHardwareMSM7X30( 1441): Routing audio to Speakerphone
+01-13 19:42:25.583 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=8, status=0, token=2)
+01-13 19:42:25.583 I/AudioHardwareMSM7X30( 1441): ============= recording driver open. =============
+01-13 19:42:25.593 D/AudioHardwareMSM7X30( 1441): addToTable (dec_id 2, dev_rx -1, dev_tx 11, type 2, active 1)
+01-13 19:42:25.613 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=7, status=0, token=1)
+01-13 19:42:25.623 D/PhoneWindow( 1676): couldn't save which view has focus because the focused view android.widget.RelativeLayout@407c7858 has no id.
+01-13 19:42:25.623 I/HTC Acoustic( 1441): update ACDB id: (tx, rx, tx_acdb, rx_acdb) = (11, 6, 509, 0)
+01-13 19:42:25.623 D/AudioHardwareMSM7X30( 1441): updateACDB: (6, 11, 0, 509) success!
+01-13 19:42:25.623 I/AudioHardwareMSM7X30( 1441): do input routing device in:1000000  out:2
+01-13 19:42:25.623 I/AudioHardwareMSM7X30( 1441): Routing audio to Speakerphone
+01-13 19:42:25.623 I/HTC Acoustic( 1441): set_audio_effect: Record_Default
+01-13 19:42:25.623 I/HTC Acoustic( 1441): set_audio_effect: match with name Record_Default (2)
+01-13 19:42:25.633 I/HTC Acoustic( 1441): found enabled DSP firmwares and return 0
+01-13 19:42:25.633 I/AudioHardwareMSM7X30( 1441): aic3254_config: sound effect (Record_Default)
+01-13 19:42:25.633 I/AudioHardwareMSM7X30( 1441): do_aic3254_control (1, 1, 1)
+01-13 19:42:25.633 I/AudioHardwareMSM7X30( 1441): aic3254: change tx mode to 19
+01-13 19:42:25.633 I/AudioHardwareMSM7X30( 1441): do_route_audio_rpc(1, 1, 0)
+01-13 19:42:25.633 I/AudioHardwareMSM7X30( 1441): new_rx = 6
+01-13 19:42:25.633 I/AudioHardwareMSM7X30( 1441): new_tx = 16
+01-13 19:42:25.633 I/AudioHardwareMSM7X30( 1441): Device switch during pcm recording (old dev 11, new dev 16)
+01-13 19:42:25.633 I/HTC Acoustic( 1441): update ACDB id: (tx, rx, tx_acdb, rx_acdb) = (16, 6, 509, 0)
+01-13 19:42:25.633 D/AudioHardwareMSM7X30( 1441): updateACDB: (6, 19, 0, 509) success!
+01-13 19:42:25.633 D/AudioHardwareMSM7X30( 1441): modify stream type 2 => dev_rx -1, dev_tx 19
+01-13 19:42:25.663 D/PenUtils( 2813): getDefaultPen() start 14
+01-13 19:42:25.673 D/AudioHardwareMSM7X30( 1441): acquire input wakelock
+01-13 19:42:25.673 I/AudioHardwareMSM7X30( 1441): do_aic3254_control (1, 1, 1)
+01-13 19:42:25.683 I/AudioHardwareMSM7X30( 1441): AUDIO_START: start kernel pcm_in driver.
+01-13 19:42:25.753 D/AK8975  ( 1448): Compass CLOSE 
+01-13 19:42:25.763 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.763 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Watch/FX_WIDGET/-2)
+01-13 19:42:25.763 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.763 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Mail/FX_WIDGET/-2)
+01-13 19:42:25.763 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.763 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(People/FX_WIDGET/-2)
+01-13 19:42:25.763 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.763 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Calendar/FX_WIDGET/-2)
+01-13 19:42:25.763 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.763 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Bookmarks/FX_WIDGET/-2)
+01-13 19:42:25.763 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.763 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Messages/FX_WIDGET/-2)
+01-13 19:42:25.763 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.763 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Twitter/FX_WIDGET/-2)
+01-13 19:42:25.763 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.763 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Trends/FX_WIDGET/-2)
+01-13 19:42:25.773 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.773 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Sync All/FX_WIDGET/-2)
+01-13 19:42:25.773 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.773 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Music/FX_WIDGET/-2)
+01-13 19:42:25.773 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.773 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Friend Stream/FX_WIDGET/-2)
+01-13 19:42:25.773 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.773 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(My Shelf/FX_WIDGET/-2)
+01-13 19:42:25.773 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.773 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Weather/FX_WIDGET/-2)
+01-13 19:42:25.773 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.773 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Notes/FX_WIDGET/-2)
+01-13 19:42:25.773 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.773 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(HTC Likes/FX_WIDGET/-2)
+01-13 19:42:25.773 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.773 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Photo Album/FX_WIDGET/-2)
+01-13 19:42:25.773 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.783 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Photo Frame/FX_WIDGET/-2)
+01-13 19:42:25.783 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.783 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Photo Grid/FX_WIDGET/-2)
+01-13 19:42:25.783 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.783 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Navigate/FX_WIDGET/-2)
+01-13 19:42:25.783 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.783 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Locations/FX_WIDGET/-2)
+01-13 19:42:25.783 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.783 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(News/FX_WIDGET/-2)
+01-13 19:42:25.793 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.793 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Clock/FX_WIDGET/-2)
+01-13 19:42:25.793 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.793 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Calculator/FX_WIDGET/-2)
+01-13 19:42:25.793 D/CombinedWidgetProvider( 1676): +addFxWidgetCategories: default
+01-13 19:42:25.793 D/CombinedWidgetProvider( 1676): addFxWidget Category: WidgetCategory(Stocks/FX_WIDGET/-2)
+01-13 19:42:25.793 D/CombinedWidgetProvider( 1676): -addFxWidgetCategories
+01-13 19:42:25.803 D/AMRNBEncoder( 1441): AMRNB ENCODER start with mode:7
+01-13 19:42:25.813 D/PenUtils( 2813): getDefaultPen() end 44
+01-13 19:42:25.813 D/MPEG4Writer( 1441): start MPEG4Writer::Track thread: Audio, pid=1441, tid=2843
+01-13 19:42:25.823 I/MPEG4Writer( 1441): setStartTimestampUs: 236236
+01-13 19:42:25.823 I/MPEG4Writer( 1441): Earliest track starting time: 236236
+01-13 19:42:25.833 D/ActivityManager( 1574): isSketcherDisabledInCurrentTask():false, ActivityRecord{409adf88 uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone/.MainActivity}
+01-13 19:42:25.853 D/SurfaceFlinger( 1438): getTokenForSurface(0xc82fc) => 0 (client=0xc84e0, bitmap=00000001), pid=2831
+01-13 19:42:25.863 I/MySketcher( 2638): onReceive: com.htc.pen.refreshed
+01-13 19:42:25.863 I/MySketcher( 2638): [SketcherWorker] onStartCommand: com.htc.action.PREPARE_VARS
+01-13 19:42:25.863 I/MySketcher( 2638): prepareContentVars entered
+01-13 19:42:25.863 I/MySketcher( 2638):  getContentView  , in thread:2638
+01-13 19:42:25.873 I/MySketcher( 2638):  ContentView null , inflate it
+01-13 19:42:25.893 D/PenUtils( 2638): getAllPen() start 0
+01-13 19:42:25.903 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  2 
+01-13 19:42:25.913 I/StateManager( 2638): pen down before = false
+01-13 19:42:25.963 I/ActivityManager( 1574): Displayed uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone/.MainActivity: +531ms (total +34m42s378ms)
+01-13 19:42:25.983 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=46, status=0, token=0)
+01-13 19:42:25.983 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  2 
+01-13 19:42:26.013 D/dalvikvm( 2638): GC_FOR_ALLOC freed 337K, 8% free 6553K/7047K, paused 39ms
+01-13 19:42:26.043 W/InputManagerService( 1574): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@40c3d430 (uid=9999 pid=1676)
+01-13 19:42:26.093 D/dalvikvm( 2638): GC_FOR_ALLOC freed 33K, 5% free 6697K/7047K, paused 24ms
+01-13 19:42:26.133 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-13 19:42:26.133 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-13 19:42:26.133 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-13 19:42:26.133 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-13 19:42:26.133 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-13 19:42:26.143 D/PowerUI ( 1644): closing low battery warning: level=99
+01-13 19:42:26.143 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:42:26.143 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 99, mPluggedBatteryLevel = 95, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-13 19:42:26.153 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:42:26.153 D/BatteryService( 1574): SendIntentforPowersaver
+01-13 19:42:26.153 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 2 2 false
+01-13 19:42:26.153 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:42:26.163 D/dalvikvm( 2638): GC_FOR_ALLOC freed 25K, 5% free 6947K/7303K, paused 48ms
+01-13 19:42:26.273 D/dalvikvm( 1676): GC_CONCURRENT freed 1151K, 12% free 12151K/13703K, paused 1ms+82ms
+01-13 19:42:26.323 D/dalvikvm( 2638): GC_CONCURRENT freed 118K, 3% free 7347K/7559K, paused 3ms+6ms
+01-13 19:42:26.444 D/PenUtils( 2638): getAllPen() start 0
+01-13 19:42:26.444 D/dalvikvm( 2638): GC_CONCURRENT freed 120K, 3% free 7780K/8007K, paused 2ms+2ms
+01-13 19:42:26.534 I/SimplePen( 2638): created render with defaul alpha: 180, color: -1275068161, width: 3.0
+01-13 19:42:26.534 D/PenUtils( 2638): getAllPen() end 122
+01-13 19:42:26.644 D/dalvikvm( 2638): GC_CONCURRENT freed 394K, 7% free 7863K/8391K, paused 1ms+1ms
+01-13 19:42:26.654 I/SimplePen( 2638): created render with defaul alpha: 180, color: -1275068161, width: 3.0
+01-13 19:42:26.654 D/PenUtils( 2638): getAllPen() end 88
+01-13 19:42:26.664 D/PenMenu ( 2638): mPenTypeLoadingListener runnable - onFinish
+01-13 19:42:26.664 I/ActivityManager( 1574): No longer want com.htc.bg (pid 2459): hidden #16
+01-13 19:42:26.754 D/dalvikvm( 2638): GC_FOR_ALLOC freed 103K, 6% free 8057K/8519K, paused 15ms
+01-13 19:42:26.784 D/dalvikvm( 2638): GC_FOR_ALLOC freed 10K, 6% free 8254K/8711K, paused 14ms
+01-13 19:42:26.814 I/System.out( 2831): Values: 0
+01-13 19:42:26.874 D/dalvikvm( 2638): GC_FOR_ALLOC freed 5K, 6% free 8515K/8967K, paused 37ms
+01-13 19:42:26.974 D/dalvikvm( 2638): GC_FOR_ALLOC freed 179K, 7% free 8715K/9351K, paused 59ms
+01-13 19:42:27.154 D/dalvikvm( 2638): GC_FOR_ALLOC freed 1034K, 16% free 8148K/9607K, paused 25ms
+01-13 19:42:27.204 D/dalvikvm( 2638): GC_CONCURRENT freed 20K, 10% free 8691K/9607K, paused 1ms+1ms
+01-13 19:42:27.244 D/dalvikvm( 2638): GC_FOR_ALLOC freed 410K, 9% free 8747K/9607K, paused 17ms
+01-13 19:42:27.465 D/dalvikvm( 1666): GC_CONCURRENT freed 292K, 10% free 7893K/8711K, paused 1ms+1ms
+01-13 19:42:27.815 I/System.out( 2831): Values: 4536
+01-13 19:42:28.806 I/System.out( 2831): Values: 9714
+01-13 19:42:29.497 I/ActivityManager( 1574): Start proc com.htc.bgp for service com.htc.android.psclient/.ConnectToPCService: pid=2853 uid=10013 gids={2001, 3003, 1006, 1015}
+01-13 19:42:29.557 I/ActivityThread( 2853): Pub com.htc.provider.notes: com.htc.provider.notes.HtcNotesProvider
+01-13 19:42:29.557 I/ActivityThread( 2853): Pub customization_settings: com.htc.provider.CustomizationSettings.CustomizationSettingsProvider
+01-13 19:42:29.567 D/SqliteDatabaseCpp( 2853): dbopen(): path = /data/data/com.htc.provider.CustomizationSettings/databases , key = guwtkma~Ytakj[wettajcw, flag = 6, file size = 128000
+01-13 19:42:29.567 D/SqliteDatabaseCpp( 2853): dbopen(): path = /data/data/com.htc.provider.CustomizationSettings/databases , key = guwtkma~Ytakj[wettajcw, mode: delete, disk free size: 7855 M, handle: 0x19eb88
+01-13 19:42:29.577 I/ActivityThread( 2853): Pub com.htc.provider.weather: com.htc.provider.weather.WeatherProvider
+01-13 19:42:29.577 D/SqliteDatabaseCpp( 2853): dbopen(): path = /data/data/com.htc.provider.weather/databases , key = seYt`ev, flag = 6, file size = 8192
+01-13 19:42:29.577 D/SqliteDatabaseCpp( 2853): dbopen(): path = /data/data/com.htc.provider.weather/databases , key = seYt`ev, mode: delete, disk free size: 7855 M, handle: 0x1c2a70
+01-13 19:42:29.587 I/ActivityThread( 2853): Pub com.htc.opensense.plugin: com.htc.opensense.pluginmanager.PluginProvider
+01-13 19:42:29.587 D/PluginProvider( 2853): PluginProvider onCreate
+01-13 19:42:29.587 I/ActivityThread( 2853): Pub com.htc.sync.provider.weather: com.htc.sync.provider.weather.Provider
+01-13 19:42:29.597 I/ActivityThread( 2853): Pub stock: com.htc.dcs.service.stock.StockProvider
+01-13 19:42:29.597 I/ActivityThread( 2853): Pub stockset: com.htc.android.Stock.SettingProvider
+01-13 19:42:29.607 I/ActivityThread( 2853): Pub com.android.calendar: com.android.providers.calendar.HtcCalendarProvider
+01-13 19:42:29.627 D/SqliteDatabaseCpp( 2853): dbopen(): path = /data/data/com.android.providers.calendar/databases , key = gYlejdYv, flag = 6, file size = 53248
+01-13 19:42:29.627 D/SqliteDatabaseCpp( 2853): dbopen(): path = /data/data/com.android.providers.calendar/databases , key = gYlejdYv, mode: delete, disk free size: 7855 M, handle: 0x254bb0
+01-13 19:42:29.637 D/Socket_Alarm( 2853): registerHTCSocketMonitorCallBack
+01-13 19:42:29.637 D/Socket_Alarm( 2853): set mSocketMonitor
+01-13 19:42:29.637 D/Socket_Alarm( 2853): HTCSocketMonitorImpl::HTCSocketMonitorImpl
+01-13 19:42:29.647 D/ConnectToPCService( 2853): --onCreate()
+01-13 19:42:29.667 D/UsbConnectedReceiver( 2853): action = need_to_initialize_action_usb_state
+01-13 19:42:29.687 I/CalendarProvider2( 2853): doOnAccountUpdated
+01-13 19:42:29.707 D/dalvikvm( 2853): GC_CONCURRENT freed 193K, 5% free 6717K/7047K, paused 1ms+1ms
+01-13 19:42:29.707 D/Calendar( 2853): missed alarms found: 0
+01-13 19:42:29.817 I/System.out( 2831): Values: 1079
+01-13 19:42:30.698 I/CalendarProvider2( 2853): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+01-13 19:42:30.698 W/ContentResolver( 2853): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+01-13 19:42:30.818 I/System.out( 2831): Values: 461
+01-13 19:42:31.809 I/System.out( 2831): Values: 2905
+01-13 19:42:32.810 I/System.out( 2831): Values: 32767
+01-13 19:42:33.811 I/System.out( 2831): Values: 5427
+01-13 19:42:34.782 D/dalvikvm( 1676): GC_EXPLICIT freed 1880K, 26% free 10275K/13703K, paused 8ms+3ms
+01-13 19:42:34.812 I/System.out( 2831): Values: 14289
+01-13 19:42:35.813 I/System.out( 2831): Values: 650
+01-13 19:42:36.814 I/System.out( 2831): Values: 487
+01-13 19:42:37.815 I/System.out( 2831): Values: 518
+01-13 19:42:38.816 I/System.out( 2831): Values: 429
+01-13 19:42:39.536 D/AutoSetting( 2853): service - onCreate()
+01-13 19:42:39.546 V/LocationManagerService( 1574): requestLocationUpdates
+01-13 19:42:39.546 V/LocationManagerService( 1574): _requestLocationUpdates: listener = Receiver{4107a9e0 Listener android.os.BinderProxy@4108d2c8}mUpdateRecords: {}
+01-13 19:42:39.546 V/LocationManagerService( 1574): requestLocationUpdatesLocked: updateProvidersLocked
+01-13 19:42:39.546 V/LocationManagerService( 1574): _requestLocationUpdates: provider = passive listener = Receiver{4107a9e0 Listener android.os.BinderProxy@4108d2c8}mUpdateRecords: {passive=UpdateRecord{40ae8278 mProvider: passive mUid: 10013}}
+01-13 19:42:39.737 D/dalvikvm( 2511): GC_EXPLICIT freed 86K, 5% free 6696K/7047K, paused 4ms+1ms
+01-13 19:42:39.807 I/System.out( 2831): Values: 469
+01-13 19:42:40.808 I/System.out( 2831): Values: 522
+01-13 19:42:41.829 I/System.out( 2831): Values: 431
+01-13 19:42:42.820 I/System.out( 2831): Values: 424
+01-13 19:42:43.821 I/System.out( 2831): Values: 632
+01-13 19:42:44.761 D/dalvikvm( 2607): GC_EXPLICIT freed 176K, 5% free 7673K/8071K, paused 7ms+1ms
+01-13 19:42:44.811 I/System.out( 2831): Values: 30577
+01-13 19:42:45.822 I/System.out( 2831): Values: 7651
+01-13 19:42:46.813 I/System.out( 2831): Values: 32767
+01-13 19:42:47.814 I/System.out( 2831): Values: 535
+01-13 19:42:48.815 I/System.out( 2831): Values: 496
+01-13 19:42:49.746 D/dalvikvm( 2638): GC_EXPLICIT freed 192K, 9% free 8758K/9607K, paused 5ms+1ms
+01-13 19:42:49.816 I/System.out( 2831): Values: 480
+01-13 19:42:50.817 I/System.out( 2831): Values: 4525
+01-13 19:42:51.818 I/System.out( 2831): Values: 1980
+01-13 19:42:52.819 I/System.out( 2831): Values: 3110
+01-13 19:42:53.820 I/System.out( 2831): Values: 6762
+01-13 19:42:54.821 I/System.out( 2831): Values: 32316
+01-13 19:42:55.822 I/System.out( 2831): Values: 2536
+01-13 19:42:56.193 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-13 19:42:56.193 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-13 19:42:56.193 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-13 19:42:56.193 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-13 19:42:56.193 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-13 19:42:56.203 D/BatteryService( 1574): SendIntentforPowersaver
+01-13 19:42:56.203 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 2 2 false
+01-13 19:42:56.213 D/PowerUI ( 1644): closing low battery warning: level=99
+01-13 19:42:56.213 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:42:56.213 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:42:56.213 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 99, mPluggedBatteryLevel = 95, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-13 19:42:56.223 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:42:56.823 I/System.out( 2831): Values: 1707
+01-13 19:42:57.814 I/System.out( 2831): Values: 1180
+01-13 19:42:58.835 I/System.out( 2831): Values: 958
+01-13 19:42:59.826 I/System.out( 2831): Values: 3573
+01-13 19:43:00.837 I/System.out( 2831): Values: 2239
+01-13 19:43:01.828 I/System.out( 2831): Values: 1637
+01-13 19:43:02.829 I/System.out( 2831): Values: 1151
+01-13 19:43:03.830 I/System.out( 2831): Values: 737
+01-13 19:43:04.831 I/System.out( 2831): Values: 468
+01-13 19:43:05.832 I/System.out( 2831): Values: 3354
+01-13 19:43:06.833 I/System.out( 2831): Values: 933
+01-13 19:43:07.834 I/System.out( 2831): Values: 869
+01-13 19:43:08.825 I/System.out( 2831): Values: 4178
+01-13 19:43:09.836 I/System.out( 2831): Values: 3577
+01-13 19:43:10.837 I/System.out( 2831): Values: 1483
+01-13 19:43:11.828 I/System.out( 2831): Values: 1936
+01-13 19:43:12.839 I/System.out( 2831): Values: 3437
+01-13 19:43:13.830 I/System.out( 2831): Values: 2645
+01-13 19:43:14.841 I/System.out( 2831): Values: 2293
+01-13 19:43:15.842 I/System.out( 2831): Values: 7352
+01-13 19:43:16.843 I/System.out( 2831): Values: 2149
+01-13 19:43:17.844 I/System.out( 2831): Values: 1256
+01-13 19:43:18.845 I/System.out( 2831): Values: 1497
+01-13 19:43:19.836 I/System.out( 2831): Values: 776
+01-13 19:43:20.847 I/System.out( 2831): Values: 753
+01-13 19:43:21.848 I/System.out( 2831): Values: 668
+01-13 19:43:22.849 I/System.out( 2831): Values: 725
+01-13 19:43:23.850 I/System.out( 2831): Values: 736
+01-13 19:43:24.851 I/System.out( 2831): Values: 2236
+01-13 19:43:25.852 I/System.out( 2831): Values: 2992
+01-13 19:43:26.212 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-13 19:43:26.212 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-13 19:43:26.212 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-13 19:43:26.212 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-13 19:43:26.222 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-13 19:43:26.252 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:43:26.252 D/BatteryService( 1574): SendIntentforPowersaver
+01-13 19:43:26.252 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 2 2 false
+01-13 19:43:26.252 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:43:26.252 D/PowerUI ( 1644): closing low battery warning: level=98
+01-13 19:43:26.252 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 98, mPluggedBatteryLevel = 95, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-13 19:43:26.262 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:43:26.853 I/System.out( 2831): Values: 857
+01-13 19:43:26.853 I/System.out( 2831): Battery level start is reached
+01-13 19:43:27.853 I/System.out( 2831): Values: 871
+01-13 19:43:28.854 I/System.out( 2831): Values: 719
+01-13 19:43:29.855 I/System.out( 2831): Values: 809
+01-13 19:43:30.846 I/System.out( 2831): Values: 1293
+01-13 19:43:31.847 I/System.out( 2831): Values: 1496
+01-13 19:43:32.848 I/System.out( 2831): Values: 1538
+01-13 19:43:33.849 I/System.out( 2831): Values: 9169
+01-13 19:43:34.850 I/System.out( 2831): Values: 4150
+01-13 19:43:35.851 I/System.out( 2831): Values: 2097
+01-13 19:43:36.872 I/System.out( 2831): Values: 1902
+01-13 19:43:37.853 I/System.out( 2831): Values: 1968
+01-13 19:43:38.854 I/System.out( 2831): Values: 5073
+01-13 19:43:39.855 I/System.out( 2831): Values: 2171
+01-13 19:43:40.856 I/System.out( 2831): Values: 1587
+01-13 19:43:41.857 I/System.out( 2831): Values: 963
+01-13 19:43:42.848 I/System.out( 2831): Values: 488
+01-13 19:43:43.849 I/System.out( 2831): Values: 2303
+01-13 19:43:44.850 I/System.out( 2831): Values: 1017
+01-13 19:43:45.851 I/System.out( 2831): Values: 2101
+01-13 19:43:46.852 I/System.out( 2831): Values: 10746
+01-13 19:43:47.853 I/System.out( 2831): Values: 8808
+01-13 19:43:48.854 I/System.out( 2831): Values: 6803
+01-13 19:43:49.855 I/System.out( 2831): Values: 2663
+01-13 19:43:50.846 I/System.out( 2831): Values: 9007
+01-13 19:43:51.847 I/System.out( 2831): Values: 2939
+01-13 19:43:52.848 I/System.out( 2831): Values: 551
+01-13 19:43:53.849 I/System.out( 2831): Values: 6968
+01-13 19:43:54.850 I/System.out( 2831): Values: 5387
+01-13 19:43:55.851 I/System.out( 2831): Values: 2913
+01-13 19:43:56.241 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-13 19:43:56.241 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-13 19:43:56.241 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-13 19:43:56.241 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-13 19:43:56.241 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-13 19:43:56.251 D/BatteryService( 1574): SendIntentforPowersaver
+01-13 19:43:56.251 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 2 2 false
+01-13 19:43:56.261 D/PowerUI ( 1644): closing low battery warning: level=98
+01-13 19:43:56.271 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:43:56.271 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 98, mPluggedBatteryLevel = 95, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-13 19:43:56.281 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:43:56.281 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:43:56.852 I/System.out( 2831): Values: 2456
+01-13 19:43:57.863 I/System.out( 2831): Values: 574
+01-13 19:43:58.854 I/System.out( 2831): Values: 2921
+01-13 19:43:59.855 I/System.out( 2831): Values: 550
+01-13 19:44:00.846 I/System.out( 2831): Values: 1127
+01-13 19:44:01.847 I/System.out( 2831): Values: 498
+01-13 19:44:02.848 I/System.out( 2831): Values: 508
+01-13 19:44:03.869 I/System.out( 2831): Values: 884
+01-13 19:44:04.870 I/System.out( 2831): Values: 979
+01-13 19:44:05.090 D/dalvikvm( 1676): GC_EXPLICIT freed 7K, 26% free 10269K/13703K, paused 2ms+3ms
+01-13 19:44:05.871 I/System.out( 2831): Values: 556
+01-13 19:44:06.872 I/System.out( 2831): Values: 480
+01-13 19:44:07.873 I/System.out( 2831): Values: 586
+01-13 19:44:08.874 I/System.out( 2831): Values: 432
+01-13 19:44:09.884 I/System.out( 2831): Values: 624
+01-13 19:44:10.875 I/System.out( 2831): Values: 516
+01-13 19:44:11.876 I/System.out( 2831): Values: 479
+01-13 19:44:12.877 I/System.out( 2831): Values: 465
+01-13 19:44:13.878 I/System.out( 2831): Values: 478
+01-13 19:44:14.879 I/System.out( 2831): Values: 604
+01-13 19:44:15.880 I/System.out( 2831): Values: 541
+01-13 19:44:16.881 I/System.out( 2831): Values: 472
+01-13 19:44:17.882 I/System.out( 2831): Values: 1289
+01-13 19:44:18.883 I/System.out( 2831): Values: 476
+01-13 19:44:19.884 I/System.out( 2831): Values: 570
+01-13 19:44:20.875 I/System.out( 2831): Values: 514
+01-13 19:44:21.876 I/System.out( 2831): Values: 458
+01-13 19:44:22.877 I/System.out( 2831): Values: 507
+01-13 19:44:23.878 I/System.out( 2831): Values: 482
+01-13 19:44:24.879 I/System.out( 2831): Values: 488
+01-13 19:44:25.890 I/System.out( 2831): Values: 438
+01-13 19:44:26.290 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-13 19:44:26.290 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-13 19:44:26.290 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-13 19:44:26.290 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-13 19:44:26.290 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-13 19:44:26.301 D/BatteryService( 1574): SendIntentforPowersaver
+01-13 19:44:26.301 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 2 2 false
+01-13 19:44:26.301 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:44:26.301 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:44:26.301 D/PowerUI ( 1644): closing low battery warning: level=98
+01-13 19:44:26.301 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 98, mPluggedBatteryLevel = 95, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-13 19:44:26.311 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:44:26.881 I/System.out( 2831): Values: 449
+01-13 19:44:27.882 I/System.out( 2831): Values: 537
+01-13 19:44:28.883 I/System.out( 2831): Values: 488
+01-13 19:44:29.884 I/System.out( 2831): Values: 491
+01-13 19:44:30.875 I/System.out( 2831): Values: 426
+01-13 19:44:31.886 I/System.out( 2831): Values: 409
+01-13 19:44:32.887 I/System.out( 2831): Values: 443
+01-13 19:44:33.878 I/System.out( 2831): Values: 506
+01-13 19:44:34.879 I/System.out( 2831): Values: 506
+01-13 19:44:35.880 I/System.out( 2831): Values: 470
+01-13 19:44:36.901 I/System.out( 2831): Values: 541
+01-13 19:44:37.882 I/System.out( 2831): Values: 470
+01-13 19:44:38.883 I/System.out( 2831): Values: 444
+01-13 19:44:39.884 I/System.out( 2831): Values: 430
+01-13 19:44:40.885 I/System.out( 2831): Values: 405
+01-13 19:44:41.876 I/System.out( 2831): Values: 521
+01-13 19:44:42.887 I/System.out( 2831): Values: 816
+01-13 19:44:43.878 I/System.out( 2831): Values: 479
+01-13 19:44:44.889 I/System.out( 2831): Values: 547
+01-13 19:44:45.890 I/System.out( 2831): Values: 465
+01-13 19:44:46.881 I/System.out( 2831): Values: 485
+01-13 19:44:47.902 I/System.out( 2831): Values: 671
+01-13 19:44:48.893 I/System.out( 2831): Values: 402
+01-13 19:44:49.894 I/System.out( 2831): Values: 554
+01-13 19:44:50.895 I/System.out( 2831): Values: 413
+01-13 19:44:51.885 I/System.out( 2831): Values: 489
+01-13 19:44:52.886 I/System.out( 2831): Values: 485
+01-13 19:44:53.887 I/System.out( 2831): Values: 450
+01-13 19:44:54.888 I/System.out( 2831): Values: 643
+01-13 19:44:55.889 I/System.out( 2831): Values: 578
+01-13 19:44:56.310 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-13 19:44:56.310 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-13 19:44:56.310 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-13 19:44:56.310 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-13 19:44:56.310 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-13 19:44:56.320 D/BatteryService( 1574): SendIntentforPowersaver
+01-13 19:44:56.350 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 2 2 false
+01-13 19:44:56.350 D/PowerUI ( 1644): closing low battery warning: level=98
+01-13 19:44:56.360 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:44:56.360 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:44:56.360 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:44:56.360 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 98, mPluggedBatteryLevel = 95, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-13 19:44:56.890 I/System.out( 2831): Values: 504
+01-13 19:44:56.960 D/dalvikvm( 2831): GC_CONCURRENT freed 342K, 7% free 6550K/6983K, paused 5ms+1ms
+01-13 19:44:57.891 I/System.out( 2831): Values: 570
+01-13 19:44:58.892 I/System.out( 2831): Values: 604
+01-13 19:44:59.893 I/System.out( 2831): Values: 882
+01-13 19:45:00.894 I/System.out( 2831): Values: 496
+01-13 19:45:01.885 I/System.out( 2831): Values: 491
+01-13 19:45:02.896 I/System.out( 2831): Values: 444
+01-13 19:45:03.887 I/System.out( 2831): Values: 555
+01-13 19:45:04.898 I/System.out( 2831): Values: 499
+01-13 19:45:05.899 I/System.out( 2831): Values: 457
+01-13 19:45:06.890 I/System.out( 2831): Values: 484
+01-13 19:45:07.891 I/System.out( 2831): Values: 602
+01-13 19:45:08.892 I/System.out( 2831): Values: 447
+01-13 19:45:09.893 I/System.out( 2831): Values: 782
+01-13 19:45:10.894 I/System.out( 2831): Values: 778
+01-13 19:45:11.885 I/System.out( 2831): Values: 659
+01-13 19:45:12.896 I/System.out( 2831): Values: 500
+01-13 19:45:13.887 I/System.out( 2831): Values: 450
+01-13 19:45:14.898 I/System.out( 2831): Values: 441
+01-13 19:45:15.889 I/System.out( 2831): Values: 501
+01-13 19:45:16.890 I/System.out( 2831): Values: 462
+01-13 19:45:17.901 I/System.out( 2831): Values: 458
+01-13 19:45:18.892 I/System.out( 2831): Values: 523
+01-13 19:45:19.893 I/System.out( 2831): Values: 522
+01-13 19:45:20.894 I/System.out( 2831): Values: 577
+01-13 19:45:21.895 I/System.out( 2831): Values: 569
+01-13 19:45:22.886 I/System.out( 2831): Values: 447
+01-13 19:45:23.897 I/System.out( 2831): Values: 704
+01-13 19:45:24.888 I/System.out( 2831): Values: 537
+01-13 19:45:25.899 I/System.out( 2831): Values: 664
+01-13 19:45:26.349 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-13 19:45:26.349 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-13 19:45:26.349 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-13 19:45:26.349 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-13 19:45:26.349 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-13 19:45:26.359 D/BatteryService( 1574): SendIntentforPowersaver
+01-13 19:45:26.359 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 2 2 false
+01-13 19:45:26.369 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:45:26.369 D/PowerUI ( 1644): closing low battery warning: level=98
+01-13 19:45:26.379 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 98, mPluggedBatteryLevel = 95, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-13 19:45:26.389 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:45:26.389 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:45:26.900 I/System.out( 2831): Values: 529
+01-13 19:45:27.891 I/System.out( 2831): Values: 514
+01-13 19:45:28.892 I/System.out( 2831): Values: 491
+01-13 19:45:29.903 I/System.out( 2831): Values: 531
+01-13 19:45:30.894 I/System.out( 2831): Values: 545
+01-13 19:45:31.895 I/System.out( 2831): Values: 476
+01-13 19:45:32.895 I/System.out( 2831): Values: 449
+01-13 19:45:33.896 I/System.out( 2831): Values: 483
+01-13 19:45:34.897 I/System.out( 2831): Values: 1346
+01-13 19:45:35.898 I/System.out( 2831): Values: 8614
+01-13 19:45:36.899 I/System.out( 2831): Values: 2745
+01-13 19:45:37.900 I/System.out( 2831): Values: 796
+01-13 19:45:38.901 I/System.out( 2831): Values: 4165
+01-13 19:45:39.902 I/System.out( 2831): Values: 7092
+01-13 19:45:40.903 I/System.out( 2831): Values: 5110
+01-13 19:45:41.894 I/System.out( 2831): Values: 3826
+01-13 19:45:42.895 I/System.out( 2831): Values: 11899
+01-13 19:45:43.896 I/System.out( 2831): Values: 8063
+01-13 19:45:44.897 I/System.out( 2831): Values: 10186
+01-13 19:45:45.898 I/System.out( 2831): Values: 15780
+01-13 19:45:46.909 I/System.out( 2831): Values: 25350
+01-13 19:45:47.900 I/System.out( 2831): Values: 1032
+01-13 19:45:48.901 I/System.out( 2831): Values: 14733
+01-13 19:45:49.902 I/System.out( 2831): Values: 8266
+01-13 19:45:50.903 I/System.out( 2831): Values: 10366
+01-13 19:45:51.904 I/System.out( 2831): Values: 6273
+01-13 19:45:52.905 I/System.out( 2831): Values: 10725
+01-13 19:45:53.906 I/System.out( 2831): Values: 969
+01-13 19:45:54.897 I/System.out( 2831): Values: 8126
+01-13 19:45:55.898 I/System.out( 2831): Values: 7226
+01-13 19:45:56.388 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-13 19:45:56.388 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-13 19:45:56.388 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-13 19:45:56.388 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-13 19:45:56.388 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-13 19:45:56.398 D/PowerUI ( 1644): closing low battery warning: level=98
+01-13 19:45:56.398 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:45:56.398 D/BatteryService( 1574): SendIntentforPowersaver
+01-13 19:45:56.398 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 2 2 false
+01-13 19:45:56.398 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:45:56.398 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 98, mPluggedBatteryLevel = 95, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-13 19:45:56.408 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:45:56.899 I/System.out( 2831): Values: 869
+01-13 19:45:57.900 I/System.out( 2831): Values: 1940
+01-13 19:45:58.901 I/System.out( 2831): Values: 1502
+01-13 19:45:59.902 I/System.out( 2831): Values: 583
+01-13 19:46:00.903 I/System.out( 2831): Values: 469
+01-13 19:46:01.904 I/System.out( 2831): Values: 1938
+01-13 19:46:02.895 I/System.out( 2831): Values: 6612
+01-13 19:46:03.906 I/System.out( 2831): Values: 523
+01-13 19:46:04.897 I/System.out( 2831): Values: 5367
+01-13 19:46:05.087 D/dalvikvm( 1676): GC_EXPLICIT freed 1K, 26% free 10269K/13703K, paused 8ms+2ms
+01-13 19:46:05.898 I/System.out( 2831): Values: 562
+01-13 19:46:06.899 I/System.out( 2831): Values: 720
+01-13 19:46:07.900 I/System.out( 2831): Values: 1767
+01-13 19:46:08.931 I/System.out( 2831): Values: 456
+01-13 19:46:09.902 I/System.out( 2831): Values: 436
+01-13 19:46:10.903 I/System.out( 2831): Values: 467
+01-13 19:46:11.904 I/System.out( 2831): Values: 497
+01-13 19:46:12.895 I/System.out( 2831): Values: 1365
+01-13 19:46:13.905 I/System.out( 2831): Values: 698
+01-13 19:46:14.906 I/System.out( 2831): Values: 3000
+01-13 19:46:15.897 I/System.out( 2831): Values: 3100
+01-13 19:46:16.898 I/System.out( 2831): Values: 3120
+01-13 19:46:17.909 I/System.out( 2831): Values: 927
+01-13 19:46:18.900 I/System.out( 2831): Values: 3903
+01-13 19:46:19.901 I/System.out( 2831): Values: 5178
+01-13 19:46:20.902 I/System.out( 2831): Values: 10358
+01-13 19:46:21.903 I/System.out( 2831): Values: 713
+01-13 19:46:22.904 I/System.out( 2831): Values: 3160
+01-13 19:46:23.895 I/System.out( 2831): Values: 3533
+01-13 19:46:24.906 I/System.out( 2831): Values: 4286
+01-13 19:46:25.907 I/System.out( 2831): Values: 1262
+01-13 19:46:26.388 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-13 19:46:26.388 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-13 19:46:26.388 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-13 19:46:26.388 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-13 19:46:26.398 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-13 19:46:26.398 D/BatteryService( 1574): SendIntentforPowersaver
+01-13 19:46:26.408 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 2 2 false
+01-13 19:46:26.408 D/PowerUI ( 1644): closing low battery warning: level=98
+01-13 19:46:26.418 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:46:26.418 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 98, mPluggedBatteryLevel = 95, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-13 19:46:26.428 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:46:26.428 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:46:26.898 I/System.out( 2831): Values: 8946
+01-13 19:46:27.899 I/System.out( 2831): Values: 7435
+01-13 19:46:28.910 I/System.out( 2831): Values: 1689
+01-13 19:46:29.911 I/System.out( 2831): Values: 4198
+01-13 19:46:30.912 I/System.out( 2831): Values: 2744
+01-13 19:46:31.913 I/System.out( 2831): Values: 15338
+01-13 19:46:32.914 I/System.out( 2831): Values: 12330
+01-13 19:46:33.905 I/System.out( 2831): Values: 16132
+01-13 19:46:34.906 I/System.out( 2831): Values: 8621
+01-13 19:46:35.907 I/System.out( 2831): Values: 8128
+01-13 19:46:36.908 I/System.out( 2831): Values: 1334
+01-13 19:46:37.909 I/System.out( 2831): Values: 1001
+01-13 19:46:38.910 I/System.out( 2831): Values: 12212
+01-13 19:46:39.911 I/System.out( 2831): Values: 1141
+01-13 19:46:40.912 I/System.out( 2831): Values: 10477
+01-13 19:46:41.913 I/System.out( 2831): Values: 1599
+01-13 19:46:42.914 I/System.out( 2831): Values: 777
+01-13 19:46:43.915 I/System.out( 2831): Values: 32725
+01-13 19:46:44.916 I/System.out( 2831): Values: 3630
+01-13 19:46:45.907 I/System.out( 2831): Values: 2217
+01-13 19:46:46.908 I/System.out( 2831): Values: 453
+01-13 19:46:47.909 I/System.out( 2831): Values: 703
+01-13 19:46:48.910 I/System.out( 2831): Values: 1689
+01-13 19:46:49.911 I/System.out( 2831): Values: 2277
+01-13 19:46:50.912 I/System.out( 2831): Values: 496
+01-13 19:46:51.943 I/System.out( 2831): Values: 1631
+01-13 19:46:52.914 I/System.out( 2831): Values: 513
+01-13 19:46:53.915 I/System.out( 2831): Values: 419
+01-13 19:46:54.905 I/System.out( 2831): Values: 469
+01-13 19:46:55.906 I/System.out( 2831): Values: 451
+01-13 19:46:56.927 I/System.out( 2831): Values: 1154
+01-13 19:46:57.918 I/System.out( 2831): Values: 7229
+01-13 19:46:58.909 I/System.out( 2831): Values: 1338
+01-13 19:46:59.910 I/System.out( 2831): Values: 617
+01-13 19:47:00.911 I/System.out( 2831): Values: 619
+01-13 19:47:01.912 I/System.out( 2831): Values: 2166
+01-13 19:47:02.913 I/System.out( 2831): Values: 869
+01-13 19:47:03.914 I/System.out( 2831): Values: 2368
+01-13 19:47:04.915 I/System.out( 2831): Values: 2642
+01-13 19:47:05.906 I/System.out( 2831): Values: 2567
+01-13 19:47:06.907 I/System.out( 2831): Values: 784
+01-13 19:47:07.938 I/System.out( 2831): Values: 491
+01-13 19:47:08.919 I/System.out( 2831): Values: 2124
+01-13 19:47:09.920 I/System.out( 2831): Values: 485
+01-13 19:47:10.921 I/System.out( 2831): Values: 421
+01-13 19:47:11.922 I/System.out( 2831): Values: 2985
+01-13 19:47:12.923 I/System.out( 2831): Values: 980
+01-13 19:47:13.924 I/System.out( 2831): Values: 1576
+01-13 19:47:14.925 I/System.out( 2831): Values: 548
+01-13 19:47:15.916 I/System.out( 2831): Values: 669
+01-13 19:47:16.917 I/System.out( 2831): Values: 502
+01-13 19:47:17.918 I/System.out( 2831): Values: 1676
+01-13 19:47:18.919 I/System.out( 2831): Values: 1233
+01-13 19:47:19.920 I/System.out( 2831): Values: 1933
+01-13 19:47:20.921 I/System.out( 2831): Values: 462
+01-13 19:47:21.922 I/System.out( 2831): Values: 455
+01-13 19:47:22.923 I/System.out( 2831): Values: 536
+01-13 19:47:23.924 I/System.out( 2831): Values: 525
+01-13 19:47:24.915 I/System.out( 2831): Values: 510
+01-13 19:47:25.916 I/System.out( 2831): Values: 501
+01-13 19:47:26.466 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-13 19:47:26.466 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-13 19:47:26.466 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-13 19:47:26.466 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-13 19:47:26.466 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-13 19:47:26.496 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:47:26.496 D/PowerUI ( 1644): closing low battery warning: level=97
+01-13 19:47:26.496 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 97, mPluggedBatteryLevel = 95, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-13 19:47:26.506 D/BatteryService( 1574): SendIntentforPowersaver
+01-13 19:47:26.506 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:47:26.506 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 2 2 false
+01-13 19:47:26.506 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:47:26.917 I/System.out( 2831): Values: 1083
+01-13 19:47:26.917 I/System.out( 2831): Battery level end is reached
+01-13 19:47:26.917 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:27.918 I/System.out( 2831): Values: 506
+01-13 19:47:27.918 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:28.919 I/System.out( 2831): Values: 587
+01-13 19:47:28.929 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:29.920 I/System.out( 2831): Values: 786
+01-13 19:47:29.920 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:30.921 I/System.out( 2831): Values: 433
+01-13 19:47:30.921 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:31.922 I/System.out( 2831): Values: 710
+01-13 19:47:31.922 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:32.923 I/System.out( 2831): Values: 1063
+01-13 19:47:32.923 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:33.924 I/System.out( 2831): Values: 461
+01-13 19:47:33.924 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:34.925 I/System.out( 2831): Values: 493
+01-13 19:47:34.925 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:35.915 I/System.out( 2831): Values: 459
+01-13 19:47:35.915 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:36.916 I/System.out( 2831): Values: 522
+01-13 19:47:36.916 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:37.917 I/System.out( 2831): Values: 490
+01-13 19:47:37.917 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:38.918 I/System.out( 2831): Values: 492
+01-13 19:47:38.918 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:39.919 I/System.out( 2831): Values: 507
+01-13 19:47:39.939 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:40.920 I/System.out( 2831): Values: 528
+01-13 19:47:40.920 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:41.921 I/System.out( 2831): Values: 506
+01-13 19:47:41.921 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:42.922 I/System.out( 2831): Values: 514
+01-13 19:47:42.922 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:43.923 I/System.out( 2831): Values: 508
+01-13 19:47:43.923 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:44.914 I/System.out( 2831): Values: 475
+01-13 19:47:44.914 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:45.925 I/System.out( 2831): Values: 838
+01-13 19:47:45.925 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:46.926 I/System.out( 2831): Values: 459
+01-13 19:47:46.926 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:47.917 I/System.out( 2831): Values: 445
+01-13 19:47:47.917 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:48.928 I/System.out( 2831): Values: 464
+01-13 19:47:48.928 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:49.919 I/System.out( 2831): Values: 680
+01-13 19:47:49.919 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:50.920 I/System.out( 2831): Values: 489
+01-13 19:47:50.950 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:51.921 I/System.out( 2831): Values: 504
+01-13 19:47:51.931 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:52.922 I/System.out( 2831): Values: 475
+01-13 19:47:52.932 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:53.923 I/System.out( 2831): Values: 441
+01-13 19:47:53.933 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:54.924 I/System.out( 2831): Values: 500
+01-13 19:47:54.924 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:55.915 I/System.out( 2831): Values: 2522
+01-13 19:47:55.935 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:56.486 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-13 19:47:56.486 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-13 19:47:56.486 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-13 19:47:56.486 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-13 19:47:56.486 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-13 19:47:56.496 D/BatteryService( 1574): SendIntentforPowersaver
+01-13 19:47:56.496 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 2 2 false
+01-13 19:47:56.506 D/PowerUI ( 1644): closing low battery warning: level=97
+01-13 19:47:56.506 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 97, mPluggedBatteryLevel = 95, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-13 19:47:56.516 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:47:56.526 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:47:56.526 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:47:56.926 I/System.out( 2831): Values: 592
+01-13 19:47:56.926 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:57.917 I/System.out( 2831): Values: 504
+01-13 19:47:57.927 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:58.918 I/System.out( 2831): Values: 589
+01-13 19:47:58.928 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:47:59.919 I/System.out( 2831): Values: 449
+01-13 19:47:59.929 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:00.920 I/System.out( 2831): Values: 547
+01-13 19:48:00.930 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:01.921 I/System.out( 2831): Values: 538
+01-13 19:48:01.951 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:02.922 I/System.out( 2831): Values: 488
+01-13 19:48:02.932 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:03.933 I/System.out( 2831): Values: 563
+01-13 19:48:03.933 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:04.934 I/System.out( 2831): Values: 492
+01-13 19:48:04.934 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:05.084 D/dalvikvm( 1676): GC_EXPLICIT freed 1K, 26% free 10269K/13703K, paused 2ms+3ms
+01-13 19:48:05.925 I/System.out( 2831): Values: 1774
+01-13 19:48:05.925 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:06.926 I/System.out( 2831): Values: 1657
+01-13 19:48:06.936 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:06.966 D/dalvikvm( 2831): GC_CONCURRENT freed 406K, 8% free 6556K/7111K, paused 1ms+2ms
+01-13 19:48:07.927 I/System.out( 2831): Values: 479
+01-13 19:48:07.927 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:08.928 I/System.out( 2831): Values: 581
+01-13 19:48:08.928 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:09.929 I/System.out( 2831): Values: 2025
+01-13 19:48:09.929 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:10.930 I/System.out( 2831): Values: 761
+01-13 19:48:10.930 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:11.931 I/System.out( 2831): Values: 473
+01-13 19:48:11.941 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:12.932 I/System.out( 2831): Values: 1855
+01-13 19:48:12.962 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:13.933 I/System.out( 2831): Values: 961
+01-13 19:48:13.933 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:14.934 I/System.out( 2831): Values: 2230
+01-13 19:48:14.934 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:15.935 I/System.out( 2831): Values: 1970
+01-13 19:48:15.935 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:16.926 I/System.out( 2831): Values: 529
+01-13 19:48:16.926 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:17.947 I/System.out( 2831): Values: 1581
+01-13 19:48:17.947 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:18.927 I/System.out( 2831): Values: 2243
+01-13 19:48:18.927 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:19.928 I/System.out( 2831): Values: 2172
+01-13 19:48:19.928 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:20.929 I/System.out( 2831): Values: 2138
+01-13 19:48:20.929 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:21.930 I/System.out( 2831): Values: 2707
+01-13 19:48:21.930 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:22.931 I/System.out( 2831): Values: 677
+01-13 19:48:22.931 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:23.932 I/System.out( 2831): Values: 464
+01-13 19:48:23.932 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:24.933 I/System.out( 2831): Values: 2190
+01-13 19:48:24.933 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:25.934 I/System.out( 2831): Values: 464
+01-13 19:48:25.934 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:26.525 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-13 19:48:26.525 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-13 19:48:26.525 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-13 19:48:26.535 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-13 19:48:26.535 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-13 19:48:26.545 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:48:26.545 D/BatteryService( 1574): SendIntentforPowersaver
+01-13 19:48:26.545 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 2 2 false
+01-13 19:48:26.545 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:48:26.545 D/PowerUI ( 1644): closing low battery warning: level=97
+01-13 19:48:26.545 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 97, mPluggedBatteryLevel = 95, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-13 19:48:26.555 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:48:26.925 I/System.out( 2831): Values: 3033
+01-13 19:48:26.925 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:27.926 I/System.out( 2831): Values: 2444
+01-13 19:48:27.936 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:28.927 I/System.out( 2831): Values: 859
+01-13 19:48:28.927 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:29.928 I/System.out( 2831): Values: 2561
+01-13 19:48:29.928 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:30.929 I/System.out( 2831): Values: 427
+01-13 19:48:30.929 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:31.930 I/System.out( 2831): Values: 2291
+01-13 19:48:31.930 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:32.931 I/System.out( 2831): Values: 507
+01-13 19:48:32.931 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:33.932 I/System.out( 2831): Values: 2949
+01-13 19:48:33.952 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:34.933 I/System.out( 2831): Values: 2173
+01-13 19:48:34.933 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:35.934 I/System.out( 2831): Values: 508
+01-13 19:48:35.934 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:36.935 I/System.out( 2831): Values: 527
+01-13 19:48:36.935 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:37.936 I/System.out( 2831): Values: 2404
+01-13 19:48:37.936 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:38.937 I/System.out( 2831): Values: 1657
+01-13 19:48:38.937 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:39.928 I/System.out( 2831): Values: 1938
+01-13 19:48:39.928 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:40.929 I/System.out( 2831): Values: 456
+01-13 19:48:40.929 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:41.930 I/System.out( 2831): Values: 2819
+01-13 19:48:41.930 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:42.931 I/System.out( 2831): Values: 3188
+01-13 19:48:42.931 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:43.932 I/System.out( 2831): Values: 3189
+01-13 19:48:43.942 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:44.933 I/System.out( 2831): Values: 489
+01-13 19:48:44.963 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:45.934 I/System.out( 2831): Values: 472
+01-13 19:48:45.944 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:46.935 I/System.out( 2831): Values: 473
+01-13 19:48:46.935 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:47.936 I/System.out( 2831): Values: 444
+01-13 19:48:47.936 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:48.937 I/System.out( 2831): Values: 851
+01-13 19:48:48.937 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:49.948 I/System.out( 2831): Values: 516
+01-13 19:48:49.948 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:50.508 D/SntpClient( 1574): requestTime: called by Thread[ThrottleService,5,main], failed: java.net.UnknownHostException: Unable to resolve host "north-america.pool.ntp.org": No address associated with hostname
+01-13 19:48:50.518 D/NetdConnector( 1574): listenToSocket read--: (6,0)
+01-13 19:48:50.528 D/NetdConnector( 1574): RCV <- {216 0}
+01-13 19:48:50.528 D/NetdConnector( 1574): doCommand++ (Wait Response)
+01-13 19:48:50.528 D/NetdConnector( 1574): listenToSocket read++
+01-13 19:48:50.528 D/NetdConnector( 1574): RSP <- {216 0}
+01-13 19:48:50.528 D/NetdConnector( 1574): miNoRespCnt=0
+01-13 19:48:50.528 D/NetdConnector( 1574): doCommand-- (complete)
+01-13 19:48:50.528 D/NetdConnector( 1574): listenToSocket read--: (6,0)
+01-13 19:48:50.538 D/NetdConnector( 1574): doCommand++ (Wait Response)
+01-13 19:48:50.538 D/NetdConnector( 1574): RCV <- {217 0}
+01-13 19:48:50.538 D/NetdConnector( 1574): RSP <- {217 0}
+01-13 19:48:50.538 D/NetdConnector( 1574): miNoRespCnt=0
+01-13 19:48:50.538 D/NetdConnector( 1574): doCommand-- (complete)
+01-13 19:48:50.538 D/NetdConnector( 1574): listenToSocket read++
+01-13 19:48:50.558 D/SntpClient( 1574): requestTime: called by Thread[ThrottleService,5,main], failed: java.net.UnknownHostException: Unable to resolve host "north-america.pool.ntp.org": No address associated with hostname
+01-13 19:48:50.558 D/SntpClient( 1574): requestTime: called by Thread[ThrottleService,5,main], failed: java.net.UnknownHostException: Unable to resolve host "north-america.pool.ntp.org": No address associated with hostname
+01-13 19:48:50.939 I/System.out( 2831): Values: 3346
+01-13 19:48:50.939 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:51.930 I/System.out( 2831): Values: 1472
+01-13 19:48:51.940 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:52.931 I/System.out( 2831): Values: 28930
+01-13 19:48:52.941 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:53.942 I/System.out( 2831): Values: 776
+01-13 19:48:53.942 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:54.943 I/System.out( 2831): Values: 3082
+01-13 19:48:54.943 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:55.944 I/System.out( 2831): Values: 1919
+01-13 19:48:55.944 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:56.564 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-13 19:48:56.564 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-13 19:48:56.564 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-13 19:48:56.564 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-13 19:48:56.564 D/BatteryService( 1574): SendIntentforPowersaver
+01-13 19:48:56.564 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-13 19:48:56.594 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 2 2 false
+01-13 19:48:56.604 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:48:56.604 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:48:56.604 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:48:56.604 D/PowerUI ( 1644): closing low battery warning: level=97
+01-13 19:48:56.604 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 97, mPluggedBatteryLevel = 95, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-13 19:48:56.935 I/System.out( 2831): Values: 7993
+01-13 19:48:56.935 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:57.936 I/System.out( 2831): Values: 17482
+01-13 19:48:57.936 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:58.936 I/System.out( 2831): Values: 19160
+01-13 19:48:58.936 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:48:59.937 I/System.out( 2831): Values: 6274
+01-13 19:48:59.937 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:00.958 I/System.out( 2831): Values: 7553
+01-13 19:49:00.958 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:01.939 I/System.out( 2831): Values: 11043
+01-13 19:49:01.939 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:02.270 D/dalvikvm( 2831): Debugger has detached; object registry had 1 entries
+01-13 19:49:02.270 W/Vold    ( 1434): Ignoring unknown switch 'usb_mass_storage'
+01-13 19:49:02.940 I/System.out( 2831): Values: 18453
+01-13 19:49:02.940 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:03.121 W/Vold    ( 1434): Ignoring unknown switch 'usb_mass_storage'
+01-13 19:49:03.941 I/System.out( 2831): Values: 3471
+01-13 19:49:03.941 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:04.942 I/System.out( 2831): Values: 3739
+01-13 19:49:04.942 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:05.943 I/System.out( 2831): Values: 2954
+01-13 19:49:05.953 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:06.944 I/System.out( 2831): Values: 2540
+01-13 19:49:06.944 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:07.965 I/System.out( 2831): Values: 855
+01-13 19:49:07.965 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:08.966 I/System.out( 2831): Values: 560
+01-13 19:49:08.966 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:09.967 I/System.out( 2831): Values: 511
+01-13 19:49:09.967 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:10.968 I/System.out( 2831): Values: 1043
+01-13 19:49:10.968 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:11.969 I/System.out( 2831): Values: 583
+01-13 19:49:11.969 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:12.990 I/System.out( 2831): Values: 471
+01-13 19:49:12.990 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:13.981 I/System.out( 2831): Values: 473
+01-13 19:49:13.981 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:14.972 I/System.out( 2831): Values: 428
+01-13 19:49:14.982 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:15.973 I/System.out( 2831): Values: 472
+01-13 19:49:15.983 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:16.974 I/System.out( 2831): Values: 487
+01-13 19:49:16.974 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:17.965 I/System.out( 2831): Values: 491
+01-13 19:49:17.975 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:18.976 I/System.out( 2831): Values: 422
+01-13 19:49:18.976 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:19.977 I/System.out( 2831): Values: 1082
+01-13 19:49:19.977 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:20.978 I/System.out( 2831): Values: 453
+01-13 19:49:20.978 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:21.979 I/System.out( 2831): Values: 460
+01-13 19:49:21.979 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:22.980 I/System.out( 2831): Values: 498
+01-13 19:49:22.980 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:23.981 I/System.out( 2831): Values: 1711
+01-13 19:49:24.001 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:24.982 I/System.out( 2831): Values: 1923
+01-13 19:49:24.982 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:25.983 I/System.out( 2831): Values: 594
+01-13 19:49:25.983 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:26.593 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-13 19:49:26.593 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-13 19:49:26.593 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-13 19:49:26.593 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-13 19:49:26.593 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-13 19:49:26.603 D/BatteryService( 1574): SendIntentforPowersaver
+01-13 19:49:26.613 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 2 2 false
+01-13 19:49:26.613 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:49:26.613 D/PowerUI ( 1644): closing low battery warning: level=97
+01-13 19:49:26.624 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 97, mPluggedBatteryLevel = 95, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-13 19:49:26.634 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:49:26.634 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-13 19:49:26.984 I/System.out( 2831): Values: 2576
+01-13 19:49:26.984 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:27.975 I/System.out( 2831): Values: 2772
+01-13 19:49:27.975 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:28.976 I/System.out( 2831): Values: 453
+01-13 19:49:28.986 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:29.977 I/System.out( 2831): Values: 476
+01-13 19:49:29.977 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:30.978 I/System.out( 2831): Values: 1187
+01-13 19:49:30.978 I/System.out( 2831): Time difference in secs is: 240
+01-13 19:49:31.979 I/System.out( 2831): Values: 736
+01-13 19:49:31.979 I/System.out( 2831): Time difference in secs is: 240

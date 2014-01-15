@@ -1,0 +1,2065 @@
+--------- beginning of /dev/log/main
+01-14 17:38:05.232 D/dalvikvm( 1773): GC_EXPLICIT freed 306K, 7% free 6864K/7303K, paused 1ms+1ms
+01-14 17:38:10.247 D/dalvikvm( 1789): GC_EXPLICIT freed 454K, 11% free 6705K/7495K, paused 6ms+4ms
+01-14 17:38:15.252 D/dalvikvm( 1817): GC_EXPLICIT freed 235K, 6% free 6470K/6855K, paused 5ms+1ms
+01-14 17:38:20.247 D/dalvikvm( 1833): GC_EXPLICIT freed 185K, 5% free 6524K/6855K, paused 5ms+2ms
+01-14 17:38:21.588 I/power   ( 1574): *** set_screen_state 0
+01-14 17:38:21.588 D/PowerManagerService( 1574): setScreenStateLocked++, on: false, err: 0
+01-14 17:38:21.588 D/PowerManagerService( 1574): setScreenStateLocked, turn off the button light 
+01-14 17:38:21.588 D/lights  ( 1574): set_light_buttons_func: on=0 brightness=0
+01-14 17:38:21.598 D/lights  ( 1574): set_rotated_rgb_led: on=0 brightness=0
+01-14 17:38:21.598 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber-portrait/brightness string=0,len=1
+01-14 17:38:21.598 D/lights  ( 1574): set_rotated_rgb_led: on=0 brightness=0
+01-14 17:38:21.598 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green-portrait/brightness string=0,len=1
+01-14 17:38:21.598 D/lights  ( 1574): set_rotated_rgb_led: on=0 brightness=0
+01-14 17:38:21.598 E/lights  ( 1574): [LedErr] open attr failed name=/sys/class/leds/blue-portrait/brightness errno: 2
+01-14 17:38:21.608 V/KeyguardViewMediator( 1574): password timeout now
+01-14 17:38:21.608 D/HtcLockScreen( 1574): createPatternUnlockScreen() ...
+01-14 17:38:21.608 D/HtcLockScreen( 1574): packageInfo - PackageInfo{4104a048 com.htc.lockscreen}
+01-14 17:38:21.608 D/Sensors ( 1574): Enable akm: en = 0
+--------- beginning of /dev/log/system
+01-14 17:38:21.658 W/ProcessStats( 1574): Skipping unknown process pid 2533
+01-14 17:38:21.678 D/HostWidgetManager( 1678): pauseWidgets: 2
+01-14 17:38:21.678 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-14 17:38:21.678 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-14 17:38:21.678 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-14 17:38:21.678 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-14 17:38:21.678 D/BatteryService( 1574): SendIntentforPowersaver
+01-14 17:38:21.678 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 2 2 false
+01-14 17:38:21.678 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-14 17:38:21.688 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:38:21.698 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:38:21.698 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:38:21.698 D/PowerUI ( 1644): closing low battery warning: level=99
+01-14 17:38:21.708 D/PhoneWindow( 1678): couldn't save which view has focus because the focused view android.widget.RelativeLayout@407c1330 has no id.
+01-14 17:38:21.708 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 99, mPluggedBatteryLevel = 99, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-14 17:38:21.718 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-14 17:38:21.718 D/UsbnetService( 1574): onReceive SCREEN_OFF
+01-14 17:38:21.718 D/AlarmManager( 1574): ACTION_SCREEN_OFF
+01-14 17:38:21.738 D/RemoveMe( 1661): DCT got intent android.intent.action.SCREEN_OFF
+01-14 17:38:21.738 D/DataConnectionTracker( 1661): power saving case 6
+01-14 17:38:21.738 D/ConnectivityService( 1574): getMobileDataEnabled returning false
+01-14 17:38:21.748 D/DataConnectionTracker( 1661): power saving case 6
+01-14 17:38:21.748 D/RemoveMe( 1661): DCT got intent android.intent.action.SCREEN_OFF
+01-14 17:38:21.748 D/ConnectivityService( 1574): getMobileDataEnabled returning false
+01-14 17:38:21.758 I/TabletStatusBar( 1644): DISABLE_CLOCK: yes
+01-14 17:38:21.758 I/TabletStatusBar( 1644): DISABLE_EXPAND: yes
+01-14 17:38:21.758 I/TabletStatusBar( 1644): DISABLE_NAVIGATION: yes
+01-14 17:38:21.768 D/RemoveMe( 1661): DCT got intent android.intent.action.SCREEN_OFF
+01-14 17:38:21.778 D/WindowManager( 1574): setPenWorkingMode = 48
+01-14 17:38:21.808 D/SurfaceFlinger( 1438): getTokenForSurface(0xc631c) => 0 (client=0xa2580, bitmap=00000003), pid=1574
+01-14 17:38:21.808 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+01-14 17:38:21.828 D/AutoSetting( 1773): service - mHandler: cancel location update
+01-14 17:38:21.828 D/AutoSetting( 1773): service -           changes count: 0
+01-14 17:38:21.838 D/SurfaceFlinger( 1438): About to give-up screen, flinger = 0xa830
+01-14 17:38:21.858 I/TabletStatusBar( 1644): DISABLE_BACK: yes
+01-14 17:38:21.858 D/ContactMessageStore( 1661): start background delete task...
+01-14 17:38:21.868 D/dalvikvm( 1679): GC_EXPLICIT freed 7K, 9% free 7013K/7623K, paused 1ms+2ms
+01-14 17:38:21.868 D/ContactMessageStore( 1661): size: 0 , 0
+01-14 17:38:21.888 D/dalvikvm( 1679): GC_EXPLICIT freed 1K, 9% free 7012K/7623K, paused 1ms+2ms
+01-14 17:38:21.908 W/msm7x30.hwcomposer( 1438): hwc_set invalid context or list
+01-14 17:38:21.908 D/msm7x30.hwcomposer( 1438): HWC called FB enableHDMIOutput(0)
+01-14 17:38:21.918 D/ContactMessageStore( 1661): Background delete complete
+01-14 17:38:21.938 D/SurfaceFlinger( 1438): getTokenForSurface(0xc664c) => 0 (client=0xa98b8, bitmap=00000001), pid=1679
+01-14 17:38:21.938 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+01-14 17:38:21.948 D/IdleScreen_base( 1679): onRingUnlockEnd
+01-14 17:38:22.008 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+01-14 17:38:22.068 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=16, status=0, token=1)
+01-14 17:38:22.088 D/AK8975  ( 1448): Compass CLOSE 
+01-14 17:38:23.710 D/KeyguardViewMediator( 1574): wakeWhenReadyLocked(26)
+01-14 17:38:23.710 I/power   ( 1574): *** set_screen_state 1
+01-14 17:38:23.710 D/PowerManagerService( 1574): setScreenStateLocked++, on: true, err: 0
+01-14 17:38:23.710 D/lights  ( 1574): set_light_buttons_func: on=16777215 brightness=255
+01-14 17:38:23.710 D/PowerManagerService( 1574): button light setOrientation:-1
+01-14 17:38:23.720 D/lights  ( 1574): set_rotated_rgb_led: on=0 brightness=0
+01-14 17:38:23.720 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber-portrait/brightness string=0,len=1
+01-14 17:38:23.720 D/lights  ( 1574): set_rotated_rgb_led: on=1 brightness=255
+01-14 17:38:23.720 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green-portrait/brightness string=255,len=3
+01-14 17:38:23.720 D/lights  ( 1574): set_rotated_rgb_led: on=0 brightness=0
+01-14 17:38:23.720 E/lights  ( 1574): [LedErr] open attr failed name=/sys/class/leds/blue-portrait/brightness errno: 2
+01-14 17:38:23.720 D/Sensors ( 1574): Enable akm: en = 1
+01-14 17:38:23.720 D/PowerManagerService( 1574): setPenMenuButtonLed: 2
+01-14 17:38:23.720 D/PowerManagerService( 1574): Set pen menu button led (amber, green, blue) = 0, -1, 0), portrait = true
+01-14 17:38:23.730 D/Launcher.Model( 1678): updateAppUsageStatCache +
+01-14 17:38:23.730 D/Launcher.Model( 1678): updateAppUsageStatCache - diff: 2
+01-14 17:38:23.750 D/PREF    ( 1678): setWidgetTilt .FriendStreamLarge2Widget : 21
+01-14 17:38:23.760 D/SurfaceFlinger( 1438): Screen about to return, flinger = 0xa830
+01-14 17:38:23.760 D/AlarmManager( 1574): ACTION_SCREEN_ON
+01-14 17:38:23.770 D/msm7x30.hwcomposer( 1438): HWC called FB enableHDMIOutput(0)
+01-14 17:38:23.770 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-14 17:38:23.770 D/UsbnetService( 1574): onReceive SCREEN_ON
+01-14 17:38:23.770 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-14 17:38:23.780 D/HostWidgetManager( 1678): onResumeInKeyguard: 2
+01-14 17:38:23.780 D/FxWorkspace( 1678): prepareUnlockAnimation
+01-14 17:38:23.790 D/FxWorkspaceClient( 1678): showAllScreens()
+01-14 17:38:23.790 D/FxWorkspaceClient( 1678): freezeAllScreens
+01-14 17:38:23.800 D/UnlockAnimator( 1678): setFrame: unlock_to_03
+01-14 17:38:23.800 D/AK8975  ( 1448): Compass Start
+01-14 17:38:23.810 D/Rotate.Performance( 1678): FxWorkspace.show()
+01-14 17:38:23.820 D/RemoveMe( 1661): DCT got intent android.intent.action.SCREEN_ON
+01-14 17:38:23.820 D/ConnectivityService( 1574): getMobileDataEnabled returning false
+01-14 17:38:23.830 D/ConnectivityService( 1574): getMobileDataEnabled returning false
+01-14 17:38:23.840 D/RemoveMe( 1661): DCT got intent android.intent.action.SCREEN_ON
+01-14 17:38:23.850 D/RemoveMe( 1661): DCT got intent android.intent.action.SCREEN_ON
+01-14 17:38:24.641 D/HtcLockScreen3.0( 1574): HtcLockScreen: onInterceptTouchEvent ACTION_DOWN
+01-14 17:38:24.781 D/HtcLockScreen3.0( 1574): HtcLockScreen: onInterceptTouchEvent ACTION_UP
+01-14 17:38:26.182 D/HtcLockScreen3.0( 1574): HtcLockScreen: onInterceptTouchEvent ACTION_DOWN
+01-14 17:38:26.523 D/HtcLockScreen3.0( 1574): HtcLockScreen: onInterceptTouchEvent ACTION_UP
+01-14 17:38:26.553 D/IdleScreen_base( 1679): onRingUnlockStart
+01-14 17:38:26.853 D/KeyguardViewManager( 1574): hide()
+01-14 17:38:26.863 I/TabletStatusBar( 1644): DISABLE_CLOCK: no
+01-14 17:38:26.863 I/TabletStatusBar( 1644): DISABLE_NAVIGATION: no
+01-14 17:38:26.873 D/MyHTC   ( 1900): PoweronReceiver.onReceive(): intent=android.intent.action.USER_PRESENT
+01-14 17:38:26.873 D/FxWorkspace( 1678): unlockAnimation
+01-14 17:38:26.873 D/FxWorkspace( 1678): onUnlockAnimationStart()
+01-14 17:38:26.873 D/UnlockAnimator( 1678): playMarker: unlock_to_03
+01-14 17:38:26.873 D/FxWorkspaceClient( 1678): showAllScreens()
+01-14 17:38:26.873 D/Rotate.Performance( 1678): FxWorkspace.show()
+01-14 17:38:26.893 D/Sensors ( 1574): Enable akm: en = 0
+01-14 17:38:26.893 D/Twitter-MessageReceiver( 1861): action android.intent.action.USER_PRESENT
+01-14 17:38:26.913 D/SyncProvider( 1861): match settings
+01-14 17:38:26.943 D/FacebookReceiver( 1861): Intent.ACTION_USER_PRESENT SyncInterval=3600000,currTime=1389721106930
+01-14 17:38:26.943 W/InputManagerService( 1574): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@409fd188
+01-14 17:38:26.953 D/FacebookReceiver( 1861): Intent.ACTION_USER_PRESENT lastStreamSyncTime=1389721106954,lastFriendSyncTime=1389721106954
+01-14 17:38:26.953 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+01-14 17:38:26.963 D/SyncProvider( 1861): match settings
+01-14 17:38:26.963 D/FlickrReceiver( 1861): Intent.ACTION_USER_PRESENT SyncInterval=3600000,currTime=1389721106973
+01-14 17:38:26.973 D/FlickrReceiver( 1861): Intent.ACTION_USER_PRESENT lastStreamSyncTime=1389721106981,lastFriendSyncTime=1389721106981
+01-14 17:38:26.983 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=18, status=0, token=0)
+01-14 17:38:26.993 D/Sensors ( 1574): Enable akm: en = 1
+01-14 17:38:26.993 I/SharedBufferStack( 1678): ShareClientTryLock succeed after 37 trial
+01-14 17:38:27.033 D/dalvikvm( 1644): GC_CONCURRENT freed 363K, 6% free 8455K/8967K, paused 6ms+8ms
+01-14 17:38:27.073 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=17, status=0, token=0)
+01-14 17:38:27.073 D/Sensors ( 1574): Enable akm: en = 0
+01-14 17:38:27.073 I/TabletStatusBar( 1644): DISABLE_BACK: no
+01-14 17:38:27.093 D/dalvikvm( 1679): GC_EXPLICIT freed 152K, 9% free 7013K/7623K, paused 1ms+13ms
+01-14 17:38:27.113 D/SyncProvider( 1861): match settings
+01-14 17:38:27.133 D/dalvikvm( 1679): GC_EXPLICIT freed 2K, 9% free 7012K/7623K, paused 1ms+3ms
+01-14 17:38:27.193 D/dalvikvm( 1679): GC_EXPLICIT freed 6K, 9% free 7012K/7623K, paused 6ms+1ms
+01-14 17:38:27.233 D/dalvikvm( 1679): GC_EXPLICIT freed 1K, 9% free 7012K/7623K, paused 4ms+3ms
+01-14 17:38:27.354 D/AK8975  ( 1448): Compass CLOSE 
+01-14 17:38:27.404 D/dalvikvm( 1679): GC_EXPLICIT freed 2K, 9% free 7012K/7623K, paused 1ms+2ms
+01-14 17:38:27.444 D/dalvikvm( 1679): GC_EXPLICIT freed 1K, 9% free 7012K/7623K, paused 1ms+1ms
+01-14 17:38:27.864 D/FxWorkspace( 1678): onUnlockAnimationEnd()
+01-14 17:38:27.864 D/HostWidgetManager( 1678): onUserPresent: 2
+01-14 17:38:27.864 D/HostWidgetManager( 1678): resumeWidgets: 2 sort: true
+01-14 17:38:27.874 D/FxWorkspace( 1678): changeScreensVisibility
+01-14 17:38:27.874 D/FxWorkspace( 1678): changeScreensVisibility
+01-14 17:38:28.375 D/Sensors ( 1574): Enable akm: en = 1
+01-14 17:38:28.385 D/AK8975  ( 1448): Compass Start
+01-14 17:38:29.436 I/ActivityManager( 1574): Start to apply OOP
+01-14 17:38:34.571 D/dalvikvm( 1861): GC_EXPLICIT freed 245K, 6% free 6798K/7175K, paused 6ms+2ms
+01-14 17:38:36.743 D/AndroidRuntime( 2544): 
+01-14 17:38:36.743 D/AndroidRuntime( 2544): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-14 17:38:36.753 D/AndroidRuntime( 2544): CheckJNI is OFF
+01-14 17:38:36.843 D/CursorWindowStats( 2544): Get CursorWindow size from framework resource:4194304
+01-14 17:38:36.883 D/AndroidRuntime( 2544): Calling main entry com.android.commands.pm.Pm
+01-14 17:38:36.893 I/ActivityManager( 1574): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=2552 uid=10087 gids={1015, 2001}
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.google.android.apps.uploader (pid 1917): hidden #16
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.android.smith (pid 1988): hidden #17
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.htc.recommend (pid 2357): hidden #18
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.google.android.gm (pid 2265): hidden #19
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.htc.wdm (pid 2223): hidden #20
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.htc.dockmode (pid 2367): hidden #21
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.htc.android.mail (pid 2347): hidden #22
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.android.browser (pid 2334): hidden #23
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.google.android.partnersetup (pid 2249): hidden #24
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.htc.messagecs (pid 2325): hidden #25
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.sdgtl.watch.flyer (pid 1845): hidden #26
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.htc.cspeoplesync (pid 2313): hidden #27
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.htc.calendar (pid 2303): hidden #28
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.google.android.gsf.login (pid 2284): hidden #29
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.htc.lmw (pid 2292): hidden #30
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.htc.googlereader (pid 2214): hidden #31
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.htc.htchubsyncprovider (pid 2204): hidden #32
+01-14 17:38:36.913 I/ActivityManager( 1574): No longer want com.htc.htcMessageUploader (pid 1943): hidden #33
+01-14 17:38:36.923 I/ActivityManager( 1574): No longer want com.htc.music (pid 2180): hidden #34
+01-14 17:38:36.923 I/ActivityManager( 1574): No longer want com.htc.sdm:remote (pid 2178): hidden #35
+01-14 17:38:36.923 I/ActivityManager( 1574): No longer want com.htc.notes:NotesService (pid 1933): hidden #36
+01-14 17:38:36.923 I/ActivityManager( 1574): No longer want com.htc.streamplayer (pid 2161): hidden #37
+01-14 17:38:36.923 I/ActivityManager( 1574): No longer want com.google.android.apps.maps:FriendService (pid 2112): hidden #38
+01-14 17:38:36.923 I/ActivityManager( 1574): No longer want com.htc.reportagent (pid 1891): hidden #39
+01-14 17:38:36.923 I/ActivityManager( 1574): No longer want com.htc.opensense (pid 2063): hidden #40
+01-14 17:38:36.923 I/ActivityManager( 1574): No longer want com.htc.launcher.widgetscanner (pid 2062): hidden #41
+01-14 17:38:36.923 I/ActivityManager( 1574): No longer want com.htc.android.Stock (pid 2042): hidden #42
+01-14 17:38:36.923 I/ActivityManager( 1574): No longer want com.android.updater (pid 2017): hidden #43
+01-14 17:38:36.923 I/ActivityManager( 1574): No longer want com.htc.android.worldclock (pid 2004): hidden #44
+01-14 17:38:36.923 I/ActivityManager( 1574): No longer want com.htc.taskmanager (pid 2026): hidden #45
+01-14 17:38:36.923 I/ActivityManager( 1574): No longer want com.google.android.onetimeinitializer (pid 1997): hidden #46
+01-14 17:38:36.923 I/ActivityManager( 1574): No longer want com.htc.resetnotify (pid 1980): hidden #47
+01-14 17:38:36.953 D/AutoSetting( 1773): service - mRequestRunnable: screen on delay 10s, request NLP now
+01-14 17:38:37.023 W/ContentService( 1574): binderDied() at ObserverNode name com.google.android.gsf.gservices
+01-14 17:38:37.033 W/ContentService( 1574): binderDied() at ObserverNode name com.google.android.gsf.gservices
+01-14 17:38:37.043 W/ContentService( 1574): binderDied() at ObserverNode name com.google.android.gsf.gservices
+01-14 17:38:37.043 D/AutoSetting( 1773): service - requestNLP() NetworkLocationProvider not enabled
+01-14 17:38:37.053 W/ContentService( 1574): binderDied() at ObserverNode name favorites
+01-14 17:38:37.053 W/ContentService( 1574): binderDied() at ObserverNode name htc_application_notification
+01-14 17:38:37.093 D/dalvikvm( 2552): GC_EXPLICIT freed 40K, 5% free 6458K/6787K, paused 2ms+1ms
+01-14 17:38:37.433 W/ActivityManager( 1574): No content provider found for: 
+01-14 17:38:37.443 W/ActivityManager( 1574): No content provider found for: 
+01-14 17:38:37.453 I/ActivityManager( 1574): No longer want com.htc.laputa.HtcLaputaInstaller (pid 2197): hidden #16
+01-14 17:38:37.453 D/PackageParser( 1574): Scanning package: /data/app/vmdl1363898184.tmp
+01-14 17:38:37.514 I/PackageManager( 1574): Removing non-system package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam
+01-14 17:38:37.514 I/ActivityManager( 1574): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam uid=10106
+01-14 17:38:37.614 D/dalvikvm( 1574): GC_CONCURRENT freed 2082K, 13% free 15895K/18119K, paused 2ms+4ms
+01-14 17:38:37.874 D/PackageManager( 1574): Scanning package uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam
+01-14 17:38:37.874 I/PackageManager( 1574): Package uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam codePath changed from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam-1.apk; Retaining data and using new
+01-14 17:38:37.874 I/PackageManager( 1574): Unpacking native libraries for /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam-1.apk
+01-14 17:38:38.114 D/dalvikvm( 2561): DexOpt: load 36ms, verify+opt 149ms
+01-14 17:38:38.284 I/ActivityManager( 1574): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam uid=10106
+01-14 17:38:38.284 W/PackageManager( 1574): Code path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam-1.apk
+01-14 17:38:38.284 D/PackageManager( 1574):   Activities: uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam.MainActivity
+01-14 17:38:38.284 W/PackageManager( 1574): Resource path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam-1.apk
+01-14 17:38:38.444 D/PackageManager( 1574): [embedded] New package installed in /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam-1.apk
+01-14 17:38:38.765 I/ActivityManager( 1574): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam uid=10106
+01-14 17:38:38.825 D/dalvikvm( 1678): GC_EXPLICIT freed 1329K, 22% free 11151K/14215K, paused 2ms+3ms
+01-14 17:38:38.845 D/dalvikvm( 1664): GC_EXPLICIT freed 47K, 11% free 7775K/8711K, paused 1ms+3ms
+01-14 17:38:38.855 D/Launcher.Model( 1678): onReceive intent=Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam flg=0x10000010 (has extras) }
+01-14 17:38:38.865 D/PhoneApp( 1661): -- PackageChangeBroadcastReceiver  action = android.intent.action.PACKAGE_REMOVED
+01-14 17:38:38.865 I/ActivityManager( 1574): Start proc com.android.smith for broadcast com.android.smith/.PackageReceiver: pid=2564 uid=10009 gids={1007, 1015}
+01-14 17:38:38.925 I/SM:lib  ( 2564): JNI_OnLoad(): library version = 5
+01-14 17:38:38.935 I/SM:lib  ( 2564): JNI_OnLoad(): result = 0x10004
+01-14 17:38:38.935 D/SM:HtcNative( 2564): system lib, 4.0.honeycomb.HTK75C-flyer-l5-s16
+01-14 17:38:38.935 D/SM:PackageReceiver( 2564): package removed: package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam
+01-14 17:38:38.945 D/PackageManager( 1574): generateServicesMap(android.accounts.AccountAuthenticator): 13 services unchanged
+01-14 17:38:38.955 D/WidgetScanner( 1678): onReceive: Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam flg=0x10000010 cmp=com.htc.launcher/.widget.WidgetScannerTrigger (has extras) }
+01-14 17:38:38.955 I/ActivityManager( 1574): No longer want com.htc.ereader.drmengine (pid 2276): hidden #16
+01-14 17:38:38.965 I/ActivityManager( 1574): Start proc com.htc.launcher.widgetscanner for service com.htc.launcher/.widget.WidgetScannerService: pid=2571 uid=9999 gids={3003, 3002, 3001, 2001, 1015}
+01-14 17:38:38.975 I/ActivityManager( 1574): Start proc com.htc.opensense for broadcast com.htc.opensense/.pluginmanager.RegisterReceiver: pid=2572 uid=10013 gids={2001, 3003, 1006, 1015}
+01-14 17:38:39.085 D/dalvikvm( 1439): GC_EXPLICIT freed 11K, 5% free 6453K/6787K, paused 1ms+1ms
+01-14 17:38:39.095 D/PackageManager( 1574): generateServicesMap(android.content.SyncAdapter): 21 services unchanged
+01-14 17:38:39.115 I/RegisterService( 2572): android.intent.action.PACKAGE_REMOVED package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam
+01-14 17:38:39.145 D/dalvikvm( 1439): GC_EXPLICIT freed <1K, 5% free 6453K/6787K, paused 1ms+1ms
+01-14 17:38:39.175 D/dalvikvm( 1439): GC_EXPLICIT freed <1K, 5% free 6453K/6787K, paused 1ms+1ms
+01-14 17:38:39.175 I/ActivityManager( 1574): Start proc com.htc.cs for broadcast com.htc.cs/.plugin.PluginRegisterReceiver: pid=2587 uid=10041 gids={3003, 1015}
+01-14 17:38:39.195 D/LauncherApplication( 2571): + LauncherApplication onCreate()
+01-14 17:38:39.235 D/PackageManager( 1574): generateServicesMap(android.accounts.AccountAuthenticator): 13 services unchanged
+01-14 17:38:39.245 D/PackageManager( 1574): generateServicesMap(android.content.SyncAdapter): 21 services unchanged
+01-14 17:38:39.245 D/Launcher.Model( 1678): onReceive intent=Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam flg=0x10000010 (has extras) }
+01-14 17:38:39.245 D/Launcher.Model( 1678): mAllAppsList.updatePackage uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam
+01-14 17:38:39.255 D/PhoneApp( 1661): -- PackageChangeBroadcastReceiver  action = android.intent.action.PACKAGE_ADDED
+01-14 17:38:39.305 I/ActivityManager( 1574): No longer want com.htc.demoflopackageinstaller (pid 2408): hidden #16
+01-14 17:38:39.315 D/LauncherApplication( 2571): - LauncherApplication onCreate()
+01-14 17:38:39.325 I/ActivityThread( 2587): Pub com.htc.connectedservice.csprovider: com.htc.cs.provider.ConnectedServiceProvider
+01-14 17:38:39.335 I/ActivityThread( 2587): Pub com.htc.cs.dashboard: com.htc.cs.sync.dashboard.DashboardProvider
+01-14 17:38:39.345 D/vicky   ( 2587): vicky received: android.intent.action.PACKAGE_REMOVED
+01-14 17:38:39.345 D/dalvikvm( 2571): GC_CONCURRENT freed 174K, 4% free 6766K/7047K, paused 1ms+9ms
+01-14 17:38:39.676 D/WidgetScanner( 2571): onReceiveInternal: Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam flg=0x10000010 cmp=com.htc.launcher/.widget.WidgetScannerService (has extras) }
+01-14 17:38:39.676 D/HtcWidgetScanner( 2571): onPackageRemoved: uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam
+01-14 17:38:39.696 I/ActivityManager( 1574): Start proc com.htc.recommend for broadcast com.htc.recommend/.receiver.AppInstalledReceiver: pid=2596 uid=10056 gids={2001, 3003}
+01-14 17:38:39.726 I/ActivityManager( 1574): No longer want com.htc.ereader (pid 2402): hidden #16
+01-14 17:38:39.756 D/CombinedWidgetProvider( 1678): +addAppWidget
+01-14 17:38:39.766 I/ActivityThread( 2596): Pub com.htc.recommend.provider.HTCRecommendCarouselProvider: com.htc.recommend.provider.HTCRecommendCarouselProvider
+01-14 17:38:39.766 I/ActivityThread( 2596): Pub com.htc.recommend.provider.HTCRecommendContentProvider: com.htc.recommend.provider.HTCRecommendContentProvider
+01-14 17:38:39.776 D/HTC Recommends( 2596): /mnt/sdcard/.LHYGB/CKCL
+01-14 17:38:39.776 D/HTC Recommends( 2596): no token file
+01-14 17:38:39.776 D/HTC Recommends( 2596): no token file
+01-14 17:38:39.776 D/HTC Recommends( 2596): Log settings are 
+01-14 17:38:39.776 D/HTC Recommends( 2596): Enable General Log : false
+01-14 17:38:39.776 D/HTC Recommends( 2596): Enable Analytic Log : false
+01-14 17:38:39.776 D/HTC Recommends( 2596): Enable Normal Log Level (dependent on General Log) : false
+01-14 17:38:39.776 D/HTC Recommends( 2596): Enable Critical Log Level (dependent on General Log) : false
+01-14 17:38:39.776 D/SqliteDatabaseCpp( 2596): dbopen(): path = /data/data/com.htc.recommend/databases , key = `tgvegkmmejd, flag = 6, file size = 45056
+01-14 17:38:39.786 D/SqliteDatabaseCpp( 2596): dbopen(): path = /data/data/com.htc.recommend/databases , key = `tgvegkmmejd, mode: delete, disk free size: 7853 M, handle: 0x15d780
+01-14 17:38:39.896 D/CombinedWidgetProvider( 1678): addAppWidget: WidgetSummary(YouTube/APP_WIDGET/[I@4098c178 x [I@4098cb88/-1/ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.widget.WidgetProvider}/[I@4098d3a0)
+01-14 17:38:39.896 D/CombinedWidgetProvider( 1678): addAppWidget: WidgetSummary(Twitter (large)/APP_WIDGET/[I@4098fb08 x [I@4098fb28/-1/ComponentInfo{com.twitter.android/com.twitter.android.client.WidgetLargeProvider}/[I@4098fb48)
+01-14 17:38:39.896 D/CombinedWidgetProvider( 1678): addAppWidget: WidgetSummary(Twitter (small)/APP_WIDGET/[I@40995270 x [I@40995290/-1/ComponentInfo{com.twitter.android/com.twitter.android.client.WidgetSmallProvider}/[I@40994868)
+01-14 17:38:39.896 D/CombinedWidgetProvider( 1678): addAppWidget: WidgetSummary(Traffic/APP_WIDGET/[I@40a47098 x [I@40a479b8/-1/ComponentInfo{com.google.android.apps.maps/com.google.googlenav.appwidget.traffic.TrafficAppWidget}/[I@40a49608)
+01-14 17:38:39.896 D/CombinedWidgetProvider( 1678): addAppWidget: WidgetSummary(Latitude/APP_WIDGET/[I@40a4bdb8 x [I@40a4cfe0/-1/ComponentInfo{com.google.android.apps.maps/com.google.googlenav.appwidget.friends.FriendsAppWidgetProvider}/[I@40a4d000)
+01-14 17:38:39.896 D/CombinedWidgetProvider( 1678): addAppWidget: WidgetSummary(Market/APP_WIDGET/[I@40a4f750 x [I@40a4f770/-1/ComponentInfo{com.android.vending/com.android.vending.MarketWidgetProvider}/[I@40a4f790)
+01-14 17:38:39.896 D/CombinedWidgetProvider( 1678): addAppWidget: WidgetSummary(Google Search/APP_WIDGET/[I@40dafb20 x [I@40dafb40/-1/ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchWidgetProvider}/[I@40dafb60)
+01-14 17:38:39.896 D/CombinedWidgetProvider( 1678): addAppWidget: WidgetSummary(Gmail/APP_WIDGET/[I@407b4110 x [I@407b4130/-1/ComponentInfo{com.google.android.gm/com.google.android.gm.widget.GmailWidgetProvider}/[I@407b4150)
+01-14 17:38:39.896 D/CombinedWidgetProvider( 1678): addAppWidget: WidgetSummary(Bookmarks/APP_WIDGET/[I@409b0b68 x [I@407719d8/-1/ComponentInfo{com.android.browser/com.android.browser.widget.BookmarkThumbnailWidgetProvider}/[I@407719f8)
+01-14 17:38:39.896 D/CombinedWidgetProvider( 1678): -addAppWidget
+01-14 17:38:39.896 D/CombinedWidgetProvider( 1678): +addHtcWidgets, cat: -1
+01-14 17:38:39.896 D/CombinedWidgetProvider( 1678):  uri: content://com.htc.launcher.widget.htcwidget/htcwidgets?widget_only=true
+01-14 17:38:39.896 D/HtcWidgetProvider( 1678): row 1
+01-14 17:38:39.906 D/CombinedWidgetProvider( 1678): addHtcWidget: WidgetSummary(Tips for Home/HTC_WIDGET/[I@409a8080 x [I@409a80a0/1101/ComponentInfo{com.htc.rosiewidgets.tip/com.htc.rosiewidgets.tip.TipWidgetItem}/[I@409a80c0)
+01-14 17:38:39.906 D/CombinedWidgetProvider( 1678): -addHtcWidgets
+01-14 17:38:39.906 D/CombinedWidgetProvider( 1678): +addFxWidgets , provider: null
+01-14 17:38:39.906 D/FxWidgetProviderInfoCollector( 1678): getAllStyles + [Ljava.lang.String;@406d1dc8 @ 
+01-14 17:38:39.926 D/FxWidgetProvider( 1678): row 94
+01-14 17:38:39.926 D/HtcWidgetProvider( 1678): update 0
+01-14 17:38:39.976 D/FxWidgetScanner( 2571): onPackageRemoved: uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam
+01-14 17:38:39.976 D/FxWidgetScanner( 2571): removeFxWidgetList
+01-14 17:38:40.226 D/FxWidgetScanner( 2571): delete 0
+01-14 17:38:40.226 D/WidgetScanner( 2571): upadted? false
+01-14 17:38:40.246 I/ActivityManager( 1574): No longer want com.htc.home.personalize (pid 1904): hidden #16
+01-14 17:38:40.436 I/ActivityThread( 2596): Pub com.htc.recommend.provider.HTCRecommendSuggestionProvider: com.htc.recommend.provider.HTCRecommendSuggestionProvider
+01-14 17:38:40.446 I/ActivityManager( 1574): Start proc com.htc.wdm for broadcast com.htc.wdm/.receiver.HTCDirectReceiver: pid=2604 uid=10070 gids={3003, 2001, 1015}
+01-14 17:38:40.476 I/ActivityManager( 1574): No longer want com.htc.sdm (pid 2169): hidden #16
+01-14 17:38:40.486 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.486 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Watch/FX_WIDGET/[I@4091fb98 x [I@4091fbb8/-2/ComponentInfo{com.htc.widget3d.watch/com.htc.widget3d.watch.WatchProvider}/[I@4091fbd8)
+01-14 17:38:40.496 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.496 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Airplane Mode/FX_WIDGET/[I@40921d08 x [I@40921d28/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.AirplaneWidget}/[I@40921d48)
+01-14 17:38:40.496 I/ActivityThread( 2604): Pub com.htc.wdm.provider.HtcDirectCarouselProvider: com.htc.wdm.provider.HtcDirectCarouselProvider
+01-14 17:38:40.496 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.506 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Bluetooth/FX_WIDGET/[I@409241e0 x [I@40924200/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.BTWidget}/[I@40924220)
+01-14 17:38:40.506 I/ActivityThread( 2604): Pub com.htc.wdm.status.HtcDirectProvider: com.htc.wdm.status.HtcDirectProvider
+01-14 17:38:40.506 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.506 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(GPS/FX_WIDGET/[I@40926550 x [I@40926570/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.GPSWidget}/[I@40926590)
+01-14 17:38:40.516 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.516 D/HTC Hub ( 2604): /mnt/sdcard/.LHYGB/CKCL
+01-14 17:38:40.516 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Wi-Fi Hotspot/FX_WIDGET/[I@408a4138 x [I@408a4158/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.HotspotWidget}/[I@408a4178)
+01-14 17:38:40.516 D/HTC Hub ( 2604): no token file
+01-14 17:38:40.516 D/HTC Hub ( 2604): no token file
+01-14 17:38:40.516 D/HTC Hub ( 2604): Log settings are 
+01-14 17:38:40.516 D/HTC Hub ( 2604): Enable General Log : false
+01-14 17:38:40.516 D/HTC Hub ( 2604): Enable Analytic Log : false
+01-14 17:38:40.516 D/HTC Hub ( 2604): Enable Normal Log Level (dependent on General Log) : false
+01-14 17:38:40.516 D/HTC Hub ( 2604): Enable Critical Log Level (dependent on General Log) : false
+01-14 17:38:40.516 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.526 I/ActivityManager( 1574): No longer want com.htc.musicenhancer (pid 2428): hidden #16
+01-14 17:38:40.536 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Mobile Network/FX_WIDGET/[I@408a6620 x [I@408a6640/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.MobileNetworkWidget}/[I@408a6660)
+01-14 17:38:40.536 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.536 D/SM:PackageReceiver( 2564): package added: package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam
+01-14 17:38:40.536 I/ActivityManager( 1574): Start proc com.htc.htchubsyncprovider for content provider com.htc.htchubsyncprovider/.provider.MyDownloadsProvider: pid=2612 uid=10069 gids={3003, 2001, 1015}
+01-14 17:38:40.546 D/WidgetScanner( 1678): onReceive: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam flg=0x10000010 cmp=com.htc.launcher/.widget.WidgetScannerTrigger (has extras) }
+01-14 17:38:40.556 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Wi-Fi/FX_WIDGET/[I@408a8ab8 x [I@408a8ad8/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.WiFiWidget}/[I@408a8af8)
+01-14 17:38:40.556 D/WidgetScanner( 2571): onReceiveInternal: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam flg=0x10000010 cmp=com.htc.launcher/.widget.WidgetScannerService (has extras) }
+01-14 17:38:40.556 D/HtcWidgetScanner( 2571): onPackageAdded: uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam
+01-14 17:38:40.567 I/RegisterService( 2572): android.intent.action.PACKAGE_ADDED package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam
+01-14 17:38:40.567 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.567 I/ActivityManager( 1574): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=2619 uid=10031 gids={}
+01-14 17:38:40.577 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@408accd0 x [I@408accf0/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@408acd10)
+01-14 17:38:40.587 D/FxWidgetProvider( 1678): row 3
+01-14 17:38:40.587 D/FxWidgetProviderInfoCollector( 1678): more than one style shared the same component! Return the first one found.
+01-14 17:38:40.587 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@408af030 x [I@408af050/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@408af070)
+01-14 17:38:40.597 D/FxWidgetProvider( 1678): row 3
+01-14 17:38:40.597 D/FxWidgetProviderInfoCollector( 1678): more than one style shared the same component! Return the first one found.
+01-14 17:38:40.607 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@408b13a0 x [I@408b13c0/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@408b13e0)
+01-14 17:38:40.607 D/FxWidgetProvider( 1678): row 3
+01-14 17:38:40.617 D/FxWidgetProviderInfoCollector( 1678): more than one style shared the same component! Return the first one found.
+01-14 17:38:40.617 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@408b34e0 x [I@408b3500/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@408b3520)
+01-14 17:38:40.617 D/FxWidgetProvider( 1678): row 3
+01-14 17:38:40.627 I/ActivityThread( 2612): Pub com.htc.wdm.provider.WDMProvider: com.htc.htchubsyncprovider.provider.WDMProvider
+01-14 17:38:40.627 D/FxWidgetProviderInfoCollector( 1678): more than one style shared the same component! Return the first one found.
+01-14 17:38:40.627 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@408b5608 x [I@408b5628/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@408b5648)
+01-14 17:38:40.637 I/ActivityThread( 2612): Pub com.htc.wotaproviders.MyDownloadsProvider: com.htc.htchubsyncprovider.provider.MyDownloadsProvider
+01-14 17:38:40.637 D/FxWidgetProvider( 1678): row 3
+01-14 17:38:40.637 D/FxWidgetProviderInfoCollector( 1678): more than one style shared the same component! Return the first one found.
+01-14 17:38:40.647 I/ActivityThread( 2619): Pub com.svox.pico.providers.SettingsProvider: com.svox.pico.providers.SettingsProvider
+01-14 17:38:40.647 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@408b7948 x [I@408b7968/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@408b7988)
+01-14 17:38:40.647 D/FxWidgetProvider( 1678): row 3
+01-14 17:38:40.647 D/FxWidgetProviderInfoCollector( 1678): more than one style shared the same component! Return the first one found.
+01-14 17:38:40.647 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@408b9ad0 x [I@408b9af0/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@408b9b10)
+01-14 17:38:40.647 D/FxWidgetProvider( 1678): row 5
+01-14 17:38:40.657 D/vicky   ( 2587): vicky received: android.intent.action.PACKAGE_ADDED
+01-14 17:38:40.667 D/FxWidgetProviderInfoCollector( 1678): more than one style shared the same component! Return the first one found.
+01-14 17:38:40.667 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(People/FX_WIDGET/[I@408bbbe0 x [I@408bbc00/-2/ComponentInfo{com.htc.htccontactwidgets_3d_fusion/com.htc.htccontactwidgets_3d_fusion.WidgetReceiver}/[I@408bbc20)
+01-14 17:38:40.677 D/FxWidgetProvider( 1678): row 5
+01-14 17:38:40.677 D/FxWidgetProviderInfoCollector( 1678): more than one style shared the same component! Return the first one found.
+01-14 17:38:40.677 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(People/FX_WIDGET/[I@408be260 x [I@408be280/-2/ComponentInfo{com.htc.htccontactwidgets_3d_fusion/com.htc.htccontactwidgets_3d_fusion.WidgetReceiver}/[I@408be2a0)
+01-14 17:38:40.677 D/FxWidgetProvider( 1678): row 5
+01-14 17:38:40.677 I/ActivityManager( 1574): No longer want com.htc.pen (pid 2080): hidden #16
+01-14 17:38:40.687 D/GTalkService( 1710): [GTalkService.1] handlePackageInstalled: re-initialize providers
+01-14 17:38:40.687 D/GTalkService( 1710): [RawStanzaProvidersMgr] ##### searchProvidersFromIntent
+01-14 17:38:40.697 D/FxWidgetProviderInfoCollector( 1678): more than one style shared the same component! Return the first one found.
+01-14 17:38:40.697 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(People/FX_WIDGET/[I@408c06c8 x [I@408c06e8/-2/ComponentInfo{com.htc.htccontactwidgets_3d_fusion/com.htc.htccontactwidgets_3d_fusion.WidgetReceiver}/[I@408c0708)
+01-14 17:38:40.697 I/ActivityManager( 1574): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.RlzPingBroadcastReceiver: pid=2628 uid=10081 gids={3003}
+01-14 17:38:40.707 D/FxWidgetProvider( 1678): row 5
+01-14 17:38:40.707 D/FxWidgetProviderInfoCollector( 1678): more than one style shared the same component! Return the first one found.
+01-14 17:38:40.707 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(People/FX_WIDGET/[I@408c2b18 x [I@408c2b38/-2/ComponentInfo{com.htc.htccontactwidgets_3d_fusion/com.htc.htccontactwidgets_3d_fusion.WidgetReceiver}/[I@408c2b58)
+01-14 17:38:40.707 D/FxWidgetProvider( 1678): row 5
+01-14 17:38:40.707 D/FxWidgetProviderInfoCollector( 1678): more than one style shared the same component! Return the first one found.
+01-14 17:38:40.717 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(People/FX_WIDGET/[I@408c4f68 x [I@408c4f88/-2/ComponentInfo{com.htc.htccontactwidgets_3d_fusion/com.htc.htccontactwidgets_3d_fusion.WidgetReceiver}/[I@408c4fa8)
+01-14 17:38:40.727 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.737 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Calendar/FX_WIDGET/[I@408c7438 x [I@408c7458/-2/ComponentInfo{com.htc.htccalendarwidgets/com.htc.htccalendarwidgets.WidgetReceiver}/[I@408c7478)
+01-14 17:38:40.747 D/FxWidgetProvider( 1678): row 3
+01-14 17:38:40.747 D/FxWidgetProviderInfoCollector( 1678): more than one style shared the same component! Return the first one found.
+01-14 17:38:40.757 I/ActivityThread( 2628): Pub com.google.android.partnersetup.rlzprovider: com.google.android.partnersetup.RlzProvider
+01-14 17:38:40.757 I/ActivityThread( 2628): Pub com.google.android.partnersetup.rlzappprovider: com.google.android.partnersetup.RlzAppProvider
+01-14 17:38:40.767 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Calendar/FX_WIDGET/[I@408c98c8 x [I@408c98e8/-2/ComponentInfo{com.htc.htccalendarwidgets/com.htc.htccalendarwidgets.WidgetReceiver}/[I@408c9908)
+01-14 17:38:40.767 D/FxWidgetProvider( 1678): row 3
+01-14 17:38:40.767 D/FxWidgetProviderInfoCollector( 1678): more than one style shared the same component! Return the first one found.
+01-14 17:38:40.777 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Calendar/FX_WIDGET/[I@408cbd80 x [I@408cbda0/-2/ComponentInfo{com.htc.htccalendarwidgets/com.htc.htccalendarwidgets.WidgetReceiver}/[I@408cbdc0)
+01-14 17:38:40.777 D/FxWidgetProvider( 1678): row 3
+01-14 17:38:40.777 I/ActivityManager( 1574): No longer want com.htc.syncagent (pid 1817): hidden #16
+01-14 17:38:40.787 D/FxWidgetProviderInfoCollector( 1678): more than one style shared the same component! Return the first one found.
+01-14 17:38:40.797 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Calendar/FX_WIDGET/[I@408ce1d0 x [I@408ce1f0/-2/ComponentInfo{com.htc.htccalendarwidgets/com.htc.htccalendarwidgets.WidgetReceiver}/[I@408ce210)
+01-14 17:38:40.797 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.797 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Calendar/FX_WIDGET/[I@408d0440 x [I@408d0460/-2/ComponentInfo{com.htc.htccalendarwidgets/com.htc.htccalendarwidgets.WidgetReceiver}/[I@408d0480)
+01-14 17:38:40.797 I/ActivityManager( 1574): Start proc com.htc.pen for broadcast com.htc.pen/.plugin.PenReceiver: pid=2635 uid=10040 gids={}
+01-14 17:38:40.807 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.807 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Bookmarks/FX_WIDGET/[I@408d2818 x [I@408d2838/-2/ComponentInfo{com.htc.fusion.htcbookmarkwidget/com.htc.fusion.htcbookmarkwidget.WidgetReceiver}/[I@408d2858)
+01-14 17:38:40.807 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.817 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Bookmarks/FX_WIDGET/[I@408d4d40 x [I@408d4d60/-2/ComponentInfo{com.htc.fusion.htcbookmarkwidget/com.htc.fusion.htcbookmarkwidget.WidgetReceiver}/[I@408d4d80)
+01-14 17:38:40.817 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.827 D/HtcWidgetProvider( 1678): row 3
+01-14 17:38:40.827 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40b53bf8 x [I@40b53c18/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40b53c38)
+01-14 17:38:40.827 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.837 D/HtcWidgetScanner( 2571): count(onPackageUpdated) - 3
+01-14 17:38:40.847 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40b56d58 x [I@40b56d78/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40b56d98)
+01-14 17:38:40.847 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.847 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40b59180 x [I@40b591a0/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40b591c0)
+01-14 17:38:40.857 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.857 I/ActivityThread( 2635): Pub com.htc.penmenu: com.htc.pen.provider.PenMenuProvider
+01-14 17:38:40.857 I/ActivityThread( 2635): Pub com.htc.pen: com.htc.pen.provider.PenProvider
+01-14 17:38:40.867 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40b5b450 x [I@40b5b470/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40b5b490)
+01-14 17:38:40.877 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.877 I/ActivityManager( 1574): Start proc com.google.android.googlequicksearchbox for broadcast com.google.android.googlequicksearchbox/.SourceUpdateReceiver: pid=2643 uid=10080 gids={3003}
+01-14 17:38:40.897 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40b5d720 x [I@40b5d740/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40b5d760)
+01-14 17:38:40.897 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.907 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40b5fa10 x [I@40b5fa30/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40b5fa50)
+01-14 17:38:40.907 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.917 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40b61d00 x [I@40b61d20/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40b61d40)
+01-14 17:38:40.917 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.927 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Twitter/FX_WIDGET/[I@40b63ff0 x [I@40b64010/-2/ComponentInfo{com.htc.Twitter3DWidget/com.htc.Twitter3DWidget.TwitterWidgetProvider}/[I@40b64030)
+01-14 17:38:40.927 D/SqliteDatabaseCpp( 2635): dbopen(): path = /data/data/com.htc.pen/databases , key = hej, flag = 6, file size = 15360
+01-14 17:38:40.937 D/SqliteDatabaseCpp( 2612): dbopen(): path = /data/data/com.htc.htchubsyncprovider/databases , key = mqdksjlkYdw, flag = 6, file size = 6144
+01-14 17:38:40.937 D/SqliteDatabaseCpp( 2612): dbopen(): path = /data/data/com.htc.htchubsyncprovider/databases , key = mqdksjlkYdw, mode: delete, disk free size: 7853 M, handle: 0xdacd0
+01-14 17:38:40.947 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.947 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Twitter/FX_WIDGET/[I@40b66408 x [I@40b66428/-2/ComponentInfo{com.htc.Twitter3DWidget/com.htc.Twitter3DWidget.TwitterWidgetProvider}/[I@40b66448)
+01-14 17:38:40.947 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.957 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Twitter/FX_WIDGET/[I@40b68820 x [I@40b68840/-2/ComponentInfo{com.htc.Twitter3DWidget/com.htc.Twitter3DWidget.TwitterWidgetProvider}/[I@40b68860)
+01-14 17:38:40.967 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.967 I/ActivityThread( 2643): Pub com.google.android.googlequicksearchbox.shortcuts: com.google.android.googlequicksearchbox.WebHistoryProvider
+01-14 17:38:40.967 I/ActivityThread( 2643): Pub com.google.android.googlequicksearchbox.google: com.google.android.googlequicksearchbox.google.GoogleSuggestionProvider
+01-14 17:38:40.977 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Twitter/FX_WIDGET/[I@40b6ac38 x [I@40b6ac58/-2/ComponentInfo{com.htc.Twitter3DWidget/com.htc.Twitter3DWidget.TwitterWidgetProvider}/[I@40b6ac78)
+01-14 17:38:40.977 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:40.987 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Trends/FX_WIDGET/[I@40b6d040 x [I@40b6d060/-2/ComponentInfo{com.htc.Trends3DWidget/com.htc.Trends3DWidget.TrendsWidgetProvider}/[I@40b6d080)
+01-14 17:38:40.997 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.017 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Sync All/FX_WIDGET/[I@40b6f400 x [I@40b6f420/-2/ComponentInfo{com.htc.Sync3DWidget/com.htc.Sync3DWidget.SyncWidgetProvider}/[I@40b6f440)
+01-14 17:38:41.027 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.027 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Music/FX_WIDGET/[I@40b71740 x [I@40b71760/-2/ComponentInfo{com.htc.MusicWidget3D/com.htc.MusicWidget3D.MusicWidget3DProvider}/[I@40b71780)
+01-14 17:38:41.027 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.037 D/SqliteDatabaseCpp( 2643): dbopen(): path = /data/data/com.google.android.googlequicksearchbox/databases , key = iwf-`awtkvq, flag = 6, file size = 6144
+01-14 17:38:41.047 D/SqliteDatabaseCpp( 2643): dbopen(): path = /data/data/com.google.android.googlequicksearchbox/databases , key = iwf-`awtkvq, mode: delete, disk free size: 7853 M, handle: 0x193518
+01-14 17:38:41.047 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Music/FX_WIDGET/[I@40b73ae0 x [I@40b73b00/-2/ComponentInfo{com.htc.MusicWidget3D/com.htc.MusicWidget3D.MusicWidget3DProvider}/[I@40b73b20)
+01-14 17:38:41.047 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.067 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Music/FX_WIDGET/[I@40b75f88 x [I@40b75fa8/-2/ComponentInfo{com.htc.MusicWidget3D/com.htc.MusicWidget3D.MusicWidget3DProvider}/[I@40b75fc8)
+01-14 17:38:41.077 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.077 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Friend Stream/FX_WIDGET/[I@40b78328 x [I@40b78348/-2/ComponentInfo{com.htc.FriendStream3DWidget/com.htc.FriendStream3DWidget.FriendStreamWidgetProvider}/[I@40b78368)
+01-14 17:38:41.087 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.087 D/dalvikvm( 1678): GC_CONCURRENT freed 1058K, 19% free 11621K/14215K, paused 1ms+16ms
+01-14 17:38:41.097 D/FxWidgetScanner( 2571): onPackageAdded: uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam
+01-14 17:38:41.137 D/SqliteDatabaseCpp( 2635): dbopen(): path = /data/data/com.htc.pen/databases , key = hej, mode: delete, disk free size: 7853 M, handle: 0x19bb90
+01-14 17:38:41.147 D/FxWidgetScanner( 2571): addWidgetList
+01-14 17:38:41.157 D/SM:PackageReceiver( 2564): package replaced: package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam
+01-14 17:38:41.157 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Friend Stream/FX_WIDGET/[I@40d220f0 x [I@40d21ec8/-2/ComponentInfo{com.htc.FriendStream3DWidget/com.htc.FriendStream3DWidget.FriendStreamWidgetProvider}/[I@40d21d90)
+01-14 17:38:41.157 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.157 D/FxWidgetScanner( 2571): ResolveInfo size 0
+01-14 17:38:41.167 D/dalvikvm( 2232): GC_CONCURRENT freed 485K, 9% free 6678K/7303K, paused 1ms+19ms
+01-14 17:38:41.197 D/PenUtils( 2635): getDefaultPen() start 13
+01-14 17:38:41.257 D/PhoneApp( 1661): EVENT_QUERY_MO_PACKAGES
+01-14 17:38:41.297 D/dalvikvm( 1574): GC_EXPLICIT freed 2076K, 13% free 15867K/18119K, paused 2ms+40ms
+01-14 17:38:41.337 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Friend Stream/FX_WIDGET/[I@40a51f40 x [I@40a50bf8/-2/ComponentInfo{com.htc.FriendStream3DWidget/com.htc.FriendStream3DWidget.FriendStreamWidgetProvider}/[I@40a4f8b0)
+01-14 17:38:41.337 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.337 I/ActivityManager( 1574): Start proc com.google.android.apps.maps:FriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.android.ServiceReceiver: pid=2657 uid=10046 gids={3003, 1015}
+01-14 17:38:41.367 D/PhoneApp( 1661): -- N1 =0
+01-14 17:38:41.377 I/RegisterService( 2572): android.intent.action.PACKAGE_REPLACED package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam
+01-14 17:38:41.377 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Friend Stream/FX_WIDGET/[I@40982670 x [I@40981e40/-2/ComponentInfo{com.htc.FriendStream3DWidget/com.htc.FriendStream3DWidget.FriendStreamWidgetProvider}/[I@40980af8)
+01-14 17:38:41.377 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.397 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Friend Channel/FX_WIDGET/[I@40914398 x [I@40913a08/-2/ComponentInfo{com.htc.FriendStream3DWidget/com.htc.FriendStream3DWidget.FriendStreamWidgetProvider}/[I@40913820)
+01-14 17:38:41.397 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.417 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(My Shelf/FX_WIDGET/[I@408f4dc0 x [I@408f4c10/-2/ComponentInfo{com.htc.ereader.widget3d/com.htc.ereader.widget3d.ereaderwidget3d.SimpleWidgetProvider}/[I@408f4630)
+01-14 17:38:41.417 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.437 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Weather/FX_WIDGET/[I@40897c10 x [I@40897a00/-2/ComponentInfo{com.htc.widget3d.weather/com.htc.widget3d.weather.WeatherWidgetProvider}/[I@40897098)
+01-14 17:38:41.437 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.437 I/ActivityManager( 1574): No longer want android.process.media (pid 1742): hidden #16
+01-14 17:38:41.447 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Weather/FX_WIDGET/[I@40864950 x [I@40864298/-2/ComponentInfo{com.htc.widget3d.weather/com.htc.widget3d.weather.WeatherWidgetProvider}/[I@408630f8)
+01-14 17:38:41.447 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.447 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Weather/FX_WIDGET/[I@4082cda0 x [I@4082ccc8/-2/ComponentInfo{com.htc.widget3d.weather/com.htc.widget3d.weather.WeatherWidgetProvider}/[I@4082cc10)
+01-14 17:38:41.457 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.457 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Screen Timeout/FX_WIDGET/[I@407c1300 x [I@407c02b0/-2/ComponentInfo{com.htc.rosiewidgets.screentimeout/com.htc.rosiewidgets.screentimeout.ScreenTimeoutWidgetProvider}/[I@407bfdf0)
+01-14 17:38:41.457 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.467 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Screen Brightness/FX_WIDGET/[I@40756fd0 x [I@40756e88/-2/ComponentInfo{com.htc.rosiewidgets.screenbrightness/com.htc.rosiewidgets.screenbrightness.ScreenBrightnessWidgetProvider}/[I@407566d0)
+01-14 17:38:41.467 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.477 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Notes/FX_WIDGET/[I@406eb478 x [I@406ead88/-2/ComponentInfo{com.htc.htcrichnoteswidget3d/com.htc.htcrichnoteswidget3d.NotesWidgetProvider}/[I@406e9ab8)
+01-14 17:38:41.477 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.487 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Notes/FX_WIDGET/[I@40942a08 x [I@409349b8/-2/ComponentInfo{com.htc.htcrichnoteswidget3d/com.htc.htcrichnoteswidget3d.NotesWidgetProvider}/[I@4092fbc8)
+01-14 17:38:41.487 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.487 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(HTC Likes/FX_WIDGET/[I@4083ff80 x [I@4083c590/-2/ComponentInfo{com.htc.android.fusion.recommend/com.htc.android.fusion.recommend.RosieIntentReceiver}/[I@4083b3c8)
+01-14 17:38:41.497 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.497 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Profile/FX_WIDGET/[I@407db4a8 x [I@407dabf8/-2/ComponentInfo{com.htc.widget.profile/com.htc.widget.profile.HtcWidgetReceiver}/[I@407daac8)
+01-14 17:38:41.497 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.507 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Power Dashboard/FX_WIDGET/[I@40762bb0 x [I@40762590/-2/ComponentInfo{com.htc.rosiewidgets.powerstrip/com.htc.rosiewidgets.powerstrip.PowerStripWidgetProvider}/[I@407615d8)
+01-14 17:38:41.507 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.507 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Photo Album/FX_WIDGET/[I@4071d498 x [I@4071d230/-2/ComponentInfo{com.htc.photowidget3d/com.htc.photowidget3d.album.PhotoAlbumWidgetProvider}/[I@4071a828)
+01-14 17:38:41.517 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.517 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Photo Frame/FX_WIDGET/[I@406aa960 x [I@406aa2e0/-2/ComponentInfo{com.htc.photowidget3d/com.htc.photowidget3d.frame.PhotoFrameWidgetProvider}/[I@406a9c80)
+01-14 17:38:41.517 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.527 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Photo Grid/FX_WIDGET/[I@40b7b8f0 x [I@40b7b910/-2/ComponentInfo{com.htc.rosiewidgets.photogridwidget3d/com.htc.rosiewidgets.photogridwidget3d.PhotoGridWidget3DProvider}/[I@40b7b930)
+01-14 17:38:41.527 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.527 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Navigate/FX_WIDGET/[I@40b7c8e8 x [I@40b7c908/-2/ComponentInfo{com.htc.laputa.widget3d.navigate/com.htc.laputa.widget3d.navigate.NavigateWidgetProvider}/[I@40b7c928)
+01-14 17:38:41.537 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.537 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Navigate/FX_WIDGET/[I@40b7d930 x [I@40b7d950/-2/ComponentInfo{com.htc.laputa.widget3d.navigate/com.htc.laputa.widget3d.navigate.NavigateWidgetProvider}/[I@40b7d970)
+01-14 17:38:41.537 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.547 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Locations/FX_WIDGET/[I@40b7ec18 x [I@40b7ec38/-2/ComponentInfo{com.htc.laputa.widget3d.locations/com.htc.laputa.widget3d.locations.LocationsWidgetProvider}/[I@40b7ec58)
+01-14 17:38:41.547 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.547 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(News/FX_WIDGET/[I@40b7ffd8 x [I@40b7fff8/-2/ComponentInfo{com.htc.googlereaderwidget/com.htc.googlereaderwidget.RosieWidgetReceiver}/[I@40b80018)
+01-14 17:38:41.547 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.557 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(News/FX_WIDGET/[I@40b81398 x [I@40b813b8/-2/ComponentInfo{com.htc.googlereaderwidget/com.htc.googlereaderwidget.RosieWidgetReceiver}/[I@40b813d8)
+01-14 17:38:41.557 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.557 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Data Dashboard/FX_WIDGET/[I@40b82960 x [I@40b82980/-2/ComponentInfo{com.htc.rosiewidgets.datastrip/com.htc.rosiewidgets.datastrip.DataStripWidgetProvider}/[I@40b829a0)
+01-14 17:38:41.557 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.577 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Data Roaming/FX_WIDGET/[I@40b83e78 x [I@40b83e98/-2/ComponentInfo{com.htc.rosiewidgets.dataroaming/com.htc.rosiewidgets.dataroaming.WidgetProvider}/[I@40b83eb8)
+01-14 17:38:41.577 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.588 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40b85528 x [I@40b85548/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b85568)
+01-14 17:38:41.588 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.588 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40b86738 x [I@40b86758/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b86778)
+01-14 17:38:41.598 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.598 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Weather Clock/FX_WIDGET/[I@40b878a0 x [I@40b878c0/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b878e0)
+01-14 17:38:41.598 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.608 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Travel Clock/FX_WIDGET/[I@40b88b08 x [I@40b88b28/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b88b48)
+01-14 17:38:41.608 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.608 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Digital Clock/FX_WIDGET/[I@40b89c80 x [I@40b89ca0/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b89cc0)
+01-14 17:38:41.608 D/dalvikvm( 2657): GC_CONCURRENT freed 158K, 4% free 6801K/7047K, paused 1ms+2ms
+01-14 17:38:41.618 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.628 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40b8aec0 x [I@40b8aee0/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b8af00)
+01-14 17:38:41.628 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.628 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40b8c1c8 x [I@40b8c1e8/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b8c208)
+01-14 17:38:41.638 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.638 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40b8d578 x [I@40b8d598/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b8d5b8)
+01-14 17:38:41.638 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.648 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40b8e918 x [I@40b8e938/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b8e958)
+01-14 17:38:41.648 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.658 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40b8fcb8 x [I@40b8fcd8/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b8fcf8)
+01-14 17:38:41.658 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.658 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40b910e0 x [I@40b91100/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b91120)
+01-14 17:38:41.658 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.688 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40b92590 x [I@40b925b0/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b925d0)
+01-14 17:38:41.688 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.688 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Social Clock/FX_WIDGET/[I@40b93a40 x [I@40b93a60/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b93a80)
+01-14 17:38:41.688 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.688 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Beam Clock/FX_WIDGET/[I@40b94e58 x [I@40b94e78/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b94e98)
+01-14 17:38:41.698 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.698 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Ring Clock/FX_WIDGET/[I@40b96498 x [I@40b964b8/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b964d8)
+01-14 17:38:41.698 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.698 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Spin Cycle Clock/FX_WIDGET/[I@40b97a00 x [I@40b97a20/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b97a40)
+01-14 17:38:41.708 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.708 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40b990c0 x [I@40b990e0/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b99100)
+01-14 17:38:41.708 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.718 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Calculator/FX_WIDGET/[I@40b9a710 x [I@40b9a730/-2/ComponentInfo{com.htc.android.fusion.calculator/com.htc.android.fusion.calculator.RosieIntentReceiver}/[I@40b9a750)
+01-14 17:38:41.718 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.728 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Calculator/FX_WIDGET/[I@40b9bdc8 x [I@40b9bde8/-2/ComponentInfo{com.htc.android.fusion.calculator/com.htc.android.fusion.calculator.RosieIntentReceiver}/[I@40b9be08)
+01-14 17:38:41.728 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.728 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Calculator/FX_WIDGET/[I@40b9d450 x [I@40b9d470/-2/ComponentInfo{com.htc.android.fusion.calculator/com.htc.android.fusion.calculator.RosieIntentReceiver}/[I@40b9d490)
+01-14 17:38:41.728 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.728 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Calculator/FX_WIDGET/[I@40b9ecf0 x [I@40b9ed10/-2/ComponentInfo{com.htc.android.fusion.calculator/com.htc.android.fusion.calculator.RosieIntentReceiver}/[I@40b9ed30)
+01-14 17:38:41.728 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.748 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Auto-sync/FX_WIDGET/[I@40ba0650 x [I@40ba0670/-2/ComponentInfo{com.htc.rosiewidgets.backgrounddata/com.htc.rosiewidgets.backgrounddata.BackgroundDataWidgetProvider}/[I@40ba0690)
+01-14 17:38:41.748 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.758 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Auto-rotate/FX_WIDGET/[I@40ba1fe0 x [I@40ba2000/-2/ComponentInfo{com.htc.autorotatewidget/com.htc.autorotatewidget.AutoRotateWidgetProvider}/[I@40ba2020)
+01-14 17:38:41.758 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.768 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Stocks/FX_WIDGET/[I@40ba3888 x [I@40ba38a8/-2/ComponentInfo{com.htc.android.fusion.StockWidget/com.htc.android.fusion.StockWidget.RosieWidgetReceiver}/[I@40ba38c8)
+01-14 17:38:41.768 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.778 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Stocks/FX_WIDGET/[I@40ba51f8 x [I@40ba5218/-2/ComponentInfo{com.htc.android.fusion.StockWidget/com.htc.android.fusion.StockWidget.RosieWidgetReceiver}/[I@40ba5238)
+01-14 17:38:41.778 D/FxWidgetProvider( 1678): row 1
+01-14 17:38:41.778 D/WidgetScanner( 2571): upadted? false
+01-14 17:38:41.788 D/dalvikvm( 2657): GC_CONCURRENT freed 135K, 5% free 7133K/7431K, paused 1ms+11ms
+01-14 17:38:41.798 D/CombinedWidgetProvider( 1678): addFxWidget: WidgetSummary(Stocks/FX_WIDGET/[I@40ba6ab8 x [I@40ba6ad8/-2/ComponentInfo{com.htc.android.fusion.StockWidget/com.htc.android.fusion.StockWidget.RosieWidgetReceiver}/[I@40ba6af8)
+01-14 17:38:41.798 D/CombinedWidgetProvider( 1678): -addFxWidgets diff: 1888
+01-14 17:38:41.798 D/CombinedWidgetProvider( 1678): +addAppWidgetCategories
+01-14 17:38:41.798 D/CombinedWidgetProvider( 1678): add AppWidget category: WidgetCategory(YouTube/APP_WIDGET/0)
+01-14 17:38:41.798 D/CombinedWidgetProvider( 1678): add AppWidget category: WidgetCategory(Twitter (large)/APP_WIDGET/0)
+01-14 17:38:41.798 D/CombinedWidgetProvider( 1678): add AppWidget category: WidgetCategory(Twitter (small)/APP_WIDGET/0)
+01-14 17:38:41.798 D/CombinedWidgetProvider( 1678): add AppWidget category: WidgetCategory(Traffic/APP_WIDGET/0)
+01-14 17:38:41.798 D/CombinedWidgetProvider( 1678): add AppWidget category: WidgetCategory(Latitude/APP_WIDGET/0)
+01-14 17:38:41.798 D/CombinedWidgetProvider( 1678): add AppWidget category: WidgetCategory(Market/APP_WIDGET/0)
+01-14 17:38:41.798 D/CombinedWidgetProvider( 1678): add AppWidget category: WidgetCategory(Google Search/APP_WIDGET/0)
+01-14 17:38:41.798 D/CombinedWidgetProvider( 1678): add AppWidget category: WidgetCategory(Gmail/APP_WIDGET/0)
+01-14 17:38:41.798 D/CombinedWidgetProvider( 1678): add AppWidget category: WidgetCategory(Bookmarks/APP_WIDGET/0)
+01-14 17:38:41.798 D/CombinedWidgetProvider( 1678): -addAppWidgetCategories
+01-14 17:38:41.798 D/CombinedWidgetProvider( 1678): +addHtcWidgetCategories
+01-14 17:38:41.808 D/CombinedWidgetProvider( 1678):  uri: content://com.htc.launcher.widget.htcwidget/htcwidgets?category_only=true
+01-14 17:38:41.808 D/HtcWidgetProvider( 1678): row 1
+01-14 17:38:41.808 I/ActivityManager( 1574): No longer want com.android.settings (pid 1789): hidden #16
+01-14 17:38:41.818 D/CombinedWidgetProvider( 1678): addHtcWidget Category: WidgetCategory(Tips for Home/HTC_WIDGET/1101)
+01-14 17:38:41.818 D/CombinedWidgetProvider( 1678): -addHtcWidgetCategories
+01-14 17:38:41.818 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories
+01-14 17:38:41.818 D/FxWidgetProvider( 1678): row 94
+01-14 17:38:41.848 D/PenUtils( 2635): getDefaultPen() end 41
+01-14 17:38:41.858 D/AndroidRuntime( 2544): Shutting down VM
+01-14 17:38:41.868 D/dalvikvm( 2544): GC_CONCURRENT freed 105K, 83% free 364K/2048K, paused 0ms+0ms
+01-14 17:38:41.868 D/jdwp    ( 2544): Got wake-up signal, bailing out of select
+01-14 17:38:41.868 D/dalvikvm( 2544): Debugger has detached; object registry had 1 entries
+01-14 17:38:41.878 D/PenUtils( 2378): getAllPen() start 106
+01-14 17:38:41.898 D/Socket_Alarm( 2657): registerHTCSocketMonitorCallBack
+01-14 17:38:41.898 D/Socket_Alarm( 2657): set mSocketMonitor
+01-14 17:38:41.898 D/Socket_Alarm( 2657): HTCSocketMonitorImpl::HTCSocketMonitorImpl
+01-14 17:38:41.928 I/ActivityManager( 1574): No longer want com.htc.notes (pid 1833): hidden #16
+01-14 17:38:41.948 I/MySketcher( 2378): onReceive: com.htc.pen.refreshed
+01-14 17:38:41.948 I/MySketcher( 2378): [SketcherWorker] onStartCommand: com.htc.action.PREPARE_VARS
+01-14 17:38:41.948 I/MySketcher( 2378): prepareContentVars entered
+01-14 17:38:41.948 I/MySketcher( 2378):  getContentView  , in thread:2378
+01-14 17:38:41.978 I/DEBUG   ( 1437): tid 2667 does not exist in pid 2544. ignoring debug request
+01-14 17:38:42.078 D/AndroidRuntime( 2672): 
+01-14 17:38:42.078 D/AndroidRuntime( 2672): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-14 17:38:42.078 D/AndroidRuntime( 2672): CheckJNI is OFF
+01-14 17:38:42.118 D/PhoneApp( 1661): -- N2 =0
+01-14 17:38:42.258 D/CursorWindowStats( 2672): Get CursorWindow size from framework resource:4194304
+01-14 17:38:42.348 D/AndroidRuntime( 2672): Calling main entry com.android.commands.am.Am
+01-14 17:38:42.398 I/ActivityManager( 1574): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam/.MainActivity } from pid 2672
+01-14 17:38:42.418 D/PhoneApp( 1661): -- N3 =0
+01-14 17:38:42.478 D/dalvikvm( 1574): GC_FOR_ALLOC freed 263K, 13% free 15794K/18119K, paused 50ms
+01-14 17:38:42.478 I/dalvikvm-heap( 1574): Grow heap (frag case) to 15.645MB for 124216-byte allocation
+01-14 17:38:42.558 D/dalvikvm( 1574): GC_FOR_ALLOC freed 9K, 13% free 15906K/18247K, paused 66ms
+01-14 17:38:42.578 D/ActivityManager( 1574): isSketcherDisabledInCurrentTask():false, ActivityRecord{4068d4e8 uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam/.MainActivity}
+01-14 17:38:42.578 D/HostWidgetManager( 1678): pauseWidgets: 2
+01-14 17:38:42.588 D/AndroidRuntime( 2672): Shutting down VM
+01-14 17:38:42.598 D/dalvikvm( 2672): GC_CONCURRENT freed 106K, 81% free 397K/2048K, paused 1ms+0ms
+01-14 17:38:42.598 D/dalvikvm( 2672): Debugger has detached; object registry had 1 entries
+01-14 17:38:42.619 I/AndroidRuntime( 2672): NOTE: attach of thread 'Binder Thread #3' failed
+01-14 17:38:42.619 I/ActivityManager( 1574): Start proc uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam for activity uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam/.MainActivity: pid=2681 uid=10106 gids={1006, 1015}
+01-14 17:38:42.629 D/SurfaceFlinger( 1438): getTokenForSurface(0xabca4) => 0 (client=0xa2580, bitmap=00000003), pid=1574
+01-14 17:38:42.649 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  2 
+01-14 17:38:42.659 D/Sensors ( 1574): Enable akm: en = 0
+01-14 17:38:42.719 V/WindowManager( 1574): Starting animation in AppWindowToken{40c13970 token=ActivityRecord{40c11808 com.htc.launcher/.Launcher}} @ 177670
+01-14 17:38:42.719 V/WindowManager( 1574): Starting animation in AppWindowToken{41196f70 token=ActivityRecord{4068d4e8 uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam/.MainActivity}} @ 177670
+01-14 17:38:42.729 V/WindowManager( 1574): Finished animation in AppWindowToken{40c13970 token=ActivityRecord{40c11808 com.htc.launcher/.Launcher}} @ 177689
+01-14 17:38:42.739 V/WindowManager( 1574): Finished animation in AppWindowToken{41196f70 token=ActivityRecord{4068d4e8 uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam/.MainActivity}} @ 177689
+01-14 17:38:42.769 I/CameraService( 1441): cameraId:0
+01-14 17:38:42.769 I/CameraService( 1441): 2D mode only
+01-14 17:38:42.769 I/QualcommCameraHardware( 1441): openCameraHardware: call createInstance cameraId 0
+01-14 17:38:42.769 D/QualcommCameraHardware( 1441): createInstance: E
+01-14 17:38:42.769 D/CameraPP( 1441): CameraPP::CameraPP()
+01-14 17:38:42.769 D/SDO_PP  ( 1441): SDO_PP::SDO_PP()
+01-14 17:38:42.779 I/OlaEngine( 1441): [Ola_Engine_Create:79] engine build info [ name ] : htc
+01-14 17:38:42.779 I/OlaEngine( 1441): [Ola_Engine_Create:83] engine build info [ date ] : 2011-06-09 16:04:18
+01-14 17:38:42.779 I/OlaEngine( 1441): [Ola_Engine_Create:87] engine build info [ version ] : __bulid_revision_194__ 
+01-14 17:38:42.779 D/CameraFace_OLA( 1441): create OlaEngine
+01-14 17:38:42.779 D/CameraFace_OLA( 1441): create Ola FD
+01-14 17:38:42.779 V/Olaworks( 1441): [Ola_BeautyShotEngine_Create] prr(0x0002bd30)
+01-14 17:38:42.779 D/CameraFace_OLA( 1441): create Ola BS
+01-14 17:38:42.789 D/PhoneWindow( 1678): couldn't save which view has focus because the focused view android.widget.RelativeLayout@407c1330 has no id.
+01-14 17:38:42.799 D/CameraFace_OLA( 1441): create Ola SD
+01-14 17:38:42.799 D/CameraFace_OLA( 1441): create Ola BD
+01-14 17:38:42.809 D/QualcommCameraHardware( 1441):  Storing the current target type as 2 
+01-14 17:38:42.809 D/QualcommCameraHardware( 1441): constructor EX
+01-14 17:38:42.809 D/QualcommCameraHardware( 1441): startCamera E
+01-14 17:38:42.829 D/QualcommCameraHardware( 1441): loading liboemcamera at 0xb000f004
+01-14 17:38:42.829 I/QualcommCameraHardware( 1441): 2ndCAM LED lib name = hw/lights.msm7x30.so
+01-14 17:38:42.829 D/QualcommCameraHardware( 1441): loading liblightled at 0xb000f464
+01-14 17:38:42.839 I/QualcommCameraHardware( 1441): Set main cam
+01-14 17:38:42.839 I/mm-camera( 1441): set sensor selection :0
+01-14 17:38:42.839 D/lights  ( 1441): [LedInfo] __set_camera2_led mode=0
+01-14 17:38:42.839 D/lights  ( 1441): [LedInfo] write attr ok name=/sys/class/leds/green-camera/brightness string=0,len=1
+01-14 17:38:42.849 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=8, status=0, token=2)
+01-14 17:38:42.889 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=7, status=0, token=1)
+01-14 17:38:42.919 D/AK8975  ( 1448): Compass CLOSE 
+01-14 17:38:42.979 I/QualcommCameraHardware( 1441): Open Device node : /dev/msm_camera/control0
+01-14 17:38:42.979 I/mm-camera( 1441): Open Device node : /dev/msm_camera/config0 
+01-14 17:38:42.999 I/mm-camera( 1441): [AWB Calibration] from kernel: fuse_id: 0x0, 0x0, 0x4, 0x34417
+01-14 17:38:42.999 I/mm-camera-s5k4e1gx_u( 1441): Inside s5k4e1gx_process_start 
+01-14 17:38:42.999 I/mm-camera( 1441): [LSC Calibration]Sensor_set_mesh
+01-14 17:38:42.999 I/mm-camera( 1441): [LSC Calibration] : call awb_get_fuseid
+01-14 17:38:42.999 I/mm-camera( 1441): Read /data/lsc_cal fail
+01-14 17:38:42.999 I/mm-camera( 1441): Read from file OK: /data/lsc_cal or /sys/android_camera_awb_cal/awb_cal
+01-14 17:38:42.999 I/mm-camera( 1441): [LSC Calibration]: lsc_checksum=3366a429, lsc_verify=c1b
+01-14 17:38:42.999 I/mm-camera( 1441): [LSC Calibration]: fuseid_1=0,fuseid_2=0,fuseid_3=4,fuseid_4=34417, sfuse.fuse_id_word1=0,sfuse.fuse_id_word2=0,sfuse.fuse_id_word3=4,sfuse.fuse_id_word4=34417
+01-14 17:38:42.999 I/mm-camera( 1441): LSC_Calibration: 	addr=a74eaaec, & addr=a74eaaec
+01-14 17:38:42.999 I/mm-camera( 1441): LSC_Calibration: 	addr=a74eb8c0, & addr=a74eb8c0
+01-14 17:38:42.999 I/mm-camera( 1441): LSC_Calibration: 	addr=a74ec694, & addr=a74ec694
+01-14 17:38:42.999 I/mm-camera( 1441): LSC_Calibration: 	addr=a74ed468, & addr=a74ed468
+01-14 17:38:42.999 I/mm-camera( 1441): LSC_Calibration: 	addr=a74ee23c, & addr=a74ee23c
+01-14 17:38:42.999 I/mm-camera-s5k4e1gx_u( 1441): s5k4e1gx_process_start: [LSC Calibration] LSC is valid and set NEW mesh value
+01-14 17:38:42.999 I/mm-camera( 1441): [AWB Calibration] fuse_id : 0x0, 0x0, 0x4, 0x34417
+01-14 17:38:42.999 I/mm-camera( 1441): [AWB Calibration] fail to read /data/awb_cal, try another file
+01-14 17:38:42.999 I/mm-camera( 1441): [AWB Calibration] read from file OK: /sys/android_camera_awb_cal/awb_cal
+01-14 17:38:42.999 I/mm-camera( 1441): [AWB Calibration] nandflash data: 0xc1b, 0x2ad, 0x2b7, 0x0, 0x0, 0x4, 0x34417, 0xc23b908c
+01-14 17:38:42.999 I/mm-camera( 1441): [AWB Calibration] check sum=c23b908c, OK
+01-14 17:38:42.999 I/mm-camera( 1441): [AWB Calibration] valid bit and fuseID pass, use new white points
+01-14 17:38:42.999 I/mm-camera( 1441): [AWB Calibration] use light version: v3
+01-14 17:38:42.999 I/mm-camera-s5k4e1gx_u( 1441): s5k4e1gx_register: table = 0xa756c7a8
+01-14 17:38:42.999 I/mm-camera-s5k4e1gx_u( 1441): get snapshot size pointer:0xa74bf691
+01-14 17:38:42.999 D/mm-camera( 1441): sensor_led_ctrl_init: camfd = 16
+01-14 17:38:43.009 D/mm-camera( 1441): af_init_process_exhaustive_search sensor->af_exhaust_downhill_allowance 2, sensor->af_exhaust_fv_drop_allowance 0.800000
+01-14 17:38:43.009 I/QualcommCameraHardware( 1441): startCamera: camsensor name s5k4e1gx, flash 0
+01-14 17:38:43.009 I/mm-camera( 1441): sctrl:0xa756bc08
+01-14 17:38:43.009 I/mm-camera( 1441): sctrl->fn_table:0xa74c04d9
+01-14 17:38:43.009 I/mm-camera( 1441): sctrl->fn_table.get_snapshot_sizes:0xa74bf691
+01-14 17:38:43.009 I/mm-camera-s5k4e1gx_u( 1441): get table
+01-14 17:38:43.009 D/QualcommCameraHardware( 1441): startCamera X
+01-14 17:38:43.019 D/QualcommCameraHardware( 1441): loading libposteffect at 0xb000f57c
+01-14 17:38:43.019 D/QualcommCameraHardware( 1441): static android::sp<android::CameraHardwareInterface> android::QualcommCameraHardware::createInstance(int): start GPU manager (0).
+01-14 17:38:43.019 D/QualcommCameraHardware( 1441): initDefaultParameters E
+01-14 17:38:43.019 D/QualcommCameraHardware( 1441): product 13
+01-14 17:38:43.019 D/GPUPostEffect( 1441): SIMON: void* mlabs::GPUPostEffect::threadMain() E.
+01-14 17:38:43.019 I/GEManager( 1441): [GEManager] enter
+01-14 17:38:43.019 D/libEGL  ( 1441): loaded /system/lib/egl/libEGL_adreno200.so
+01-14 17:38:43.029 D/libEGL  ( 1441): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+01-14 17:38:43.029 D/libEGL  ( 1441): loaded /system/lib/egl/libGLESv2_adreno200.so
+01-14 17:38:43.039 D/GEManager( 1441): [GEManager] m_eglDisplay successfully
+01-14 17:38:43.039 D/libEGL  ( 1441): initialized 0 dpy=0x1, ver=1.3, cnx=0xabcb2500
+01-14 17:38:43.039 D/GEManager( 1441): [GEManager] eglInitialize successfully
+01-14 17:38:43.039 D/GEManager( 1441): [GEManager] eglChooseConfig successfully
+01-14 17:38:43.039 D/GEManager( 1441): [GEManager] eglCreateContext successfully
+01-14 17:38:43.049 D/GEManager( 1441): [GEManager] eglCreatePbufferSurface successfully
+01-14 17:38:43.049 D/GEManager( 1441): [GEManager] eglMakeCurrent successfully
+01-14 17:38:43.049 I/GEManager( 1441): [GEManager] leave
+01-14 17:38:43.249 D/QualcommCameraHardware( 1441): requested preview size 176 x 144
+01-14 17:38:43.249 D/QualcommCameraHardware( 1441): requested picture size 2592 x 1952
+01-14 17:38:43.249 D/QualcommCameraHardware( 1441): setFlash: flash not supported
+01-14 17:38:43.249 I/QualcommCameraHardware( 1441): requested preview size 176 x 144 video size 176 x 144
+01-14 17:38:43.249 D/        ( 1441): [GECameraParameters::getGPUEffect] enter
+01-14 17:38:43.249 D/        ( 1441): [GECameraParameters::getGPUEffect] leave. no key GPU-effect
+01-14 17:38:43.249 D/        ( 1441): [GECameraParameters::getGPUEffectParam] leave. no key GE-param0
+01-14 17:38:43.259 D/        ( 1441): [GECameraParameters::getGPUEffectParam] leave. no key GE-param1
+01-14 17:38:43.259 D/        ( 1441): [GECameraParameters::getGPUEffectParam] leave. no key GE-param3
+01-14 17:38:43.259 I/GPUPostEffect( 1441): SIMON: int mlabs::GPUPostEffect::setParameters(mlabs::GPUPostEffect::GPUTask*): old effect = 0, new effect = -1.
+01-14 17:38:43.259 D/GPUPostEffect( 1441): SIMON: setParameters: isGEInit == false: no call to ChooseEffect.
+01-14 17:38:43.259 I/QualcommCameraHardware( 1441): pmem pool /dev/pmem_adsp ioctl(fd = 48, PMEM_GET_SIZE) is 1384448
+01-14 17:38:43.259 I/QualcommCameraHardware( 1441): pmem pool /dev/pmem_adsp ioctl(fd = 51, PMEM_GET_SIZE) is 1384448
+01-14 17:38:43.259 I/QualcommCameraHardware( 1441): pmem pool /dev/pmem_adsp ioctl(fd = 54, PMEM_GET_SIZE) is 1384448
+01-14 17:38:43.259 I/QualcommCameraHardware( 1441): pmem pool /dev/pmem_adsp ioctl(fd = 57, PMEM_GET_SIZE) is 1384448
+01-14 17:38:43.259 I/QualcommCameraHardware( 1441): pmem pool /dev/pmem_adsp ioctl(fd = 60, PMEM_GET_SIZE) is 1384448
+01-14 17:38:43.259 I/QualcommCameraHardware( 1441): pmem pool /dev/pmem_adsp ioctl(fd = 63, PMEM_GET_SIZE) is 1384448
+01-14 17:38:43.259 I/QualcommCameraHardware( 1441): pmem pool /dev/pmem_adsp ioctl(fd = 66, PMEM_GET_SIZE) is 1384448
+01-14 17:38:43.259 I/QualcommCameraHardware( 1441): pmem pool /dev/pmem_adsp ioctl(fd = 69, PMEM_GET_SIZE) is 1384448
+01-14 17:38:43.259 I/QualcommCameraHardware( 1441): pmem pool /dev/pmem_adsp ioctl(fd = 72, PMEM_GET_SIZE) is 1384448
+01-14 17:38:43.259 D/CameraFace( 1441): face_config: image_format 0 hcb==NULL
+01-14 17:38:43.259 D/QualcommCameraHardware( 1441): initDefaultParameters X
+01-14 17:38:43.259 D/QualcommCameraHardware( 1441): createInstance: X created hardware=0x2cc48
+01-14 17:38:43.259 I/AwesomePlayer( 1441): reset
+01-14 17:38:43.259 I/AwesomePlayer( 1441): mFlags : 0x0
+01-14 17:38:43.259 I/AwesomePlayer( 1441): cancel player events
+01-14 17:38:43.259 I/AwesomePlayer( 1441): mFlags : 0x0
+01-14 17:38:43.259 I/AwesomePlayer( 1441): mFlags : 0x0
+01-14 17:38:43.259 I/AwesomePlayer( 1441): cancel player events
+01-14 17:38:43.259 I/AwesomePlayer( 1441): mFlags : 0x0
+01-14 17:38:43.259 I/AwesomePlayer( 1441): setDataSource_l('/system/media/audio/ui/camera_click.ogg')
+01-14 17:38:43.269 I/AwesomePlayer( 1441): reset
+01-14 17:38:43.269 I/AwesomePlayer( 1441): mFlags : 0x0
+01-14 17:38:43.269 I/AwesomePlayer( 1441): cancel player events
+01-14 17:38:43.269 I/AwesomePlayer( 1441): mFlags : 0x0
+01-14 17:38:43.269 I/AwesomePlayer( 1441): mFlags : 0x0
+01-14 17:38:43.269 I/AwesomePlayer( 1441): cancel player events
+01-14 17:38:43.269 I/AwesomePlayer( 1441): mFlags : 0x0
+01-14 17:38:43.269 I/AwesomePlayer( 1441): setDataSource_l('/system/media/audio/ui/VideoRecord.ogg')
+01-14 17:38:43.289 I/AwesomePlayer( 1441): reset
+01-14 17:38:43.289 I/AwesomePlayer( 1441): mFlags : 0x0
+01-14 17:38:43.289 I/AwesomePlayer( 1441): cancel player events
+01-14 17:38:43.289 I/AwesomePlayer( 1441): mFlags : 0x0
+01-14 17:38:43.289 I/AwesomePlayer( 1441): mFlags : 0x0
+01-14 17:38:43.289 I/AwesomePlayer( 1441): cancel player events
+01-14 17:38:43.289 I/AwesomePlayer( 1441): mFlags : 0x0
+01-14 17:38:43.289 I/AwesomePlayer( 1441): setDataSource_l('/system/media/audio/ui/camera_click.ogg')
+01-14 17:38:43.299 I/AwesomePlayer( 1441): reset
+01-14 17:38:43.299 I/AwesomePlayer( 1441): mFlags : 0x0
+01-14 17:38:43.299 I/AwesomePlayer( 1441): cancel player events
+01-14 17:38:43.299 I/AwesomePlayer( 1441): mFlags : 0x0
+01-14 17:38:43.299 I/AwesomePlayer( 1441): mFlags : 0x0
+01-14 17:38:43.299 I/AwesomePlayer( 1441): cancel player events
+01-14 17:38:43.299 I/AwesomePlayer( 1441): mFlags : 0x0
+01-14 17:38:43.299 I/AwesomePlayer( 1441): setDataSource_l('/system/media/audio/ui/VideoRecord.ogg')
+01-14 17:38:43.319 D/QualcommCameraHardware( 1441): requested preview size 176 x 144
+01-14 17:38:43.319 D/QualcommCameraHardware( 1441): requested picture size 2592 x 1952
+01-14 17:38:43.319 D/QualcommCameraHardware( 1441): setFlash: flash not supported
+01-14 17:38:43.319 I/QualcommCameraHardware( 1441): requested preview size 176 x 144 video size 176 x 144
+01-14 17:38:43.319 D/        ( 1441): [GECameraParameters::getGPUEffect] enter
+01-14 17:38:43.319 D/        ( 1441): [GECameraParameters::getGPUEffect] leave. no key GPU-effect
+01-14 17:38:43.319 D/        ( 1441): [GECameraParameters::getGPUEffectParam] leave. no key GE-param0
+01-14 17:38:43.319 D/        ( 1441): [GECameraParameters::getGPUEffectParam] leave. no key GE-param1
+01-14 17:38:43.319 D/        ( 1441): [GECameraParameters::getGPUEffectParam] leave. no key GE-param3
+01-14 17:38:43.319 I/GPUPostEffect( 1441): SIMON: int mlabs::GPUPostEffect::setParameters(mlabs::GPUPostEffect::GPUTask*): old effect = -1, new effect = -1.
+01-14 17:38:43.319 D/GPUPostEffect( 1441): SIMON: setParameters: isGEInit == false: no call to ChooseEffect.
+01-14 17:38:43.329 I/System.out( 2681): CameraPreview()
+01-14 17:38:43.329 D/ActivityManager( 1574): isSketcherDisabledInCurrentTask():false, ActivityRecord{4068d4e8 uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam/.MainActivity}
+01-14 17:38:43.349 D/SurfaceFlinger( 1438): getTokenForSurface(0xae154) => 0 (client=0xabf10, bitmap=00000001), pid=2681
+01-14 17:38:43.359 D/SurfaceFlinger( 1438): getTokenForSurface(0xac79c) => 1 (client=0xabf10, bitmap=00000003), pid=2681
+01-14 17:38:43.359 I/System.out( 2681): SurfaceCreated
+01-14 17:38:43.369 D/SurfaceFlinger( 1438): getTokenForSurface(0xac79c) => 0 (client=0xac828, bitmap=00000001), pid=2681
+01-14 17:38:43.369 D/CameraService( 1441): get debug.camera.setpreviewdisplay(0)
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): setPreviewWindow buffer count 6 176 x 144 size 38016
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): startPreview E
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): initPreview : preview size=176x144 videosize = 176 x 144
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): reRegister: Unregister lastest buffer for MSM_PMEM_VIDEO
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): initRecord :  record heap , video buffers  buffer=1095380992 fd=48 y_off=0 cbcr_off=25344 
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): initRecord :  record heap , video buffers  buffer=1096765440 fd=51 y_off=0 cbcr_off=25344 
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): initRecord :  record heap , video buffers  buffer=1098149888 fd=54 y_off=0 cbcr_off=25344 
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): initRecord :  record heap , video buffers  buffer=1099534336 fd=57 y_off=0 cbcr_off=25344 
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): initRecord :  record heap , video buffers  buffer=1100918784 fd=60 y_off=0 cbcr_off=25344 
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): initRecord :  record heap , video buffers  buffer=1102303232 fd=63 y_off=0 cbcr_off=25344 
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): initRecord :  record heap , video buffers  buffer=1103687680 fd=66 y_off=0 cbcr_off=25344 
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): initRecord :  record heap , video buffers  buffer=1105072128 fd=69 y_off=0 cbcr_off=25344 
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): initRecord :  record heap , video buffers  buffer=1106456576 fd=72 y_off=0 cbcr_off=25344 
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): initREcord X
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): initpreview before cam_frame thread carete , video frame  buffer=1099534336 fd=57 y_off=0 cbcr_off=25344 
+01-14 17:38:43.369 I/QualcommCameraHardware( 1441): initPreview: create new mHtcCallbackThread 984728
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): initPreview X: 1
+01-14 17:38:43.369 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  17 
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): <<BUFF>> mem->pointer[0] 0x408c9000 frame = 0x408c9000 native 0x141fd4 active 1
+01-14 17:38:43.369 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  17 
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): <<BUFF>> mem->pointer[1] 0x408d3000 frame = 0x408d3000 native 0x14211c active 1
+01-14 17:38:43.369 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  17 
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): <<BUFF>> mem->pointer[2] 0x408dd000 frame = 0x408dd000 native 0x142264 active 1
+01-14 17:38:43.369 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  17 
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): <<BUFF>> mem->pointer[3] 0x408e7000 frame = 0x408e7000 native 0x14240c active 0
+01-14 17:38:43.369 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  17 
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): <<BUFF>> mem->pointer[4] 0x408f1000 frame = 0x408f1000 native 0x142544 active 0
+01-14 17:38:43.369 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  17 
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): <<BUFF>> mem->pointer[5] 0x408fb000 frame = 0x408fb000 native 0x1426dc active 0
+01-14 17:38:43.369 D/CAMFRAME:( 1441): init_preview_frame_queue 7
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): <<BUFF>> Cancel buffer[4] 0x142544
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): <<BUFF>> Cancel buffer[5] 0x1426dc
+01-14 17:38:43.369 D/GPUPostEffect( 1441): SIMON: virtual int mlabs::GPUPostEffect::startPreview(int, int) E.
+01-14 17:38:43.369 D/GPUPostEffect( 1441): SIMON: int mlabs::GPUPostEffect::startPreview(mlabs::GPUPostEffect::GPUTask*) E.
+01-14 17:38:43.369 D/GPUPostEffect( 1441): SIMON: int mlabs::GPUPostEffect::startPreview(mlabs::GPUPostEffect::GPUTask*): preview 176 x 144 started ok.
+01-14 17:38:43.369 D/GPUPostEffect( 1441): SIMON: int mlabs::GPUPostEffect::startPreview(mlabs::GPUPostEffect::GPUTask*) X.
+01-14 17:38:43.369 D/GPUPostEffect( 1441): SIMON: virtual int mlabs::GPUPostEffect::startPreview(int, int) X.
+01-14 17:38:43.369 D/QualcommCameraHardware( 1441): android::status_t android::QualcommCameraHardware::startPreviewInternal(): startPreview 176 x 144 (0)
+01-14 17:38:43.369 W/mm-camera( 1441): config_proc_CAMERA_START_VIDEO:Line:1366 This ioctl can fail if pp_mask is zero. 
+01-14 17:38:43.369 W/mm-camera( 1441): config_proc_CAMERA_START_VIDEO:Line:1368 ioctl MSM_CAM_IOCTL_PICT_PP_DONE is failed...
+01-14 17:38:43.379 D/mm-camera( 1441): preview delay Dig_gain =1.009117, sparam->preview_fps 7540
+01-14 17:38:43.379 I/mm-camera( 1441): vfe_video_config_demosaic_abf: enable ABF2
+01-14 17:38:43.379 D/mm-camera( 1441): start to set sce config.
+01-14 17:38:43.379 D/mm-camera( 1441): sce at computeTRansforms m_p: 1.000000
+01-14 17:38:43.379 D/mm-camera( 1441): sce m_p:1.000000
+01-14 17:38:43.379 D/mm-camera( 1441): sce rEnd_Cr:-5.000000,rEnd_Cb:0.000000,Start_Cr:-10.000000,Start_Cb:0.000000
+01-14 17:38:43.379 D/mm-camera( 1441): sce rEnd_Cr:-5.000000,rEnd_Cb:0.000000,Start_Cr:-10.000000,Start_Cb:0.000000
+01-14 17:38:43.379 D/mm-camera( 1441): sce m_p:1.000000
+01-14 17:38:43.379 D/mm-camera( 1441): sce rEnd_Cr:-10.000000,rEnd_Cb:0.000000,Start_Cr:-15.000000,Start_Cb:0.000000
+01-14 17:38:43.379 D/mm-camera( 1441): sce rEnd_Cr:-10.000000,rEnd_Cb:0.000000,Start_Cr:-15.000000,Start_Cb:0.000000
+01-14 17:38:43.379 D/mm-camera( 1441): sce m_p:1.000000
+01-14 17:38:43.379 D/mm-camera( 1441): sce rEnd_Cr:-16.000000,rEnd_Cb:0.000000,Start_Cr:-19.000000,Start_Cb:0.000000
+01-14 17:38:43.379 D/mm-camera( 1441): sce rEnd_Cr:-16.000000,rEnd_Cb:0.000000,Start_Cr:-19.000000,Start_Cb:0.000000
+01-14 17:38:43.379 D/mm-camera( 1441): sce m_p:1.000000
+01-14 17:38:43.379 D/mm-camera( 1441): sce rEnd_Cr:-21.000000,rEnd_Cb:0.000000,Start_Cr:-23.000000,Start_Cb:0.000000
+01-14 17:38:43.379 D/mm-camera( 1441): sce rEnd_Cr:-21.000000,rEnd_Cb:0.000000,Start_Cr:-23.000000,Start_Cb:0.000000
+01-14 17:38:43.379 D/mm-camera( 1441): sce m_p:1.000000
+01-14 17:38:43.379 D/mm-camera( 1441): sce rEnd_Cr:-23.000000,rEnd_Cb:0.000000,Start_Cr:-24.000000,Start_Cb:0.000000
+01-14 17:38:43.379 D/mm-camera( 1441): sce rEnd_Cr:-23.000000,rEnd_Cb:0.000000,Start_Cr:-24.000000,Start_Cb:0.000000
+01-14 17:38:43.379 D/mm-camera( 1441): set sce config done
+01-14 17:38:43.379 D/QualcommCameraHardware( 1441): Thread: htc_callback_thread E
+01-14 17:38:43.379 I/QualcommCameraHardware( 1441): runHtcCallbackThread E
+01-14 17:38:43.379 I/QualcommCameraHardware( 1441): runHtcCallbackThread: create pipes R 93 W 94
+01-14 17:38:43.379 D/QualcommCameraHardware( 1441): Thread: frame_thread E
+01-14 17:38:43.379 D/CAMFRAME:( 1441): cam_frame:Initial thread preview buffer=3508343249 fd=-820186671 y_off=298917137 cbcr_off=487706909 
+01-14 17:38:43.379 I/CAMFRAME:( 1441): Open Device node : /dev/msm_camera/frame0 
+01-14 17:38:43.379 W/mm-camera( 1441): vfe_util_sendcmd: MSM_CAM_IOCTL_CONFIG_VFE failed...
+01-14 17:38:43.379 W/mm-camera( 1441): vfe_util_sendcmd: MSM_CAM_IOCTL_CONFIG_VFE failed...
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Watch/FX_WIDGET/-2)
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Mail/FX_WIDGET/-2)
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(People/FX_WIDGET/-2)
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Calendar/FX_WIDGET/-2)
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Bookmarks/FX_WIDGET/-2)
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Messages/FX_WIDGET/-2)
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Twitter/FX_WIDGET/-2)
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Trends/FX_WIDGET/-2)
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.409 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Sync All/FX_WIDGET/-2)
+01-14 17:38:43.409 D/QualcommCameraHardware( 1441): startPreview X
+01-14 17:38:43.409 D/QualcommCameraHardware( 1441): [ATS][camera_preview][complete]
+01-14 17:38:43.429 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+01-14 17:38:43.459 I/ActivityManager( 1574): Displayed uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam/.MainActivity: +844ms (total +1m58s942ms)
+01-14 17:38:43.479 I/QualcommCameraHardware( 1441): notifyHtcCallback: (4 1 0)
+01-14 17:38:43.479 I/QualcommCameraHardware( 1441): runHtcCallbackThread: read pipe - type 4 arg1 1 arg2 0
+01-14 17:38:43.479 D/CameraService( 1441): CameraService::Client::handleGenericNotify: callback
+01-14 17:38:43.479 D/mm-camera( 1441): TRIGGER_LOWLIGHT
+01-14 17:38:43.479 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=19, status=0, token=0)
+01-14 17:38:43.489 E/OverlayLIB( 1438): setPosition, Overlay SET failed
+01-14 17:38:43.489 E/msm7x30.hwcomposer( 1438): prepareOverlay setPosition failed
+01-14 17:38:43.509 W/InputManagerService( 1574): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@408c1b98 (uid=9999 pid=1678)
+01-14 17:38:43.519 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+01-14 17:38:43.549 D/Camera  ( 2681): HTC_CALLBACK: callbackType=4 arg1=1 arg2=0 mHtcCallback=null
+01-14 17:38:43.559 D/dalvikvm( 2378): GC_CONCURRENT freed 522K, 9% free 8808K/9607K, paused 1ms+37ms
+01-14 17:38:43.559 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.559 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Music/FX_WIDGET/-2)
+01-14 17:38:43.559 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.559 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Friend Stream/FX_WIDGET/-2)
+01-14 17:38:43.559 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.559 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(My Shelf/FX_WIDGET/-2)
+01-14 17:38:43.559 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.569 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Weather/FX_WIDGET/-2)
+01-14 17:38:43.569 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.569 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Notes/FX_WIDGET/-2)
+01-14 17:38:43.569 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.579 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(HTC Likes/FX_WIDGET/-2)
+01-14 17:38:43.579 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.579 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Photo Album/FX_WIDGET/-2)
+01-14 17:38:43.579 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.579 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Photo Frame/FX_WIDGET/-2)
+01-14 17:38:43.579 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.579 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Photo Grid/FX_WIDGET/-2)
+01-14 17:38:43.579 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.579 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Navigate/FX_WIDGET/-2)
+01-14 17:38:43.579 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.579 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Locations/FX_WIDGET/-2)
+01-14 17:38:43.579 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.579 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(News/FX_WIDGET/-2)
+01-14 17:38:43.579 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.579 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Clock/FX_WIDGET/-2)
+01-14 17:38:43.579 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.579 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Calculator/FX_WIDGET/-2)
+01-14 17:38:43.589 D/CombinedWidgetProvider( 1678): +addFxWidgetCategories: default
+01-14 17:38:43.589 D/CombinedWidgetProvider( 1678): addFxWidget Category: WidgetCategory(Stocks/FX_WIDGET/-2)
+01-14 17:38:43.599 D/CombinedWidgetProvider( 1678): -addFxWidgetCategories
+01-14 17:38:43.710 D/dalvikvm( 1678): GC_CONCURRENT freed 2217K, 23% free 11056K/14215K, paused 3ms+12ms
+01-14 17:38:43.730 I/SimplePen( 2378): created render with defaul alpha: 180, color: -1275068161, width: 3.0
+01-14 17:38:43.740 I/ActivityManager( 1574): No longer want com.htc.bg (pid 1861): hidden #16
+01-14 17:38:43.750 D/PenUtils( 2378): getAllPen() end 197
+01-14 17:38:43.760 D/PenMenu ( 2378): mPenTypeLoadingListener runnable - onFinish
+01-14 17:38:43.850 I/MediaRecorderJNI( 2681): prepare: surface=0x1a7ae0 (identity=22)
+01-14 17:38:43.850 I/System.out( 2681): about to start recording
+01-14 17:38:43.850 D/CameraSource( 1441): Requested video size (176x144) isSetVideoSizeSupportedByCamera 1
+01-14 17:38:43.850 D/QualcommCameraHardware( 1441): requested preview size 176 x 144
+01-14 17:38:43.850 D/QualcommCameraHardware( 1441): requested picture size 2592 x 1952
+01-14 17:38:43.850 I/QualcommCameraHardware( 1441): requested effect 0
+01-14 17:38:43.850 D/QualcommCameraHardware( 1441): setFlash: flash not supported
+01-14 17:38:43.850 I/QualcommCameraHardware( 1441): requested preview size 176 x 144 video size 176 x 144
+01-14 17:38:43.850 D/        ( 1441): [GECameraParameters::getGPUEffect] enter
+01-14 17:38:43.850 D/        ( 1441): [GECameraParameters::getGPUEffect] leave. no key GPU-effect
+01-14 17:38:43.850 D/        ( 1441): [GECameraParameters::getGPUEffectParam] leave. no key GE-param0
+01-14 17:38:43.850 D/        ( 1441): [GECameraParameters::getGPUEffectParam] leave. no key GE-param1
+01-14 17:38:43.850 D/        ( 1441): [GECameraParameters::getGPUEffectParam] leave. no key GE-param3
+01-14 17:38:43.850 I/GPUPostEffect( 1441): SIMON: int mlabs::GPUPostEffect::setParameters(mlabs::GPUPostEffect::GPUTask*): old effect = -1, new effect = -1.
+01-14 17:38:43.850 D/GPUPostEffect( 1441): SIMON: setParameters: isGEInit == false: no call to ChooseEffect.
+01-14 17:38:43.860 D/QualcommCameraHardware( 1441): requested preview size 176 x 144
+01-14 17:38:43.860 D/QualcommCameraHardware( 1441): requested picture size 2592 x 1952
+01-14 17:38:43.860 I/QualcommCameraHardware( 1441): requested effect 0
+01-14 17:38:43.860 D/QualcommCameraHardware( 1441): setFlash: flash not supported
+01-14 17:38:43.860 D/QualcommCameraHardware( 1441): rotation = 0
+01-14 17:38:43.860 I/QualcommCameraHardware( 1441): requested preview size 176 x 144 video size 176 x 144
+01-14 17:38:43.860 D/        ( 1441): [GECameraParameters::getGPUEffect] enter
+01-14 17:38:43.860 D/        ( 1441): [GECameraParameters::getGPUEffect] leave. no key GPU-effect
+01-14 17:38:43.860 D/        ( 1441): [GECameraParameters::getGPUEffectParam] leave. no key GE-param0
+01-14 17:38:43.860 D/        ( 1441): [GECameraParameters::getGPUEffectParam] leave. no key GE-param1
+01-14 17:38:43.860 D/        ( 1441): [GECameraParameters::getGPUEffectParam] leave. no key GE-param3
+01-14 17:38:43.860 I/GPUPostEffect( 1441): SIMON: int mlabs::GPUPostEffect::setParameters(mlabs::GPUPostEffect::GPUTask*): old effect = -1, new effect = -1.
+01-14 17:38:43.860 D/GPUPostEffect( 1441): SIMON: setParameters: isGEInit == false: no call to ChooseEffect.
+01-14 17:38:43.860 I/StagefrightRecorder( 1441): Frame rate is not explicitly set. Use the current frame rate (30 fps)
+01-14 17:38:43.860 I/QC_CORE ( 1441): OMXCORE API :  Get Handle bed906f4 OMX.qcom.video.encoder.h263 2e7b0
+01-14 17:38:43.860 I/QC_CORE ( 1441): before get_cmp_index **********-1
+01-14 17:38:43.860 I/QC_CORE ( 1441): get_cmp_index: cmp_name = OMX.qcom.video.encoder.h263 , core[i].name = OMX.qcom.video.decoder.avc ,count = 0 
+01-14 17:38:43.860 I/QC_CORE ( 1441): get_cmp_index: cmp_name = OMX.qcom.video.encoder.h263 , core[i].name = OMX.qcom.video.decoder.mpeg4 ,count = 1 
+01-14 17:38:43.860 I/QC_CORE ( 1441): get_cmp_index: cmp_name = OMX.qcom.video.encoder.h263 , core[i].name = OMX.qcom.video.decoder.vc1 ,count = 2 
+01-14 17:38:43.860 I/QC_CORE ( 1441): get_cmp_index: cmp_name = OMX.qcom.video.encoder.h263 , core[i].name = OMX.qcom.video.decoder.wmv ,count = 3 
+01-14 17:38:43.860 I/QC_CORE ( 1441): get_cmp_index: cmp_name = OMX.qcom.video.encoder.h263 , core[i].name = OMX.qcom.video.decoder.h263 ,count = 4 
+01-14 17:38:43.860 I/QC_CORE ( 1441): get_cmp_index: cmp_name = OMX.qcom.video.encoder.h263 , core[i].name = OMX.qcom.video.decoder.divx ,count = 5 
+01-14 17:38:43.860 I/QC_CORE ( 1441): get_cmp_index: cmp_name = OMX.qcom.video.encoder.h263 , core[i].name = OMX.qcom.video.encoder.mpeg4 ,count = 6 
+01-14 17:38:43.860 I/QC_CORE ( 1441): get_cmp_index: cmp_name = OMX.qcom.video.encoder.h263 , core[i].name = OMX.qcom.video.encoder.h263 ,count = 7 
+01-14 17:38:43.860 I/QC_CORE ( 1441): returning index 7
+01-14 17:38:43.860 I/QC_CORE ( 1441): getting fn pointer
+01-14 17:38:43.860 I/QC_CORE ( 1441): Dynamically Loading the library : libOmxVenc.so
+01-14 17:38:43.870 D/OMX-VENC-720p( 1441): 
+01-14 17:38:43.870 D/OMX-VENC-720p( 1441):  omx_video(): Inside Constructor()
+01-14 17:38:43.870 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_init 1471bc
+01-14 17:38:43.870 D/OMX-VENC-720p( 1441): 
+01-14 17:38:43.870 D/OMX-VENC-720p( 1441):  omx_venc(): Inside component_init()
+01-14 17:38:43.970 D/dalvikvm( 2378): GC_CONCURRENT freed 1035K, 12% free 8588K/9735K, paused 1ms+1ms
+01-14 17:38:44.010 D/OMX-VENC-720p( 1441): bool venc_dev::venc_validate_profile_level(OMX_U32*, OMX_U32*): Returning with eProfile = 1Level = 2
+01-14 17:38:44.010 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.010 D/OMX-VENC-720p( 1441):  bool venc_dev::venc_open(OMX_U32)(): Init Profile/Level setting success
+01-14 17:38:44.010 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.010 D/OMX-VENC-720p( 1441):  Component_init return value = 0x0
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_set_callbacks 1471bc, a2ea9030 , 2e7b0
+01-14 17:38:44.010 I/QC_CORE ( 1441): free handle slot exists 0
+01-14 17:38:44.010 I/QC_CORE ( 1441): Component 1471bc Successfully created
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_set_parameter 1471bc, bed9063c , 16777239
+01-14 17:38:44.010 E/OMXCodec( 1441): setVideoInputFormat for video/3gpp with properties width (176) height (144) frameRate (30) bitRate (192000) stride (176) sliceHeight (144)
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_get_parameter 1471bc, bed903f8 , 100663297
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_get_parameter 1471bc, bed9042c , 100663297
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_set_parameter 1471bc, bed9042c , 100663297
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_get_parameter 1471bc, bed90494 , 33554433
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_set_parameter 1471bc, bed90494 , 33554433
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_get_parameter 1471bc, bed9042c , 100663297
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_set_parameter 1471bc, bed9042c , 100663297
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_get_parameter 1471bc, bed90494 , 33554433
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_set_parameter 1471bc, bed90494 , 33554433
+01-14 17:38:44.010 D/OMX-VENC-720p( 1441): bool venc_dev::venc_validate_profile_level(OMX_U32*, OMX_U32*): Returning with eProfile = 1Level = 2
+01-14 17:38:44.010 D/OMX-VENC-720p( 1441): Calling set level (Framerate) with 21
+01-14 17:38:44.010 D/OMX-VENC-720p( 1441): bool venc_dev::venc_validate_profile_level(OMX_U32*, OMX_U32*): Returning with eProfile = 1Level = 4
+01-14 17:38:44.010 D/OMX-VENC-720p( 1441): Calling set level (Bitrate) with 22
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_get_parameter 1471bc, bed903d8 , 100663310
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_get_parameter 1471bc, bed90398 , 100663311
+01-14 17:38:44.010 D/OMX-VENC-720p( 1441): get_parameter: OMX_IndexParamVideoProfileLevelQuerySupported for Input port returned Profile:1, Level:128
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_set_parameter 1471bc, bed903d8 , 100663310
+01-14 17:38:44.010 D/OMX-VENC-720p( 1441): bool venc_dev::venc_validate_profile_level(OMX_U32*, OMX_U32*): Returning with eProfile = 1Level = 4
+01-14 17:38:44.010 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.010 D/OMX-VENC-720p( 1441):  venc_set_intra_period: nPFrames = 30 nBFrames = 0
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_get_parameter 1471bc, bed90320 , 100663300
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_set_parameter 1471bc, bed90320 , 100663300
+01-14 17:38:44.010 D/OMX-VENC-720p( 1441): bool venc_dev::venc_validate_profile_level(OMX_U32*, OMX_U32*): Returning with eProfile = 1Level = 4
+01-14 17:38:44.010 D/OMX-VENC-720p( 1441): Calling set level (Bitrate) with 22
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_get_parameter 1471bc, bed90398 , 100663303
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_set_parameter 1471bc, bed90398 , 100663303
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_get_parameter 1471bc, bed90528 , 33554433
+01-14 17:38:44.010 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_set_parameter 1471bc, bed905c4 , 2130706434
+01-14 17:38:44.010 D/MPEG4Writer( 1441): MPEG4Writer::start E
+01-14 17:38:44.010 I/MPEG4Writer( 1441): limits: 2147483647/0 bytes/us, bit rate: 192000 bps and the estimated moov size 3072 bytes
+01-14 17:38:44.010 D/QualcommCameraHardware( 1441): virtual bool android::QualcommCameraHardware::recordingEnabled() recordingState=0
+01-14 17:38:44.010 D/QualcommCameraHardware( 1441): startRecording E
+01-14 17:38:44.010 D/QualcommCameraHardware( 1441): [ATS][press_jogball][recording]
+01-14 17:38:44.010 I/QualcommCameraHardware( 1441): startRecording: VPE enabled, setting vpe parameters
+01-14 17:38:44.010 D/QualcommCameraHardware( 1441): native_start_video: ioctl good. ioctl return value is 0 
+01-14 17:38:44.010 E/QualcommCameraHardware( 1441): frames in busy Q = 0
+01-14 17:38:44.010 E/QualcommCameraHardware( 1441): frames in busy Q = 0 after deq and add to freeQ
+01-14 17:38:44.010 D/QualcommCameraHardware( 1441): [ATS][record_video][complete]
+01-14 17:38:44.010 D/QualcommCameraHardware( 1441): virtual bool android::QualcommCameraHardware::recordingEnabled() recordingState=1
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_get_parameter 1471bc, bed90668 , 33554433
+01-14 17:38:44.020 E/OMXCodec( 1441): Calling getNumVideoBuffers
+01-14 17:38:44.020 E/QualcommCameraHardware( 1441): getNumOfVideoBuffers: 9
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_set_parameter 1471bc, bed90668 , 33554433
+01-14 17:38:44.020 I/OMXCodec( 1441): [OMX.qcom.video.encoder.h263] allocating 9 buffers of size 38016 on input port
+01-14 17:38:44.020 D/mm-camera( 1441): TRIGGER_LOWLIGHT
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_use_buffer 1471bc
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): use_input_buffer: port = 0 appData = 0xbed905e8 bytes = 38016 buffer = 0x414a3000
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_use_buffer 1471bc
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): use_input_buffer: port = 0 appData = 0xbed905e8 bytes = 38016 buffer = 0x415f5000
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_use_buffer 1471bc
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): use_input_buffer: port = 0 appData = 0xbed905e8 bytes = 38016 buffer = 0x41747000
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_use_buffer 1471bc
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): use_input_buffer: port = 0 appData = 0xbed905e8 bytes = 38016 buffer = 0x41899000
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_use_buffer 1471bc
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): use_input_buffer: port = 0 appData = 0xbed905e8 bytes = 38016 buffer = 0x419eb000
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_use_buffer 1471bc
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): use_input_buffer: port = 0 appData = 0xbed905e8 bytes = 38016 buffer = 0x41b3d000
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_use_buffer 1471bc
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): use_input_buffer: port = 0 appData = 0xbed905e8 bytes = 38016 buffer = 0x41c8f000
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_use_buffer 1471bc
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): use_input_buffer: port = 0 appData = 0xbed905e8 bytes = 38016 buffer = 0x41de1000
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_use_buffer 1471bc
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): use_input_buffer: port = 0 appData = 0xbed905e8 bytes = 38016 buffer = 0x41f33000
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_get_parameter 1471bc, bed90668 , 33554433
+01-14 17:38:44.020 I/OMXCodec( 1441): [OMX.qcom.video.encoder.h263] allocating 5 buffers of size 38016 on output port
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_allocate_buffer 1471bc, bed905fc , 1
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441):  allocate_output_buffer()::
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441):  actual cnt = 5
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_allocate_buffer 1471bc, bed905fc , 1
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441):  allocate_output_buffer()::
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441):  actual cnt = 5
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_allocate_buffer 1471bc, bed905fc , 1
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441):  allocate_output_buffer()::
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441):  actual cnt = 5
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_allocate_buffer 1471bc, bed905fc , 1
+01-14 17:38:44.020 D/QualcommCameraHardware( 1441): runVideoThread E
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441):  allocate_output_buffer()::
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441):  actual cnt = 5
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_allocate_buffer 1471bc, bed905fc , 1
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441):  allocate_output_buffer()::
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441):  actual cnt = 5
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_send_command 1471bc, 0 , 2
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): Process -> state set to 2 
+01-14 17:38:44.020 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_send_command 1471bc, 0 , 3
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441):  unsigned int venc_dev::venc_start()(): Check Profile/Level set in driver before start
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441):  unsigned int venc_dev::venc_start()(): Driver Profile[6]/Level[22] successfully SET
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): ENC_CONFIG: Codec: 3, Profile 6, level : 22
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441):  ENC_CONFIG: Width: 176, Height:144, Fps: 30
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): ENC_CONFIG: Bitrate: 192000, RC: 3, I-Period: 30
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): ENC_CONFIG: qpI: 993213811, qpP: 1734963810, qpb: 0
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): ENC_CONFIG: VOP_Resolution: -1344396104, Slice-Mode: 1, Slize_Size: 0
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): ENC_CONFIG: EntropyMode: 1919954276, CabacModel: 1701410405
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.020 D/OMX-VENC-720p( 1441): ENC_CONFIG: DB-Mode: 1769155959, alpha: 1714251130, Beta: 1982689903
+01-14 17:38:44.030 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.030 D/OMX-VENC-720p( 1441): ENC_CONFIG: IntraMB/Frame: 1952999168, HEC: 33
+01-14 17:38:44.030 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.030 D/OMX-VENC-720p( 1441):  OMX_COMPONENT_GENERATE_START_DONE msg
+01-14 17:38:44.030 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.030 D/OMX-VENC-720p( 1441):  OMX_COMPONENT_GENERATE_START_DONE Success
+01-14 17:38:44.030 D/OMX-VENC-720p( 1441): 
+01-14 17:38:44.030 D/OMX-VENC-720p( 1441):  OMX_COMPONENT_GENERATE_START_DONE Move to executing
+01-14 17:38:44.040 D/MPEG4Writer( 1441): start MPEG4Writer::Track thread: Video, pid=1441, tid=2728
+01-14 17:38:44.070 D/dalvikvm( 2378): GC_CONCURRENT freed 484K, 10% free 8804K/9735K, paused 1ms+1ms
+01-14 17:38:44.160 D/dalvikvm( 2378): GC_FOR_ALLOC freed 897K, 14% free 8466K/9735K, paused 24ms
+01-14 17:38:44.270 D/dalvikvm( 2378): GC_CONCURRENT freed 365K, 10% free 8775K/9735K, paused 2ms+1ms
+01-14 17:38:44.330 I/System.out( 2681): Values: 3104
+01-14 17:38:44.530 I/OMXCodec( 1441): [OMX.qcom.video.encoder.h263] In processSEIData
+01-14 17:38:44.530 I/QC_CORE ( 1441): OMXCORE: qc_omx_component_get_config 1471bc
+01-14 17:38:44.530 D/OMX-VENC-720p( 1441): ERROR: unsupported index 2130706449
+01-14 17:38:44.530 I/MPEG4Writer( 1441): setStartTimestampUs: 207916
+01-14 17:38:44.530 I/MPEG4Writer( 1441): Earliest track starting time: 207916
+01-14 17:38:44.540 D/dalvikvm( 1664): GC_CONCURRENT freed 279K, 10% free 7890K/8711K, paused 1ms+2ms
+01-14 17:38:45.331 I/System.out( 2681): Values: 6422
+01-14 17:38:45.331 I/QualcommCameraHardware( 1441): notifyHtcCallback: (4 0 0)
+01-14 17:38:45.331 I/QualcommCameraHardware( 1441): runHtcCallbackThread: read pipe - type 4 arg1 0 arg2 0
+01-14 17:38:45.331 D/CameraService( 1441): CameraService::Client::handleGenericNotify: callback
+01-14 17:38:45.932 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:46.192 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:46.332 I/System.out( 2681): Values: 41464
+01-14 17:38:46.462 D/mm-camera( 1441): TRIGGER_NORMAL
+01-14 17:38:46.793 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:46.973 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:47.223 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:47.263 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:47.323 I/System.out( 2681): Values: 69576
+01-14 17:38:47.483 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:47.744 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:48.014 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:48.084 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:48.184 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:48.324 I/System.out( 2681): Values: 97863
+01-14 17:38:48.384 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:48.594 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:48.684 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:48.785 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:49.105 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:49.155 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:49.275 D/mm-camera( 1441): TRIGGER_NORMAL
+01-14 17:38:49.325 I/System.out( 2681): Values: 118445
+01-14 17:38:49.405 D/mm-camera( 1441): TRIGGER_OUTDOOR
+01-14 17:38:49.535 D/mm-camera( 1441): TRIGGER_NORMAL
+01-14 17:38:49.775 W/Vold    ( 1434): Ignoring unknown switch 'usb_mass_storage'
+01-14 17:38:49.785 D/dalvikvm( 2681): Debugger has detached; object registry had 1 entries
+01-14 17:38:49.785 W/Vold    ( 1434): Ignoring unknown switch 'usb_connected'
+01-14 17:38:49.816 D/UsbService( 1574): [USBNET] USB UEVENT: {SUBSYSTEM=switch, SWITCH_STATE=0, DEVPATH=/devices/virtual/switch/usb_connected, SEQNUM=1424, ACTION=change, SWITCH_NAME=usb_connected}
+01-14 17:38:49.816 D/Vold    ( 1434): USB disconnected
+01-14 17:38:49.816 D/Vold    ( 1434): Share method ums now unavailable
+01-14 17:38:49.816 D/VoldConnector( 1574): listenToSocket read--: (37,0)
+01-14 17:38:49.826 D/VoldConnector( 1574): RCV <- {620 Share method ums now unavailable}
+01-14 17:38:49.826 I/StorageNotification( 1644): UMS connection changed to false (media state mounted)
+01-14 17:38:49.826 D/VoldConnector( 1574): listenToSocket read++
+01-14 17:38:49.856 D/UsbService( 1574): [USBNET] USB UEVENT: {SUBSYSTEM=switch, SWITCH_STATE=0, DEVPATH=/devices/virtual/switch/usb_configuration, SEQNUM=1425, ACTION=change, SWITCH_NAME=usb_configuration}
+01-14 17:38:49.876 D/BatteryService_ULog( 1574): ULogForBatteryChargingStateChange(99,0) is called
+01-14 17:38:49.876 D/BatteryService_ULog( 1574): charger=off,battery_power=99
+01-14 17:38:49.886 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-14 17:38:49.886 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-14 17:38:49.886 D/UsbnetService( 1574):  --> pluggedType = 0, mPluggedType = 0, mScreenOff = false
+01-14 17:38:49.886 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-14 17:38:49.886 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-14 17:38:49.886 V/NotificationService( 1574): dual Led off
+01-14 17:38:49.896 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/brightness string=0,len=1
+01-14 17:38:49.896 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:38:49.896 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/blink string=0,len=1
+01-14 17:38:49.896 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:38:49.896 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/off_timer string=0 0,len=3
+01-14 17:38:49.896 D/BatteryService( 1574): SendIntentforPowersaver
+01-14 17:38:49.896 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:38:49.896 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 4 2 false
+01-14 17:38:49.896 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/brightness string=0,len=1
+01-14 17:38:49.906 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/blink string=0,len=1
+01-14 17:38:49.906 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/off_timer string=0 0,len=3
+01-14 17:38:49.916 I/ActivityManager( 1574): Start proc com.htc.syncagent for broadcast com.htc.syncagent/.svc.HTCSyncBroadcastReceiver: pid=2738 uid=10096 gids={3003}
+01-14 17:38:49.936 D/PowerUI ( 1644): plugged = false, health = 2, mBatteryLevel = 99, mPluggedBatteryLevel = 99, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-14 17:38:49.996 D/FDUI    ( 2738): [ HTCSyncBroadcastReceiver: 17 ] - onReceive > get broadcast.
+01-14 17:38:50.006 I/QualcommCameraHardware( 1441): notifyHtcCallback: (4 1 0)
+01-14 17:38:50.006 I/QualcommCameraHardware( 1441): runHtcCallbackThread: read pipe - type 4 arg1 1 arg2 0
+01-14 17:38:50.006 D/CameraService( 1441): CameraService::Client::handleGenericNotify: callback
+01-14 17:38:50.006 D/FDUI    ( 2738): [ HTCUICommon: 106 ] - initialize > init preference.
+01-14 17:38:50.006 D/dalvikvm( 1439): GC_EXPLICIT freed 11K, 5% free 6453K/6787K, paused 1ms+4ms
+01-14 17:38:50.016 D/FDUI    ( 2738): [ HTCUICommon: 113 ] - initialize > initialize
+01-14 17:38:50.016 D/FDUI    ( 2738): [ HTCSyncBroadcastReceiver: 22 ] - onReceive > app ver = 1.9
+01-14 17:38:50.016 D/FDUI    ( 2738): [ HTCSyncBroadcastReceiver: 23 ] - onReceive > action = android.intent.action.ACTION_POWER_DISCONNECTED
+01-14 17:38:50.026 I/ActivityManager( 1574): No longer want com.android.defcontainer (pid 2552): hidden #16
+01-14 17:38:50.036 D/dalvikvm( 1439): GC_EXPLICIT freed <1K, 5% free 6453K/6787K, paused 2ms+1ms
+01-14 17:38:50.066 D/dalvikvm( 1439): GC_EXPLICIT freed <1K, 5% free 6453K/6787K, paused 1ms+1ms
+01-14 17:38:50.316 D/mm-camera( 1441): TRIGGER_LOWLIGHT
+01-14 17:38:50.326 I/System.out( 2681): Values: 135628
+01-14 17:38:50.857 D/UsbService( 1574): [USBNET] handleMessage: 0; mConnected=0(1),mConfiguration=0(1)
+01-14 17:38:50.877 D/NetdConnector( 1574): listenToSocket read--: (7,0)
+01-14 17:38:50.887 D/NetdConnector( 1574): RCV <- {110 lo}
+01-14 17:38:50.887 D/NetdConnector( 1574): doCommand++ (Wait Response)
+01-14 17:38:50.887 D/NetdConnector( 1574): listenToSocket read++
+01-14 17:38:50.887 D/NetdConnector( 1574): RSP <- {110 lo}
+01-14 17:38:50.887 D/NetdConnector( 1574): listenToSocket read--: (121,0)
+01-14 17:38:50.897 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:38:50.907 V/NotificationService( 1574): dual Led off
+01-14 17:38:50.907 D/NetdConnector( 1574): RCV <- {110 dummy0}
+01-14 17:38:50.917 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/brightness string=0,len=1
+01-14 17:38:50.917 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/blink string=0,len=1
+01-14 17:38:50.917 D/NetdConnector( 1574): RSP <- {110 dummy0}
+01-14 17:38:50.927 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/off_timer string=0 0,len=3
+01-14 17:38:50.927 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/brightness string=0,len=1
+01-14 17:38:50.927 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/blink string=0,len=1
+01-14 17:38:50.927 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:38:50.937 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/off_timer string=0 0,len=3
+01-14 17:38:50.937 D/NetdConnector( 1574): RCV <- {110 ifb0}
+01-14 17:38:50.937 I/ActivityManager( 1574): Start proc android.process.media for broadcast com.android.providers.media/.UsbReceiver: pid=2746 uid=10044 gids={1015, 1023, 1024, 2001, 3003}
+01-14 17:38:50.947 D/NetdConnector( 1574): RSP <- {110 ifb0}
+01-14 17:38:50.947 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:38:50.947 D/NotificationService( 1574): cancelNotification, ACTION_NOTIFICATION_REMOVE,pkg=android,id=17040338
+01-14 17:38:50.947 D/NetdConnector( 1574): RCV <- {110 ifb1}
+01-14 17:38:50.957 D/NetdConnector( 1574): RSP <- {110 ifb1}
+01-14 17:38:50.957 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:38:50.957 D/NetdConnector( 1574): RCV <- {110 rmnet0}
+01-14 17:38:50.957 D/NetdConnector( 1574): RSP <- {110 rmnet0}
+01-14 17:38:50.957 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:38:50.957 D/NetdConnector( 1574): RCV <- {110 rmnet1}
+01-14 17:38:50.957 D/NetdConnector( 1574): RSP <- {110 rmnet1}
+01-14 17:38:50.957 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:38:50.967 D/NetdConnector( 1574): RCV <- {110 rmnet2}
+01-14 17:38:50.967 D/NetdConnector( 1574): RSP <- {110 rmnet2}
+01-14 17:38:50.967 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:38:50.967 D/NetdConnector( 1574): RCV <- {110 usb0}
+01-14 17:38:50.967 D/NetdConnector( 1574): RSP <- {110 usb0}
+01-14 17:38:50.967 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:38:50.967 D/NetdConnector( 1574): RCV <- {110 sit0}
+01-14 17:38:50.967 D/NetdConnector( 1574): RSP <- {110 sit0}
+01-14 17:38:50.967 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:38:50.967 D/NetdConnector( 1574): RCV <- {110 ip6tnl0}
+01-14 17:38:50.967 D/NetdConnector( 1574): RSP <- {110 ip6tnl0}
+01-14 17:38:50.967 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:38:50.967 D/NetdConnector( 1574): RCV <- {200 Interface list completed}
+01-14 17:38:50.977 D/NetdConnector( 1574): RSP <- {200 Interface list completed}
+01-14 17:38:50.977 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:38:50.977 D/NetdConnector( 1574): doCommand-- (complete)
+01-14 17:38:50.977 D/Tethering( 1574): InitialState.processMessage what=4
+01-14 17:38:50.977 D/NetdConnector( 1574): List terminated with {200 Interface list completed}
+01-14 17:38:50.977 D/NetdConnector( 1574): listenToSocket read++
+01-14 17:38:50.987 D/WifiStateMachine( 1574): wifi hotspotSSID=HTC Portable Hotspot, hiddenSSID=false, secureType=wpa2-psk, enableMacFilter=0, maxConns=5, channel=0
+01-14 17:38:50.987 D/WifiStateMachine( 1574): wifi hotspotdhcpEnable=1, maxDhcpClients=5, ipAddress=192.168.1.1, dhcpSubnetMask=255.255.255.0, startingIP=192.168.1.10, dhsIPAddr1=null, dnsIPAddr2=null, sleepPolicy=1
+01-14 17:38:50.987 D/Tethering( 1574): sendTetherStateChangedBroadcast 0, 0, 0
+01-14 17:38:50.987 D/WifiStateMachine( 1574): getWifiApConfiguration:mconfig.SSID=HTC Portable Hotspot
+01-14 17:38:50.997 I/ActivityThread( 2746): Pub downloads: com.android.providers.downloads.DownloadProvider
+01-14 17:38:51.017 I/ActivityThread( 2746): Pub drm: com.android.providers.drm.DrmProvider
+01-14 17:38:51.017 D/SqliteDatabaseCpp( 2746): dbopen(): path = /data/data/com.android.providers.downloads/databases , key = dksjlkYdw, flag = 6, file size = 9216
+01-14 17:38:51.017 D/SqliteDatabaseCpp( 2746): dbopen(): path = /data/data/com.android.providers.downloads/databases , key = dksjlkYdw, mode: delete, disk free size: 7854 M, handle: 0x1b28a8
+01-14 17:38:51.017 I/ActivityThread( 2746): Pub media: com.android.providers.media.MediaProvider
+01-14 17:38:51.057 D/dalvikvm( 2746): GC_FOR_ALLOC freed 76K, 4% free 6539K/6787K, paused 13ms
+01-14 17:38:51.057 I/dalvikvm-heap( 2746): Grow heap (frag case) to 6.972MB for 524304-byte allocation
+01-14 17:38:51.077 D/dalvikvm( 2746): GC_FOR_ALLOC freed 0K, 5% free 7051K/7367K, paused 12ms
+01-14 17:38:51.087 D/MediaProvider( 2746): [MediaProvider][onCreate]+true
+01-14 17:38:51.117 D/MediaProvider( 2746): [MediaProvider][onCreate]+state=mounted
+01-14 17:38:51.117 D/SqliteDatabaseCpp( 2746): dbopen(): path = /data/data/com.android.providers.media/databases , key = eptevjYl, flag = 6, file size = 63488
+01-14 17:38:51.127 D/SqliteDatabaseCpp( 2746): dbopen(): path = /data/data/com.android.providers.media/databases , key = eptevjYl, mode: wal, disk free size: 7854 M, handle: 0x1c7a60
+01-14 17:38:51.137 D/dalvikvm( 2746): GC_CONCURRENT freed 16K, 5% free 7274K/7623K, paused 1ms+2ms
+01-14 17:38:51.327 I/System.out( 2681): Values: 140459
+01-14 17:38:51.387 D/MediaProvider( 2746): [MediaProvider][onCreate]-
+01-14 17:38:51.387 D/UsbReceiver( 2746): [MTP][UsbReceiver][onReceive]+
+01-14 17:38:51.397 D/UsbConnectedReceiver( 1773): action = android.hardware.usb.action.USB_STATE
+01-14 17:38:51.417 I/ActivityManager( 1574): Start proc com.android.settings for broadcast com.android.settings/.NSReceiver: pid=2759 uid=1000 gids={1015, 3002, 3001, 3003, 2001, 1007}
+01-14 17:38:51.487 D/PSCommon( 1773): Content in /sys/devices/platform/msm_hsusb/usb_cable_connect = 0
+01-14 17:38:51.487 D/UsbConnectedReceiver( 1773): USB Disconnected.
+01-14 17:38:51.507 D/UsbConnectedReceiver( 1773): Catch USB Disconnect Event, USB cable does really not exist.
+01-14 17:38:51.507 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/brightness string=0,len=1
+01-14 17:38:51.507 V/NotificationService( 1574): dual Led off
+01-14 17:38:51.517 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/blink string=0,len=1
+01-14 17:38:51.517 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/off_timer string=0 0,len=3
+01-14 17:38:51.517 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/brightness string=0,len=1
+01-14 17:38:51.517 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/blink string=0,len=1
+01-14 17:38:51.527 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/off_timer string=0 0,len=3
+01-14 17:38:51.527 D/NotificationService( 1574): cancelNotification, ACTION_NOTIFICATION_REMOVE,pkg=com.htc.android.psclient,id=2130837519
+01-14 17:38:51.537 I/ActivityThread( 2759): Pub com.android.settings.provider.cdmasettings: com.android.settings.HtcCdmaSettingsProvider
+01-14 17:38:51.547 D/HtcCdmaSettingsProvider( 2759): onCreate !
+01-14 17:38:51.547 I/NetSharing_NSReceiver( 2759): customizedNS:true
+01-14 17:38:51.547 D/NetSharing_NSReceiver( 2759): onReceive : android.net.conn.TETHER_STATE_CHANGED
+01-14 17:38:51.557 D/NetSharing_NSReceiver( 2759): Tethered state change:false
+01-14 17:38:51.567 I/ActivityManager( 1574): No longer want com.htc.wdm (pid 2604): hidden #16
+01-14 17:38:51.597 D/dalvikvm( 2759): GC_CONCURRENT freed 118K, 3% free 6840K/7047K, paused 1ms+1ms
+01-14 17:38:51.617 I/NetSharing_NSReceiver( 2759): customizedNS:true
+01-14 17:38:51.617 D/NetSharing_NSReceiver( 2759): onReceive : com.htc.usb.change
+01-14 17:38:51.617 D/NetSharing_NSReceiver( 2759): USB = false hasTethered = false
+01-14 17:38:51.627 D/PSReceiver( 2759): onReceive : com.htc.usb.change
+01-14 17:38:51.627 D/HtcHardwareService( 1574): [USBNET] MiscControl_IPT: 0
+01-14 17:38:51.627 D/NetworkManagmentService( 1574): [USBNET] stopIptDhcp
+01-14 17:38:51.627 D/NetdConnector( 1574): listenToSocket read--: (31,0)
+01-14 17:38:51.627 D/NetdConnector( 1574): doCommand++ (Wait Response)
+01-14 17:38:51.627 D/NetdConnector( 1574): RCV <- {200 Tether operation succeeded}
+01-14 17:38:51.627 D/NetdConnector( 1574): RSP <- {200 Tether operation succeeded}
+01-14 17:38:51.627 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:38:51.627 D/NetdConnector( 1574): listenToSocket read++
+01-14 17:38:51.627 D/NetdConnector( 1574): doCommand-- (complete)
+01-14 17:38:51.637 D/HtcHardwareService( 1574): [USBNET] MiscControl+: 1,usb_none
+01-14 17:38:51.637 D/CommandListener( 1436): UsbCmd::runCommand@842: iptmode,3
+01-14 17:38:51.637 D/UsbController( 1436): [USBNET] StartIptMode@211: 0
+01-14 17:38:51.637 I/logwrapper( 2767): CMD:/system/bin/netsharing
+01-14 17:38:51.637 D/NetSharing( 2767): [USBNET] main+: 3, /system/bin/netsharing net_pass off
+01-14 17:38:51.637 D/NetSharing( 2767): UsbAttrFile=/sys/devices/platform/msm_hsusb/usb_function_switch
+01-14 17:38:51.637 D/NetSharing( 2767): [USBNET] iCheckUsbFunc@133: 0x0
+01-14 17:38:51.637 D/NetSharing( 2767): [USBNET] main@1024: uUsbSts=0x0
+01-14 17:38:51.637 D/NetSharing( 2767): [USBNET] main-
+01-14 17:38:51.637 D/FDUI    ( 2738): [ HTCSyncBroadcastReceiver: 17 ] - onReceive > get broadcast.
+01-14 17:38:51.637 D/FDUI    ( 2738): [ HTCSyncBroadcastReceiver: 22 ] - onReceive > app ver = 1.9
+01-14 17:38:51.637 D/NetworkManagmentService( 1574): [USBNET] startIptMode
+01-14 17:38:51.637 D/NetdConnector( 1574): doCommand++ (Wait Response)
+01-14 17:38:51.647 D/FDUI    ( 2738): [ HTCSyncBroadcastReceiver: 23 ] - onReceive > action = action.stopPCTool
+01-14 17:38:51.647 D/FDUI    ( 2738): [ HTCSyncBroadcastReceiver: 53 ] - onReceive > syncthread not alive
+01-14 17:38:51.647 D/FDUI    ( 2738): [ HTCUICommon: 151 ] - stopStatusThread > stop service
+01-14 17:38:51.647 D/FDUI    ( 2738): [ HTCUICommon: 502 ] - revertADBState > saved adb value = -1
+01-14 17:38:51.657 D/FDUI    ( 2738): [ HTCUICommon: 547 ] - updateADBFlag > update adb flag.
+01-14 17:38:51.657 I/ActivityManager( 1574): No longer want com.htc.launcher.widgetscanner (pid 2571): hidden #16
+01-14 17:38:51.677 W/ContentService( 1574): binderDied() at ObserverNode name favorites
+01-14 17:38:51.677 W/ContactAggregator( 1664): No more aggregation requests
+01-14 17:38:51.727 D/dalvikvm( 2759): GC_CONCURRENT freed 448K, 9% free 6833K/7431K, paused 1ms+1ms
+01-14 17:38:51.737 D/dalvikvm( 2232): GC_CONCURRENT freed 421K, 8% free 6769K/7303K, paused 1ms+2ms
+01-14 17:38:51.838 D/NetdConnector( 1574): listenToSocket read--: (28,0)
+01-14 17:38:51.838 D/NetdConnector( 1574): RCV <- {200 Usb operation succeeded}
+01-14 17:38:51.838 D/NetdConnector( 1574): RSP <- {200 Usb operation succeeded}
+01-14 17:38:51.838 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:38:51.848 D/NetdConnector( 1574): doCommand-- (complete)
+01-14 17:38:51.848 D/CommandListener( 1436): UsbCmd::runCommand@842: funcswitch,3
+01-14 17:38:51.848 D/UsbController( 1436): [USBNET] iCheckUsbFunc@133: 0x0
+01-14 17:38:51.848 D/UsbController( 1436): [USBNET] iSwitchUsbFunc@312: 0,0x0,0
+01-14 17:38:51.848 D/UsbController( 1436): [USBNET] iSwitchUsbFunc-: -1
+01-14 17:38:51.848 D/NetworkManagmentService( 1574): [USBNET] SwitchUsbFunc
+01-14 17:38:51.848 D/NetdConnector( 1574): doCommand++ (Wait Response)
+01-14 17:38:51.848 D/NetdConnector( 1574): listenToSocket read++
+01-14 17:38:51.848 D/NetdConnector( 1574): listenToSocket read--: (28,0)
+01-14 17:38:51.848 D/NetdConnector( 1574): RCV <- {200 Usb operation succeeded}
+01-14 17:38:51.848 D/NetdConnector( 1574): RSP <- {200 Usb operation succeeded}
+01-14 17:38:51.848 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:38:51.848 D/NetdConnector( 1574): doCommand-- (complete)
+01-14 17:38:51.858 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-14 17:38:51.858 D/UsbnetService( 1574): NETWORK_STATE_CHANGED_NOTIFY: 0
+01-14 17:38:51.858 I/UsbnetStateTracker( 1574): NetStateNotification +: 0
+01-14 17:38:51.858 I/UsbnetStateTracker( 1574): notifyStateChange
+01-14 17:38:51.858 I/UsbnetStateTracker( 1574): NetStateNotification -
+01-14 17:38:51.858 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-14 17:38:51.858 D/NetdConnector( 1574): listenToSocket read++
+01-14 17:38:51.858 D/ConnectivityService( 1574): [embedded] ConnectivityChange for USBNET: DISCONNECTED/DISCONNECTED, default=-1
+01-14 17:38:51.858 D/ConnectivityService( 1574): getMobileDataEnabled returning false
+01-14 17:38:51.868 D/HtcHardwareService( 1574): [USBNET] MiscControl-: 1,usb_none
+01-14 17:38:51.868 D/WifiService( 1574): WirelessSleep- get variables from db: enabled = true, start= 82800000, end= 21600000
+01-14 17:38:51.868 D/WifiService( 1574): WirelessSleep- start->end = 25200000, end->start= 61200000
+01-14 17:38:51.868 I/WifiService( 1574): DockWifi - mAutoEnableWifiApInDockMode =false mAutoEnableWifiInDockMode=false
+01-14 17:38:51.878 D/DataConnectionTracker( 1661): enableApnType(default), isApnTypeActive=false, isApnIdEnabled=true and state= IDLE
+01-14 17:38:51.888 D/Tethering( 1574): Tethering got CONNECTIVITY_ACTION type: USBNET, subtype: , status: DISCONNECTED
+01-14 17:38:51.898 D/LocationManagerService( 1574): CONNECTIVITY_ACTION: synchronized+
+01-14 17:38:51.898 D/Tethering( 1574): icon Type=15, subtype=0
+01-14 17:38:51.898 D/LocationManagerService( 1574): updateNetworkState unavailable info: NetworkInfo: type: USBNET[], state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: 0, roaming: false, failover: false, isAvailable: false, isIpv4Connected: false, isIpv6Connected: false
+01-14 17:38:51.898 D/LocationManagerService( 1574): CONNECTIVITY_ACTION: synchronized+ provider size: 3
+01-14 17:38:51.898 D/StatusBar.NetworkController( 1644): mSignalStrength.isGsm() == true
+01-14 17:38:51.908 D/Tethering( 1574): MasterInitialState.processMessage what=3
+01-14 17:38:51.908 D/GpsLocationProvider( 1574): + synchronized updateNetworkState  info: NetworkInfo: type: USBNET[], state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: 0, roaming: false, failover: false, isAvailable: false, isIpv4Connected: false, isIpv6Connected: false
+01-14 17:38:51.908 D/GpsLocationProvider( 1574): [shen] debug
+01-14 17:38:51.908 D/LocationManagerService( 1574): CONNECTIVITY_ACTION: synchronized-
+01-14 17:38:51.918 D/GpsLocationProvider( 1574): [handleMessage] message :4
+01-14 17:38:51.918 D/GTalkService( 1710): lost connectivity, notify
+01-14 17:38:51.918 D/GTalkService( 1710): [ReonnectMgr] ### report Inet condition: status=false, networkType=15
+01-14 17:38:51.918 D/ConnectivityService( 1574): reportNetworkCondition(15, 0)
+01-14 17:38:51.928 D/ConnectivityService( 1574): Inet connectivity change, net=15, condition=0,mActiveDefaultNetwork=-1
+01-14 17:38:51.928 D/ConnectivityService( 1574): no active default network - aborting
+01-14 17:38:51.928 I/ActivityManager( 1574): Start proc com.htc.notes for broadcast com.htc.notes/.collection.NotesReceiver: pid=2769 uid=9996 gids={3003, 1015, 1006, 2001}
+01-14 17:38:51.938 D/GpsLocationProvider( 1574): [handleMessage] UPDATE_NETWORK_STATE
+01-14 17:38:51.948 D/GpsLocationProvider( 1574): updateNetworkState unavailable info: NetworkInfo: type: USBNET[], state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: 0, roaming: false, failover: false, isAvailable: false, isIpv4Connected: false, isIpv6Connected: false
+01-14 17:38:51.958 D/PSReceiver( 2759): USB Unplugged, Set PSEnabled= false
+01-14 17:38:51.988 I/ActivityManager( 1574): Start proc com.sdgtl.watch.flyer for broadcast com.sdgtl.watch.flyer/com.sdgtl.watch.service.ModeChangeReceiver: pid=2776 uid=10016 gids={3003, 1015}
+01-14 17:38:52.028 I/ActivityManager( 1574): No longer want com.htc.htchubsyncprovider (pid 2612): hidden #16
+01-14 17:38:52.058 I/ActivityThread( 2776): Pub com.sdgtl.watchapp.widget: com.sdgtl.watch.widget.WatchAppContentProvider
+01-14 17:38:52.068 I/ActivityThread( 2776): Pub searchformovies: com.sdgtl.watch.search.CatalogSearchProvider
+01-14 17:38:52.068 I/ActivityThread( 2776): Pub com.sdgtl.watch.WatchAppCarouselProvider: com.sdgtl.watch.WatchAppCarouselProvider
+01-14 17:38:52.138 D/dalvikvm( 2776): GC_CONCURRENT freed 327K, 6% free 6631K/7047K, paused 2ms+1ms
+01-14 17:38:52.178 I/ActivityManager( 1574): Start proc com.htc.bg for broadcast com.htc.providers.uploads/.UploadReceiver: pid=2784 uid=10013 gids={2001, 3003, 1006, 1015}
+01-14 17:38:52.198 I/ActivityManager( 1574): No longer want com.svox.pico (pid 2619): hidden #16
+01-14 17:38:52.218 I/ActivityThread( 2784): Pub com.htc.socialnetwork.flickr.provider.StreamProvider: com.htc.socialnetwork.flickr.provider.FlickrStreamProvider
+01-14 17:38:52.238 I/ActivityThread( 2784): Pub com.htc.accounts: com.htc.CustomizationSetup.AccountsProvider
+01-14 17:38:52.258 I/ActivityThread( 2784): Pub com.htc.htctwitter.Users: com.htc.htctwitter.FriendProvider
+01-14 17:38:52.288 I/ActivityThread( 2784): Pub com.htc.opensense.snprovider: com.htc.opensense.snprovider.SocialNetworkProvider
+01-14 17:38:52.288 D/SocialNetworkProvider( 2784): onCreate
+01-14 17:38:52.288 I/ActivityThread( 2784): Pub com.htc.socialnetwork.flickr.provider.CacheImageProvider: com.htc.socialnetwork.flickr.provider.FlickrCacheImageProvider
+01-14 17:38:52.288 I/ActivityThread( 2784): Pub com.htc.friendstream.provider.FriendStreamProvider: com.htc.friendstream.provider.FriendStreamProvider
+01-14 17:38:52.308 I/ActivityThread( 2784): Pub com.htc.chirp.provider.Tweet;com.htc.htctwitter: com.htc.htctwitter.TwitterProvider
+01-14 17:38:52.328 I/ActivityThread( 2784): Pub com.htc.provider.settings: com.htc.provider.settings.NotificationFlashLightProvider
+01-14 17:38:52.328 I/System.out( 2681): Values: 141279
+01-14 17:38:52.328 I/ActivityThread( 2784): Pub com.htc.settings.accountsync.SYNC: com.htc.opensense.syncprovider.SyncProvider
+01-14 17:38:52.338 D/SyncProvider( 2784): onCreate
+01-14 17:38:52.338 I/ActivityThread( 2784): Pub com.htc.providers.uploads: com.htc.providers.uploads.UploadProvider
+01-14 17:38:52.338 D/UploadProvider( 2784): UploadProvider is running
+01-14 17:38:52.338 I/ActivityThread( 2784): Pub com.htc.cachemanager: com.htc.opensense.cachemanager.CacheProvider
+01-14 17:38:52.338 I/ActivityThread( 2784): Pub com.htc.socialnetwork.facebook.provider.CacheImageProvider: com.htc.socialnetwork.facebook.provider.FacebookCacheImageProvider
+01-14 17:38:52.348 I/ActivityThread( 2784): Pub com.htc.htctwitter.provider.CacheImageProvider: com.htc.htctwitter.provider.TwitterCacheImageProvider
+01-14 17:38:52.348 I/ActivityThread( 2784): Pub com.htc.socialnetwork.facebook: com.htc.socialnetwork.facebook.FacebookDB
+01-14 17:38:52.358 D/UploadReceiver( 2784): Action android.net.conn.CONNECTIVITY_CHANGE
+01-14 17:38:52.358 I/ActivityManager( 1574): Start proc com.htc.reportagent for broadcast com.htc.reportagent/.receiver.ReportAgentReceiver: pid=2794 uid=10038 gids={3003, 1007}
+01-14 17:38:52.368 V/UploadReceiver( 2784): Receiver onConnectivity
+01-14 17:38:52.378 I/ActivityManager( 1574): No longer want com.htc.cs (pid 2587): hidden #16
+01-14 17:38:52.398 I/MyReportAgent( 2794): ReportAgentReceiver [onReceive] android.net.conn.CONNECTIVITY_CHANGE
+01-14 17:38:52.398 D/MyHTC   ( 1900): PoweronReceiver.onReceive(): intent=android.net.conn.CONNECTIVITY_CHANGE
+01-14 17:38:52.398 I/ActivityManager( 1574): No longer want com.android.vending (pid 2132): hidden #16
+01-14 17:38:52.408 D/CSUtil  ( 1900): serverTime = 1384015909530
+01-14 17:38:52.408 D/CSUtil  ( 1900): serverTime = 48170
+01-14 17:38:52.408 D/CSUtil  ( 1900): curGMTTime = 63532417
+01-14 17:38:52.408 I/ActivityManager( 1574): Start proc com.google.android.apps.uploader for broadcast com.google.android.apps.uploader/.ConnectivityBroadcastReceiver: pid=2804 uid=10043 gids={3003}
+01-14 17:38:52.438 I/ActivityThread( 2804): Pub com.google.android.apps.uploader: com.google.android.apps.uploader.UploadsContentProvider
+01-14 17:38:52.438 I/ActivityThread( 2804): Pub com.google.photos.provider.Album: com.google.android.apps.uploader.clients.picasa.AlbumProvider
+01-14 17:38:52.448 D/MediaUploader( 2804): UploaderApplication.onCreate
+01-14 17:38:52.458 D/MediaUploader( 2804): nonWifiLimit=20971520, default=20971520
+01-14 17:38:52.458 I/MediaUploader( 2804): No need to wake up
+01-14 17:38:52.458 I/ActivityManager( 1574): Start proc com.htc.notes:NotesService for broadcast com.htc.notes/.provider.notes.NotesReceiver: pid=2815 uid=9996 gids={3003, 1015, 1006, 2001}
+01-14 17:38:52.468 I/ActivityManager( 1574): No longer want com.htc.recommend (pid 2596): hidden #16
+01-14 17:38:52.478 V/MyReportAgent( 2794): ReportAgentReceiver Recv Intent: Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x10000010 cmp=com.htc.reportagent/.receiver.ReportAgentReceiver (has extras) }
+01-14 17:38:52.508 D/MyReportAgent( 2794): android.net.conn.CONNECTIVITY_CHANGE
+01-14 17:38:52.508 I/ActivityManager( 1574): Start proc com.htc.htcMessageUploader for broadcast com.htc.htcMessageUploader/.UploadMessageReceiver: pid=2823 uid=10060 gids={3003}
+01-14 17:38:52.518 D/MyReportAgent( 2794): ReportService [##] onCreate(), this = com.htc.reportagent.ReportService@40681248
+01-14 17:38:52.518 D/MyReportAgent( 2794): ReportService [##] onStartCommand(), flags = 2, startId = 1, intent = Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x10000010 cmp=com.htc.reportagent/.ReportService (has extras) }, this = com.htc.reportagent.ReportService@40681248
+01-14 17:38:52.538 V/htcMessageUploader( 2823): [UploadMessageReceiver] UploadMessageReceiver() constructor !!!
+01-14 17:38:52.538 I/htcMessageUploader( 2823): Start thread to upload fota event message:com.htc.htcMessageUploader.UploadMessageReceiver
+01-14 17:38:52.548 D/htcMessageUploader( 2823): Total time in main thread:4 milli-seconds
+01-14 17:38:52.548 I/ActivityManager( 1574): No longer want com.google.android.partnersetup (pid 2628): hidden #16
+01-14 17:38:52.578 D/AutoSetting( 1773): receiver - intent: android.net.conn.CONNECTIVITY_CHANGE
+01-14 17:38:52.578 D/AutoSetting( 1773): receiver - NetworkInfo: type: USBNET[], state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: 0, roaming: false, failover: false, isAvailable: false, isIpv4Connected: false, isIpv6Connected: false
+01-14 17:38:52.578 D/htcMessageUploader( 2823): Get CONNECTIVITY_ACTION intent 
+01-14 17:38:52.578 D/Socket_Alarm( 2823): registerHTCSocketMonitorCallBack
+01-14 17:38:52.578 D/Socket_Alarm( 2823): set mSocketMonitor
+01-14 17:38:52.578 D/Socket_Alarm( 2823): HTCSocketMonitorImpl::HTCSocketMonitorImpl
+01-14 17:38:52.588 I/htcMessageUploader( 2823): == UploadMessageReceiver finished ==
+01-14 17:38:52.588 D/AutoSetting( 1773): Util - no network available!
+01-14 17:38:52.588 D/AutoSetting( 1773): service - onStartCommand() action: com.htc.app.autosetting.cancellocationupdate
+01-14 17:38:52.588 D/AutoSetting( 1773): service - mHandler: cancel location update
+01-14 17:38:52.588 D/AutoSetting( 1773): service -           changes count: 0
+01-14 17:38:52.598 D/UPolicy ( 2794): IUserBehaviorLoggingService reference is gotten !
+01-14 17:38:52.598 W/TelephonyManager( 1710): Hidden constructor called more than once per process!
+01-14 17:38:52.598 W/TelephonyManager( 1710): Original: com.google.android.gsf, new: com.google.android.gsf
+01-14 17:38:52.628 D/dalvikvm( 2784): GC_CONCURRENT freed 182K, 5% free 6715K/7047K, paused 1ms+17ms
+01-14 17:38:52.628 W/ContentService( 1574): binderDied() at ObserverNode name com.google.android.gsf.gservices
+01-14 17:38:52.658 D/dalvikvm( 1710): GC_EXPLICIT freed 163K, 8% free 6850K/7367K, paused 1ms+1ms
+01-14 17:38:53.339 I/System.out( 2681): Values: 141547
+01-14 17:38:54.340 I/System.out( 2681): Values: 141846
+01-14 17:38:55.341 I/System.out( 2681): Values: 143159
+01-14 17:38:56.342 I/System.out( 2681): Values: 143565
+01-14 17:38:57.333 I/System.out( 2681): Values: 143942
+01-14 17:38:57.633 D/MyReportAgent( 2794): ReportService [##] onDestroy(), this =com.htc.reportagent.ReportService@40681248
+01-14 17:38:57.633 D/MyReportAgent( 2794): ReportServiceHandler [##] call stopSelfResult() startId = 1, reurn true
+01-14 17:38:57.633 I/ActivityManager( 1574): No longer want com.google.android.googlequicksearchbox (pid 2643): hidden #16
+01-14 17:38:57.643 W/ContentService( 1574): binderDied() at ObserverNode name use_location_for_services
+01-14 17:38:57.663 D/dalvikvm( 1900): GC_EXPLICIT freed 231K, 6% free 6496K/6855K, paused 4ms+1ms
+01-14 17:38:58.334 I/System.out( 2681): Values: 145279
+01-14 17:38:59.335 I/System.out( 2681): Values: 145692
+01-14 17:39:00.336 I/System.out( 2681): Values: 146036
+01-14 17:39:01.337 I/System.out( 2681): Values: 147375
+01-14 17:39:02.338 I/System.out( 2681): Values: 147728
+01-14 17:39:03.339 I/System.out( 2681): Values: 148098
+01-14 17:39:04.340 I/System.out( 2681): Values: 149387
+01-14 17:39:05.130 D/dalvikvm( 2232): GC_EXPLICIT freed 167K, 10% free 6615K/7303K, paused 5ms+1ms
+01-14 17:39:05.341 I/System.out( 2681): Values: 149787
+01-14 17:39:06.342 I/System.out( 2681): Values: 150166
+01-14 17:39:07.343 I/System.out( 2681): Values: 151528
+01-14 17:39:08.344 I/System.out( 2681): Values: 151906
+01-14 17:39:09.335 I/System.out( 2681): Values: 152213
+01-14 17:39:10.145 D/dalvikvm( 2378): GC_EXPLICIT freed 249K, 11% free 8759K/9735K, paused 5ms+1ms
+01-14 17:39:10.336 I/System.out( 2681): Values: 153475
+01-14 17:39:11.347 I/System.out( 2681): Values: 153884
+01-14 17:39:12.348 I/System.out( 2681): Values: 154208
+01-14 17:39:13.348 I/System.out( 2681): Values: 155235
+01-14 17:39:14.339 I/System.out( 2681): Values: 155987
+01-14 17:39:15.340 I/System.out( 2681): Values: 156316
+01-14 17:39:16.341 I/System.out( 2681): Values: 156691
+01-14 17:39:17.342 I/System.out( 2681): Values: 158028
+01-14 17:39:18.333 I/System.out( 2681): Values: 158422
+01-14 17:39:19.344 I/System.out( 2681): Values: 158733
+01-14 17:39:19.835 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-14 17:39:19.835 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-14 17:39:19.835 D/UsbnetService( 1574):  --> pluggedType = 0, mPluggedType = 0, mScreenOff = false
+01-14 17:39:19.835 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-14 17:39:19.835 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-14 17:39:19.855 D/BatteryService( 1574): SendIntentforPowersaver
+01-14 17:39:19.855 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 4 2 false
+01-14 17:39:19.865 D/PowerUI ( 1644): plugged = false, health = 2, mBatteryLevel = 99, mPluggedBatteryLevel = 99, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-14 17:39:19.875 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:39:19.875 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:39:19.885 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:39:20.345 I/System.out( 2681): Values: 160098
+01-14 17:39:21.346 I/System.out( 2681): Values: 160445
+01-14 17:39:22.347 I/System.out( 2681): Values: 160825
+01-14 17:39:23.348 I/System.out( 2681): Values: 162129
+01-14 17:39:24.349 I/System.out( 2681): Values: 162471
+01-14 17:39:25.350 I/System.out( 2681): Values: 162844
+01-14 17:39:26.351 I/System.out( 2681): Values: 164190
+01-14 17:39:27.352 I/System.out( 2681): Values: 164574
+01-14 17:39:28.353 I/System.out( 2681): Values: 164914
+01-14 17:39:29.354 I/System.out( 2681): Values: 166221
+01-14 17:39:30.355 I/System.out( 2681): Values: 166548
+01-14 17:39:31.346 I/System.out( 2681): Values: 166904
+01-14 17:39:32.347 I/System.out( 2681): Values: 168166
+01-14 17:39:33.348 I/System.out( 2681): Values: 168478
+01-14 17:39:34.349 I/System.out( 2681): Values: 168812
+01-14 17:39:35.350 I/System.out( 2681): Values: 170107
+01-14 17:39:36.351 I/System.out( 2681): Values: 170467
+01-14 17:39:37.352 I/System.out( 2681): Values: 170755
+01-14 17:39:38.353 I/System.out( 2681): Values: 171091
+01-14 17:39:39.354 I/System.out( 2681): Values: 172374
+01-14 17:39:40.345 I/System.out( 2681): Values: 172753
+01-14 17:39:41.356 I/System.out( 2681): Values: 173138
+01-14 17:39:42.357 I/System.out( 2681): Values: 174513
+01-14 17:39:43.358 I/System.out( 2681): Values: 174915
+01-14 17:39:44.349 I/System.out( 2681): Values: 175305
+01-14 17:39:45.350 I/System.out( 2681): Values: 176572
+01-14 17:39:46.351 I/System.out( 2681): Values: 176960
+01-14 17:39:47.352 I/System.out( 2681): Values: 177353
+01-14 17:39:48.343 I/System.out( 2681): Values: 178634
+01-14 17:39:49.354 I/System.out( 2681): Values: 179019
+01-14 17:39:49.884 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-14 17:39:49.884 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-14 17:39:49.884 D/UsbnetService( 1574):  --> pluggedType = 0, mPluggedType = 0, mScreenOff = false
+01-14 17:39:49.884 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-14 17:39:49.894 D/BatteryService( 1574): SendIntentforPowersaver
+01-14 17:39:49.894 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-14 17:39:49.914 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 4 2 false
+01-14 17:39:49.924 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:39:49.924 D/PowerUI ( 1644): plugged = false, health = 2, mBatteryLevel = 98, mPluggedBatteryLevel = 99, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-14 17:39:49.934 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:39:49.944 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:39:50.355 I/System.out( 2681): Values: 179360
+01-14 17:39:50.355 I/System.out( 2681): Battery level start is reached
+01-14 17:39:50.415 E/OverlayLIB( 1438): setPosition, Overlay SET failed
+01-14 17:39:50.415 E/msm7x30.hwcomposer( 1438): prepareOverlay setPosition failed
+01-14 17:39:50.435 E/OverlayLIB( 1438): setPosition, Overlay SET failed
+01-14 17:39:50.435 E/msm7x30.hwcomposer( 1438): prepareOverlay setPosition failed
+01-14 17:39:51.356 I/System.out( 2681): Values: 180636
+01-14 17:39:52.347 I/System.out( 2681): Values: 181037
+01-14 17:39:53.348 I/System.out( 2681): Values: 181375
+01-14 17:39:54.358 I/System.out( 2681): Values: 182714
+01-14 17:39:55.359 I/System.out( 2681): Values: 183147
+01-14 17:39:56.350 I/System.out( 2681): Values: 183500
+01-14 17:39:57.351 I/System.out( 2681): Values: 184803
+01-14 17:39:58.352 I/System.out( 2681): Values: 185204
+01-14 17:39:59.353 I/System.out( 2681): Values: 185543
+01-14 17:40:00.354 I/System.out( 2681): Values: 186563
+01-14 17:40:01.355 I/System.out( 2681): Values: 187245
+01-14 17:40:02.356 I/System.out( 2681): Values: 187612
+01-14 17:40:03.357 I/System.out( 2681): Values: 187966
+01-14 17:40:04.358 I/System.out( 2681): Values: 189282
+01-14 17:40:05.139 D/dalvikvm( 1678): GC_EXPLICIT freed 786K, 28% free 10272K/14215K, paused 7ms+3ms
+01-14 17:40:05.359 I/System.out( 2681): Values: 189686
+01-14 17:40:06.360 I/System.out( 2681): Values: 190131
+01-14 17:40:07.361 I/System.out( 2681): Values: 191484
+01-14 17:40:08.362 I/System.out( 2681): Values: 191914
+01-14 17:40:09.363 I/System.out( 2681): Values: 192291
+01-14 17:40:10.354 I/System.out( 2681): Values: 193595
+01-14 17:40:11.355 I/System.out( 2681): Values: 193931
+01-14 17:40:12.366 I/System.out( 2681): Values: 194302
+01-14 17:40:13.367 I/System.out( 2681): Values: 195658
+01-14 17:40:14.358 I/System.out( 2681): Values: 196052
+01-14 17:40:15.369 I/System.out( 2681): Values: 196483
+01-14 17:40:16.370 I/System.out( 2681): Values: 197799
+01-14 17:40:17.361 I/System.out( 2681): Values: 198204
+01-14 17:40:18.362 I/System.out( 2681): Values: 198620
+01-14 17:40:19.353 I/System.out( 2681): Values: 199976
+01-14 17:40:19.943 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-14 17:40:19.943 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-14 17:40:19.943 D/UsbnetService( 1574):  --> pluggedType = 0, mPluggedType = 0, mScreenOff = false
+01-14 17:40:19.943 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-14 17:40:19.943 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-14 17:40:19.953 D/BatteryService( 1574): SendIntentforPowersaver
+01-14 17:40:19.963 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 4 2 false
+01-14 17:40:19.973 D/PowerUI ( 1644): plugged = false, health = 2, mBatteryLevel = 98, mPluggedBatteryLevel = 99, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-14 17:40:19.983 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:40:19.994 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:40:19.994 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:40:20.364 I/System.out( 2681): Values: 200430
+01-14 17:40:21.365 I/System.out( 2681): Values: 200744
+01-14 17:40:22.356 I/System.out( 2681): Values: 201733
+01-14 17:40:23.367 I/System.out( 2681): Values: 202472
+01-14 17:40:24.368 I/System.out( 2681): Values: 202866
+01-14 17:40:25.369 I/System.out( 2681): Values: 203249
+01-14 17:40:26.370 I/System.out( 2681): Values: 204614
+01-14 17:40:27.371 I/System.out( 2681): Values: 205026
+01-14 17:40:28.372 I/System.out( 2681): Values: 205344
+01-14 17:40:29.373 I/System.out( 2681): Values: 206685
+01-14 17:40:30.374 I/System.out( 2681): Values: 207028
+01-14 17:40:31.365 I/System.out( 2681): Values: 207384
+01-14 17:40:32.366 I/System.out( 2681): Values: 208727
+01-14 17:40:33.367 I/System.out( 2681): Values: 209067
+01-14 17:40:34.368 I/System.out( 2681): Values: 209420
+01-14 17:40:35.369 I/System.out( 2681): Values: 210790
+01-14 17:40:36.369 I/System.out( 2681): Values: 211159
+01-14 17:40:37.370 I/System.out( 2681): Values: 211539
+01-14 17:40:38.371 I/System.out( 2681): Values: 212861
+01-14 17:40:39.372 I/System.out( 2681): Values: 213363
+01-14 17:40:40.363 I/System.out( 2681): Values: 213667
+01-14 17:40:41.374 I/System.out( 2681): Values: 214923
+01-14 17:40:42.375 I/System.out( 2681): Values: 215319
+01-14 17:40:42.435 D/dalvikvm( 2681): GC_CONCURRENT freed 328K, 7% free 6564K/6983K, paused 5ms+1ms
+01-14 17:40:43.376 I/System.out( 2681): Values: 215689
+01-14 17:40:44.367 I/System.out( 2681): Values: 216972
+01-14 17:40:45.368 I/System.out( 2681): Values: 217331
+01-14 17:40:46.379 I/System.out( 2681): Values: 217722
+01-14 17:40:47.380 I/System.out( 2681): Values: 218103
+01-14 17:40:48.381 I/System.out( 2681): Values: 219488
+01-14 17:40:49.382 I/System.out( 2681): Values: 219890
+01-14 17:40:50.003 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-14 17:40:50.003 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-14 17:40:50.003 D/UsbnetService( 1574):  --> pluggedType = 0, mPluggedType = 0, mScreenOff = false
+01-14 17:40:50.003 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-14 17:40:50.003 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-14 17:40:50.023 D/BatteryService( 1574): SendIntentforPowersaver
+01-14 17:40:50.023 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 4 2 false
+01-14 17:40:50.043 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:40:50.043 D/PowerUI ( 1644): plugged = false, health = 2, mBatteryLevel = 98, mPluggedBatteryLevel = 99, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-14 17:40:50.053 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:40:50.063 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:40:50.373 I/System.out( 2681): Values: 220292
+01-14 17:40:51.374 I/System.out( 2681): Values: 221605
+01-14 17:40:52.375 I/System.out( 2681): Values: 221980
+01-14 17:40:53.376 I/System.out( 2681): Values: 222401
+01-14 17:40:54.377 I/System.out( 2681): Values: 223697
+01-14 17:40:55.378 I/System.out( 2681): Values: 224113
+01-14 17:40:56.379 I/System.out( 2681): Values: 224435
+01-14 17:40:57.380 I/System.out( 2681): Values: 225729
+01-14 17:40:58.381 I/System.out( 2681): Values: 226130
+01-14 17:40:59.382 I/System.out( 2681): Values: 226562
+01-14 17:41:00.383 I/System.out( 2681): Values: 227897
+01-14 17:41:01.384 I/System.out( 2681): Values: 228318
+01-14 17:41:02.375 I/System.out( 2681): Values: 228660
+01-14 17:41:03.376 I/System.out( 2681): Values: 229931
+01-14 17:41:04.377 I/System.out( 2681): Values: 230354
+01-14 17:41:05.378 I/System.out( 2681): Values: 230704
+01-14 17:41:06.379 I/System.out( 2681): Values: 231993
+01-14 17:41:07.380 I/System.out( 2681): Values: 232353
+01-14 17:41:08.381 I/System.out( 2681): Values: 232679
+01-14 17:41:09.382 I/System.out( 2681): Values: 233675
+01-14 17:41:10.383 I/System.out( 2681): Values: 234353
+01-14 17:41:11.374 I/System.out( 2681): Values: 234665
+01-14 17:41:12.385 I/System.out( 2681): Values: 234988
+01-14 17:41:13.386 I/System.out( 2681): Values: 236275
+01-14 17:41:14.387 I/System.out( 2681): Values: 236645
+01-14 17:41:15.388 I/System.out( 2681): Values: 237007
+01-14 17:41:16.389 I/System.out( 2681): Values: 238336
+01-14 17:41:17.390 I/System.out( 2681): Values: 238655
+01-14 17:41:18.390 I/System.out( 2681): Values: 239005
+01-14 17:41:19.391 I/System.out( 2681): Values: 240306
+01-14 17:41:20.062 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-14 17:41:20.062 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-14 17:41:20.062 D/UsbnetService( 1574):  --> pluggedType = 0, mPluggedType = 0, mScreenOff = false
+01-14 17:41:20.062 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-14 17:41:20.062 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-14 17:41:20.082 D/BatteryService( 1574): SendIntentforPowersaver
+01-14 17:41:20.082 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 4 2 false
+01-14 17:41:20.092 D/PowerUI ( 1644): plugged = false, health = 2, mBatteryLevel = 98, mPluggedBatteryLevel = 99, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-14 17:41:20.102 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:41:20.112 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:41:20.112 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:41:20.392 I/System.out( 2681): Values: 240619
+01-14 17:41:21.393 I/System.out( 2681): Values: 240945
+01-14 17:41:22.384 I/System.out( 2681): Values: 242239
+01-14 17:41:23.385 I/System.out( 2681): Values: 242600
+01-14 17:41:24.386 I/System.out( 2681): Values: 242983
+01-14 17:41:25.387 I/System.out( 2681): Values: 244257
+01-14 17:41:26.388 I/System.out( 2681): Values: 244611
+01-14 17:41:27.389 I/System.out( 2681): Values: 244968
+01-14 17:41:28.390 I/System.out( 2681): Values: 246210
+01-14 17:41:29.391 I/System.out( 2681): Values: 246603
+01-14 17:41:30.392 I/System.out( 2681): Values: 246911
+01-14 17:41:31.393 I/System.out( 2681): Values: 247883
+01-14 17:41:32.384 I/System.out( 2681): Values: 248514
+01-14 17:41:33.385 I/System.out( 2681): Values: 248882
+01-14 17:41:34.386 I/System.out( 2681): Values: 249269
+01-14 17:41:35.387 I/System.out( 2681): Values: 250611
+01-14 17:41:36.388 I/System.out( 2681): Values: 250995
+01-14 17:41:37.389 I/System.out( 2681): Values: 251332
+01-14 17:41:38.390 I/System.out( 2681): Values: 252649
+01-14 17:41:39.391 I/System.out( 2681): Values: 252996
+01-14 17:41:40.392 I/System.out( 2681): Values: 253347
+01-14 17:41:41.393 I/System.out( 2681): Values: 254683
+01-14 17:41:42.394 I/System.out( 2681): Values: 255055
+01-14 17:41:43.385 I/System.out( 2681): Values: 255460
+01-14 17:41:44.386 I/System.out( 2681): Values: 256853
+01-14 17:41:45.387 I/System.out( 2681): Values: 257228
+01-14 17:41:46.388 I/System.out( 2681): Values: 257627
+01-14 17:41:47.389 I/System.out( 2681): Values: 258969
+01-14 17:41:48.390 I/System.out( 2681): Values: 259373
+01-14 17:41:49.391 I/System.out( 2681): Values: 259788
+01-14 17:41:50.121 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-14 17:41:50.121 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-14 17:41:50.121 D/UsbnetService( 1574):  --> pluggedType = 0, mPluggedType = 0, mScreenOff = false
+01-14 17:41:50.121 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-14 17:41:50.121 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-14 17:41:50.131 D/BatteryService( 1574): SendIntentforPowersaver
+01-14 17:41:50.151 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 4 2 false
+01-14 17:41:50.151 D/PowerUI ( 1644): plugged = false, health = 2, mBatteryLevel = 98, mPluggedBatteryLevel = 99, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-14 17:41:50.161 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:41:50.171 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:41:50.171 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:41:50.392 I/System.out( 2681): Values: 261064
+01-14 17:41:51.383 I/System.out( 2681): Values: 261462
+01-14 17:41:52.394 I/System.out( 2681): Values: 261812
+01-14 17:41:53.385 I/System.out( 2681): Values: 263131
+01-14 17:41:54.396 I/System.out( 2681): Values: 263466
+01-14 17:41:55.397 I/System.out( 2681): Values: 263847
+01-14 17:41:56.398 I/System.out( 2681): Values: 264180
+01-14 17:41:57.399 I/System.out( 2681): Values: 265543
+01-14 17:41:58.400 I/System.out( 2681): Values: 265925
+01-14 17:41:59.400 I/System.out( 2681): Values: 266306
+01-14 17:42:00.401 I/System.out( 2681): Values: 267636
+01-14 17:42:01.402 I/System.out( 2681): Values: 268032
+01-14 17:42:02.403 I/System.out( 2681): Values: 268418
+01-14 17:42:03.394 I/System.out( 2681): Values: 269674
+01-14 17:42:04.395 I/System.out( 2681): Values: 270063
+01-14 17:42:05.106 D/dalvikvm( 1678): GC_EXPLICIT freed 8K, 28% free 10265K/14215K, paused 6ms+2ms
+01-14 17:42:05.396 I/System.out( 2681): Values: 270419
+01-14 17:42:06.397 I/System.out( 2681): Values: 271755
+01-14 17:42:07.398 I/System.out( 2681): Values: 272135
+01-14 17:42:08.399 I/System.out( 2681): Values: 272450
+01-14 17:42:09.400 I/System.out( 2681): Values: 273754
+01-14 17:42:10.401 I/System.out( 2681): Values: 274166
+01-14 17:42:11.402 I/System.out( 2681): Values: 274561
+01-14 17:42:12.403 I/System.out( 2681): Values: 275836
+01-14 17:42:13.404 I/System.out( 2681): Values: 276207
+01-14 17:42:14.405 I/System.out( 2681): Values: 276606
+01-14 17:42:15.406 I/System.out( 2681): Values: 277941
+01-14 17:42:16.407 I/System.out( 2681): Values: 278360
+01-14 17:42:17.408 I/System.out( 2681): Values: 278733
+01-14 17:42:18.399 I/System.out( 2681): Values: 279662
+01-14 17:42:19.400 I/System.out( 2681): Values: 280385
+01-14 17:42:20.181 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-14 17:42:20.181 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-14 17:42:20.181 D/UsbnetService( 1574):  --> pluggedType = 0, mPluggedType = 0, mScreenOff = false
+01-14 17:42:20.181 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-14 17:42:20.181 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-14 17:42:20.201 D/BatteryService( 1574): SendIntentforPowersaver
+01-14 17:42:20.201 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 4 2 false
+01-14 17:42:20.221 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:42:20.221 D/PowerUI ( 1644): plugged = false, health = 2, mBatteryLevel = 98, mPluggedBatteryLevel = 99, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-14 17:42:20.231 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:42:20.241 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:42:20.401 I/System.out( 2681): Values: 280722
+01-14 17:42:21.412 I/System.out( 2681): Values: 281025
+01-14 17:42:22.413 I/System.out( 2681): Values: 282430
+01-14 17:42:23.404 I/System.out( 2681): Values: 282810
+01-14 17:42:24.405 I/System.out( 2681): Values: 283131
+01-14 17:42:25.406 I/System.out( 2681): Values: 284460
+01-14 17:42:26.407 I/System.out( 2681): Values: 284853
+01-14 17:42:27.408 I/System.out( 2681): Values: 285228
+01-14 17:42:28.409 I/System.out( 2681): Values: 286544
+01-14 17:42:29.410 I/System.out( 2681): Values: 286853
+01-14 17:42:30.411 I/System.out( 2681): Values: 287203
+01-14 17:42:31.412 I/System.out( 2681): Values: 288490
+01-14 17:42:32.403 I/System.out( 2681): Values: 288894
+01-14 17:42:33.414 I/System.out( 2681): Values: 289295
+01-14 17:42:34.415 I/System.out( 2681): Values: 290598
+01-14 17:42:35.416 I/System.out( 2681): Values: 291024
+01-14 17:42:36.407 I/System.out( 2681): Values: 291397
+01-14 17:42:37.408 I/System.out( 2681): Values: 292664
+01-14 17:42:38.409 I/System.out( 2681): Values: 293082
+01-14 17:42:39.410 I/System.out( 2681): Values: 293395
+01-14 17:42:40.410 I/System.out( 2681): Values: 294432
+01-14 17:42:41.411 I/System.out( 2681): Values: 295133
+01-14 17:42:42.412 I/System.out( 2681): Values: 295530
+01-14 17:42:43.413 I/System.out( 2681): Values: 295904
+01-14 17:42:44.414 I/System.out( 2681): Values: 297204
+01-14 17:42:45.405 I/System.out( 2681): Values: 297579
+01-14 17:42:46.416 I/System.out( 2681): Values: 297961
+01-14 17:42:47.417 I/System.out( 2681): Values: 299303
+01-14 17:42:48.408 I/System.out( 2681): Values: 299697
+01-14 17:42:49.409 I/System.out( 2681): Values: 300097
+01-14 17:42:50.240 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-14 17:42:50.240 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-14 17:42:50.240 D/UsbnetService( 1574):  --> pluggedType = 0, mPluggedType = 0, mScreenOff = false
+01-14 17:42:50.240 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-14 17:42:50.250 D/BatteryService( 1574): SendIntentforPowersaver
+01-14 17:42:50.250 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 4 2 false
+01-14 17:42:50.250 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-14 17:42:50.280 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:42:50.280 D/PowerUI ( 1644): plugged = false, health = 2, mBatteryLevel = 97, mPluggedBatteryLevel = 99, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-14 17:42:50.290 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:42:50.290 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:42:50.410 I/System.out( 2681): Values: 301426
+01-14 17:42:50.410 I/System.out( 2681): Battery level end is reached
+01-14 17:42:50.420 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:42:50.470 E/OverlayLIB( 1438): setPosition, Overlay SET failed
+01-14 17:42:50.470 E/msm7x30.hwcomposer( 1438): prepareOverlay setPosition failed
+01-14 17:42:50.490 E/OverlayLIB( 1438): setPosition, Overlay SET failed
+01-14 17:42:50.490 E/msm7x30.hwcomposer( 1438): prepareOverlay setPosition failed
+01-14 17:42:51.411 I/System.out( 2681): Values: 301806
+01-14 17:42:51.411 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:42:52.412 I/System.out( 2681): Values: 302167
+01-14 17:42:52.412 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:42:53.413 I/System.out( 2681): Values: 303489
+01-14 17:42:53.413 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:42:54.404 I/System.out( 2681): Values: 303871
+01-14 17:42:54.414 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:42:55.415 I/System.out( 2681): Values: 304317
+01-14 17:42:55.415 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:42:56.416 I/System.out( 2681): Values: 305648
+01-14 17:42:56.416 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:42:57.407 I/System.out( 2681): Values: 306015
+01-14 17:42:57.407 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:42:58.408 I/System.out( 2681): Values: 306384
+01-14 17:42:58.418 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:42:59.409 I/System.out( 2681): Values: 307706
+01-14 17:42:59.409 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:00.410 I/System.out( 2681): Values: 308090
+01-14 17:43:00.420 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:01.411 I/System.out( 2681): Values: 308457
+01-14 17:43:01.421 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:02.412 I/System.out( 2681): Values: 309797
+01-14 17:43:02.422 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:03.413 I/System.out( 2681): Values: 310158
+01-14 17:43:03.413 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:04.414 I/System.out( 2681): Values: 310529
+01-14 17:43:04.414 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:05.415 I/System.out( 2681): Values: 310875
+01-14 17:43:05.415 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:06.406 I/System.out( 2681): Values: 312237
+01-14 17:43:06.416 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:07.417 I/System.out( 2681): Values: 312566
+01-14 17:43:07.417 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:08.418 I/System.out( 2681): Values: 312890
+01-14 17:43:08.418 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:09.419 I/System.out( 2681): Values: 314249
+01-14 17:43:09.419 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:10.410 I/System.out( 2681): Values: 314635
+01-14 17:43:10.420 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:11.421 I/System.out( 2681): Values: 315149
+01-14 17:43:11.421 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:11.541 I/QualcommCameraHardware( 1441): notifyHtcCallback: (4 0 0)
+01-14 17:43:11.541 I/QualcommCameraHardware( 1441): runHtcCallbackThread: read pipe - type 4 arg1 0 arg2 0
+01-14 17:43:11.541 D/CameraService( 1441): CameraService::Client::handleGenericNotify: callback
+01-14 17:43:12.141 I/QualcommCameraHardware( 1441): notifyHtcCallback: (4 1 0)
+01-14 17:43:12.141 I/QualcommCameraHardware( 1441): runHtcCallbackThread: read pipe - type 4 arg1 1 arg2 0
+01-14 17:43:12.141 D/CameraService( 1441): CameraService::Client::handleGenericNotify: callback
+01-14 17:43:12.422 I/System.out( 2681): Values: 333552
+01-14 17:43:12.432 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:13.413 I/System.out( 2681): Values: 344664
+01-14 17:43:13.413 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:14.414 I/System.out( 2681): Values: 351393
+01-14 17:43:14.414 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:15.415 I/System.out( 2681): Values: 357010
+01-14 17:43:15.415 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:16.416 I/System.out( 2681): Values: 361011
+01-14 17:43:16.416 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:17.417 I/System.out( 2681): Values: 365272
+01-14 17:43:17.417 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:18.418 I/System.out( 2681): Values: 370967
+01-14 17:43:18.418 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:19.419 I/System.out( 2681): Values: 375503
+01-14 17:43:19.419 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:20.269 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-14 17:43:20.269 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-14 17:43:20.269 D/UsbnetService( 1574):  --> pluggedType = 0, mPluggedType = 0, mScreenOff = false
+01-14 17:43:20.269 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-14 17:43:20.279 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-14 17:43:20.289 D/BatteryService( 1574): SendIntentforPowersaver
+01-14 17:43:20.289 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 4 2 false
+01-14 17:43:20.309 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:43:20.309 D/PowerUI ( 1644): plugged = false, health = 2, mBatteryLevel = 96, mPluggedBatteryLevel = 99, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-14 17:43:20.319 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:43:20.329 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:43:20.420 I/System.out( 2681): Values: 380191
+01-14 17:43:20.420 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:21.421 I/System.out( 2681): Values: 386158
+01-14 17:43:21.421 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:22.421 I/System.out( 2681): Values: 390914
+01-14 17:43:22.421 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:23.422 I/System.out( 2681): Values: 395170
+01-14 17:43:23.422 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:24.423 I/System.out( 2681): Values: 401150
+01-14 17:43:24.423 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:25.424 I/System.out( 2681): Values: 405816
+01-14 17:43:25.424 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:26.415 I/System.out( 2681): Values: 410580
+01-14 17:43:26.415 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:27.426 I/System.out( 2681): Values: 419204
+01-14 17:43:27.426 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:28.417 I/System.out( 2681): Values: 424515
+01-14 17:43:28.417 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:29.418 I/System.out( 2681): Values: 430097
+01-14 17:43:29.418 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:30.419 I/System.out( 2681): Values: 443561
+01-14 17:43:30.419 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:31.420 I/System.out( 2681): Values: 451994
+01-14 17:43:31.430 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:32.421 I/System.out( 2681): Values: 461905
+01-14 17:43:32.431 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:33.422 I/System.out( 2681): Values: 469927
+01-14 17:43:33.432 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:34.423 I/System.out( 2681): Values: 475347
+01-14 17:43:34.423 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:35.424 I/System.out( 2681): Values: 480685
+01-14 17:43:35.424 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:36.425 I/System.out( 2681): Values: 486621
+01-14 17:43:36.435 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:36.525 D/dalvikvm( 2681): GC_CONCURRENT freed 388K, 8% free 6572K/7111K, paused 5ms+4ms
+01-14 17:43:37.276 D/BatteryService_ULog( 1574): ULogForBatteryChargingStateChange(96,2) is called
+01-14 17:43:37.276 D/BatteryService_ULog( 1574): charger=on,battery_power=96
+01-14 17:43:37.276 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-14 17:43:37.276 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-14 17:43:37.276 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-14 17:43:37.276 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-14 17:43:37.276 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-14 17:43:37.286 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/brightness string=1,len=1
+01-14 17:43:37.286 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:43:37.286 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/blink string=0,len=1
+01-14 17:43:37.286 V/NotificationService( 1574): Charging...
+01-14 17:43:37.286 D/PowerUI ( 1644): closing low battery warning: level=96
+01-14 17:43:37.286 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 96, mPluggedBatteryLevel = 96, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-14 17:43:37.296 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:43:37.296 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/off_timer string=0 0,len=3
+01-14 17:43:37.296 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:43:37.296 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/brightness string=0,len=1
+01-14 17:43:37.296 D/BatteryService( 1574): SendIntentforPowersaver
+01-14 17:43:37.296 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 3 2 false
+01-14 17:43:37.296 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/blink string=0,len=1
+01-14 17:43:37.296 W/PowerUI ( 1644): unknown intent: Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x10000010 }
+01-14 17:43:37.296 D/BatteryService( 1574): duration: 287397 discharge: 3
+01-14 17:43:37.306 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/off_timer string=0 0,len=3
+01-14 17:43:37.376 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+01-14 17:43:37.376 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+01-14 17:43:37.376 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+01-14 17:43:37.376 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+01-14 17:43:37.376 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+01-14 17:43:37.376 V/NotificationService( 1574): Charging...
+01-14 17:43:37.386 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/brightness string=1,len=1
+01-14 17:43:37.386 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/blink string=0,len=1
+01-14 17:43:37.386 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:43:37.386 D/PowerUI ( 1644): closing low battery warning: level=96
+01-14 17:43:37.386 D/PowerUI ( 1644): plugged = true, health = 2, mBatteryLevel = 96, mPluggedBatteryLevel = 96, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+01-14 17:43:37.396 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/off_timer string=0 0,len=3
+01-14 17:43:37.396 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:43:37.396 D/BatteryService( 1574): SendIntentforPowersaver
+01-14 17:43:37.396 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 2 2 false
+01-14 17:43:37.396 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/brightness string=0,len=1
+01-14 17:43:37.396 D/RemoveMe( 1661): DCT got intent android.intent.action.BATTERY_CHANGED
+01-14 17:43:37.396 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/blink string=0,len=1
+01-14 17:43:37.406 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/off_timer string=0 0,len=3
+01-14 17:43:37.416 I/System.out( 2681): Values: 497089
+01-14 17:43:37.416 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:37.556 W/Vold    ( 1434): Ignoring unknown switch 'usb_mass_storage'
+01-14 17:43:38.307 D/UsbService( 1574): [USBNET] USB UEVENT: {SUBSYSTEM=switch, SWITCH_STATE=1, DEVPATH=/devices/virtual/switch/usb_connected, SEQNUM=1443, ACTION=change, SWITCH_NAME=usb_connected}
+01-14 17:43:38.307 W/Vold    ( 1434): Ignoring unknown switch 'usb_connected'
+01-14 17:43:38.307 D/UsbService( 1574): [USBNET] handleMessage: 0; mConnected=1(0),mConfiguration=0(0)
+01-14 17:43:38.327 D/NetdConnector( 1574): listenToSocket read--: (7,0)
+01-14 17:43:38.327 D/NetdConnector( 1574): RCV <- {110 lo}
+01-14 17:43:38.327 D/NetdConnector( 1574): doCommand++ (Wait Response)
+01-14 17:43:38.327 D/NetdConnector( 1574): listenToSocket read++
+01-14 17:43:38.327 D/NetdConnector( 1574): RSP <- {110 lo}
+01-14 17:43:38.337 D/NetdConnector( 1574): listenToSocket read--: (121,0)
+01-14 17:43:38.337 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.347 D/NetdConnector( 1574): RCV <- {110 dummy0}
+01-14 17:43:38.357 D/NetdConnector( 1574): RSP <- {110 dummy0}
+01-14 17:43:38.357 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.357 D/UsbReceiver( 2746): [MTP][UsbReceiver][onReceive]+
+01-14 17:43:38.357 D/NetdConnector( 1574): RCV <- {110 ifb0}
+01-14 17:43:38.357 D/NetdConnector( 1574): RSP <- {110 ifb0}
+01-14 17:43:38.357 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.357 D/NetdConnector( 1574): RCV <- {110 ifb1}
+01-14 17:43:38.357 D/NetdConnector( 1574): RSP <- {110 ifb1}
+01-14 17:43:38.357 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.357 D/NetdConnector( 1574): RCV <- {110 rmnet0}
+01-14 17:43:38.367 D/UsbConnectedReceiver( 1773): action = android.hardware.usb.action.USB_STATE
+01-14 17:43:38.367 D/PSCommon( 1773): Content in /sys/class/switch/dock/status = offline
+01-14 17:43:38.367 D/NetdConnector( 1574): RSP <- {110 rmnet0}
+01-14 17:43:38.367 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.367 D/NetdConnector( 1574): RCV <- {110 rmnet1}
+01-14 17:43:38.367 D/NetdConnector( 1574): RSP <- {110 rmnet1}
+01-14 17:43:38.367 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.367 D/NetdConnector( 1574): RCV <- {110 rmnet2}
+01-14 17:43:38.367 D/NetdConnector( 1574): RSP <- {110 rmnet2}
+01-14 17:43:38.367 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.367 D/NetdConnector( 1574): RCV <- {110 usb0}
+01-14 17:43:38.367 D/NetdConnector( 1574): RSP <- {110 usb0}
+01-14 17:43:38.367 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.367 D/NetdConnector( 1574): RCV <- {110 sit0}
+01-14 17:43:38.367 D/NetdConnector( 1574): RSP <- {110 sit0}
+01-14 17:43:38.367 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.377 D/UsbConnectedReceiver( 1773): USB Connected.
+01-14 17:43:38.377 D/NetdConnector( 1574): RCV <- {110 ip6tnl0}
+01-14 17:43:38.377 D/NetdConnector( 1574): RSP <- {110 ip6tnl0}
+01-14 17:43:38.377 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.377 D/NetdConnector( 1574): RCV <- {200 Interface list completed}
+01-14 17:43:38.377 D/NetdConnector( 1574): RSP <- {200 Interface list completed}
+01-14 17:43:38.377 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.377 D/NetdConnector( 1574): doCommand-- (complete)
+01-14 17:43:38.377 D/NetdConnector( 1574): List terminated with {200 Interface list completed}
+01-14 17:43:38.377 D/UsbService( 1574): [USBNET] USB UEVENT: {SUBSYSTEM=switch, SWITCH_STATE=1, DEVPATH=/devices/virtual/switch/usb_configuration, SEQNUM=1444, ACTION=change, SWITCH_NAME=usb_configuration}
+01-14 17:43:38.377 D/Vold    ( 1434): USB connected
+01-14 17:43:38.377 D/Vold    ( 1434): Share method ums now available
+01-14 17:43:38.377 D/VoldConnector( 1574): listenToSocket read--: (35,0)
+01-14 17:43:38.377 D/VoldConnector( 1574): RCV <- {620 Share method ums now available}
+01-14 17:43:38.377 D/UsbService( 1574): [USBNET] handleMessage: 0; mConnected=1(1),mConfiguration=1(0)
+01-14 17:43:38.387 D/NetdConnector( 1574): listenToSocket read++
+01-14 17:43:38.397 D/WifiStateMachine( 1574): wifi hotspotSSID=HTC Portable Hotspot, hiddenSSID=false, secureType=wpa2-psk, enableMacFilter=0, maxConns=5, channel=0
+01-14 17:43:38.397 D/WifiStateMachine( 1574): wifi hotspotdhcpEnable=1, maxDhcpClients=5, ipAddress=192.168.1.1, dhcpSubnetMask=255.255.255.0, startingIP=192.168.1.10, dhsIPAddr1=null, dnsIPAddr2=null, sleepPolicy=1
+01-14 17:43:38.397 D/Tethering( 1574): sendTetherStateChangedBroadcast 1, 0, 0
+01-14 17:43:38.397 D/Tethering( 1574): interfaceAdded :usb0
+01-14 17:43:38.397 D/VoldConnector( 1574): listenToSocket read++
+01-14 17:43:38.397 D/WifiStateMachine( 1574): getWifiApConfiguration:mconfig.SSID=HTC Portable Hotspot
+01-14 17:43:38.397 D/NetdConnector( 1574): listenToSocket read--: (128,0)
+01-14 17:43:38.397 D/NetdConnector( 1574): RCV <- {110 lo}
+01-14 17:43:38.407 D/PSCommon( 1773): -isMFGBuild() = false
+01-14 17:43:38.407 D/UsbReceiver( 2746): [MTP][UsbReceiver][onReceive]+
+01-14 17:43:38.407 D/NetdConnector( 1574): RCV <- {110 dummy0}
+01-14 17:43:38.407 D/NetdConnector( 1574): RCV <- {110 ifb0}
+01-14 17:43:38.407 D/NetdConnector( 1574): RCV <- {110 ifb1}
+01-14 17:43:38.407 D/NetdConnector( 1574): doCommand++ (Wait Response)
+01-14 17:43:38.407 D/NetdConnector( 1574): RSP <- {110 lo}
+01-14 17:43:38.407 D/NetdConnector( 1574): RCV <- {110 rmnet0}
+01-14 17:43:38.407 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.407 D/NetdConnector( 1574): RSP <- {110 dummy0}
+01-14 17:43:38.407 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.407 D/NetdConnector( 1574): RSP <- {110 ifb0}
+01-14 17:43:38.407 D/NetdConnector( 1574): RCV <- {110 rmnet1}
+01-14 17:43:38.417 D/PSCommon( 1773): -isMFGBuild() = false
+01-14 17:43:38.417 I/System.out( 2681): Values: 506281
+01-14 17:43:38.417 D/UsbConnectedReceiver( 1773): action = android.hardware.usb.action.USB_STATE
+01-14 17:43:38.417 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.417 D/NetdConnector( 1574): RSP <- {110 ifb1}
+01-14 17:43:38.417 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.417 D/NetdConnector( 1574): RSP <- {110 rmnet0}
+01-14 17:43:38.417 D/NetdConnector( 1574): RCV <- {110 rmnet2}
+01-14 17:43:38.417 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.417 D/NetdConnector( 1574): RSP <- {110 rmnet1}
+01-14 17:43:38.417 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.417 D/NetdConnector( 1574): RCV <- {110 usb0}
+01-14 17:43:38.417 D/NetdConnector( 1574): RSP <- {110 rmnet2}
+01-14 17:43:38.417 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.417 D/NetdConnector( 1574): RCV <- {110 sit0}
+01-14 17:43:38.417 D/NetdConnector( 1574): RSP <- {110 usb0}
+01-14 17:43:38.417 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.417 D/NetdConnector( 1574): RSP <- {110 sit0}
+01-14 17:43:38.417 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.417 D/NetdConnector( 1574): RCV <- {110 ip6tnl0}
+01-14 17:43:38.427 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:38.427 D/UsbConnectedReceiver( 1773): -enableChargeOnly()
+01-14 17:43:38.427 D/PSCommon( 1773): Content in /sys/devices/platform/msm_hsusb/usb_cable_connect = 1
+01-14 17:43:38.437 I/StorageNotification( 1644): UMS connection changed to true (media state mounted)
+01-14 17:43:38.437 D/NetdConnector( 1574): RSP <- {110 ip6tnl0}
+01-14 17:43:38.437 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.437 D/NetdConnector( 1574): RCV <- {200 Interface list completed}
+01-14 17:43:38.437 D/NetdConnector( 1574): RSP <- {200 Interface list completed}
+01-14 17:43:38.437 D/NetdConnector( 1574): miNoRespCnt=0
+01-14 17:43:38.437 D/NetdConnector( 1574): listenToSocket read++
+01-14 17:43:38.437 D/NetdConnector( 1574): doCommand-- (complete)
+01-14 17:43:38.437 D/NetdConnector( 1574): List terminated with {200 Interface list completed}
+01-14 17:43:38.487 D/PSCommon( 1773): Content in /sys/class/switch/dock/status = offline
+01-14 17:43:38.487 I/NetSharing_NSReceiver( 2759): customizedNS:true
+01-14 17:43:38.487 D/NetSharing_NSReceiver( 2759): onReceive : com.htc.usb.change
+01-14 17:43:38.487 D/NetSharing_NSReceiver( 2759): USB = true hasTethered = false
+01-14 17:43:38.517 D/ActivityManager( 1574): isSketcherDisabledInCurrentTask():false, ActivityRecord{4068d4e8 uk.ac.st_andrews.cs.host.mk74.energymeasurement.cam/.MainActivity}
+01-14 17:43:38.527 D/PSReceiver( 2759): onReceive : com.htc.usb.change
+01-14 17:43:38.537 D/PSReceiver( 2759): USB Plugged, Set USBPlugged=  true
+01-14 17:43:38.547 D/UsbConnectedReceiver( 1773): Connect_To_PC is Launched, return
+01-14 17:43:38.557 E/OverlayLIB( 1438): setPosition, Overlay SET failed
+01-14 17:43:38.557 E/msm7x30.hwcomposer( 1438): prepareOverlay setPosition failed
+01-14 17:43:38.567 E/OverlayLIB( 1438): setPosition, Overlay SET failed
+01-14 17:43:38.567 E/msm7x30.hwcomposer( 1438): prepareOverlay setPosition failed
+01-14 17:43:38.567 D/SurfaceFlinger( 1438): getTokenForSurface(0xca97c) => 1 (client=0xa3d38, bitmap=00000003), pid=1644
+01-14 17:43:38.577 I/NetSharing_NSReceiver( 2759): customizedNS:true
+01-14 17:43:38.577 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+01-14 17:43:38.577 D/NetSharing_NSReceiver( 2759): onReceive : android.net.conn.TETHER_STATE_CHANGED
+01-14 17:43:38.587 D/NetSharing_NSReceiver( 2759): Tethered state change:false
+01-14 17:43:38.587 E/OverlayLIB( 1438): setPosition, Overlay SET failed
+01-14 17:43:38.587 E/msm7x30.hwcomposer( 1438): prepareOverlay setPosition failed
+01-14 17:43:38.597 E/OverlayLIB( 1438): setPosition, Overlay SET failed
+01-14 17:43:38.597 E/msm7x30.hwcomposer( 1438): prepareOverlay setPosition failed
+01-14 17:43:38.627 D/dalvikvm( 2759): GC_CONCURRENT freed 450K, 8% free 6952K/7495K, paused 1ms+2ms
+01-14 17:43:38.878 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+01-14 17:43:39.418 I/System.out( 2681): Values: 511485
+01-14 17:43:39.428 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:40.419 I/System.out( 2681): Values: 517696
+01-14 17:43:40.429 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:41.430 I/System.out( 2681): Values: 523371
+01-14 17:43:41.430 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:42.421 I/System.out( 2681): Values: 528162
+01-14 17:43:42.431 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:43.422 I/System.out( 2681): Values: 535477
+01-14 17:43:43.432 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:43.682 D/dalvikvm( 2502): GC_EXPLICIT freed 233K, 5% free 7490K/7815K, paused 6ms+1ms
+01-14 17:43:44.423 I/System.out( 2681): Values: 540468
+01-14 17:43:44.423 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:45.424 I/System.out( 2681): Values: 545280
+01-14 17:43:45.424 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:46.425 I/System.out( 2681): Values: 551099
+01-14 17:43:46.425 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:47.416 I/System.out( 2681): Values: 556340
+01-14 17:43:47.426 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:48.427 I/System.out( 2681): Values: 561047
+01-14 17:43:48.427 I/System.out( 2681): Time difference in secs is: 180
+01-14 17:43:48.647 D/dalvikvm( 1773): GC_EXPLICIT freed 171K, 7% free 6851K/7303K, paused 7ms+2ms
