@@ -1,0 +1,39 @@
+Progress:
+	
+	-cleaned and updated new experiments results
+	-data analysis from previous experiments
+		I see some pattern
+		decided to increase amount of experiments to 5 samples
+	-started writing skeleton for my energy-effciency part of my report
+		-new hypothesis:
+!			Android requires different energy measurement than Power model software as fragmentation problem
+
+	-microphone data
+		Google Nexus 7:
+			-Codec: AMR narrow band(samr)
+			-channels: 		mono
+			-sample rate:	8000 Hz
+			-bits per sample 	32
+		HTC desire, HTC flyer:
+			-Codec: AMR narrow band(samr)
+			-channels:		1
+			-sample rate:	8000 Hz
+			-bits per sample:	16
+			-Bitrate:		128 kb/s
+
+	-camera data
+		Google Nexus 7, HTC desire, HTC flyer:
+			-Codec H263
+			-Resolution	176&144
+			-Frame rate		~10(HTC flyer),	~12(HTC desire),	~15(Google Nexus 7)
+
+	-new thought - security concern
+		-they don't ask for permission about accelerometer/magnetic field etc.
+		-enable user tracking
+
+	-written SensorGraphPlotter - helper app printing live accelerometer data:
+		-sliding window 5000 gives 2.5 minutes
+		-prints total acceleration magnitude
+		-small bug: frozen sometimes with so many points 
+			but i ignore it - no time
+
