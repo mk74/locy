@@ -1,614 +1,1272 @@
 --------- beginning of /dev/log/main
-01-07 14:14:18.865 D/dalvikvm(  526): GC_EXPLICIT freed 26K, 55% free 2517K/5575K, external 0K/0K, paused 95ms
-01-07 14:15:02.187 I/power   (  164): *** set_screen_state 0
-01-07 14:15:02.398 D/SurfaceFlinger(  164): About to give-up screen, flinger = 0x94808
-01-07 14:15:02.538 D/AK8973  (  120): Compass CLOSE 
-01-07 14:15:07.352 D/dalvikvm(  164): GC_EXTERNAL_ALLOC freed 317K, 50% free 4626K/9159K, external 488K/547K, paused 50ms
-01-07 14:15:07.422 D/dalvikvm(  164): GC_EXTERNAL_ALLOC freed 11K, 50% free 4631K/9159K, external 891K/1088K, paused 46ms
-01-07 14:15:07.502 D/dalvikvm(  164): GC_EXTERNAL_ALLOC freed 2K, 50% free 4633K/9159K, external 1802K/1808K, paused 49ms
-01-07 14:15:07.573 D/dalvikvm(  164): GC_EXTERNAL_ALLOC freed 2K, 50% free 4634K/9159K, external 2293K/2324K, paused 46ms
-01-07 14:15:07.643 D/dalvikvm(  164): GC_EXTERNAL_ALLOC freed 2K, 50% free 4634K/9159K, external 2414K/2436K, paused 47ms
-01-07 14:15:07.713 D/dalvikvm(  164): GC_EXTERNAL_ALLOC freed 5K, 50% free 4637K/9159K, external 2363K/2495K, paused 46ms
-01-07 14:15:07.803 D/dalvikvm(  164): GC_EXTERNAL_ALLOC freed 13K, 50% free 4659K/9159K, external 3161K/3440K, paused 47ms
+01-10 17:53:50.814 D/AndroidRuntime(  851): 
+01-10 17:53:50.814 D/AndroidRuntime(  851): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-10 17:53:50.825 I/AndroidRuntime(  851): Heap size: -Xmx32m
+01-10 17:53:50.825 D/AndroidRuntime(  851): CheckJNI is OFF
+01-10 17:53:50.825 D/dalvikvm(  851): creating instr width table
+01-10 17:53:51.035 D/AndroidRuntime(  851): Calling main entry com.android.commands.pm.Pm
+01-10 17:53:51.045 D/AndroidRuntime(  851): Shutting down VM
+01-10 17:53:51.045 I/AndroidRuntime(  851): NOTE: attach of thread 'Binder Thread #2' failed
+01-10 17:53:51.045 D/dalvikvm(  851): GC_CONCURRENT freed 103K, 71% free 306K/1024K, external 0K/0K, paused 0ms+1ms
+01-10 17:53:51.055 D/dalvikvm(  851): Debugger has detached; object registry had 1 entries
+01-10 17:53:51.225 D/AndroidRuntime(  860): 
+01-10 17:53:51.225 D/AndroidRuntime(  860): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-10 17:53:51.225 I/AndroidRuntime(  860): Heap size: -Xmx32m
+01-10 17:53:51.225 D/AndroidRuntime(  860): CheckJNI is OFF
+01-10 17:53:51.225 D/dalvikvm(  860): creating instr width table
+01-10 17:53:51.445 D/AndroidRuntime(  860): Calling main entry com.android.commands.am.Am
 --------- beginning of /dev/log/system
-01-07 14:15:07.843 I/WindowManager(  164): Setting rotation to 0, animFlags=1
-01-07 14:15:07.863 I/ActivityManager(  164): Config changed: { scale=1.0 imsi=0/0 loc=en_GB touch=3 keys=1/1/2 nav=3/1 orien=1 layout=34 uiMode=17 seq=5 themeResource=null}
-01-07 14:15:07.893 D/HomeLoaders(  278): aborting loaders
-01-07 14:15:07.963 D/dalvikvm(  278): GC_EXPLICIT freed 396K, 49% free 3204K/6279K, external 5261K/5551K, paused 70ms
-01-07 14:15:08.013 I/PowerWidget(  234): Clearing any old widget stuffs
-01-07 14:15:08.033 I/PowerWidget(  234): Setting up widget
-01-07 14:15:08.033 I/PowerWidget(  234): Default buttons being loaded
-01-07 14:15:08.033 I/PowerWidget(  234): Button list: toggleWifi|toggleBluetooth|toggleGPS|toggleSound
-01-07 14:15:08.033 I/PowerWidget(  234): Setting up button: toggleWifi
-01-07 14:15:08.043 I/PowerWidget(  234): Setting up button: toggleBluetooth
-01-07 14:15:08.043 I/PowerWidget(  234): Setting up button: toggleGPS
-01-07 14:15:08.053 I/PowerWidget(  234): Setting up button: toggleSound
-01-07 14:15:08.233 D/dalvikvm(  164): GC_EXTERNAL_ALLOC freed 38K, 49% free 4687K/9159K, external 3842K/3857K, paused 92ms
-01-07 14:15:08.353 D/dalvikvm(  278): GC_EXTERNAL_ALLOC freed 352K, 51% free 3122K/6279K, external 3848K/3853K, paused 85ms
-01-07 14:15:08.373 D/dalvikvm(  164): GC_EXTERNAL_ALLOC freed 7K, 49% free 4692K/9159K, external 4258K/4260K, paused 79ms
-01-07 14:15:08.503 D/dalvikvm(  164): GC_EXTERNAL_ALLOC freed 4K, 49% free 4703K/9159K, external 5442K/5487K, paused 49ms
-01-07 14:15:08.523 D/HomeLoaders(  278): load applications
-01-07 14:15:08.523 D/HomeLoaders(  278):   --> applications loaded, return
-01-07 14:15:08.523 D/HomeLoaders(  278): loading user items in Thread[main,5,main]
-01-07 14:15:08.523 D/HomeLoaders(  278):   --> items loaded, return
-01-07 14:15:08.523 D/HomeLoaders(  278):   --> loading from cache: 10, 3
-01-07 14:15:08.523 D/Launcher(  278): ------> binding 10 items
-01-07 14:15:08.523 D/Launcher(  278): ------> binding 3 widgets
-01-07 14:15:08.523 D/Launcher(  278): ------> start binding items
-01-07 14:15:08.614 D/dalvikvm(  278): GC_EXTERNAL_ALLOC freed 37K, 50% free 3147K/6279K, external 4834K/4839K, paused 86ms
-01-07 14:15:08.674 D/dalvikvm(  164): GC_EXTERNAL_ALLOC freed 80K, 49% free 4674K/9159K, external 5637K/5806K, paused 60ms
-01-07 14:15:10.936 D/dalvikvm(  164): GC_EXPLICIT freed 63K, 49% free 4674K/9159K, external 3161K/3857K, paused 97ms
-01-07 14:15:11.897 D/KeyguardViewMediator(  164): wakeWhenReadyLocked(26)
-01-07 14:15:11.897 I/power   (  164): *** set_screen_state 1
-01-07 14:15:11.907 D/SurfaceFlinger(  164): Screen about to return, flinger = 0x94808
-01-07 14:15:11.917 D/AK8973  (  120): Compass Start
-01-07 14:15:13.388 D/SettingsAppWidgetProvider(  589): Widget is from a previous version... Let's update
-01-07 14:15:13.388 D/SettingsAppWidgetProvider(  589): No instances yet... Wait for at least one instance to exist before adding global settings
-01-07 14:15:18.884 D/dalvikvm(  589): GC_EXPLICIT freed 118K, 54% free 2637K/5639K, external 0K/0K, paused 65ms
-01-07 14:15:22.968 D/AndroidRuntime(  623): 
-01-07 14:15:22.968 D/AndroidRuntime(  623): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
-01-07 14:15:22.968 I/AndroidRuntime(  623): Heap size: -Xmx32m
-01-07 14:15:22.968 D/AndroidRuntime(  623): CheckJNI is OFF
-01-07 14:15:22.968 D/dalvikvm(  623): creating instr width table
-01-07 14:15:23.178 D/AndroidRuntime(  623): Calling main entry com.android.commands.pm.Pm
-01-07 14:15:23.198 I/ActivityManager(  164): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=631 uid=10030 gids={1015, 2001}
-01-07 14:15:23.328 D/dalvikvm(  631): GC_EXPLICIT freed 325K, 55% free 2509K/5511K, external 0K/0K, paused 31ms
-01-07 14:15:23.908 D/dalvikvm(  505): GC_EXPLICIT freed 7K, 56% free 2569K/5767K, external 0K/0K, paused 87ms
-01-07 14:15:24.089 W/ActivityManager(  164): No content provider found for: 
-01-07 14:15:24.229 W/ActivityManager(  164): No content provider found for: 
-01-07 14:15:24.239 I/ActivityManager(  164): No longer want com.android.mms (pid 463): hidden #16
-01-07 14:15:24.249 D/PackageParser(  164): Scanning package: /data/app/vmdl1247471213.tmp
-01-07 14:15:24.279 I/dalvikvm(  164): Jit: resizing JitTable from 4096 to 8192
-01-07 14:15:24.429 D/PackageManager(  164): Scanning package uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
-01-07 14:15:24.439 I/PackageManager(  164): Unpacking native libraries for /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-1.apk
-01-07 14:15:24.459 D/installd(  118): DexInv: --- BEGIN '/data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-1.apk' ---
-01-07 14:15:24.709 D/dalvikvm(  640): creating instr width table
-01-07 14:15:25.120 D/dalvikvm(  640): DexOpt: load 52ms, verify+opt 263ms
-01-07 14:15:25.240 D/installd(  118): DexInv: --- END '/data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-1.apk' (success) ---
-01-07 14:15:25.240 I/ActivityManager(  164): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone uid=10059
-01-07 14:15:25.250 D/PackageManager(  164):   Activities: uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone.MainActivity
-01-07 14:15:25.360 I/installd(  118): move /data/dalvik-cache/data@app@uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-1.apk@classes.dex -> /data/dalvik-cache/data@app@uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-1.apk@classes.dex
-01-07 14:15:25.360 D/PackageManager(  164): New package installed in /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-1.apk
-01-07 14:15:25.480 D/szipinf (  164): Initializing inflate state
-01-07 14:15:25.490 D/HomeLoaders(  278): application intent received: android.intent.action.PACKAGE_ADDED, replacing=false
-01-07 14:15:25.490 D/HomeLoaders(  278):   --> package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
-01-07 14:15:25.490 D/HomeLoaders(  278):   --> add package
-01-07 14:15:25.600 D/dalvikvm(  164): GC_EXPLICIT freed 561K, 49% free 4702K/9159K, external 3161K/3351K, paused 88ms
-01-07 14:15:25.620 D/szipinf (  164): Initializing inflate state
-01-07 14:15:25.630 D/szipinf (  164): Initializing inflate state
-01-07 14:15:25.630 D/AndroidRuntime(  623): Shutting down VM
-01-07 14:15:25.640 D/dalvikvm(  623): GC_CONCURRENT freed 102K, 71% free 299K/1024K, external 0K/0K, paused 1ms+0ms
-01-07 14:15:25.650 I/AndroidRuntime(  623): NOTE: attach of thread 'Binder Thread #3' failed
-01-07 14:15:25.650 D/jdwp    (  623): Got wake-up signal, bailing out of select
-01-07 14:15:25.650 D/dalvikvm(  623): Debugger has detached; object registry had 1 entries
-01-07 14:15:25.690 W/RecognitionManagerService(  164): no available voice recognition services found
-01-07 14:15:25.710 D/szipinf (  164): Initializing inflate state
-01-07 14:15:25.740 D/szipinf (  164): Initializing inflate state
-01-07 14:15:25.810 D/szipinf (  164): Initializing inflate state
-01-07 14:15:25.850 D/szipinf (  164): Initializing inflate state
-01-07 14:15:25.920 I/ActivityManager(  164): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=648 uid=10047 gids={}
-01-07 14:15:26.121 D/GTalkService(  320): [RawStanzaProvidersMgr] ##### searchProvidersFromIntent
-01-07 14:15:26.121 D/GTalkService(  320): [RawStanzaProvidersMgr] no intent receivers found
-01-07 14:15:26.131 I/ActivityThread(  648): Pub com.svox.pico.providers.SettingsProvider: com.svox.pico.providers.SettingsProvider
-01-07 14:15:26.161 I/ActivityManager(  164): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.InstallReceiver: pid=657 uid=10052 gids={1015, 3003}
-01-07 14:15:26.161 I/ActivityManager(  164): No longer want com.koushikdutta.rommanager (pid 485): hidden #16
-01-07 14:15:26.171 D/AndroidRuntime(  646): 
-01-07 14:15:26.171 D/AndroidRuntime(  646): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
-01-07 14:15:26.191 I/AndroidRuntime(  646): Heap size: -Xmx32m
-01-07 14:15:26.191 D/AndroidRuntime(  646): CheckJNI is OFF
-01-07 14:15:26.201 D/dalvikvm(  646): creating instr width table
-01-07 14:15:26.231 D/dalvikvm(  320): GC_CONCURRENT freed 567K, 53% free 2875K/6087K, external 0K/512K, paused 2ms+35ms
-01-07 14:15:26.261 D/dalvikvm(  115): GC_EXPLICIT freed 11K, 54% free 2499K/5379K, external 0K/0K, paused 107ms
-01-07 14:15:26.341 D/GTalkService(  320): handlePackageInstalled: re-initialize providers
-01-07 14:15:26.341 D/GTalkService(  320): [RawStanzaProvidersMgr] ##### searchProvidersFromIntent
-01-07 14:15:26.351 D/GTalkService(  320): [RawStanzaProvidersMgr] no intent receivers found
-01-07 14:15:26.411 D/dalvikvm(  115): GC_EXPLICIT freed <1K, 54% free 2499K/5379K, external 0K/0K, paused 152ms
-01-07 14:15:26.521 D/dalvikvm(  115): GC_EXPLICIT freed <1K, 54% free 2499K/5379K, external 0K/0K, paused 79ms
-01-07 14:15:26.541 D/szipinf (  657): Initializing inflate state
-01-07 14:15:26.601 D/InstallReceiver(  657): uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
-01-07 14:15:26.631 I/ActivityManager(  164): Start proc com.tmobile.thememanager for broadcast com.tmobile.thememanager/.receiver.ThemePackageReceiver: pid=671 uid=1300 gids={-1}
-01-07 14:15:26.641 I/ActivityManager(  164): No longer want com.android.voicedialer (pid 496): hidden #16
-01-07 14:15:26.721 D/dalvikvm(  320): GC_CONCURRENT freed 499K, 53% free 2868K/6087K, external 0K/512K, paused 2ms+18ms
-01-07 14:15:26.731 D/AndroidRuntime(  646): Calling main entry com.android.commands.am.Am
-01-07 14:15:26.781 I/ActivityManager(  164): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone/.MainActivity } from pid 646
-01-07 14:15:26.811 D/AndroidRuntime(  646): Shutting down VM
-01-07 14:15:26.811 I/ActivityManager(  164): Start proc uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone for activity uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone/.MainActivity: pid=681 uid=10059 gids={1015}
-01-07 14:15:26.821 D/dalvikvm(  646): GC_CONCURRENT freed 104K, 69% free 324K/1024K, external 0K/0K, paused 0ms+0ms
-01-07 14:15:26.821 I/AndroidRuntime(  646): NOTE: attach of thread 'Binder Thread #3' failed
-01-07 14:15:26.831 D/jdwp    (  646): Got wake-up signal, bailing out of select
-01-07 14:15:26.831 D/dalvikvm(  646): Debugger has detached; object registry had 1 entries
-01-07 14:15:26.901 I/ActivityThread(  671): Pub com.tmobile.thememanager.themes: com.tmobile.thememanager.provider.ThemesProvider
-01-07 14:15:26.951 I/ActivityThread(  671): Pub com.tmobile.thememanager.packageresources: com.tmobile.thememanager.provider.PackageResourcesProvider
-01-07 14:15:26.961 I/ActivityManager(  164): Start proc com.android.voicedialer for broadcast com.android.voicedialer/.VoiceDialerReceiver: pid=690 uid=10056 gids={3002}
-01-07 14:15:26.971 I/ActivityManager(  164): No longer want com.android.email (pid 451): hidden #16
-01-07 14:15:27.032 I/MPEG4Writer(  116): limits: 2147483647/0 bytes/us, bit rate: 12200 bps and the estimated moov size 3072 bytes
-01-07 14:15:27.042 D/AudioFlinger(  116): setParameters(): io 3, keyvalue input_source=1;routing=262144, tid 154, calling tid 116
-01-07 14:15:27.042 I/AudioHardwareQSD(  116): Routing audio to Speakerphone
-01-07 14:15:27.052 I/AudioHardwareQSD(  116): do input routing device 40000
-01-07 14:15:27.052 I/AudioHardwareQSD(  116): Routing audio to Speakerphone
-01-07 14:15:27.052 D/AudioHardwareQSD(  116): Switching audio device to 
-01-07 14:15:27.052 D/AudioHardwareQSD(  116): Speakerphone
-01-07 14:15:27.182 D/VoiceDialerReceiver(  690): onReceive Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone flg=0x10000000 cmp=com.android.voicedialer/.VoiceDialerReceiver (has extras) }
-01-07 14:15:27.192 V/RecognizerEngine(  690): deleteCachedGrammarFiles /data/data/com.android.voicedialer/files/openentries.txt
-01-07 14:15:27.212 I/ActivityManager(  164): No longer want com.cyanogenmod.cmparts (pid 536): hidden #16
-01-07 14:15:27.302 D/dalvikvm(  681): GC_EXTERNAL_ALLOC freed 45K, 54% free 2518K/5379K, external 0K/0K, paused 32ms
-01-07 14:15:27.372 I/MPEG4Writer(  116): setStartTimestampUs: 233032
-01-07 14:15:27.372 I/MPEG4Writer(  116): Earliest track starting time: 233032
-01-07 14:15:27.382 I/ActivityManager(  164): Displayed uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone/.MainActivity: +574ms (total +26m48s627ms)
-01-07 14:15:27.492 D/szipinf (  671): Initializing inflate state
-01-07 14:15:27.522 D/szipinf (  671): Initializing inflate state
-01-07 14:15:27.532 I/ThemeManager(  671): VerifyInstalledThemesThread took 88 ms.
-01-07 14:15:28.283 I/System.out(  681): Values: 0
-01-07 14:15:29.274 I/System.out(  681): Values: 25364
-01-07 14:15:30.265 I/System.out(  681): Values: 19255
-01-07 14:15:30.535 D/dalvikvm(  517): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.535 D/dalvikvm(  234): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.535 D/dalvikvm(  164): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.535 D/dalvikvm(  252): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.535 D/dalvikvm(  250): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.535 D/dalvikvm(  320): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.535 D/dalvikvm(  267): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.545 D/dalvikvm(  681): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.545 W/Vold    (  111): Ignoring unknown switch 'usb_connected'
-01-07 14:15:30.545 D/Vold    (  111): USB disconnected
-01-07 14:15:30.545 D/Vold    (  111): Share method ums now unavailable
-01-07 14:15:30.585 I/StorageNotification(  234): UMS connection changed to false (media state mounted)
-01-07 14:15:30.615 D/dalvikvm(  278): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.625 D/dalvikvm(  505): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.665 D/dalvikvm(  544): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.715 D/dalvikvm(  589): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.715 D/SettingsAppWidgetProvider(  589): Widget is from a previous version... Let's update
-01-07 14:15:30.715 D/SettingsAppWidgetProvider(  589): No instances yet... Wait for at least one instance to exist before adding global settings
-01-07 14:15:30.725 D/dalvikvm(  554): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.725 D/dalvikvm(  393): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.735 D/dalvikvm(  564): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.735 D/dalvikvm(  418): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.735 D/dalvikvm(  367): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.735 D/dalvikvm(  631): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.735 D/dalvikvm(  648): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.735 D/dalvikvm(  657): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.735 D/dalvikvm(  671): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.735 D/dalvikvm(  690): Debugger has detached; object registry had 1 entries
-01-07 14:15:30.735 D/dalvikvm(  526): Debugger has detached; object registry had 1 entries
-01-07 14:15:31.266 I/System.out(  681): Values: 5532
-01-07 14:15:31.596 D/Tethering(  164): InitialState.processMessage what=4
-01-07 14:15:31.606 D/Tethering(  164): sendTetherStateChangedBroadcast 0, 0, 0
-01-07 14:15:32.267 I/System.out(  681): Values: 4487
-01-07 14:15:33.278 I/System.out(  681): Values: 11756
-01-07 14:15:34.269 I/System.out(  681): Values: 1914
-01-07 14:15:35.270 I/System.out(  681): Values: 2193
-01-07 14:15:36.271 I/System.out(  681): Values: 2070
-01-07 14:15:36.691 D/dalvikvm(  278): GC_EXPLICIT freed 368K, 49% free 3264K/6279K, external 4818K/5478K, paused 72ms
-01-07 14:15:37.272 I/System.out(  681): Values: 1178
-01-07 14:15:38.273 I/System.out(  681): Values: 1104
-01-07 14:15:39.294 I/System.out(  681): Values: 1058
-01-07 14:15:40.284 I/System.out(  681): Values: 1128
-01-07 14:15:41.275 I/System.out(  681): Values: 1547
-01-07 14:15:41.676 D/dalvikvm(  393): GC_EXPLICIT freed 96K, 57% free 2520K/5767K, external 0K/0K, paused 60ms
-01-07 14:15:42.276 I/System.out(  681): Values: 1124
-01-07 14:15:43.277 I/System.out(  681): Values: 1112
-01-07 14:15:44.278 I/System.out(  681): Values: 1056
-01-07 14:15:45.309 I/System.out(  681): Values: 1142
-01-07 14:15:46.290 I/System.out(  681): Values: 1080
-01-07 14:15:46.691 D/dalvikvm(  367): GC_EXPLICIT freed 13K, 54% free 2622K/5639K, external 9K/521K, paused 67ms
-01-07 14:15:47.281 I/System.out(  681): Values: 1098
-01-07 14:15:48.292 I/System.out(  681): Values: 1166
-01-07 14:15:49.293 I/System.out(  681): Values: 1078
-01-07 14:15:50.294 I/System.out(  681): Values: 1118
-01-07 14:15:51.295 I/System.out(  681): Values: 1204
-01-07 14:15:51.706 D/dalvikvm(  418): GC_EXPLICIT freed 28K, 53% free 2755K/5767K, external 0K/0K, paused 78ms
-01-07 14:15:52.296 I/System.out(  681): Values: 1100
-01-07 14:15:53.297 I/System.out(  681): Values: 1130
-01-07 14:15:54.298 I/System.out(  681): Values: 1132
-01-07 14:15:55.299 I/System.out(  681): Values: 1060
-01-07 14:15:56.320 I/System.out(  681): Values: 1044
-01-07 14:15:57.311 I/System.out(  681): Values: 1010
-01-07 14:15:58.312 I/System.out(  681): Values: 1154
-01-07 14:15:59.313 I/System.out(  681): Values: 1058
-01-07 14:16:00.314 I/System.out(  681): Values: 1052
-01-07 14:16:01.305 I/System.out(  681): Values: 1040
-01-07 14:16:02.316 I/System.out(  681): Values: 1078
-01-07 14:16:03.317 I/System.out(  681): Values: 1052
-01-07 14:16:04.308 I/System.out(  681): Values: 1058
-01-07 14:16:05.309 I/System.out(  681): Values: 1361
-01-07 14:16:06.310 I/System.out(  681): Values: 2808
-01-07 14:16:07.331 I/System.out(  681): Values: 1321
-01-07 14:16:08.312 I/System.out(  681): Values: 1443
-01-07 14:16:09.313 I/System.out(  681): Values: 1070
-01-07 14:16:10.314 I/System.out(  681): Values: 1002
-01-07 14:16:11.315 I/System.out(  681): Values: 1078
-01-07 14:16:12.316 I/System.out(  681): Values: 1096
-01-07 14:16:13.327 I/System.out(  681): Values: 1136
-01-07 14:16:14.328 I/System.out(  681): Values: 1010
-01-07 14:16:15.329 I/System.out(  681): Values: 1170
-01-07 14:16:16.330 I/System.out(  681): Values: 1032
-01-07 14:16:17.331 I/System.out(  681): Values: 1140
-01-07 14:16:18.332 I/System.out(  681): Values: 1078
-01-07 14:16:19.333 I/System.out(  681): Values: 1054
-01-07 14:16:20.334 I/System.out(  681): Values: 1064
-01-07 14:16:21.335 I/System.out(  681): Values: 1224
-01-07 14:16:22.335 I/System.out(  681): Values: 1134
-01-07 14:16:23.326 I/System.out(  681): Values: 1104
-01-07 14:16:24.347 I/System.out(  681): Values: 1144
-01-07 14:16:25.338 I/System.out(  681): Values: 1066
-01-07 14:16:26.339 I/System.out(  681): Values: 1090
-01-07 14:16:27.340 I/System.out(  681): Values: 1066
-01-07 14:16:28.341 I/System.out(  681): Values: 1020
-01-07 14:16:29.342 I/System.out(  681): Values: 1062
-01-07 14:16:30.373 I/System.out(  681): Values: 1104
-01-07 14:16:31.344 I/System.out(  681): Values: 1058
-01-07 14:16:32.345 I/System.out(  681): Values: 1014
-01-07 14:16:33.346 I/System.out(  681): Values: 1026
-01-07 14:16:34.347 I/System.out(  681): Values: 2022
-01-07 14:16:35.358 I/System.out(  681): Values: 1126
-01-07 14:16:36.349 I/System.out(  681): Values: 1002
-01-07 14:16:37.350 I/System.out(  681): Values: 1036
-01-07 14:16:38.351 I/System.out(  681): Values: 1076
-01-07 14:16:39.352 I/System.out(  681): Values: 988
-01-07 14:16:40.353 I/System.out(  681): Values: 1040
-01-07 14:16:41.374 I/System.out(  681): Values: 1072
-01-07 14:16:42.345 I/System.out(  681): Values: 986
-01-07 14:16:43.356 I/System.out(  681): Values: 1216
-01-07 14:16:44.357 I/System.out(  681): Values: 4416
-01-07 14:16:45.358 I/System.out(  681): Values: 1515
-01-07 14:16:46.369 I/System.out(  681): Values: 1016
-01-07 14:16:47.360 I/System.out(  681): Values: 1116
-01-07 14:16:48.361 I/System.out(  681): Values: 1058
-01-07 14:16:49.352 I/System.out(  681): Values: 1242
-01-07 14:16:50.353 I/System.out(  681): Values: 1076
-01-07 14:16:51.364 I/System.out(  681): Values: 1018
-01-07 14:16:52.375 I/System.out(  681): Values: 990
-01-07 14:16:53.366 I/System.out(  681): Values: 1010
-01-07 14:16:54.367 I/System.out(  681): Values: 1016
-01-07 14:16:55.368 I/System.out(  681): Values: 988
-01-07 14:16:56.369 I/System.out(  681): Values: 1072
-01-07 14:16:57.370 I/System.out(  681): Values: 1000
-01-07 14:16:58.371 I/System.out(  681): Values: 1058
-01-07 14:16:59.372 I/System.out(  681): Values: 1158
-01-07 14:17:00.373 I/System.out(  681): Values: 1012
-01-07 14:17:01.374 I/System.out(  681): Values: 1118
-01-07 14:17:02.365 I/System.out(  681): Values: 1084
-01-07 14:17:03.386 I/System.out(  681): Values: 1036
-01-07 14:17:04.377 I/System.out(  681): Values: 1038
-01-07 14:17:05.377 I/System.out(  681): Values: 1036
-01-07 14:17:06.378 I/System.out(  681): Values: 1000
-01-07 14:17:07.379 I/System.out(  681): Values: 1078
-01-07 14:17:08.380 I/System.out(  681): Values: 1056
-01-07 14:17:09.401 I/System.out(  681): Values: 1050
-01-07 14:17:10.382 I/System.out(  681): Values: 1160
-01-07 14:17:11.383 I/System.out(  681): Values: 1056
-01-07 14:17:12.384 I/System.out(  681): Values: 2590
-01-07 14:17:13.385 I/System.out(  681): Values: 1086
-01-07 14:17:14.396 I/System.out(  681): Values: 1036
-01-07 14:17:15.387 I/System.out(  681): Values: 1016
-01-07 14:17:16.388 I/System.out(  681): Values: 1062
-01-07 14:17:17.389 I/System.out(  681): Values: 1090
-01-07 14:17:18.390 I/System.out(  681): Values: 1148
-01-07 14:17:19.391 I/System.out(  681): Values: 1391
-01-07 14:17:20.392 I/System.out(  681): Values: 1096
-01-07 14:17:21.393 I/System.out(  681): Values: 1158
-01-07 14:17:22.394 I/System.out(  681): Values: 1038
-01-07 14:17:23.395 I/System.out(  681): Values: 1096
-01-07 14:17:24.396 I/System.out(  681): Values: 1084
-01-07 14:17:25.407 I/System.out(  681): Values: 1038
-01-07 14:17:26.398 I/System.out(  681): Values: 1092
-01-07 14:17:27.399 I/System.out(  681): Values: 1048
-01-07 14:17:28.400 I/System.out(  681): Values: 2393
-01-07 14:17:29.401 I/System.out(  681): Values: 1182
-01-07 14:17:30.402 I/System.out(  681): Values: 1106
-01-07 14:17:31.413 I/System.out(  681): Values: 1038
-01-07 14:17:31.433 I/System.out(  681): Battery level start is reached
-01-07 14:17:32.414 I/System.out(  681): Values: 1002
-01-07 14:17:33.405 I/System.out(  681): Values: 1104
-01-07 14:17:34.406 I/System.out(  681): Values: 1038
-01-07 14:17:35.407 I/System.out(  681): Values: 1112
-01-07 14:17:36.408 I/System.out(  681): Values: 1240
-01-07 14:17:37.409 I/System.out(  681): Values: 1281
-01-07 14:17:38.410 I/System.out(  681): Values: 1024
-01-07 14:17:39.411 I/System.out(  681): Values: 2606
-01-07 14:17:40.412 I/System.out(  681): Values: 1016
-01-07 14:17:41.413 I/System.out(  681): Values: 1118
-01-07 14:17:42.434 I/System.out(  681): Values: 1098
-01-07 14:17:43.425 I/System.out(  681): Values: 986
-01-07 14:17:44.416 I/System.out(  681): Values: 1118
-01-07 14:17:45.417 I/System.out(  681): Values: 1006
-01-07 14:17:46.418 I/System.out(  681): Values: 2880
-01-07 14:17:47.419 I/System.out(  681): Values: 1116
-01-07 14:17:48.450 I/System.out(  681): Values: 1056
-01-07 14:17:49.420 I/System.out(  681): Values: 1096
-01-07 14:17:50.421 I/System.out(  681): Values: 1082
-01-07 14:17:51.422 I/System.out(  681): Values: 1142
-01-07 14:17:52.423 I/System.out(  681): Values: 1020
-01-07 14:17:53.444 I/System.out(  681): Values: 1118
-01-07 14:17:54.425 I/System.out(  681): Values: 988
-01-07 14:17:55.426 I/System.out(  681): Values: 1471
-01-07 14:17:56.427 I/System.out(  681): Values: 2518
-01-07 14:17:57.428 I/System.out(  681): Values: 1124
-01-07 14:17:58.429 I/System.out(  681): Values: 1285
-01-07 14:17:59.430 I/System.out(  681): Values: 976
-01-07 14:18:00.431 I/System.out(  681): Values: 2084
-01-07 14:18:01.432 I/System.out(  681): Values: 1678
-01-07 14:18:02.433 I/System.out(  681): Values: 12349
-01-07 14:18:03.434 I/System.out(  681): Values: 28165
-01-07 14:18:04.445 I/System.out(  681): Values: 28974
-01-07 14:18:05.436 I/System.out(  681): Values: 2788
-01-07 14:18:06.437 I/System.out(  681): Values: 2113
-01-07 14:18:07.438 I/System.out(  681): Values: 1100
-01-07 14:18:08.439 I/System.out(  681): Values: 3730
-01-07 14:18:09.440 I/System.out(  681): Values: 1886
-01-07 14:18:10.461 I/System.out(  681): Values: 6199
-01-07 14:18:11.452 I/System.out(  681): Values: 1888
-01-07 14:18:12.453 I/System.out(  681): Values: 2048
-01-07 14:18:13.454 I/System.out(  681): Values: 1242
-01-07 14:18:14.455 I/System.out(  681): Values: 1140
-01-07 14:18:15.446 I/System.out(  681): Values: 1078
-01-07 14:18:16.447 I/System.out(  681): Values: 944
-01-07 14:18:17.448 I/System.out(  681): Values: 1682
-01-07 14:18:18.449 I/System.out(  681): Values: 1060
-01-07 14:18:19.450 I/System.out(  681): Values: 990
-01-07 14:18:20.451 I/System.out(  681): Values: 1018
-01-07 14:18:21.472 I/System.out(  681): Values: 1032
-01-07 14:18:22.463 I/System.out(  681): Values: 4300
-01-07 14:18:23.464 I/System.out(  681): Values: 1192
-01-07 14:18:24.465 I/System.out(  681): Values: 1798
-01-07 14:18:25.456 I/System.out(  681): Values: 1072
-01-07 14:18:26.457 I/System.out(  681): Values: 1363
-01-07 14:18:27.458 I/System.out(  681): Values: 1042
-01-07 14:18:28.459 I/System.out(  681): Values: 1202
-01-07 14:18:29.460 I/System.out(  681): Values: 1804
-01-07 14:18:30.460 I/System.out(  681): Values: 960
-01-07 14:18:31.461 I/System.out(  681): Values: 2616
-01-07 14:18:32.472 I/System.out(  681): Values: 2052
-01-07 14:18:33.473 I/System.out(  681): Values: 1339
-01-07 14:18:34.474 I/System.out(  681): Values: 1080
-01-07 14:18:35.465 I/System.out(  681): Values: 2275
-01-07 14:18:36.466 I/System.out(  681): Values: 1162
-01-07 14:18:37.467 I/System.out(  681): Values: 2754
-01-07 14:18:38.468 I/System.out(  681): Values: 1114
-01-07 14:18:39.469 I/System.out(  681): Values: 1094
-01-07 14:18:40.470 I/System.out(  681): Values: 1006
-01-07 14:18:41.471 I/System.out(  681): Values: 1874
-01-07 14:18:42.472 I/System.out(  681): Values: 6810
-01-07 14:18:43.493 I/System.out(  681): Values: 6994
-01-07 14:18:44.484 I/System.out(  681): Values: 3696
-01-07 14:18:45.475 I/System.out(  681): Values: 1429
-01-07 14:18:46.476 I/System.out(  681): Values: 2433
-01-07 14:18:47.477 I/System.out(  681): Values: 1311
-01-07 14:18:48.478 I/System.out(  681): Values: 1347
-01-07 14:18:49.499 I/System.out(  681): Values: 2754
-01-07 14:18:50.490 I/System.out(  681): Values: 1365
-01-07 14:18:51.491 I/System.out(  681): Values: 1060
-01-07 14:18:52.492 I/System.out(  681): Values: 2397
-01-07 14:18:53.493 I/System.out(  681): Values: 2461
-01-07 14:18:54.494 I/System.out(  681): Values: 2411
-01-07 14:18:55.495 I/System.out(  681): Values: 2289
-01-07 14:18:56.496 I/System.out(  681): Values: 1256
-01-07 14:18:57.497 I/System.out(  681): Values: 1120
-01-07 14:18:58.498 I/System.out(  681): Values: 1004
-01-07 14:18:58.568 D/dalvikvm(  681): GC_CONCURRENT freed 395K, 55% free 2534K/5575K, external 8K/519K, paused 6ms+2ms
-01-07 14:18:59.499 I/System.out(  681): Values: 1295
-01-07 14:19:00.500 I/System.out(  681): Values: 1072
-01-07 14:19:01.501 I/System.out(  681): Values: 1523
-01-07 14:19:02.502 I/System.out(  681): Values: 2064
-01-07 14:19:03.503 I/System.out(  681): Values: 1784
-01-07 14:19:04.504 I/System.out(  681): Values: 1022
-01-07 14:19:05.495 I/System.out(  681): Values: 2754
-01-07 14:19:06.516 I/System.out(  681): Values: 1078
-01-07 14:19:07.497 I/System.out(  681): Values: 1549
-01-07 14:19:08.498 I/System.out(  681): Values: 1128
-01-07 14:19:09.499 I/System.out(  681): Values: 1000
-01-07 14:19:10.510 I/System.out(  681): Values: 960
-01-07 14:19:11.511 I/System.out(  681): Values: 938
-01-07 14:19:12.512 I/System.out(  681): Values: 982
-01-07 14:19:13.512 I/System.out(  681): Values: 1020
-01-07 14:19:14.513 I/System.out(  681): Values: 1024
-01-07 14:19:15.514 I/System.out(  681): Values: 988
-01-07 14:19:16.505 I/System.out(  681): Values: 1172
-01-07 14:19:17.516 I/System.out(  681): Values: 1034
-01-07 14:19:18.517 I/System.out(  681): Values: 1152
-01-07 14:19:19.508 I/System.out(  681): Values: 980
-01-07 14:19:20.519 I/System.out(  681): Values: 942
-01-07 14:19:21.510 I/System.out(  681): Values: 962
-01-07 14:19:22.531 I/System.out(  681): Values: 1419
-01-07 14:19:23.522 I/System.out(  681): Values: 3305
-01-07 14:19:24.523 I/System.out(  681): Values: 988
-01-07 14:19:25.524 I/System.out(  681): Values: 1098
-01-07 14:19:26.525 I/System.out(  681): Values: 984
-01-07 14:19:27.516 I/System.out(  681): Values: 1052
-01-07 14:19:28.537 I/System.out(  681): Values: 998
-01-07 14:19:29.528 I/System.out(  681): Values: 964
-01-07 14:19:30.529 I/System.out(  681): Values: 1004
-01-07 14:19:31.530 I/System.out(  681): Values: 986
-01-07 14:19:32.531 I/System.out(  681): Values: 980
-01-07 14:19:33.532 I/System.out(  681): Values: 1004
-01-07 14:19:34.533 I/System.out(  681): Values: 1888
-01-07 14:19:35.534 I/System.out(  681): Values: 2074
-01-07 14:19:36.535 I/System.out(  681): Values: 982
-01-07 14:19:37.536 I/System.out(  681): Values: 2532
-01-07 14:19:38.527 I/System.out(  681): Values: 2465
-01-07 14:19:39.548 I/System.out(  681): Values: 1138
-01-07 14:19:40.539 I/System.out(  681): Values: 2872
-01-07 14:19:41.540 I/System.out(  681): Values: 1194
-01-07 14:19:42.541 I/System.out(  681): Values: 2265
-01-07 14:19:43.542 I/System.out(  681): Values: 1517
-01-07 14:19:44.543 I/System.out(  681): Values: 1012
-01-07 14:19:45.544 I/System.out(  681): Values: 1016
-01-07 14:19:46.545 I/System.out(  681): Values: 1002
-01-07 14:19:47.536 I/System.out(  681): Values: 960
-01-07 14:19:48.537 I/System.out(  681): Values: 1092
-01-07 14:19:49.538 I/System.out(  681): Values: 998
-01-07 14:19:50.559 I/System.out(  681): Values: 1481
-01-07 14:19:51.550 I/System.out(  681): Values: 1006
-01-07 14:19:52.551 I/System.out(  681): Values: 2099
-01-07 14:19:53.552 I/System.out(  681): Values: 2513
-01-07 14:19:54.553 I/System.out(  681): Values: 1712
-01-07 14:19:55.554 I/System.out(  681): Values: 978
-01-07 14:19:56.554 I/System.out(  681): Values: 1000
-01-07 14:19:57.555 I/System.out(  681): Values: 1040
-01-07 14:19:58.556 I/System.out(  681): Values: 1020
-01-07 14:19:59.557 I/System.out(  681): Values: 1018
-01-07 14:20:00.558 I/System.out(  681): Values: 960
-01-07 14:20:00.809 D/SntpClient(  164): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
-01-07 14:20:00.849 D/SntpClient(  164): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
-01-07 14:20:00.849 D/SntpClient(  164): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
-01-07 14:20:01.569 I/System.out(  681): Values: 1002
-01-07 14:20:01.569 I/System.out(  681): Battery level end is reached
-01-07 14:20:01.579 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:02.560 I/System.out(  681): Values: 964
-01-07 14:20:02.560 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:03.561 I/System.out(  681): Values: 944
-01-07 14:20:03.561 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:04.562 I/System.out(  681): Values: 1283
-01-07 14:20:04.562 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:05.563 I/System.out(  681): Values: 1138
-01-07 14:20:05.563 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:06.564 I/System.out(  681): Values: 2311
-01-07 14:20:06.564 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:07.585 I/System.out(  681): Values: 2528
-01-07 14:20:07.585 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:08.566 I/System.out(  681): Values: 1104
-01-07 14:20:08.566 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:09.567 I/System.out(  681): Values: 1036
-01-07 14:20:09.567 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:10.568 I/System.out(  681): Values: 1627
-01-07 14:20:10.568 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:11.569 I/System.out(  681): Values: 3201
-01-07 14:20:11.569 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:12.570 I/System.out(  681): Values: 1046
-01-07 14:20:12.580 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:13.571 I/System.out(  681): Values: 1120
-01-07 14:20:13.571 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:14.572 I/System.out(  681): Values: 4945
-01-07 14:20:14.572 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:15.573 I/System.out(  681): Values: 1623
-01-07 14:20:15.573 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:16.574 I/System.out(  681): Values: 2313
-01-07 14:20:16.574 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:17.565 I/System.out(  681): Values: 27561
-01-07 14:20:17.565 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:18.586 I/System.out(  681): Values: 18284
-01-07 14:20:18.596 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:19.577 I/System.out(  681): Values: 22700
-01-07 14:20:19.577 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:20.578 I/System.out(  681): Values: 25201
-01-07 14:20:20.578 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:20.708 D/SettingsAppWidgetProvider(  589): Widget is from a previous version... Let's update
-01-07 14:20:20.708 D/SettingsAppWidgetProvider(  589): No instances yet... Wait for at least one instance to exist before adding global settings
-01-07 14:20:21.579 I/System.out(  681): Values: 22305
-01-07 14:20:21.579 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:21.749 W/Vold    (  111): Ignoring unknown switch 'usb_connected'
-01-07 14:20:21.839 D/Vold    (  111): USB connected
-01-07 14:20:21.839 D/Vold    (  111): Share method ums now available
-01-07 14:20:21.849 I/StorageNotification(  234): UMS connection changed to true (media state mounted)
-01-07 14:20:21.869 V/NotificationService(  164): Active profile: Default
-01-07 14:20:21.869 I/PROFILE (  164): Group: Gmail containing : com.android.systemui : false
-01-07 14:20:21.879 I/PROFILE (  164): Group: Phone containing : com.android.systemui : false
-01-07 14:20:21.879 I/PROFILE (  164): Group: Calendar containing : com.android.systemui : false
-01-07 14:20:21.879 I/PROFILE (  164): Group: Email containing : com.android.systemui : false
-01-07 14:20:21.879 I/PROFILE (  164): Group: SMS containing : com.android.systemui : false
-01-07 14:20:21.879 V/ProfileManager(  164): No active group, returning default: Other
-01-07 14:20:21.909 W/ApplicationContext(  164): Unable to create files directory
-01-07 14:20:21.919 V/NotificationService(  164): Pkg: com.android.systemui group: Other
-01-07 14:20:21.929 D/WriteApps(  164): Error: java.lang.NullPointerException
-01-07 14:20:21.929 V/NotificationService(  164): Active profile: Default
-01-07 14:20:21.929 I/PROFILE (  164): Group: Gmail containing : android : false
-01-07 14:20:21.929 I/PROFILE (  164): Group: Phone containing : android : false
-01-07 14:20:21.929 I/PROFILE (  164): Group: Calendar containing : android : false
-01-07 14:20:21.929 I/PROFILE (  164): Group: Email containing : android : false
-01-07 14:20:21.929 D/Tethering(  164): sendTetherStateChangedBroadcast 1, 0, 0
-01-07 14:20:21.929 I/PROFILE (  164): Group: SMS containing : android : false
-01-07 14:20:21.929 D/Tethering(  164): interfaceAdded :usb0
-01-07 14:20:21.929 V/ProfileManager(  164): No active group, returning default: Other
-01-07 14:20:21.929 V/NotificationService(  164): Pkg: android group: Other
-01-07 14:20:22.069 D/dalvikvm(  164): GC_CONCURRENT freed 1246K, 49% free 4756K/9159K, external 43K/547K, paused 3ms+5ms
-01-07 14:20:22.580 I/System.out(  681): Values: 1635
-01-07 14:20:22.580 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:23.581 I/System.out(  681): Values: 4061
-01-07 14:20:23.591 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:24.582 I/System.out(  681): Values: 4583
-01-07 14:20:24.582 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:25.583 I/System.out(  681): Values: 1064
-01-07 14:20:25.583 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:26.584 I/System.out(  681): Values: 1062
-01-07 14:20:26.584 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:26.994 D/dalvikvm(  589): GC_EXPLICIT freed 11K, 54% free 2637K/5639K, external 0K/0K, paused 57ms
-01-07 14:20:27.575 I/System.out(  681): Values: 1062
-01-07 14:20:27.575 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:28.586 I/System.out(  681): Values: 1046
-01-07 14:20:28.586 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:29.587 I/System.out(  681): Values: 1511
-01-07 14:20:29.597 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:30.578 I/System.out(  681): Values: 1369
-01-07 14:20:30.578 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:31.579 I/System.out(  681): Values: 1311
-01-07 14:20:31.579 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:32.580 I/System.out(  681): Values: 1100
-01-07 14:20:32.580 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:33.581 I/System.out(  681): Values: 1078
-01-07 14:20:33.581 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:34.582 I/System.out(  681): Values: 1090
-01-07 14:20:34.592 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:35.583 I/System.out(  681): Values: 1134
-01-07 14:20:35.593 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:36.584 I/System.out(  681): Values: 956
-01-07 14:20:36.594 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:37.585 I/System.out(  681): Values: 1012
-01-07 14:20:37.585 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:38.585 I/System.out(  681): Values: 1295
-01-07 14:20:38.585 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:39.576 I/System.out(  681): Values: 1136
-01-07 14:20:39.586 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:40.597 I/System.out(  681): Values: 5264
-01-07 14:20:40.607 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:41.578 I/System.out(  681): Values: 3923
-01-07 14:20:41.588 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:42.589 I/System.out(  681): Values: 1068
-01-07 14:20:42.589 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:43.590 I/System.out(  681): Values: 1824
-01-07 14:20:43.590 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:44.591 I/System.out(  681): Values: 1730
-01-07 14:20:44.591 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:45.592 I/System.out(  681): Values: 1700
-01-07 14:20:45.592 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:45.903 I/ActivityManager(  164): No longer want com.google.android.apps.uploader (pid 544): hidden #16
-01-07 14:20:46.593 I/System.out(  681): Values: 1078
-01-07 14:20:46.593 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:47.594 I/System.out(  681): Values: 1018
-01-07 14:20:47.594 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:48.585 I/System.out(  681): Values: 1363
-01-07 14:20:48.585 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:49.586 I/System.out(  681): Values: 1042
-01-07 14:20:49.586 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:50.587 I/System.out(  681): Values: 1182
-01-07 14:20:50.587 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:50.978 D/dalvikvm(  681): GC_EXPLICIT freed 279K, 55% free 2537K/5575K, external 8K/519K, paused 82ms
-01-07 14:20:51.588 I/System.out(  681): Values: 2020
-01-07 14:20:51.628 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:52.589 I/System.out(  681): Values: 1351
-01-07 14:20:52.589 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:53.590 I/System.out(  681): Values: 1501
-01-07 14:20:53.590 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:54.601 I/System.out(  681): Values: 1160
-01-07 14:20:54.611 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:55.602 I/System.out(  681): Values: 1519
-01-07 14:20:55.612 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:56.623 I/System.out(  681): Values: 1892
-01-07 14:20:56.633 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:57.604 I/System.out(  681): Values: 1140
-01-07 14:20:57.604 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:58.595 I/System.out(  681): Values: 1122
-01-07 14:20:58.595 I/System.out(  681): Time difference in secs is: 150
-01-07 14:20:59.596 I/System.out(  681): Values: 1028
-01-07 14:20:59.596 I/System.out(  681): Time difference in secs is: 150
-01-07 14:21:00.597 I/System.out(  681): Values: 1124
-01-07 14:21:00.617 I/System.out(  681): Time difference in secs is: 150
-01-07 14:21:01.608 I/System.out(  681): Values: 4833
-01-07 14:21:01.628 I/System.out(  681): Time difference in secs is: 150
-01-07 14:21:02.629 I/System.out(  681): Values: 3043
-01-07 14:21:02.639 I/System.out(  681): Time difference in secs is: 150
-01-07 14:21:03.610 I/System.out(  681): Values: 5430
-01-07 14:21:03.610 I/System.out(  681): Time difference in secs is: 150
-01-07 14:21:04.611 I/System.out(  681): Values: 3129
-01-07 14:21:04.611 I/System.out(  681): Time difference in secs is: 150
-01-07 14:21:05.612 I/System.out(  681): Values: 17376
-01-07 14:21:05.612 I/System.out(  681): Time difference in secs is: 150
+01-10 17:53:51.455 I/ActivityManager(  164): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone/.MainActivity } from pid 860
+01-10 17:53:51.485 D/AndroidRuntime(  860): Shutting down VM
+01-10 17:53:51.485 I/ActivityManager(  164): Start proc uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone for activity uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone/.MainActivity: pid=868 uid=10059 gids={1015}
+01-10 17:53:51.505 I/AndroidRuntime(  860): NOTE: attach of thread 'Binder Thread #3' failed
+01-10 17:53:51.505 D/dalvikvm(  860): GC_CONCURRENT freed 104K, 69% free 323K/1024K, external 0K/0K, paused 0ms+8ms
+01-10 17:53:51.515 D/jdwp    (  860): Got wake-up signal, bailing out of select
+01-10 17:53:51.515 D/dalvikvm(  860): Debugger has detached; object registry had 1 entries
+01-10 17:53:51.685 I/MPEG4Writer(  748): limits: 2147483647/0 bytes/us, bit rate: 12200 bps and the estimated moov size 3072 bytes
+01-10 17:53:51.685 D/AudioFlinger(  748): setParameters(): io 4, keyvalue input_source=1;routing=262144, tid 750, calling tid 748
+01-10 17:53:51.685 I/AudioHardwareQSD(  748): Routing audio to Speakerphone
+01-10 17:53:51.685 I/AudioHardwareQSD(  748): do input routing device 40000
+01-10 17:53:51.685 I/AudioHardwareQSD(  748): Routing audio to Speakerphone
+01-10 17:53:51.685 D/AudioHardwareQSD(  748): Switching audio device to 
+01-10 17:53:51.685 D/AudioHardwareQSD(  748): Speakerphone
+01-10 17:53:51.966 D/dalvikvm(  868): GC_EXTERNAL_ALLOC freed 49K, 54% free 2518K/5379K, external 0K/0K, paused 36ms
+01-10 17:53:52.016 I/MPEG4Writer(  748): setStartTimestampUs: 232148
+01-10 17:53:52.016 I/MPEG4Writer(  748): Earliest track starting time: 232148
+01-10 17:53:52.026 I/ActivityManager(  164): Displayed uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone/.MainActivity: +548ms
+01-10 17:53:52.927 I/System.out(  868): Values: 0
+01-10 17:53:53.928 I/System.out(  868): Values: 3907
+01-10 17:53:54.929 I/System.out(  868): Values: 3588
+01-10 17:53:55.929 I/System.out(  868): Values: 23725
+01-10 17:53:56.350 D/dalvikvm(  235): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.350 D/dalvikvm(  319): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.350 D/dalvikvm(  164): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.350 D/dalvikvm(  252): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.350 D/dalvikvm(  250): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.350 D/dalvikvm(  268): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.360 D/dalvikvm(  868): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.360 W/Vold    (  112): Ignoring unknown switch 'usb_connected'
+01-10 17:53:56.360 D/Vold    (  112): USB disconnected
+01-10 17:53:56.360 D/Vold    (  112): Share method ums now unavailable
+01-10 17:53:56.390 I/StorageNotification(  235): UMS connection changed to false (media state mounted)
+01-10 17:53:56.460 D/dalvikvm(  505): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.480 D/dalvikvm(  278): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.490 D/dalvikvm(  545): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.490 D/dalvikvm(  678): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.500 D/dalvikvm(  586): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.520 D/dalvikvm(  626): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.520 D/dalvikvm(  669): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.530 D/dalvikvm(  495): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.540 D/dalvikvm(  565): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.540 D/dalvikvm(  392): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.570 D/SettingsAppWidgetProvider(  626): Widget is from a previous version... Let's update
+01-10 17:53:56.570 D/SettingsAppWidgetProvider(  626): No instances yet... Wait for at least one instance to exist before adding global settings
+01-10 17:53:56.570 D/dalvikvm(  537): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.570 D/dalvikvm(  659): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.570 D/dalvikvm(  687): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.570 D/dalvikvm(  555): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.570 D/dalvikvm(  374): Debugger has detached; object registry had 1 entries
+01-10 17:53:56.930 I/System.out(  868): Values: 1156
+01-10 17:53:57.471 D/Tethering(  164): InitialState.processMessage what=4
+01-10 17:53:57.481 D/Tethering(  164): sendTetherStateChangedBroadcast 0, 0, 0
+01-10 17:53:57.931 I/System.out(  868): Values: 1613
+01-10 17:53:58.952 I/System.out(  868): Values: 9262
+01-10 17:53:59.943 I/System.out(  868): Values: 14781
+01-10 17:54:00.944 I/System.out(  868): Values: 1126
+01-10 17:54:01.935 I/System.out(  868): Values: 1535
+01-10 17:54:02.936 I/System.out(  868): Values: 2233
+01-10 17:54:03.937 I/System.out(  868): Values: 5108
+01-10 17:54:04.938 I/System.out(  868): Values: 2145
+01-10 17:54:05.088 D/dalvikvm(  278): GC_EXPLICIT freed 231K, 54% free 3037K/6599K, external 3394K/4213K, paused 44ms
+01-10 17:54:05.939 I/System.out(  868): Values: 1108
+01-10 17:54:06.940 I/System.out(  868): Values: 1024
+01-10 17:54:07.941 I/System.out(  868): Values: 1042
+01-10 17:54:08.942 I/System.out(  868): Values: 1070
+01-10 17:54:09.963 I/System.out(  868): Values: 1128
+01-10 17:54:10.954 I/System.out(  868): Values: 1353
+01-10 17:54:11.945 I/System.out(  868): Values: 9083
+01-10 17:54:12.946 I/System.out(  868): Values: 3516
+01-10 17:54:13.947 I/System.out(  868): Values: 4544
+01-10 17:54:14.948 I/System.out(  868): Values: 1573
+01-10 17:54:15.979 I/System.out(  868): Values: 10325
+01-10 17:54:16.950 I/System.out(  868): Values: 7981
+01-10 17:54:17.951 I/System.out(  868): Values: 4246
+01-10 17:54:18.952 I/System.out(  868): Values: 8420
+01-10 17:54:19.953 I/System.out(  868): Values: 4015
+01-10 17:54:20.974 I/System.out(  868): Values: 1046
+01-10 17:54:21.965 I/System.out(  868): Values: 1132
+01-10 17:54:22.966 I/System.out(  868): Values: 1509
+01-10 17:54:23.957 I/System.out(  868): Values: 5646
+01-10 17:54:24.958 I/System.out(  868): Values: 3192
+01-10 17:54:25.959 I/System.out(  868): Values: 2352
+01-10 17:54:26.960 I/System.out(  868): Values: 6712
+01-10 17:54:27.961 I/System.out(  868): Values: 2888
+01-10 17:54:28.962 I/System.out(  868): Values: 6852
+01-10 17:54:29.963 I/System.out(  868): Values: 13736
+01-10 17:54:30.964 I/System.out(  868): Values: 7644
+01-10 17:54:31.975 I/System.out(  868): Values: 5328
+01-10 17:54:32.966 I/System.out(  868): Values: 2706
+01-10 17:54:33.967 I/System.out(  868): Values: 4843
+01-10 17:54:34.968 I/System.out(  868): Values: 1772
+01-10 17:54:35.969 I/System.out(  868): Values: 6409
+01-10 17:54:36.970 I/System.out(  868): Values: 1148
+01-10 17:54:37.991 I/System.out(  868): Values: 1122
+01-10 17:54:38.971 I/System.out(  868): Values: 1040
+01-10 17:54:39.972 I/System.out(  868): Values: 6407
+01-10 17:54:40.973 I/System.out(  868): Values: 3785
+01-10 17:54:41.974 I/System.out(  868): Values: 1066
+01-10 17:54:42.985 I/System.out(  868): Values: 1158
+01-10 17:54:43.976 I/System.out(  868): Values: 2373
+01-10 17:54:44.977 I/System.out(  868): Values: 1038
+01-10 17:54:45.978 I/System.out(  868): Values: 1627
+01-10 17:54:46.979 I/System.out(  868): Values: 1659
+01-10 17:54:47.980 I/System.out(  868): Values: 1597
+01-10 17:54:48.981 I/System.out(  868): Values: 1950
+01-10 17:54:49.982 I/System.out(  868): Values: 1222
+01-10 17:54:50.983 I/System.out(  868): Values: 2752
+01-10 17:54:51.984 I/System.out(  868): Values: 1100
+01-10 17:54:52.985 I/System.out(  868): Values: 1044
+01-10 17:54:53.986 I/System.out(  868): Values: 1106
+01-10 17:54:54.987 I/System.out(  868): Values: 1184
+01-10 17:54:55.988 I/System.out(  868): Values: 1184
+01-10 17:54:56.989 I/System.out(  868): Values: 1104
+01-10 17:54:57.990 I/System.out(  868): Values: 1086
+01-10 17:54:58.991 I/System.out(  868): Values: 1046
+01-10 17:55:00.012 I/System.out(  868): Values: 1128
+01-10 17:55:00.993 I/System.out(  868): Values: 1026
+01-10 17:55:01.994 I/System.out(  868): Values: 1122
+01-10 17:55:02.995 I/System.out(  868): Values: 1040
+01-10 17:55:03.986 I/System.out(  868): Values: 1343
+01-10 17:55:04.997 I/System.out(  868): Values: 1124
+01-10 17:55:05.988 I/System.out(  868): Values: 2955
+01-10 17:55:06.989 I/System.out(  868): Values: 1886
+01-10 17:55:07.990 I/System.out(  868): Values: 1082
+01-10 17:55:08.991 I/System.out(  868): Values: 1238
+01-10 17:55:09.992 I/System.out(  868): Values: 1220
+01-10 17:55:11.023 I/System.out(  868): Values: 1056
+01-10 17:55:12.004 I/System.out(  868): Values: 1339
+01-10 17:55:12.995 I/System.out(  868): Values: 1066
+01-10 17:55:13.986 I/System.out(  868): Values: 1309
+01-10 17:55:14.997 I/System.out(  868): Values: 1655
+01-10 17:55:15.998 I/System.out(  868): Values: 1190
+01-10 17:55:16.999 I/System.out(  868): Values: 1192
+01-10 17:55:18.000 I/System.out(  868): Values: 1144
+01-10 17:55:19.001 I/System.out(  868): Values: 1056
+01-10 17:55:20.002 I/System.out(  868): Values: 982
+01-10 17:55:21.002 I/System.out(  868): Values: 1006
+01-10 17:55:22.003 I/System.out(  868): Values: 2449
+01-10 17:55:23.004 I/System.out(  868): Values: 2251
+01-10 17:55:24.005 I/System.out(  868): Values: 1665
+01-10 17:55:25.006 I/System.out(  868): Values: 1144
+01-10 17:55:26.007 I/System.out(  868): Values: 1044
+01-10 17:55:27.008 I/System.out(  868): Values: 1062
+01-10 17:55:28.009 I/System.out(  868): Values: 1010
+01-10 17:55:29.010 I/System.out(  868): Values: 1024
+01-10 17:55:30.011 I/System.out(  868): Values: 1080
+01-10 17:55:31.012 I/System.out(  868): Values: 1084
+01-10 17:55:32.013 I/System.out(  868): Values: 988
+01-10 17:55:33.034 I/System.out(  868): Values: 1794
+01-10 17:55:34.015 I/System.out(  868): Values: 2662
+01-10 17:55:35.016 I/System.out(  868): Values: 1060
+01-10 17:55:36.017 I/System.out(  868): Values: 1082
+01-10 17:55:37.018 I/System.out(  868): Values: 1315
+01-10 17:55:38.019 I/System.out(  868): Values: 1036
+01-10 17:55:39.020 I/System.out(  868): Values: 982
+01-10 17:55:40.021 I/System.out(  868): Values: 2542
+01-10 17:55:41.022 I/System.out(  868): Values: 968
+01-10 17:55:42.023 I/System.out(  868): Values: 1020
+01-10 17:55:43.024 I/System.out(  868): Values: 2790
+01-10 17:55:44.035 I/System.out(  868): Values: 1018
+01-10 17:55:45.026 I/System.out(  868): Values: 1080
+01-10 17:55:46.027 I/System.out(  868): Values: 2038
+01-10 17:55:47.028 I/System.out(  868): Values: 2387
+01-10 17:55:48.029 I/System.out(  868): Values: 1718
+01-10 17:55:49.030 I/System.out(  868): Values: 2784
+01-10 17:55:50.031 I/System.out(  868): Values: 2060
+01-10 17:55:51.032 I/System.out(  868): Values: 1437
+01-10 17:55:52.033 I/System.out(  868): Values: 1022
+01-10 17:55:53.034 I/System.out(  868): Values: 1319
+01-10 17:55:54.025 I/System.out(  868): Values: 1784
+01-10 17:55:55.046 I/System.out(  868): Values: 1182
+01-10 17:55:56.037 I/System.out(  868): Values: 946
+01-10 17:55:57.038 I/System.out(  868): Values: 1006
+01-10 17:55:58.039 I/System.out(  868): Values: 7976
+01-10 17:55:59.040 I/System.out(  868): Values: 5155
+01-10 17:56:00.041 I/System.out(  868): Values: 1311
+01-10 17:56:01.042 I/System.out(  868): Values: 1776
+01-10 17:56:02.043 I/System.out(  868): Values: 32767
+01-10 17:56:03.044 I/System.out(  868): Values: 1461
+01-10 17:56:04.044 I/System.out(  868): Values: 13661
+01-10 17:56:05.035 I/System.out(  868): Values: 1742
+01-10 17:56:06.046 I/System.out(  868): Values: 2183
+01-10 17:56:07.047 I/System.out(  868): Values: 1060
+01-10 17:56:08.048 I/System.out(  868): Values: 2197
+01-10 17:56:09.049 I/System.out(  868): Values: 1098
+01-10 17:56:10.050 I/System.out(  868): Values: 966
+01-10 17:56:11.051 I/System.out(  868): Values: 1333
+01-10 17:56:12.072 I/System.out(  868): Values: 2231
+01-10 17:56:13.063 I/System.out(  868): Values: 2385
+01-10 17:56:14.064 I/System.out(  868): Values: 1094
+01-10 17:56:15.065 I/System.out(  868): Values: 1154
+01-10 17:56:16.056 I/System.out(  868): Values: 3732
+01-10 17:56:17.067 I/System.out(  868): Values: 1056
+01-10 17:56:18.058 I/System.out(  868): Values: 1004
+01-10 17:56:19.059 I/System.out(  868): Values: 1158
+01-10 17:56:20.060 I/System.out(  868): Values: 1236
+01-10 17:56:21.061 I/System.out(  868): Values: 1020
+01-10 17:56:22.062 I/System.out(  868): Values: 2574
+01-10 17:56:23.083 I/System.out(  868): Values: 5042
+01-10 17:56:24.074 I/System.out(  868): Values: 1910
+01-10 17:56:25.075 I/System.out(  868): Values: 2417
+01-10 17:56:26.066 I/System.out(  868): Values: 1018
+01-10 17:56:27.067 I/System.out(  868): Values: 1078
+01-10 17:56:28.068 I/System.out(  868): Values: 1770
+01-10 17:56:29.069 I/System.out(  868): Values: 1076
+01-10 17:56:30.070 I/System.out(  868): Values: 1120
+01-10 17:56:31.071 I/System.out(  868): Values: 1102
+01-10 17:56:32.072 I/System.out(  868): Values: 3382
+01-10 17:56:33.073 I/System.out(  868): Values: 1319
+01-10 17:56:34.084 I/System.out(  868): Values: 1561
+01-10 17:56:35.075 I/System.out(  868): Values: 1134
+01-10 17:56:36.076 I/System.out(  868): Values: 1134
+01-10 17:56:37.067 I/System.out(  868): Values: 1194
+01-10 17:56:38.068 I/System.out(  868): Values: 1002
+01-10 17:56:39.079 I/System.out(  868): Values: 2971
+01-10 17:56:40.070 I/System.out(  868): Values: 1744
+01-10 17:56:41.081 I/System.out(  868): Values: 5922
+01-10 17:56:42.072 I/System.out(  868): Values: 1834
+01-10 17:56:43.073 I/System.out(  868): Values: 1248
+01-10 17:56:44.074 I/System.out(  868): Values: 1431
+01-10 17:56:45.095 I/System.out(  868): Values: 1984
+01-10 17:56:46.075 I/System.out(  868): Values: 1832
+01-10 17:56:47.076 I/System.out(  868): Values: 1365
+01-10 17:56:48.077 I/System.out(  868): Values: 1036
+01-10 17:56:49.078 I/System.out(  868): Values: 1337
+01-10 17:56:50.089 I/System.out(  868): Values: 1625
+01-10 17:56:51.080 I/System.out(  868): Values: 1036
+01-10 17:56:52.091 I/System.out(  868): Values: 1002
+01-10 17:56:53.092 I/System.out(  868): Values: 1094
+01-10 17:56:54.093 I/System.out(  868): Values: 1367
+01-10 17:56:55.094 I/System.out(  868): Values: 3588
+01-10 17:56:56.105 I/System.out(  868): Values: 1066
+01-10 17:56:57.096 I/System.out(  868): Values: 1024
+01-10 17:56:58.097 I/System.out(  868): Values: 1712
+01-10 17:56:59.098 I/System.out(  868): Values: 1022
+01-10 17:57:00.099 I/System.out(  868): Values: 1064
+01-10 17:57:01.100 I/System.out(  868): Values: 986
+01-10 17:57:02.121 I/System.out(  868): Values: 1020
+01-10 17:57:03.102 I/System.out(  868): Values: 1016
+01-10 17:57:04.103 I/System.out(  868): Values: 1032
+01-10 17:57:05.104 I/System.out(  868): Values: 1150
+01-10 17:57:06.105 I/System.out(  868): Values: 2032
+01-10 17:57:07.106 I/System.out(  868): Values: 984
+01-10 17:57:08.107 I/System.out(  868): Values: 1427
+01-10 17:57:09.108 I/System.out(  868): Values: 1814
+01-10 17:57:10.109 I/System.out(  868): Values: 3305
+01-10 17:57:11.110 I/System.out(  868): Values: 2042
+01-10 17:57:12.111 I/System.out(  868): Values: 1281
+01-10 17:57:13.112 I/System.out(  868): Values: 1361
+01-10 17:57:14.113 I/System.out(  868): Values: 1639
+01-10 17:57:15.114 I/System.out(  868): Values: 1287
+01-10 17:57:16.115 I/System.out(  868): Values: 1092
+01-10 17:57:17.116 I/System.out(  868): Values: 2716
+01-10 17:57:18.117 I/System.out(  868): Values: 1742
+01-10 17:57:19.118 I/System.out(  868): Values: 2471
+01-10 17:57:20.119 I/System.out(  868): Values: 2443
+01-10 17:57:21.120 I/System.out(  868): Values: 1732
+01-10 17:57:22.121 I/System.out(  868): Values: 1962
+01-10 17:57:23.122 I/System.out(  868): Values: 2329
+01-10 17:57:24.143 I/System.out(  868): Values: 1146
+01-10 17:57:24.223 D/dalvikvm(  868): GC_CONCURRENT freed 395K, 55% free 2534K/5575K, external 8K/519K, paused 8ms+1ms
+01-10 17:57:25.134 I/System.out(  868): Values: 1694
+01-10 17:57:26.135 I/System.out(  868): Values: 1627
+01-10 17:57:27.136 I/System.out(  868): Values: 1437
+01-10 17:57:28.127 I/System.out(  868): Values: 1365
+01-10 17:57:29.127 I/System.out(  868): Values: 1758
+01-10 17:57:30.148 I/System.out(  868): Values: 3604
+01-10 17:57:31.149 I/System.out(  868): Values: 2431
+01-10 17:57:32.150 I/System.out(  868): Values: 6301
+01-10 17:57:33.151 I/System.out(  868): Values: 3297
+01-10 17:57:34.152 I/System.out(  868): Values: 3075
+01-10 17:57:35.153 I/System.out(  868): Values: 2710
+01-10 17:57:36.154 I/System.out(  868): Values: 8859
+01-10 17:57:37.155 I/System.out(  868): Values: 22758
+01-10 17:57:38.156 I/System.out(  868): Values: 4093
+01-10 17:57:39.157 I/System.out(  868): Values: 5055
+01-10 17:57:40.148 I/System.out(  868): Values: 2022
+01-10 17:57:41.159 I/System.out(  868): Values: 3396
+01-10 17:57:42.160 I/System.out(  868): Values: 1862
+01-10 17:57:43.161 I/System.out(  868): Values: 5918
+01-10 17:57:44.162 I/System.out(  868): Values: 22150
+01-10 17:57:45.163 I/System.out(  868): Values: 1601
+01-10 17:57:46.164 I/System.out(  868): Values: 1136
+01-10 17:57:47.175 I/System.out(  868): Values: 1020
+01-10 17:57:48.156 I/System.out(  868): Values: 1295
+01-10 17:57:49.157 I/System.out(  868): Values: 2066
+01-10 17:57:50.158 I/System.out(  868): Values: 3087
+01-10 17:57:51.159 I/System.out(  868): Values: 6846
+01-10 17:57:52.170 I/System.out(  868): Values: 12470
+01-10 17:57:53.171 I/System.out(  868): Values: 7368
+01-10 17:57:54.172 I/System.out(  868): Values: 2044
+01-10 17:57:55.173 I/System.out(  868): Values: 2018
+01-10 17:57:56.174 I/System.out(  868): Values: 3995
+01-10 17:57:57.175 I/System.out(  868): Values: 1884
+01-10 17:57:58.186 I/System.out(  868): Values: 1297
+01-10 17:57:59.177 I/System.out(  868): Values: 2853
+01-10 17:58:00.098 D/dalvikvm(  235): GC_CONCURRENT freed 471K, 53% free 2845K/6023K, external 899K/993K, paused 8ms+3ms
+01-10 17:58:00.178 I/System.out(  868): Values: 1661
+01-10 17:58:01.179 I/System.out(  868): Values: 1052
+01-10 17:58:02.180 I/System.out(  868): Values: 1311
+01-10 17:58:03.181 I/System.out(  868): Values: 1293
+01-10 17:58:04.202 I/System.out(  868): Values: 970
+01-10 17:58:05.203 I/System.out(  868): Values: 1571
+01-10 17:58:06.204 I/System.out(  868): Values: 1391
+01-10 17:58:07.205 I/System.out(  868): Values: 2433
+01-10 17:58:08.196 I/System.out(  868): Values: 2317
+01-10 17:58:09.197 I/System.out(  868): Values: 2552
+01-10 17:58:10.208 I/System.out(  868): Values: 2578
+01-10 17:58:11.209 I/System.out(  868): Values: 1084
+01-10 17:58:12.210 I/System.out(  868): Values: 1194
+01-10 17:58:13.210 I/System.out(  868): Values: 3063
+01-10 17:58:14.211 I/System.out(  868): Values: 2507
+01-10 17:58:15.212 I/System.out(  868): Values: 2305
+01-10 17:58:16.233 I/System.out(  868): Values: 2203
+01-10 17:58:17.234 I/System.out(  868): Values: 2564
+01-10 17:58:18.225 I/System.out(  868): Values: 1132
+01-10 17:58:19.226 I/System.out(  868): Values: 1862
+01-10 17:58:20.227 I/System.out(  868): Values: 1647
+01-10 17:58:21.228 I/System.out(  868): Values: 2177
+01-10 17:58:22.229 I/System.out(  868): Values: 1944
+01-10 17:58:23.230 I/System.out(  868): Values: 2193
+01-10 17:58:24.231 I/System.out(  868): Values: 1798
+01-10 17:58:25.232 I/System.out(  868): Values: 2399
+01-10 17:58:26.233 I/System.out(  868): Values: 1708
+01-10 17:58:27.244 I/System.out(  868): Values: 2135
+01-10 17:58:28.235 I/System.out(  868): Values: 1060
+01-10 17:58:29.236 I/System.out(  868): Values: 1884
+01-10 17:58:30.237 I/System.out(  868): Values: 1002
+01-10 17:58:31.238 I/System.out(  868): Values: 3233
+01-10 17:58:32.239 I/System.out(  868): Values: 3233
+01-10 17:58:33.260 I/System.out(  868): Values: 4191
+01-10 17:58:34.251 I/System.out(  868): Values: 1680
+01-10 17:58:35.252 I/System.out(  868): Values: 1210
+01-10 17:58:36.253 I/System.out(  868): Values: 1014
+01-10 17:58:37.254 I/System.out(  868): Values: 1114
+01-10 17:58:38.245 I/System.out(  868): Values: 1419
+01-10 17:58:39.256 I/System.out(  868): Values: 1365
+01-10 17:58:40.247 I/System.out(  868): Values: 1198
+01-10 17:58:41.248 I/System.out(  868): Values: 978
+01-10 17:58:42.249 I/System.out(  868): Values: 3043
+01-10 17:58:43.250 I/System.out(  868): Values: 1593
+01-10 17:58:44.271 I/System.out(  868): Values: 3354
+01-10 17:58:45.262 I/System.out(  868): Values: 1758
+01-10 17:58:46.263 I/System.out(  868): Values: 1070
+01-10 17:58:47.264 I/System.out(  868): Values: 1146
+01-10 17:58:48.255 I/System.out(  868): Values: 1130
+01-10 17:58:49.256 I/System.out(  868): Values: 4053
+01-10 17:58:50.277 I/System.out(  868): Values: 1591
+01-10 17:58:51.268 I/System.out(  868): Values: 8373
+01-10 17:58:52.259 I/System.out(  868): Values: 6339
+01-10 17:58:53.260 I/System.out(  868): Values: 2728
+01-10 17:58:54.261 I/System.out(  868): Values: 12039
+01-10 17:58:55.272 I/System.out(  868): Values: 2720
+01-10 17:58:56.273 I/System.out(  868): Values: 1902
+01-10 17:58:56.373 D/dalvikvm(  164): GC_CONCURRENT freed 526K, 47% free 4796K/8967K, external 3646K/3857K, paused 35ms+5ms
+01-10 17:58:57.273 I/System.out(  868): Values: 5863
+01-10 17:58:58.274 I/System.out(  868): Values: 3071
+01-10 17:58:59.275 I/System.out(  868): Values: 1862
+01-10 17:59:00.266 I/System.out(  868): Values: 1295
+01-10 17:59:01.267 I/System.out(  868): Values: 1174
+01-10 17:59:02.268 I/System.out(  868): Values: 1479
+01-10 17:59:03.269 I/System.out(  868): Values: 1208
+01-10 17:59:04.270 I/System.out(  868): Values: 1814
+01-10 17:59:05.271 I/System.out(  868): Values: 2046
+01-10 17:59:06.282 I/System.out(  868): Values: 1307
+01-10 17:59:07.283 I/System.out(  868): Values: 1399
+01-10 17:59:08.284 I/System.out(  868): Values: 1581
+01-10 17:59:09.275 I/System.out(  868): Values: 1603
+01-10 17:59:10.276 I/System.out(  868): Values: 1265
+01-10 17:59:11.277 I/System.out(  868): Values: 1252
+01-10 17:59:12.278 I/System.out(  868): Values: 1142
+01-10 17:59:13.279 I/System.out(  868): Values: 1798
+01-10 17:59:14.280 I/System.out(  868): Values: 2794
+01-10 17:59:15.281 I/System.out(  868): Values: 1856
+01-10 17:59:16.282 I/System.out(  868): Values: 3372
+01-10 17:59:17.293 I/System.out(  868): Values: 1088
+01-10 17:59:18.294 I/System.out(  868): Values: 1974
+01-10 17:59:19.295 I/System.out(  868): Values: 986
+01-10 17:59:20.296 I/System.out(  868): Values: 1058
+01-10 17:59:21.287 I/System.out(  868): Values: 2197
+01-10 17:59:22.288 I/System.out(  868): Values: 2491
+01-10 17:59:23.309 I/System.out(  868): Values: 1084
+01-10 17:59:24.300 I/System.out(  868): Values: 1194
+01-10 17:59:25.301 I/System.out(  868): Values: 3973
+01-10 17:59:26.302 I/System.out(  868): Values: 4267
+01-10 17:59:27.303 I/System.out(  868): Values: 2761
+01-10 17:59:28.304 I/System.out(  868): Values: 3674
+01-10 17:59:29.315 I/System.out(  868): Values: 2730
+01-10 17:59:30.296 I/System.out(  868): Values: 1690
+01-10 17:59:31.307 I/System.out(  868): Values: 1609
+01-10 17:59:32.308 I/System.out(  868): Values: 2345
+01-10 17:59:33.299 I/System.out(  868): Values: 1014
+01-10 17:59:34.310 I/System.out(  868): Values: 2161
+01-10 17:59:35.311 I/System.out(  868): Values: 1240
+01-10 17:59:36.312 I/System.out(  868): Values: 2157
+01-10 17:59:37.313 I/System.out(  868): Values: 2622
+01-10 17:59:38.314 I/System.out(  868): Values: 1569
+01-10 17:59:39.314 I/System.out(  868): Values: 1240
+01-10 17:59:40.315 I/System.out(  868): Values: 1162
+01-10 17:59:41.316 I/System.out(  868): Values: 1762
+01-10 17:59:42.317 I/System.out(  868): Values: 1130
+01-10 17:59:43.318 I/System.out(  868): Values: 1096
+01-10 17:59:44.309 I/System.out(  868): Values: 1619
+01-10 17:59:45.320 I/System.out(  868): Values: 1816
+01-10 17:59:46.321 I/System.out(  868): Values: 1311
+01-10 17:59:47.322 I/System.out(  868): Values: 1102
+01-10 17:59:48.323 I/System.out(  868): Values: 2415
+01-10 17:59:49.324 I/System.out(  868): Values: 2004
+01-10 17:59:50.315 I/System.out(  868): Values: 1676
+01-10 17:59:51.336 I/System.out(  868): Values: 1908
+01-10 17:59:52.327 I/System.out(  868): Values: 2353
+01-10 17:59:53.318 I/System.out(  868): Values: 2900
+01-10 17:59:54.319 I/System.out(  868): Values: 1724
+01-10 17:59:55.320 I/System.out(  868): Values: 1589
+01-10 17:59:56.341 I/System.out(  868): Values: 1313
+01-10 17:59:57.332 I/System.out(  868): Values: 1216
+01-10 17:59:58.333 I/System.out(  868): Values: 1048
+01-10 17:59:59.334 I/System.out(  868): Values: 1024
+01-10 18:00:00.325 I/System.out(  868): Values: 1726
+01-10 18:00:01.326 I/System.out(  868): Values: 1192
+01-10 18:00:02.327 I/System.out(  868): Values: 1435
+01-10 18:00:03.328 I/System.out(  868): Values: 1439
+01-10 18:00:04.329 I/System.out(  868): Values: 1519
+01-10 18:00:05.330 I/System.out(  868): Values: 1698
+01-10 18:00:06.331 I/System.out(  868): Values: 2385
+01-10 18:00:07.342 I/System.out(  868): Values: 10495
+01-10 18:00:08.333 I/System.out(  868): Values: 9810
+01-10 18:00:09.334 I/System.out(  868): Values: 2652
+01-10 18:00:10.325 I/System.out(  868): Values: 1473
+01-10 18:00:11.336 I/System.out(  868): Values: 2469
+01-10 18:00:12.337 I/System.out(  868): Values: 4017
+01-10 18:00:13.348 I/System.out(  868): Values: 2231
+01-10 18:00:14.349 I/System.out(  868): Values: 1513
+01-10 18:00:15.350 I/System.out(  868): Values: 1256
+01-10 18:00:16.351 I/System.out(  868): Values: 2381
+01-10 18:00:17.352 I/System.out(  868): Values: 2439
+01-10 18:00:18.353 I/System.out(  868): Values: 2580
+01-10 18:00:19.354 I/System.out(  868): Values: 2299
+01-10 18:00:20.345 I/System.out(  868): Values: 2237
+01-10 18:00:21.356 I/System.out(  868): Values: 2612
+01-10 18:00:22.356 I/System.out(  868): Values: 2792
+01-10 18:00:23.357 I/System.out(  868): Values: 2698
+01-10 18:00:24.358 I/System.out(  868): Values: 2395
+01-10 18:00:25.359 I/System.out(  868): Values: 2099
+01-10 18:00:26.360 I/System.out(  868): Values: 2722
+01-10 18:00:27.361 I/System.out(  868): Values: 1708
+01-10 18:00:28.362 I/System.out(  868): Values: 2744
+01-10 18:00:29.363 I/System.out(  868): Values: 1279
+01-10 18:00:30.364 I/System.out(  868): Values: 2247
+01-10 18:00:31.365 I/System.out(  868): Values: 3530
+01-10 18:00:32.366 I/System.out(  868): Values: 1481
+01-10 18:00:33.357 I/System.out(  868): Values: 1190
+01-10 18:00:34.358 I/System.out(  868): Values: 2602
+01-10 18:00:35.379 I/System.out(  868): Values: 1088
+01-10 18:00:36.370 I/System.out(  868): Values: 2375
+01-10 18:00:37.371 I/System.out(  868): Values: 1299
+01-10 18:00:38.372 I/System.out(  868): Values: 2656
+01-10 18:00:39.373 I/System.out(  868): Values: 2742
+01-10 18:00:40.374 I/System.out(  868): Values: 1401
+01-10 18:00:41.375 I/System.out(  868): Values: 1581
+01-10 18:00:42.366 I/System.out(  868): Values: 1469
+01-10 18:00:43.367 I/System.out(  868): Values: 3025
+01-10 18:00:44.368 I/System.out(  868): Values: 1469
+01-10 18:00:45.369 I/System.out(  868): Values: 1669
+01-10 18:00:46.370 I/System.out(  868): Values: 1884
+01-10 18:00:47.371 I/System.out(  868): Values: 1437
+01-10 18:00:48.372 I/System.out(  868): Values: 2830
+01-10 18:00:49.373 I/System.out(  868): Values: 1513
+01-10 18:00:50.384 I/System.out(  868): Values: 1397
+01-10 18:00:50.484 D/SntpClient(  164): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+01-10 18:00:50.504 D/SntpClient(  164): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+01-10 18:00:50.504 D/SntpClient(  164): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+01-10 18:00:51.375 I/System.out(  868): Values: 1587
+01-10 18:00:52.386 I/System.out(  868): Values: 1868
+01-10 18:00:53.387 I/System.out(  868): Values: 2999
+01-10 18:00:54.388 I/System.out(  868): Values: 3328
+01-10 18:00:55.389 I/System.out(  868): Values: 3125
+01-10 18:00:56.390 I/System.out(  868): Values: 2832
+01-10 18:00:57.391 I/System.out(  868): Values: 3624
+01-10 18:00:58.392 I/System.out(  868): Values: 2487
+01-10 18:00:59.393 I/System.out(  868): Values: 3067
+01-10 18:01:00.394 I/System.out(  868): Values: 1415
+01-10 18:01:01.395 I/System.out(  868): Values: 1267
+01-10 18:01:01.475 D/dalvikvm(  868): GC_CONCURRENT freed 399K, 56% free 2532K/5639K, external 8K/519K, paused 7ms+2ms
+01-10 18:01:02.396 I/System.out(  868): Values: 2239
+01-10 18:01:03.407 I/System.out(  868): Values: 2393
+01-10 18:01:04.398 I/System.out(  868): Values: 1263
+01-10 18:01:05.398 I/System.out(  868): Values: 1748
+01-10 18:01:06.399 I/System.out(  868): Values: 1906
+01-10 18:01:07.400 I/System.out(  868): Values: 1220
+01-10 18:01:08.401 I/System.out(  868): Values: 1635
+01-10 18:01:09.432 I/System.out(  868): Values: 2129
+01-10 18:01:10.403 I/System.out(  868): Values: 2650
+01-10 18:01:11.404 I/System.out(  868): Values: 1938
+01-10 18:01:12.395 I/System.out(  868): Values: 2752
+01-10 18:01:13.396 I/System.out(  868): Values: 1106
+01-10 18:01:14.417 I/System.out(  868): Values: 1523
+01-10 18:01:15.408 I/System.out(  868): Values: 2928
+01-10 18:01:16.409 I/System.out(  868): Values: 1806
+01-10 18:01:17.410 I/System.out(  868): Values: 3879
+01-10 18:01:18.411 I/System.out(  868): Values: 2113
+01-10 18:01:19.412 I/System.out(  868): Values: 2532
+01-10 18:01:20.413 I/System.out(  868): Values: 5238
+01-10 18:01:21.414 I/System.out(  868): Values: 6224
+01-10 18:01:22.415 I/System.out(  868): Values: 2243
+01-10 18:01:23.416 I/System.out(  868): Values: 1597
+01-10 18:01:24.407 I/System.out(  868): Values: 6174
+01-10 18:01:25.428 I/System.out(  868): Values: 2772
+01-10 18:01:26.409 I/System.out(  868): Values: 1557
+01-10 18:01:27.410 I/System.out(  868): Values: 1954
+01-10 18:01:28.411 I/System.out(  868): Values: 6127
+01-10 18:01:29.412 I/System.out(  868): Values: 10503
+01-10 18:01:30.423 I/System.out(  868): Values: 2447
+01-10 18:01:31.434 I/System.out(  868): Values: 3468
+01-10 18:01:32.435 I/System.out(  868): Values: 11433
+01-10 18:01:33.426 I/System.out(  868): Values: 13966
+01-10 18:01:34.427 I/System.out(  868): Values: 28082
+01-10 18:01:35.428 I/System.out(  868): Values: 2058
+01-10 18:01:36.429 I/System.out(  868): Values: 1575
+01-10 18:01:37.440 I/System.out(  868): Values: 3793
+01-10 18:01:38.431 I/System.out(  868): Values: 7606
+01-10 18:01:39.432 I/System.out(  868): Values: 5845
+01-10 18:01:40.433 I/System.out(  868): Values: 2532
+01-10 18:01:41.434 I/System.out(  868): Values: 2750
+01-10 18:01:42.445 I/System.out(  868): Values: 2798
+01-10 18:01:43.436 I/System.out(  868): Values: 1669
+01-10 18:01:44.437 I/System.out(  868): Values: 6988
+01-10 18:01:45.438 I/System.out(  868): Values: 11018
+01-10 18:01:46.439 I/System.out(  868): Values: 4919
+01-10 18:01:47.439 I/System.out(  868): Values: 6697
+01-10 18:01:48.460 I/System.out(  868): Values: 5473
+01-10 18:01:49.441 I/System.out(  868): Values: 4843
+01-10 18:01:50.442 I/System.out(  868): Values: 2902
+01-10 18:01:51.443 I/System.out(  868): Values: 2275
+01-10 18:01:52.444 I/System.out(  868): Values: 11339
+01-10 18:01:53.455 I/System.out(  868): Values: 20359
+01-10 18:01:54.446 I/System.out(  868): Values: 3191
+01-10 18:01:55.447 I/System.out(  868): Values: 2664
+01-10 18:01:56.448 I/System.out(  868): Values: 3566
+01-10 18:01:57.449 I/System.out(  868): Values: 5609
+01-10 18:01:58.450 I/System.out(  868): Values: 26412
+01-10 18:01:59.451 I/System.out(  868): Values: 17681
+01-10 18:02:00.452 I/System.out(  868): Values: 4334
+01-10 18:02:01.453 I/System.out(  868): Values: 3135
+01-10 18:02:02.454 I/System.out(  868): Values: 5795
+01-10 18:02:03.455 I/System.out(  868): Values: 3243
+01-10 18:02:04.466 I/System.out(  868): Values: 7225
+01-10 18:02:05.457 I/System.out(  868): Values: 14056
+01-10 18:02:06.458 I/System.out(  868): Values: 4159
+01-10 18:02:07.459 I/System.out(  868): Values: 2734
+01-10 18:02:08.460 I/System.out(  868): Values: 6086
+01-10 18:02:09.461 I/System.out(  868): Values: 2461
+01-10 18:02:10.482 I/System.out(  868): Values: 2582
+01-10 18:02:11.473 I/System.out(  868): Values: 1228
+01-10 18:02:12.474 I/System.out(  868): Values: 1734
+01-10 18:02:13.475 I/System.out(  868): Values: 1651
+01-10 18:02:14.466 I/System.out(  868): Values: 2028
+01-10 18:02:15.467 I/System.out(  868): Values: 2018
+01-10 18:02:16.468 I/System.out(  868): Values: 1680
+01-10 18:02:17.469 I/System.out(  868): Values: 1459
+01-10 18:02:18.470 I/System.out(  868): Values: 3182
+01-10 18:02:19.471 I/System.out(  868): Values: 22701
+01-10 18:02:20.472 I/System.out(  868): Values: 14728
+01-10 18:02:21.493 I/System.out(  868): Values: 32767
+01-10 18:02:22.484 I/System.out(  868): Values: 8701
+01-10 18:02:23.475 I/System.out(  868): Values: 5098
+01-10 18:02:24.476 I/System.out(  868): Values: 4917
+01-10 18:02:25.477 I/System.out(  868): Values: 2491
+01-10 18:02:26.478 I/System.out(  868): Values: 2143
+01-10 18:02:27.479 I/System.out(  868): Values: 2405
+01-10 18:02:28.480 I/System.out(  868): Values: 1758
+01-10 18:02:29.481 I/System.out(  868): Values: 1828
+01-10 18:02:30.481 I/System.out(  868): Values: 12837
+01-10 18:02:31.482 I/System.out(  868): Values: 12432
+01-10 18:02:32.503 I/System.out(  868): Values: 3189
+01-10 18:02:33.494 I/System.out(  868): Values: 9218
+01-10 18:02:34.485 I/System.out(  868): Values: 4659
+01-10 18:02:35.486 I/System.out(  868): Values: 3249
+01-10 18:02:36.487 I/System.out(  868): Values: 2449
+01-10 18:02:37.488 I/System.out(  868): Values: 10790
+01-10 18:02:38.489 I/System.out(  868): Values: 2255
+01-10 18:02:39.490 I/System.out(  868): Values: 2004
+01-10 18:02:40.491 I/System.out(  868): Values: 1539
+01-10 18:02:41.492 I/System.out(  868): Values: 1936
+01-10 18:02:42.493 I/System.out(  868): Values: 1473
+01-10 18:02:43.514 I/System.out(  868): Values: 1405
+01-10 18:02:44.495 I/System.out(  868): Values: 12490
+01-10 18:02:45.496 I/System.out(  868): Values: 1690
+01-10 18:02:46.497 I/System.out(  868): Values: 1407
+01-10 18:02:47.498 I/System.out(  868): Values: 2413
+01-10 18:02:48.499 I/System.out(  868): Values: 6336
+01-10 18:02:49.520 I/System.out(  868): Values: 6299
+01-10 18:02:50.511 I/System.out(  868): Values: 3255
+01-10 18:02:51.512 I/System.out(  868): Values: 2421
+01-10 18:02:52.513 I/System.out(  868): Values: 17280
+01-10 18:02:53.514 I/System.out(  868): Values: 2054
+01-10 18:02:54.505 I/System.out(  868): Values: 1605
+01-10 18:02:55.516 I/System.out(  868): Values: 12556
+01-10 18:02:56.507 I/System.out(  868): Values: 4031
+01-10 18:02:57.508 I/System.out(  868): Values: 20848
+01-10 18:02:58.509 I/System.out(  868): Values: 20110
+01-10 18:02:59.510 I/System.out(  868): Values: 20425
+01-10 18:03:00.531 I/System.out(  868): Values: 1122
+01-10 18:03:01.522 I/System.out(  868): Values: 2518
+01-10 18:03:02.523 I/System.out(  868): Values: 2241
+01-10 18:03:03.524 I/System.out(  868): Values: 1120
+01-10 18:03:04.525 I/System.out(  868): Values: 1906
+01-10 18:03:05.516 I/System.out(  868): Values: 1557
+01-10 18:03:06.517 I/System.out(  868): Values: 1004
+01-10 18:03:07.518 I/System.out(  868): Values: 2022
+01-10 18:03:08.519 I/System.out(  868): Values: 2199
+01-10 18:03:09.520 I/System.out(  868): Values: 2215
+01-10 18:03:10.531 I/System.out(  868): Values: 1669
+01-10 18:03:11.532 I/System.out(  868): Values: 1287
+01-10 18:03:12.533 I/System.out(  868): Values: 1445
+01-10 18:03:13.533 I/System.out(  868): Values: 12725
+01-10 18:03:14.534 I/System.out(  868): Values: 2026
+01-10 18:03:15.525 I/System.out(  868): Values: 2052
+01-10 18:03:15.525 I/System.out(  868): Battery level start is reached
+01-10 18:03:16.526 I/System.out(  868): Values: 2233
+01-10 18:03:17.527 I/System.out(  868): Values: 1341
+01-10 18:03:18.528 I/System.out(  868): Values: 1696
+01-10 18:03:19.529 I/System.out(  868): Values: 3934
+01-10 18:03:20.530 I/System.out(  868): Values: 1637
+01-10 18:03:21.531 I/System.out(  868): Values: 1293
+01-10 18:03:22.542 I/System.out(  868): Values: 1242
+01-10 18:03:23.543 I/System.out(  868): Values: 1120
+01-10 18:03:24.544 I/System.out(  868): Values: 6105
+01-10 18:03:25.545 I/System.out(  868): Values: 8398
+01-10 18:03:26.536 I/System.out(  868): Values: 13236
+01-10 18:03:27.537 I/System.out(  868): Values: 5723
+01-10 18:03:28.558 I/System.out(  868): Values: 4936
+01-10 18:03:29.549 I/System.out(  868): Values: 4842
+01-10 18:03:30.550 I/System.out(  868): Values: 11004
+01-10 18:03:31.551 I/System.out(  868): Values: 14687
+01-10 18:03:32.552 I/System.out(  868): Values: 21899
+01-10 18:03:33.553 I/System.out(  868): Values: 20479
+01-10 18:03:34.554 I/System.out(  868): Values: 2648
+01-10 18:03:35.555 I/System.out(  868): Values: 2064
+01-10 18:03:36.556 I/System.out(  868): Values: 2503
+01-10 18:03:37.547 I/System.out(  868): Values: 1567
+01-10 18:03:38.548 I/System.out(  868): Values: 3929
+01-10 18:03:39.569 I/System.out(  868): Values: 15684
+01-10 18:03:40.550 I/System.out(  868): Values: 11276
+01-10 18:03:41.551 I/System.out(  868): Values: 18190
+01-10 18:03:42.552 I/System.out(  868): Values: 24769
+01-10 18:03:43.553 I/System.out(  868): Values: 22226
+01-10 18:03:44.564 I/System.out(  868): Values: 12606
+01-10 18:03:45.565 I/System.out(  868): Values: 14285
+01-10 18:03:46.566 I/System.out(  868): Values: 22115
+01-10 18:03:47.557 I/System.out(  868): Values: 15407
+01-10 18:03:48.558 I/System.out(  868): Values: 3093
+01-10 18:03:49.559 I/System.out(  868): Values: 1780
+01-10 18:03:50.580 I/System.out(  868): Values: 1834
+01-10 18:03:51.561 I/System.out(  868): Values: 15103
+01-10 18:03:52.562 I/System.out(  868): Values: 8761
+01-10 18:03:53.563 I/System.out(  868): Values: 1381
+01-10 18:03:54.564 I/System.out(  868): Values: 12851
+01-10 18:03:55.575 I/System.out(  868): Values: 3778
+01-10 18:03:56.555 I/System.out(  868): Values: 7637
+01-10 18:03:57.566 I/System.out(  868): Values: 12105
+01-10 18:03:58.557 I/System.out(  868): Values: 20666
+01-10 18:03:59.558 I/System.out(  868): Values: 23150
+01-10 18:04:00.569 I/System.out(  868): Values: 15289
+01-10 18:04:01.580 I/System.out(  868): Values: 7243
+01-10 18:04:02.581 I/System.out(  868): Values: 7347
+01-10 18:04:03.582 I/System.out(  868): Values: 14145
+01-10 18:04:04.583 I/System.out(  868): Values: 3833
+01-10 18:04:05.584 I/System.out(  868): Values: 4518
+01-10 18:04:06.575 I/System.out(  868): Values: 15748
+01-10 18:04:07.596 I/System.out(  868): Values: 6226
+01-10 18:04:08.587 I/System.out(  868): Values: 10309
+01-10 18:04:09.588 I/System.out(  868): Values: 25463
+01-10 18:04:10.589 I/System.out(  868): Values: 3129
+01-10 18:04:11.590 I/System.out(  868): Values: 4061
+01-10 18:04:12.601 I/System.out(  868): Values: 4639
+01-10 18:04:13.592 I/System.out(  868): Values: 27951
+01-10 18:04:14.593 I/System.out(  868): Values: 3194
+01-10 18:04:15.594 I/System.out(  868): Values: 1545
+01-10 18:04:16.595 I/System.out(  868): Values: 1421
+01-10 18:04:17.586 I/System.out(  868): Values: 3373
+01-10 18:04:18.607 I/System.out(  868): Values: 5858
+01-10 18:04:19.598 I/System.out(  868): Values: 5759
+01-10 18:04:20.599 I/System.out(  868): Values: 2018
+01-10 18:04:21.600 I/System.out(  868): Values: 11585
+01-10 18:04:22.601 I/System.out(  868): Values: 11175
+01-10 18:04:23.602 I/System.out(  868): Values: 1415
+01-10 18:04:24.603 I/System.out(  868): Values: 6965
+01-10 18:04:25.604 I/System.out(  868): Values: 2766
+01-10 18:04:26.605 I/System.out(  868): Values: 2818
+01-10 18:04:27.606 I/System.out(  868): Values: 2862
+01-10 18:04:28.607 I/System.out(  868): Values: 1746
+01-10 18:04:29.608 I/System.out(  868): Values: 6936
+01-10 18:04:30.609 I/System.out(  868): Values: 2373
+01-10 18:04:31.610 I/System.out(  868): Values: 15610
+01-10 18:04:32.611 I/System.out(  868): Values: 3961
+01-10 18:04:33.612 I/System.out(  868): Values: 6964
+01-10 18:04:34.613 I/System.out(  868): Values: 3647
+01-10 18:04:35.614 I/System.out(  868): Values: 4320
+01-10 18:04:36.615 I/System.out(  868): Values: 7077
+01-10 18:04:37.616 I/System.out(  868): Values: 18479
+01-10 18:04:37.696 D/dalvikvm(  868): GC_CONCURRENT freed 398K, 56% free 2533K/5639K, external 8K/519K, paused 7ms+2ms
+01-10 18:04:38.617 I/System.out(  868): Values: 21584
+01-10 18:04:39.617 I/System.out(  868): Values: 18487
+01-10 18:04:40.628 I/System.out(  868): Values: 8755
+01-10 18:04:41.619 I/System.out(  868): Values: 3482
+01-10 18:04:42.620 I/System.out(  868): Values: 3163
+01-10 18:04:43.621 I/System.out(  868): Values: 2183
+01-10 18:04:44.622 I/System.out(  868): Values: 1068
+01-10 18:04:45.623 I/System.out(  868): Values: 28482
+01-10 18:04:46.644 I/System.out(  868): Values: 7427
+01-10 18:04:47.635 I/System.out(  868): Values: 8140
+01-10 18:04:48.636 I/System.out(  868): Values: 2173
+01-10 18:04:49.627 I/System.out(  868): Values: 9577
+01-10 18:04:50.628 I/System.out(  868): Values: 6894
+01-10 18:04:51.639 I/System.out(  868): Values: 11879
+01-10 18:04:52.630 I/System.out(  868): Values: 16696
+01-10 18:04:53.631 I/System.out(  868): Values: 24385
+01-10 18:04:54.632 I/System.out(  868): Values: 11993
+01-10 18:04:55.633 I/System.out(  868): Values: 20856
+01-10 18:04:56.634 I/System.out(  868): Values: 15522
+01-10 18:04:57.645 I/System.out(  868): Values: 4133
+01-10 18:04:58.636 I/System.out(  868): Values: 1908
+01-10 18:04:59.637 I/System.out(  868): Values: 5317
+01-10 18:05:00.638 I/System.out(  868): Values: 3133
+01-10 18:05:01.639 I/System.out(  868): Values: 4147
+01-10 18:05:02.640 I/System.out(  868): Values: 1996
+01-10 18:05:03.641 I/System.out(  868): Values: 14456
+01-10 18:05:04.642 I/System.out(  868): Values: 19360
+01-10 18:05:05.643 I/System.out(  868): Values: 7920
+01-10 18:05:06.644 I/System.out(  868): Values: 3195
+01-10 18:05:07.635 I/System.out(  868): Values: 16013
+01-10 18:05:08.656 I/System.out(  868): Values: 8846
+01-10 18:05:09.657 I/System.out(  868): Values: 3411
+01-10 18:05:10.658 I/System.out(  868): Values: 3751
+01-10 18:05:11.659 I/System.out(  868): Values: 2078
+01-10 18:05:12.660 I/System.out(  868): Values: 1886
+01-10 18:05:13.661 I/System.out(  868): Values: 8902
+01-10 18:05:14.672 I/System.out(  868): Values: 4428
+01-10 18:05:15.673 I/System.out(  868): Values: 2177
+01-10 18:05:16.674 I/System.out(  868): Values: 1708
+01-10 18:05:17.675 I/System.out(  868): Values: 1457
+01-10 18:05:18.666 I/System.out(  868): Values: 2369
+01-10 18:05:19.667 I/System.out(  868): Values: 1068
+01-10 18:05:20.688 I/System.out(  868): Values: 3207
+01-10 18:05:21.679 I/System.out(  868): Values: 2317
+01-10 18:05:22.669 I/System.out(  868): Values: 1838
+01-10 18:05:23.670 I/System.out(  868): Values: 1669
+01-10 18:05:24.671 I/System.out(  868): Values: 1419
+01-10 18:05:25.682 I/System.out(  868): Values: 2018
+01-10 18:05:26.683 I/System.out(  868): Values: 1567
+01-10 18:05:27.684 I/System.out(  868): Values: 1158
+01-10 18:05:28.675 I/System.out(  868): Values: 3380
+01-10 18:05:29.676 I/System.out(  868): Values: 2101
+01-10 18:05:30.677 I/System.out(  868): Values: 1818
+01-10 18:05:31.678 I/System.out(  868): Values: 1259
+01-10 18:05:32.679 I/System.out(  868): Values: 1242
+01-10 18:05:33.680 I/System.out(  868): Values: 2939
+01-10 18:05:34.681 I/System.out(  868): Values: 2197
+01-10 18:05:35.682 I/System.out(  868): Values: 5934
+01-10 18:05:36.693 I/System.out(  868): Values: 5566
+01-10 18:05:37.694 I/System.out(  868): Values: 10712
+01-10 18:05:38.695 I/System.out(  868): Values: 13924
+01-10 18:05:39.696 I/System.out(  868): Values: 25291
+01-10 18:05:40.687 I/System.out(  868): Values: 2319
+01-10 18:05:41.688 I/System.out(  868): Values: 7045
+01-10 18:05:42.709 I/System.out(  868): Values: 9418
+01-10 18:05:43.700 I/System.out(  868): Values: 16860
+01-10 18:05:44.701 I/System.out(  868): Values: 19373
+01-10 18:05:45.702 I/System.out(  868): Values: 16718
+01-10 18:05:46.703 I/System.out(  868): Values: 5206
+01-10 18:05:47.704 I/System.out(  868): Values: 1856
+01-10 18:05:48.715 I/System.out(  868): Values: 2654
+01-10 18:05:49.716 I/System.out(  868): Values: 3065
+01-10 18:05:50.717 I/System.out(  868): Values: 1136
+01-10 18:05:51.718 I/System.out(  868): Values: 8581
+01-10 18:05:52.719 I/System.out(  868): Values: 20809
+01-10 18:05:53.720 I/System.out(  868): Values: 2550
+01-10 18:05:54.721 I/System.out(  868): Values: 6016
+01-10 18:05:55.722 I/System.out(  868): Values: 14945
+01-10 18:05:56.723 I/System.out(  868): Values: 17808
+01-10 18:05:57.724 I/System.out(  868): Values: 2769
+01-10 18:05:58.715 I/System.out(  868): Values: 3203
+01-10 18:05:59.726 I/System.out(  868): Values: 7153
+01-10 18:06:00.727 I/System.out(  868): Values: 4032
+01-10 18:06:01.728 I/System.out(  868): Values: 2770
+01-10 18:06:02.729 I/System.out(  868): Values: 3165
+01-10 18:06:03.730 I/System.out(  868): Values: 2848
+01-10 18:06:04.731 I/System.out(  868): Values: 2000
+01-10 18:06:05.752 I/System.out(  868): Values: 2852
+01-10 18:06:06.742 I/System.out(  868): Values: 1834
+01-10 18:06:07.743 I/System.out(  868): Values: 1240
+01-10 18:06:08.744 I/System.out(  868): Values: 16424
+01-10 18:06:09.735 I/System.out(  868): Values: 16053
+01-10 18:06:10.736 I/System.out(  868): Values: 7164
+01-10 18:06:11.737 I/System.out(  868): Values: 4418
+01-10 18:06:12.738 I/System.out(  868): Values: 7088
+01-10 18:06:13.739 I/System.out(  868): Values: 22196
+01-10 18:06:14.740 I/System.out(  868): Values: 13462
+01-10 18:06:15.741 I/System.out(  868): Values: 8380
+01-10 18:06:16.762 I/System.out(  868): Values: 17235
+01-10 18:06:17.753 I/System.out(  868): Values: 5216
+01-10 18:06:18.754 I/System.out(  868): Values: 2558
+01-10 18:06:19.745 I/System.out(  868): Values: 2225
+01-10 18:06:20.746 I/System.out(  868): Values: 1647
+01-10 18:06:21.747 I/System.out(  868): Values: 2604
+01-10 18:06:22.768 I/System.out(  868): Values: 2566
+01-10 18:06:23.769 I/System.out(  868): Values: 1716
+01-10 18:06:24.770 I/System.out(  868): Values: 1553
+01-10 18:06:25.771 I/System.out(  868): Values: 1926
+01-10 18:06:26.772 I/System.out(  868): Values: 1730
+01-10 18:06:27.773 I/System.out(  868): Values: 1802
+01-10 18:06:28.774 I/System.out(  868): Values: 1216
+01-10 18:06:29.765 I/System.out(  868): Values: 1395
+01-10 18:06:30.766 I/System.out(  868): Values: 5083
+01-10 18:06:31.767 I/System.out(  868): Values: 1072
+01-10 18:06:32.768 I/System.out(  868): Values: 8617
+01-10 18:06:33.779 I/System.out(  868): Values: 6283
+01-10 18:06:34.780 I/System.out(  868): Values: 2768
+01-10 18:06:35.781 I/System.out(  868): Values: 1814
+01-10 18:06:36.782 I/System.out(  868): Values: 10604
+01-10 18:06:37.783 I/System.out(  868): Values: 1527
+01-10 18:06:38.784 I/System.out(  868): Values: 9646
+01-10 18:06:39.795 I/System.out(  868): Values: 14514
+01-10 18:06:40.786 I/System.out(  868): Values: 10563
+01-10 18:06:41.787 I/System.out(  868): Values: 14108
+01-10 18:06:42.788 I/System.out(  868): Values: 12786
+01-10 18:06:43.789 I/System.out(  868): Values: 11818
+01-10 18:06:44.790 I/System.out(  868): Values: 2941
+01-10 18:06:45.811 I/System.out(  868): Values: 2792
+01-10 18:06:46.792 I/System.out(  868): Values: 11292
+01-10 18:06:47.793 I/System.out(  868): Values: 15397
+01-10 18:06:48.794 I/System.out(  868): Values: 5996
+01-10 18:06:49.794 I/System.out(  868): Values: 2790
+01-10 18:06:50.795 I/System.out(  868): Values: 2816
+01-10 18:06:51.796 I/System.out(  868): Values: 3716
+01-10 18:06:52.797 I/System.out(  868): Values: 5605
+01-10 18:06:53.798 I/System.out(  868): Values: 3590
+01-10 18:06:54.809 I/System.out(  868): Values: 3861
+01-10 18:06:55.800 I/System.out(  868): Values: 2319
+01-10 18:06:56.821 I/System.out(  868): Values: 2267
+01-10 18:06:57.802 I/System.out(  868): Values: 1912
+01-10 18:06:58.803 I/System.out(  868): Values: 2945
+01-10 18:06:59.804 I/System.out(  868): Values: 1585
+01-10 18:07:00.805 I/System.out(  868): Values: 2101
+01-10 18:07:01.596 I/EventLogService(  319): Aggregate from 1389375421530 (log), 1389375421530 (data)
+01-10 18:07:01.806 I/System.out(  868): Values: 2273
+01-10 18:07:02.807 I/System.out(  868): Values: 2371
+01-10 18:07:03.808 I/System.out(  868): Values: 4969
+01-10 18:07:04.809 I/System.out(  868): Values: 10912
+01-10 18:07:05.810 I/System.out(  868): Values: 3534
+01-10 18:07:06.811 I/System.out(  868): Values: 2068
+01-10 18:07:07.832 I/System.out(  868): Values: 3299
+01-10 18:07:08.823 I/System.out(  868): Values: 3283
+01-10 18:07:09.824 I/System.out(  868): Values: 3107
+01-10 18:07:10.815 I/System.out(  868): Values: 1980
+01-10 18:07:11.816 I/System.out(  868): Values: 1499
+01-10 18:07:12.827 I/System.out(  868): Values: 1373
+01-10 18:07:13.818 I/System.out(  868): Values: 2197
+01-10 18:07:14.819 I/System.out(  868): Values: 1692
+01-10 18:07:15.820 I/System.out(  868): Values: 2086
+01-10 18:07:16.821 I/System.out(  868): Values: 1752
+01-10 18:07:17.822 I/System.out(  868): Values: 1617
+01-10 18:07:18.843 I/System.out(  868): Values: 1024
+01-10 18:07:19.834 I/System.out(  868): Values: 1020
+01-10 18:07:20.835 I/System.out(  868): Values: 986
+01-10 18:07:21.836 I/System.out(  868): Values: 8733
+01-10 18:07:22.827 I/System.out(  868): Values: 3925
+01-10 18:07:23.828 I/System.out(  868): Values: 2371
+01-10 18:07:24.849 I/System.out(  868): Values: 2914
+01-10 18:07:25.850 I/System.out(  868): Values: 2941
+01-10 18:07:26.851 I/System.out(  868): Values: 2616
+01-10 18:07:27.852 I/System.out(  868): Values: 1888
+01-10 18:07:28.853 I/System.out(  868): Values: 2084
+01-10 18:07:29.854 I/System.out(  868): Values: 2213
+01-10 18:07:30.865 I/System.out(  868): Values: 2802
+01-10 18:07:31.856 I/System.out(  868): Values: 2084
+01-10 18:07:32.846 I/System.out(  868): Values: 2521
+01-10 18:07:33.857 I/System.out(  868): Values: 2028
+01-10 18:07:34.848 I/System.out(  868): Values: 2193
+01-10 18:07:35.859 I/System.out(  868): Values: 1523
+01-10 18:07:36.860 I/System.out(  868): Values: 1188
+01-10 18:07:37.861 I/System.out(  868): Values: 2906
+01-10 18:07:38.862 I/System.out(  868): Values: 1108
+01-10 18:07:39.863 I/System.out(  868): Values: 3618
+01-10 18:07:40.864 I/System.out(  868): Values: 2630
+01-10 18:07:41.875 I/System.out(  868): Values: 2082
+01-10 18:07:42.866 I/System.out(  868): Values: 1319
+01-10 18:07:43.867 I/System.out(  868): Values: 7542
+01-10 18:07:44.868 I/System.out(  868): Values: 6297
+01-10 18:07:45.869 I/System.out(  868): Values: 7362
+01-10 18:07:46.870 I/System.out(  868): Values: 4855
+01-10 18:07:47.891 I/System.out(  868): Values: 1842
+01-10 18:07:48.872 I/System.out(  868): Values: 2776
+01-10 18:07:49.873 I/System.out(  868): Values: 2780
+01-10 18:07:50.874 I/System.out(  868): Values: 3957
+01-10 18:07:51.865 I/System.out(  868): Values: 2133
+01-10 18:07:52.886 I/System.out(  868): Values: 3267
+01-10 18:07:53.877 I/System.out(  868): Values: 2576
+01-10 18:07:54.878 I/System.out(  868): Values: 2888
+01-10 18:07:55.879 I/System.out(  868): Values: 2596
+01-10 18:07:56.880 I/System.out(  868): Values: 2497
+01-10 18:07:57.881 I/System.out(  868): Values: 1269
+01-10 18:07:58.882 I/System.out(  868): Values: 1834
+01-10 18:07:59.883 I/System.out(  868): Values: 1744
+01-10 18:08:00.884 I/System.out(  868): Values: 1575
+01-10 18:08:01.885 I/System.out(  868): Values: 1323
+01-10 18:08:02.876 I/System.out(  868): Values: 1419
+01-10 18:08:03.897 I/System.out(  868): Values: 13148
+01-10 18:08:04.888 I/System.out(  868): Values: 13450
+01-10 18:08:05.889 I/System.out(  868): Values: 6917
+01-10 18:08:06.890 I/System.out(  868): Values: 14296
+01-10 18:08:07.891 I/System.out(  868): Values: 18990
+01-10 18:08:08.892 I/System.out(  868): Values: 14143
+01-10 18:08:09.913 I/System.out(  868): Values: 15157
+01-10 18:08:10.894 I/System.out(  868): Values: 5258
+01-10 18:08:11.895 I/System.out(  868): Values: 15360
+01-10 18:08:12.896 I/System.out(  868): Values: 14438
+01-10 18:08:13.887 I/System.out(  868): Values: 5663
+01-10 18:08:14.908 I/System.out(  868): Values: 1671
+01-10 18:08:14.988 D/dalvikvm(  868): GC_CONCURRENT freed 398K, 56% free 2533K/5639K, external 8K/519K, paused 6ms+2ms
+01-10 18:08:15.898 I/System.out(  868): Values: 13801
+01-10 18:08:16.899 I/System.out(  868): Values: 24698
+01-10 18:08:17.900 I/System.out(  868): Values: 17053
+01-10 18:08:18.901 I/System.out(  868): Values: 4473
+01-10 18:08:19.902 I/System.out(  868): Values: 2487
+01-10 18:08:20.903 I/System.out(  868): Values: 2546
+01-10 18:08:21.904 I/System.out(  868): Values: 2197
+01-10 18:08:22.895 I/System.out(  868): Values: 1575
+01-10 18:08:23.906 I/System.out(  868): Values: 1190
+01-10 18:08:24.897 I/System.out(  868): Values: 14758
+01-10 18:08:25.908 I/System.out(  868): Values: 7839
+01-10 18:08:26.899 I/System.out(  868): Values: 15290
+01-10 18:08:27.900 I/System.out(  868): Values: 13562
+01-10 18:08:28.901 I/System.out(  868): Values: 3590
+01-10 18:08:29.902 I/System.out(  868): Values: 13431
+01-10 18:08:30.913 I/System.out(  868): Values: 14671
+01-10 18:08:31.924 I/System.out(  868): Values: 7359
+01-10 18:08:32.915 I/System.out(  868): Values: 3390
+01-10 18:08:33.916 I/System.out(  868): Values: 1487
+01-10 18:08:34.917 I/System.out(  868): Values: 4143
+01-10 18:08:35.918 I/System.out(  868): Values: 17032
+01-10 18:08:36.919 I/System.out(  868): Values: 3580
+01-10 18:08:37.920 I/System.out(  868): Values: 1293
+01-10 18:08:38.921 I/System.out(  868): Values: 2213
+01-10 18:08:39.922 I/System.out(  868): Values: 2050
+01-10 18:08:40.923 I/System.out(  868): Values: 2064
+01-10 18:08:41.924 I/System.out(  868): Values: 1998
+01-10 18:08:42.935 I/System.out(  868): Values: 3775
+01-10 18:08:43.926 I/System.out(  868): Values: 7221
+01-10 18:08:44.927 I/System.out(  868): Values: 2347
+01-10 18:08:45.928 I/System.out(  868): Values: 2407
+01-10 18:08:46.929 I/System.out(  868): Values: 2548
+01-10 18:08:47.930 I/System.out(  868): Values: 2766
+01-10 18:08:48.961 I/System.out(  868): Values: 4043
+01-10 18:08:49.942 I/System.out(  868): Values: 2076
+01-10 18:08:50.943 I/System.out(  868): Values: 2726
+01-10 18:08:51.944 I/System.out(  868): Values: 2802
+01-10 18:08:52.935 I/System.out(  868): Values: 2626
+01-10 18:08:53.946 I/System.out(  868): Values: 3229
+01-10 18:08:54.947 I/System.out(  868): Values: 1375
+01-10 18:08:55.938 I/System.out(  868): Values: 2503
+01-10 18:08:56.939 I/System.out(  868): Values: 1804
+01-10 18:08:57.939 I/System.out(  868): Values: 3522
+01-10 18:08:58.940 I/System.out(  868): Values: 1924
+01-10 18:08:59.961 I/System.out(  868): Values: 1663
+01-10 18:09:00.952 I/System.out(  868): Values: 2967
+01-10 18:09:01.953 I/System.out(  868): Values: 1814
+01-10 18:09:02.954 I/System.out(  868): Values: 1603
+01-10 18:09:03.945 I/System.out(  868): Values: 3313
+01-10 18:09:04.946 I/System.out(  868): Values: 1659
+01-10 18:09:05.977 I/System.out(  868): Values: 3303
+01-10 18:09:06.968 I/System.out(  868): Values: 9883
+01-10 18:09:07.969 I/System.out(  868): Values: 8125
+01-10 18:09:08.970 I/System.out(  868): Values: 7509
+01-10 18:09:09.971 I/System.out(  868): Values: 4695
+01-10 18:09:10.972 I/System.out(  868): Values: 5589
+01-10 18:09:11.993 I/System.out(  868): Values: 1778
+01-10 18:09:12.974 I/System.out(  868): Values: 1399
+01-10 18:09:13.975 I/System.out(  868): Values: 1204
+01-10 18:09:14.976 I/System.out(  868): Values: 1287
+01-10 18:09:15.967 I/System.out(  868): Values: 1858
+01-10 18:09:16.988 I/System.out(  868): Values: 4638
+01-10 18:09:17.979 I/System.out(  868): Values: 1609
+01-10 18:09:18.980 I/System.out(  868): Values: 1531
+01-10 18:09:19.981 I/System.out(  868): Values: 2018
+01-10 18:09:20.982 I/System.out(  868): Values: 2000
+01-10 18:09:21.983 I/System.out(  868): Values: 1088
+01-10 18:09:22.984 I/System.out(  868): Values: 1720
+01-10 18:09:23.985 I/System.out(  868): Values: 2582
+01-10 18:09:24.986 I/System.out(  868): Values: 2201
+01-10 18:09:25.987 I/System.out(  868): Values: 2096
+01-10 18:09:26.988 I/System.out(  868): Values: 1754
+01-10 18:09:27.999 I/System.out(  868): Values: 1772
+01-10 18:09:28.980 I/System.out(  868): Values: 1329
+01-10 18:09:29.981 I/System.out(  868): Values: 1700
+01-10 18:09:30.982 I/System.out(  868): Values: 1601
+01-10 18:09:31.983 I/System.out(  868): Values: 1798
+01-10 18:09:32.994 I/System.out(  868): Values: 1571
+01-10 18:09:33.995 I/System.out(  868): Values: 1820
+01-10 18:09:34.996 I/System.out(  868): Values: 1832
+01-10 18:09:35.997 I/System.out(  868): Values: 1024
+01-10 18:09:36.998 I/System.out(  868): Values: 2734
+01-10 18:09:37.999 I/System.out(  868): Values: 2006
+01-10 18:09:39.000 I/System.out(  868): Values: 1160
+01-10 18:09:40.001 I/System.out(  868): Values: 1457
+01-10 18:09:41.002 I/System.out(  868): Values: 2461
+01-10 18:09:42.002 I/System.out(  868): Values: 4255
+01-10 18:09:43.003 I/System.out(  868): Values: 8763
+01-10 18:09:44.004 I/System.out(  868): Values: 1156
+01-10 18:09:45.015 I/System.out(  868): Values: 3510
+01-10 18:09:46.006 I/System.out(  868): Values: 3899
+01-10 18:09:47.007 I/System.out(  868): Values: 3446
+01-10 18:09:48.008 I/System.out(  868): Values: 1160
+01-10 18:09:49.009 I/System.out(  868): Values: 2022
+01-10 18:09:50.010 I/System.out(  868): Values: 7075
+01-10 18:09:51.021 I/System.out(  868): Values: 1754
+01-10 18:09:52.012 I/System.out(  868): Values: 1948
+01-10 18:09:53.013 I/System.out(  868): Values: 2589
+01-10 18:09:54.014 I/System.out(  868): Values: 1160
+01-10 18:09:55.015 I/System.out(  868): Values: 3215
+01-10 18:09:56.006 I/System.out(  868): Values: 1365
+01-10 18:09:56.006 I/System.out(  868): Battery level end is reached
+01-10 18:09:56.006 I/System.out(  868): Time difference in secs is: 400
+01-10 18:09:57.007 I/System.out(  868): Values: 1046
+01-10 18:09:57.017 I/System.out(  868): Time difference in secs is: 400
+01-10 18:09:58.008 I/System.out(  868): Values: 2090
+01-10 18:09:58.018 I/System.out(  868): Time difference in secs is: 400
+01-10 18:09:59.009 I/System.out(  868): Values: 1553
+01-10 18:09:59.019 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:00.010 I/System.out(  868): Values: 1529
+01-10 18:10:00.020 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:01.021 I/System.out(  868): Values: 1405
+01-10 18:10:01.021 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:02.022 I/System.out(  868): Values: 1565
+01-10 18:10:02.042 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:03.023 I/System.out(  868): Values: 1477
+01-10 18:10:03.023 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:04.024 I/System.out(  868): Values: 1363
+01-10 18:10:04.024 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:05.015 I/System.out(  868): Values: 1234
+01-10 18:10:05.015 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:06.026 I/System.out(  868): Values: 1100
+01-10 18:10:06.026 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:07.037 I/System.out(  868): Values: 1038
+01-10 18:10:07.037 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:08.028 I/System.out(  868): Values: 1040
+01-10 18:10:08.028 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:09.029 I/System.out(  868): Values: 964
+01-10 18:10:09.029 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:10.030 I/System.out(  868): Values: 1058
+01-10 18:10:10.030 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:11.031 I/System.out(  868): Values: 1104
+01-10 18:10:11.031 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:12.032 I/System.out(  868): Values: 998
+01-10 18:10:12.032 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:13.043 I/System.out(  868): Values: 994
+01-10 18:10:13.053 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:14.044 I/System.out(  868): Values: 1064
+01-10 18:10:14.044 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:15.045 I/System.out(  868): Values: 1056
+01-10 18:10:15.045 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:16.036 I/System.out(  868): Values: 1002
+01-10 18:10:16.036 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:17.037 I/System.out(  868): Values: 1012
+01-10 18:10:17.037 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:18.038 I/System.out(  868): Values: 954
+01-10 18:10:18.038 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:19.039 I/System.out(  868): Values: 1012
+01-10 18:10:19.039 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:20.040 I/System.out(  868): Values: 1036
+01-10 18:10:20.040 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:21.041 I/System.out(  868): Values: 1134
+01-10 18:10:21.041 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:22.042 I/System.out(  868): Values: 1058
+01-10 18:10:22.052 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:23.043 I/System.out(  868): Values: 1659
+01-10 18:10:23.043 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:24.064 I/System.out(  868): Values: 1150
+01-10 18:10:24.074 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:25.054 I/System.out(  868): Values: 3708
+01-10 18:10:25.054 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:26.055 I/System.out(  868): Values: 1343
+01-10 18:10:26.055 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:27.046 I/System.out(  868): Values: 3913
+01-10 18:10:27.046 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:28.047 I/System.out(  868): Values: 20827
+01-10 18:10:28.047 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:29.048 I/System.out(  868): Values: 16128
+01-10 18:10:29.048 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:30.049 I/System.out(  868): Values: 8819
+01-10 18:10:30.079 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:31.050 I/System.out(  868): Values: 6014
+01-10 18:10:31.050 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:32.051 I/System.out(  868): Values: 4611
+01-10 18:10:32.051 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:33.052 I/System.out(  868): Values: 6407
+01-10 18:10:33.052 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:34.053 I/System.out(  868): Values: 1661
+01-10 18:10:34.053 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:35.074 I/System.out(  868): Values: 1361
+01-10 18:10:35.074 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:36.055 I/System.out(  868): Values: 1383
+01-10 18:10:36.055 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:37.056 I/System.out(  868): Values: 1311
+01-10 18:10:37.056 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:38.057 I/System.out(  868): Values: 1515
+01-10 18:10:38.057 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:39.058 I/System.out(  868): Values: 1437
+01-10 18:10:39.058 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:40.059 I/System.out(  868): Values: 1038
+01-10 18:10:40.059 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:41.060 I/System.out(  868): Values: 1343
+01-10 18:10:41.080 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:42.061 I/System.out(  868): Values: 1954
+01-10 18:10:42.061 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:43.062 I/System.out(  868): Values: 1080
+01-10 18:10:43.062 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:44.063 I/System.out(  868): Values: 1413
+01-10 18:10:44.063 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:45.064 I/System.out(  868): Values: 1317
+01-10 18:10:45.064 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:46.065 I/System.out(  868): Values: 1172
+01-10 18:10:46.075 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:47.066 I/System.out(  868): Values: 1130
+01-10 18:10:47.066 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:48.067 I/System.out(  868): Values: 1034
+01-10 18:10:48.067 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:49.068 I/System.out(  868): Values: 1273
+01-10 18:10:49.068 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:50.069 I/System.out(  868): Values: 1521
+01-10 18:10:50.069 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:50.459 D/SntpClient(  164): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+01-10 18:10:50.499 D/SntpClient(  164): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+01-10 18:10:50.499 D/SntpClient(  164): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+01-10 18:10:51.070 I/System.out(  868): Values: 1144
+01-10 18:10:51.070 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:52.091 I/System.out(  868): Values: 1220
+01-10 18:10:52.101 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:53.082 I/System.out(  868): Values: 7225
+01-10 18:10:53.082 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:54.083 I/System.out(  868): Values: 32767
+01-10 18:10:54.083 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:55.084 I/System.out(  868): Values: 25306
+01-10 18:10:55.084 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:56.085 I/System.out(  868): Values: 6635
+01-10 18:10:56.085 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:57.076 I/System.out(  868): Values: 22068
+01-10 18:10:57.086 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:58.077 I/System.out(  868): Values: 3460
+01-10 18:10:58.117 I/System.out(  868): Time difference in secs is: 400
+01-10 18:10:58.157 D/dalvikvm(  868): GC_CONCURRENT freed 389K, 55% free 2543K/5639K, external 8K/519K, paused 22ms+2ms
+01-10 18:10:59.078 I/System.out(  868): Values: 18085
+01-10 18:10:59.078 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:00.079 I/System.out(  868): Values: 7736
+01-10 18:11:00.079 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:01.080 I/System.out(  868): Values: 21038
+01-10 18:11:01.080 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:02.081 I/System.out(  868): Values: 8651
+01-10 18:11:02.081 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:03.102 I/System.out(  868): Values: 12983
+01-10 18:11:03.102 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:04.093 I/System.out(  868): Values: 2435
+01-10 18:11:04.093 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:04.183 D/SettingsAppWidgetProvider(  626): Widget is from a previous version... Let's update
+01-10 18:11:04.183 D/SettingsAppWidgetProvider(  626): No instances yet... Wait for at least one instance to exist before adding global settings
+01-10 18:11:05.094 I/System.out(  868): Values: 15562
+01-10 18:11:05.094 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:05.214 W/Vold    (  112): Ignoring unknown switch 'usb_connected'
+01-10 18:11:05.304 D/Vold    (  112): USB connected
+01-10 18:11:05.304 D/Vold    (  112): Share method ums now available
+01-10 18:11:05.304 I/StorageNotification(  235): UMS connection changed to true (media state mounted)
+01-10 18:11:05.334 V/NotificationService(  164): Active profile: Default
+01-10 18:11:05.334 I/PROFILE (  164): Group: Gmail containing : com.android.systemui : false
+01-10 18:11:05.334 I/PROFILE (  164): Group: Phone containing : com.android.systemui : false
+01-10 18:11:05.334 I/PROFILE (  164): Group: Calendar containing : com.android.systemui : false
+01-10 18:11:05.334 I/PROFILE (  164): Group: Email containing : com.android.systemui : false
+01-10 18:11:05.344 I/PROFILE (  164): Group: SMS containing : com.android.systemui : false
+01-10 18:11:05.344 V/ProfileManager(  164): No active group, returning default: Other
+01-10 18:11:05.344 V/NotificationService(  164): Pkg: com.android.systemui group: Other
+01-10 18:11:05.364 W/ApplicationContext(  164): Unable to create files directory
+01-10 18:11:05.364 D/WriteApps(  164): Error: java.lang.NullPointerException
+01-10 18:11:05.374 D/Tethering(  164): sendTetherStateChangedBroadcast 1, 0, 0
+01-10 18:11:05.374 D/Tethering(  164): interfaceAdded :usb0
+01-10 18:11:05.374 V/NotificationService(  164): Active profile: Default
+01-10 18:11:05.374 I/PROFILE (  164): Group: Gmail containing : android : false
+01-10 18:11:05.374 I/PROFILE (  164): Group: Phone containing : android : false
+01-10 18:11:05.374 I/PROFILE (  164): Group: Calendar containing : android : false
+01-10 18:11:05.374 I/PROFILE (  164): Group: Email containing : android : false
+01-10 18:11:05.374 I/PROFILE (  164): Group: SMS containing : android : false
+01-10 18:11:05.374 V/ProfileManager(  164): No active group, returning default: Other
+01-10 18:11:05.384 V/NotificationService(  164): Pkg: android group: Other
+01-10 18:11:06.085 I/System.out(  868): Values: 4289
+01-10 18:11:06.085 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:07.085 I/System.out(  868): Values: 32440
+01-10 18:11:07.085 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:08.086 I/System.out(  868): Values: 3734
+01-10 18:11:08.086 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:09.087 I/System.out(  868): Values: 3981
+01-10 18:11:09.117 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:10.088 I/System.out(  868): Values: 1956
+01-10 18:11:10.088 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:10.439 D/dalvikvm(  626): GC_EXPLICIT freed 11K, 54% free 2637K/5639K, external 0K/0K, paused 44ms
+01-10 18:11:11.089 I/System.out(  868): Values: 2387
+01-10 18:11:11.089 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:12.090 I/System.out(  868): Values: 1140
+01-10 18:11:12.090 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:13.091 I/System.out(  868): Values: 3175
+01-10 18:11:13.091 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:14.102 I/System.out(  868): Values: 1261
+01-10 18:11:14.112 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:15.103 I/System.out(  868): Values: 1267
+01-10 18:11:15.103 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:16.104 I/System.out(  868): Values: 3049
+01-10 18:11:16.104 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:17.095 I/System.out(  868): Values: 1491
+01-10 18:11:17.095 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:18.096 I/System.out(  868): Values: 1060
+01-10 18:11:18.096 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:19.097 I/System.out(  868): Values: 984
+01-10 18:11:19.097 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:20.098 I/System.out(  868): Values: 984
+01-10 18:11:20.098 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:21.099 I/System.out(  868): Values: 1012
+01-10 18:11:21.099 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:22.100 I/System.out(  868): Values: 982
+01-10 18:11:22.100 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:23.101 I/System.out(  868): Values: 1180
+01-10 18:11:23.101 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:24.102 I/System.out(  868): Values: 1020
+01-10 18:11:24.102 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:25.123 I/System.out(  868): Values: 2491
+01-10 18:11:25.123 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:26.114 I/System.out(  868): Values: 4450
+01-10 18:11:26.114 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:27.115 I/System.out(  868): Values: 1220
+01-10 18:11:27.115 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:28.106 I/System.out(  868): Values: 1094
+01-10 18:11:28.106 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:29.107 I/System.out(  868): Values: 2568
+01-10 18:11:29.107 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:30.108 I/System.out(  868): Values: 1078
+01-10 18:11:30.108 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:31.119 I/System.out(  868): Values: 1349
+01-10 18:11:31.139 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:32.120 I/System.out(  868): Values: 3813
+01-10 18:11:32.120 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:33.121 I/System.out(  868): Values: 1120
+01-10 18:11:33.121 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:34.122 I/System.out(  868): Values: 1990
+01-10 18:11:34.122 I/System.out(  868): Time difference in secs is: 400
+01-10 18:11:35.123 I/System.out(  868): Values: 966
+01-10 18:11:35.123 I/System.out(  868): Time difference in secs is: 400

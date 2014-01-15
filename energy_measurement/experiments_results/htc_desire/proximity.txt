@@ -1,0 +1,724 @@
+--------- beginning of /dev/log/main
+01-10 13:58:51.105 I/power   (  169): *** set_screen_state 0
+01-10 13:58:51.345 D/SurfaceFlinger(  169): About to give-up screen, flinger = 0x94808
+01-10 13:58:51.495 D/AK8973  (  120): Compass CLOSE 
+01-10 13:59:14.287 D/KeyguardViewMediator(  169): wakeWhenReadyLocked(26)
+01-10 13:59:14.287 I/power   (  169): *** set_screen_state 1
+01-10 13:59:14.297 D/SurfaceFlinger(  169): Screen about to return, flinger = 0x94808
+01-10 13:59:14.317 D/AK8973  (  120): Compass Start
+01-10 13:59:14.437 D/dalvikvm(  169): GC_EXTERNAL_ALLOC freed 491K, 49% free 4737K/9159K, external 3166K/3351K, paused 93ms
+01-10 13:59:15.448 D/SettingsAppWidgetProvider(  594): Widget is from a previous version... Let's update
+01-10 13:59:15.448 D/SettingsAppWidgetProvider(  594): No instances yet... Wait for at least one instance to exist before adding global settings
+01-10 13:59:19.412 D/AndroidRuntime(  623): 
+01-10 13:59:19.412 D/AndroidRuntime(  623): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-10 13:59:19.432 I/AndroidRuntime(  623): Heap size: -Xmx32m
+01-10 13:59:19.432 D/AndroidRuntime(  623): CheckJNI is OFF
+01-10 13:59:19.432 D/dalvikvm(  623): creating instr width table
+01-10 13:59:19.662 D/AndroidRuntime(  623): Calling main entry com.android.commands.pm.Pm
+--------- beginning of /dev/log/system
+01-10 13:59:19.672 I/ActivityManager(  169): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=631 uid=10030 gids={1015, 2001}
+01-10 13:59:19.713 D/dalvikvm(  631): Debugger has detached; object registry had 1 entries
+01-10 13:59:19.813 D/dalvikvm(  631): GC_EXPLICIT freed 296K, 55% free 2534K/5511K, external 0K/0K, paused 36ms
+01-10 13:59:20.583 W/ActivityManager(  169): No content provider found for: 
+01-10 13:59:20.613 D/dalvikvm(  594): GC_EXPLICIT freed 123K, 54% free 2637K/5639K, external 0K/0K, paused 60ms
+01-10 13:59:20.734 W/ActivityManager(  169): No content provider found for: 
+01-10 13:59:20.754 D/PackageParser(  169): Scanning package: /data/app/vmdl-1911803253.tmp
+01-10 13:59:20.754 I/ActivityManager(  169): No longer want com.android.deskclock (pid 447): hidden #16
+01-10 13:59:20.904 D/PackageManager(  169): Scanning package uk.ac.st_andrews.cs.host.mk74.energymeasurement.proximity
+01-10 13:59:20.914 I/PackageManager(  169): Unpacking native libraries for /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.proximity-1.apk
+01-10 13:59:20.934 D/installd(  118): DexInv: --- BEGIN '/data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.proximity-1.apk' ---
+01-10 13:59:21.204 D/dalvikvm(  640): creating instr width table
+01-10 13:59:21.624 D/dalvikvm(  640): DexOpt: load 47ms, verify+opt 265ms
+01-10 13:59:21.734 D/installd(  118): DexInv: --- END '/data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.proximity-1.apk' (success) ---
+01-10 13:59:21.734 I/ActivityManager(  169): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.proximity uid=10063
+01-10 13:59:21.744 D/PackageManager(  169):   Activities: uk.ac.st_andrews.cs.host.mk74.energymeasurement.proximity.MainActivity
+01-10 13:59:21.895 I/installd(  118): move /data/dalvik-cache/data@app@uk.ac.st_andrews.cs.host.mk74.energymeasurement.proximity-1.apk@classes.dex -> /data/dalvik-cache/data@app@uk.ac.st_andrews.cs.host.mk74.energymeasurement.proximity-1.apk@classes.dex
+01-10 13:59:21.895 D/PackageManager(  169): New package installed in /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.proximity-1.apk
+01-10 13:59:22.005 D/szipinf (  169): Initializing inflate state
+01-10 13:59:22.005 D/HomeLoaders(  278): application intent received: android.intent.action.PACKAGE_ADDED, replacing=false
+01-10 13:59:22.005 D/HomeLoaders(  278):   --> package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.proximity
+01-10 13:59:22.005 D/HomeLoaders(  278):   --> add package
+01-10 13:59:22.105 D/dalvikvm(  169): GC_EXPLICIT freed 556K, 49% free 4749K/9159K, external 3161K/3857K, paused 69ms
+01-10 13:59:22.125 D/szipinf (  169): Initializing inflate state
+01-10 13:59:22.135 D/AndroidRuntime(  623): Shutting down VM
+01-10 13:59:22.145 D/dalvikvm(  623): GC_CONCURRENT freed 102K, 71% free 299K/1024K, external 0K/0K, paused 0ms+0ms
+01-10 13:59:22.155 I/AndroidRuntime(  623): NOTE: attach of thread 'Binder Thread #3' failed
+01-10 13:59:22.155 D/jdwp    (  623): Got wake-up signal, bailing out of select
+01-10 13:59:22.155 D/dalvikvm(  623): Debugger has detached; object registry had 1 entries
+01-10 13:59:22.165 D/szipinf (  169): Initializing inflate state
+01-10 13:59:22.215 W/RecognitionManagerService(  169): no available voice recognition services found
+01-10 13:59:22.235 D/szipinf (  169): Initializing inflate state
+01-10 13:59:22.265 D/szipinf (  169): Initializing inflate state
+01-10 13:59:22.325 D/szipinf (  169): Initializing inflate state
+01-10 13:59:22.375 D/szipinf (  169): Initializing inflate state
+01-10 13:59:22.435 I/ActivityManager(  169): Start proc com.android.vending for broadcast com.android.vending/com.google.android.finsky.receivers.PersistentPackageMonitorReceiver: pid=648 uid=10029 gids={3003, 1015}
+01-10 13:59:22.665 D/GTalkService(  324): [RawStanzaProvidersMgr] ##### searchProvidersFromIntent
+01-10 13:59:22.675 D/GTalkService(  324): [RawStanzaProvidersMgr] no intent receivers found
+01-10 13:59:22.725 D/dalvikvm(  324): GC_CONCURRENT freed 440K, 53% free 2848K/5959K, external 82K/512K, paused 2ms+13ms
+01-10 13:59:22.755 D/AndroidRuntime(  646): 
+01-10 13:59:22.755 D/AndroidRuntime(  646): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-10 13:59:22.765 I/AndroidRuntime(  646): Heap size: -Xmx32m
+01-10 13:59:22.765 D/AndroidRuntime(  646): CheckJNI is OFF
+01-10 13:59:22.765 D/dalvikvm(  646): creating instr width table
+01-10 13:59:22.816 D/GTalkService(  324): handlePackageInstalled: re-initialize providers
+01-10 13:59:22.816 D/GTalkService(  324): [RawStanzaProvidersMgr] ##### searchProvidersFromIntent
+01-10 13:59:22.816 D/GTalkService(  324): [RawStanzaProvidersMgr] no intent receivers found
+01-10 13:59:22.876 D/dalvikvm(  648): GC_CONCURRENT freed 410K, 54% free 2594K/5639K, external 0K/0K, paused 3ms+11ms
+01-10 13:59:22.986 I/ActivityThread(  648): Pub com.google.android.finsky.RecentSuggestionsProvider: com.google.android.finsky.providers.RecentSuggestionsProvider
+01-10 13:59:23.086 D/dalvikvm(  324): GC_CONCURRENT freed 550K, 54% free 2827K/6023K, external 0K/512K, paused 3ms+12ms
+01-10 13:59:23.296 D/dalvikvm(  648): GC_CONCURRENT freed 295K, 52% free 2784K/5767K, external 0K/0K, paused 3ms+11ms
+01-10 13:59:23.376 D/Finsky  (  648): [1] SanityChecker.run: # LocalAssets corrected : 0
+01-10 13:59:23.376 D/Finsky  (  648): Sanity check took : 7 ms
+01-10 13:59:23.386 D/AndroidRuntime(  646): Calling main entry com.android.commands.am.Am
+01-10 13:59:23.436 I/ActivityManager(  169): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=679 uid=10047 gids={}
+01-10 13:59:23.436 I/ActivityManager(  169): No longer want com.android.email (pid 456): hidden #16
+01-10 13:59:23.456 I/ActivityManager(  169): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.st_andrews.cs.host.mk74.energymeasurement.proximity/.MainActivity } from pid 646
+01-10 13:59:23.506 D/AndroidRuntime(  646): Shutting down VM
+01-10 13:59:23.536 I/AndroidRuntime(  646): NOTE: attach of thread 'Binder Thread #3' failed
+01-10 13:59:23.546 D/dalvikvm(  646): GC_CONCURRENT freed 104K, 69% free 324K/1024K, external 0K/0K, paused 0ms+9ms
+01-10 13:59:23.546 D/jdwp    (  646): Got wake-up signal, bailing out of select
+01-10 13:59:23.546 D/dalvikvm(  646): Debugger has detached; object registry had 1 entries
+01-10 13:59:23.576 D/dalvikvm(  115): GC_EXPLICIT freed 11K, 54% free 2499K/5379K, external 0K/0K, paused 150ms
+01-10 13:59:23.616 D/dalvikvm(  115): GC_EXPLICIT freed <1K, 54% free 2499K/5379K, external 0K/0K, paused 32ms
+01-10 13:59:23.646 D/dalvikvm(  115): GC_EXPLICIT freed <1K, 54% free 2499K/5379K, external 0K/0K, paused 32ms
+01-10 13:59:23.646 I/ActivityManager(  169): Start proc uk.ac.st_andrews.cs.host.mk74.energymeasurement.proximity for activity uk.ac.st_andrews.cs.host.mk74.energymeasurement.proximity/.MainActivity: pid=688 uid=10063 gids={}
+01-10 13:59:23.716 I/dalvikvm(  169): Jit: resizing JitTable from 4096 to 8192
+01-10 13:59:23.786 I/ActivityThread(  679): Pub com.svox.pico.providers.SettingsProvider: com.svox.pico.providers.SettingsProvider
+01-10 13:59:23.827 I/ActivityManager(  169): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.InstallReceiver: pid=696 uid=10052 gids={1015, 3003}
+01-10 13:59:23.827 I/ActivityManager(  169): No longer want com.android.mms (pid 468): hidden #16
+01-10 13:59:23.967 D/szipinf (  696): Initializing inflate state
+01-10 13:59:23.987 D/InstallReceiver(  696): uk.ac.st_andrews.cs.host.mk74.energymeasurement.proximity
+01-10 13:59:23.997 I/ActivityManager(  169): Start proc com.tmobile.thememanager for broadcast com.tmobile.thememanager/.receiver.ThemePackageReceiver: pid=705 uid=1300 gids={-1}
+01-10 13:59:23.997 I/ActivityManager(  169): No longer want com.koushikdutta.rommanager (pid 488): hidden #16
+01-10 13:59:24.167 I/ActivityThread(  705): Pub com.tmobile.thememanager.themes: com.tmobile.thememanager.provider.ThemesProvider
+01-10 13:59:24.177 D/dalvikvm(  688): GC_EXTERNAL_ALLOC freed 44K, 54% free 2523K/5379K, external 0K/0K, paused 41ms
+01-10 13:59:24.187 I/ActivityThread(  705): Pub com.tmobile.thememanager.packageresources: com.tmobile.thememanager.provider.PackageResourcesProvider
+01-10 13:59:24.207 D/VoiceDialerReceiver(  498): onReceive Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.proximity flg=0x10000000 cmp=com.android.voicedialer/.VoiceDialerReceiver (has extras) }
+01-10 13:59:24.217 V/RecognizerEngine(  498): deleteCachedGrammarFiles /data/data/com.android.voicedialer/files/openentries.txt
+01-10 13:59:24.337 I/ActivityManager(  169): Displayed uk.ac.st_andrews.cs.host.mk74.energymeasurement.proximity/.MainActivity: +823ms (total +7m17s295ms)
+01-10 13:59:24.377 D/dalvikvm(  508): GC_CONCURRENT freed 446K, 55% free 2600K/5703K, external 0K/0K, paused 2ms+2ms
+01-10 13:59:24.477 I/ActivityManager(  169): No longer want com.android.protips (pid 529): hidden #16
+01-10 13:59:24.537 D/dalvikvm(  386): GC_CONCURRENT freed 354K, 54% free 2645K/5703K, external 0K/0K, paused 5ms+444ms
+01-10 13:59:24.597 D/Finsky  (  648): [23] DownloadRecords.initializeAndPrune: Pruned 0 old downloads from the cursor.
+01-10 13:59:24.617 D/szipinf (  705): Initializing inflate state
+01-10 13:59:24.647 D/szipinf (  705): Initializing inflate state
+01-10 13:59:24.657 I/ThemeManager(  705): VerifyInstalledThemesThread took 92 ms.
+01-10 13:59:25.138 I/System.out(  688): Values: 9.0
+01-10 13:59:26.139 I/System.out(  688): Values: 9.0
+01-10 13:59:27.140 I/System.out(  688): Values: 9.0
+01-10 13:59:28.141 I/System.out(  688): Values: 9.0
+01-10 13:59:29.142 I/System.out(  688): Values: 9.0
+01-10 13:59:29.282 D/dalvikvm(  508): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.282 D/dalvikvm(  273): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.282 D/dalvikvm(  169): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.282 D/dalvikvm(  255): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.282 D/dalvikvm(  324): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.282 D/dalvikvm(  257): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.282 D/dalvikvm(  240): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.282 D/dalvikvm(  688): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.292 W/Vold    (  111): Ignoring unknown switch 'usb_connected'
+01-10 13:59:29.292 D/Vold    (  111): USB disconnected
+01-10 13:59:29.292 D/Vold    (  111): Share method ums now unavailable
+01-10 13:59:29.302 I/StorageNotification(  240): UMS connection changed to false (media state mounted)
+01-10 13:59:29.352 D/dalvikvm(  518): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.372 D/dalvikvm(  278): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.372 D/dalvikvm(  547): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.392 D/dalvikvm(  557): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.402 D/dalvikvm(  594): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.402 D/SettingsAppWidgetProvider(  594): Widget is from a previous version... Let's update
+01-10 13:59:29.402 D/SettingsAppWidgetProvider(  594): No instances yet... Wait for at least one instance to exist before adding global settings
+01-10 13:59:29.412 D/dalvikvm(  498): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.412 D/dalvikvm(  395): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.412 D/dalvikvm(  567): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.412 D/dalvikvm(  386): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.412 D/dalvikvm(  539): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.412 D/dalvikvm(  631): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.412 D/dalvikvm(  648): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.412 D/dalvikvm(  679): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.412 D/dalvikvm(  696): Debugger has detached; object registry had 1 entries
+01-10 13:59:29.412 D/dalvikvm(  705): Debugger has detached; object registry had 1 entries
+01-10 13:59:30.143 I/System.out(  688): Values: 9.0
+01-10 13:59:30.333 D/Tethering(  169): InitialState.processMessage what=4
+01-10 13:59:30.343 D/Tethering(  169): sendTetherStateChangedBroadcast 0, 0, 0
+01-10 13:59:31.144 I/System.out(  688): Values: 9.0
+01-10 13:59:32.145 I/System.out(  688): Values: 9.0
+01-10 13:59:33.136 I/System.out(  688): Values: 9.0
+01-10 13:59:34.137 I/System.out(  688): Values: 9.0
+01-10 13:59:35.138 I/System.out(  688): Values: 9.0
+01-10 13:59:35.408 D/dalvikvm(  278): GC_EXPLICIT freed 337K, 53% free 3006K/6343K, external 3386K/4112K, paused 63ms
+01-10 13:59:36.139 I/System.out(  688): Values: 9.0
+01-10 13:59:37.140 I/System.out(  688): Values: 9.0
+01-10 13:59:38.140 I/System.out(  688): Values: 9.0
+01-10 13:59:39.141 I/System.out(  688): Values: 9.0
+01-10 13:59:40.142 I/System.out(  688): Values: 9.0
+01-10 13:59:40.403 D/dalvikvm(  386): GC_EXPLICIT freed 33K, 55% free 2614K/5703K, external 0K/0K, paused 54ms
+01-10 13:59:41.143 I/System.out(  688): Values: 9.0
+01-10 13:59:42.144 I/System.out(  688): Values: 9.0
+01-10 13:59:43.135 I/System.out(  688): Values: 9.0
+01-10 13:59:44.136 I/System.out(  688): Values: 9.0
+01-10 13:59:45.147 I/System.out(  688): Values: 9.0
+01-10 13:59:45.448 D/dalvikvm(  395): GC_EXPLICIT freed 97K, 57% free 2520K/5767K, external 0K/0K, paused 84ms
+01-10 13:59:46.148 I/System.out(  688): Values: 9.0
+01-10 13:59:47.149 I/System.out(  688): Values: 9.0
+01-10 13:59:48.150 I/System.out(  688): Values: 9.0
+01-10 13:59:49.151 I/System.out(  688): Values: 9.0
+01-10 13:59:50.152 I/System.out(  688): Values: 9.0
+01-10 13:59:50.432 D/dalvikvm(  498): GC_EXPLICIT freed 337K, 55% free 2513K/5511K, external 0K/0K, paused 73ms
+01-10 13:59:51.153 I/System.out(  688): Values: 9.0
+01-10 13:59:52.154 I/System.out(  688): Values: 9.0
+01-10 13:59:53.155 I/System.out(  688): Values: 9.0
+01-10 13:59:54.156 I/System.out(  688): Values: 9.0
+01-10 13:59:55.157 I/System.out(  688): Values: 9.0
+01-10 13:59:55.447 D/dalvikvm(  508): GC_EXPLICIT freed 262K, 55% free 2571K/5703K, external 0K/0K, paused 77ms
+01-10 13:59:56.148 I/System.out(  688): Values: 9.0
+01-10 13:59:57.149 I/System.out(  688): Values: 9.0
+01-10 13:59:58.160 I/System.out(  688): Values: 9.0
+01-10 13:59:59.161 I/System.out(  688): Values: 9.0
+01-10 14:00:00.112 D/dalvikvm(  169): GC_CONCURRENT freed 1216K, 48% free 4769K/9159K, external 43K/547K, paused 9ms+4ms
+01-10 14:00:00.162 I/System.out(  688): Values: 9.0
+01-10 14:00:01.153 I/System.out(  688): Values: 9.0
+01-10 14:00:02.154 I/System.out(  688): Values: 9.0
+01-10 14:00:03.155 I/System.out(  688): Values: 9.0
+01-10 14:00:04.156 I/System.out(  688): Values: 9.0
+01-10 14:00:05.157 I/System.out(  688): Values: 9.0
+01-10 14:00:06.158 I/System.out(  688): Values: 9.0
+01-10 14:00:07.159 I/System.out(  688): Values: 9.0
+01-10 14:00:08.160 I/System.out(  688): Values: 9.0
+01-10 14:00:09.161 I/System.out(  688): Values: 9.0
+01-10 14:00:10.162 I/System.out(  688): Values: 9.0
+01-10 14:00:11.163 I/System.out(  688): Values: 9.0
+01-10 14:00:12.164 I/System.out(  688): Values: 9.0
+01-10 14:00:13.165 I/System.out(  688): Values: 9.0
+01-10 14:00:14.166 I/System.out(  688): Values: 9.0
+01-10 14:00:15.157 I/System.out(  688): Values: 9.0
+01-10 14:00:16.158 I/System.out(  688): Values: 9.0
+01-10 14:00:17.159 I/System.out(  688): Values: 9.0
+01-10 14:00:18.160 I/System.out(  688): Values: 9.0
+01-10 14:00:19.161 I/System.out(  688): Values: 9.0
+01-10 14:00:20.161 I/System.out(  688): Values: 9.0
+01-10 14:00:21.162 I/System.out(  688): Values: 9.0
+01-10 14:00:22.163 I/System.out(  688): Values: 9.0
+01-10 14:00:23.164 I/System.out(  688): Values: 9.0
+01-10 14:00:24.165 I/System.out(  688): Values: 9.0
+01-10 14:00:25.156 I/System.out(  688): Values: 9.0
+01-10 14:00:26.157 I/System.out(  688): Values: 9.0
+01-10 14:00:27.168 I/System.out(  688): Values: 9.0
+01-10 14:00:28.169 I/System.out(  688): Values: 9.0
+01-10 14:00:29.170 I/System.out(  688): Values: 9.0
+01-10 14:00:30.171 I/System.out(  688): Values: 9.0
+01-10 14:00:31.172 I/System.out(  688): Values: 9.0
+01-10 14:00:32.173 I/System.out(  688): Values: 9.0
+01-10 14:00:33.174 I/System.out(  688): Values: 9.0
+01-10 14:00:34.175 I/System.out(  688): Values: 9.0
+01-10 14:00:35.176 I/System.out(  688): Values: 9.0
+01-10 14:00:36.167 I/System.out(  688): Values: 9.0
+01-10 14:00:37.168 I/System.out(  688): Values: 9.0
+01-10 14:00:38.169 I/System.out(  688): Values: 9.0
+01-10 14:00:39.170 I/System.out(  688): Values: 9.0
+01-10 14:00:40.171 I/System.out(  688): Values: 9.0
+01-10 14:00:41.162 I/System.out(  688): Values: 9.0
+01-10 14:00:42.173 I/System.out(  688): Values: 9.0
+01-10 14:00:43.174 I/System.out(  688): Values: 9.0
+01-10 14:00:44.165 I/System.out(  688): Values: 9.0
+01-10 14:00:45.166 I/System.out(  688): Values: 9.0
+01-10 14:00:46.167 I/System.out(  688): Values: 9.0
+01-10 14:00:47.178 I/System.out(  688): Values: 9.0
+01-10 14:00:48.179 I/System.out(  688): Values: 9.0
+01-10 14:00:49.170 I/System.out(  688): Values: 9.0
+01-10 14:00:50.181 I/System.out(  688): Values: 9.0
+01-10 14:00:51.182 I/System.out(  688): Values: 9.0
+01-10 14:00:52.173 I/System.out(  688): Values: 9.0
+01-10 14:00:53.174 I/System.out(  688): Values: 9.0
+01-10 14:00:54.175 I/System.out(  688): Values: 9.0
+01-10 14:00:55.176 I/System.out(  688): Values: 9.0
+01-10 14:00:56.177 I/System.out(  688): Values: 9.0
+01-10 14:00:57.178 I/System.out(  688): Values: 9.0
+01-10 14:00:58.179 I/System.out(  688): Values: 9.0
+01-10 14:00:59.180 I/System.out(  688): Values: 9.0
+01-10 14:01:00.181 I/System.out(  688): Values: 9.0
+01-10 14:01:01.182 I/System.out(  688): Values: 9.0
+01-10 14:01:02.182 I/System.out(  688): Values: 9.0
+01-10 14:01:03.183 I/System.out(  688): Values: 9.0
+01-10 14:01:04.184 I/System.out(  688): Values: 9.0
+01-10 14:01:05.185 I/System.out(  688): Values: 9.0
+01-10 14:01:06.176 I/System.out(  688): Values: 9.0
+01-10 14:01:07.177 I/System.out(  688): Values: 9.0
+01-10 14:01:08.188 I/System.out(  688): Values: 9.0
+01-10 14:01:09.179 I/System.out(  688): Values: 9.0
+01-10 14:01:10.180 I/System.out(  688): Values: 9.0
+01-10 14:01:11.181 I/System.out(  688): Values: 9.0
+01-10 14:01:12.182 I/System.out(  688): Values: 9.0
+01-10 14:01:13.183 I/System.out(  688): Values: 9.0
+01-10 14:01:14.184 I/System.out(  688): Values: 9.0
+01-10 14:01:15.185 I/System.out(  688): Values: 9.0
+01-10 14:01:16.186 I/System.out(  688): Values: 9.0
+01-10 14:01:17.187 I/System.out(  688): Values: 9.0
+01-10 14:01:18.188 I/System.out(  688): Values: 9.0
+01-10 14:01:19.189 I/System.out(  688): Values: 9.0
+01-10 14:01:20.190 I/System.out(  688): Values: 9.0
+01-10 14:01:21.191 I/System.out(  688): Values: 9.0
+01-10 14:01:22.192 I/System.out(  688): Values: 9.0
+01-10 14:01:23.193 I/System.out(  688): Values: 9.0
+01-10 14:01:24.184 I/System.out(  688): Values: 9.0
+01-10 14:01:25.185 I/System.out(  688): Values: 9.0
+01-10 14:01:26.186 I/System.out(  688): Values: 9.0
+01-10 14:01:27.197 I/System.out(  688): Values: 9.0
+01-10 14:01:28.188 I/System.out(  688): Values: 9.0
+01-10 14:01:29.189 I/System.out(  688): Values: 9.0
+01-10 14:01:30.190 I/System.out(  688): Values: 9.0
+01-10 14:01:31.201 I/System.out(  688): Values: 9.0
+01-10 14:01:32.202 I/System.out(  688): Values: 9.0
+01-10 14:01:33.193 I/System.out(  688): Values: 9.0
+01-10 14:01:34.194 I/System.out(  688): Values: 9.0
+01-10 14:01:35.195 I/System.out(  688): Values: 9.0
+01-10 14:01:36.196 I/System.out(  688): Values: 9.0
+01-10 14:01:37.197 I/System.out(  688): Values: 9.0
+01-10 14:01:38.198 I/System.out(  688): Values: 9.0
+01-10 14:01:39.199 I/System.out(  688): Values: 9.0
+01-10 14:01:40.200 I/System.out(  688): Values: 9.0
+01-10 14:01:41.201 I/System.out(  688): Values: 9.0
+01-10 14:01:42.202 I/System.out(  688): Values: 9.0
+01-10 14:01:43.202 I/System.out(  688): Values: 9.0
+01-10 14:01:44.203 I/System.out(  688): Values: 9.0
+01-10 14:01:45.204 I/System.out(  688): Values: 9.0
+01-10 14:01:46.205 I/System.out(  688): Values: 9.0
+01-10 14:01:47.206 I/System.out(  688): Values: 9.0
+01-10 14:01:48.207 I/System.out(  688): Values: 9.0
+01-10 14:01:49.198 I/System.out(  688): Values: 9.0
+01-10 14:01:50.199 I/System.out(  688): Values: 9.0
+01-10 14:01:51.200 I/System.out(  688): Values: 9.0
+01-10 14:01:52.201 I/System.out(  688): Values: 9.0
+01-10 14:01:53.202 I/System.out(  688): Values: 9.0
+01-10 14:01:54.193 I/System.out(  688): Values: 9.0
+01-10 14:01:55.194 I/System.out(  688): Values: 9.0
+01-10 14:01:56.205 I/System.out(  688): Values: 9.0
+01-10 14:01:57.206 I/System.out(  688): Values: 9.0
+01-10 14:01:58.197 I/System.out(  688): Values: 9.0
+01-10 14:01:59.208 I/System.out(  688): Values: 9.0
+01-10 14:02:00.209 I/System.out(  688): Values: 9.0
+01-10 14:02:01.210 I/System.out(  688): Values: 9.0
+01-10 14:02:02.211 I/System.out(  688): Values: 9.0
+01-10 14:02:03.212 I/System.out(  688): Values: 9.0
+01-10 14:02:04.213 I/System.out(  688): Values: 9.0
+01-10 14:02:05.204 I/System.out(  688): Values: 9.0
+01-10 14:02:06.205 I/System.out(  688): Values: 9.0
+01-10 14:02:07.206 I/System.out(  688): Values: 9.0
+01-10 14:02:08.207 I/System.out(  688): Values: 9.0
+01-10 14:02:09.208 I/System.out(  688): Values: 9.0
+01-10 14:02:10.209 I/System.out(  688): Values: 9.0
+01-10 14:02:11.210 I/System.out(  688): Values: 9.0
+01-10 14:02:12.211 I/System.out(  688): Values: 9.0
+01-10 14:02:13.212 I/System.out(  688): Values: 9.0
+01-10 14:02:14.213 I/System.out(  688): Values: 9.0
+01-10 14:02:15.214 I/System.out(  688): Values: 9.0
+01-10 14:02:16.215 I/System.out(  688): Values: 9.0
+01-10 14:02:17.216 I/System.out(  688): Values: 9.0
+01-10 14:02:18.207 I/System.out(  688): Values: 9.0
+01-10 14:02:19.208 I/System.out(  688): Values: 9.0
+01-10 14:02:20.209 I/System.out(  688): Values: 9.0
+01-10 14:02:21.210 I/System.out(  688): Values: 9.0
+01-10 14:02:22.211 I/System.out(  688): Values: 9.0
+01-10 14:02:23.212 I/System.out(  688): Values: 9.0
+01-10 14:02:24.213 I/System.out(  688): Values: 9.0
+01-10 14:02:25.213 I/System.out(  688): Values: 9.0
+01-10 14:02:26.214 I/System.out(  688): Values: 9.0
+01-10 14:02:27.215 I/System.out(  688): Values: 9.0
+01-10 14:02:28.216 I/System.out(  688): Values: 9.0
+01-10 14:02:29.217 I/System.out(  688): Values: 9.0
+01-10 14:02:30.218 I/System.out(  688): Values: 9.0
+01-10 14:02:31.219 I/System.out(  688): Values: 9.0
+01-10 14:02:31.219 I/System.out(  688): Battery level start is reached
+01-10 14:02:32.220 I/System.out(  688): Values: 9.0
+01-10 14:02:33.221 I/System.out(  688): Values: 9.0
+01-10 14:02:34.222 I/System.out(  688): Values: 9.0
+01-10 14:02:35.223 I/System.out(  688): Values: 9.0
+01-10 14:02:36.214 I/System.out(  688): Values: 9.0
+01-10 14:02:37.215 I/System.out(  688): Values: 9.0
+01-10 14:02:38.216 I/System.out(  688): Values: 9.0
+01-10 14:02:39.217 I/System.out(  688): Values: 9.0
+01-10 14:02:40.218 I/System.out(  688): Values: 9.0
+01-10 14:02:41.219 I/System.out(  688): Values: 9.0
+01-10 14:02:42.220 I/System.out(  688): Values: 9.0
+01-10 14:02:43.221 I/System.out(  688): Values: 9.0
+01-10 14:02:44.222 I/System.out(  688): Values: 9.0
+01-10 14:02:45.223 I/System.out(  688): Values: 9.0
+01-10 14:02:46.224 I/System.out(  688): Values: 9.0
+01-10 14:02:47.225 I/System.out(  688): Values: 9.0
+01-10 14:02:48.226 I/System.out(  688): Values: 9.0
+01-10 14:02:49.227 I/System.out(  688): Values: 9.0
+01-10 14:02:50.228 I/System.out(  688): Values: 9.0
+01-10 14:02:51.229 I/System.out(  688): Values: 9.0
+01-10 14:02:52.230 I/System.out(  688): Values: 9.0
+01-10 14:02:52.320 D/dalvikvm(  688): GC_CONCURRENT freed 389K, 55% free 2540K/5575K, external 8K/519K, paused 7ms+2ms
+01-10 14:02:53.231 I/System.out(  688): Values: 9.0
+01-10 14:02:54.232 I/System.out(  688): Values: 9.0
+01-10 14:02:55.223 I/System.out(  688): Values: 9.0
+01-10 14:02:56.234 I/System.out(  688): Values: 9.0
+01-10 14:02:57.235 I/System.out(  688): Values: 9.0
+01-10 14:02:58.236 I/System.out(  688): Values: 9.0
+01-10 14:02:59.227 I/System.out(  688): Values: 9.0
+01-10 14:03:00.228 I/System.out(  688): Values: 9.0
+01-10 14:03:01.229 I/System.out(  688): Values: 9.0
+01-10 14:03:02.230 I/System.out(  688): Values: 9.0
+01-10 14:03:03.231 I/System.out(  688): Values: 9.0
+01-10 14:03:04.232 I/System.out(  688): Values: 9.0
+01-10 14:03:05.233 I/System.out(  688): Values: 9.0
+01-10 14:03:06.234 I/System.out(  688): Values: 9.0
+01-10 14:03:07.234 I/System.out(  688): Values: 9.0
+01-10 14:03:08.235 I/System.out(  688): Values: 9.0
+01-10 14:03:09.226 I/System.out(  688): Values: 9.0
+01-10 14:03:10.237 I/System.out(  688): Values: 9.0
+01-10 14:03:11.238 I/System.out(  688): Values: 9.0
+01-10 14:03:12.229 I/System.out(  688): Values: 9.0
+01-10 14:03:13.230 I/System.out(  688): Values: 9.0
+01-10 14:03:14.231 I/System.out(  688): Values: 9.0
+01-10 14:03:15.232 I/System.out(  688): Values: 9.0
+01-10 14:03:16.233 I/System.out(  688): Values: 9.0
+01-10 14:03:17.224 I/System.out(  688): Values: 9.0
+01-10 14:03:18.235 I/System.out(  688): Values: 9.0
+01-10 14:03:19.236 I/System.out(  688): Values: 9.0
+01-10 14:03:20.237 I/System.out(  688): Values: 9.0
+01-10 14:03:21.238 I/System.out(  688): Values: 9.0
+01-10 14:03:22.239 I/System.out(  688): Values: 9.0
+01-10 14:03:23.240 I/System.out(  688): Values: 9.0
+01-10 14:03:24.241 I/System.out(  688): Values: 9.0
+01-10 14:03:25.232 I/System.out(  688): Values: 9.0
+01-10 14:03:25.923 D/SntpClient(  169): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+01-10 14:03:25.963 D/SntpClient(  169): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+01-10 14:03:25.963 D/SntpClient(  169): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+01-10 14:03:26.243 I/System.out(  688): Values: 9.0
+01-10 14:03:27.244 I/System.out(  688): Values: 9.0
+01-10 14:03:28.245 I/System.out(  688): Values: 9.0
+01-10 14:03:29.236 I/System.out(  688): Values: 9.0
+01-10 14:03:30.237 I/System.out(  688): Values: 9.0
+01-10 14:03:31.238 I/System.out(  688): Values: 9.0
+01-10 14:03:32.239 I/System.out(  688): Values: 9.0
+01-10 14:03:33.240 I/System.out(  688): Values: 9.0
+01-10 14:03:34.241 I/System.out(  688): Values: 9.0
+01-10 14:03:35.242 I/System.out(  688): Values: 9.0
+01-10 14:03:36.243 I/System.out(  688): Values: 9.0
+01-10 14:03:37.244 I/System.out(  688): Values: 9.0
+01-10 14:03:38.245 I/System.out(  688): Values: 9.0
+01-10 14:03:39.236 I/System.out(  688): Values: 9.0
+01-10 14:03:40.237 I/System.out(  688): Values: 9.0
+01-10 14:03:41.238 I/System.out(  688): Values: 9.0
+01-10 14:03:42.239 I/System.out(  688): Values: 9.0
+01-10 14:03:43.240 I/System.out(  688): Values: 9.0
+01-10 14:03:44.241 I/System.out(  688): Values: 9.0
+01-10 14:03:45.242 I/System.out(  688): Values: 9.0
+01-10 14:03:46.243 I/System.out(  688): Values: 9.0
+01-10 14:03:47.244 I/System.out(  688): Values: 9.0
+01-10 14:03:48.234 I/System.out(  688): Values: 9.0
+01-10 14:03:49.245 I/System.out(  688): Values: 9.0
+01-10 14:03:50.246 I/System.out(  688): Values: 9.0
+01-10 14:03:51.237 I/System.out(  688): Values: 9.0
+01-10 14:03:52.238 I/System.out(  688): Values: 9.0
+01-10 14:03:53.239 I/System.out(  688): Values: 9.0
+01-10 14:03:54.240 I/System.out(  688): Values: 9.0
+01-10 14:03:55.241 I/System.out(  688): Values: 9.0
+01-10 14:03:56.242 I/System.out(  688): Values: 9.0
+01-10 14:03:57.243 I/System.out(  688): Values: 9.0
+01-10 14:03:58.244 I/System.out(  688): Values: 9.0
+01-10 14:03:59.245 I/System.out(  688): Values: 9.0
+01-10 14:04:00.246 I/System.out(  688): Values: 9.0
+01-10 14:04:01.247 I/System.out(  688): Values: 9.0
+01-10 14:04:02.248 I/System.out(  688): Values: 9.0
+01-10 14:04:03.249 I/System.out(  688): Values: 9.0
+01-10 14:04:04.250 I/System.out(  688): Values: 9.0
+01-10 14:04:05.251 I/System.out(  688): Values: 9.0
+01-10 14:04:06.252 I/System.out(  688): Values: 9.0
+01-10 14:04:07.253 I/System.out(  688): Values: 9.0
+01-10 14:04:08.254 I/System.out(  688): Values: 9.0
+01-10 14:04:09.255 I/System.out(  688): Values: 9.0
+01-10 14:04:10.256 I/System.out(  688): Values: 9.0
+01-10 14:04:11.257 I/System.out(  688): Values: 9.0
+01-10 14:04:12.248 I/System.out(  688): Values: 9.0
+01-10 14:04:13.249 I/System.out(  688): Values: 9.0
+01-10 14:04:14.250 I/System.out(  688): Values: 9.0
+01-10 14:04:15.251 I/System.out(  688): Values: 9.0
+01-10 14:04:16.252 I/System.out(  688): Values: 9.0
+01-10 14:04:17.253 I/System.out(  688): Values: 9.0
+01-10 14:04:18.254 I/System.out(  688): Values: 9.0
+01-10 14:04:19.255 I/System.out(  688): Values: 9.0
+01-10 14:04:20.256 I/System.out(  688): Values: 9.0
+01-10 14:04:21.257 I/System.out(  688): Values: 9.0
+01-10 14:04:22.258 I/System.out(  688): Values: 9.0
+01-10 14:04:23.259 I/System.out(  688): Values: 9.0
+01-10 14:04:24.260 I/System.out(  688): Values: 9.0
+01-10 14:04:25.261 I/System.out(  688): Values: 9.0
+01-10 14:04:26.262 I/System.out(  688): Values: 9.0
+01-10 14:04:27.253 I/System.out(  688): Values: 9.0
+01-10 14:04:28.264 I/System.out(  688): Values: 9.0
+01-10 14:04:29.265 I/System.out(  688): Values: 9.0
+01-10 14:04:30.255 I/System.out(  688): Values: 9.0
+01-10 14:04:31.256 I/System.out(  688): Values: 9.0
+01-10 14:04:32.257 I/System.out(  688): Values: 9.0
+01-10 14:04:33.258 I/System.out(  688): Values: 9.0
+01-10 14:04:34.259 I/System.out(  688): Values: 9.0
+01-10 14:04:35.260 I/System.out(  688): Values: 9.0
+01-10 14:04:36.261 I/System.out(  688): Values: 9.0
+01-10 14:04:37.252 I/System.out(  688): Values: 9.0
+01-10 14:04:38.263 I/System.out(  688): Values: 9.0
+01-10 14:04:39.264 I/System.out(  688): Values: 9.0
+01-10 14:04:40.255 I/System.out(  688): Values: 9.0
+01-10 14:04:41.256 I/System.out(  688): Values: 9.0
+01-10 14:04:42.257 I/System.out(  688): Values: 9.0
+01-10 14:04:43.258 I/System.out(  688): Values: 9.0
+01-10 14:04:44.269 I/System.out(  688): Values: 9.0
+01-10 14:04:45.270 I/System.out(  688): Values: 9.0
+01-10 14:04:46.271 I/System.out(  688): Values: 9.0
+01-10 14:04:47.262 I/System.out(  688): Values: 9.0
+01-10 14:04:48.263 I/System.out(  688): Values: 9.0
+01-10 14:04:49.264 I/System.out(  688): Values: 9.0
+01-10 14:04:50.265 I/System.out(  688): Values: 9.0
+01-10 14:04:51.266 I/System.out(  688): Values: 9.0
+01-10 14:04:52.267 I/System.out(  688): Values: 9.0
+01-10 14:04:53.268 I/System.out(  688): Values: 9.0
+01-10 14:04:54.269 I/System.out(  688): Values: 9.0
+01-10 14:04:55.270 I/System.out(  688): Values: 9.0
+01-10 14:04:56.271 I/System.out(  688): Values: 9.0
+01-10 14:04:57.272 I/System.out(  688): Values: 9.0
+01-10 14:04:58.273 I/System.out(  688): Values: 9.0
+01-10 14:04:59.274 I/System.out(  688): Values: 9.0
+01-10 14:05:00.275 I/System.out(  688): Values: 9.0
+01-10 14:05:01.276 I/System.out(  688): Values: 9.0
+01-10 14:05:02.277 I/System.out(  688): Values: 9.0
+01-10 14:05:03.268 I/System.out(  688): Values: 9.0
+01-10 14:05:04.269 I/System.out(  688): Values: 9.0
+01-10 14:05:05.270 I/System.out(  688): Values: 9.0
+01-10 14:05:06.271 I/System.out(  688): Values: 9.0
+01-10 14:05:07.272 I/System.out(  688): Values: 9.0
+01-10 14:05:08.273 I/System.out(  688): Values: 9.0
+01-10 14:05:09.274 I/System.out(  688): Values: 9.0
+01-10 14:05:10.265 I/System.out(  688): Values: 9.0
+01-10 14:05:11.265 I/System.out(  688): Values: 9.0
+01-10 14:05:12.266 I/System.out(  688): Values: 9.0
+01-10 14:05:13.267 I/System.out(  688): Values: 9.0
+01-10 14:05:14.268 I/System.out(  688): Values: 9.0
+01-10 14:05:15.269 I/System.out(  688): Values: 9.0
+01-10 14:05:16.280 I/System.out(  688): Values: 9.0
+01-10 14:05:17.281 I/System.out(  688): Values: 9.0
+01-10 14:05:18.272 I/System.out(  688): Values: 9.0
+01-10 14:05:19.273 I/System.out(  688): Values: 9.0
+01-10 14:05:20.274 I/System.out(  688): Values: 9.0
+01-10 14:05:21.275 I/System.out(  688): Values: 9.0
+01-10 14:05:22.276 I/System.out(  688): Values: 9.0
+01-10 14:05:23.277 I/System.out(  688): Values: 9.0
+01-10 14:05:24.278 I/System.out(  688): Values: 9.0
+01-10 14:05:25.279 I/System.out(  688): Values: 9.0
+01-10 14:05:26.280 I/System.out(  688): Values: 9.0
+01-10 14:05:27.281 I/System.out(  688): Values: 9.0
+01-10 14:05:28.282 I/System.out(  688): Values: 9.0
+01-10 14:05:29.283 I/System.out(  688): Values: 9.0
+01-10 14:05:30.284 I/System.out(  688): Values: 9.0
+01-10 14:05:31.285 I/System.out(  688): Values: 9.0
+01-10 14:05:32.286 I/System.out(  688): Values: 9.0
+01-10 14:05:33.287 I/System.out(  688): Values: 9.0
+01-10 14:05:34.288 I/System.out(  688): Values: 9.0
+01-10 14:05:35.279 I/System.out(  688): Values: 9.0
+01-10 14:05:36.280 I/System.out(  688): Values: 9.0
+01-10 14:05:37.281 I/System.out(  688): Values: 9.0
+01-10 14:05:38.282 I/System.out(  688): Values: 9.0
+01-10 14:05:39.283 I/System.out(  688): Values: 9.0
+01-10 14:05:40.284 I/System.out(  688): Values: 9.0
+01-10 14:05:41.285 I/System.out(  688): Values: 9.0
+01-10 14:05:42.286 I/System.out(  688): Values: 9.0
+01-10 14:05:43.287 I/System.out(  688): Values: 9.0
+01-10 14:05:44.288 I/System.out(  688): Values: 9.0
+01-10 14:05:45.289 I/System.out(  688): Values: 9.0
+01-10 14:05:46.290 I/System.out(  688): Values: 9.0
+01-10 14:05:47.291 I/System.out(  688): Values: 9.0
+01-10 14:05:48.292 I/System.out(  688): Values: 9.0
+01-10 14:05:49.293 I/System.out(  688): Values: 9.0
+01-10 14:05:50.284 I/System.out(  688): Values: 9.0
+01-10 14:05:51.295 I/System.out(  688): Values: 9.0
+01-10 14:05:52.286 I/System.out(  688): Values: 9.0
+01-10 14:05:53.286 I/System.out(  688): Values: 9.0
+01-10 14:05:54.287 I/System.out(  688): Values: 9.0
+01-10 14:05:55.288 I/System.out(  688): Values: 9.0
+01-10 14:05:56.289 I/System.out(  688): Values: 9.0
+01-10 14:05:57.290 I/System.out(  688): Values: 9.0
+01-10 14:05:58.291 I/System.out(  688): Values: 9.0
+01-10 14:05:59.292 I/System.out(  688): Values: 9.0
+01-10 14:06:00.283 I/System.out(  688): Values: 9.0
+01-10 14:06:01.284 I/System.out(  688): Values: 9.0
+01-10 14:06:02.285 I/System.out(  688): Values: 9.0
+01-10 14:06:03.296 I/System.out(  688): Values: 9.0
+01-10 14:06:04.297 I/System.out(  688): Values: 9.0
+01-10 14:06:05.298 I/System.out(  688): Values: 9.0
+01-10 14:06:06.299 I/System.out(  688): Values: 9.0
+01-10 14:06:07.300 I/System.out(  688): Values: 9.0
+01-10 14:06:08.301 I/System.out(  688): Values: 9.0
+01-10 14:06:09.302 I/System.out(  688): Values: 9.0
+01-10 14:06:10.303 I/System.out(  688): Values: 9.0
+01-10 14:06:11.304 I/System.out(  688): Values: 9.0
+01-10 14:06:12.295 I/System.out(  688): Values: 9.0
+01-10 14:06:13.296 I/System.out(  688): Values: 9.0
+01-10 14:06:14.297 I/System.out(  688): Values: 9.0
+01-10 14:06:15.298 I/System.out(  688): Values: 9.0
+01-10 14:06:16.299 I/System.out(  688): Values: 9.0
+01-10 14:06:17.300 I/System.out(  688): Values: 9.0
+01-10 14:06:18.301 I/System.out(  688): Values: 9.0
+01-10 14:06:19.302 I/System.out(  688): Values: 9.0
+01-10 14:06:20.303 I/System.out(  688): Values: 9.0
+01-10 14:06:21.294 I/System.out(  688): Values: 9.0
+01-10 14:06:22.295 I/System.out(  688): Values: 9.0
+01-10 14:06:23.306 I/System.out(  688): Values: 9.0
+01-10 14:06:24.307 I/System.out(  688): Values: 9.0
+01-10 14:06:25.298 I/System.out(  688): Values: 9.0
+01-10 14:06:26.299 I/System.out(  688): Values: 9.0
+01-10 14:06:26.359 D/dalvikvm(  688): GC_CONCURRENT freed 395K, 56% free 2537K/5639K, external 8K/519K, paused 10ms+2ms
+01-10 14:06:27.300 I/System.out(  688): Values: 9.0
+01-10 14:06:28.311 I/System.out(  688): Values: 9.0
+01-10 14:06:29.302 I/System.out(  688): Values: 9.0
+01-10 14:06:30.303 I/System.out(  688): Values: 9.0
+01-10 14:06:31.304 I/System.out(  688): Values: 9.0
+01-10 14:06:32.305 I/System.out(  688): Values: 9.0
+01-10 14:06:33.306 I/System.out(  688): Values: 9.0
+01-10 14:06:34.307 I/System.out(  688): Values: 9.0
+01-10 14:06:35.307 I/System.out(  688): Values: 9.0
+01-10 14:06:36.308 I/System.out(  688): Values: 9.0
+01-10 14:06:37.309 I/System.out(  688): Values: 9.0
+01-10 14:06:38.310 I/System.out(  688): Values: 9.0
+01-10 14:06:39.311 I/System.out(  688): Values: 9.0
+01-10 14:06:40.312 I/System.out(  688): Values: 9.0
+01-10 14:06:41.313 I/System.out(  688): Values: 9.0
+01-10 14:06:42.314 I/System.out(  688): Values: 9.0
+01-10 14:06:42.314 I/System.out(  688): Battery level end is reached
+01-10 14:06:42.314 I/System.out(  688): Time difference in secs is: 251
+01-10 14:06:43.305 I/System.out(  688): Values: 9.0
+01-10 14:06:43.305 I/System.out(  688): Time difference in secs is: 251
+01-10 14:06:44.306 I/System.out(  688): Values: 9.0
+01-10 14:06:44.306 I/System.out(  688): Time difference in secs is: 251
+01-10 14:06:45.307 I/System.out(  688): Values: 9.0
+01-10 14:06:45.307 I/System.out(  688): Time difference in secs is: 251
+01-10 14:06:46.308 I/System.out(  688): Values: 9.0
+01-10 14:06:46.308 I/System.out(  688): Time difference in secs is: 251
+01-10 14:06:47.309 I/System.out(  688): Values: 9.0
+01-10 14:06:47.309 I/System.out(  688): Time difference in secs is: 251
+01-10 14:06:48.310 I/System.out(  688): Values: 9.0
+01-10 14:06:48.310 I/System.out(  688): Time difference in secs is: 251
+01-10 14:06:49.311 I/System.out(  688): Values: 9.0
+01-10 14:06:49.311 I/System.out(  688): Time difference in secs is: 251
+01-10 14:06:50.312 I/System.out(  688): Values: 9.0
+01-10 14:06:50.312 I/System.out(  688): Time difference in secs is: 251
+01-10 14:06:51.313 I/System.out(  688): Values: 9.0
+01-10 14:06:51.313 I/System.out(  688): Time difference in secs is: 251
+01-10 14:06:52.314 I/System.out(  688): Values: 9.0
+01-10 14:06:52.314 I/System.out(  688): Time difference in secs is: 251
+01-10 14:06:53.315 I/System.out(  688): Values: 9.0
+01-10 14:06:53.315 I/System.out(  688): Time difference in secs is: 251
+01-10 14:06:54.306 I/System.out(  688): Values: 9.0
+01-10 14:06:54.316 I/System.out(  688): Time difference in secs is: 251
+01-10 14:06:55.307 I/System.out(  688): Values: 9.0
+01-10 14:06:55.317 I/System.out(  688): Time difference in secs is: 251
+01-10 14:06:56.308 I/System.out(  688): Values: 9.0
+01-10 14:06:56.318 I/System.out(  688): Time difference in secs is: 251
+01-10 14:06:57.309 I/System.out(  688): Values: 9.0
+01-10 14:06:57.319 I/System.out(  688): Time difference in secs is: 251
+01-10 14:06:58.320 I/System.out(  688): Values: 9.0
+01-10 14:06:58.320 I/System.out(  688): Time difference in secs is: 251
+01-10 14:06:59.311 I/System.out(  688): Values: 9.0
+01-10 14:06:59.321 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:00.312 I/System.out(  688): Values: 9.0
+01-10 14:07:00.312 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:00.342 I/EventLogService(  324): Aggregate from 1389361020264 (log), 1389361020264 (data)
+01-10 14:07:00.472 D/dalvikvm(  324): GC_CONCURRENT freed 349K, 53% free 2870K/6023K, external 0K/512K, paused 2ms+3ms
+01-10 14:07:00.492 W/EventLogAggregator(  324): Unknown tag: system_update
+01-10 14:07:00.492 W/EventLogAggregator(  324): Unknown tag: system_update_user
+01-10 14:07:01.313 I/System.out(  688): Values: 9.0
+01-10 14:07:01.313 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:02.304 I/System.out(  688): Values: 9.0
+01-10 14:07:02.314 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:03.305 I/System.out(  688): Values: 9.0
+01-10 14:07:03.315 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:04.306 I/System.out(  688): Values: 9.0
+01-10 14:07:04.326 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:05.307 I/System.out(  688): Values: 9.0
+01-10 14:07:05.317 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:06.308 I/System.out(  688): Values: 9.0
+01-10 14:07:06.318 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:07.319 I/System.out(  688): Values: 9.0
+01-10 14:07:07.319 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:08.320 I/System.out(  688): Values: 9.0
+01-10 14:07:08.320 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:09.321 I/System.out(  688): Values: 9.0
+01-10 14:07:09.321 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:10.322 I/System.out(  688): Values: 9.0
+01-10 14:07:10.322 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:11.323 I/System.out(  688): Values: 9.0
+01-10 14:07:11.323 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:12.324 I/System.out(  688): Values: 9.0
+01-10 14:07:12.324 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:13.325 I/System.out(  688): Values: 9.0
+01-10 14:07:13.325 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:14.286 D/SettingsAppWidgetProvider(  594): Widget is from a previous version... Let's update
+01-10 14:07:14.286 D/SettingsAppWidgetProvider(  594): No instances yet... Wait for at least one instance to exist before adding global settings
+01-10 14:07:14.316 I/System.out(  688): Values: 9.0
+01-10 14:07:14.316 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:14.346 D/dalvikvm(  169): GC_CONCURRENT freed 521K, 49% free 4736K/9159K, external 35K/547K, paused 8ms+4ms
+01-10 14:07:15.246 W/Vold    (  111): Ignoring unknown switch 'usb_connected'
+01-10 14:07:15.266 D/Vold    (  111): USB connected
+01-10 14:07:15.266 D/Vold    (  111): Share method ums now available
+01-10 14:07:15.276 I/StorageNotification(  240): UMS connection changed to true (media state mounted)
+01-10 14:07:15.307 V/NotificationService(  169): Active profile: Default
+01-10 14:07:15.307 I/PROFILE (  169): Group: Gmail containing : com.android.systemui : false
+01-10 14:07:15.307 I/PROFILE (  169): Group: Phone containing : com.android.systemui : false
+01-10 14:07:15.307 I/PROFILE (  169): Group: Calendar containing : com.android.systemui : false
+01-10 14:07:15.307 I/PROFILE (  169): Group: Email containing : com.android.systemui : false
+01-10 14:07:15.307 I/PROFILE (  169): Group: SMS containing : com.android.systemui : false
+01-10 14:07:15.307 V/ProfileManager(  169): No active group, returning default: Other
+01-10 14:07:15.307 V/NotificationService(  169): Pkg: com.android.systemui group: Other
+01-10 14:07:15.317 I/System.out(  688): Values: 9.0
+01-10 14:07:15.317 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:15.327 W/ApplicationContext(  169): Unable to create files directory
+01-10 14:07:15.337 D/WriteApps(  169): Error: java.lang.NullPointerException
+01-10 14:07:15.347 V/NotificationService(  169): Active profile: Default
+01-10 14:07:15.347 I/PROFILE (  169): Group: Gmail containing : android : false
+01-10 14:07:15.347 I/PROFILE (  169): Group: Phone containing : android : false
+01-10 14:07:15.347 I/PROFILE (  169): Group: Calendar containing : android : false
+01-10 14:07:15.347 I/PROFILE (  169): Group: Email containing : android : false
+01-10 14:07:15.347 I/PROFILE (  169): Group: SMS containing : android : false
+01-10 14:07:15.347 V/ProfileManager(  169): No active group, returning default: Other
+01-10 14:07:15.347 V/NotificationService(  169): Pkg: android group: Other
+01-10 14:07:15.357 D/Tethering(  169): sendTetherStateChangedBroadcast 1, 0, 0
+01-10 14:07:15.357 D/Tethering(  169): interfaceAdded :usb0
+01-10 14:07:16.317 I/System.out(  688): Values: 9.0
+01-10 14:07:16.317 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:17.318 I/System.out(  688): Values: 9.0
+01-10 14:07:17.318 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:18.319 I/System.out(  688): Values: 9.0
+01-10 14:07:18.319 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:19.320 I/System.out(  688): Values: 9.0
+01-10 14:07:19.320 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:20.321 I/System.out(  688): Values: 9.0
+01-10 14:07:20.321 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:20.432 D/dalvikvm(  594): GC_EXPLICIT freed 11K, 54% free 2637K/5639K, external 0K/0K, paused 64ms
+01-10 14:07:21.322 I/System.out(  688): Values: 9.0
+01-10 14:07:21.322 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:22.323 I/System.out(  688): Values: 9.0
+01-10 14:07:22.323 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:23.324 I/System.out(  688): Values: 9.0
+01-10 14:07:23.324 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:24.315 I/System.out(  688): Values: 9.0
+01-10 14:07:24.325 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:25.326 I/System.out(  688): Values: 9.0
+01-10 14:07:25.326 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:26.317 I/System.out(  688): Values: 9.0
+01-10 14:07:26.327 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:27.328 I/System.out(  688): Values: 9.0
+01-10 14:07:27.328 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:28.329 I/System.out(  688): Values: 9.0
+01-10 14:07:28.329 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:29.320 I/System.out(  688): Values: 9.0
+01-10 14:07:29.330 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:30.321 I/System.out(  688): Values: 9.0
+01-10 14:07:30.331 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:31.322 I/System.out(  688): Values: 9.0
+01-10 14:07:31.322 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:32.323 I/System.out(  688): Values: 9.0
+01-10 14:07:32.323 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:33.324 I/System.out(  688): Values: 9.0
+01-10 14:07:33.324 I/System.out(  688): Time difference in secs is: 251
+01-10 14:07:34.315 I/System.out(  688): Values: 9.0
+01-10 14:07:34.325 I/System.out(  688): Time difference in secs is: 251
