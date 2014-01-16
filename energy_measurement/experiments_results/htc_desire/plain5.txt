@@ -1,0 +1,937 @@
+--------- beginning of /dev/log/main
+01-16 17:50:45.091 D/AndroidRuntime(  608): 
+01-16 17:50:45.091 D/AndroidRuntime(  608): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-16 17:50:45.091 I/AndroidRuntime(  608): Heap size: -Xmx32m
+01-16 17:50:45.101 D/AndroidRuntime(  608): CheckJNI is OFF
+01-16 17:50:45.101 D/dalvikvm(  608): creating instr width table
+01-16 17:50:45.311 D/AndroidRuntime(  608): Calling main entry com.android.commands.pm.Pm
+--------- beginning of /dev/log/system
+01-16 17:50:45.331 I/ActivityManager(  164): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=616 uid=10030 gids={1015, 2001}
+01-16 17:50:45.371 D/dalvikvm(  616): Debugger has detached; object registry had 1 entries
+01-16 17:50:45.481 D/dalvikvm(  616): GC_EXPLICIT freed 323K, 55% free 2508K/5511K, external 0K/0K, paused 36ms
+01-16 17:50:46.182 W/ActivityManager(  164): No content provider found for: 
+01-16 17:50:46.332 W/ActivityManager(  164): No content provider found for: 
+01-16 17:50:46.352 I/ActivityManager(  164): No longer want com.android.deskclock (pid 446): hidden #16
+01-16 17:50:46.372 D/PackageParser(  164): Scanning package: /data/app/vmdl1993146551.tmp
+01-16 17:50:46.533 I/PackageManager(  164): Removing non-system package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain
+01-16 17:50:46.533 I/ActivityManager(  164): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain uid=10065
+01-16 17:50:46.623 D/PackageManager(  164): Scanning package uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain
+01-16 17:50:46.623 I/PackageManager(  164): Package uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain codePath changed from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-1.apk; Retaining data and using new
+01-16 17:50:46.623 I/PackageManager(  164): Unpacking native libraries for /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-1.apk
+01-16 17:50:46.643 D/installd(  118): DexInv: --- BEGIN '/data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-1.apk' ---
+01-16 17:50:46.913 D/dalvikvm(  625): creating instr width table
+01-16 17:50:47.293 D/dalvikvm(  625): DexOpt: load 47ms, verify+opt 256ms
+01-16 17:50:47.393 D/installd(  118): DexInv: --- END '/data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-1.apk' (success) ---
+01-16 17:50:47.413 I/ActivityManager(  164): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain uid=10065
+01-16 17:50:47.413 W/PackageManager(  164): Code path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-1.apk
+01-16 17:50:47.423 D/PackageManager(  164):   Activities: uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain.MainActivity
+01-16 17:50:47.423 W/PackageManager(  164): Resource path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-1.apk
+01-16 17:50:47.513 I/installd(  118): move /data/dalvik-cache/data@app@uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-1.apk@classes.dex -> /data/dalvik-cache/data@app@uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-1.apk@classes.dex
+01-16 17:50:47.513 D/PackageManager(  164): New package installed in /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-1.apk
+01-16 17:50:47.624 I/ActivityManager(  164): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain uid=10065
+01-16 17:50:47.694 D/dalvikvm(  271): GC_EXPLICIT freed 187K, 55% free 3023K/6599K, external 3447K/4213K, paused 70ms
+01-16 17:50:47.744 D/HomeLoaders(  271): application intent received: android.intent.action.PACKAGE_REMOVED, replacing=true
+01-16 17:50:47.744 D/HomeLoaders(  271):   --> package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain
+01-16 17:50:47.754 D/szipinf (  164): Initializing inflate state
+01-16 17:50:47.774 D/szipinf (  164): Initializing inflate state
+01-16 17:50:47.794 D/dalvikvm(  488): GC_EXPLICIT freed 153K, 59% free 2945K/7047K, external 0K/0K, paused 85ms
+01-16 17:50:47.804 D/HomeLoaders(  271): application intent received: android.intent.action.PACKAGE_ADDED, replacing=true
+01-16 17:50:47.804 D/HomeLoaders(  271):   --> package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain
+01-16 17:50:47.804 D/HomeLoaders(  271):   --> update package uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain
+01-16 17:50:47.814 I/ActivityManager(  164): Start proc com.android.vending for broadcast com.android.vending/com.google.android.finsky.receivers.PersistentPackageMonitorReceiver: pid=626 uid=10029 gids={3003, 1015}
+01-16 17:50:47.854 D/szipinf (  164): Initializing inflate state
+01-16 17:50:47.954 D/dalvikvm(  164): GC_EXPLICIT freed 899K, 46% free 4882K/8967K, external 2555K/3183K, paused 99ms
+01-16 17:50:47.984 W/RecognitionManagerService(  164): no available voice recognition services found
+01-16 17:50:48.064 D/szipinf (  164): Initializing inflate state
+01-16 17:50:48.104 D/szipinf (  164): Initializing inflate state
+01-16 17:50:48.164 I/installd(  118): unlink /data/dalvik-cache/data@app@uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain-2.apk@classes.dex
+01-16 17:50:48.184 D/szipinf (  164): Initializing inflate state
+01-16 17:50:48.184 D/dalvikvm(  626): GC_CONCURRENT freed 411K, 55% free 2593K/5639K, external 0K/0K, paused 3ms+11ms
+01-16 17:50:48.234 D/szipinf (  164): Initializing inflate state
+01-16 17:50:48.244 I/ActivityThread(  626): Pub com.google.android.finsky.RecentSuggestionsProvider: com.google.android.finsky.providers.RecentSuggestionsProvider
+01-16 17:50:48.264 D/AndroidRuntime(  608): Shutting down VM
+01-16 17:50:48.274 D/dalvikvm(  608): GC_CONCURRENT freed 102K, 71% free 299K/1024K, external 0K/0K, paused 0ms+0ms
+01-16 17:50:48.284 D/jdwp    (  608): Got wake-up signal, bailing out of select
+01-16 17:50:48.284 D/dalvikvm(  608): Debugger has detached; object registry had 1 entries
+01-16 17:50:48.284 I/AndroidRuntime(  608): NOTE: attach of thread 'Binder Thread #3' failed
+01-16 17:50:48.494 D/dalvikvm(  626): GC_CONCURRENT freed 295K, 52% free 2783K/5767K, external 0K/0K, paused 2ms+5ms
+01-16 17:50:48.565 D/Finsky  (  626): [1] SanityChecker.run: # LocalAssets corrected : 0
+01-16 17:50:48.565 D/Finsky  (  626): Sanity check took : 6 ms
+01-16 17:50:48.615 I/ActivityManager(  164): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.UninstallReceiver: pid=655 uid=10052 gids={1015, 3003}
+01-16 17:50:48.615 I/ActivityManager(  164): No longer want com.android.mms (pid 466): hidden #16
+01-16 17:50:48.705 D/dalvikvm(  115): GC_EXPLICIT freed 11K, 54% free 2499K/5379K, external 0K/0K, paused 90ms
+01-16 17:50:48.755 D/AndroidRuntime(  651): 
+01-16 17:50:48.755 D/AndroidRuntime(  651): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-16 17:50:48.765 I/AndroidRuntime(  651): Heap size: -Xmx32m
+01-16 17:50:48.765 D/AndroidRuntime(  651): CheckJNI is OFF
+01-16 17:50:48.765 D/dalvikvm(  651): creating instr width table
+01-16 17:50:48.765 D/dalvikvm(  115): GC_EXPLICIT freed <1K, 54% free 2499K/5379K, external 0K/0K, paused 61ms
+01-16 17:50:48.835 D/dalvikvm(  115): GC_EXPLICIT freed <1K, 54% free 2499K/5379K, external 0K/0K, paused 70ms
+01-16 17:50:48.865 D/szipinf (  655): Initializing inflate state
+01-16 17:50:48.955 I/ActivityManager(  164): Start proc com.tmobile.thememanager for broadcast com.tmobile.thememanager/.receiver.ThemePackageReceiver: pid=668 uid=1300 gids={-1}
+01-16 17:50:48.955 I/ActivityManager(  164): No longer want com.koushikdutta.rommanager (pid 488): hidden #16
+01-16 17:50:49.115 D/AndroidRuntime(  651): Calling main entry com.android.commands.am.Am
+01-16 17:50:49.175 I/ActivityManager(  164): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain/.MainActivity } from pid 651
+01-16 17:50:49.215 I/ActivityThread(  668): Pub com.tmobile.thememanager.themes: com.tmobile.thememanager.provider.ThemesProvider
+01-16 17:50:49.225 D/AndroidRuntime(  651): Shutting down VM
+01-16 17:50:49.225 I/ActivityManager(  164): Start proc uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain for activity uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain/.MainActivity: pid=678 uid=10065 gids={}
+01-16 17:50:49.255 I/AndroidRuntime(  651): NOTE: attach of thread 'Binder Thread #3' failed
+01-16 17:50:49.255 D/dalvikvm(  651): GC_CONCURRENT freed 104K, 69% free 324K/1024K, external 0K/0K, paused 1ms+0ms
+01-16 17:50:49.255 D/jdwp    (  651): Got wake-up signal, bailing out of select
+01-16 17:50:49.255 D/dalvikvm(  651): Debugger has detached; object registry had 1 entries
+01-16 17:50:49.295 I/ActivityThread(  668): Pub com.tmobile.thememanager.packageresources: com.tmobile.thememanager.provider.PackageResourcesProvider
+01-16 17:50:49.305 D/dalvikvm(  678): Debugger has detached; object registry had 1 entries
+01-16 17:50:49.305 D/VoiceDialerReceiver(  498): onReceive Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain flg=0x10000000 cmp=com.android.voicedialer/.VoiceDialerReceiver (has extras) }
+01-16 17:50:49.305 V/RecognizerEngine(  498): deleteCachedGrammarFiles /data/data/com.android.voicedialer/files/openentries.txt
+01-16 17:50:49.315 I/ActivityManager(  164): No longer want com.android.email (pid 455): hidden #16
+01-16 17:50:49.455 I/ActivityManager(  164): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=687 uid=10047 gids={}
+01-16 17:50:49.666 D/dalvikvm(  678): GC_EXTERNAL_ALLOC freed 42K, 54% free 2517K/5379K, external 0K/0K, paused 160ms
+01-16 17:50:49.676 I/ActivityThread(  687): Pub com.svox.pico.providers.SettingsProvider: com.svox.pico.providers.SettingsProvider
+01-16 17:50:49.676 D/dalvikvm(  317): GC_CONCURRENT freed 468K, 54% free 2819K/6023K, external 82K/512K, paused 12ms+27ms
+01-16 17:50:49.736 D/InstallReceiver(  655): uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain
+01-16 17:50:49.756 D/GTalkService(  317): [RawStanzaProvidersMgr] ##### searchProvidersFromIntent
+01-16 17:50:49.776 D/GTalkService(  317): [RawStanzaProvidersMgr] no intent receivers found
+01-16 17:50:49.826 I/ActivityManager(  164): Displayed uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain/.MainActivity: +598ms (total +7m56s198ms)
+01-16 17:50:49.846 D/VoiceDialerReceiver(  498): onReceive Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.plain flg=0x10000000 cmp=com.android.voicedialer/.VoiceDialerReceiver (has extras) }
+01-16 17:50:49.846 V/RecognizerEngine(  498): deleteCachedGrammarFiles /data/data/com.android.voicedialer/files/openentries.txt
+01-16 17:50:49.856 D/GTalkService(  317): handlePackageInstalled: re-initialize providers
+01-16 17:50:49.856 D/GTalkService(  317): [RawStanzaProvidersMgr] ##### searchProvidersFromIntent
+01-16 17:50:49.866 D/GTalkService(  317): [RawStanzaProvidersMgr] no intent receivers found
+01-16 17:50:49.926 I/dalvikvm(  164): Jit: resizing JitTable from 4096 to 8192
+01-16 17:50:50.036 D/dalvikvm(  507): GC_CONCURRENT freed 439K, 55% free 2603K/5703K, external 0K/0K, paused 4ms+8ms
+01-16 17:50:50.056 D/dalvikvm(  317): GC_CONCURRENT freed 516K, 54% free 2814K/6023K, external 0K/512K, paused 3ms+2ms
+01-16 17:50:50.216 I/ActivityManager(  164): No longer want com.android.protips (pid 525): hidden #16
+01-16 17:50:50.276 D/szipinf (  668): Initializing inflate state
+01-16 17:50:50.286 D/Finsky  (  626): [23] DownloadRecords.initializeAndPrune: Pruned 0 old downloads from the cursor.
+01-16 17:50:50.296 D/szipinf (  668): Initializing inflate state
+01-16 17:50:50.306 I/ThemeManager(  668): VerifyInstalledThemesThread took 475 ms.
+01-16 17:50:50.506 I/System.out(  678): Empty value
+01-16 17:50:51.507 I/System.out(  678): Empty value
+01-16 17:50:52.508 I/System.out(  678): Empty value
+01-16 17:50:53.389 D/dalvikvm(  164): GC_CONCURRENT freed 992K, 44% free 5039K/8967K, external 43K/547K, paused 8ms+5ms
+01-16 17:50:53.509 I/System.out(  678): Empty value
+01-16 17:50:54.060 D/dalvikvm(  235): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.060 D/dalvikvm(  317): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.060 D/dalvikvm(  164): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.060 D/dalvikvm(  252): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.060 D/dalvikvm(  250): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.060 D/dalvikvm(  266): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.060 D/dalvikvm(  678): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.060 W/Vold    (  111): Ignoring unknown switch 'usb_connected'
+01-16 17:50:54.060 D/Vold    (  111): USB disconnected
+01-16 17:50:54.060 D/Vold    (  111): Share method ums now unavailable
+01-16 17:50:54.070 I/StorageNotification(  235): UMS connection changed to false (media state mounted)
+01-16 17:50:54.090 D/dalvikvm(  517): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.160 D/dalvikvm(  507): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.170 D/dalvikvm(  545): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.190 D/dalvikvm(  586): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.190 D/SettingsAppWidgetProvider(  586): Widget is from a previous version... Let's update
+01-16 17:50:54.190 D/SettingsAppWidgetProvider(  586): No instances yet... Wait for at least one instance to exist before adding global settings
+01-16 17:50:54.200 D/dalvikvm(  555): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.200 D/dalvikvm(  498): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.200 D/dalvikvm(  565): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.200 D/dalvikvm(  392): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.200 D/dalvikvm(  386): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.200 D/dalvikvm(  537): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.200 D/dalvikvm(  271): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.200 D/dalvikvm(  616): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.200 D/dalvikvm(  626): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.200 D/dalvikvm(  655): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.200 D/dalvikvm(  668): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.200 D/dalvikvm(  687): Debugger has detached; object registry had 1 entries
+01-16 17:50:54.510 I/System.out(  678): Empty value
+01-16 17:50:55.101 D/Tethering(  164): InitialState.processMessage what=4
+01-16 17:50:55.111 D/Tethering(  164): sendTetherStateChangedBroadcast 0, 0, 0
+01-16 17:50:55.511 I/System.out(  678): Empty value
+01-16 17:50:56.512 I/System.out(  678): Empty value
+01-16 17:50:57.513 I/System.out(  678): Empty value
+01-16 17:50:58.514 I/System.out(  678): Empty value
+01-16 17:50:59.515 I/System.out(  678): Empty value
+01-16 17:51:00.516 I/System.out(  678): Empty value
+01-16 17:51:01.507 I/System.out(  678): Empty value
+01-16 17:51:02.508 I/System.out(  678): Empty value
+01-16 17:51:03.509 I/System.out(  678): Empty value
+01-16 17:51:04.510 I/System.out(  678): Empty value
+01-16 17:51:05.101 D/dalvikvm(  271): GC_EXPLICIT freed 220K, 54% free 3054K/6599K, external 3394K/4213K, paused 41ms
+01-16 17:51:05.521 I/System.out(  678): Empty value
+01-16 17:51:06.522 I/System.out(  678): Empty value
+01-16 17:51:07.523 I/System.out(  678): Empty value
+01-16 17:51:08.524 I/System.out(  678): Empty value
+01-16 17:51:09.525 I/System.out(  678): Empty value
+01-16 17:51:10.146 D/dalvikvm(  392): GC_EXPLICIT freed 336K, 54% free 2647K/5639K, external 0K/0K, paused 73ms
+01-16 17:51:10.516 I/System.out(  678): Empty value
+01-16 17:51:11.517 I/System.out(  678): Empty value
+01-16 17:51:12.518 I/System.out(  678): Empty value
+01-16 17:51:13.519 I/System.out(  678): Empty value
+01-16 17:51:14.520 I/System.out(  678): Empty value
+01-16 17:51:15.140 D/dalvikvm(  386): GC_EXPLICIT freed 257K, 57% free 2519K/5767K, external 0K/0K, paused 65ms
+01-16 17:51:15.521 I/System.out(  678): Empty value
+01-16 17:51:16.522 I/System.out(  678): Empty value
+01-16 17:51:17.523 I/System.out(  678): Empty value
+01-16 17:51:18.524 I/System.out(  678): Empty value
+01-16 17:51:19.525 I/System.out(  678): Empty value
+01-16 17:51:20.135 D/dalvikvm(  498): GC_EXPLICIT freed 341K, 55% free 2513K/5511K, external 0K/0K, paused 55ms
+01-16 17:51:20.516 I/System.out(  678): Empty value
+01-16 17:51:21.527 I/System.out(  678): Empty value
+01-16 17:51:22.528 I/System.out(  678): Empty value
+01-16 17:51:23.529 I/System.out(  678): Empty value
+01-16 17:51:24.520 I/System.out(  678): Empty value
+01-16 17:51:25.160 D/dalvikvm(  507): GC_EXPLICIT freed 265K, 55% free 2571K/5703K, external 0K/0K, paused 74ms
+01-16 17:51:25.521 I/System.out(  678): Empty value
+01-16 17:51:26.522 I/System.out(  678): Empty value
+01-16 17:51:26.572 I/EventLogService(  317): Aggregate from 1389892886373 (log), 1389892886373 (data)
+01-16 17:51:26.662 D/dalvikvm(  317): GC_CONCURRENT freed 369K, 53% free 2831K/6023K, external 0K/512K, paused 2ms+4ms
+01-16 17:51:26.722 W/EventLogAggregator(  317): Unknown tag: system_update
+01-16 17:51:26.722 W/EventLogAggregator(  317): Unknown tag: system_update_user
+01-16 17:51:27.523 I/System.out(  678): Empty value
+01-16 17:51:28.523 I/System.out(  678): Empty value
+01-16 17:51:29.514 I/System.out(  678): Empty value
+01-16 17:51:30.525 I/System.out(  678): Empty value
+01-16 17:51:31.526 I/System.out(  678): Empty value
+01-16 17:51:31.627 D/dalvikvm(  586): GC_EXPLICIT freed 118K, 54% free 2637K/5639K, external 0K/0K, paused 52ms
+01-16 17:51:32.517 I/System.out(  678): Empty value
+01-16 17:51:33.528 I/System.out(  678): Empty value
+01-16 17:51:34.529 I/System.out(  678): Empty value
+01-16 17:51:35.530 I/System.out(  678): Empty value
+01-16 17:51:36.531 I/System.out(  678): Empty value
+01-16 17:51:37.522 I/System.out(  678): Empty value
+01-16 17:51:38.533 I/System.out(  678): Empty value
+01-16 17:51:39.534 I/System.out(  678): Empty value
+01-16 17:51:40.525 I/System.out(  678): Empty value
+01-16 17:51:41.526 I/System.out(  678): Empty value
+01-16 17:51:42.527 I/System.out(  678): Empty value
+01-16 17:51:43.528 I/System.out(  678): Empty value
+01-16 17:51:44.529 I/System.out(  678): Empty value
+01-16 17:51:45.530 I/System.out(  678): Empty value
+01-16 17:51:46.531 I/System.out(  678): Empty value
+01-16 17:51:47.532 I/System.out(  678): Empty value
+01-16 17:51:48.533 I/System.out(  678): Empty value
+01-16 17:51:49.534 I/System.out(  678): Empty value
+01-16 17:51:50.525 I/System.out(  678): Empty value
+01-16 17:51:51.536 I/System.out(  678): Empty value
+01-16 17:51:52.537 I/System.out(  678): Empty value
+01-16 17:51:53.538 I/System.out(  678): Empty value
+01-16 17:51:54.539 I/System.out(  678): Empty value
+01-16 17:51:55.530 I/System.out(  678): Empty value
+01-16 17:51:56.531 I/System.out(  678): Empty value
+01-16 17:51:57.532 I/System.out(  678): Empty value
+01-16 17:51:58.533 I/System.out(  678): Empty value
+01-16 17:51:59.534 I/System.out(  678): Empty value
+01-16 17:52:00.525 I/System.out(  678): Empty value
+01-16 17:52:01.536 I/System.out(  678): Empty value
+01-16 17:52:02.537 I/System.out(  678): Empty value
+01-16 17:52:03.528 I/System.out(  678): Empty value
+01-16 17:52:04.539 I/System.out(  678): Empty value
+01-16 17:52:05.540 I/System.out(  678): Empty value
+01-16 17:52:06.541 I/System.out(  678): Empty value
+01-16 17:52:07.542 I/System.out(  678): Empty value
+01-16 17:52:08.543 I/System.out(  678): Empty value
+01-16 17:52:09.544 I/System.out(  678): Empty value
+01-16 17:52:10.534 I/System.out(  678): Empty value
+01-16 17:52:11.545 I/System.out(  678): Empty value
+01-16 17:52:12.546 I/System.out(  678): Empty value
+01-16 17:52:13.547 I/System.out(  678): Empty value
+01-16 17:52:14.548 I/System.out(  678): Empty value
+01-16 17:52:15.539 I/System.out(  678): Empty value
+01-16 17:52:16.540 I/System.out(  678): Empty value
+01-16 17:52:17.551 I/System.out(  678): Empty value
+01-16 17:52:18.542 I/System.out(  678): Empty value
+01-16 17:52:19.543 I/System.out(  678): Empty value
+01-16 17:52:20.534 I/System.out(  678): Empty value
+01-16 17:52:21.545 I/System.out(  678): Empty value
+01-16 17:52:22.546 I/System.out(  678): Empty value
+01-16 17:52:23.547 I/System.out(  678): Empty value
+01-16 17:52:24.548 I/System.out(  678): Empty value
+01-16 17:52:25.549 I/System.out(  678): Empty value
+01-16 17:52:26.550 I/System.out(  678): Empty value
+01-16 17:52:27.551 I/System.out(  678): Empty value
+01-16 17:52:28.552 I/System.out(  678): Empty value
+01-16 17:52:29.553 I/System.out(  678): Empty value
+01-16 17:52:30.554 I/System.out(  678): Empty value
+01-16 17:52:31.555 I/System.out(  678): Empty value
+01-16 17:52:32.556 I/System.out(  678): Empty value
+01-16 17:52:33.557 I/System.out(  678): Empty value
+01-16 17:52:34.548 I/System.out(  678): Empty value
+01-16 17:52:35.549 I/System.out(  678): Empty value
+01-16 17:52:36.550 I/System.out(  678): Empty value
+01-16 17:52:37.551 I/System.out(  678): Empty value
+01-16 17:52:38.552 I/System.out(  678): Empty value
+01-16 17:52:39.553 I/System.out(  678): Empty value
+01-16 17:52:40.554 I/System.out(  678): Empty value
+01-16 17:52:41.545 I/System.out(  678): Empty value
+01-16 17:52:42.556 I/System.out(  678): Empty value
+01-16 17:52:43.557 I/System.out(  678): Empty value
+01-16 17:52:44.558 I/System.out(  678): Empty value
+01-16 17:52:45.559 I/System.out(  678): Empty value
+01-16 17:52:46.560 I/System.out(  678): Empty value
+01-16 17:52:47.551 I/System.out(  678): Empty value
+01-16 17:52:48.552 I/System.out(  678): Empty value
+01-16 17:52:49.563 I/System.out(  678): Empty value
+01-16 17:52:50.564 I/System.out(  678): Empty value
+01-16 17:52:51.565 I/System.out(  678): Empty value
+01-16 17:52:52.565 I/System.out(  678): Empty value
+01-16 17:52:53.556 I/System.out(  678): Empty value
+01-16 17:52:54.557 I/System.out(  678): Empty value
+01-16 17:52:55.558 I/System.out(  678): Empty value
+01-16 17:52:56.559 I/System.out(  678): Empty value
+01-16 17:52:57.560 I/System.out(  678): Empty value
+01-16 17:52:58.561 I/System.out(  678): Empty value
+01-16 17:52:59.562 I/System.out(  678): Empty value
+01-16 17:53:00.563 I/System.out(  678): Empty value
+01-16 17:53:01.564 I/System.out(  678): Empty value
+01-16 17:53:02.555 I/System.out(  678): Empty value
+01-16 17:53:03.556 I/System.out(  678): Empty value
+01-16 17:53:04.567 I/System.out(  678): Empty value
+01-16 17:53:05.568 I/System.out(  678): Empty value
+01-16 17:53:06.569 I/System.out(  678): Empty value
+01-16 17:53:07.560 I/System.out(  678): Empty value
+01-16 17:53:08.561 I/System.out(  678): Empty value
+01-16 17:53:09.562 I/System.out(  678): Empty value
+01-16 17:53:10.573 I/System.out(  678): Empty value
+01-16 17:53:11.564 I/System.out(  678): Empty value
+01-16 17:53:12.565 I/System.out(  678): Empty value
+01-16 17:53:13.566 I/System.out(  678): Empty value
+01-16 17:53:14.567 I/System.out(  678): Empty value
+01-16 17:53:15.568 I/System.out(  678): Empty value
+01-16 17:53:16.569 I/System.out(  678): Empty value
+01-16 17:53:17.570 I/System.out(  678): Empty value
+01-16 17:53:18.571 I/System.out(  678): Empty value
+01-16 17:53:19.572 I/System.out(  678): Empty value
+01-16 17:53:20.573 I/System.out(  678): Empty value
+01-16 17:53:21.574 I/System.out(  678): Empty value
+01-16 17:53:22.575 I/System.out(  678): Empty value
+01-16 17:53:23.566 I/System.out(  678): Empty value
+01-16 17:53:24.567 I/System.out(  678): Empty value
+01-16 17:53:25.568 I/System.out(  678): Empty value
+01-16 17:53:26.569 I/System.out(  678): Empty value
+01-16 17:53:27.570 I/System.out(  678): Empty value
+01-16 17:53:28.571 I/System.out(  678): Empty value
+01-16 17:53:29.572 I/System.out(  678): Empty value
+01-16 17:53:30.573 I/System.out(  678): Empty value
+01-16 17:53:31.574 I/System.out(  678): Empty value
+01-16 17:53:32.575 I/System.out(  678): Empty value
+01-16 17:53:33.575 I/System.out(  678): Empty value
+01-16 17:53:34.576 I/System.out(  678): Empty value
+01-16 17:53:35.577 I/System.out(  678): Empty value
+01-16 17:53:36.578 I/System.out(  678): Empty value
+01-16 17:53:37.569 I/System.out(  678): Empty value
+01-16 17:53:38.580 I/System.out(  678): Empty value
+01-16 17:53:39.581 I/System.out(  678): Empty value
+01-16 17:53:40.582 I/System.out(  678): Empty value
+01-16 17:53:41.583 I/System.out(  678): Empty value
+01-16 17:53:42.584 I/System.out(  678): Empty value
+01-16 17:53:43.575 I/System.out(  678): Empty value
+01-16 17:53:44.576 I/System.out(  678): Empty value
+01-16 17:53:45.577 I/System.out(  678): Empty value
+01-16 17:53:46.578 I/System.out(  678): Empty value
+01-16 17:53:47.579 I/System.out(  678): Empty value
+01-16 17:53:48.580 I/System.out(  678): Empty value
+01-16 17:53:49.581 I/System.out(  678): Empty value
+01-16 17:53:50.582 I/System.out(  678): Empty value
+01-16 17:53:51.583 I/System.out(  678): Empty value
+01-16 17:53:52.584 I/System.out(  678): Empty value
+01-16 17:53:53.585 I/System.out(  678): Empty value
+01-16 17:53:54.586 I/System.out(  678): Empty value
+01-16 17:53:55.577 I/System.out(  678): Empty value
+01-16 17:53:56.588 I/System.out(  678): Empty value
+01-16 17:53:57.589 I/System.out(  678): Empty value
+01-16 17:53:58.590 I/System.out(  678): Empty value
+01-16 17:53:59.581 I/System.out(  678): Empty value
+01-16 17:54:00.592 I/System.out(  678): Empty value
+01-16 17:54:01.583 I/System.out(  678): Empty value
+01-16 17:54:02.584 I/System.out(  678): Empty value
+01-16 17:54:03.585 I/System.out(  678): Empty value
+01-16 17:54:04.586 I/System.out(  678): Empty value
+01-16 17:54:05.587 I/System.out(  678): Empty value
+01-16 17:54:06.588 I/System.out(  678): Empty value
+01-16 17:54:06.898 D/SntpClient(  164): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+01-16 17:54:06.938 D/SntpClient(  164): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+01-16 17:54:06.938 D/SntpClient(  164): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+01-16 17:54:07.589 I/System.out(  678): Empty value
+01-16 17:54:08.590 I/System.out(  678): Empty value
+01-16 17:54:09.591 I/System.out(  678): Empty value
+01-16 17:54:10.592 I/System.out(  678): Empty value
+01-16 17:54:11.593 I/System.out(  678): Empty value
+01-16 17:54:12.594 I/System.out(  678): Empty value
+01-16 17:54:13.595 I/System.out(  678): Empty value
+01-16 17:54:14.586 I/System.out(  678): Empty value
+01-16 17:54:15.596 I/System.out(  678): Empty value
+01-16 17:54:16.597 I/System.out(  678): Empty value
+01-16 17:54:17.598 I/System.out(  678): Empty value
+01-16 17:54:18.589 I/System.out(  678): Empty value
+01-16 17:54:19.590 I/System.out(  678): Empty value
+01-16 17:54:20.591 I/System.out(  678): Empty value
+01-16 17:54:21.592 I/System.out(  678): Empty value
+01-16 17:54:22.593 I/System.out(  678): Empty value
+01-16 17:54:23.594 I/System.out(  678): Empty value
+01-16 17:54:24.595 I/System.out(  678): Empty value
+01-16 17:54:25.596 I/System.out(  678): Empty value
+01-16 17:54:26.597 I/System.out(  678): Empty value
+01-16 17:54:27.588 I/System.out(  678): Empty value
+01-16 17:54:28.589 I/System.out(  678): Empty value
+01-16 17:54:29.590 I/System.out(  678): Empty value
+01-16 17:54:30.591 I/System.out(  678): Empty value
+01-16 17:54:31.592 I/System.out(  678): Empty value
+01-16 17:54:32.593 I/System.out(  678): Empty value
+01-16 17:54:33.594 I/System.out(  678): Empty value
+01-16 17:54:34.585 I/System.out(  678): Empty value
+01-16 17:54:35.586 I/System.out(  678): Empty value
+01-16 17:54:36.587 I/System.out(  678): Empty value
+01-16 17:54:37.598 I/System.out(  678): Empty value
+01-16 17:54:38.589 I/System.out(  678): Empty value
+01-16 17:54:39.590 I/System.out(  678): Empty value
+01-16 17:54:40.601 I/System.out(  678): Empty value
+01-16 17:54:41.602 I/System.out(  678): Empty value
+01-16 17:54:41.672 D/dalvikvm(  678): GC_CONCURRENT freed 397K, 55% free 2532K/5575K, external 8K/519K, paused 10ms+2ms
+01-16 17:54:42.603 I/System.out(  678): Empty value
+01-16 17:54:43.604 I/System.out(  678): Empty value
+01-16 17:54:44.605 I/System.out(  678): Empty value
+01-16 17:54:45.606 I/System.out(  678): Empty value
+01-16 17:54:46.597 I/System.out(  678): Empty value
+01-16 17:54:47.598 I/System.out(  678): Empty value
+01-16 17:54:48.599 I/System.out(  678): Empty value
+01-16 17:54:49.600 I/System.out(  678): Empty value
+01-16 17:54:50.601 I/System.out(  678): Empty value
+01-16 17:54:51.602 I/System.out(  678): Empty value
+01-16 17:54:52.603 I/System.out(  678): Empty value
+01-16 17:54:53.604 I/System.out(  678): Empty value
+01-16 17:54:54.605 I/System.out(  678): Empty value
+01-16 17:54:55.606 I/System.out(  678): Empty value
+01-16 17:54:56.596 I/System.out(  678): Empty value
+01-16 17:54:57.597 I/System.out(  678): Empty value
+01-16 17:54:58.598 I/System.out(  678): Empty value
+01-16 17:54:59.599 I/System.out(  678): Empty value
+01-16 17:55:00.600 I/System.out(  678): Empty value
+01-16 17:55:01.601 I/System.out(  678): Empty value
+01-16 17:55:02.602 I/System.out(  678): Empty value
+01-16 17:55:03.613 I/System.out(  678): Empty value
+01-16 17:55:04.614 I/System.out(  678): Empty value
+01-16 17:55:05.615 I/System.out(  678): Empty value
+01-16 17:55:06.616 I/System.out(  678): Empty value
+01-16 17:55:07.607 I/System.out(  678): Empty value
+01-16 17:55:08.608 I/System.out(  678): Empty value
+01-16 17:55:09.609 I/System.out(  678): Empty value
+01-16 17:55:10.610 I/System.out(  678): Empty value
+01-16 17:55:11.611 I/System.out(  678): Empty value
+01-16 17:55:12.612 I/System.out(  678): Empty value
+01-16 17:55:13.613 I/System.out(  678): Empty value
+01-16 17:55:14.614 I/System.out(  678): Empty value
+01-16 17:55:15.615 I/System.out(  678): Empty value
+01-16 17:55:16.616 I/System.out(  678): Empty value
+01-16 17:55:17.607 I/System.out(  678): Empty value
+01-16 17:55:18.618 I/System.out(  678): Empty value
+01-16 17:55:19.609 I/System.out(  678): Empty value
+01-16 17:55:20.610 I/System.out(  678): Empty value
+01-16 17:55:21.621 I/System.out(  678): Empty value
+01-16 17:55:22.622 I/System.out(  678): Empty value
+01-16 17:55:23.613 I/System.out(  678): Empty value
+01-16 17:55:24.614 I/System.out(  678): Empty value
+01-16 17:55:25.615 I/System.out(  678): Empty value
+01-16 17:55:26.616 I/System.out(  678): Empty value
+01-16 17:55:27.617 I/System.out(  678): Empty value
+01-16 17:55:28.618 I/System.out(  678): Empty value
+01-16 17:55:29.619 I/System.out(  678): Empty value
+01-16 17:55:30.620 I/System.out(  678): Empty value
+01-16 17:55:31.621 I/System.out(  678): Empty value
+01-16 17:55:32.622 I/System.out(  678): Empty value
+01-16 17:55:33.623 I/System.out(  678): Empty value
+01-16 17:55:34.624 I/System.out(  678): Empty value
+01-16 17:55:35.625 I/System.out(  678): Empty value
+01-16 17:55:36.626 I/System.out(  678): Empty value
+01-16 17:55:37.617 I/System.out(  678): Empty value
+01-16 17:55:38.617 I/System.out(  678): Empty value
+01-16 17:55:39.618 I/System.out(  678): Empty value
+01-16 17:55:40.619 I/System.out(  678): Empty value
+01-16 17:55:41.620 I/System.out(  678): Empty value
+01-16 17:55:42.621 I/System.out(  678): Empty value
+01-16 17:55:43.622 I/System.out(  678): Empty value
+01-16 17:55:44.623 I/System.out(  678): Empty value
+01-16 17:55:45.624 I/System.out(  678): Empty value
+01-16 17:55:46.625 I/System.out(  678): Empty value
+01-16 17:55:47.626 I/System.out(  678): Empty value
+01-16 17:55:48.627 I/System.out(  678): Empty value
+01-16 17:55:49.628 I/System.out(  678): Empty value
+01-16 17:55:50.619 I/System.out(  678): Empty value
+01-16 17:55:51.620 I/System.out(  678): Empty value
+01-16 17:55:52.621 I/System.out(  678): Empty value
+01-16 17:55:53.622 I/System.out(  678): Empty value
+01-16 17:55:54.623 I/System.out(  678): Empty value
+01-16 17:55:55.624 I/System.out(  678): Empty value
+01-16 17:55:56.625 I/System.out(  678): Empty value
+01-16 17:55:57.626 I/System.out(  678): Empty value
+01-16 17:55:58.627 I/System.out(  678): Empty value
+01-16 17:55:59.628 I/System.out(  678): Empty value
+01-16 17:56:00.629 I/System.out(  678): Empty value
+01-16 17:56:01.630 I/System.out(  678): Empty value
+01-16 17:56:02.621 I/System.out(  678): Empty value
+01-16 17:56:03.622 I/System.out(  678): Empty value
+01-16 17:56:04.623 I/System.out(  678): Empty value
+01-16 17:56:05.624 I/System.out(  678): Empty value
+01-16 17:56:06.625 I/System.out(  678): Empty value
+01-16 17:56:07.616 I/System.out(  678): Empty value
+01-16 17:56:08.617 I/System.out(  678): Empty value
+01-16 17:56:09.628 I/System.out(  678): Empty value
+01-16 17:56:10.629 I/System.out(  678): Empty value
+01-16 17:56:11.620 I/System.out(  678): Empty value
+01-16 17:56:12.621 I/System.out(  678): Empty value
+01-16 17:56:13.622 I/System.out(  678): Empty value
+01-16 17:56:14.623 I/System.out(  678): Empty value
+01-16 17:56:15.624 I/System.out(  678): Empty value
+01-16 17:56:16.625 I/System.out(  678): Empty value
+01-16 17:56:17.626 I/System.out(  678): Empty value
+01-16 17:56:18.617 I/System.out(  678): Empty value
+01-16 17:56:19.627 I/System.out(  678): Empty value
+01-16 17:56:20.628 I/System.out(  678): Empty value
+01-16 17:56:21.619 I/System.out(  678): Empty value
+01-16 17:56:22.620 I/System.out(  678): Empty value
+01-16 17:56:23.621 I/System.out(  678): Empty value
+01-16 17:56:24.622 I/System.out(  678): Empty value
+01-16 17:56:25.623 I/System.out(  678): Empty value
+01-16 17:56:26.624 I/System.out(  678): Empty value
+01-16 17:56:27.625 I/System.out(  678): Empty value
+01-16 17:56:28.626 I/System.out(  678): Empty value
+01-16 17:56:29.627 I/System.out(  678): Empty value
+01-16 17:56:30.628 I/System.out(  678): Empty value
+01-16 17:56:31.629 I/System.out(  678): Empty value
+01-16 17:56:32.630 I/System.out(  678): Empty value
+01-16 17:56:33.631 I/System.out(  678): Empty value
+01-16 17:56:34.632 I/System.out(  678): Empty value
+01-16 17:56:35.633 I/System.out(  678): Empty value
+01-16 17:56:36.634 I/System.out(  678): Empty value
+01-16 17:56:37.635 I/System.out(  678): Empty value
+01-16 17:56:38.636 I/System.out(  678): Empty value
+01-16 17:56:39.637 I/System.out(  678): Empty value
+01-16 17:56:40.628 I/System.out(  678): Empty value
+01-16 17:56:41.629 I/System.out(  678): Empty value
+01-16 17:56:42.630 I/System.out(  678): Empty value
+01-16 17:56:43.641 I/System.out(  678): Empty value
+01-16 17:56:44.642 I/System.out(  678): Empty value
+01-16 17:56:45.633 I/System.out(  678): Empty value
+01-16 17:56:46.634 I/System.out(  678): Empty value
+01-16 17:56:47.635 I/System.out(  678): Empty value
+01-16 17:56:48.636 I/System.out(  678): Empty value
+01-16 17:56:49.637 I/System.out(  678): Empty value
+01-16 17:56:50.638 I/System.out(  678): Empty value
+01-16 17:56:51.639 I/System.out(  678): Empty value
+01-16 17:56:52.640 I/System.out(  678): Empty value
+01-16 17:56:53.641 I/System.out(  678): Empty value
+01-16 17:56:54.642 I/System.out(  678): Empty value
+01-16 17:56:55.643 I/System.out(  678): Empty value
+01-16 17:56:56.644 I/System.out(  678): Empty value
+01-16 17:56:57.645 I/System.out(  678): Empty value
+01-16 17:56:58.646 I/System.out(  678): Empty value
+01-16 17:56:59.647 I/System.out(  678): Empty value
+01-16 17:57:00.648 I/System.out(  678): Empty value
+01-16 17:57:01.638 I/System.out(  678): Empty value
+01-16 17:57:02.639 I/System.out(  678): Empty value
+01-16 17:57:03.650 I/System.out(  678): Empty value
+01-16 17:57:04.651 I/System.out(  678): Empty value
+01-16 17:57:05.642 I/System.out(  678): Empty value
+01-16 17:57:06.643 I/System.out(  678): Empty value
+01-16 17:57:07.644 I/System.out(  678): Empty value
+01-16 17:57:08.645 I/System.out(  678): Empty value
+01-16 17:57:09.646 I/System.out(  678): Empty value
+01-16 17:57:10.647 I/System.out(  678): Empty value
+01-16 17:57:11.648 I/System.out(  678): Empty value
+01-16 17:57:12.649 I/System.out(  678): Empty value
+01-16 17:57:13.650 I/System.out(  678): Empty value
+01-16 17:57:14.651 I/System.out(  678): Empty value
+01-16 17:57:15.652 I/System.out(  678): Empty value
+01-16 17:57:16.653 I/System.out(  678): Empty value
+01-16 17:57:17.654 I/System.out(  678): Empty value
+01-16 17:57:18.655 I/System.out(  678): Empty value
+01-16 17:57:19.656 I/System.out(  678): Empty value
+01-16 17:57:20.657 I/System.out(  678): Empty value
+01-16 17:57:21.658 I/System.out(  678): Empty value
+01-16 17:57:22.649 I/System.out(  678): Empty value
+01-16 17:57:23.660 I/System.out(  678): Empty value
+01-16 17:57:23.660 I/System.out(  678): Battery level start is reached
+01-16 17:57:24.651 I/System.out(  678): Empty value
+01-16 17:57:25.652 I/System.out(  678): Empty value
+01-16 17:57:26.653 I/System.out(  678): Empty value
+01-16 17:57:27.654 I/System.out(  678): Empty value
+01-16 17:57:28.655 I/System.out(  678): Empty value
+01-16 17:57:29.646 I/System.out(  678): Empty value
+01-16 17:57:30.647 I/System.out(  678): Empty value
+01-16 17:57:31.648 I/System.out(  678): Empty value
+01-16 17:57:32.659 I/System.out(  678): Empty value
+01-16 17:57:33.660 I/System.out(  678): Empty value
+01-16 17:57:34.661 I/System.out(  678): Empty value
+01-16 17:57:35.662 I/System.out(  678): Empty value
+01-16 17:57:36.663 I/System.out(  678): Empty value
+01-16 17:57:37.664 I/System.out(  678): Empty value
+01-16 17:57:38.665 I/System.out(  678): Empty value
+01-16 17:57:39.666 I/System.out(  678): Empty value
+01-16 17:57:40.667 I/System.out(  678): Empty value
+01-16 17:57:41.668 I/System.out(  678): Empty value
+01-16 17:57:42.659 I/System.out(  678): Empty value
+01-16 17:57:43.669 I/System.out(  678): Empty value
+01-16 17:57:44.660 I/System.out(  678): Empty value
+01-16 17:57:45.661 I/System.out(  678): Empty value
+01-16 17:57:46.662 I/System.out(  678): Empty value
+01-16 17:57:47.663 I/System.out(  678): Empty value
+01-16 17:57:48.664 I/System.out(  678): Empty value
+01-16 17:57:49.665 I/System.out(  678): Empty value
+01-16 17:57:50.666 I/System.out(  678): Empty value
+01-16 17:57:51.667 I/System.out(  678): Empty value
+01-16 17:57:52.668 I/System.out(  678): Empty value
+01-16 17:57:53.669 I/System.out(  678): Empty value
+01-16 17:57:54.670 I/System.out(  678): Empty value
+01-16 17:57:55.671 I/System.out(  678): Empty value
+01-16 17:57:56.672 I/System.out(  678): Empty value
+01-16 17:57:57.673 I/System.out(  678): Empty value
+01-16 17:57:58.674 I/System.out(  678): Empty value
+01-16 17:57:59.675 I/System.out(  678): Empty value
+01-16 17:58:00.676 I/System.out(  678): Empty value
+01-16 17:58:01.677 I/System.out(  678): Empty value
+01-16 17:58:02.668 I/System.out(  678): Empty value
+01-16 17:58:03.669 I/System.out(  678): Empty value
+01-16 17:58:04.670 I/System.out(  678): Empty value
+01-16 17:58:05.671 I/System.out(  678): Empty value
+01-16 17:58:06.672 I/System.out(  678): Empty value
+01-16 17:58:07.673 I/System.out(  678): Empty value
+01-16 17:58:08.674 I/System.out(  678): Empty value
+01-16 17:58:09.675 I/System.out(  678): Empty value
+01-16 17:58:10.676 I/System.out(  678): Empty value
+01-16 17:58:11.677 I/System.out(  678): Empty value
+01-16 17:58:12.678 I/System.out(  678): Empty value
+01-16 17:58:13.669 I/System.out(  678): Empty value
+01-16 17:58:14.670 I/System.out(  678): Empty value
+01-16 17:58:15.671 I/System.out(  678): Empty value
+01-16 17:58:16.682 I/System.out(  678): Empty value
+01-16 17:58:17.683 I/System.out(  678): Empty value
+01-16 17:58:18.674 I/System.out(  678): Empty value
+01-16 17:58:19.675 I/System.out(  678): Empty value
+01-16 17:58:20.676 I/System.out(  678): Empty value
+01-16 17:58:21.677 I/System.out(  678): Empty value
+01-16 17:58:22.678 I/System.out(  678): Empty value
+01-16 17:58:23.679 I/System.out(  678): Empty value
+01-16 17:58:24.679 I/System.out(  678): Empty value
+01-16 17:58:25.680 I/System.out(  678): Empty value
+01-16 17:58:26.681 I/System.out(  678): Empty value
+01-16 17:58:27.682 I/System.out(  678): Empty value
+01-16 17:58:28.683 I/System.out(  678): Empty value
+01-16 17:58:29.684 I/System.out(  678): Empty value
+01-16 17:58:30.685 I/System.out(  678): Empty value
+01-16 17:58:31.686 I/System.out(  678): Empty value
+01-16 17:58:32.677 I/System.out(  678): Empty value
+01-16 17:58:33.678 I/System.out(  678): Empty value
+01-16 17:58:34.679 I/System.out(  678): Empty value
+01-16 17:58:35.680 I/System.out(  678): Empty value
+01-16 17:58:36.681 I/System.out(  678): Empty value
+01-16 17:58:37.682 I/System.out(  678): Empty value
+01-16 17:58:37.772 D/dalvikvm(  678): GC_CONCURRENT freed 399K, 56% free 2532K/5639K, external 8K/519K, paused 7ms+2ms
+01-16 17:58:38.683 I/System.out(  678): Empty value
+01-16 17:58:39.684 I/System.out(  678): Empty value
+01-16 17:58:40.685 I/System.out(  678): Empty value
+01-16 17:58:41.686 I/System.out(  678): Empty value
+01-16 17:58:42.677 I/System.out(  678): Empty value
+01-16 17:58:43.678 I/System.out(  678): Empty value
+01-16 17:58:44.679 I/System.out(  678): Empty value
+01-16 17:58:45.680 I/System.out(  678): Empty value
+01-16 17:58:46.691 I/System.out(  678): Empty value
+01-16 17:58:47.682 I/System.out(  678): Empty value
+01-16 17:58:48.683 I/System.out(  678): Empty value
+01-16 17:58:49.684 I/System.out(  678): Empty value
+01-16 17:58:50.685 I/System.out(  678): Empty value
+01-16 17:58:51.686 I/System.out(  678): Empty value
+01-16 17:58:52.677 I/System.out(  678): Empty value
+01-16 17:58:53.688 I/System.out(  678): Empty value
+01-16 17:58:54.689 I/System.out(  678): Empty value
+01-16 17:58:55.690 I/System.out(  678): Empty value
+01-16 17:58:56.691 I/System.out(  678): Empty value
+01-16 17:58:57.692 I/System.out(  678): Empty value
+01-16 17:58:58.693 I/System.out(  678): Empty value
+01-16 17:58:59.694 I/System.out(  678): Empty value
+01-16 17:59:00.094 D/dalvikvm(  164): GC_CONCURRENT freed 702K, 46% free 4860K/8967K, external 35K/547K, paused 9ms+4ms
+01-16 17:59:00.695 I/System.out(  678): Empty value
+01-16 17:59:01.686 I/System.out(  678): Empty value
+01-16 17:59:02.697 I/System.out(  678): Empty value
+01-16 17:59:03.698 I/System.out(  678): Empty value
+01-16 17:59:04.699 I/System.out(  678): Empty value
+01-16 17:59:05.700 I/System.out(  678): Empty value
+01-16 17:59:06.700 I/System.out(  678): Empty value
+01-16 17:59:07.691 I/System.out(  678): Empty value
+01-16 17:59:08.692 I/System.out(  678): Empty value
+01-16 17:59:09.693 I/System.out(  678): Empty value
+01-16 17:59:10.694 I/System.out(  678): Empty value
+01-16 17:59:11.695 I/System.out(  678): Empty value
+01-16 17:59:12.696 I/System.out(  678): Empty value
+01-16 17:59:13.687 I/System.out(  678): Empty value
+01-16 17:59:14.698 I/System.out(  678): Empty value
+01-16 17:59:15.699 I/System.out(  678): Empty value
+01-16 17:59:16.700 I/System.out(  678): Empty value
+01-16 17:59:17.701 I/System.out(  678): Empty value
+01-16 17:59:18.702 I/System.out(  678): Empty value
+01-16 17:59:19.703 I/System.out(  678): Empty value
+01-16 17:59:20.704 I/System.out(  678): Empty value
+01-16 17:59:21.705 I/System.out(  678): Empty value
+01-16 17:59:22.706 I/System.out(  678): Empty value
+01-16 17:59:23.697 I/System.out(  678): Empty value
+01-16 17:59:24.698 I/System.out(  678): Empty value
+01-16 17:59:25.699 I/System.out(  678): Empty value
+01-16 17:59:26.700 I/System.out(  678): Empty value
+01-16 17:59:27.701 I/System.out(  678): Empty value
+01-16 17:59:28.702 I/System.out(  678): Empty value
+01-16 17:59:29.703 I/System.out(  678): Empty value
+01-16 17:59:30.704 I/System.out(  678): Empty value
+01-16 17:59:31.705 I/System.out(  678): Empty value
+01-16 17:59:32.706 I/System.out(  678): Empty value
+01-16 17:59:33.707 I/System.out(  678): Empty value
+01-16 17:59:34.708 I/System.out(  678): Empty value
+01-16 17:59:35.699 I/System.out(  678): Empty value
+01-16 17:59:36.700 I/System.out(  678): Empty value
+01-16 17:59:37.701 I/System.out(  678): Empty value
+01-16 17:59:38.702 I/System.out(  678): Empty value
+01-16 17:59:39.703 I/System.out(  678): Empty value
+01-16 17:59:40.704 I/System.out(  678): Empty value
+01-16 17:59:41.705 I/System.out(  678): Empty value
+01-16 17:59:42.696 I/System.out(  678): Empty value
+01-16 17:59:43.697 I/System.out(  678): Empty value
+01-16 17:59:44.698 I/System.out(  678): Empty value
+01-16 17:59:45.699 I/System.out(  678): Empty value
+01-16 17:59:46.700 I/System.out(  678): Empty value
+01-16 17:59:47.700 I/System.out(  678): Empty value
+01-16 17:59:48.701 I/System.out(  678): Empty value
+01-16 17:59:49.712 I/System.out(  678): Empty value
+01-16 17:59:50.713 I/System.out(  678): Empty value
+01-16 17:59:51.714 I/System.out(  678): Empty value
+01-16 17:59:52.705 I/System.out(  678): Empty value
+01-16 17:59:53.706 I/System.out(  678): Empty value
+01-16 17:59:54.707 I/System.out(  678): Empty value
+01-16 17:59:55.708 I/System.out(  678): Empty value
+01-16 17:59:56.709 I/System.out(  678): Empty value
+01-16 17:59:57.710 I/System.out(  678): Empty value
+01-16 17:59:58.711 I/System.out(  678): Empty value
+01-16 17:59:59.712 I/System.out(  678): Empty value
+01-16 18:00:00.713 I/System.out(  678): Empty value
+01-16 18:00:01.714 I/System.out(  678): Empty value
+01-16 18:00:02.715 I/System.out(  678): Empty value
+01-16 18:00:03.706 I/System.out(  678): Empty value
+01-16 18:00:04.707 I/System.out(  678): Empty value
+01-16 18:00:05.708 I/System.out(  678): Empty value
+01-16 18:00:06.719 I/System.out(  678): Empty value
+01-16 18:00:07.710 I/System.out(  678): Empty value
+01-16 18:00:08.711 I/System.out(  678): Empty value
+01-16 18:00:09.712 I/System.out(  678): Empty value
+01-16 18:00:10.713 I/System.out(  678): Empty value
+01-16 18:00:11.714 I/System.out(  678): Empty value
+01-16 18:00:12.715 I/System.out(  678): Empty value
+01-16 18:00:13.716 I/System.out(  678): Empty value
+01-16 18:00:14.717 I/System.out(  678): Empty value
+01-16 18:00:15.718 I/System.out(  678): Empty value
+01-16 18:00:16.719 I/System.out(  678): Empty value
+01-16 18:00:17.720 I/System.out(  678): Empty value
+01-16 18:00:18.721 I/System.out(  678): Empty value
+01-16 18:00:19.722 I/System.out(  678): Empty value
+01-16 18:00:20.723 I/System.out(  678): Empty value
+01-16 18:00:21.724 I/System.out(  678): Empty value
+01-16 18:00:22.715 I/System.out(  678): Empty value
+01-16 18:00:23.726 I/System.out(  678): Empty value
+01-16 18:00:24.727 I/System.out(  678): Empty value
+01-16 18:00:25.728 I/System.out(  678): Empty value
+01-16 18:00:26.729 I/System.out(  678): Empty value
+01-16 18:00:27.730 I/System.out(  678): Empty value
+01-16 18:00:28.721 I/System.out(  678): Empty value
+01-16 18:00:29.721 I/System.out(  678): Empty value
+01-16 18:00:30.722 I/System.out(  678): Empty value
+01-16 18:00:31.723 I/System.out(  678): Empty value
+01-16 18:00:32.724 I/System.out(  678): Empty value
+01-16 18:00:33.725 I/System.out(  678): Empty value
+01-16 18:00:34.716 I/System.out(  678): Empty value
+01-16 18:00:35.717 I/System.out(  678): Empty value
+01-16 18:00:36.718 I/System.out(  678): Empty value
+01-16 18:00:37.719 I/System.out(  678): Empty value
+01-16 18:00:38.730 I/System.out(  678): Empty value
+01-16 18:00:39.731 I/System.out(  678): Empty value
+01-16 18:00:40.722 I/System.out(  678): Empty value
+01-16 18:00:41.733 I/System.out(  678): Empty value
+01-16 18:00:42.734 I/System.out(  678): Empty value
+01-16 18:00:43.725 I/System.out(  678): Empty value
+01-16 18:00:44.726 I/System.out(  678): Empty value
+01-16 18:00:45.727 I/System.out(  678): Empty value
+01-16 18:00:46.728 I/System.out(  678): Empty value
+01-16 18:00:47.729 I/System.out(  678): Empty value
+01-16 18:00:48.730 I/System.out(  678): Empty value
+01-16 18:00:49.731 I/System.out(  678): Empty value
+01-16 18:00:50.732 I/System.out(  678): Empty value
+01-16 18:00:51.733 I/System.out(  678): Empty value
+01-16 18:00:52.734 I/System.out(  678): Empty value
+01-16 18:00:53.625 D/dalvikvm(  626): GC_EXPLICIT freed 221K, 53% free 2761K/5767K, external 0K/0K, paused 37ms
+01-16 18:00:53.735 I/System.out(  678): Empty value
+01-16 18:00:54.726 I/System.out(  678): Empty value
+01-16 18:00:55.727 I/System.out(  678): Empty value
+01-16 18:00:56.738 I/System.out(  678): Empty value
+01-16 18:00:57.729 I/System.out(  678): Empty value
+01-16 18:00:58.730 I/System.out(  678): Empty value
+01-16 18:00:59.731 I/System.out(  678): Empty value
+01-16 18:01:00.732 I/System.out(  678): Empty value
+01-16 18:01:01.743 I/System.out(  678): Empty value
+01-16 18:01:02.744 I/System.out(  678): Empty value
+01-16 18:01:03.735 I/System.out(  678): Empty value
+01-16 18:01:04.736 I/System.out(  678): Empty value
+01-16 18:01:05.737 I/System.out(  678): Empty value
+01-16 18:01:06.738 I/System.out(  678): Empty value
+01-16 18:01:07.739 I/System.out(  678): Empty value
+01-16 18:01:08.740 I/System.out(  678): Empty value
+01-16 18:01:09.741 I/System.out(  678): Empty value
+01-16 18:01:10.742 I/System.out(  678): Empty value
+01-16 18:01:11.742 I/System.out(  678): Empty value
+01-16 18:01:12.743 I/System.out(  678): Empty value
+01-16 18:01:13.744 I/System.out(  678): Empty value
+01-16 18:01:14.745 I/System.out(  678): Empty value
+01-16 18:01:15.746 I/System.out(  678): Empty value
+01-16 18:01:16.747 I/System.out(  678): Empty value
+01-16 18:01:17.748 I/System.out(  678): Empty value
+01-16 18:01:18.739 I/System.out(  678): Empty value
+01-16 18:01:19.740 I/System.out(  678): Empty value
+01-16 18:01:20.741 I/System.out(  678): Empty value
+01-16 18:01:21.742 I/System.out(  678): Empty value
+01-16 18:01:22.743 I/System.out(  678): Empty value
+01-16 18:01:23.754 I/System.out(  678): Empty value
+01-16 18:01:24.755 I/System.out(  678): Empty value
+01-16 18:01:25.746 I/System.out(  678): Empty value
+01-16 18:01:26.747 I/System.out(  678): Empty value
+01-16 18:01:27.748 I/System.out(  678): Empty value
+01-16 18:01:28.749 I/System.out(  678): Empty value
+01-16 18:01:29.750 I/System.out(  678): Empty value
+01-16 18:01:30.751 I/System.out(  678): Empty value
+01-16 18:01:31.752 I/System.out(  678): Empty value
+01-16 18:01:32.753 I/System.out(  678): Empty value
+01-16 18:01:33.754 I/System.out(  678): Empty value
+01-16 18:01:33.754 I/System.out(  678): Battery level end is reached
+01-16 18:01:33.754 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:34.755 I/System.out(  678): Empty value
+01-16 18:01:34.755 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:35.746 I/System.out(  678): Empty value
+01-16 18:01:35.756 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:36.747 I/System.out(  678): Empty value
+01-16 18:01:36.757 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:37.748 I/System.out(  678): Empty value
+01-16 18:01:37.758 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:38.749 I/System.out(  678): Empty value
+01-16 18:01:38.759 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:39.750 I/System.out(  678): Empty value
+01-16 18:01:39.760 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:40.751 I/System.out(  678): Empty value
+01-16 18:01:40.761 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:41.762 I/System.out(  678): Empty value
+01-16 18:01:41.762 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:42.753 I/System.out(  678): Empty value
+01-16 18:01:42.763 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:43.754 I/System.out(  678): Empty value
+01-16 18:01:43.764 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:44.755 I/System.out(  678): Empty value
+01-16 18:01:44.755 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:45.756 I/System.out(  678): Empty value
+01-16 18:01:45.756 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:46.757 I/System.out(  678): Empty value
+01-16 18:01:46.757 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:47.758 I/System.out(  678): Empty value
+01-16 18:01:47.758 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:48.759 I/System.out(  678): Empty value
+01-16 18:01:48.759 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:49.760 I/System.out(  678): Empty value
+01-16 18:01:49.760 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:50.761 I/System.out(  678): Empty value
+01-16 18:01:50.761 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:51.762 I/System.out(  678): Empty value
+01-16 18:01:51.762 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:52.763 I/System.out(  678): Empty value
+01-16 18:01:52.763 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:53.763 I/System.out(  678): Empty value
+01-16 18:01:53.763 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:54.764 I/System.out(  678): Empty value
+01-16 18:01:54.764 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:55.695 D/SettingsAppWidgetProvider(  586): Widget is from a previous version... Let's update
+01-16 18:01:55.695 D/SettingsAppWidgetProvider(  586): No instances yet... Wait for at least one instance to exist before adding global settings
+01-16 18:01:55.755 I/System.out(  678): Empty value
+01-16 18:01:55.755 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:56.756 W/Vold    (  111): Ignoring unknown switch 'usb_connected'
+01-16 18:01:56.756 I/System.out(  678): Empty value
+01-16 18:01:56.756 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:56.856 D/Vold    (  111): USB connected
+01-16 18:01:56.856 D/Vold    (  111): Share method ums now available
+01-16 18:01:56.856 I/StorageNotification(  235): UMS connection changed to true (media state mounted)
+01-16 18:01:56.887 W/ApplicationContext(  164): Unable to create files directory
+01-16 18:01:56.897 V/NotificationService(  164): Active profile: Default
+01-16 18:01:56.897 I/PROFILE (  164): Group: Gmail containing : com.android.systemui : false
+01-16 18:01:56.897 I/PROFILE (  164): Group: Phone containing : com.android.systemui : false
+01-16 18:01:56.897 I/PROFILE (  164): Group: Calendar containing : com.android.systemui : false
+01-16 18:01:56.897 I/PROFILE (  164): Group: Email containing : com.android.systemui : false
+01-16 18:01:56.897 I/PROFILE (  164): Group: SMS containing : com.android.systemui : false
+01-16 18:01:56.897 V/ProfileManager(  164): No active group, returning default: Other
+01-16 18:01:56.897 V/NotificationService(  164): Pkg: com.android.systemui group: Other
+01-16 18:01:56.907 D/WriteApps(  164): Error: java.lang.NullPointerException
+01-16 18:01:56.917 V/NotificationService(  164): Active profile: Default
+01-16 18:01:56.917 I/PROFILE (  164): Group: Gmail containing : android : false
+01-16 18:01:56.917 I/PROFILE (  164): Group: Phone containing : android : false
+01-16 18:01:56.917 I/PROFILE (  164): Group: Calendar containing : android : false
+01-16 18:01:56.917 I/PROFILE (  164): Group: Email containing : android : false
+01-16 18:01:56.917 I/PROFILE (  164): Group: SMS containing : android : false
+01-16 18:01:56.917 V/ProfileManager(  164): No active group, returning default: Other
+01-16 18:01:56.917 V/NotificationService(  164): Pkg: android group: Other
+01-16 18:01:56.927 D/Tethering(  164): sendTetherStateChangedBroadcast 1, 0, 0
+01-16 18:01:56.927 D/Tethering(  164): interfaceAdded :usb0
+01-16 18:01:57.767 I/System.out(  678): Empty value
+01-16 18:01:57.767 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:58.758 I/System.out(  678): Empty value
+01-16 18:01:58.758 I/System.out(  678): Time difference in secs is: 250
+01-16 18:01:59.759 I/System.out(  678): Empty value
+01-16 18:01:59.759 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:00.760 I/System.out(  678): Empty value
+01-16 18:02:00.760 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:01.761 I/System.out(  678): Empty value
+01-16 18:02:01.761 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:02.762 I/System.out(  678): Empty value
+01-16 18:02:02.762 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:03.763 I/System.out(  678): Empty value
+01-16 18:02:03.763 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:04.764 I/System.out(  678): Empty value
+01-16 18:02:04.784 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:04.844 D/dalvikvm(  678): GC_CONCURRENT freed 395K, 56% free 2537K/5639K, external 8K/519K, paused 5ms+2ms
+01-16 18:02:05.095 D/dalvikvm(  586): GC_EXPLICIT freed 6K, 54% free 2637K/5639K, external 0K/0K, paused 51ms
+01-16 18:02:05.765 I/System.out(  678): Empty value
+01-16 18:02:05.765 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:06.766 I/System.out(  678): Empty value
+01-16 18:02:06.766 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:07.757 I/System.out(  678): Empty value
+01-16 18:02:07.757 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:08.758 I/System.out(  678): Empty value
+01-16 18:02:08.758 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:09.769 I/System.out(  678): Empty value
+01-16 18:02:09.769 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:10.760 I/System.out(  678): Empty value
+01-16 18:02:10.770 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:11.761 I/System.out(  678): Empty value
+01-16 18:02:11.761 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:12.762 I/System.out(  678): Empty value
+01-16 18:02:12.772 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:13.763 I/System.out(  678): Empty value
+01-16 18:02:13.763 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:14.764 I/System.out(  678): Empty value
+01-16 18:02:14.764 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:15.765 I/System.out(  678): Empty value
+01-16 18:02:15.765 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:16.766 I/System.out(  678): Empty value
+01-16 18:02:16.766 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:17.767 I/System.out(  678): Empty value
+01-16 18:02:17.767 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:18.768 I/System.out(  678): Empty value
+01-16 18:02:18.768 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:19.769 I/System.out(  678): Empty value
+01-16 18:02:19.769 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:20.770 I/System.out(  678): Empty value
+01-16 18:02:20.770 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:21.771 I/System.out(  678): Empty value
+01-16 18:02:21.771 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:22.762 I/System.out(  678): Empty value
+01-16 18:02:22.772 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:23.773 I/System.out(  678): Empty value
+01-16 18:02:23.773 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:24.774 I/System.out(  678): Empty value
+01-16 18:02:24.774 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:25.765 I/System.out(  678): Empty value
+01-16 18:02:25.765 I/System.out(  678): Time difference in secs is: 250
+01-16 18:02:26.766 I/System.out(  678): Empty value
+01-16 18:02:26.766 I/System.out(  678): Time difference in secs is: 250

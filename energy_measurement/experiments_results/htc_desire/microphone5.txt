@@ -1,0 +1,686 @@
+--------- beginning of /dev/log/main
+01-16 16:34:20.129 I/power   (  171): *** set_screen_state 0
+01-16 16:34:20.379 D/SurfaceFlinger(  171): About to give-up screen, flinger = 0x94690
+01-16 16:34:20.530 D/AK8973  (  121): Compass CLOSE 
+01-16 16:34:25.274 D/dalvikvm(  171): GC_EXTERNAL_ALLOC freed 295K, 47% free 4839K/8967K, external 3503K/3689K, paused 53ms
+01-16 16:34:25.364 D/dalvikvm(  171): GC_EXTERNAL_ALLOC freed 23K, 47% free 4820K/8967K, external 1766K/1772K, paused 49ms
+01-16 16:34:25.424 D/dalvikvm(  171): GC_EXTERNAL_ALLOC freed 8K, 47% free 4821K/8967K, external 1888K/2288K, paused 49ms
+01-16 16:34:25.504 D/dalvikvm(  171): GC_EXTERNAL_ALLOC freed 1K, 47% free 4822K/8967K, external 2819K/2864K, paused 48ms
+01-16 16:34:25.575 D/dalvikvm(  171): GC_EXTERNAL_ALLOC freed 4K, 47% free 4824K/8967K, external 2215K/2495K, paused 49ms
+01-16 16:34:25.675 D/dalvikvm(  171): GC_EXTERNAL_ALLOC freed 16K, 46% free 4847K/8967K, external 3026K/3272K, paused 49ms
+01-16 16:35:13.842 D/KeyguardViewMediator(  171): wakeWhenReadyLocked(26)
+01-16 16:35:13.842 I/power   (  171): *** set_screen_state 1
+01-16 16:35:13.852 D/SurfaceFlinger(  171): Screen about to return, flinger = 0x94690
+01-16 16:35:13.872 D/AK8973  (  121): Compass Start
+01-16 16:35:15.043 D/SettingsAppWidgetProvider(  591): Widget is from a previous version... Let's update
+01-16 16:35:15.043 D/SettingsAppWidgetProvider(  591): No instances yet... Wait for at least one instance to exist before adding global settings
+--------- beginning of /dev/log/system
+01-16 16:35:15.083 W/InputManagerService(  171): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4092a438
+01-16 16:35:20.428 D/dalvikvm(  591): GC_EXPLICIT freed 107K, 54% free 2636K/5639K, external 0K/0K, paused 85ms
+01-16 16:35:20.838 D/AndroidRuntime(  609): 
+01-16 16:35:20.838 D/AndroidRuntime(  609): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-16 16:35:20.838 I/AndroidRuntime(  609): Heap size: -Xmx32m
+01-16 16:35:20.838 D/AndroidRuntime(  609): CheckJNI is OFF
+01-16 16:35:20.838 D/dalvikvm(  609): creating instr width table
+01-16 16:35:21.059 D/AndroidRuntime(  609): Calling main entry com.android.commands.pm.Pm
+01-16 16:35:21.069 I/ActivityManager(  171): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=617 uid=10030 gids={1015, 2001}
+01-16 16:35:21.119 D/dalvikvm(  617): Debugger has detached; object registry had 1 entries
+01-16 16:35:21.199 D/dalvikvm(  617): GC_EXPLICIT freed 297K, 55% free 2535K/5511K, external 0K/0K, paused 34ms
+01-16 16:35:21.899 W/ActivityManager(  171): No content provider found for: 
+01-16 16:35:22.030 W/ActivityManager(  171): No content provider found for: 
+01-16 16:35:22.040 I/ActivityManager(  171): No longer want com.android.deskclock (pid 448): hidden #16
+01-16 16:35:22.050 D/PackageParser(  171): Scanning package: /data/app/vmdl-781388252.tmp
+01-16 16:35:22.220 I/PackageManager(  171): Removing non-system package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-16 16:35:22.220 I/ActivityManager(  171): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone uid=10059
+01-16 16:35:22.320 D/PackageManager(  171): Scanning package uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-16 16:35:22.320 I/PackageManager(  171): Package uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone codePath changed from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-1.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-2.apk; Retaining data and using new
+01-16 16:35:22.320 I/PackageManager(  171): Unpacking native libraries for /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-2.apk
+01-16 16:35:22.340 D/installd(  119): DexInv: --- BEGIN '/data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-2.apk' ---
+01-16 16:35:22.630 D/dalvikvm(  626): creating instr width table
+01-16 16:35:23.011 D/dalvikvm(  626): DexOpt: load 47ms, verify+opt 259ms
+01-16 16:35:23.131 D/installd(  119): DexInv: --- END '/data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-2.apk' (success) ---
+01-16 16:35:23.131 I/ActivityManager(  171): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone uid=10059
+01-16 16:35:23.141 W/PackageManager(  171): Code path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-1.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-2.apk
+01-16 16:35:23.151 D/PackageManager(  171):   Activities: uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone.MainActivity
+01-16 16:35:23.151 W/PackageManager(  171): Resource path for pkg : uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone changing from /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-1.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-2.apk
+01-16 16:35:23.371 I/installd(  119): move /data/dalvik-cache/data@app@uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-2.apk@classes.dex -> /data/dalvik-cache/data@app@uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-2.apk@classes.dex
+01-16 16:35:23.371 D/PackageManager(  171): New package installed in /data/app/uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-2.apk
+01-16 16:35:23.471 I/ActivityManager(  171): Force stopping package uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone uid=10059
+01-16 16:35:23.541 D/dalvikvm(  287): GC_EXPLICIT freed 174K, 55% free 3002K/6599K, external 3447K/4213K, paused 61ms
+01-16 16:35:23.591 D/HomeLoaders(  287): application intent received: android.intent.action.PACKAGE_REMOVED, replacing=true
+01-16 16:35:23.591 D/HomeLoaders(  287):   --> package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-16 16:35:23.591 D/szipinf (  171): Initializing inflate state
+01-16 16:35:23.621 D/szipinf (  171): Initializing inflate state
+01-16 16:35:23.641 D/dalvikvm(  491): GC_EXPLICIT freed 184K, 59% free 2945K/7047K, external 0K/0K, paused 88ms
+01-16 16:35:23.641 D/HomeLoaders(  287): application intent received: android.intent.action.PACKAGE_ADDED, replacing=true
+01-16 16:35:23.641 D/HomeLoaders(  287):   --> package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-16 16:35:23.641 D/HomeLoaders(  287):   --> update package uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-16 16:35:23.651 I/ActivityManager(  171): Start proc com.android.vending for broadcast com.android.vending/com.google.android.finsky.receivers.PersistentPackageMonitorReceiver: pid=627 uid=10029 gids={3003, 1015}
+01-16 16:35:23.661 D/szipinf (  171): Initializing inflate state
+01-16 16:35:23.711 W/RecognitionManagerService(  171): no available voice recognition services found
+01-16 16:35:23.811 D/dalvikvm(  171): GC_EXPLICIT freed 775K, 46% free 4888K/8967K, external 3503K/3689K, paused 96ms
+01-16 16:35:23.861 D/szipinf (  171): Initializing inflate state
+01-16 16:35:23.921 D/szipinf (  171): Initializing inflate state
+01-16 16:35:23.991 D/szipinf (  171): Initializing inflate state
+01-16 16:35:24.032 I/installd(  119): unlink /data/dalvik-cache/data@app@uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone-1.apk@classes.dex
+01-16 16:35:24.042 D/szipinf (  171): Initializing inflate state
+01-16 16:35:24.072 D/dalvikvm(  627): GC_CONCURRENT freed 411K, 55% free 2593K/5639K, external 0K/0K, paused 2ms+9ms
+01-16 16:35:24.102 D/AndroidRuntime(  609): Shutting down VM
+01-16 16:35:24.122 D/dalvikvm(  609): GC_CONCURRENT freed 102K, 71% free 299K/1024K, external 0K/0K, paused 0ms+0ms
+01-16 16:35:24.122 D/jdwp    (  609): Got wake-up signal, bailing out of select
+01-16 16:35:24.122 D/dalvikvm(  609): Debugger has detached; object registry had 1 entries
+01-16 16:35:24.142 I/AndroidRuntime(  609): NOTE: attach of thread 'Binder Thread #3' failed
+01-16 16:35:24.142 I/ActivityThread(  627): Pub com.google.android.finsky.RecentSuggestionsProvider: com.google.android.finsky.providers.RecentSuggestionsProvider
+01-16 16:35:24.362 D/dalvikvm(  627): GC_CONCURRENT freed 294K, 52% free 2784K/5767K, external 0K/0K, paused 3ms+13ms
+01-16 16:35:24.432 D/Finsky  (  627): [1] SanityChecker.run: # LocalAssets corrected : 0
+01-16 16:35:24.432 D/Finsky  (  627): Sanity check took : 8 ms
+01-16 16:35:24.472 I/ActivityManager(  171): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.UninstallReceiver: pid=656 uid=10052 gids={1015, 3003}
+01-16 16:35:24.472 I/ActivityManager(  171): No longer want com.android.email (pid 458): hidden #16
+01-16 16:35:24.562 D/dalvikvm(  116): GC_EXPLICIT freed 11K, 54% free 2499K/5379K, external 0K/0K, paused 84ms
+01-16 16:35:24.562 D/AndroidRuntime(  652): 
+01-16 16:35:24.562 D/AndroidRuntime(  652): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-16 16:35:24.572 I/AndroidRuntime(  652): Heap size: -Xmx32m
+01-16 16:35:24.572 D/AndroidRuntime(  652): CheckJNI is OFF
+01-16 16:35:24.572 D/dalvikvm(  652): creating instr width table
+01-16 16:35:24.662 D/dalvikvm(  116): GC_EXPLICIT freed <1K, 54% free 2499K/5379K, external 0K/0K, paused 97ms
+01-16 16:35:24.712 D/dalvikvm(  116): GC_EXPLICIT freed <1K, 54% free 2499K/5379K, external 0K/0K, paused 51ms
+01-16 16:35:24.732 D/szipinf (  656): Initializing inflate state
+01-16 16:35:24.832 I/ActivityManager(  171): Start proc com.tmobile.thememanager for broadcast com.tmobile.thememanager/.receiver.ThemePackageReceiver: pid=669 uid=1300 gids={-1}
+01-16 16:35:24.842 I/ActivityManager(  171): No longer want com.android.mms (pid 469): hidden #16
+01-16 16:35:25.002 D/AndroidRuntime(  652): Calling main entry com.android.commands.am.Am
+01-16 16:35:25.023 I/ActivityThread(  669): Pub com.tmobile.thememanager.themes: com.tmobile.thememanager.provider.ThemesProvider
+01-16 16:35:25.043 I/ActivityManager(  171): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone/.MainActivity } from pid 652
+01-16 16:35:25.103 D/AndroidRuntime(  652): Shutting down VM
+01-16 16:35:25.103 I/ActivityThread(  669): Pub com.tmobile.thememanager.packageresources: com.tmobile.thememanager.provider.PackageResourcesProvider
+01-16 16:35:25.113 I/ActivityManager(  171): Start proc uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone for activity uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone/.MainActivity: pid=679 uid=10059 gids={1015}
+01-16 16:35:25.123 D/VoiceDialerReceiver(  503): onReceive Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone flg=0x10000000 cmp=com.android.voicedialer/.VoiceDialerReceiver (has extras) }
+01-16 16:35:25.123 V/RecognizerEngine(  503): deleteCachedGrammarFiles /data/data/com.android.voicedialer/files/openentries.txt
+01-16 16:35:25.123 I/AndroidRuntime(  652): NOTE: attach of thread 'Binder Thread #3' failed
+01-16 16:35:25.123 I/ActivityManager(  171): No longer want com.koushikdutta.rommanager (pid 491): hidden #16
+01-16 16:35:25.133 D/dalvikvm(  652): GC_CONCURRENT freed 104K, 69% free 324K/1024K, external 0K/0K, paused 1ms+0ms
+01-16 16:35:25.133 D/jdwp    (  652): Got wake-up signal, bailing out of select
+01-16 16:35:25.133 D/dalvikvm(  652): Debugger has detached; object registry had 1 entries
+01-16 16:35:25.333 I/ActivityManager(  171): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=688 uid=10047 gids={}
+01-16 16:35:25.443 I/MPEG4Writer(  117): limits: 2147483647/0 bytes/us, bit rate: 12200 bps and the estimated moov size 3072 bytes
+01-16 16:35:25.453 D/AudioFlinger(  117): setParameters(): io 3, keyvalue input_source=1;routing=262144, tid 156, calling tid 117
+01-16 16:35:25.453 I/AudioHardwareQSD(  117): Routing audio to Speakerphone
+01-16 16:35:25.453 I/AudioHardwareQSD(  117): do input routing device 40000
+01-16 16:35:25.453 I/AudioHardwareQSD(  117): Routing audio to Speakerphone
+01-16 16:35:25.453 D/AudioHardwareQSD(  117): Switching audio device to 
+01-16 16:35:25.453 D/AudioHardwareQSD(  117): Speakerphone
+01-16 16:35:25.563 D/dalvikvm(  305): GC_CONCURRENT freed 475K, 53% free 2805K/5959K, external 82K/512K, paused 6ms+107ms
+01-16 16:35:25.603 I/ActivityThread(  688): Pub com.svox.pico.providers.SettingsProvider: com.svox.pico.providers.SettingsProvider
+01-16 16:35:25.613 D/GTalkService(  305): [RawStanzaProvidersMgr] ##### searchProvidersFromIntent
+01-16 16:35:25.623 D/GTalkService(  305): [RawStanzaProvidersMgr] no intent receivers found
+01-16 16:35:25.653 D/InstallReceiver(  656): uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone
+01-16 16:35:25.673 D/GTalkService(  305): handlePackageInstalled: re-initialize providers
+01-16 16:35:25.673 D/GTalkService(  305): [RawStanzaProvidersMgr] ##### searchProvidersFromIntent
+01-16 16:35:25.673 D/GTalkService(  305): [RawStanzaProvidersMgr] no intent receivers found
+01-16 16:35:25.743 D/VoiceDialerReceiver(  503): onReceive Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone flg=0x10000000 cmp=com.android.voicedialer/.VoiceDialerReceiver (has extras) }
+01-16 16:35:25.743 V/RecognizerEngine(  503): deleteCachedGrammarFiles /data/data/com.android.voicedialer/files/openentries.txt
+01-16 16:35:25.773 I/MPEG4Writer(  117): setStartTimestampUs: 226838
+01-16 16:35:25.773 I/MPEG4Writer(  117): Earliest track starting time: 226838
+01-16 16:35:25.803 D/dalvikvm(  679): GC_EXTERNAL_ALLOC freed 46K, 54% free 2518K/5379K, external 0K/0K, paused 123ms
+01-16 16:35:25.813 I/dalvikvm(  171): Jit: resizing JitTable from 4096 to 8192
+01-16 16:35:25.843 D/dalvikvm(  305): GC_CONCURRENT freed 558K, 54% free 2820K/6023K, external 0K/512K, paused 2ms+3ms
+01-16 16:35:25.973 I/ActivityManager(  171): Displayed uk.ac.st_andrews.cs.host.mk74.energymeasurement.microphone/.MainActivity: +875ms (total +8m57s569ms)
+01-16 16:35:25.983 D/dalvikvm(  511): GC_CONCURRENT freed 439K, 55% free 2603K/5703K, external 0K/0K, paused 2ms+4ms
+01-16 16:35:26.144 I/ActivityManager(  171): No longer want com.android.protips (pid 530): hidden #16
+01-16 16:35:26.274 D/Finsky  (  627): [23] DownloadRecords.initializeAndPrune: Pruned 0 old downloads from the cursor.
+01-16 16:35:26.294 D/szipinf (  669): Initializing inflate state
+01-16 16:35:26.314 D/szipinf (  669): Initializing inflate state
+01-16 16:35:26.324 I/ThemeManager(  669): VerifyInstalledThemesThread took 473 ms.
+01-16 16:35:26.674 I/System.out(  679): Values: 0
+01-16 16:35:27.665 I/System.out(  679): Values: 27519
+01-16 16:35:28.676 I/System.out(  679): Values: 31718
+01-16 16:35:28.696 D/dalvikvm(  171): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.696 D/dalvikvm(  242): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.696 D/dalvikvm(  257): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.696 D/dalvikvm(  259): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.696 D/dalvikvm(  275): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.696 D/dalvikvm(  305): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.706 D/dalvikvm(  679): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.736 W/Vold    (  112): Ignoring unknown switch 'usb_connected'
+01-16 16:35:28.736 D/Vold    (  112): USB disconnected
+01-16 16:35:28.736 D/Vold    (  112): Share method ums now unavailable
+01-16 16:35:28.746 I/StorageNotification(  242): UMS connection changed to false (media state mounted)
+01-16 16:35:28.816 D/dalvikvm(  386): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.826 D/dalvikvm(  401): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.826 D/dalvikvm(  503): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.876 D/dalvikvm(  511): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.886 D/dalvikvm(  522): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.896 D/dalvikvm(  550): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.906 D/dalvikvm(  560): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.906 D/dalvikvm(  568): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.916 D/dalvikvm(  591): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.926 D/dalvikvm(  617): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.926 D/dalvikvm(  627): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.926 D/dalvikvm(  656): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.936 D/dalvikvm(  688): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.936 D/dalvikvm(  541): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.936 D/dalvikvm(  669): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.936 D/dalvikvm(  287): Debugger has detached; object registry had 1 entries
+01-16 16:35:28.966 D/SettingsAppWidgetProvider(  591): Widget is from a previous version... Let's update
+01-16 16:35:28.966 D/SettingsAppWidgetProvider(  591): No instances yet... Wait for at least one instance to exist before adding global settings
+01-16 16:35:29.677 I/System.out(  679): Values: 2812
+01-16 16:35:29.767 D/Tethering(  171): InitialState.processMessage what=4
+01-16 16:35:29.777 D/Tethering(  171): sendTetherStateChangedBroadcast 0, 0, 0
+01-16 16:35:30.678 I/System.out(  679): Values: 1293
+01-16 16:35:31.679 I/System.out(  679): Values: 1517
+01-16 16:35:32.690 I/System.out(  679): Values: 1844
+01-16 16:35:33.691 I/System.out(  679): Values: 2746
+01-16 16:35:34.692 I/System.out(  679): Values: 4326
+01-16 16:35:34.842 D/dalvikvm(  287): GC_EXPLICIT freed 247K, 55% free 3005K/6599K, external 3394K/4213K, paused 63ms
+01-16 16:35:35.693 I/System.out(  679): Values: 32767
+01-16 16:35:36.694 I/System.out(  679): Values: 2951
+01-16 16:35:37.685 I/System.out(  679): Values: 2447
+01-16 16:35:38.696 I/System.out(  679): Values: 1848
+01-16 16:35:39.687 I/System.out(  679): Values: 5156
+01-16 16:35:39.837 D/dalvikvm(  386): GC_EXPLICIT freed 303K, 56% free 2520K/5703K, external 0K/0K, paused 54ms
+01-16 16:35:40.688 I/System.out(  679): Values: 1680
+01-16 16:35:41.689 I/System.out(  679): Values: 2221
+01-16 16:35:42.690 I/System.out(  679): Values: 1840
+01-16 16:35:43.711 I/System.out(  679): Values: 1784
+01-16 16:35:44.702 I/System.out(  679): Values: 1994
+01-16 16:35:44.882 D/dalvikvm(  401): GC_EXPLICIT freed 336K, 54% free 2646K/5639K, external 0K/0K, paused 85ms
+01-16 16:35:45.703 I/System.out(  679): Values: 2616
+01-16 16:35:46.704 I/System.out(  679): Values: 4198
+01-16 16:35:47.705 I/System.out(  679): Values: 9501
+01-16 16:35:48.696 I/System.out(  679): Values: 1347
+01-16 16:35:49.727 I/System.out(  679): Values: 1704
+01-16 16:35:49.867 D/dalvikvm(  503): GC_EXPLICIT freed 341K, 55% free 2513K/5511K, external 0K/0K, paused 71ms
+01-16 16:35:50.708 I/System.out(  679): Values: 1020
+01-16 16:35:51.709 I/System.out(  679): Values: 1958
+01-16 16:35:52.710 I/System.out(  679): Values: 2003
+01-16 16:35:53.710 I/System.out(  679): Values: 1216
+01-16 16:35:54.721 I/System.out(  679): Values: 2760
+01-16 16:35:54.882 D/dalvikvm(  511): GC_EXPLICIT freed 265K, 55% free 2571K/5703K, external 0K/0K, paused 75ms
+01-16 16:35:55.712 I/System.out(  679): Values: 2900
+01-16 16:35:56.713 I/System.out(  679): Values: 3640
+01-16 16:35:57.714 I/System.out(  679): Values: 1631
+01-16 16:35:58.715 I/System.out(  679): Values: 1796
+01-16 16:35:59.706 I/System.out(  679): Values: 4041
+01-16 16:36:00.727 I/System.out(  679): Values: 1993
+01-16 16:36:01.718 I/System.out(  679): Values: 1884
+01-16 16:36:02.719 I/System.out(  679): Values: 1651
+01-16 16:36:03.720 I/System.out(  679): Values: 3119
+01-16 16:36:04.721 I/System.out(  679): Values: 12390
+01-16 16:36:05.732 I/System.out(  679): Values: 18395
+01-16 16:36:06.753 I/System.out(  679): Values: 10103
+01-16 16:36:07.724 I/System.out(  679): Values: 1994
+01-16 16:36:08.725 I/System.out(  679): Values: 2123
+01-16 16:36:09.726 I/System.out(  679): Values: 8160
+01-16 16:36:10.727 I/System.out(  679): Values: 4638
+01-16 16:36:11.728 I/System.out(  679): Values: 948
+01-16 16:36:12.729 I/System.out(  679): Values: 868
+01-16 16:36:13.740 I/System.out(  679): Values: 840
+01-16 16:36:14.741 I/System.out(  679): Values: 880
+01-16 16:36:15.742 I/System.out(  679): Values: 1170
+01-16 16:36:16.743 I/System.out(  679): Values: 11539
+01-16 16:36:17.764 I/System.out(  679): Values: 15629
+01-16 16:36:18.755 I/System.out(  679): Values: 6347
+01-16 16:36:19.746 I/System.out(  679): Values: 1419
+01-16 16:36:20.747 I/System.out(  679): Values: 1974
+01-16 16:36:21.748 I/System.out(  679): Values: 13993
+01-16 16:36:22.749 I/System.out(  679): Values: 2772
+01-16 16:36:23.750 I/System.out(  679): Values: 1649
+01-16 16:36:24.751 I/System.out(  679): Values: 920
+01-16 16:36:25.752 I/System.out(  679): Values: 996
+01-16 16:36:26.753 I/System.out(  679): Values: 994
+01-16 16:36:27.754 I/System.out(  679): Values: 821
+01-16 16:36:28.775 I/System.out(  679): Values: 978
+01-16 16:36:29.756 I/System.out(  679): Values: 842
+01-16 16:36:30.757 I/System.out(  679): Values: 799
+01-16 16:36:31.758 I/System.out(  679): Values: 743
+01-16 16:36:32.749 I/System.out(  679): Values: 840
+01-16 16:36:33.760 I/System.out(  679): Values: 823
+01-16 16:36:34.771 I/System.out(  679): Values: 805
+01-16 16:36:35.772 I/System.out(  679): Values: 982
+01-16 16:36:36.773 I/System.out(  679): Values: 958
+01-16 16:36:37.773 I/System.out(  679): Values: 1317
+01-16 16:36:38.774 I/System.out(  679): Values: 7603
+01-16 16:36:39.765 I/System.out(  679): Values: 1152
+01-16 16:36:40.776 I/System.out(  679): Values: 787
+01-16 16:36:41.767 I/System.out(  679): Values: 972
+01-16 16:36:42.778 I/System.out(  679): Values: 954
+01-16 16:36:43.779 I/System.out(  679): Values: 920
+01-16 16:36:44.770 I/System.out(  679): Values: 3239
+01-16 16:36:45.781 I/System.out(  679): Values: 958
+01-16 16:36:46.782 I/System.out(  679): Values: 4372
+01-16 16:36:47.783 I/System.out(  679): Values: 825
+01-16 16:36:48.784 I/System.out(  679): Values: 2072
+01-16 16:36:49.775 I/System.out(  679): Values: 763
+01-16 16:36:50.776 I/System.out(  679): Values: 799
+01-16 16:36:51.777 I/System.out(  679): Values: 757
+01-16 16:36:52.778 I/System.out(  679): Values: 783
+01-16 16:36:53.779 I/System.out(  679): Values: 878
+01-16 16:36:54.780 I/System.out(  679): Values: 2955
+01-16 16:36:55.781 I/System.out(  679): Values: 12255
+01-16 16:36:56.802 I/System.out(  679): Values: 23944
+01-16 16:36:57.793 I/System.out(  679): Values: 1814
+01-16 16:36:58.794 I/System.out(  679): Values: 1443
+01-16 16:36:59.785 I/System.out(  679): Values: 3243
+01-16 16:37:00.786 I/System.out(  679): Values: 1172
+01-16 16:37:01.787 I/System.out(  679): Values: 1010
+01-16 16:37:02.788 I/System.out(  679): Values: 1437
+01-16 16:37:03.789 I/System.out(  679): Values: 2279
+01-16 16:37:04.790 I/System.out(  679): Values: 1509
+01-16 16:37:05.791 I/System.out(  679): Values: 1050
+01-16 16:37:06.792 I/System.out(  679): Values: 1168
+01-16 16:37:07.813 I/System.out(  679): Values: 2574
+01-16 16:37:08.794 I/System.out(  679): Values: 1092
+01-16 16:37:09.805 I/System.out(  679): Values: 1086
+01-16 16:37:10.796 I/System.out(  679): Values: 1148
+01-16 16:37:11.797 I/System.out(  679): Values: 1866
+01-16 16:37:12.798 I/System.out(  679): Values: 1002
+01-16 16:37:13.809 I/System.out(  679): Values: 882
+01-16 16:37:14.810 I/System.out(  679): Values: 1052
+01-16 16:37:15.811 I/System.out(  679): Values: 1884
+01-16 16:37:16.812 I/System.out(  679): Values: 2459
+01-16 16:37:17.813 I/System.out(  679): Values: 1032
+01-16 16:37:18.814 I/System.out(  679): Values: 3740
+01-16 16:37:19.814 I/System.out(  679): Values: 2786
+01-16 16:37:20.805 I/System.out(  679): Values: 1008
+01-16 16:37:21.806 I/System.out(  679): Values: 956
+01-16 16:37:22.807 I/System.out(  679): Values: 842
+01-16 16:37:23.818 I/System.out(  679): Values: 1898
+01-16 16:37:24.819 I/System.out(  679): Values: 1465
+01-16 16:37:25.820 I/System.out(  679): Values: 998
+01-16 16:37:26.821 I/System.out(  679): Values: 1014
+01-16 16:37:27.822 I/System.out(  679): Values: 1684
+01-16 16:37:28.823 I/System.out(  679): Values: 827
+01-16 16:37:29.824 I/System.out(  679): Values: 1511
+01-16 16:37:30.835 I/System.out(  679): Values: 1146
+01-16 16:37:31.816 I/System.out(  679): Values: 1128
+01-16 16:37:32.817 I/System.out(  679): Values: 1497
+01-16 16:37:33.818 I/System.out(  679): Values: 900
+01-16 16:37:34.829 I/System.out(  679): Values: 1485
+01-16 16:37:35.840 I/System.out(  679): Values: 1433
+01-16 16:37:36.831 I/System.out(  679): Values: 1497
+01-16 16:37:37.832 I/System.out(  679): Values: 1070
+01-16 16:37:38.833 I/System.out(  679): Values: 783
+01-16 16:37:39.834 I/System.out(  679): Values: 2692
+01-16 16:37:40.825 I/System.out(  679): Values: 1768
+01-16 16:37:41.826 I/System.out(  679): Values: 2331
+01-16 16:37:42.837 I/System.out(  679): Values: 1417
+01-16 16:37:43.828 I/System.out(  679): Values: 785
+01-16 16:37:44.839 I/System.out(  679): Values: 805
+01-16 16:37:45.830 I/System.out(  679): Values: 785
+01-16 16:37:46.851 I/System.out(  679): Values: 805
+01-16 16:37:47.842 I/System.out(  679): Values: 765
+01-16 16:37:48.843 I/System.out(  679): Values: 765
+01-16 16:37:49.503 D/SntpClient(  171): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+01-16 16:37:49.564 D/SntpClient(  171): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+01-16 16:37:49.564 D/SntpClient(  171): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+01-16 16:37:49.844 I/System.out(  679): Values: 1289
+01-16 16:37:50.845 I/System.out(  679): Values: 1307
+01-16 16:37:51.836 I/System.out(  679): Values: 2572
+01-16 16:37:52.857 I/System.out(  679): Values: 900
+01-16 16:37:53.848 I/System.out(  679): Values: 1222
+01-16 16:37:54.849 I/System.out(  679): Values: 2678
+01-16 16:37:55.850 I/System.out(  679): Values: 956
+01-16 16:37:56.851 I/System.out(  679): Values: 805
+01-16 16:37:57.852 I/System.out(  679): Values: 2271
+01-16 16:37:57.982 D/dalvikvm(  171): GC_CONCURRENT freed 1355K, 46% free 4903K/8967K, external 43K/547K, paused 15ms+4ms
+01-16 16:37:58.853 I/System.out(  679): Values: 801
+01-16 16:37:59.854 I/System.out(  679): Values: 1321
+01-16 16:38:00.855 I/System.out(  679): Values: 1104
+01-16 16:38:01.856 I/System.out(  679): Values: 781
+01-16 16:38:02.856 I/System.out(  679): Values: 998
+01-16 16:38:03.867 I/System.out(  679): Values: 803
+01-16 16:38:04.858 I/System.out(  679): Values: 781
+01-16 16:38:05.859 I/System.out(  679): Values: 763
+01-16 16:38:06.860 I/System.out(  679): Values: 1261
+01-16 16:38:07.861 I/System.out(  679): Values: 1066
+01-16 16:38:08.862 I/System.out(  679): Values: 976
+01-16 16:38:09.863 I/System.out(  679): Values: 803
+01-16 16:38:10.864 I/System.out(  679): Values: 803
+01-16 16:38:11.865 I/System.out(  679): Values: 1485
+01-16 16:38:12.856 I/System.out(  679): Values: 1244
+01-16 16:38:13.857 I/System.out(  679): Values: 1066
+01-16 16:38:14.878 I/System.out(  679): Values: 860
+01-16 16:38:15.869 I/System.out(  679): Values: 840
+01-16 16:38:16.870 I/System.out(  679): Values: 1220
+01-16 16:38:17.871 I/System.out(  679): Values: 1651
+01-16 16:38:18.872 I/System.out(  679): Values: 5226
+01-16 16:38:19.873 I/System.out(  679): Values: 2235
+01-16 16:38:20.874 I/System.out(  679): Values: 2876
+01-16 16:38:21.865 I/System.out(  679): Values: 2675
+01-16 16:38:22.876 I/System.out(  679): Values: 1808
+01-16 16:38:23.877 I/System.out(  679): Values: 1054
+01-16 16:38:24.878 I/System.out(  679): Values: 1635
+01-16 16:38:25.889 I/System.out(  679): Values: 15603
+01-16 16:38:26.880 I/System.out(  679): Values: 3452
+01-16 16:38:27.881 I/System.out(  679): Values: 1858
+01-16 16:38:28.882 I/System.out(  679): Values: 2511
+01-16 16:38:29.883 I/System.out(  679): Values: 2391
+01-16 16:38:30.884 I/System.out(  679): Values: 4137
+01-16 16:38:31.905 I/System.out(  679): Values: 3285
+01-16 16:38:32.886 I/System.out(  679): Values: 1088
+01-16 16:38:33.887 I/System.out(  679): Values: 783
+01-16 16:38:34.888 I/System.out(  679): Values: 1659
+01-16 16:38:35.889 I/System.out(  679): Values: 32767
+01-16 16:38:36.890 I/System.out(  679): Values: 8103
+01-16 16:38:37.891 I/System.out(  679): Values: 9723
+01-16 16:38:38.892 I/System.out(  679): Values: 11363
+01-16 16:38:39.893 I/System.out(  679): Values: 1802
+01-16 16:38:40.894 I/System.out(  679): Values: 1688
+01-16 16:38:41.895 I/System.out(  679): Values: 1307
+01-16 16:38:42.896 I/System.out(  679): Values: 1395
+01-16 16:38:43.897 I/System.out(  679): Values: 823
+01-16 16:38:44.898 I/System.out(  679): Values: 837
+01-16 16:38:45.898 I/System.out(  679): Values: 1299
+01-16 16:38:46.899 I/System.out(  679): Values: 779
+01-16 16:38:47.900 I/System.out(  679): Values: 767
+01-16 16:38:48.901 I/System.out(  679): Values: 765
+01-16 16:38:49.902 I/System.out(  679): Values: 1002
+01-16 16:38:50.903 I/System.out(  679): Values: 1222
+01-16 16:38:51.904 I/System.out(  679): Values: 1934
+01-16 16:38:52.895 I/System.out(  679): Values: 809
+01-16 16:38:53.916 I/System.out(  679): Values: 761
+01-16 16:38:54.907 I/System.out(  679): Values: 779
+01-16 16:38:55.908 I/System.out(  679): Values: 743
+01-16 16:38:56.909 I/System.out(  679): Values: 914
+01-16 16:38:57.910 I/System.out(  679): Values: 1659
+01-16 16:38:57.990 D/dalvikvm(  679): GC_CONCURRENT freed 395K, 55% free 2533K/5575K, external 8K/519K, paused 8ms+2ms
+01-16 16:38:58.911 I/System.out(  679): Values: 781
+01-16 16:38:59.912 I/System.out(  679): Values: 856
+01-16 16:39:00.913 I/System.out(  679): Values: 743
+01-16 16:39:01.914 I/System.out(  679): Values: 763
+01-16 16:39:02.905 I/System.out(  679): Values: 783
+01-16 16:39:03.916 I/System.out(  679): Values: 783
+01-16 16:39:04.917 I/System.out(  679): Values: 803
+01-16 16:39:05.918 I/System.out(  679): Values: 745
+01-16 16:39:06.919 I/System.out(  679): Values: 819
+01-16 16:39:07.920 I/System.out(  679): Values: 781
+01-16 16:39:08.921 I/System.out(  679): Values: 763
+01-16 16:39:09.922 I/System.out(  679): Values: 767
+01-16 16:39:10.943 I/System.out(  679): Values: 785
+01-16 16:39:11.934 I/System.out(  679): Values: 801
+01-16 16:39:12.925 I/System.out(  679): Values: 785
+01-16 16:39:13.926 I/System.out(  679): Values: 1754
+01-16 16:39:14.927 I/System.out(  679): Values: 23941
+01-16 16:39:15.938 I/System.out(  679): Values: 4528
+01-16 16:39:16.929 I/System.out(  679): Values: 2127
+01-16 16:39:17.930 I/System.out(  679): Values: 1806
+01-16 16:39:18.931 I/System.out(  679): Values: 3845
+01-16 16:39:19.932 I/System.out(  679): Values: 1976
+01-16 16:39:20.933 I/System.out(  679): Values: 1726
+01-16 16:39:21.954 I/System.out(  679): Values: 1746
+01-16 16:39:22.945 I/System.out(  679): Values: 1401
+01-16 16:39:23.946 I/System.out(  679): Values: 4187
+01-16 16:39:24.937 I/System.out(  679): Values: 1429
+01-16 16:39:25.938 I/System.out(  679): Values: 2369
+01-16 16:39:25.948 I/System.out(  679): Battery level start is reached
+01-16 16:39:26.939 I/System.out(  679): Values: 2904
+01-16 16:39:27.939 I/System.out(  679): Values: 1475
+01-16 16:39:28.940 I/System.out(  679): Values: 5616
+01-16 16:39:29.941 I/System.out(  679): Values: 30460
+01-16 16:39:30.942 I/System.out(  679): Values: 1279
+01-16 16:39:31.943 I/System.out(  679): Values: 5769
+01-16 16:39:32.954 I/System.out(  679): Values: 2317
+01-16 16:39:33.945 I/System.out(  679): Values: 1956
+01-16 16:39:34.946 I/System.out(  679): Values: 2391
+01-16 16:39:35.947 I/System.out(  679): Values: 1523
+01-16 16:39:36.938 I/System.out(  679): Values: 1882
+01-16 16:39:37.949 I/System.out(  679): Values: 1684
+01-16 16:39:38.940 I/System.out(  679): Values: 1369
+01-16 16:39:39.941 I/System.out(  679): Values: 1415
+01-16 16:39:40.942 I/System.out(  679): Values: 789
+01-16 16:39:41.943 I/System.out(  679): Values: 858
+01-16 16:39:42.944 I/System.out(  679): Values: 1096
+01-16 16:39:43.955 I/System.out(  679): Values: 912
+01-16 16:39:44.956 I/System.out(  679): Values: 1263
+01-16 16:39:45.957 I/System.out(  679): Values: 860
+01-16 16:39:46.958 I/System.out(  679): Values: 783
+01-16 16:39:47.959 I/System.out(  679): Values: 1120
+01-16 16:39:48.960 I/System.out(  679): Values: 898
+01-16 16:39:49.981 I/System.out(  679): Values: 840
+01-16 16:39:50.972 I/System.out(  679): Values: 1156
+01-16 16:39:51.973 I/System.out(  679): Values: 783
+01-16 16:39:52.974 I/System.out(  679): Values: 765
+01-16 16:39:53.975 I/System.out(  679): Values: 759
+01-16 16:39:54.976 I/System.out(  679): Values: 914
+01-16 16:39:55.977 I/System.out(  679): Values: 781
+01-16 16:39:56.968 I/System.out(  679): Values: 797
+01-16 16:39:57.969 I/System.out(  679): Values: 958
+01-16 16:39:58.970 I/System.out(  679): Values: 803
+01-16 16:39:59.971 I/System.out(  679): Values: 5448
+01-16 16:40:00.992 I/System.out(  679): Values: 846
+01-16 16:40:01.983 I/System.out(  679): Values: 805
+01-16 16:40:02.984 I/System.out(  679): Values: 840
+01-16 16:40:03.985 I/System.out(  679): Values: 783
+01-16 16:40:04.986 I/System.out(  679): Values: 1076
+01-16 16:40:05.977 I/System.out(  679): Values: 803
+01-16 16:40:06.988 I/System.out(  679): Values: 743
+01-16 16:40:07.979 I/System.out(  679): Values: 745
+01-16 16:40:08.980 I/System.out(  679): Values: 763
+01-16 16:40:09.981 I/System.out(  679): Values: 779
+01-16 16:40:10.981 I/System.out(  679): Values: 840
+01-16 16:40:12.002 I/System.out(  679): Values: 4861
+01-16 16:40:12.993 I/System.out(  679): Values: 1014
+01-16 16:40:13.994 I/System.out(  679): Values: 1261
+01-16 16:40:14.995 I/System.out(  679): Values: 785
+01-16 16:40:15.986 I/System.out(  679): Values: 1485
+01-16 16:40:16.987 I/System.out(  679): Values: 4314
+01-16 16:40:17.998 I/System.out(  679): Values: 9631
+01-16 16:40:18.989 I/System.out(  679): Values: 30546
+01-16 16:40:19.990 I/System.out(  679): Values: 3817
+01-16 16:40:20.991 I/System.out(  679): Values: 2979
+01-16 16:40:21.992 I/System.out(  679): Values: 3394
+01-16 16:40:23.013 I/System.out(  679): Values: 3053
+01-16 16:40:24.004 I/System.out(  679): Values: 3199
+01-16 16:40:25.005 I/System.out(  679): Values: 2016
+01-16 16:40:26.006 I/System.out(  679): Values: 3037
+01-16 16:40:26.997 I/System.out(  679): Values: 1283
+01-16 16:40:27.998 I/System.out(  679): Values: 1585
+01-16 16:40:28.999 I/System.out(  679): Values: 1497
+01-16 16:40:30.000 I/System.out(  679): Values: 2229
+01-16 16:40:31.001 I/System.out(  679): Values: 803
+01-16 16:40:32.002 I/System.out(  679): Values: 803
+01-16 16:40:33.003 I/System.out(  679): Values: 876
+01-16 16:40:34.024 I/System.out(  679): Values: 1319
+01-16 16:40:35.015 I/System.out(  679): Values: 801
+01-16 16:40:36.006 I/System.out(  679): Values: 914
+01-16 16:40:37.007 I/System.out(  679): Values: 783
+01-16 16:40:38.008 I/System.out(  679): Values: 856
+01-16 16:40:39.009 I/System.out(  679): Values: 1242
+01-16 16:40:40.010 I/System.out(  679): Values: 1637
+01-16 16:40:41.011 I/System.out(  679): Values: 2355
+01-16 16:40:42.012 I/System.out(  679): Values: 1870
+01-16 16:40:43.013 I/System.out(  679): Values: 3450
+01-16 16:40:44.014 I/System.out(  679): Values: 2233
+01-16 16:40:45.025 I/System.out(  679): Values: 1417
+01-16 16:40:46.016 I/System.out(  679): Values: 2281
+01-16 16:40:47.017 I/System.out(  679): Values: 1190
+01-16 16:40:48.018 I/System.out(  679): Values: 1437
+01-16 16:40:49.019 I/System.out(  679): Values: 1736
+01-16 16:40:50.020 I/System.out(  679): Values: 1220
+01-16 16:40:51.041 I/System.out(  679): Values: 761
+01-16 16:40:52.022 I/System.out(  679): Values: 1102
+01-16 16:40:53.023 I/System.out(  679): Values: 1964
+01-16 16:40:54.023 I/System.out(  679): Values: 749
+01-16 16:40:55.024 I/System.out(  679): Values: 765
+01-16 16:40:56.025 I/System.out(  679): Values: 992
+01-16 16:40:57.026 I/System.out(  679): Values: 1184
+01-16 16:40:58.027 I/System.out(  679): Values: 765
+01-16 16:40:59.028 I/System.out(  679): Values: 839
+01-16 16:41:00.029 I/System.out(  679): Values: 876
+01-16 16:41:01.030 I/System.out(  679): Values: 817
+01-16 16:41:02.051 I/System.out(  679): Values: 1236
+01-16 16:41:03.042 I/System.out(  679): Values: 783
+01-16 16:41:04.043 I/System.out(  679): Values: 1044
+01-16 16:41:05.044 I/System.out(  679): Values: 799
+01-16 16:41:06.035 I/System.out(  679): Values: 725
+01-16 16:41:07.036 I/System.out(  679): Values: 763
+01-16 16:41:08.057 I/System.out(  679): Values: 745
+01-16 16:41:09.048 I/System.out(  679): Values: 1924
+01-16 16:41:10.049 I/System.out(  679): Values: 954
+01-16 16:41:11.050 I/System.out(  679): Values: 874
+01-16 16:41:12.051 I/System.out(  679): Values: 819
+01-16 16:41:13.062 I/System.out(  679): Values: 16992
+01-16 16:41:14.053 I/System.out(  679): Values: 14280
+01-16 16:41:15.054 I/System.out(  679): Values: 775
+01-16 16:41:16.055 I/System.out(  679): Values: 858
+01-16 16:41:17.046 I/System.out(  679): Values: 1770
+01-16 16:41:18.047 I/System.out(  679): Values: 763
+01-16 16:41:19.068 I/System.out(  679): Values: 745
+01-16 16:41:20.069 I/System.out(  679): Values: 799
+01-16 16:41:21.070 I/System.out(  679): Values: 799
+01-16 16:41:22.071 I/System.out(  679): Values: 823
+01-16 16:41:23.072 I/System.out(  679): Values: 761
+01-16 16:41:24.073 I/System.out(  679): Values: 837
+01-16 16:41:25.094 I/System.out(  679): Values: 1595
+01-16 16:41:26.085 I/System.out(  679): Values: 1106
+01-16 16:41:27.076 I/System.out(  679): Values: 996
+01-16 16:41:28.077 I/System.out(  679): Values: 1786
+01-16 16:41:29.078 I/System.out(  679): Values: 1992
+01-16 16:41:30.079 I/System.out(  679): Values: 2056
+01-16 16:41:31.080 I/System.out(  679): Values: 1016
+01-16 16:41:32.081 I/System.out(  679): Values: 1106
+01-16 16:41:33.082 I/System.out(  679): Values: 1327
+01-16 16:41:34.083 I/System.out(  679): Values: 1363
+01-16 16:41:35.084 I/System.out(  679): Values: 2319
+01-16 16:41:36.105 I/System.out(  679): Values: 936
+01-16 16:41:37.085 I/System.out(  679): Values: 763
+01-16 16:41:38.086 I/System.out(  679): Values: 761
+01-16 16:41:39.087 I/System.out(  679): Values: 992
+01-16 16:41:40.088 I/System.out(  679): Values: 840
+01-16 16:41:41.089 I/System.out(  679): Values: 1258
+01-16 16:41:42.090 I/System.out(  679): Values: 1603
+01-16 16:41:43.091 I/System.out(  679): Values: 898
+01-16 16:41:44.092 I/System.out(  679): Values: 785
+01-16 16:41:45.093 I/System.out(  679): Values: 2375
+01-16 16:41:46.094 I/System.out(  679): Values: 2353
+01-16 16:41:47.095 I/System.out(  679): Values: 1641
+01-16 16:41:48.096 I/System.out(  679): Values: 936
+01-16 16:41:49.097 I/System.out(  679): Values: 1074
+01-16 16:41:50.098 I/System.out(  679): Values: 1323
+01-16 16:41:51.099 I/System.out(  679): Values: 976
+01-16 16:41:52.100 I/System.out(  679): Values: 2383
+01-16 16:41:53.101 I/System.out(  679): Values: 785
+01-16 16:41:54.102 I/System.out(  679): Values: 922
+01-16 16:41:55.103 I/System.out(  679): Values: 803
+01-16 16:41:56.104 I/System.out(  679): Values: 761
+01-16 16:41:57.105 I/System.out(  679): Values: 2434
+01-16 16:41:58.106 I/System.out(  679): Values: 1046
+01-16 16:41:59.107 I/System.out(  679): Values: 1700
+01-16 16:42:00.108 I/System.out(  679): Values: 1565
+01-16 16:42:01.109 I/System.out(  679): Values: 1690
+01-16 16:42:02.110 I/System.out(  679): Values: 783
+01-16 16:42:03.111 I/System.out(  679): Values: 958
+01-16 16:42:04.132 I/System.out(  679): Values: 1405
+01-16 16:42:05.123 I/System.out(  679): Values: 777
+01-16 16:42:06.124 I/System.out(  679): Values: 823
+01-16 16:42:07.125 I/System.out(  679): Values: 745
+01-16 16:42:08.116 I/System.out(  679): Values: 1675
+01-16 16:42:09.117 I/System.out(  679): Values: 896
+01-16 16:42:10.118 I/System.out(  679): Values: 880
+01-16 16:42:11.119 I/System.out(  679): Values: 900
+01-16 16:42:12.120 I/System.out(  679): Values: 837
+01-16 16:42:13.121 I/System.out(  679): Values: 783
+01-16 16:42:14.122 I/System.out(  679): Values: 840
+01-16 16:42:15.143 I/System.out(  679): Values: 781
+01-16 16:42:16.134 I/System.out(  679): Values: 1010
+01-16 16:42:17.135 I/System.out(  679): Values: 5938
+01-16 16:42:18.136 I/System.out(  679): Values: 1996
+01-16 16:42:19.127 I/System.out(  679): Values: 1242
+01-16 16:42:20.127 I/System.out(  679): Values: 858
+01-16 16:42:21.148 I/System.out(  679): Values: 785
+01-16 16:42:22.129 I/System.out(  679): Values: 819
+01-16 16:42:23.130 I/System.out(  679): Values: 29512
+01-16 16:42:24.131 I/System.out(  679): Values: 15754
+01-16 16:42:25.132 I/System.out(  679): Values: 11126
+01-16 16:42:26.143 I/System.out(  679): Values: 4931
+01-16 16:42:27.144 I/System.out(  679): Values: 1126
+01-16 16:42:28.145 I/System.out(  679): Values: 3578
+01-16 16:42:29.136 I/System.out(  679): Values: 821
+01-16 16:42:30.137 I/System.out(  679): Values: 5092
+01-16 16:42:31.138 I/System.out(  679): Values: 781
+01-16 16:42:32.139 I/System.out(  679): Values: 1082
+01-16 16:42:33.140 I/System.out(  679): Values: 974
+01-16 16:42:34.141 I/System.out(  679): Values: 779
+01-16 16:42:34.231 D/dalvikvm(  679): GC_CONCURRENT freed 401K, 56% free 2532K/5639K, external 8K/519K, paused 10ms+2ms
+01-16 16:42:35.142 I/System.out(  679): Values: 2283
+01-16 16:42:36.143 I/System.out(  679): Values: 1224
+01-16 16:42:37.154 I/System.out(  679): Values: 823
+01-16 16:42:38.155 I/System.out(  679): Values: 6970
+01-16 16:42:39.146 I/System.out(  679): Values: 934
+01-16 16:42:40.147 I/System.out(  679): Values: 922
+01-16 16:42:41.148 I/System.out(  679): Values: 882
+01-16 16:42:42.149 I/System.out(  679): Values: 1254
+01-16 16:42:43.170 I/System.out(  679): Values: 1196
+01-16 16:42:44.161 I/System.out(  679): Values: 1401
+01-16 16:42:45.162 I/System.out(  679): Values: 872
+01-16 16:42:46.163 I/System.out(  679): Values: 799
+01-16 16:42:46.163 I/System.out(  679): Battery level end is reached
+01-16 16:42:46.163 I/System.out(  679): Time difference in secs is: 200
+01-16 16:42:47.164 I/System.out(  679): Values: 801
+01-16 16:42:47.164 I/System.out(  679): Time difference in secs is: 200
+01-16 16:42:48.155 I/System.out(  679): Values: 801
+01-16 16:42:48.175 I/System.out(  679): Time difference in secs is: 200
+01-16 16:42:49.166 I/System.out(  679): Values: 860
+01-16 16:42:49.186 I/System.out(  679): Time difference in secs is: 200
+01-16 16:42:50.157 I/System.out(  679): Values: 743
+01-16 16:42:50.157 I/System.out(  679): Time difference in secs is: 200
+01-16 16:42:51.158 I/System.out(  679): Values: 2380
+01-16 16:42:51.158 I/System.out(  679): Time difference in secs is: 200
+01-16 16:42:52.159 I/System.out(  679): Values: 2652
+01-16 16:42:52.159 I/System.out(  679): Time difference in secs is: 200
+01-16 16:42:53.160 I/System.out(  679): Values: 2457
+01-16 16:42:53.160 I/System.out(  679): Time difference in secs is: 200
+01-16 16:42:54.181 I/System.out(  679): Values: 6260
+01-16 16:42:54.181 I/System.out(  679): Time difference in secs is: 200
+01-16 16:42:55.172 I/System.out(  679): Values: 13592
+01-16 16:42:55.172 I/System.out(  679): Time difference in secs is: 200
+01-16 16:42:56.173 I/System.out(  679): Values: 3035
+01-16 16:42:56.173 I/System.out(  679): Time difference in secs is: 200
+01-16 16:42:56.493 D/SettingsAppWidgetProvider(  591): Widget is from a previous version... Let's update
+01-16 16:42:56.493 D/SettingsAppWidgetProvider(  591): No instances yet... Wait for at least one instance to exist before adding global settings
+01-16 16:42:57.174 I/System.out(  679): Values: 24168
+01-16 16:42:57.174 I/System.out(  679): Time difference in secs is: 200
+01-16 16:42:58.175 I/System.out(  679): Values: 11046
+01-16 16:42:58.175 I/System.out(  679): Time difference in secs is: 200
+01-16 16:42:58.275 W/Vold    (  112): Ignoring unknown switch 'usb_connected'
+01-16 16:42:58.355 D/Vold    (  112): USB connected
+01-16 16:42:58.355 D/Vold    (  112): Share method ums now available
+01-16 16:42:58.365 I/StorageNotification(  242): UMS connection changed to true (media state mounted)
+01-16 16:42:58.405 V/NotificationService(  171): Active profile: Default
+01-16 16:42:58.405 I/PROFILE (  171): Group: Gmail containing : com.android.systemui : false
+01-16 16:42:58.405 I/PROFILE (  171): Group: Phone containing : com.android.systemui : false
+01-16 16:42:58.405 I/PROFILE (  171): Group: Calendar containing : com.android.systemui : false
+01-16 16:42:58.405 I/PROFILE (  171): Group: Email containing : com.android.systemui : false
+01-16 16:42:58.405 I/PROFILE (  171): Group: SMS containing : com.android.systemui : false
+01-16 16:42:58.405 V/ProfileManager(  171): No active group, returning default: Other
+01-16 16:42:58.405 V/NotificationService(  171): Pkg: com.android.systemui group: Other
+01-16 16:42:58.415 W/ApplicationContext(  171): Unable to create files directory
+01-16 16:42:58.425 D/WriteApps(  171): Error: java.lang.NullPointerException
+01-16 16:42:58.445 D/Tethering(  171): sendTetherStateChangedBroadcast 1, 0, 0
+01-16 16:42:58.445 D/Tethering(  171): interfaceAdded :usb0
+01-16 16:42:58.445 V/NotificationService(  171): Active profile: Default
+01-16 16:42:58.445 I/PROFILE (  171): Group: Gmail containing : android : false
+01-16 16:42:58.445 I/PROFILE (  171): Group: Phone containing : android : false
+01-16 16:42:58.445 I/PROFILE (  171): Group: Calendar containing : android : false
+01-16 16:42:58.445 I/PROFILE (  171): Group: Email containing : android : false
+01-16 16:42:58.445 I/PROFILE (  171): Group: SMS containing : android : false
+01-16 16:42:58.445 V/ProfileManager(  171): No active group, returning default: Other
+01-16 16:42:58.445 V/NotificationService(  171): Pkg: android group: Other
+01-16 16:42:59.166 I/System.out(  679): Values: 13874
+01-16 16:42:59.166 I/System.out(  679): Time difference in secs is: 200
+01-16 16:43:00.167 I/System.out(  679): Values: 9520
+01-16 16:43:00.167 I/System.out(  679): Time difference in secs is: 200
+01-16 16:43:01.168 I/System.out(  679): Values: 32767
+01-16 16:43:01.168 I/System.out(  679): Time difference in secs is: 200
+01-16 16:43:02.168 I/System.out(  679): Values: 3702
+01-16 16:43:02.168 I/System.out(  679): Time difference in secs is: 200
+01-16 16:43:03.169 I/System.out(  679): Values: 9622
+01-16 16:43:03.169 I/System.out(  679): Time difference in secs is: 200
+01-16 16:43:04.170 I/System.out(  679): Values: 3135
+01-16 16:43:04.170 I/System.out(  679): Time difference in secs is: 200
+01-16 16:43:05.101 D/dalvikvm(  591): GC_EXPLICIT freed 11K, 54% free 2637K/5639K, external 0K/0K, paused 68ms
+01-16 16:43:05.181 I/System.out(  679): Values: 2299
+01-16 16:43:05.181 I/System.out(  679): Time difference in secs is: 200
+01-16 16:43:06.182 I/System.out(  679): Values: 2933
+01-16 16:43:06.182 I/System.out(  679): Time difference in secs is: 200
+01-16 16:43:07.183 I/System.out(  679): Values: 1567
+01-16 16:43:07.183 I/System.out(  679): Time difference in secs is: 200

@@ -1,23 +1,26 @@
 Experiments on HTC flyer:
       results (time for depleting battery from 98% to 97%):
       
-            Plain           30*     270     270     270                                                 270
-            Accelerometer   240     270     180^    271                                                 260
-            Magnetic field  270     180^    240     30*                                                 260(X)
-            Light           240     240                                                                 250(X)
+            Plain           30*     270     270     270     271                                         270
+            Bluetooth       181^    270     30*     60*     270    271                                  270
+            Accelerometer   240     270     180^    271     240                                         260
+            Magnetic field  270     180^    240     30*     300^^  240                                  270
+            Light           240     240     271     270                                                 250
 
-            Microphone      240     240     240                                                         240
+            Microphone      240     240     240     300^^   270                                         240
+            
             WiFiScan        240     241     236                                                         240
             GPS             241     240     210                                                         230
-            Camera          121^    240     180     210                                                 220(X)
+            Camera          121^    240     180     210     241                                         230
 
-            Bluetooth       181^    270     30*     60*                                                 ?!(XX)
             
 
 
         * - experiment sample invalid - as very, very long charging at 98% and jump to 100%; when depleting very very long on 100% and then switch a couple
 
         ^ - experiment sample invalid - all of those samples were done sequentially, probably battery had some problems at that point ?!
+
+        ^^ - experiment sample invalid - ...
 
         X - one more experiment needs to be done to have an average of 3 samples 
 
