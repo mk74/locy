@@ -40,6 +40,7 @@ public class MainActivity extends Activity {
 			public void run() {
 				final String output = "Location: " + inLocyNavigator.getLocation() + " | " +
 								"WiFiNavigator running:" +inLocyNavigator.getWifiNavigator().isRunning()+ "\n" +
+								"isMoving: " + inLocyNavigator.getActivityRecognition().isMoving() + "\n" +
 								"Battery level: " + batteryEvaluator.getBatteryLevel() + " | " +
 								"Time difference: " + batteryEvaluator.getTimeDifference() + "\n";
 				System.out.println(output);

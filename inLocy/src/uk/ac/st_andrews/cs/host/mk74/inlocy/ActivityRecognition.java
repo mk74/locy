@@ -6,17 +6,19 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 
-public class ActivityClassifier {
+public class ActivityRecognition {
 	
 	private boolean running = false;
 	private SensorManager mSensorManager;
 	private Sensor mAccelerometer;
 	private SensorEventListener mAccelerometerSensorEventListener;
 	private InLocyNavigator inLocyNavigator;
+	private AccelerometerDataClassifier accelerometerDataClasifier;
 	private boolean moving = true;
 	
-	public ActivityClassifier(InLocyNavigator navigator, Context context) {
+	public ActivityRecognition(InLocyNavigator navigator, Context context) {
 		this.inLocyNavigator = navigator;
+		accelerometerDataClasifier = new AccelerometerDataClassifier();
 		mSensorManager = (SensorManager) context.getSystemService(Context.SENSOR_SERVICE);
 		mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
 		mAccelerometerSensorEventListener = new SensorEventListener() {
@@ -26,9 +28,7 @@ public class ActivityClassifier {
 
 			@Override
 			public void onSensorChanged(SensorEvent event) {
-//				for(int i=0; i<3; i++)
-//					values[i] = event.values[i];
-				boolean newMoving = true;
+				boolean newMoving = accelerometerDataClasifier.add(event.values);
 				
 				//if activity classification changed, send it over to inLocyNavigator 
 				if(newMoving != moving){
@@ -36,6 +36,7 @@ public class ActivityClassifier {
 						inLocyNavigator.activityMoving();
 					else
 						inLocyNavigator.activityInPlace();
+					moving = newMoving;
 				}
 			}
 			

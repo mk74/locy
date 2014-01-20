@@ -5,25 +5,25 @@ import android.content.Context;
 public class InLocyNavigator {
 
 	private WiFiNavigator wifiNavigator;
-	private ActivityClassifier activityClassifier;
+	private ActivityRecognition activityRecognition;
 	private boolean running = false;
 	private boolean inPlace = false;
 	private String location;
 	
 	public InLocyNavigator(Context context) {
 		wifiNavigator = new WiFiNavigator(context);
-		activityClassifier = new ActivityClassifier(this, context);
+		activityRecognition = new ActivityRecognition(this, context);
 	}
 
 	public void start() {
 		wifiNavigator.start();
-		activityClassifier.start();
+		activityRecognition.start();
 		running = true;
 	}
 	
 	public void stop(){
 		running = false;
-		activityClassifier.stop();
+		activityRecognition.stop();
 		wifiNavigator.stop();
 	}
 	
@@ -51,6 +51,10 @@ public class InLocyNavigator {
 	
 	public WiFiNavigator getWifiNavigator() {
 		return wifiNavigator;
+	}
+	
+	public ActivityRecognition getActivityRecognition() {
+		return activityRecognition;
 	}
 
 	public boolean isRunning() {
