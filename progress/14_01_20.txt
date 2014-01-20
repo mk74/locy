@@ -1,0 +1,103 @@
+I have done:
+	Research on feedback from last meeting:
+		-apps
+			-bluetooth 4.0
+				-if there are no devices available, it prints out much less things to LogCat
+				-more energy-efficient than classics bluetooth
+				-^^ showed it in experiments
+
+			-camera
+				-iPhone has the same issue, but they overlay this preview <-looked up on the Internet, didn't try myself
+				-Google Nexus 7, HTC desire, HTC flyer:
+					-Codec H263
+					-Resolution	176&144
+					-Frame rate		~10(HTC flyer),	~12(HTC desire),	~15(Google Nexus 7)
+				-I fixed interesting bug on HTC desire:
+					not enough dynamic memory for converting raw preview to given format, but I decreased the preview size and it's fine
+
+			-microphone
+				Google Nexus 7:
+					-Codec: AMR narrow band(samr)
+					-channels: 		mono
+					-sample rate:	8000 Hz
+					-bits per sample 	32
+				HTC desire, HTC flyer:
+					-Codec: AMR narrow band(samr)
+					-channels:		1
+					-sample rate:	8000 Hz
+					-bits per sample:	16
+					-Bitrate:		128 kb/s
+
+		-report
+			-started skeleton for energy measurement section and a big one
+
+		-experiments:
+			-found % depletion for:
+				 -HTC desire: 89->88; I tried earlier 98->97 and 95->94, but sometimes charging is not triggered if more than 91%
+				 -HTC flyer:	98->97 (as discussed earlier, the issue about charging to 100% and depleting very fast through a couple of %)
+			-keeping consistency for Bluetooth app
+			-finished doing them
+
+
+	Experiments:
+		(show results!)
+		first 3 samples, but then decide on 5 samples
+		HTC flyer:
+			-once, after a series of experiments, the results started dropping - faster battery depletion
+		HTC desire: 
+			-the results are sometimes doubled?
+			-light/proximity results
+				-proximity may be based on light
+				-it's probably not no_light/light related ?
+					- i tried to shown it in experiments
+
+		new idea, experiments - offloading it to cloud, Google Nexus 7:
+			-connected accelerometer:	661
+			-connected WiFiScan:		601	
+
+		conlusions:
+			-physical sensors are alwasy in the group of cheapest 
+			-bluetooth - proximity the same, the cheapest group
+				exactly what industry does
+			-microphone good results as well, people try to utilize it(research community)
+				reference to Ambient sound thing
+				however it's not always the chepeast
+			-"the order" differest among devices
+				e.g. microphone is in different category
+				gives the reason for online measurement
+				diallows the usage of power models
+					(need to look further into how they are built)
+				related to fragmentation problem?!
+
+			-should i draw any conlusions on order between physical sensors?
+
+	Apps:
+		-SensorGraphPlotter -helped app printin live accelerometer data
+			-sliding window 5000 gives 2.5 minutes
+			-total accerleration magnitude used
+		-baseline implementation of indoor localization
+			-client: 
+				-continous scanning netowork and send results over the web - WifiNavigator
+				-battery performance: again 1% battery depletion is being measured
+			-backend
+				-checks if there is given BSSID in results, if so -> CS network; if not-> no CS network
+		-inLocy
+			-started skeleton
+			-first checks whether user is moving and if yes, WiFINavigator is used
+				-algorithm for activity recognition is being copied form EmotionSense
+
+
+
+	Concerns/Ideas:
+		-accuracy if we provide that we have WiFi fingerprints and mapping function
+			-how to compare it with accuracy accelerometer gives?
+?		-utility issue in my previous research idea
+			no assistance, but location information still may be used in other ways -> predictive intelligence
+		-new hypothesis: Android requires different energy measurement than Power model software as fragmentation problem for Android
+			-this is crucial in case of physical sensors
+			-look more on how power models work?
+		-new thought: security concern about user tracking - no need for ask for permision about accleromete/magnetic field etc.
+			-does it enable user tracking?
+		
+
+
