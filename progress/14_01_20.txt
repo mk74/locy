@@ -98,6 +98,46 @@ I have done:
 			-look more on how power models work?
 		-new thought: security concern about user tracking - no need for ask for permision about accleromete/magnetic field etc.
 			-does it enable user tracking?
+
+Feedback:
+	camera app, need to have preview:
+		camera uses additional energy <- speculate as we can't compare
+		we are forced to render even if you don't need it
+			^^ the reason why i want to have energy aware API
+
+	htc desire, light/proximity sensor
+TODO	find out more on that in terms of hardware
+			do they have different than in HTC flyer (they were bought by the departament at the same time)
+		discussed imitating light/proximity sensor by camera 	
+
+	issue of using bluetooth
+		in research community, it is sued for sacnning and proxmity mainly, and not transmitting data
+			e.g. detect whether social environment(more people/less people around) is changed
+
+	discussed a bit what kind of sensing could be done with microphone
+		"Tapping into the Vibe of the city using VibN, a continuous sesning application for smathphones"
+
+
+	offloading profiling devices to cloud
+		if "the order" differs across mobile phones, profiling could be done in cloud 
+			does Google Activity Recognition do it ?
+		how to do it without any privacy reveal <- future work section of my dissertation
+
+	talked through test scenarios:
+		-baseline:	both are always moving - excatly in the same way -> energy perfomance should be similar
+		-another scenario: walking for a while, sitting for a while and so on -> smart solution should be more energy-efficient
+		-repeat those experiments across devices
+
+	general "to do":
+		-more focused on actual work/output than research
+		-write inLocy, activity recognition in it - simple one
+		-run two test scenarios across all devices
+		-visualize earlier experiments
+
+
+
+
+
 		
 
 
