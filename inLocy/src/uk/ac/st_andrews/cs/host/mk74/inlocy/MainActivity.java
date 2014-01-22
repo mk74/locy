@@ -38,12 +38,9 @@ public class MainActivity extends Activity {
 		TimerTask readValues = new TimerTask() {
 			@Override
 			public void run() {
-				final String output = "Location: " + inLocyNavigator.getLocation() + " | " +
-								"WiFiNavigator running:" +inLocyNavigator.getWifiNavigator().isRunning()+ "\n" +
-								"isMoving: " + inLocyNavigator.getActivityRecognition().isMoving() + "\n" +
-								"Battery level: " + batteryEvaluator.getBatteryLevel() + " | " +
-								"Time difference: " + batteryEvaluator.getTimeDifference() + "\n";
-				System.out.println(output);
+				final String output = inLocyNavigator.getInfo() 
+								+ batteryEvaluator.getInfo();
+//				System.out.println(output);
 				runOnUiThread(new Runnable(){
                     @Override
                     public void run() {

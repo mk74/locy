@@ -49,16 +49,18 @@ public class InLocyNavigator {
 			return wifiNavigator.getLocation();
 	}
 	
-	public WiFiNavigator getWifiNavigator() {
-		return wifiNavigator;
-	}
-	
 	public ActivityRecognition getActivityRecognition() {
 		return activityRecognition;
 	}
 
 	public boolean isRunning() {
 		return running;
+	}
+
+	public String getInfo() {
+		return "Location: " + getLocation() + " | " +
+				"WiFiNavigator running:" + wifiNavigator.isRunning()+ "\n" +
+				activityRecognition.getInfo();
 	}
 
 }

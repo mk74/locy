@@ -60,4 +60,8 @@ public class ActivityRecognition {
 	public boolean isMoving() {
 		return moving;
 	}
+
+	public String getInfo() {
+		return accelerometerDataClasifier.getInfo();
+	}
 }
