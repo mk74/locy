@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		System.out.println("inPlace"); //assumes that user is in place first
+//		System.out.println("First_new activity: inPlace"); //assumes that user is in place first
 		
 		//register accelerometer listener + print its data with time
 		SensorManager mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
@@ -32,12 +32,12 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onSensorChanged(SensorEvent event) {
-				System.out.println("Time: " + System.currentTimeMillis() + "Values: " + event.values[0] + " " + event.values[1] + " " + event.values[2]);
+				System.out.println("Time: " + System.currentTimeMillis() + " Value: " + calcMagnitude(event.values));
 			}
 			
 		}
-		int rate = 0;
-		mSensorManager.registerListener(new EmptySensorEventListener(), mAccelerometer, rate);
+		
+		mSensorManager.registerListener(new EmptySensorEventListener(), mAccelerometer, SensorManager.SENSOR_DELAY_GAME);
 		
 		Window w = getWindow();
 		w.setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON, 
@@ -53,10 +53,10 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				if(isMoving){
-					System.out.println("inPlace");
+//					System.out.println("new activity: inPlace");
 					isMoving = false;
 				}else{
-					System.out.println("Moving");
+//					System.out.println("new activity: Moving");
 					isMoving = true;
 				}
 				
@@ -70,6 +70,13 @@ public class MainActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
+	}
+	
+	private Double calcMagnitude(float[] values) {
+		double magnitude = 0;
+		for(int i=0; i<3; i++)
+			magnitude += Math.pow(values[i], 2);
+		return magnitude;
 	}
 
 }
