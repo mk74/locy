@@ -11,7 +11,8 @@ import android.view.WindowManager;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
-	public static double SCREEN_UDPATE_FREQUENCY = 0.5;
+	public static boolean EXPERIMENT_ON = true;
+	public static double SCREEN_UDPATE_FREQUENCY = 3.0; // 3.0 - experiment, 0.5 - debugging
 
 	BatteryEvaluator batteryEvaluator;
 	InLocyNavigator inLocyNavigator;
@@ -39,15 +40,31 @@ public class MainActivity extends Activity {
 			@Override
 			public void run() {
 				final String output = inLocyNavigator.getInfo() 
-								+ batteryEvaluator.getInfo();
-//				System.out.println(output);
-				runOnUiThread(new Runnable(){
-                    @Override
-                    public void run() {
-                    	TextView tv = (TextView) findViewById(R.id.textView1);
-                    	tv.setText(output);
-                    }
-				});
+						  + batteryEvaluator.getInfo();
+				System.out.println(output);
+				
+				if(EXPERIMENT_ON){
+					//only update screen if the experiment is over
+					if(batteryEvaluator.getTimeDifference()!=-1){
+						runOnUiThread(new Runnable(){
+	                    	@Override
+	                    	public void run() {
+	                    		TextView tv = (TextView) findViewById(R.id.textView1);
+	                    		tv.setText(output);
+	                    	}
+						});
+					}
+				}else{
+					runOnUiThread(new Runnable(){
+                    	@Override
+                    	public void run() {
+                    		TextView tv = (TextView) findViewById(R.id.textView1);
+                    		tv.setText(output);
+                    	}
+					});
+				};
+				
+				
 			}
 		};
 		Timer timer = new Timer();

@@ -31,7 +31,6 @@ public class AccelerometerDataClassifier {
 		//check whether window is complete
 		if(windowDurationTime >= WINDOW_TIME_MILLISECS){
 			//classify current window
-			System.out.println("FULL WINDOW");
 			classify();
 			
 			//clear before next window
@@ -66,7 +65,6 @@ public class AccelerometerDataClassifier {
 		double mean = calcMean();
 		double standard_deviation = calcStandardDeviation(mean);
 		lastStandardDeviation = standard_deviation;
-		System.out.println("Standard deviation: " + standard_deviation);
 		
 		if(standard_deviation > MOVEMENT_THRESHOLD)
 			predictedMoving++;

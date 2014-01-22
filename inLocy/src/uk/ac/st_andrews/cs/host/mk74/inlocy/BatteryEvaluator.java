@@ -43,6 +43,7 @@ public class BatteryEvaluator {
 				}
 				if(batteryLevelStartTime != null && batteryLevelEndTime != null){
 					timeDifference = (int) ((batteryLevelEndTime.getTime() - batteryLevelStartTime.getTime()) / 1000);
+					System.out.println("timeDifference: " + timeDifference);
 				}
 			}
 
