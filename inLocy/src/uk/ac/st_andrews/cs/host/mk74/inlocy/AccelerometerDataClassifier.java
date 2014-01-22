@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class AccelerometerDataClassifier {
 	private static final double MOVEMENT_THRESHOLD = 15.0;
-	private static final int WINDOW_SIZE = 550;
+	private static final int WINDOW_TIME_MILLISECS = 2666;
 	private static final int WINDOW_N = 3; 
 	
 	private int predictedMoving = 0;
@@ -13,16 +13,33 @@ public class AccelerometerDataClassifier {
 	private double lastStandardDeviation = 0.0; //only for debugging(printing values in real time)
 	
 	private boolean moving=true;
-	ArrayList<Double> magnitudes = new ArrayList<Double>();
+	private long timeWindowStart = 0;
+	private ArrayList<Long> timestamps = new ArrayList<Long>();
+	private ArrayList<Double> magnitudes = new ArrayList<Double>();
 
 	public boolean add(float[] values) {
 		//todo race condtion
+		
+		//add new fixtures
+		long currentTime = System.currentTimeMillis();
+		if(timeWindowStart==0)
+			timeWindowStart = currentTime;
+		timestamps.add(currentTime);
 		magnitudes.add(calcMagnitude(values));
-		if(magnitudes.size() == WINDOW_SIZE){
+		long windowDurationTime = currentTime - timeWindowStart;
+		
+		//check whether window is complete
+		if(windowDurationTime >= WINDOW_TIME_MILLISECS){
+			//classify current window
 			System.out.println("FULL WINDOW");
 			classify();
+			
+			//clear before next window
+			timeWindowStart=0;
+			timestamps.clear();
 			magnitudes.clear();
 			
+			//check whether enough windows check to interference
 			leftWindowN--;
 			if(leftWindowN == 0){
 				if(predictedMoving>0){
