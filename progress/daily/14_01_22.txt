@@ -1,0 +1,18 @@
+Progress:
+	-updated meeting file
+	-worked on movement classification
+		-generated inPlace and moving tracks
+		-worked on shell how to process it(split, sed, awk)
+		-apply in RStudio algorithms mentioned in EmotionSense
+			-understood algorithm and its sliding window features
+	-inLocy:
+		-introduce sliding window size and measuring movement across a couple of windows
+		-window size was defined basing on amount of samples, not a time passed
+		-different amount of accelerometer samples per sec across different devices, so we need notion of time
+			-as it is done in EmotionSense
+		-I introduced notion of time, whole thing works across many devices
+		-polishing app for experiments(special mode and small details)
+	-experiments
+		-setting up path for both scenarios
+		-think how to do it efficiently(all devices at once)
+	
