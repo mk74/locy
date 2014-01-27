@@ -39,8 +39,7 @@ public class MainActivity extends Activity {
 			public void run() {
 				final String output = "Location: " + wifiNavigator.getLocation() + " | " +
 								"WiFiNavigator running:" +wifiNavigator.isRunning()+ "\n" +
-								"Battery level: " + batteryEvaluator.getBatteryLevel() + " | " +
-								"Time difference: " + batteryEvaluator.getTimeDifference() + "\n";
+								batteryEvaluator.getInfo();
 				System.out.println(output);
 				runOnUiThread(new Runnable(){
                     @Override

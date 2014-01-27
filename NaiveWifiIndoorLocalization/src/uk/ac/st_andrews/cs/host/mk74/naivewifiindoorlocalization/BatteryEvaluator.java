@@ -70,4 +70,10 @@ public class BatteryEvaluator {
 	public int getBatteryLevel() {
 		return batteryLevel;
 	}
+	
+	public String getInfo() {
+		return "Battery level: " + getBatteryLevel() + " | " +
+				"Time difference: " + getTimeDifference() + "\n";
+
+	}
 }

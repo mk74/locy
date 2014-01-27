@@ -58,9 +58,11 @@ public class InLocyNavigator {
 	}
 
 	public String getInfo() {
-		return "Location: " + getLocation() + " | " +
-				"WiFiNavigator running:" + wifiNavigator.isRunning()+ "\n" +
-				activityRecognition.getInfo();
+		String output = "Location: " + getLocation() + " | " +
+						"WiFiNavigator running:" + wifiNavigator.isRunning()+ "\n";
+		if(!MainActivity.EXPERIMENT_ON)
+			output+=activityRecognition.getInfo();
+		return output;
 	}
 
 }
