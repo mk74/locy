@@ -21,8 +21,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
-		//set up components: WiFiNavigator and BatteryEvaluator
-		
+		//set up components: WiFiNavigator and BatteryEvaluator	
 		inLocyNavigator = new InLocyNavigator(getApplicationContext());
 		batteryEvaluator = new BatteryEvaluator(getApplicationContext());
 		inLocyNavigator.start();
@@ -42,29 +41,14 @@ public class MainActivity extends Activity {
 				final String output = inLocyNavigator.getInfo() 
 						  + batteryEvaluator.getInfo();
 				System.out.println(output);
-				
-				if(EXPERIMENT_ON){
-					//only update screen if the experiment is over
-					if(batteryEvaluator.getTimeDifference()!=-1){
-						runOnUiThread(new Runnable(){
-	                    	@Override
-	                    	public void run() {
-	                    		TextView tv = (TextView) findViewById(R.id.textView1);
-	                    		tv.setText(output);
-	                    	}
-						});
-					}
-				}else{
-					runOnUiThread(new Runnable(){
-                    	@Override
-                    	public void run() {
-                    		TextView tv = (TextView) findViewById(R.id.textView1);
-                    		tv.setText(output);
-                    	}
-					});
-				};
-				
-				
+								
+				runOnUiThread(new Runnable(){
+                    @Override
+                    public void run() {
+                    	TextView tv = (TextView) findViewById(R.id.textView1);
+                    	tv.setText(output);
+                    }
+				});				
 			}
 		};
 		Timer timer = new Timer();

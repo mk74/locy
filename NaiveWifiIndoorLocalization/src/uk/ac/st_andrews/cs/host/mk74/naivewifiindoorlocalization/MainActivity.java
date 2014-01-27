@@ -11,7 +11,7 @@ import android.view.WindowManager;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
-	public static double SCREEN_UDPATE_FREQUENCY = 0.5;
+	public static double SCREEN_UDPATE_FREQUENCY = 3.0; // 3.0 - experiment, 0.5 - debugging
 
 	WiFiNavigator wifiNavigator;
 	BatteryEvaluator batteryEvaluator;
@@ -41,6 +41,7 @@ public class MainActivity extends Activity {
 								"WiFiNavigator running:" +wifiNavigator.isRunning()+ "\n" +
 								batteryEvaluator.getInfo();
 				System.out.println(output);
+				
 				runOnUiThread(new Runnable(){
                     @Override
                     public void run() {
