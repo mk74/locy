@@ -1,0 +1,1872 @@
+--------- beginning of /dev/log/main
+01-27 18:09:15.633 D/KeyguardViewMediator(  173): wakeWhenReadyLocked(26)
+01-27 18:09:15.633 I/power   (  173): *** set_screen_state 1
+01-27 18:09:15.653 D/SurfaceFlinger(  173): Screen about to return, flinger = 0x94808
+01-27 18:09:15.673 D/AK8973  (  121): Compass Start
+01-27 18:09:15.843 I/InputReader(  173): Device reconfigured: id=0x20002, name=synaptics-rmi-touchscreen, display size is now 480x800
+--------- beginning of /dev/log/system
+01-27 18:09:15.843 I/InputManager-Callbacks(  173): No virtual keys found for device synaptics-rmi-touchscreen.
+01-27 18:09:17.125 I/ActivityManager(  173): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=611 uid=1000 gids={1015, 3002, 3001, 3003}
+01-27 18:09:17.565 D/dalvikvm(  611): GC_CONCURRENT freed 402K, 54% free 2602K/5639K, external 0K/0K, paused 3ms+8ms
+01-27 18:09:17.605 D/szipinf (  611): Initializing inflate state
+01-27 18:09:17.755 D/SettingsAppWidgetProvider(  611): Widget is from a previous version... Let's update
+01-27 18:09:17.755 D/SettingsAppWidgetProvider(  611): No instances yet... Wait for at least one instance to exist before adding global settings
+01-27 18:09:17.995 I/ActivityManager(  173): No longer want com.android.providers.calendar (pid 419): hidden #16
+01-27 18:09:19.997 D/dalvikvm(  244): GC_EXTERNAL_ALLOC freed 204K, 50% free 2895K/5767K, external 838K/993K, paused 44ms
+01-27 18:09:21.339 D/SettingsAppWidgetProvider(  611): Widget is from a previous version... Let's update
+01-27 18:09:21.349 D/SettingsAppWidgetProvider(  611): No instances yet... Wait for at least one instance to exist before adding global settings
+01-27 18:09:24.101 W/InputManagerService(  173): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4086dfe0
+01-27 18:09:24.792 D/Tethering(  173): eth0 is not a tetherable iface, ignoring
+01-27 18:09:25.833 D/WifiService(  173): ACTION_BATTERY_CHANGED pluggedType: 2
+01-27 18:09:25.853 D/SettingsAppWidgetProvider(  611): Widget is from a previous version... Let's update
+01-27 18:09:25.863 D/SettingsAppWidgetProvider(  611): No instances yet... Wait for at least one instance to exist before adding global settings
+01-27 18:09:26.984 V/WifiStateTracker(  173): Connection to supplicant established, state=DISCONNECTED
+01-27 18:09:27.004 D/ConnectivityService(  173): ConnectivityService::handleDisconnect() - disconnecting netType(1)
+01-27 18:09:27.004 D/ConnectivityService(  173): ConnectivityService::handleDisconnect() - netType(1) attempting failover
+01-27 18:09:27.004 E/ConnectivityService(  173): not failing over to mobile type 0 because Mobile Data Disabled
+01-27 18:09:27.004 E/ConnectivityService(  173): not failing over to mobile type 2 because Mobile Data Disabled
+01-27 18:09:27.004 E/ConnectivityService(  173): not failing over to mobile type 3 because Mobile Data Disabled
+01-27 18:09:27.004 E/ConnectivityService(  173): not failing over to mobile type 4 because Mobile Data Disabled
+01-27 18:09:27.004 E/ConnectivityService(  173): not failing over to mobile type 5 because Mobile Data Disabled
+01-27 18:09:27.004 V/SyncManager(  173): SyncManager::mConnectivityIntentReceiver.onReceive() - DISCONNECTED and no connectivity
+01-27 18:09:27.004 D/Tethering(  173): MasterInitialState.processMessage what=3
+01-27 18:09:27.004 E/ConnectivityService(  173): Network failover failing.
+01-27 18:09:27.034 I/ActivityManager(  173): Start proc com.cyanogenmod.stats for broadcast com.cyanogenmod.stats/.ReportingServiceManager: pid=629 uid=10010 gids={3003}
+01-27 18:09:27.044 I/wpa_supplicant(  625): CTRL-EVENT-STATE-CHANGE id=-1 state=2 BSSID=00:00:00:00:00:00
+01-27 18:09:27.044 V/WifiMonitor(  173): Event [CTRL-EVENT-STATE-CHANGE id=-1 state=2 BSSID=00:00:00:00:00:00]
+01-27 18:09:27.044 V/WifiStateTracker(  173): Changing supplicant state: DISCONNECTED ==> SCANNING
+01-27 18:09:27.084 E/jdwp    (  629): Failed sending reply to debugger: Broken pipe
+01-27 18:09:27.084 D/dalvikvm(  629): Debugger has detached; object registry had 1 entries
+01-27 18:09:27.134 D/CMStats (  629): CONNECTIVITY_ACTION: noConnectivity = true
+01-27 18:09:27.144 I/ActivityManager(  173): No longer want com.android.deskclock (pid 452): hidden #16
+01-27 18:09:27.194 I/MediaUploader(  555): No need to wake up
+01-27 18:09:27.304 D/dalvikvm(  316): GC_CONCURRENT freed 457K, 53% free 2824K/5959K, external 82K/512K, paused 3ms+2ms
+01-27 18:09:27.345 D/GTalkService(  316): [RawStanzaProvidersMgr] ##### searchProvidersFromIntent
+01-27 18:09:27.355 D/GTalkService(  316): [RawStanzaProvidersMgr] no intent receivers found
+01-27 18:09:27.405 D/GTalkService(  316): ##### Network broadcast (connected=false) type=WIFI, state=DISCONNECTED
+01-27 18:09:27.465 D/dalvikvm(  371): GC_CONCURRENT freed 359K, 54% free 2644K/5703K, external 0K/0K, paused 2ms+42ms
+01-27 18:09:27.635 I/wpa_supplicant(  625): Trying to associate with 9c:4e:20:c8:b0:f1 (SSID='cs' freq=2447 MHz)
+01-27 18:09:27.645 I/wpa_supplicant(  625): CTRL-EVENT-STATE-CHANGE id=-1 state=3 BSSID=9c:4e:20:c8:b0:f1
+01-27 18:09:27.775 V/WifiMonitor(  173): Event [Trying to associate with 9c:4e:20:c8:b0:f1 (SSID='cs' freq=2447 MHz)]
+01-27 18:09:27.775 V/WifiMonitor(  173): Event [CTRL-EVENT-STATE-CHANGE id=-1 state=3 BSSID=9c:4e:20:c8:b0:f1]
+01-27 18:09:27.785 I/wpa_supplicant(  625): CTRL-EVENT-STATE-CHANGE id=0 state=4 BSSID=9c:4e:20:c8:b0:f1
+01-27 18:09:27.785 V/WifiMonitor(  173): Event [CTRL-EVENT-STATE-CHANGE id=0 state=4 BSSID=9c:4e:20:c8:b0:f1]
+01-27 18:09:27.785 I/wpa_supplicant(  625): Associated with 9c:4e:20:c8:b0:f1
+01-27 18:09:27.795 V/WifiMonitor(  173): Event [Associated with 9c:4e:20:c8:b0:f1]
+01-27 18:09:27.795 I/wpa_supplicant(  625): CTRL-EVENT-EAP-STARTED EAP authentication started
+01-27 18:09:27.795 V/WifiMonitor(  173): Event [CTRL-EVENT-EAP-STARTED EAP authentication started]
+01-27 18:09:27.795 V/WifiStateTracker(  173): Changing supplicant state: SCANNING ==> ASSOCIATING
+01-27 18:09:27.805 V/WifiStateTracker(  173): Changing supplicant state: ASSOCIATING ==> ASSOCIATED
+01-27 18:09:27.815 I/wpa_supplicant(  625): CTRL-EVENT-EAP-METHOD EAP vendor 0 method 25 (PEAP) selected
+01-27 18:09:27.815 V/WifiMonitor(  173): Event [CTRL-EVENT-EAP-METHOD EAP vendor 0 method 25 (PEAP) selected]
+01-27 18:09:28.175 I/wpa_supplicant(  625): EAP-MSCHAPV2: Authentication succeeded
+01-27 18:09:28.185 I/wpa_supplicant(  625): EAP-TLV: TLV Result - Success - EAP-TLV/Phase2 Completed
+01-27 18:09:28.195 I/wpa_supplicant(  625): CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+01-27 18:09:28.195 V/WifiMonitor(  173): Event [CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully]
+01-27 18:09:28.195 I/wpa_supplicant(  625): CTRL-EVENT-STATE-CHANGE id=0 state=5 BSSID=00:00:00:00:00:00
+01-27 18:09:28.205 V/WifiMonitor(  173): Event [CTRL-EVENT-STATE-CHANGE id=0 state=5 BSSID=00:00:00:00:00:00]
+01-27 18:09:28.205 V/WifiStateTracker(  173): Changing supplicant state: ASSOCIATED ==> FOUR_WAY_HANDSHAKE
+01-27 18:09:28.245 I/wpa_supplicant(  625): CTRL-EVENT-STATE-CHANGE id=0 state=5 BSSID=00:00:00:00:00:00
+01-27 18:09:28.245 V/WifiMonitor(  173): Event [CTRL-EVENT-STATE-CHANGE id=0 state=5 BSSID=00:00:00:00:00:00]
+01-27 18:09:28.245 V/WifiStateTracker(  173): Changing supplicant state: FOUR_WAY_HANDSHAKE ==> FOUR_WAY_HANDSHAKE
+01-27 18:09:28.245 I/wpa_supplicant(  625): CTRL-EVENT-STATE-CHANGE id=0 state=6 BSSID=00:00:00:00:00:00
+01-27 18:09:28.255 I/wpa_supplicant(  625): WPA: Key negotiation completed with 9c:4e:20:c8:b0:f1 [PTK=CCMP GTK=CCMP]
+01-27 18:09:28.255 I/wpa_supplicant(  625): CTRL-EVENT-STATE-CHANGE id=0 state=7 BSSID=00:00:00:00:00:00
+01-27 18:09:28.255 I/wpa_supplicant(  625): CTRL-EVENT-CONNECTED - Connection to 9c:4e:20:c8:b0:f1 completed (auth) [id=0 id_str=]
+01-27 18:09:28.255 V/WifiMonitor(  173): Event [CTRL-EVENT-STATE-CHANGE id=0 state=6 BSSID=00:00:00:00:00:00]
+01-27 18:09:28.265 V/WifiStateTracker(  173): Changing supplicant state: FOUR_WAY_HANDSHAKE ==> GROUP_HANDSHAKE
+01-27 18:09:28.265 V/WifiMonitor(  173): Event [WPA: Key negotiation completed with 9c:4e:20:c8:b0:f1 [PTK=CCMP GTK=CCMP]]
+01-27 18:09:28.265 V/WifiMonitor(  173): Event [CTRL-EVENT-STATE-CHANGE id=0 state=7 BSSID=00:00:00:00:00:00]
+01-27 18:09:28.275 V/WifiStateTracker(  173): Changing supplicant state: GROUP_HANDSHAKE ==> COMPLETED
+01-27 18:09:28.275 V/WifiMonitor(  173): Event [CTRL-EVENT-CONNECTED - Connection to 9c:4e:20:c8:b0:f1 completed (auth) [id=0 id_str=]]
+01-27 18:09:28.275 V/WifiStateTracker(  173): New network state is CONNECTED
+01-27 18:09:28.285 D/WifiStateTracker(  173): DhcpHandler: DHCP request started
+01-27 18:09:30.297 V/WifiStateTracker(  173): DhcpHandler: DHCP request succeeded
+01-27 18:09:30.317 V/WifiStateTracker(  173): IP configuration: ipaddr 138.251.207.56 gateway 138.251.207.1 netmask 255.255.255.0 dns1 138.251.206.2 dns2 138.251.206.3 DHCP server 138.251.206.25 lease 7200 seconds
+01-27 18:09:30.317 D/ConnectivityService(  173): ConnectivityService::handleConnect() - type = 1
+01-27 18:09:30.327 D/ConnectivityService(  173): ConnectivityService::handleConnect() - is failover = false
+01-27 18:09:30.327 D/ConnectivityService(  173): ConnectivityService::handleConnect() - type[1] is default, current active default = -1
+01-27 18:09:30.367 D/Tethering(  173): MasterInitialState.processMessage what=3
+01-27 18:09:30.367 D/WifiWatchdogService(  173): (android.server.ServerThread) cs (9c:4e:20:c8:b0:f1) does not require the watchdog
+01-27 18:09:30.377 D/GTalkService(  316): ##### Network broadcast (connected=true) type=WIFI, state=CONNECTED
+01-27 18:09:30.377 D/CMStats (  629): CONNECTIVITY_ACTION: noConnectivity = false
+01-27 18:09:30.377 D/CMStats (  629): CONNECTIVITY_ACTION: starting service
+01-27 18:09:30.428 I/MediaUploader(  555): No need to wake up
+01-27 18:09:30.548 D/dalvikvm(  629): GC_CONCURRENT freed 456K, 55% free 2545K/5639K, external 0K/0K, paused 3ms+2ms
+01-27 18:09:30.568 V/NotificationService(  173): Active profile: Default
+01-27 18:09:30.568 I/PROFILE (  173): Group: Gmail containing : com.cyanogenmod.stats : false
+01-27 18:09:30.568 I/PROFILE (  173): Group: Phone containing : com.cyanogenmod.stats : false
+01-27 18:09:30.568 I/PROFILE (  173): Group: Calendar containing : com.cyanogenmod.stats : false
+01-27 18:09:30.568 I/PROFILE (  173): Group: Email containing : com.cyanogenmod.stats : false
+01-27 18:09:30.568 I/PROFILE (  173): Group: SMS containing : com.cyanogenmod.stats : false
+01-27 18:09:30.568 V/ProfileManager(  173): No active group, returning default: Other
+01-27 18:09:30.568 V/NotificationService(  173): Pkg: com.cyanogenmod.stats group: Other
+01-27 18:09:30.568 D/CMStats (  629): Prompting user for opt-in.
+01-27 18:09:30.598 D/dalvikvm(  316): GC_CONCURRENT freed 557K, 54% free 2821K/6023K, external 0K/512K, paused 2ms+22ms
+01-27 18:09:30.808 D/dalvikvm(  173): GC_CONCURRENT freed 966K, 49% free 4853K/9479K, external 3026K/3183K, paused 5ms+5ms
+01-27 18:09:30.858 D/GpsLocationProvider(  173): NTP server returned: 1390846035814 (Mon Jan 27 18:07:15 GMT 2014) reference: 426876 certainty: 42 system time offset: -135044
+01-27 18:09:30.868 D/lib_locapi(  173): loc_eng_inject_time, uncertainty = 42
+01-27 18:09:30.868 D/lib_locapi(  173): loc_eng_inject_time failed
+01-27 18:09:35.523 D/dalvikvm(  371): GC_EXPLICIT freed 43K, 55% free 2619K/5703K, external 0K/0K, paused 63ms
+01-27 18:09:40.537 D/dalvikvm(  555): GC_EXPLICIT freed 10K, 56% free 2529K/5639K, external 0K/0K, paused 83ms
+01-27 18:09:50.657 D/AndroidRuntime(  675): 
+01-27 18:09:50.657 D/AndroidRuntime(  675): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-27 18:09:50.657 I/AndroidRuntime(  675): Heap size: -Xmx32m
+01-27 18:09:50.657 D/AndroidRuntime(  675): CheckJNI is OFF
+01-27 18:09:50.657 D/dalvikvm(  675): creating instr width table
+01-27 18:09:50.877 D/AndroidRuntime(  675): Calling main entry com.android.commands.pm.Pm
+01-27 18:09:50.898 I/ActivityManager(  173): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=683 uid=10030 gids={1015, 2001}
+01-27 18:09:51.028 D/dalvikvm(  683): GC_EXPLICIT freed 298K, 55% free 2534K/5511K, external 0K/0K, paused 33ms
+01-27 18:09:51.788 W/ActivityManager(  173): No content provider found for: 
+01-27 18:09:51.939 W/ActivityManager(  173): No content provider found for: 
+01-27 18:09:51.959 D/PackageParser(  173): Scanning package: /data/app/vmdl-219743140.tmp
+01-27 18:09:52.109 I/PackageManager(  173): Removing non-system package:uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization
+01-27 18:09:52.109 I/ActivityManager(  173): Force stopping package uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization uid=10068
+01-27 18:09:52.219 D/PackageManager(  173): Scanning package uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization
+01-27 18:09:52.219 I/PackageManager(  173): Package uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization codePath changed from /data/app/uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization-1.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization-2.apk; Retaining data and using new
+01-27 18:09:52.219 I/PackageManager(  173): Unpacking native libraries for /data/app/uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization-2.apk
+01-27 18:09:52.249 D/installd(  119): DexInv: --- BEGIN '/data/app/uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization-2.apk' ---
+01-27 18:09:52.549 D/dalvikvm(  692): creating instr width table
+01-27 18:09:52.779 D/dalvikvm(  692): DexOpt: couldn't find field Landroid/graphics/BitmapFactory$Options;.inMutable
+01-27 18:09:52.980 D/dalvikvm(  692): DexOpt: load 51ms, verify+opt 288ms
+01-27 18:09:53.120 D/installd(  119): DexInv: --- END '/data/app/uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization-2.apk' (success) ---
+01-27 18:09:53.120 I/ActivityManager(  173): Force stopping package uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization uid=10068
+01-27 18:09:53.120 W/PackageManager(  173): Code path for pkg : uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization changing from /data/app/uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization-1.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization-2.apk
+01-27 18:09:53.130 D/PackageManager(  173):   Activities: uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization.MainActivity
+01-27 18:09:53.130 W/PackageManager(  173): Resource path for pkg : uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization changing from /data/app/uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization-1.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization-2.apk
+01-27 18:09:53.270 I/installd(  119): move /data/dalvik-cache/data@app@uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization-2.apk@classes.dex -> /data/dalvik-cache/data@app@uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization-2.apk@classes.dex
+01-27 18:09:53.270 D/PackageManager(  173): New package installed in /data/app/uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization-2.apk
+01-27 18:09:53.420 I/ActivityManager(  173): Force stopping package uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization uid=10068
+01-27 18:09:53.510 D/dalvikvm(  287): GC_EXPLICIT freed 173K, 54% free 3041K/6599K, external 3487K/4264K, paused 65ms
+01-27 18:09:53.560 D/szipinf (  173): Initializing inflate state
+01-27 18:09:53.560 D/HomeLoaders(  287): application intent received: android.intent.action.PACKAGE_REMOVED, replacing=true
+01-27 18:09:53.560 D/HomeLoaders(  287):   --> package:uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization
+01-27 18:09:53.590 D/szipinf (  173): Initializing inflate state
+01-27 18:09:53.610 D/dalvikvm(  495): GC_EXPLICIT freed 153K, 59% free 2946K/7047K, external 0K/0K, paused 86ms
+01-27 18:09:53.610 D/HomeLoaders(  287): application intent received: android.intent.action.PACKAGE_ADDED, replacing=true
+01-27 18:09:53.610 D/HomeLoaders(  287):   --> package:uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization
+01-27 18:09:53.610 D/HomeLoaders(  287):   --> update package uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization
+01-27 18:09:53.630 I/ActivityManager(  173): Start proc com.android.vending for broadcast com.android.vending/com.google.android.finsky.receivers.PersistentPackageMonitorReceiver: pid=693 uid=10029 gids={3003, 1015}
+01-27 18:09:53.660 D/szipinf (  173): Initializing inflate state
+01-27 18:09:53.740 D/dalvikvm(  116): GC_EXPLICIT freed 11K, 54% free 2499K/5379K, external 0K/0K, paused 107ms
+01-27 18:09:53.800 D/dalvikvm(  116): GC_EXPLICIT freed <1K, 54% free 2499K/5379K, external 0K/0K, paused 57ms
+01-27 18:09:53.870 D/dalvikvm(  116): GC_EXPLICIT freed <1K, 54% free 2499K/5379K, external 0K/0K, paused 57ms
+01-27 18:09:53.870 D/dalvikvm(  173): GC_EXPLICIT freed 897K, 50% free 4772K/9479K, external 35K/547K, paused 126ms
+01-27 18:09:53.870 W/RecognitionManagerService(  173): no available voice recognition services found
+01-27 18:09:53.910 D/szipinf (  173): Initializing inflate state
+01-27 18:09:53.981 D/szipinf (  173): Initializing inflate state
+01-27 18:09:54.061 D/szipinf (  173): Initializing inflate state
+01-27 18:09:54.101 I/installd(  119): unlink /data/dalvik-cache/data@app@uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization-1.apk@classes.dex
+01-27 18:09:54.101 D/szipinf (  173): Initializing inflate state
+01-27 18:09:54.141 D/dalvikvm(  693): GC_CONCURRENT freed 411K, 55% free 2593K/5639K, external 0K/0K, paused 3ms+12ms
+01-27 18:09:54.181 D/AndroidRuntime(  675): Shutting down VM
+01-27 18:09:54.181 D/dalvikvm(  675): GC_CONCURRENT freed 102K, 71% free 299K/1024K, external 0K/0K, paused 0ms+4ms
+01-27 18:09:54.191 D/jdwp    (  675): Got wake-up signal, bailing out of select
+01-27 18:09:54.191 D/dalvikvm(  675): Debugger has detached; object registry had 1 entries
+01-27 18:09:54.191 I/AndroidRuntime(  675): NOTE: attach of thread 'Binder Thread #3' failed
+01-27 18:09:54.221 I/ActivityThread(  693): Pub com.google.android.finsky.RecentSuggestionsProvider: com.google.android.finsky.providers.RecentSuggestionsProvider
+01-27 18:09:54.451 D/dalvikvm(  693): GC_CONCURRENT freed 296K, 52% free 2784K/5767K, external 0K/0K, paused 3ms+17ms
+01-27 18:09:54.521 D/Finsky  (  693): [1] SanityChecker.run: # LocalAssets corrected : 0
+01-27 18:09:54.521 D/Finsky  (  693): Sanity check took : 13 ms
+01-27 18:09:54.551 I/ActivityManager(  173): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.UninstallReceiver: pid=722 uid=10052 gids={1015, 3003}
+01-27 18:09:54.561 I/ActivityManager(  173): No longer want com.android.email (pid 461): hidden #16
+01-27 18:09:54.601 D/AndroidRuntime(  716): 
+01-27 18:09:54.601 D/AndroidRuntime(  716): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+01-27 18:09:54.601 I/AndroidRuntime(  716): Heap size: -Xmx32m
+01-27 18:09:54.601 D/AndroidRuntime(  716): CheckJNI is OFF
+01-27 18:09:54.601 D/dalvikvm(  716): creating instr width table
+01-27 18:09:54.761 D/szipinf (  722): Initializing inflate state
+01-27 18:09:54.861 I/ActivityManager(  173): Start proc com.tmobile.thememanager for broadcast com.tmobile.thememanager/.receiver.ThemePackageReceiver: pid=735 uid=1300 gids={-1}
+01-27 18:09:54.861 I/ActivityManager(  173): No longer want com.android.mms (pid 473): hidden #16
+01-27 18:09:54.951 D/AndroidRuntime(  716): Calling main entry com.android.commands.am.Am
+01-27 18:09:55.012 I/ActivityManager(  173): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization/.MainActivity } from pid 716
+01-27 18:09:55.052 I/ActivityThread(  735): Pub com.tmobile.thememanager.themes: com.tmobile.thememanager.provider.ThemesProvider
+01-27 18:09:55.072 D/AndroidRuntime(  716): Shutting down VM
+01-27 18:09:55.092 I/AndroidRuntime(  716): NOTE: attach of thread 'Binder Thread #3' failed
+01-27 18:09:55.102 D/dalvikvm(  716): GC_CONCURRENT freed 104K, 69% free 324K/1024K, external 0K/0K, paused 1ms+0ms
+01-27 18:09:55.102 I/ActivityThread(  735): Pub com.tmobile.thememanager.packageresources: com.tmobile.thememanager.provider.PackageResourcesProvider
+01-27 18:09:55.102 I/ActivityManager(  173): Start proc uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization for activity uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization/.MainActivity: pid=746 uid=10068 gids={3003}
+01-27 18:09:55.112 D/jdwp    (  716): Got wake-up signal, bailing out of select
+01-27 18:09:55.112 D/dalvikvm(  716): Debugger has detached; object registry had 1 entries
+01-27 18:09:55.142 D/VoiceDialerReceiver(  505): onReceive Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization flg=0x10000000 cmp=com.android.voicedialer/.VoiceDialerReceiver (has extras) }
+01-27 18:09:55.142 V/RecognizerEngine(  505): deleteCachedGrammarFiles /data/data/com.android.voicedialer/files/openentries.txt
+01-27 18:09:55.142 I/ActivityManager(  173): No longer want com.koushikdutta.rommanager (pid 495): hidden #16
+01-27 18:09:55.192 D/GTalkService(  316): handlePackageInstalled: re-initialize providers
+01-27 18:09:55.202 D/GTalkService(  316): [RawStanzaProvidersMgr] ##### searchProvidersFromIntent
+01-27 18:09:55.202 D/GTalkService(  316): [RawStanzaProvidersMgr] no intent receivers found
+01-27 18:09:55.312 I/ActivityManager(  173): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=754 uid=10047 gids={}
+01-27 18:09:55.492 D/dalvikvm(  746): GC_EXTERNAL_ALLOC freed 49K, 54% free 2521K/5379K, external 0K/0K, paused 73ms
+01-27 18:09:55.542 I/ActivityThread(  754): Pub com.svox.pico.providers.SettingsProvider: com.svox.pico.providers.SettingsProvider
+01-27 18:09:55.562 D/InstallReceiver(  722): uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization
+01-27 18:09:55.602 I/ActivityManager(  173): Displayed uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization/.MainActivity: +535ms (total +6m52s974ms)
+01-27 18:09:55.622 D/VoiceDialerReceiver(  505): onReceive Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.naivewifiindoorlocalization flg=0x10000000 cmp=com.android.voicedialer/.VoiceDialerReceiver (has extras) }
+01-27 18:09:55.622 V/RecognizerEngine(  505): deleteCachedGrammarFiles /data/data/com.android.voicedialer/files/openentries.txt
+01-27 18:09:55.742 D/dalvikvm(  514): GC_CONCURRENT freed 439K, 55% free 2603K/5703K, external 0K/0K, paused 4ms+2ms
+01-27 18:09:55.862 I/ActivityManager(  173): No longer want com.android.protips (pid 537): hidden #16
+01-27 18:09:55.902 D/dalvikvm(  316): GC_CONCURRENT freed 431K, 54% free 2801K/6023K, external 0K/512K, paused 3ms+3ms
+01-27 18:09:56.002 D/dalvikvm(  173): GC_CONCURRENT freed 445K, 50% free 4808K/9479K, external 43K/547K, paused 3ms+4ms
+01-27 18:09:56.033 D/Finsky  (  693): [23] DownloadRecords.initializeAndPrune: Pruned 0 old downloads from the cursor.
+01-27 18:09:56.043 D/szipinf (  735): Initializing inflate state
+01-27 18:09:56.063 D/szipinf (  735): Initializing inflate state
+01-27 18:09:56.073 I/ThemeManager(  735): VerifyInstalledThemesThread took 427 ms.
+01-27 18:09:56.843 I/dalvikvm(  173): Jit: resizing JitTable from 4096 to 8192
+01-27 18:09:58.515 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:09:58.515 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:09:59.126 D/dalvikvm(  173): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.126 D/dalvikvm(  244): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.126 D/dalvikvm(  261): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.126 D/dalvikvm(  259): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.126 D/dalvikvm(  274): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.126 D/dalvikvm(  316): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.126 D/dalvikvm(  746): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.126 W/Vold    (  112): Ignoring unknown switch 'usb_connected'
+01-27 18:09:59.126 D/Vold    (  112): USB disconnected
+01-27 18:09:59.126 D/Vold    (  112): Share method ums now unavailable
+01-27 18:09:59.136 I/StorageNotification(  244): UMS connection changed to false (media state mounted)
+01-27 18:09:59.176 D/dalvikvm(  404): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.216 D/dalvikvm(  505): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.246 D/dalvikvm(  526): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.246 D/dalvikvm(  555): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.246 D/dalvikvm(  575): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.256 D/dalvikvm(  611): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.266 D/dalvikvm(  629): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.276 D/dalvikvm(  683): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.276 D/dalvikvm(  693): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.286 D/dalvikvm(  722): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.286 D/dalvikvm(  735): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.286 D/dalvikvm(  754): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.286 D/dalvikvm(  547): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.286 D/dalvikvm(  565): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.286 D/dalvikvm(  287): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.286 D/dalvikvm(  371): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.286 D/dalvikvm(  514): Debugger has detached; object registry had 1 entries
+01-27 18:09:59.326 D/WifiService(  173): ACTION_BATTERY_CHANGED pluggedType: 0
+01-27 18:09:59.326 D/SettingsAppWidgetProvider(  611): Widget is from a previous version... Let's update
+01-27 18:09:59.336 D/SettingsAppWidgetProvider(  611): No instances yet... Wait for at least one instance to exist before adding global settings
+01-27 18:09:59.816 D/dalvikvm(  173): GC_CONCURRENT freed 558K, 51% free 4724K/9479K, external 35K/547K, paused 3ms+5ms
+01-27 18:10:00.197 D/Tethering(  173): InitialState.processMessage what=4
+01-27 18:10:00.207 D/Tethering(  173): sendTetherStateChangedBroadcast 0, 0, 0
+01-27 18:10:01.338 D/dalvikvm(  746): GC_CONCURRENT freed 344K, 54% free 2597K/5639K, external 8K/519K, paused 7ms+2ms
+01-27 18:10:01.508 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:01.508 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:04.511 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:04.511 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:07.514 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:07.514 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:08.294 D/dalvikvm(  746): GC_CONCURRENT freed 445K, 55% free 2573K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:10:10.517 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:10.517 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:13.510 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:13.510 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:15.421 D/dalvikvm(  746): GC_CONCURRENT freed 434K, 56% free 2562K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:10:16.513 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:16.513 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:19.505 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:19.505 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:22.508 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:22.508 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:22.548 D/dalvikvm(  746): GC_CONCURRENT freed 452K, 55% free 2566K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:10:25.421 D/dalvikvm(  173): GC_CONCURRENT freed 335K, 49% free 4836K/9479K, external 35K/547K, paused 2ms+5ms
+01-27 18:10:25.511 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:25.511 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:28.404 D/dalvikvm(  746): GC_CONCURRENT freed 404K, 55% free 2598K/5703K, external 8K/519K, paused 7ms+2ms
+01-27 18:10:28.504 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:28.504 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:31.507 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:31.507 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:34.510 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:34.510 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:35.251 D/dalvikvm(  746): GC_CONCURRENT freed 435K, 56% free 2564K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:10:37.513 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:37.513 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:40.506 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:40.506 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:41.117 D/dalvikvm(  746): GC_CONCURRENT freed 401K, 55% free 2599K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:10:43.509 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:43.509 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:46.512 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:46.512 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:48.063 D/dalvikvm(  746): GC_CONCURRENT freed 459K, 56% free 2566K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:10:49.515 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:49.515 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:52.508 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:52.508 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:53.799 D/dalvikvm(  173): GC_CONCURRENT freed 445K, 49% free 4863K/9479K, external 35K/547K, paused 9ms+5ms
+01-27 18:10:55.200 D/dalvikvm(  746): GC_CONCURRENT freed 434K, 56% free 2564K/5703K, external 8K/519K, paused 7ms+2ms
+01-27 18:10:55.521 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:55.521 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:10:58.513 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:10:58.513 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:11:01.036 D/dalvikvm(  746): GC_CONCURRENT freed 397K, 55% free 2599K/5703K, external 8K/519K, paused 7ms+2ms
+01-27 18:11:01.506 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:01.506 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:11:04.509 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:04.509 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:11:07.522 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:07.522 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:11:08.043 D/dalvikvm(  746): GC_CONCURRENT freed 434K, 56% free 2564K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:11:10.515 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:10.515 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:11:13.518 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:13.518 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:11:13.868 D/dalvikvm(  746): GC_CONCURRENT freed 403K, 55% free 2599K/5703K, external 8K/519K, paused 7ms+2ms
+01-27 18:11:16.521 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:16.521 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:11:19.524 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:19.524 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:11:20.815 D/dalvikvm(  746): GC_CONCURRENT freed 425K, 55% free 2581K/5703K, external 8K/519K, paused 1ms+2ms
+01-27 18:11:22.517 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:22.517 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:11:23.748 D/dalvikvm(  173): GC_CONCURRENT freed 484K, 49% free 4871K/9479K, external 35K/547K, paused 10ms+5ms
+01-27 18:11:25.520 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:25.520 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:11:26.701 D/dalvikvm(  746): GC_CONCURRENT freed 395K, 55% free 2599K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:11:28.523 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:28.523 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:11:31.516 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:31.516 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:11:33.658 D/dalvikvm(  746): GC_CONCURRENT freed 444K, 55% free 2573K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:11:34.519 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:34.519 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:11:37.522 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:37.522 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:11:40.524 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:40.524 I/System.out(  746): Battery level: 90 | Time difference: -1
+01-27 18:11:40.805 D/dalvikvm(  746): GC_CONCURRENT freed 435K, 56% free 2563K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:11:42.967 D/WifiService(  173): ACTION_BATTERY_CHANGED pluggedType: 0
+01-27 18:11:42.977 I/System.out(  746): Battery level start is reached
+01-27 18:11:43.517 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:43.517 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:11:46.520 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:46.520 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:11:46.650 D/dalvikvm(  746): GC_CONCURRENT freed 403K, 55% free 2599K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:11:49.523 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:49.523 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:11:52.516 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:52.516 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:11:53.667 D/dalvikvm(  173): GC_CONCURRENT freed 507K, 49% free 4863K/9479K, external 35K/547K, paused 10ms+5ms
+01-27 18:11:53.727 D/dalvikvm(  746): GC_CONCURRENT freed 447K, 55% free 2574K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:11:55.519 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:55.519 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:11:58.522 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:11:58.522 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:00.664 D/dalvikvm(  746): GC_CONCURRENT freed 449K, 55% free 2567K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:12:01.525 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:01.525 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:04.528 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:04.528 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:04.928 D/dalvikvm(  316): GC_CONCURRENT freed 404K, 54% free 2782K/6023K, external 0K/512K, paused 3ms+2ms
+01-27 18:12:06.530 D/dalvikvm(  746): GC_CONCURRENT freed 406K, 55% free 2599K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:12:07.521 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:07.521 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:10.524 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:10.524 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:13.356 D/dalvikvm(  746): GC_CONCURRENT freed 433K, 56% free 2563K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:12:13.527 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:13.527 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:16.520 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:16.520 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:19.232 D/dalvikvm(  746): GC_CONCURRENT freed 401K, 55% free 2599K/5703K, external 8K/519K, paused 7ms+2ms
+01-27 18:12:19.523 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:19.523 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:21.935 D/dalvikvm(  173): GC_CONCURRENT freed 493K, 49% free 4851K/9479K, external 35K/547K, paused 4ms+5ms
+01-27 18:12:22.515 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:22.515 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:25.528 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:25.528 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:26.169 D/dalvikvm(  746): GC_CONCURRENT freed 434K, 55% free 2581K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:12:28.521 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:28.521 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:31.524 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:31.524 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:33.306 D/dalvikvm(  746): GC_CONCURRENT freed 444K, 56% free 2566K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:12:34.527 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:34.527 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:37.520 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:37.520 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:39.162 D/dalvikvm(  746): GC_CONCURRENT freed 397K, 55% free 2599K/5703K, external 8K/519K, paused 7ms+2ms
+01-27 18:12:40.523 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:40.523 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:43.526 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:43.526 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:46.169 D/dalvikvm(  746): GC_CONCURRENT freed 449K, 55% free 2574K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:12:46.519 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:46.529 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:49.532 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:49.532 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:51.914 D/dalvikvm(  173): GC_CONCURRENT freed 474K, 49% free 4854K/9479K, external 35K/547K, paused 2ms+6ms
+01-27 18:12:52.525 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:52.525 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:53.325 D/dalvikvm(  746): GC_CONCURRENT freed 442K, 55% free 2569K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:12:55.528 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:55.528 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:58.531 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:12:58.531 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:12:59.221 D/dalvikvm(  746): GC_CONCURRENT freed 400K, 55% free 2599K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:13:01.534 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:01.534 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:04.526 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:04.526 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:06.228 D/dalvikvm(  746): GC_CONCURRENT freed 447K, 55% free 2574K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:13:07.529 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:07.529 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:10.532 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:10.532 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:13.285 D/dalvikvm(  746): GC_CONCURRENT freed 435K, 56% free 2564K/5703K, external 8K/519K, paused 3ms+2ms
+01-27 18:13:13.525 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:13.525 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:16.528 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:16.528 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:19.171 D/dalvikvm(  746): GC_CONCURRENT freed 401K, 55% free 2599K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:13:19.531 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:19.531 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:21.913 D/dalvikvm(  173): GC_CONCURRENT freed 490K, 49% free 4856K/9479K, external 35K/547K, paused 11ms+4ms
+01-27 18:13:22.524 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:22.524 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:25.537 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:25.537 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:26.158 D/dalvikvm(  746): GC_CONCURRENT freed 434K, 55% free 2571K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:13:28.530 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:28.530 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:31.533 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:31.533 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:32.043 D/dalvikvm(  746): GC_CONCURRENT freed 400K, 55% free 2599K/5703K, external 8K/519K, paused 7ms+1ms
+01-27 18:13:34.536 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:34.536 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:37.529 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:37.529 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:39.000 D/dalvikvm(  746): GC_CONCURRENT freed 442K, 55% free 2574K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:13:40.532 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:40.532 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:43.524 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:43.524 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:46.077 D/dalvikvm(  746): GC_CONCURRENT freed 442K, 56% free 2566K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:13:46.527 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:46.527 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:49.540 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:49.540 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:52.533 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:52.533 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:52.613 D/dalvikvm(  746): GC_CONCURRENT freed 437K, 56% free 2559K/5703K, external 8K/519K, paused 8ms+2ms
+01-27 18:13:53.194 D/dalvikvm(  173): GC_CONCURRENT freed 495K, 49% free 4861K/9479K, external 35K/547K, paused 11ms+5ms
+01-27 18:13:55.526 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:55.526 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:58.529 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:13:58.529 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:13:59.100 D/dalvikvm(  746): GC_CONCURRENT freed 430K, 55% free 2600K/5703K, external 8K/519K, paused 7ms+3ms
+01-27 18:14:01.532 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:01.532 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:14:04.525 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:04.525 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:14:06.026 D/dalvikvm(  746): GC_CONCURRENT freed 436K, 56% free 2566K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:14:07.528 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:07.528 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:14:10.541 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:10.541 I/System.out(  746): Battery level: 89 | Time difference: -1
+01-27 18:14:13.093 D/dalvikvm(  746): GC_CONCURRENT freed 456K, 56% free 2563K/5703K, external 8K/519K, paused 23ms+2ms
+01-27 18:14:13.364 I/System.out(  746): Battery level end is reached
+01-27 18:14:13.364 D/WifiService(  173): ACTION_BATTERY_CHANGED pluggedType: 0
+01-27 18:14:13.534 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:13.534 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:14:16.537 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:16.537 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:14:17.388 D/dalvikvm(  316): GC_CONCURRENT freed 391K, 54% free 2777K/6023K, external 0K/512K, paused 12ms+2ms
+01-27 18:14:18.999 D/dalvikvm(  746): GC_CONCURRENT freed 400K, 55% free 2600K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:14:19.540 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:19.540 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:14:21.722 D/dalvikvm(  173): GC_CONCURRENT freed 507K, 49% free 4850K/9479K, external 35K/547K, paused 10ms+7ms
+01-27 18:14:22.543 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:22.543 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:14:25.535 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:25.535 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:14:25.996 D/dalvikvm(  746): GC_CONCURRENT freed 431K, 55% free 2590K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:14:28.538 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:28.538 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:14:31.541 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:31.541 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:14:31.812 D/dalvikvm(  746): GC_CONCURRENT freed 400K, 55% free 2599K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:14:34.544 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:34.544 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:14:37.537 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:37.537 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:14:38.748 D/dalvikvm(  746): GC_CONCURRENT freed 448K, 55% free 2573K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:14:40.540 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:40.540 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:14:43.543 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:43.543 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:14:45.825 D/dalvikvm(  746): GC_CONCURRENT freed 441K, 56% free 2565K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:14:46.546 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:46.546 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:14:48.728 D/dalvikvm(  173): GC_CONCURRENT freed 484K, 49% free 4842K/9479K, external 35K/547K, paused 11ms+4ms
+01-27 18:14:49.539 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:49.539 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:14:52.542 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:52.542 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:14:52.612 D/dalvikvm(  746): GC_CONCURRENT freed 438K, 56% free 2559K/5703K, external 8K/519K, paused 7ms+2ms
+01-27 18:14:55.545 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:55.545 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:14:58.538 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:14:58.538 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:14:58.808 D/dalvikvm(  746): GC_CONCURRENT freed 418K, 55% free 2599K/5703K, external 8K/519K, paused 5ms+2ms
+01-27 18:15:01.551 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:01.551 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:04.544 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:04.544 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:05.745 D/dalvikvm(  746): GC_CONCURRENT freed 446K, 55% free 2574K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:15:07.546 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:07.546 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:10.549 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:10.549 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:12.892 D/dalvikvm(  746): GC_CONCURRENT freed 439K, 56% free 2565K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:15:13.552 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:13.552 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:16.545 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:16.545 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:18.627 D/dalvikvm(  173): GC_CONCURRENT freed 479K, 49% free 4852K/9479K, external 35K/547K, paused 9ms+6ms
+01-27 18:15:18.767 D/dalvikvm(  746): GC_CONCURRENT freed 406K, 55% free 2600K/5703K, external 8K/519K, paused 3ms+5ms
+01-27 18:15:19.548 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:19.548 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:22.551 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:22.551 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:25.554 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:25.554 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:25.734 D/dalvikvm(  746): GC_CONCURRENT freed 430K, 55% free 2582K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:15:28.547 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:28.547 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:31.550 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:31.550 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:32.841 D/dalvikvm(  746): GC_CONCURRENT freed 453K, 55% free 2567K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:15:34.553 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:34.553 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:37.546 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:37.546 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:39.938 D/dalvikvm(  746): GC_CONCURRENT freed 452K, 55% free 2569K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:15:40.549 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:40.549 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:43.552 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:43.552 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:45.774 D/dalvikvm(  746): GC_CONCURRENT freed 403K, 55% free 2599K/5703K, external 8K/519K, paused 8ms+2ms
+01-27 18:15:46.544 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:46.544 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:49.547 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:49.547 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:49.908 D/dalvikvm(  173): GC_CONCURRENT freed 487K, 49% free 4857K/9479K, external 35K/547K, paused 9ms+4ms
+01-27 18:15:52.550 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:52.550 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:52.721 D/dalvikvm(  746): GC_CONCURRENT freed 448K, 55% free 2574K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:15:55.553 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:55.553 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:58.546 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:15:58.546 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:15:59.817 D/dalvikvm(  746): GC_CONCURRENT freed 437K, 56% free 2564K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:16:01.549 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:01.549 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:04.552 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:04.552 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:05.653 D/dalvikvm(  746): GC_CONCURRENT freed 396K, 55% free 2599K/5703K, external 8K/519K, paused 8ms+2ms
+01-27 18:16:07.555 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:07.555 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:10.548 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:10.548 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:12.600 D/dalvikvm(  746): GC_CONCURRENT freed 430K, 55% free 2582K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:16:13.551 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:13.551 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:16.554 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:16.554 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:19.547 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:19.547 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:19.777 D/dalvikvm(  746): GC_CONCURRENT freed 449K, 55% free 2567K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:16:19.787 D/dalvikvm(  173): GC_CONCURRENT freed 487K, 49% free 4850K/9479K, external 35K/547K, paused 8ms+6ms
+01-27 18:16:22.550 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:22.550 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:25.553 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:25.553 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:25.573 D/dalvikvm(  746): GC_CONCURRENT freed 407K, 55% free 2600K/5703K, external 8K/519K, paused 7ms+2ms
+01-27 18:16:28.555 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:28.555 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:29.647 D/dalvikvm(  316): GC_CONCURRENT freed 380K, 54% free 2782K/6023K, external 0K/512K, paused 12ms+2ms
+01-27 18:16:31.558 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:31.558 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:32.509 D/dalvikvm(  746): GC_CONCURRENT freed 442K, 55% free 2574K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:16:34.551 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:34.551 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:37.554 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:37.554 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:39.616 D/dalvikvm(  746): GC_CONCURRENT freed 441K, 56% free 2564K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:16:40.557 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:40.557 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:43.550 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:43.550 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:45.442 D/dalvikvm(  746): GC_CONCURRENT freed 396K, 55% free 2600K/5703K, external 8K/519K, paused 6ms+1ms
+01-27 18:16:46.553 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:46.553 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:49.546 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:49.546 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:49.606 D/dalvikvm(  173): GC_CONCURRENT freed 477K, 49% free 4856K/9479K, external 35K/547K, paused 10ms+5ms
+01-27 18:16:52.379 D/dalvikvm(  746): GC_CONCURRENT freed 448K, 55% free 2574K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:16:52.559 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:52.559 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:55.552 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:55.552 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:58.555 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:16:58.555 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:16:59.496 D/dalvikvm(  746): GC_CONCURRENT freed 441K, 56% free 2565K/5703K, external 8K/519K, paused 7ms+2ms
+01-27 18:17:01.548 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:01.548 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:17:04.561 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:04.561 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:17:05.311 D/dalvikvm(  746): GC_CONCURRENT freed 402K, 55% free 2599K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:17:07.554 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:07.554 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:17:10.546 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:10.556 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:17:12.228 D/dalvikvm(  746): GC_CONCURRENT freed 433K, 56% free 2563K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:17:13.559 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:13.559 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:17:16.562 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:16.562 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:17:17.934 D/dalvikvm(  173): GC_CONCURRENT freed 487K, 49% free 4850K/9479K, external 35K/547K, paused 3ms+5ms
+01-27 18:17:18.074 D/dalvikvm(  746): GC_CONCURRENT freed 400K, 55% free 2600K/5703K, external 8K/519K, paused 7ms+2ms
+01-27 18:17:19.555 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:19.555 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:17:22.558 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:22.558 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:17:25.031 D/dalvikvm(  746): GC_CONCURRENT freed 444K, 55% free 2574K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:17:25.561 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:25.561 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:17:28.564 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:28.564 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:17:31.567 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:31.567 I/System.out(  746): Battery level: 88 | Time difference: 150
+01-27 18:17:32.097 D/dalvikvm(  746): GC_CONCURRENT freed 441K, 56% free 2566K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:17:33.739 D/WifiService(  173): ACTION_BATTERY_CHANGED pluggedType: 0
+01-27 18:17:34.560 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:34.560 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:17:37.563 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:37.563 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:17:37.923 D/dalvikvm(  746): GC_CONCURRENT freed 399K, 55% free 2600K/5703K, external 8K/519K, paused 6ms+1ms
+01-27 18:17:40.556 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:40.556 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:17:43.569 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:43.569 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:17:44.890 D/dalvikvm(  746): GC_CONCURRENT freed 444K, 55% free 2573K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:17:46.562 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:46.562 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:17:47.783 D/dalvikvm(  173): GC_CONCURRENT freed 487K, 49% free 4853K/9479K, external 35K/547K, paused 9ms+5ms
+01-27 18:17:49.565 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:49.565 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:17:52.037 D/dalvikvm(  746): GC_CONCURRENT freed 438K, 56% free 2562K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:17:52.567 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:52.567 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:17:55.570 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:55.570 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:17:57.893 D/dalvikvm(  746): GC_CONCURRENT freed 400K, 55% free 2599K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:17:58.563 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:17:58.563 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:01.566 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:01.566 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:04.569 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:04.569 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:04.789 D/dalvikvm(  746): GC_CONCURRENT freed 445K, 55% free 2575K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:18:07.572 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:07.572 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:10.565 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:10.565 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:11.896 D/dalvikvm(  746): GC_CONCURRENT freed 440K, 55% free 2569K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:18:13.568 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:13.568 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:16.571 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:16.571 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:17.612 D/dalvikvm(  173): GC_CONCURRENT freed 488K, 49% free 4855K/9479K, external 35K/547K, paused 9ms+4ms
+01-27 18:18:17.772 D/dalvikvm(  746): GC_CONCURRENT freed 404K, 55% free 2599K/5703K, external 8K/519K, paused 7ms+2ms
+01-27 18:18:19.574 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:19.574 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:22.567 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:22.567 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:24.669 D/dalvikvm(  746): GC_CONCURRENT freed 448K, 55% free 2573K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:18:25.570 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:25.570 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:28.573 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:28.573 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:31.575 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:31.575 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:31.766 D/dalvikvm(  746): GC_CONCURRENT freed 445K, 56% free 2563K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:18:34.568 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:34.568 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:37.571 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:37.571 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:37.651 D/dalvikvm(  746): GC_CONCURRENT freed 403K, 55% free 2600K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:18:40.304 D/dalvikvm(  316): GC_CONCURRENT freed 383K, 54% free 2782K/6023K, external 0K/512K, paused 7ms+2ms
+01-27 18:18:40.574 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:40.574 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:43.567 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:43.567 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:44.638 D/dalvikvm(  746): GC_CONCURRENT freed 427K, 55% free 2582K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:18:46.570 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:46.570 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:47.511 D/dalvikvm(  173): GC_CONCURRENT freed 481K, 49% free 4852K/9479K, external 35K/547K, paused 8ms+5ms
+01-27 18:18:49.573 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:49.573 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:51.685 D/dalvikvm(  746): GC_CONCURRENT freed 436K, 56% free 2566K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:18:52.576 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:52.576 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:55.579 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:55.579 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:18:57.511 D/dalvikvm(  746): GC_CONCURRENT freed 407K, 55% free 2599K/5703K, external 8K/519K, paused 7ms+2ms
+01-27 18:18:58.572 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:18:58.572 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:19:01.575 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:01.575 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:19:04.428 D/dalvikvm(  746): GC_CONCURRENT freed 449K, 55% free 2574K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:19:04.578 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:04.578 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:19:07.571 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:07.571 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:19:10.574 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:10.574 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:19:11.534 D/dalvikvm(  746): GC_CONCURRENT freed 440K, 56% free 2565K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:19:13.576 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:13.576 I/System.out(  746): Battery level: 87 | Time difference: 150
+01-27 18:19:13.897 D/WifiService(  173): ACTION_BATTERY_CHANGED pluggedType: 0
+01-27 18:19:15.829 D/dalvikvm(  173): GC_CONCURRENT freed 488K, 49% free 4850K/9479K, external 35K/547K, paused 8ms+4ms
+01-27 18:19:16.579 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:16.579 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:19:17.410 D/dalvikvm(  746): GC_CONCURRENT freed 407K, 55% free 2600K/5703K, external 8K/519K, paused 7ms+2ms
+01-27 18:19:19.572 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:19.582 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:19:22.575 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:22.575 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:19:24.337 D/dalvikvm(  746): GC_CONCURRENT freed 457K, 55% free 2566K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:19:25.578 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:25.578 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:19:28.571 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:28.571 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:19:31.434 D/dalvikvm(  746): GC_CONCURRENT freed 437K, 56% free 2566K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:19:31.584 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:31.584 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:19:34.577 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:34.577 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:19:37.270 D/dalvikvm(  746): GC_CONCURRENT freed 396K, 55% free 2599K/5703K, external 8K/519K, paused 8ms+2ms
+01-27 18:19:37.580 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:37.580 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:19:40.583 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:40.583 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:19:43.576 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:43.576 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:19:44.236 D/dalvikvm(  746): GC_CONCURRENT freed 433K, 56% free 2564K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:19:45.708 D/dalvikvm(  173): GC_CONCURRENT freed 485K, 49% free 4856K/9479K, external 35K/547K, paused 9ms+4ms
+01-27 18:19:46.579 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:46.579 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:19:49.582 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:49.582 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:19:50.132 D/dalvikvm(  746): GC_CONCURRENT freed 405K, 55% free 2600K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:19:52.585 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:52.585 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:19:54.516 D/Finsky  (  693): [1] UpdateCheckReceiver.forceUpdateCheck: Force checking for available updates.
+01-27 18:19:54.556 D/Finsky  (  693): [1] UpdatesAvailableReceiver.onReceive: Received updates available notification
+01-27 18:19:54.617 E/Finsky  (  693): [1] UpdatesAvailableReceiver.onReceive: Could not set up current account / dfe api when receiving an updates available broadcast.
+01-27 18:19:55.577 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:55.577 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:19:57.069 D/dalvikvm(  746): GC_CONCURRENT freed 433K, 56% free 2563K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:19:58.580 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:19:58.580 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:01.583 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:01.583 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:04.166 D/dalvikvm(  746): GC_CONCURRENT freed 457K, 56% free 2563K/5703K, external 8K/519K, paused 7ms+2ms
+01-27 18:20:04.576 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:04.576 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:07.589 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:07.589 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:09.971 D/dalvikvm(  173): GC_CONCURRENT freed 505K, 49% free 4837K/9479K, external 35K/547K, paused 9ms+4ms
+01-27 18:20:10.122 D/dalvikvm(  746): GC_CONCURRENT freed 402K, 55% free 2599K/5703K, external 8K/519K, paused 3ms+2ms
+01-27 18:20:10.582 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:10.582 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:13.575 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:13.575 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:16.588 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:16.588 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:17.048 D/dalvikvm(  746): GC_CONCURRENT freed 442K, 55% free 2573K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:20:19.581 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:19.581 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:22.594 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:22.594 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:24.125 D/dalvikvm(  746): GC_CONCURRENT freed 435K, 56% free 2564K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:20:25.587 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:25.587 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:28.590 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:28.590 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:31.272 D/dalvikvm(  746): GC_CONCURRENT freed 445K, 56% free 2564K/5703K, external 8K/519K, paused 7ms+2ms
+01-27 18:20:31.593 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:31.593 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:34.586 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:34.586 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:37.588 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:37.588 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:38.339 D/dalvikvm(  746): GC_CONCURRENT freed 441K, 56% free 2566K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:20:40.591 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:40.591 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:43.594 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:43.594 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:44.025 D/dalvikvm(  173): GC_CONCURRENT freed 464K, 49% free 4859K/9479K, external 35K/547K, paused 9ms+5ms
+01-27 18:20:45.426 D/dalvikvm(  746): GC_CONCURRENT freed 445K, 56% free 2566K/5703K, external 8K/519K, paused 1ms+2ms
+01-27 18:20:46.587 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:46.587 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:49.590 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:49.590 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:51.292 D/dalvikvm(  746): GC_CONCURRENT freed 398K, 55% free 2600K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:20:52.593 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:52.593 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:55.386 D/dalvikvm(  316): GC_CONCURRENT freed 390K, 54% free 2777K/6023K, external 0K/512K, paused 15ms+2ms
+01-27 18:20:55.586 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:55.586 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:20:58.249 D/dalvikvm(  746): GC_CONCURRENT freed 441K, 55% free 2574K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:20:58.589 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:20:58.589 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:01.592 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:01.592 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:04.595 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:04.595 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:05.356 D/dalvikvm(  746): GC_CONCURRENT freed 440K, 55% free 2569K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:21:07.598 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:07.598 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:10.591 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:10.591 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:11.221 D/dalvikvm(  746): GC_CONCURRENT freed 406K, 55% free 2599K/5703K, external 8K/519K, paused 7ms+1ms
+01-27 18:21:13.594 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:13.594 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:13.934 D/dalvikvm(  173): GC_CONCURRENT freed 490K, 49% free 4855K/9479K, external 35K/547K, paused 9ms+4ms
+01-27 18:21:16.596 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:16.596 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:18.148 D/dalvikvm(  746): GC_CONCURRENT freed 445K, 55% free 2573K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:21:19.599 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:19.599 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:22.592 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:22.592 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:25.215 D/dalvikvm(  746): GC_CONCURRENT freed 442K, 56% free 2564K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:21:25.595 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:25.595 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:28.598 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:28.598 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:31.091 D/dalvikvm(  746): GC_CONCURRENT freed 403K, 55% free 2599K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:21:31.591 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:31.591 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:34.594 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:34.594 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:37.597 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:37.597 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:38.007 D/dalvikvm(  746): GC_CONCURRENT freed 424K, 55% free 2582K/5703K, external 8K/519K, paused 1ms+3ms
+01-27 18:21:40.600 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:40.600 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:43.603 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:43.603 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:45.194 D/dalvikvm(  173): GC_CONCURRENT freed 482K, 49% free 4857K/9479K, external 35K/547K, paused 8ms+15ms
+01-27 18:21:45.204 D/dalvikvm(  746): GC_CONCURRENT freed 441K, 56% free 2566K/5703K, external 8K/519K, paused 2ms+11ms
+01-27 18:21:46.596 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:46.596 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:49.599 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:49.599 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:50.950 D/dalvikvm(  746): GC_CONCURRENT freed 398K, 55% free 2600K/5703K, external 8K/519K, paused 7ms+2ms
+01-27 18:21:52.602 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:52.602 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:55.605 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:55.605 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:21:57.897 D/dalvikvm(  746): GC_CONCURRENT freed 457K, 55% free 2567K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:21:58.597 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:21:58.597 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:22:01.600 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:01.600 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:22:04.603 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:04.603 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:22:04.974 D/dalvikvm(  746): GC_CONCURRENT freed 439K, 56% free 2563K/5703K, external 8K/519K, paused 2ms+3ms
+01-27 18:22:07.606 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:07.606 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:22:10.599 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:10.599 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:22:10.789 D/dalvikvm(  746): GC_CONCURRENT freed 407K, 55% free 2600K/5703K, external 8K/519K, paused 6ms+4ms
+01-27 18:22:13.602 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:13.602 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:22:14.933 D/dalvikvm(  173): GC_CONCURRENT freed 498K, 49% free 4858K/9479K, external 35K/547K, paused 11ms+4ms
+01-27 18:22:16.595 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:16.595 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:22:17.736 D/dalvikvm(  746): GC_CONCURRENT freed 443K, 55% free 2574K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:22:19.608 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:19.608 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:22:22.611 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:22.611 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:22:24.813 D/dalvikvm(  746): GC_CONCURRENT freed 440K, 56% free 2564K/5703K, external 8K/519K, paused 1ms+2ms
+01-27 18:22:25.604 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:25.604 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:22:28.607 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:28.607 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:22:30.669 D/dalvikvm(  746): GC_CONCURRENT freed 398K, 55% free 2599K/5703K, external 8K/519K, paused 7ms+1ms
+01-27 18:22:31.610 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:31.610 I/System.out(  746): Battery level: 86 | Time difference: 150
+01-27 18:22:34.352 D/WifiService(  173): ACTION_BATTERY_CHANGED pluggedType: 0
+01-27 18:22:34.603 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:34.603 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:22:37.555 D/dalvikvm(  746): GC_CONCURRENT freed 432K, 56% free 2564K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:22:37.606 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:37.606 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:22:40.598 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:40.598 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:22:43.291 D/dalvikvm(  173): GC_CONCURRENT freed 490K, 49% free 4850K/9479K, external 35K/547K, paused 2ms+6ms
+01-27 18:22:43.451 D/dalvikvm(  746): GC_CONCURRENT freed 398K, 55% free 2599K/5703K, external 8K/519K, paused 7ms+1ms
+01-27 18:22:43.611 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:43.611 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:22:46.604 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:46.604 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:22:49.607 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:49.607 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:22:50.368 D/dalvikvm(  746): GC_CONCURRENT freed 448K, 55% free 2575K/5703K, external 8K/519K, paused 2ms+2ms
+01-27 18:22:52.610 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:52.610 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:22:55.613 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:55.613 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:22:57.485 D/dalvikvm(  746): GC_CONCURRENT freed 441K, 56% free 2565K/5703K, external 8K/519K, paused 6ms+2ms
+01-27 18:22:58.606 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:22:58.606 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:01.609 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:01.609 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:03.311 D/dalvikvm(  746): GC_CONCURRENT freed 404K, 55% free 2599K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:23:04.612 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:04.612 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:05.983 D/dalvikvm(  316): GC_CONCURRENT freed 380K, 54% free 2782K/6023K, external 0K/512K, paused 8ms+2ms
+01-27 18:23:07.615 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:07.615 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:10.267 D/dalvikvm(  746): GC_CONCURRENT freed 430K, 56% free 2565K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:23:10.608 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:10.608 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:11.709 D/dalvikvm(  173): GC_CONCURRENT freed 477K, 49% free 4855K/9479K, external 35K/547K, paused 9ms+4ms
+01-27 18:23:13.611 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:13.611 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:15.953 D/dalvikvm(  746): GC_CONCURRENT freed 381K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:23:16.614 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:16.614 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:19.617 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:19.617 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:21.799 D/dalvikvm(  746): GC_CONCURRENT freed 386K, 55% free 2598K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:23:22.609 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:22.609 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:25.612 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:25.612 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:28.615 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:28.615 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:28.755 D/dalvikvm(  746): GC_CONCURRENT freed 427K, 56% free 2564K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:23:31.618 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:31.618 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:34.411 D/dalvikvm(  746): GC_CONCURRENT freed 373K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:23:34.611 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:34.611 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:37.614 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:37.614 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:40.217 D/dalvikvm(  746): GC_CONCURRENT freed 417K, 56% free 2576K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:23:40.617 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:40.617 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:41.528 D/dalvikvm(  173): GC_CONCURRENT freed 475K, 49% free 4855K/9479K, external 35K/547K, paused 9ms+5ms
+01-27 18:23:43.610 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:43.610 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:46.613 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:46.613 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:47.143 D/dalvikvm(  746): GC_CONCURRENT freed 399K, 56% free 2566K/5767K, external 8K/519K, paused 1ms+2ms
+01-27 18:23:49.606 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:49.606 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:52.619 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:52.619 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:52.829 D/dalvikvm(  746): GC_CONCURRENT freed 386K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:23:55.622 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:55.622 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:58.615 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:23:58.615 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:23:58.665 D/dalvikvm(  746): GC_CONCURRENT freed 391K, 55% free 2600K/5767K, external 8K/519K, paused 7ms+3ms
+01-27 18:24:01.617 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:01.617 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:24:04.620 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:04.620 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:24:05.651 D/dalvikvm(  746): GC_CONCURRENT freed 428K, 56% free 2565K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:24:07.623 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:07.623 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:24:09.906 D/dalvikvm(  173): GC_CONCURRENT freed 484K, 49% free 4854K/9479K, external 35K/547K, paused 3ms+5ms
+01-27 18:24:10.626 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:10.626 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:24:11.307 D/dalvikvm(  746): GC_CONCURRENT freed 383K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:24:13.619 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:13.619 I/System.out(  746): Battery level: 85 | Time difference: 150
+01-27 18:24:14.490 D/WifiService(  173): ACTION_BATTERY_CHANGED pluggedType: 0
+01-27 18:24:16.622 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:16.622 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:24:17.173 D/dalvikvm(  746): GC_CONCURRENT freed 418K, 56% free 2575K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:24:19.625 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:19.625 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:24:22.618 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:22.618 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:24:24.119 D/dalvikvm(  746): GC_CONCURRENT freed 399K, 56% free 2565K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:24:25.621 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:25.621 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:24:28.614 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:28.614 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:24:29.815 D/dalvikvm(  746): GC_CONCURRENT freed 397K, 56% free 2575K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:24:31.627 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:31.627 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:24:34.620 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:34.620 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:24:35.671 D/dalvikvm(  746): GC_CONCURRENT freed 374K, 55% free 2600K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:24:36.962 D/dalvikvm(  173): GC_CONCURRENT freed 487K, 49% free 4846K/9479K, external 35K/547K, paused 11ms+4ms
+01-27 18:24:37.623 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:37.623 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:24:40.626 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:40.626 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:24:42.587 D/dalvikvm(  746): GC_CONCURRENT freed 427K, 56% free 2566K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:24:43.628 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:43.628 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:24:46.631 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:46.631 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:24:48.283 D/dalvikvm(  746): GC_CONCURRENT freed 383K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:24:49.624 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:49.624 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:24:52.627 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:52.627 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:24:54.139 D/dalvikvm(  746): GC_CONCURRENT freed 389K, 55% free 2600K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:24:55.630 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:55.630 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:24:58.633 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:24:58.633 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:01.065 D/dalvikvm(  746): GC_CONCURRENT freed 428K, 56% free 2569K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:25:01.636 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:01.636 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:04.629 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:04.629 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:05.380 D/dalvikvm(  173): GC_CONCURRENT freed 476K, 49% free 4855K/9479K, external 35K/547K, paused 10ms+4ms
+01-27 18:25:06.781 D/dalvikvm(  746): GC_CONCURRENT freed 386K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:25:07.632 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:07.632 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:10.635 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:10.635 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:12.667 D/dalvikvm(  746): GC_CONCURRENT freed 391K, 55% free 2600K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:25:13.638 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:13.638 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:15.329 D/dalvikvm(  316): GC_CONCURRENT freed 389K, 54% free 2777K/6023K, external 0K/512K, paused 15ms+2ms
+01-27 18:25:16.631 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:16.631 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:19.584 D/dalvikvm(  746): GC_CONCURRENT freed 427K, 56% free 2563K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:25:19.634 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:19.634 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:22.637 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:22.637 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:25.259 D/dalvikvm(  746): GC_CONCURRENT freed 384K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:25:25.629 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:25.629 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:28.632 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:28.632 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:31.095 D/dalvikvm(  746): GC_CONCURRENT freed 392K, 55% free 2600K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:25:31.635 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:31.635 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:34.628 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:34.628 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:35.239 D/dalvikvm(  173): GC_CONCURRENT freed 486K, 49% free 4861K/9479K, external 35K/547K, paused 11ms+4ms
+01-27 18:25:37.631 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:37.631 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:38.072 D/dalvikvm(  746): GC_CONCURRENT freed 429K, 56% free 2568K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:25:40.634 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:40.634 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:43.637 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:43.637 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:43.747 D/dalvikvm(  746): GC_CONCURRENT freed 383K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:25:46.630 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:46.630 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:49.583 D/dalvikvm(  746): GC_CONCURRENT freed 384K, 55% free 2599K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:25:49.633 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:49.633 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:52.626 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:52.626 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:55.629 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:55.629 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:25:56.520 D/dalvikvm(  746): GC_CONCURRENT freed 426K, 56% free 2567K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:25:58.632 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:25:58.632 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:26:01.635 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:01.635 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:26:02.195 D/dalvikvm(  746): GC_CONCURRENT freed 398K, 56% free 2574K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:26:04.638 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:04.638 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:26:05.098 D/dalvikvm(  173): GC_CONCURRENT freed 495K, 49% free 4859K/9479K, external 35K/547K, paused 11ms+4ms
+01-27 18:26:07.630 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:07.630 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:26:08.081 D/dalvikvm(  746): GC_CONCURRENT freed 381K, 55% free 2600K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:26:10.633 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:10.633 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:26:13.636 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:13.636 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:26:15.018 D/dalvikvm(  746): GC_CONCURRENT freed 429K, 56% free 2564K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:26:16.629 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:16.629 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:26:19.632 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:19.632 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:26:20.753 D/dalvikvm(  746): GC_CONCURRENT freed 380K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:26:22.635 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:22.635 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:26:25.638 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:25.638 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:26:26.579 D/dalvikvm(  746): GC_CONCURRENT freed 391K, 55% free 2599K/5767K, external 8K/519K, paused 7ms+1ms
+01-27 18:26:28.631 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:28.631 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:26:31.644 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:31.644 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:26:33.496 D/dalvikvm(  746): GC_CONCURRENT freed 425K, 56% free 2565K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:26:34.637 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:34.637 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:26:34.977 D/dalvikvm(  173): GC_CONCURRENT freed 485K, 49% free 4860K/9479K, external 35K/547K, paused 11ms+4ms
+01-27 18:26:37.640 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:37.640 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:26:39.211 D/dalvikvm(  746): GC_CONCURRENT freed 379K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:26:40.643 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:40.643 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:26:43.646 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:43.646 I/System.out(  746): Battery level: 84 | Time difference: 150
+01-27 18:26:44.737 D/WifiService(  173): ACTION_BATTERY_CHANGED pluggedType: 0
+01-27 18:26:44.997 D/dalvikvm(  746): GC_CONCURRENT freed 389K, 55% free 2599K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:26:46.638 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:46.638 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:26:49.641 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:49.641 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:26:51.964 D/dalvikvm(  746): GC_CONCURRENT freed 433K, 56% free 2563K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:26:52.644 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:52.644 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:26:55.647 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:55.647 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:26:57.659 D/dalvikvm(  746): GC_CONCURRENT freed 378K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:26:58.640 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:26:58.640 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:01.643 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:01.643 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:03.365 D/dalvikvm(  173): GC_CONCURRENT freed 495K, 49% free 4853K/9479K, external 35K/547K, paused 9ms+5ms
+01-27 18:27:03.495 D/dalvikvm(  746): GC_CONCURRENT freed 417K, 56% free 2575K/5767K, external 8K/519K, paused 3ms+4ms
+01-27 18:27:04.646 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:04.646 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:07.639 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:07.639 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:10.472 D/dalvikvm(  746): GC_CONCURRENT freed 405K, 56% free 2564K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:27:10.652 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:10.652 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:13.645 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:13.645 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:16.157 D/dalvikvm(  746): GC_CONCURRENT freed 379K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:27:16.648 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:16.648 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:19.651 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:19.651 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:22.003 D/dalvikvm(  746): GC_CONCURRENT freed 391K, 55% free 2599K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:27:22.654 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:22.654 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:24.646 D/dalvikvm(  316): GC_CONCURRENT freed 379K, 54% free 2782K/6023K, external 0K/512K, paused 5ms+2ms
+01-27 18:27:25.647 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:25.647 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:28.649 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:28.649 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:28.910 D/dalvikvm(  746): GC_CONCURRENT freed 430K, 56% free 2568K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:27:31.652 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:31.652 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:33.224 D/dalvikvm(  173): GC_CONCURRENT freed 485K, 49% free 4861K/9479K, external 35K/547K, paused 9ms+5ms
+01-27 18:27:34.625 D/dalvikvm(  746): GC_CONCURRENT freed 387K, 56% free 2583K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:27:34.645 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:34.645 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:37.648 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:37.648 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:40.481 D/dalvikvm(  746): GC_CONCURRENT freed 420K, 56% free 2575K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:27:40.651 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:40.651 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:43.644 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:43.644 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:46.647 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:46.647 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:47.428 D/dalvikvm(  746): GC_CONCURRENT freed 406K, 56% free 2568K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:27:49.650 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:49.650 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:52.653 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:52.653 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:53.103 D/dalvikvm(  746): GC_CONCURRENT freed 377K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:27:55.646 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:55.646 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:58.649 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:27:58.649 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:27:58.919 D/dalvikvm(  746): GC_CONCURRENT freed 418K, 56% free 2576K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:28:01.652 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:01.652 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:03.013 D/dalvikvm(  173): GC_CONCURRENT freed 500K, 49% free 4859K/9479K, external 35K/547K, paused 13ms+5ms
+01-27 18:28:04.645 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:04.645 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:05.846 D/dalvikvm(  746): GC_CONCURRENT freed 401K, 56% free 2566K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:28:07.648 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:07.648 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:10.650 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:10.650 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:11.531 D/dalvikvm(  746): GC_CONCURRENT freed 380K, 56% free 2581K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:28:13.653 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:13.653 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:16.656 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:16.656 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:17.367 D/dalvikvm(  746): GC_CONCURRENT freed 417K, 56% free 2575K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:28:19.649 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:19.649 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:22.652 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:22.652 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:24.294 D/dalvikvm(  746): GC_CONCURRENT freed 403K, 56% free 2563K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:28:25.645 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:25.645 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:28.658 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:28.658 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:29.969 D/dalvikvm(  746): GC_CONCURRENT freed 400K, 56% free 2566K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:28:31.661 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:31.661 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:32.842 D/dalvikvm(  173): GC_CONCURRENT freed 492K, 49% free 4859K/9479K, external 35K/547K, paused 11ms+5ms
+01-27 18:28:34.664 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:34.664 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:35.815 D/dalvikvm(  746): GC_CONCURRENT freed 402K, 56% free 2576K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:28:37.657 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:37.657 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:40.660 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:40.660 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:42.832 D/dalvikvm(  746): GC_CONCURRENT freed 405K, 56% free 2564K/5767K, external 8K/519K, paused 10ms+2ms
+01-27 18:28:43.663 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:43.663 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:46.666 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:46.666 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:48.487 D/dalvikvm(  746): GC_CONCURRENT freed 385K, 56% free 2583K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:28:49.659 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:49.659 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:52.661 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:52.661 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:54.353 D/dalvikvm(  746): GC_CONCURRENT freed 420K, 56% free 2576K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:28:55.664 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:55.664 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:28:58.657 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:28:58.657 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:29:01.330 D/dalvikvm(  173): GC_CONCURRENT freed 486K, 49% free 4854K/9479K, external 35K/547K, paused 10ms+5ms
+01-27 18:29:01.370 D/dalvikvm(  746): GC_CONCURRENT freed 400K, 56% free 2565K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:29:01.660 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:01.660 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:29:04.663 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:04.663 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:29:06.955 D/dalvikvm(  746): GC_CONCURRENT freed 381K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:29:07.666 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:07.666 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:29:08.016 I/EventLogService(  316): Aggregate from 1390845547957 (log), 1390845547957 (data)
+01-27 18:29:08.167 D/dalvikvm(  316): GC_CONCURRENT freed 325K, 53% free 2841K/6023K, external 0K/512K, paused 3ms+3ms
+01-27 18:29:08.207 W/EventLogAggregator(  316): Unknown tag: system_update
+01-27 18:29:08.207 W/EventLogAggregator(  316): Unknown tag: system_update_user
+01-27 18:29:10.659 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:10.659 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:29:12.801 D/dalvikvm(  746): GC_CONCURRENT freed 419K, 56% free 2576K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:29:13.662 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:13.662 I/System.out(  746): Battery level: 83 | Time difference: 150
+01-27 18:29:15.243 D/WifiService(  173): ACTION_BATTERY_CHANGED pluggedType: 0
+01-27 18:29:16.665 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:16.665 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:29:19.658 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:19.658 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:29:19.688 D/dalvikvm(  746): GC_CONCURRENT freed 400K, 56% free 2563K/5767K, external 8K/519K, paused 1ms+2ms
+01-27 18:29:22.661 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:22.661 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:29:25.413 D/dalvikvm(  746): GC_CONCURRENT freed 381K, 56% free 2583K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:29:25.664 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:25.664 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:29:28.266 D/dalvikvm(  173): GC_CONCURRENT freed 500K, 49% free 4853K/9479K, external 35K/547K, paused 13ms+5ms
+01-27 18:29:28.667 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:28.667 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:29:31.269 D/dalvikvm(  746): GC_CONCURRENT freed 391K, 55% free 2600K/5767K, external 8K/519K, paused 7ms+1ms
+01-27 18:29:31.659 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:31.659 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:29:34.662 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:34.662 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:29:37.665 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:37.665 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:29:38.196 D/dalvikvm(  746): GC_CONCURRENT freed 432K, 56% free 2568K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:29:40.668 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:40.668 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:29:43.671 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:43.671 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:29:43.881 D/dalvikvm(  746): GC_CONCURRENT freed 384K, 56% free 2583K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:29:46.664 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:46.664 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:29:49.667 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:49.667 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:29:49.697 D/dalvikvm(  746): GC_CONCURRENT freed 388K, 55% free 2600K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:29:52.670 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:52.670 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:29:55.673 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:55.673 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:29:56.604 D/dalvikvm(  746): GC_CONCURRENT freed 429K, 56% free 2565K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:29:58.085 D/dalvikvm(  173): GC_CONCURRENT freed 481K, 49% free 4865K/9479K, external 35K/547K, paused 9ms+4ms
+01-27 18:29:58.666 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:29:58.666 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:01.669 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:01.669 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:02.299 D/dalvikvm(  746): GC_CONCURRENT freed 378K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:30:04.672 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:04.672 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:07.665 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:07.665 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:08.325 D/dalvikvm(  746): GC_CONCURRENT freed 417K, 56% free 2575K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:30:10.668 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:10.668 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:13.670 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:13.670 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:15.262 D/dalvikvm(  746): GC_CONCURRENT freed 404K, 56% free 2569K/5767K, external 8K/519K, paused 1ms+2ms
+01-27 18:30:16.673 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:16.673 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:19.666 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:19.666 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:20.978 D/dalvikvm(  746): GC_CONCURRENT freed 380K, 56% free 2583K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:30:22.669 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:22.669 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:25.672 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:25.672 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:26.833 D/dalvikvm(  746): GC_CONCURRENT freed 389K, 55% free 2599K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:30:28.115 D/dalvikvm(  173): GC_CONCURRENT freed 501K, 49% free 4861K/9479K, external 35K/547K, paused 11ms+5ms
+01-27 18:30:28.665 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:28.665 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:31.668 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:31.668 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:33.810 D/dalvikvm(  746): GC_CONCURRENT freed 428K, 56% free 2565K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:30:34.671 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:34.671 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:37.674 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:37.674 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:38.054 D/dalvikvm(  316): GC_CONCURRENT freed 366K, 53% free 2860K/6023K, external 0K/512K, paused 2ms+2ms
+01-27 18:30:39.486 D/dalvikvm(  746): GC_CONCURRENT freed 379K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:30:40.667 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:40.667 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:43.670 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:43.670 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:45.321 D/dalvikvm(  746): GC_CONCURRENT freed 418K, 56% free 2576K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:30:46.673 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:46.673 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:49.666 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:49.666 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:52.278 D/dalvikvm(  746): GC_CONCURRENT freed 405K, 56% free 2565K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:30:52.669 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:52.669 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:55.671 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:55.671 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:30:58.004 D/dalvikvm(  173): GC_CONCURRENT freed 490K, 49% free 4865K/9479K, external 35K/547K, paused 9ms+4ms
+01-27 18:30:58.064 D/dalvikvm(  746): GC_CONCURRENT freed 384K, 56% free 2583K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:30:58.664 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:30:58.664 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:31:01.667 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:01.667 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:31:03.819 D/dalvikvm(  746): GC_CONCURRENT freed 386K, 55% free 2599K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:31:04.670 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:04.670 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:31:07.673 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:07.673 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:31:10.666 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:10.666 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:31:10.766 D/dalvikvm(  746): GC_CONCURRENT freed 427K, 56% free 2565K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:31:13.669 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:13.669 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:31:16.512 D/dalvikvm(  746): GC_CONCURRENT freed 398K, 56% free 2575K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:31:16.672 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:16.672 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:31:19.675 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:19.675 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:31:22.287 D/dalvikvm(  746): GC_CONCURRENT freed 383K, 55% free 2600K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:31:22.668 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:22.668 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:31:25.671 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:25.671 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:31:26.421 D/dalvikvm(  173): GC_CONCURRENT freed 488K, 49% free 4859K/9479K, external 35K/547K, paused 9ms+4ms
+01-27 18:31:28.674 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:28.674 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:31:29.204 D/dalvikvm(  746): GC_CONCURRENT freed 432K, 56% free 2569K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:31:31.667 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:31.667 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:31:34.679 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:34.679 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:31:34.930 D/dalvikvm(  746): GC_CONCURRENT freed 387K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:31:37.672 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:37.672 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:31:40.675 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:40.675 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:31:40.765 D/dalvikvm(  746): GC_CONCURRENT freed 383K, 55% free 2600K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:31:43.688 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:43.688 I/System.out(  746): Battery level: 82 | Time difference: 150
+01-27 18:31:45.620 D/WifiService(  173): ACTION_BATTERY_CHANGED pluggedType: 0
+01-27 18:31:45.650 D/dalvikvm(  274): GC_CONCURRENT freed 449K, 53% free 2865K/6023K, external 0K/0K, paused 3ms+2ms
+01-27 18:31:46.691 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:46.691 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:31:47.712 D/dalvikvm(  746): GC_CONCURRENT freed 429K, 56% free 2565K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:31:49.684 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:49.684 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:31:52.687 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:52.687 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:31:53.388 D/dalvikvm(  746): GC_CONCURRENT freed 371K, 56% free 2591K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:31:55.690 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:55.690 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:31:56.261 D/dalvikvm(  173): GC_CONCURRENT freed 494K, 49% free 4862K/9479K, external 35K/547K, paused 9ms+5ms
+01-27 18:31:58.693 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:31:58.693 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:31:59.233 D/dalvikvm(  746): GC_CONCURRENT freed 400K, 55% free 2600K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:32:01.686 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:01.686 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:04.689 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:04.689 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:06.210 D/dalvikvm(  746): GC_CONCURRENT freed 427K, 56% free 2567K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:32:07.692 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:07.692 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:10.695 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:10.695 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:11.876 D/dalvikvm(  746): GC_CONCURRENT freed 396K, 56% free 2575K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:32:13.698 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:13.698 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:16.690 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:16.690 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:17.711 D/dalvikvm(  746): GC_CONCURRENT freed 378K, 55% free 2600K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:32:19.693 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:19.693 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:22.696 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:22.696 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:24.708 D/dalvikvm(  173): GC_CONCURRENT freed 495K, 49% free 4855K/9479K, external 35K/547K, paused 9ms+5ms
+01-27 18:32:24.748 D/dalvikvm(  746): GC_CONCURRENT freed 423K, 56% free 2565K/5767K, external 8K/519K, paused 3ms+2ms
+01-27 18:32:25.689 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:25.689 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:28.692 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:28.692 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:30.314 D/dalvikvm(  746): GC_CONCURRENT freed 376K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:32:31.685 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:31.685 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:34.698 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:34.698 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:36.210 D/dalvikvm(  746): GC_CONCURRENT freed 416K, 56% free 2576K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:32:37.701 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:37.701 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:40.694 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:40.694 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:43.156 D/dalvikvm(  746): GC_CONCURRENT freed 403K, 56% free 2564K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:32:43.697 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:43.697 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:46.700 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:46.700 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:47.410 D/dalvikvm(  316): GC_CONCURRENT freed 413K, 53% free 2831K/6023K, external 0K/512K, paused 2ms+2ms
+01-27 18:32:48.972 D/dalvikvm(  746): GC_CONCURRENT freed 384K, 56% free 2583K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:32:49.703 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:49.703 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:52.696 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:52.696 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:53.266 D/dalvikvm(  173): GC_CONCURRENT freed 481K, 49% free 4858K/9479K, external 35K/547K, paused 3ms+7ms
+01-27 18:32:54.838 D/dalvikvm(  746): GC_CONCURRENT freed 418K, 56% free 2576K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:32:55.699 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:55.699 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:32:58.701 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:32:58.701 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:33:01.694 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:01.694 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:33:01.784 D/dalvikvm(  746): GC_CONCURRENT freed 403K, 56% free 2567K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:33:04.697 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:04.697 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:33:07.500 D/dalvikvm(  746): GC_CONCURRENT freed 382K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:33:07.700 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:07.700 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:33:10.703 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:10.703 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:33:13.386 D/dalvikvm(  746): GC_CONCURRENT freed 385K, 55% free 2599K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:33:13.706 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:13.706 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:33:16.699 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:16.699 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:33:19.702 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:19.702 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:33:20.413 D/dalvikvm(  746): GC_CONCURRENT freed 429K, 56% free 2565K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:33:21.864 D/dalvikvm(  173): GC_CONCURRENT freed 482K, 49% free 4854K/9479K, external 35K/547K, paused 3ms+5ms
+01-27 18:33:22.705 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:22.705 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:33:25.698 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:25.698 I/System.out(  746): Battery level: 81 | Time difference: 150
+01-27 18:33:25.808 D/WifiService(  173): ACTION_BATTERY_CHANGED pluggedType: 0
+01-27 18:33:26.138 D/dalvikvm(  746): GC_CONCURRENT freed 380K, 56% free 2583K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:33:28.701 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:28.701 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:33:31.704 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:31.704 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:33:31.984 D/dalvikvm(  746): GC_CONCURRENT freed 391K, 55% free 2600K/5767K, external 8K/519K, paused 5ms+2ms
+01-27 18:33:34.697 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:34.697 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:33:37.700 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:37.700 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:33:38.961 D/dalvikvm(  746): GC_CONCURRENT freed 428K, 56% free 2565K/5767K, external 8K/519K, paused 1ms+3ms
+01-27 18:33:40.702 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:40.702 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:33:43.695 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:43.695 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:33:44.666 D/dalvikvm(  746): GC_CONCURRENT freed 384K, 56% free 2583K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:33:46.708 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:46.708 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:33:49.701 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:49.701 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:33:50.382 D/dalvikvm(  173): GC_CONCURRENT freed 489K, 49% free 4859K/9479K, external 35K/547K, paused 9ms+5ms
+01-27 18:33:51.603 D/dalvikvm(  746): GC_CONCURRENT freed 417K, 56% free 2576K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:33:52.694 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:52.694 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:33:55.697 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:55.697 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:33:57.449 D/dalvikvm(  746): GC_CONCURRENT freed 398K, 56% free 2565K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:33:58.710 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:33:58.710 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:01.703 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:01.703 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:03.094 D/dalvikvm(  746): GC_CONCURRENT freed 381K, 56% free 2582K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:34:04.696 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:04.696 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:07.699 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:07.699 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:08.960 D/dalvikvm(  746): GC_CONCURRENT freed 389K, 55% free 2600K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:34:10.712 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:10.712 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:13.705 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:13.705 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:15.907 D/dalvikvm(  746): GC_CONCURRENT freed 426K, 56% free 2563K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:34:16.708 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:16.708 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:19.711 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:19.711 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:20.201 D/dalvikvm(  173): GC_CONCURRENT freed 488K, 49% free 4861K/9479K, external 35K/547K, paused 9ms+5ms
+01-27 18:34:21.612 D/dalvikvm(  746): GC_CONCURRENT freed 393K, 56% free 2575K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:34:22.713 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:22.713 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:25.706 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:25.706 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:27.448 D/dalvikvm(  746): GC_CONCURRENT freed 409K, 56% free 2575K/5767K, external 8K/519K, paused 9ms+2ms
+01-27 18:34:28.709 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:28.709 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:31.712 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:31.712 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:34.245 D/dalvikvm(  746): GC_CONCURRENT freed 407K, 56% free 2567K/5767K, external 8K/519K, paused 1ms+2ms
+01-27 18:34:34.705 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:34.705 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:37.708 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:37.708 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:40.020 D/dalvikvm(  746): GC_CONCURRENT freed 381K, 56% free 2583K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:34:40.711 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:40.711 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:43.714 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:43.714 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:46.046 D/dalvikvm(  746): GC_CONCURRENT freed 389K, 55% free 2599K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:34:46.707 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:46.707 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:48.759 D/dalvikvm(  173): GC_CONCURRENT freed 495K, 49% free 4856K/9479K, external 35K/547K, paused 9ms+7ms
+01-27 18:34:49.710 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:49.710 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:52.713 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:52.713 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:52.953 D/dalvikvm(  746): GC_CONCURRENT freed 426K, 56% free 2565K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:34:55.706 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:55.706 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:58.638 D/dalvikvm(  316): GC_CONCURRENT freed 385K, 53% free 2831K/6023K, external 0K/512K, paused 7ms+2ms
+01-27 18:34:58.709 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:34:58.709 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:34:58.809 D/dalvikvm(  746): GC_CONCURRENT freed 410K, 56% free 2574K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:35:01.711 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:01.711 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:04.704 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:04.704 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:05.725 D/dalvikvm(  746): GC_CONCURRENT freed 404K, 56% free 2564K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:35:07.707 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:07.707 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:10.710 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:10.710 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:11.251 D/dalvikvm(  746): GC_CONCURRENT freed 394K, 56% free 2575K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:35:13.713 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:13.713 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:16.706 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:16.706 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:17.096 D/dalvikvm(  746): GC_CONCURRENT freed 373K, 55% free 2600K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:35:18.398 D/dalvikvm(  173): GC_CONCURRENT freed 476K, 49% free 4856K/9479K, external 35K/547K, paused 9ms+4ms
+01-27 18:35:19.709 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:19.709 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:22.712 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:22.712 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:24.083 D/dalvikvm(  746): GC_CONCURRENT freed 429K, 56% free 2565K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:35:25.705 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:25.705 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:28.708 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:28.708 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:29.759 D/dalvikvm(  746): GC_CONCURRENT freed 381K, 56% free 2583K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:35:31.711 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:31.711 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:34.714 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:34.714 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:35.595 D/dalvikvm(  746): GC_CONCURRENT freed 392K, 55% free 2600K/5767K, external 8K/519K, paused 8ms+2ms
+01-27 18:35:37.707 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:37.707 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:40.710 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:40.710 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:42.541 D/dalvikvm(  746): GC_CONCURRENT freed 425K, 56% free 2564K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:35:43.712 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:43.712 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:46.705 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:46.705 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:48.197 D/dalvikvm(  173): GC_CONCURRENT freed 485K, 49% free 4861K/9479K, external 35K/547K, paused 9ms+4ms
+01-27 18:35:48.247 D/dalvikvm(  746): GC_CONCURRENT freed 376K, 56% free 2591K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:35:49.708 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:49.708 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:52.711 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:52.711 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:54.033 D/dalvikvm(  746): GC_CONCURRENT freed 424K, 56% free 2576K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:35:55.704 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:55.704 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:35:58.707 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:35:58.707 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:36:00.959 D/dalvikvm(  746): GC_CONCURRENT freed 405K, 56% free 2564K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:36:01.710 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:01.710 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:36:04.713 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:04.713 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:36:06.535 D/dalvikvm(  746): GC_CONCURRENT freed 385K, 56% free 2583K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:36:07.706 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:07.706 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:36:10.709 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:10.709 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:36:12.290 D/dalvikvm(  746): GC_CONCURRENT freed 418K, 56% free 2576K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:36:13.712 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:13.712 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:36:16.344 D/dalvikvm(  173): GC_CONCURRENT freed 493K, 49% free 4859K/9479K, external 35K/547K, paused 12ms+5ms
+01-27 18:36:16.715 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:16.715 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:36:19.167 D/dalvikvm(  746): GC_CONCURRENT freed 412K, 56% free 2568K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:36:19.708 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:19.708 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:36:22.711 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:22.711 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:36:24.883 D/dalvikvm(  746): GC_CONCURRENT freed 387K, 56% free 2583K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:36:25.713 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:25.713 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:36:28.716 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:28.716 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:36:30.748 D/dalvikvm(  746): GC_CONCURRENT freed 421K, 56% free 2576K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:36:31.709 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:31.709 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:36:34.712 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:34.712 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:36:37.705 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:37.705 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:36:37.715 D/dalvikvm(  746): GC_CONCURRENT freed 406K, 56% free 2567K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:36:40.718 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:40.718 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:36:43.361 D/dalvikvm(  746): GC_CONCURRENT freed 380K, 56% free 2583K/5767K, external 8K/519K, paused 2ms+3ms
+01-27 18:36:43.711 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:43.711 I/System.out(  746): Battery level: 80 | Time difference: 150
+01-27 18:36:44.832 D/dalvikvm(  173): GC_CONCURRENT freed 477K, 49% free 4860K/9479K, external 35K/547K, paused 3ms+6ms
+01-27 18:36:46.243 D/WifiService(  173): ACTION_BATTERY_CHANGED pluggedType: 0
+01-27 18:36:46.714 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:46.714 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:36:49.246 D/dalvikvm(  746): GC_CONCURRENT freed 392K, 55% free 2600K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:36:49.707 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:49.707 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:36:52.720 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:52.720 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:36:55.713 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:55.713 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:36:56.193 D/dalvikvm(  746): GC_CONCURRENT freed 426K, 56% free 2565K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:36:58.716 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:36:58.716 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:01.719 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:01.719 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:01.889 D/dalvikvm(  746): GC_CONCURRENT freed 383K, 56% free 2583K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:37:04.721 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:04.721 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:06.133 D/dalvikvm(  316): GC_CONCURRENT freed 379K, 53% free 2835K/6023K, external 0K/512K, paused 2ms+2ms
+01-27 18:37:07.714 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:07.714 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:07.744 D/dalvikvm(  746): GC_CONCURRENT freed 385K, 55% free 2600K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:37:10.717 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:10.717 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:13.290 D/dalvikvm(  173): GC_CONCURRENT freed 495K, 49% free 4853K/9479K, external 35K/547K, paused 11ms+5ms
+01-27 18:37:13.720 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:13.720 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:14.681 D/dalvikvm(  746): GC_CONCURRENT freed 429K, 56% free 2565K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:37:16.723 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:16.723 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:19.716 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:19.716 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:20.397 D/dalvikvm(  746): GC_CONCURRENT freed 380K, 56% free 2583K/5767K, external 8K/519K, paused 1ms+2ms
+01-27 18:37:22.719 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:22.719 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:25.722 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:25.722 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:26.152 D/dalvikvm(  746): GC_CONCURRENT freed 388K, 55% free 2601K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:37:28.715 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:28.715 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:31.718 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:31.718 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:32.999 D/dalvikvm(  746): GC_CONCURRENT freed 424K, 56% free 2566K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:37:34.721 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:34.721 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:37.724 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:37.724 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:38.705 D/dalvikvm(  746): GC_CONCURRENT freed 380K, 56% free 2583K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:37:40.727 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:40.727 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:42.959 D/dalvikvm(  173): GC_CONCURRENT freed 472K, 49% free 4860K/9479K, external 35K/547K, paused 2ms+5ms
+01-27 18:37:43.589 D/WifiService(  173): ACTION_BATTERY_CHANGED pluggedType: 2
+01-27 18:37:43.599 D/SettingsAppWidgetProvider(  611): Widget is from a previous version... Let's update
+01-27 18:37:43.599 D/SettingsAppWidgetProvider(  611): No instances yet... Wait for at least one instance to exist before adding global settings
+01-27 18:37:43.730 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:43.730 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:44.490 D/dalvikvm(  746): GC_CONCURRENT freed 392K, 55% free 2600K/5767K, external 8K/519K, paused 6ms+1ms
+01-27 18:37:44.711 W/Vold    (  112): Ignoring unknown switch 'usb_connected'
+01-27 18:37:44.741 D/Vold    (  112): USB connected
+01-27 18:37:44.741 D/Vold    (  112): Share method ums now available
+01-27 18:37:44.741 I/StorageNotification(  244): UMS connection changed to true (media state mounted)
+01-27 18:37:44.771 V/NotificationService(  173): Active profile: Default
+01-27 18:37:44.771 I/PROFILE (  173): Group: Gmail containing : com.android.systemui : false
+01-27 18:37:44.771 I/PROFILE (  173): Group: Phone containing : com.android.systemui : false
+01-27 18:37:44.771 I/PROFILE (  173): Group: Calendar containing : com.android.systemui : false
+01-27 18:37:44.771 I/PROFILE (  173): Group: Email containing : com.android.systemui : false
+01-27 18:37:44.781 W/ApplicationContext(  173): Unable to create files directory
+01-27 18:37:44.791 I/PROFILE (  173): Group: SMS containing : com.android.systemui : false
+01-27 18:37:44.791 D/WriteApps(  173): Error: java.lang.NullPointerException
+01-27 18:37:44.791 V/ProfileManager(  173): No active group, returning default: Other
+01-27 18:37:44.791 V/NotificationService(  173): Pkg: com.android.systemui group: Other
+01-27 18:37:44.801 D/Tethering(  173): sendTetherStateChangedBroadcast 1, 0, 0
+01-27 18:37:44.801 D/Tethering(  173): interfaceAdded :usb0
+01-27 18:37:44.801 V/NotificationService(  173): Active profile: Default
+01-27 18:37:44.801 I/PROFILE (  173): Group: Gmail containing : android : false
+01-27 18:37:44.801 I/PROFILE (  173): Group: Phone containing : android : false
+01-27 18:37:44.801 I/PROFILE (  173): Group: Calendar containing : android : false
+01-27 18:37:44.801 I/PROFILE (  173): Group: Email containing : android : false
+01-27 18:37:44.811 I/PROFILE (  173): Group: SMS containing : android : false
+01-27 18:37:44.811 V/ProfileManager(  173): No active group, returning default: Other
+01-27 18:37:44.811 V/NotificationService(  173): Pkg: android group: Other
+01-27 18:37:46.722 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:46.722 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:49.725 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:49.725 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:51.287 D/dalvikvm(  746): GC_CONCURRENT freed 433K, 56% free 2568K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:37:52.728 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:52.728 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:55.721 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:55.721 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:56.952 D/dalvikvm(  746): GC_CONCURRENT freed 388K, 56% free 2583K/5767K, external 8K/519K, paused 5ms+2ms
+01-27 18:37:58.724 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:37:58.724 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:37:59.765 D/dalvikvm(  173): GC_CONCURRENT freed 537K, 50% free 4820K/9479K, external 35K/547K, paused 9ms+5ms
+01-27 18:38:01.727 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:38:01.727 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:38:02.708 D/dalvikvm(  746): GC_CONCURRENT freed 389K, 55% free 2600K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:38:04.720 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:38:04.720 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:38:07.733 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:38:07.733 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:38:09.655 D/dalvikvm(  746): GC_CONCURRENT freed 429K, 56% free 2566K/5767K, external 8K/519K, paused 7ms+2ms
+01-27 18:38:10.726 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:38:10.726 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:38:13.218 D/dalvikvm(  274): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.218 D/dalvikvm(  611): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.218 D/dalvikvm(  746): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.218 D/dalvikvm(  259): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.218 D/dalvikvm(  261): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.218 D/dalvikvm(  173): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.218 W/Vold    (  112): Ignoring unknown switch 'usb_connected'
+01-27 18:38:13.218 D/Vold    (  112): USB disconnected
+01-27 18:38:13.218 D/Vold    (  112): Share method ums now unavailable
+01-27 18:38:13.238 D/dalvikvm(  316): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.238 D/dalvikvm(  244): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.238 I/StorageNotification(  244): UMS connection changed to false (media state mounted)
+01-27 18:38:13.248 W/Vold    (  112): Ignoring unknown switch 'usb_connected'
+01-27 18:38:13.248 D/Vold    (  112): USB connected
+01-27 18:38:13.248 D/Vold    (  112): Share method ums now available
+01-27 18:38:13.278 W/ApplicationContext(  173): Unable to create files directory
+01-27 18:38:13.278 D/WriteApps(  173): Error: java.lang.NullPointerException
+01-27 18:38:13.288 E/Tethering(  173): active iface (usb0) reported as added, ignoring
+01-27 18:38:13.288 V/NotificationService(  173): Active profile: Default
+01-27 18:38:13.288 I/PROFILE (  173): Group: Gmail containing : android : false
+01-27 18:38:13.288 I/PROFILE (  173): Group: Phone containing : android : false
+01-27 18:38:13.288 I/PROFILE (  173): Group: Calendar containing : android : false
+01-27 18:38:13.288 I/PROFILE (  173): Group: Email containing : android : false
+01-27 18:38:13.298 I/PROFILE (  173): Group: SMS containing : android : false
+01-27 18:38:13.298 V/ProfileManager(  173): No active group, returning default: Other
+01-27 18:38:13.298 V/NotificationService(  173): Pkg: android group: Other
+01-27 18:38:13.308 D/dalvikvm(  683): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.308 I/StorageNotification(  244): UMS connection changed to true (media state mounted)
+01-27 18:38:13.318 D/dalvikvm(  547): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.318 V/NotificationService(  173): Active profile: Default
+01-27 18:38:13.318 I/PROFILE (  173): Group: Gmail containing : com.android.systemui : false
+01-27 18:38:13.318 I/PROFILE (  173): Group: Phone containing : com.android.systemui : false
+01-27 18:38:13.318 I/PROFILE (  173): Group: Calendar containing : com.android.systemui : false
+01-27 18:38:13.318 I/PROFILE (  173): Group: Email containing : com.android.systemui : false
+01-27 18:38:13.318 I/PROFILE (  173): Group: SMS containing : com.android.systemui : false
+01-27 18:38:13.318 V/ProfileManager(  173): No active group, returning default: Other
+01-27 18:38:13.318 V/NotificationService(  173): Pkg: com.android.systemui group: Other
+01-27 18:38:13.328 D/dalvikvm(  555): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.338 D/dalvikvm(  404): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.348 D/dalvikvm(  565): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.358 D/dalvikvm(  629): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.368 D/dalvikvm(  754): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.368 D/dalvikvm(  693): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.368 D/dalvikvm(  505): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.368 D/dalvikvm(  514): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.368 D/dalvikvm(  371): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.368 D/dalvikvm(  526): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.378 D/dalvikvm(  722): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.378 D/dalvikvm(  575): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.378 D/dalvikvm(  735): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.378 D/dalvikvm(  287): Debugger has detached; object registry had 1 entries
+01-27 18:38:13.719 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:38:13.719 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:38:15.280 D/dalvikvm(  746): GC_CONCURRENT freed 395K, 56% free 2575K/5767K, external 8K/519K, paused 2ms+2ms
+01-27 18:38:16.722 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:38:16.722 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:38:17.893 W/Vold    (  112): Ignoring unknown switch 'usb_connected'
+01-27 18:38:17.893 D/Vold    (  112): USB disconnected
+01-27 18:38:17.893 D/Vold    (  112): Share method ums now unavailable
+01-27 18:38:17.963 I/StorageNotification(  244): UMS connection changed to false (media state mounted)
+01-27 18:38:18.003 D/WifiService(  173): ACTION_BATTERY_CHANGED pluggedType: 0
+01-27 18:38:18.053 D/SettingsAppWidgetProvider(  611): Widget is from a previous version... Let's update
+01-27 18:38:18.053 D/SettingsAppWidgetProvider(  611): No instances yet... Wait for at least one instance to exist before adding global settings
+01-27 18:38:18.103 D/dalvikvm(  244): GC_CONCURRENT freed 413K, 52% free 2904K/6023K, external 1127K/1523K, paused 2ms+16ms
+01-27 18:38:18.143 D/dalvikvm(  173): GC_CONCURRENT freed 481K, 50% free 4831K/9479K, external 35K/547K, paused 3ms+4ms
+01-27 18:38:18.944 D/Tethering(  173): InitialState.processMessage what=4
+01-27 18:38:18.944 D/Tethering(  173): sendTetherStateChangedBroadcast 0, 0, 0
+01-27 18:38:19.284 D/WifiService(  173): ACTION_BATTERY_CHANGED pluggedType: 2
+01-27 18:38:19.304 D/SettingsAppWidgetProvider(  611): Widget is from a previous version... Let's update
+01-27 18:38:19.304 D/SettingsAppWidgetProvider(  611): No instances yet... Wait for at least one instance to exist before adding global settings
+01-27 18:38:19.715 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:38:19.715 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:38:20.365 W/Vold    (  112): Ignoring unknown switch 'usb_connected'
+01-27 18:38:20.385 D/Vold    (  112): USB connected
+01-27 18:38:20.385 D/Vold    (  112): Share method ums now available
+01-27 18:38:20.395 I/StorageNotification(  244): UMS connection changed to true (media state mounted)
+01-27 18:38:20.415 V/NotificationService(  173): Active profile: Default
+01-27 18:38:20.415 I/PROFILE (  173): Group: Gmail containing : com.android.systemui : false
+01-27 18:38:20.425 I/PROFILE (  173): Group: Phone containing : com.android.systemui : false
+01-27 18:38:20.425 I/PROFILE (  173): Group: Calendar containing : com.android.systemui : false
+01-27 18:38:20.425 I/PROFILE (  173): Group: Email containing : com.android.systemui : false
+01-27 18:38:20.425 I/PROFILE (  173): Group: SMS containing : com.android.systemui : false
+01-27 18:38:20.425 V/ProfileManager(  173): No active group, returning default: Other
+01-27 18:38:20.425 V/NotificationService(  173): Pkg: com.android.systemui group: Other
+01-27 18:38:20.445 W/ApplicationContext(  173): Unable to create files directory
+01-27 18:38:20.455 D/WriteApps(  173): Error: java.lang.NullPointerException
+01-27 18:38:20.465 D/Tethering(  173): sendTetherStateChangedBroadcast 1, 0, 0
+01-27 18:38:20.465 V/NotificationService(  173): Active profile: Default
+01-27 18:38:20.465 D/Tethering(  173): interfaceAdded :usb0
+01-27 18:38:20.465 I/PROFILE (  173): Group: Gmail containing : android : false
+01-27 18:38:20.465 I/PROFILE (  173): Group: Phone containing : android : false
+01-27 18:38:20.465 I/PROFILE (  173): Group: Calendar containing : android : false
+01-27 18:38:20.465 I/PROFILE (  173): Group: Email containing : android : false
+01-27 18:38:20.465 I/PROFILE (  173): Group: SMS containing : android : false
+01-27 18:38:20.465 V/ProfileManager(  173): No active group, returning default: Other
+01-27 18:38:20.465 V/NotificationService(  173): Pkg: android group: Other
+01-27 18:38:21.096 D/dalvikvm(  746): GC_CONCURRENT freed 387K, 56% free 2584K/5767K, external 8K/519K, paused 3ms+3ms
+01-27 18:38:22.728 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:38:22.728 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:38:25.721 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:38:25.721 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:38:26.802 D/dalvikvm(  746): GC_CONCURRENT freed 372K, 55% free 2600K/5767K, external 8K/519K, paused 6ms+2ms
+01-27 18:38:28.723 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:38:28.723 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:38:31.726 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:38:31.726 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:38:33.658 D/dalvikvm(  746): GC_CONCURRENT freed 429K, 56% free 2565K/5767K, external 8K/519K, paused 9ms+2ms
+01-27 18:38:34.729 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:38:34.729 I/System.out(  746): Battery level: 79 | Time difference: 150
+01-27 18:38:36.501 D/dalvikvm(  173): GC_CONCURRENT freed 475K, 50% free 4832K/9479K, external 35K/547K, paused 8ms+4ms
+01-27 18:38:37.732 I/System.out(  746): Location: no CS school | WiFiNavigator running:true
+01-27 18:38:37.732 I/System.out(  746): Battery level: 79 | Time difference: 150
