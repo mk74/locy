@@ -1,0 +1,67 @@
+I have done:
+	-baseline implementation
+	-Machine Learning(refresher stats, basic concepts in ML, R/RStudio, preprocessing of large data)
+		-I wrote simple app for labeling the data
+			put it into RStudio and applied the algorithm fromEmotionSense	
+	-inLocy:
+		-uses motion detection from EmotionSense
+			
+			-standard derivation below some threshold
+			-I changed this threshold to 15 from 25 as we want to detect any possibility of movement
+				-to test
+			-sliding window based on time, not amount of samples
+				-different devices have different frequency of accelerometer updates
+		-polishing app for experiments:
+			special mode, which prints less information, easier to compare with baseline implementation
+		-works across different devices
+	-experiments
+		-set up 3 scenarios:
+			-all time in place
+			-all time moving:
+				laps which take 1.30 min each
+				opening three doors(from honors lab to master lab and back)
+				always move forward
+			-half time moving/ half time in Place
+				-45 secs moving, 45 secs sitting, 45 secs moving, 45 secs sitting
+				-the same path as above
+				-one lap takes 3 minutes
+		-new results:
+			[go to user_experiments/results.txt]
+	-research
+		continuous/dynamic/adaptive sampling (duty--cycling) - 
+			"SociableSense..."
+			"Energy-Accuracy Trade-offs in Querying Sensor Data for Continuous Sesning Mobile Systems"
+			"An accurate two-tier classifier for efficient duty-cycling of smartphone activity recognition systems"
+
+		acceleromter data:
+			"Activity recognition using cell phone accelerometers"
+			"Identifying user traits by mining smart phone accelerometer data"
+			"Activity Recognition from accelerometer data"
+
+
+		ML optimizations(ML on phone, offloading to cloud, special tools for creating ML for phone):
+			"Supporting energy-efficient uploading strategies for continuous sensing applications on mobile phones"
+			"Balancing energy, latency and accuracy for mobile sensor data classification"
+			"effSense: energy-efficient and cost-effective data uploading in mobile crowdsensing"
+			"SoundSense: scalable sound sensing for people-centric applications on mobile phones"
+			"Sensing meets mobile social networks: the design, implementation and evaluation of the CenceMe application"
+
+		human patterns about energy usage/mobile phones in general:
+			"Context-aware Battery Management for Mobile Phones"
+			"Diversity in Smartphone Usage"
+			"Mobility prediction-based smartphone energy optimization for everyday location monitoring"
+
+
+		others:
+			"ACE: exploiting correlation for energy-efficient and continuous context sensing"
+			"Collecting Big Datasets of HUman Activity One Checkin at a Time"
+			"A survey on Samrphone-Based Systems for Opportunistic User Context Recognition"
+			"HotMobile 2012 Poster: Performance Evaluation of Android IPC for Continuous Sensing Applications"
+			"SeeMon: scalable and energy-efficient context monitoring framework for sensor-rich mobile environments"
+
+		besides, go through conferences(MobiSys, HotMobile, Mobicom) again
+
+	-documentation:
+		graphs for earlier sensor results
+		continue adding some small stuff to the report
+		
