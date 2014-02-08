@@ -1,0 +1,109 @@
+% $Id: macros.tex 391 2008-06-05 13:45:52Z tristan $
+
+\usepackage{pslatex}
+\usepackage{subfigure}
+\usepackage[usenames]{color}
+
+% any local macros can go here %
+
+
+
+%todo boxes for things.
+ \ifx\draftmode\defined
+  \newcommand{\todobox}[1]{}%
+  \else
+ \newcommand{\todobox}[1]{%
+     \centering
+		\fbox{\parbox[l]{\columnwidth}{\textcolor{blue}{TODO: #1}}}\\%
+		%\framebox[100mm][h]{\textcolor{blue}{TODO: #1}}\\%
+ }
+ \fi 
+ 
+ %reasoning boxes for things.
+ \ifx\draftmode\defined
+  \newcommand{\myreason}[1]{}%
+  \else
+ \newcommand{\myreason}[1]{%
+     \centering
+		\fbox{\parbox[l]{\columnwidth}{\textcolor{green}{REASONING: #1}}}\\%
+		%\framebox[100mm][h]{\textcolor{blue}{TODO: #1}}\\%
+ }
+ \fi 
+ 
+
+ %simply type \mycomment{} to get a comment box
+  \ifx\draftmode\undefined
+  \newcommand{\mycomment}[1]{}
+  \else
+ \newcommand{\mycomment}[1]{% 
+            \centering
+		 	\fbox{\parbox[l]{\columnwidth}{\textcolor{red}{COMMENT: #1}}}\\%
+  }
+  \fi 
+
+ 
+
+% include a figure from the plots/ subdirectory
+% \plot{file} will read captionm from plots/file.tex and graphic
+% from plots/file.{eps,pdf}
+\newcommand{\plot}[1]{%
+\begin{figure}[tbp]
+    \centerline{\resizebox{0.8\linewidth}{!}{\includegraphics{plots/#1}}}
+    \caption{\label{p:#1}\protect\input{plots/#1}}
+\end{figure}
+}
+
+% plot that spans both columns
+\newcommand{\plotwide}[1]{%
+\begin{figure*}[htbp]
+    \centerline{\resizebox{0.75\linewidth}{!}{\includegraphics{plots/#1}}}
+    \caption{\label{p:#1}\protect\input{plots/#1}}
+\end{figure*}
+}
+
+% compare two plots
+% \plot{file1,file2,caption} will show file1 and file2 side-by-side
+% caption will be used for the overall caption
+\newcommand{\plots}[3]{%
+\begin{figure*}[tbp]
+    \centering
+        \label{p2:#1}
+        \subfigure[{\protect\input{plots/#1}}]{
+            \label{p:#1}%
+            \includegraphics[width=0.34\textwidth]{plots/#1}%
+        }
+        \hspace{0.15\textwidth}%
+        \subfigure[{\protect\input{plots/#2}}]{
+            \label{p:#2}%
+            \includegraphics[width=0.34\textwidth]{plots/#2}%
+        }
+        \caption{\protect{#3}}
+\end{figure*}
+}
+
+\ifx\draftmode\undefined
+% For final version
+\newcommand{\comment}[1]{}%
+\else
+\ifpdf
+% For draft mode
+% ACM format doesn't like margin pars
+%\newcommand{\comment}[1]{ \marginpar{$\leftarrow$}{\bf $<$#1$>$} }
+\newcommand{\comment}[1]{ {\textcolor{red}{\bf $<$#1$>$}} }
+\else
+\newcommand{\comment}[1]{{\textcolor{red}{ \bf $<$#1$>$}}}
+\fi
+\fi
+
+% Referring to a plot:
+\newcommand{\plotref}[1]{Figure~\ref{p:#1}}
+% or two plots:
+\newcommand{\plotrefs}[2]{Figures~\ref{p:#1} and \ref{p:#2}}
+% or a range of plots:
+\newcommand{\plotrange}[2]{Figures~\ref{p:#1}--\ref{p:#2}}
+% or a pair of plots (using \plots macro)
+\newcommand{\plotsref}[1]{Figure~\ref{p2:#1}}
+
+\newcommand{\compareplotref}[1]{Figure~\ref{p2:#1}}
+\newcommand{\compareplotrefs}[2]{Figures~\ref{p2:#1} and \ref{p2:#2}}
+\newcommand{\compareplotrange}[2]{Figures~\ref{p2:#1}--\ref{p2:#2}}

@@ -1,0 +1,56 @@
+\documentclass[a4paper]{article}
+
+\usepackage{ifpdf}
+
+%\documentclass{sig-alternate-10pt}
+
+\ifpdf % options for PDF output
+ \pdfoutput=1
+ \pdfcompresslevel=9
+ \pdfpagewidth=8.5truein % force US letter size to match ACM template
+ \pdfpageheight=11.0truein
+ \usepackage[pdftex]{graphicx}
+ \DeclareGraphicsExtensions{.pdf, .png, .jpg}
+ \usepackage[pdftex,colorlinks=true,pdfpagemode=UseNone,pdfstartview=FitH,linkcolor=black,citecolor=black,urlcolor=blue,bookmarks=false]{hyperref}
+ \usepackage[usenames]{color}%for color names
+ \pdfinfo{
+ /Title (PAPER TITLE)
+ /Author (YOUR NAME)
+ /Keywords (sensors, social network)
+ }
+\else
+ \usepackage[dvips]{graphicx}
+ \DeclareGraphicsExtensions{.eps, .png, .jpg}
+ \usepackage[usenames]{color}%for color names
+% \newcommand{\url}[1]{#1} % hide hrefs
+\fi
+
+%this is for the title page doc:
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+% Comment this out when not in draft mode
+\def\draftmode{} % useful for \ifx\draftmode\undefined<thencode>\fi in text
+
+\input{macros}
+
+
+
+
+\title{PROJECT OVERVIEW\\YOUR PROJECT}
+\date{\today}
+\author{YOUR NAME}
+
+%\setcounter{tocdepth}{2}
+\begin{document}
+
+%\maketitle
+\input{title.tex}
+
+\tableofcontents
+\listoffigures
+%\listofalgorithms
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Things to do}
+\cite{example:paper}
+\bibliographystyle{plain}
+\bibliography{examplepaper}
+\end{document}
