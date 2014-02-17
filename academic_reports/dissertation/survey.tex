@@ -1,2 +1,15 @@
 \section{Context survey}
 \label{s:contextsurvey}
+\subsection{Energy measurement}
+\hspace{10pt} To improve energy-efficiency of sensing, an accurate method of measuring power consumption needs to be established. This task is relatievely easy for Nokia phones. There is a Nokia Energy profilier [XXX references], an application delievered by Nokia, which accurately measures power consumption and is widely used by research community [XXX references]. Google does not provide such an application for Android smartphones making this task more difficult.
+
+The Power Monitor is a hardware power measurement solution delivered by MoonSooon PowerSolutions \cite{_monsoon_????}.  It is designed for analyzing power of single lithium\ (Li) batteries (all Android phones). Although the tool provides accurate measurements, it can only be used in lab environment e.g., it can't measure energy consumption of GPS sampling while a client is moving outdoor. It is also expensive, and thus, it can't be directly used by mobile phone clients. Android platform solves this problem by enforcing on mobile phone vendors to make relevant measurements and save them available on mobile phones before selling them [XXX reference]. This information may be further utilized by software power profiles.
+
+Software power profiles on Android smartphones use a power model to determine current energy consumption. They continuously query states of hardware components such as CPU, wireless card or screen. For example, wireless card may be switched off, listen or send information. Each state of each of the components has assigned a value indicating its energy consumption\ (this should be provided by a mobile phone vendor as descrbied in the previous paragraph). Software power profilers aggregate all of those corresponding power consumption values to estimate current energy consumption of a device. Example applications using this method includes PowerTutor \cite{zhang:powertutor} and Battery Monitor Widget \cite{_battery_????}. Although this method provides online energy measurement and is practical for clients, those measurements are only rough estimation. The energy demands of hardware components provided by the vendor can change across time as battery characteristics change. Also, the energy consumption values of physical sensors are often missing, which makes it impractical for phone sensing applications.
+
+
+
+
+
+\subsection{Phone sensing}
+\subsection{Energy-accuracy tradeoff in phone sensing}

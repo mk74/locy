@@ -1,2 +1,26 @@
 \section{Requirements specification}
 \label{s:requirements}
+The project and the library should satisfy a following set of requirements:
+\begin{enumerate}[(a)]
+ \item Primary requirements
+  \begin{itemize}
+  	\item All software components of the project will work on the Android mobile operating 
+system.
+    \item Energy efficiency and accuracy of the library should be tested against a baseline 
+implementation.
+    \item The project should empirically determine energy costs of different sensors.
+    \item The library will be integrated with Tristan's experience sampling method~ (ESM) mobile application.
+    \item As part of the project, a study with real users should be conducted.
+  \end{itemize}
+  \item Secondary requirements
+  \begin{itemize}
+	\item The library will calculate energy costs of different sensors in real time.
+  	\item Software components should work on a variety of Android devices.
+    \item The energy saving algorithm should be adaptive according to current battery life.
+    \item The library intends to manage mobile applications' contention for sensor usage.  
+  \end{itemize}
+  \item Tertiary requirements
+  \begin{itemize}
+  	\item The energy saving algorithm should improve its performance by learning from user behaviour. 
+  \end{itemize}
+\end{enumerate}
