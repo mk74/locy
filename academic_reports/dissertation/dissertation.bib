@@ -1,3 +1,31 @@
+@manual{android:powerprofiles,
+    author = {Android},
+    citeulike-article-id = {13057442},
+    citeulike-linkout-0 = {http://source.android.com/devices/tech/power.html},
+    day = {22},
+    keywords = {android, mysh, powerprofiles},
+    month = feb,
+    posted-at = {2014-02-22 12:27:54},
+    priority = {2},
+    title = {{Power Profiles for Android}},
+    url = {http://source.android.com/devices/tech/power.html},
+    year = {2014}
+}
+
+@misc{nokia:profiler,
+    author = {Store, Nokia},
+    citeulike-article-id = {13057432},
+    citeulike-linkout-0 = {http://store.ovi.com/content/73969},
+    day = {22},
+    keywords = {energy, measurement, mysh, nokia},
+    month = feb,
+    posted-at = {2014-02-22 12:05:03},
+    priority = {2},
+    title = {{Nokia Store: Download Nokia Energy Profiler and many other games, wallpaper, ringtones and phone apps on your Nokia phone}},
+    url = {http://store.ovi.com/content/73969},
+    year = {2014}
+}
+
 @article{googleplay:batterymonitorwidget,
     author = {Google Play, 3c T.},
     citeulike-article-id = {13057397},
@@ -74,6 +102,50 @@
     year = {2010}
 }
 
+@inproceedings{kjaergaard:entracked,
+    abstract = {{An important feature of a modern mobile device is that it can position itself. Not only for use on the device but also for remote applications that require tracking of the device. To be useful, such position tracking has to be energy-efficient to avoid having a major impact on the battery life of the mobile device. Furthermore, tracking has to robustly deliver position updates when faced with changing conditions such as delays due to positioning and communication, and changing positioning accuracy. This work proposes EnTracked - a system that, based on the estimation and prediction of system conditions and mobility, schedules position updates to both minimize energy consumption and optimize robustness. The realized system tracks pedestrian targets equipped with GPS-enabled devices. The system is configurable to realize different trade-offs between energy consumption and robustness. We provide extensive experimental results by profiling how devices consume power, by emulation on collected data and by validation in several real-world deployments. Results from this profiling show how a device consumes power while tracking its position. Results from the emulation indicate that the system can estimate and predict system conditions and mobility. Furthermore they provide evidence for that the system can lower the energy consumption considerably and remain robust when faced with changing system conditions. By validation in several real-world deployments we provide evidence that the real system works as predicted by the emulation.}},
+    address = {New York, NY, USA},
+    author = {Kjaergaard, Mikkel B. and Langdal, Jakob and Godsk, Torben and Toftkjaer, Thomas},
+    booktitle = {Proceedings of the 7th international conference on Mobile systems, applications, and services},
+    citeulike-article-id = {12728252},
+    citeulike-linkout-0 = {http://portal.acm.org/citation.cfm?id=1555816.1555839},
+    citeulike-linkout-1 = {http://dx.doi.org/10.1145/1555816.1555839},
+    doi = {10.1145/1555816.1555839},
+    isbn = {978-1-60558-566-6},
+    keywords = {adaptation, energy, for:tnhh, localization, mysh, nokia, probability-models},
+    location = {Krak\&\#243;w, Poland},
+    pages = {221--234},
+    posted-at = {2013-10-19 15:44:55},
+    priority = {2},
+    publisher = {ACM},
+    series = {MobiSys '09},
+    title = {{EnTracked: energy-efficient robust position tracking for mobile devices}},
+    url = {http://dx.doi.org/10.1145/1555816.1555839},
+    year = {2009}
+}
+
+@inproceedings{lu:jigsaw,
+    abstract = {{Supporting continuous sensing applications on mobile phones is challenging because of the resource demands of long-term sensing, inference and communication algorithms. We present the design, implementation and evaluation of the Jigsaw continuous sensing engine, which balances the performance needs of the application and the resource demands of continuous sensing on the phone. Jigsaw comprises a set of sensing pipelines for the accelerometer, microphone and GPS sensors, which are built in a plug and play manner to support: i) resilient accelerometer data processing, which allows inferences to be robust to different phone hardware, orientation and body positions; ii) smart admission control and on-demand processing for the microphone and accelerometer data, which adaptively throttles the depth and sophistication of sensing pipelines when the input data is low quality or uninformative; and iii) adaptive pipeline processing, which judiciously triggers power hungry pipeline stages (e.g., sampling the GPS) taking into account the mobility and behavioral patterns of the user to drive down energy costs. We implement and evaluate Jigsaw on the Nokia N95 and the Apple iPhone, two popular smartphone platforms, to demonstrate its capability to recognize user activities and perform long term GPS tracking in an energy-efficient manner.}},
+    address = {New York, NY, USA},
+    author = {Lu, Hong and Yang, Jun and Liu, Zhigang and Lane, Nicholas D. and Choudhury, Tanzeem and Campbell, Andrew T.},
+    booktitle = {Proceedings of the 8th ACM Conference on Embedded Networked Sensor Systems},
+    citeulike-article-id = {8218545},
+    citeulike-linkout-0 = {http://portal.acm.org/citation.cfm?id=1869983.1869992},
+    citeulike-linkout-1 = {http://dx.doi.org/10.1145/1869983.1869992},
+    doi = {10.1145/1869983.1869992},
+    isbn = {978-1-4503-0344-6},
+    keywords = {adaptation, energy, for:tnhh, framework, jigsaw, mysh, nokia, sensing},
+    location = {Z\&\#252;rich, Switzerland},
+    pages = {71--84},
+    posted-at = {2013-10-19 15:37:51},
+    priority = {2},
+    publisher = {ACM},
+    series = {SenSys '10},
+    title = {{The Jigsaw continuous sensing engine for mobile phone applications}},
+    url = {http://dx.doi.org/10.1145/1869983.1869992},
+    year = {2010}
+}
+
 @inproceedings{zhang:powertutor,
     abstract = {{This paper describes PowerBooter, an automated power model construction technique that uses built-in battery voltage sensors and knowledge of battery discharge behavior to monitor power consumption while explicitly controlling the power management and activity states of individual components. It requires no external measurement equipment. We also describe PowerTutor, a component power management and activity state introspection based tool that uses the model generated by PowerBooter for online power estimation. PowerBooter is intended to make it quick and easy for application developers and end users to generate power models for new smartphone variants, which each have different power consumption properties and therefore require different power models. PowerTutor is intended to ease the design and selection of power efficient software for embedded systems. Combined, PowerBooter and PowerTutor have the goal of opening power modeling and analysis for more smartphone variants and their users.}},
     address = {New York, NY, USA},
@@ -94,5 +166,27 @@
     title = {{Accurate online power estimation and automatic battery behavior based power model generation for smartphones}},
     url = {http://dx.doi.org/10.1145/1878961.1878982},
     year = {2010}
+}
+
+@article{li:status,
+    abstract = {{With the prevalence of smart mobile devices with multiple sensors, the commercial application of intelligent context-aware services becomes more and more attractive. However, limited by the battery capacity, the energy efficiency of context-sensing is the bottleneck for the success of context-aware applications. Though several previous studies for energy-efficient context-sensing have been reported, none of them can be applied to multiple types of high-energy-consuming sensors. Moreover, applying machine learning technologies to energy-efficient context-sensing is underexplored too. In this article, we propose to leverage machine learning technologies for improving the energy efficiency of multiple high-energy-consuming context sensors by trading off the sensing accuracy. To be specific, we try to infer the status of high-energy-consuming sensors according to the outputs of software-based sensors and the physical sensors that are necessary to work all the time for supporting the basic functions of mobile devices. If the inference indicates the high-energy-consuming sensor is in a stable status, we avoid the unnecessary invocation and instead use the latest invoked value as the estimation. The experimental results on real datasets show that the energy efficiency of GPS sensing and audio-level sensing are significantly improved by the proposed approach while the sensing accuracy is over 90\&percnt;.}},
+    address = {New York, NY, USA},
+    author = {Li, Xueying and Cao, Huanhuan and Chen, Enhong and Tian, Jilei},
+    citeulike-article-id = {12343377},
+    citeulike-linkout-0 = {http://portal.acm.org/citation.cfm?id=2089111},
+    citeulike-linkout-1 = {http://dx.doi.org/10.1145/2089094.2089111},
+    doi = {10.1145/2089094.2089111},
+    issn = {2157-6904},
+    journal = {ACM Trans. Intell. Syst. Technol.},
+    keywords = {energy, measurement, mysh, nokia, sensing},
+    month = feb,
+    number = {2},
+    posted-at = {2013-09-16 17:32:09},
+    priority = {2},
+    publisher = {ACM},
+    title = {{Learning to Infer the Status of Heavy-Duty Sensors for Energy-Efficient Context-Sensing}},
+    url = {http://dx.doi.org/10.1145/2089094.2089111},
+    volume = {3},
+    year = {2012}
 }
 
