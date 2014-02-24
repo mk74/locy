@@ -24,22 +24,56 @@ intro:\\
     Ambient Light & \checkmark & \checkmark & \checkmark\\ \hline
     Proximity & - & -& \checkmark\\ \hline
     \end{tabular}
-\end{center}	
-
+\end{center}		
+	
 problem: slow battery depletion\\
 	solution: screen on for all apps\\
 		increase battery consumption\\
 	result: comparison\\
+
 problem: Wireless\\
+	switching off WiFI on Android phones\\
+		Android switches wireless on from time to time -> special option for those \\
 	active/passive sampling\\
-problem: differences between phones\\
-	audio saving -> memory issues\\
-		codex issues then\\
+
 problem: different percentage for different phones\\
 	end up checking different ones for different phones\\
 		trace what I checked for each\\
+		htc flyer\\
+			charging battery to 100\% took forever\\
+			then, battery depletion from 100\% to 99\% takes forever\\
+			very very fast depletion from 99\% to 95\%\\
+		htc desire\\
+			choose 89->88, as it is old phone and charging was not triggered till if battery level more than 91\%\\
+		
+problem: hardware differences between phones\\
+	camera:\\
+		not enough dynamic memory on HTC desire -> but standardize codecs/size to fit all\\
+		-Google Nexus 7, HTC desire, HTC flyer:\\
+					-Codec H263\\
+					-Resolution	176&144\\
+					-Frame rate		~10(HTC flyer),	~12(HTC desire),	~15(Google Nexus 7)\\
+		audio saving -> memory issues\\
+			codex issues then\\
+	microphone:\\
+		(standarized as much as possible)
+		Google Nexus 7:\\
+			-Codec: AMR narrow band(samr)\\
+			-channels: 		mono\\
+			-sample rate:	8000 Hz\\
+			-bits per sample 	32\\
+		HTC desire, HTC flyer:\\
+			-Codec: AMR narrow band(samr)\\
+			-channels:		1\\
+			-sample rate:	8000 Hz\\
+			-bits per sample:	16\\
+			-Bitrate:		128 kb/s	\\
+			
 problem: failed samples\\
 	table with failed samples\\
+	Google Nexus 7 nice:\\
+		results are stable, but others not really\\
+			-> so up to 5 successful samples for other phones\\
 	reasons why invalid\\
 	
 	
@@ -93,6 +127,16 @@ problem: failed samples\\
     Light Sensor*  & 501\^ & 451\^ & 501\^ & 451\^ & 502\^ & 480          & ~     & ~   & ~    & ~    & ~   & ~   \\ \hline
     \end{tabular}
 \end{table}
+
+smaller issues(API and energy efficiency?):\\
+	Bluetooth Low Energy\\
+		new in Android 18\\
+		shaky(no callback when finished):
+			-when devices visible ->prints a lot of logs) -> higher energy consumption\\
+			-no devices available is good
+		
+	Camera needs to have a preview\\
+		so uses more energy\\
    
    
 conclusion:\\
