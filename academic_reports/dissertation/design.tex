@@ -1,16 +1,20 @@
 \section{Design}
 \label{s:design}
+Placeholder - description of section\\
 \subsection{Sensors energy measurements}
 
 (Generally: What I wanted to build and how I wanted to build it)\\
 \\
 Aim: compare sensors energy consumption\\
 
+\subsubsection{Sample sensor applications}
 what to compare:\\
 	-separate apps\\
 	-each switch off all sensors beside one is being currently investigated\\
 	-minimize other differences \\
-		-reason: could add noise/demolish results  if otherwise
+		-reason: could add noise/demolish results  if otherwise\\
+		
+		
 		-sensor sampling frequency differences\\
 			-background\\
 				-802.11 scanning\\
@@ -26,6 +30,8 @@ what to compare:\\
 					camera, microphone, GPS\\	
 				new scan when previous finished\\
 					WiFI, Bluetooth, Bluetooth BLE\\
+					
+					
 		-standardized output\\
 				-its frequency\\
 					results will come on different frequencies\\
@@ -37,14 +43,17 @@ what to compare:\\
 						standardized to "values: int int int" or "values: int"
 							e.g. Wireless scanning(WiFi, Bluetooth, Bluetooth LTE) only shows number of records\\
 							show example\\	
-		-hope to only measure what we want to measure\\				
+		-conclusion: hope to only measure what we want to measure\\				
 				
+\subsubsection{1\% battery depletion}				
 how to compare:\\
 	measure how long it takes to deplete 1% of battery life\\
 		measure on exactly the same percentage across different apps\\
 		make a couple of samples, average and compare\\
 		reasons:\\
 			people measure the whole battery life, but takes too long\\
+			
+			
 		predictions:\\
 			the battery life is nonlinear, but we hope that the behaviour on the the same percentage will be the same.\\
 			we hope that those measurements will be repetitive and similar.\\
@@ -55,4 +64,4 @@ how to compare:\\
 		
 		
 		
-\subsection{Sensy, an energy efficient sensing library}
+\subsection{Sensy}
