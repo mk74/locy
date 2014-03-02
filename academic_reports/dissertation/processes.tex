@@ -1,37 +1,8 @@
 \section{Software engineering processes}
 \label{s:processes}
-Programmer: Me\\	
-Customer: Tristan\\
-Mentor: Tristan\\
+Beside Dr Tristan Henderson being my supervisor, he also acted as a fictional customer of my software product. The continuous contact with the client allowed us to apply Agile approach to the project. At the beginning of our cooperation,  we established what we want to achieve (objectives) and how to measure whether we have achieved them (requirements). During the project, we used those requirements to indicate whether we are on right track to finish the product on time.
 
-Requirements and Objectives:\\
-	-established at the beginning\\
-		-so we now what we want to achieve\\
-	-requirements were used as milestones\\
-		-whether we are on right path\\
-
-Agile approach\\
-	-one sentence: implementing, testing, documenting + continuous feedback + aims for the next week
-	-reason: research project\\
-		-difficult to estimate time needed for different parts\\
-			-some of things we were aiming at were never done before\\
-			-some of them we didn't know whether it was possible\\
-		-the subject is complex, so if we use any other methodology, there would be a risk of not delivering the product on time\\
-		test-driven\\
+We applied Test-Driven Development: every week I tested and implemented a next block of the final product. Then, I document my work's progress and meet with Tristan. He provided me with continuous feedback on my work and assess whether I met last week's aims. At the end of each of the meetings, we set aims for the next week. This approach was suitable for research project, as it was often difficult to estimate time, which I need to complete different parts of projects. Some of our objectives were never done before by research community and we simply did not even know whether they were possible. By making short development cycles and having continuous feedback, I could achieve the objectives we set at the beginning. The subject of energy-efficient sensing is very complex and if we had chosen different software engineering process, there would be a risk of not delivering the product on time. 
 			
-	-on weekly basis:\\
-		implementation, testing, documenting\\
-		followed by a meeting:\\
-			progress document:\\
-				documentation of software/testing was done\\
-			continuous feedback was given\\
-			aims for the next week\\
-			
-paragraph on other things we did:\\
-	-Git\\
-		supervisor looking over my code\\
-	-Github - opensource\\
-		higher quality of work\\
-	-citeUlike?\\
-	-Eclipse, ADT, no emulators?\\
+For the development process, We also used a variety of support software. The code was hosted and shared between myself and Tristan by using popular source code management tool, Git. [XXX stats on Git] From the very beginning, the project (along with its whole documentation) was open-sourced and publicly available on GitHub: \url{https://github.com/mk74/locy}. We believed that this would provide higher quality of code and attract other researchers, who work on the same problem. All applications were created in Android Developer Tools \cite{google:adt}, which is a special plugin for Eclipse. Google provides the new IDE for Android, Android Studio \cite{google:androidstudio}. Although It has an interesting features specifically for Android development e.g., code refactoring to run faster, Android Studio is still in beta version. The testing of our library project involved energy measurement, which we couldn't automate and thus why none of testing framework was used. Lastly, we used CiteULike [XXX reference ] for sharing research papers and management of references for this document.
 	
