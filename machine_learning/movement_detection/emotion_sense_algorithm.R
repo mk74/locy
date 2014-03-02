@@ -1,10 +1,13 @@
-setwd("/Users/mk74/src/locy/machine_learning/movement_detection/activity_rec/")
+setwd("/Users/mk74/src/locy/machine_learning/movement_detection/")
 trainDataInPlace <- read.csv("inPlace.csv", header = TRUE, stringsAsFactors = FALSE, sep="\t")
 trainDataMoving <- read.csv("moving.csv", header = TRUE, stringsAsFactors = FALSE, sep="\t")
 
 
 plot(trainDataInPlace$Value)
 plot(trainDataMoving$Value)
+
+plot(trainDataInPlace$Value, type="l")
+plot(trainDataMoving$Value, type="l")
 
 sd(trainDataInPlace$Value)
 sd(trainDataMoving$Value)
