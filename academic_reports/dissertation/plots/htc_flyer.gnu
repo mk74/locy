@@ -7,6 +7,7 @@ set title "HTC Flyer: Energy consumption of different sensors" font "Arial Bold,
 set xlabel "Sensors" font "Arial Bold, 18" 
 set ylabel "Approximate 1% battery life (in seconds)" font "Arial Bold,18" 
 set xtics font "Arial Bold, 14"
+set xrange [-0.5:8.5]
 set yrange [200:300]
 set term png
 set terminal png size 1000,1000

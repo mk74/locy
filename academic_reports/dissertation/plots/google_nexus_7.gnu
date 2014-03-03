@@ -7,8 +7,9 @@ set title "Google Nexus 7: Energy consumption of different sensors" font "Arial 
 set xlabel "Sensors" font "Arial Bold, 18" 
 set ylabel "Approximate 1% battery life (in seconds)" font "Arial Bold,18" 
 set xtics font "Arial Bold, 14"
+set xrange [-0.5:11.5]
 set yrange [200:1000]
 set term png
 set terminal png size 1300,800
 set output "google_nexus_7.png"
-plot "google_nexus_7.dat"  using 1:3:4:xtic(2) with boxerror
+plot "google_nexus_7.dat"  using 1:3:4:xtic(2) with boxerror lc rgb "blue" fs solid 0.5 border -1
