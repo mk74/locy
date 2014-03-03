@@ -12,4 +12,4 @@ set yrange [200:300]
 set term png
 set terminal png size 1000,1000
 set output "htc_flyer.png"
-plot "htc_flyer.dat"  using 1:3:4:xtic(2) with boxerror
+plot "htc_flyer.dat"  using 1:3:4:xtic(2) with boxerror lc rgb "blue" fs solid 0.5 border -1

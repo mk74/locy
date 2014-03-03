@@ -1,6 +1,7 @@
 \section{Implementation}
 \label{s:implementation}
-Placeholder - description of section\\
+\hspace{10pt} In this section, the implementations of the the software components and the experiments involved in the dissertation are discussed. The design presented in the previous section is revisited. The first subsection summarizes the problems occurred while comparing sensors' energy profiles. It describes the issues related to Android operating system, differences between mobile devices, failed samples in the experiment and Android API. The second subsection presents the implementation details of the energy efficient sensing library, Sensy. [XXX keep going here on Sensy + rewrite next sentence]. The implementation process results in new knowledge on energy-accuracy of phone sensing, which is summarized in the last subsection.
+
 \subsection{Sensors energy measurements}
 intro:\\
 	how did i end up doing it/problems\\
@@ -152,8 +153,24 @@ problem: failed samples\\
     \end{tabular}
 \end{table}
 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1.5]{plots/devices_failed_samples.eps}
+\caption{Percentage of failed samples among devices }
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1.5]{plots/htc_desire_failed_samples.eps}
+\caption{HTC Desire: Failed samples per sensor }
+\end{figure}
 
 	Trepn Profiler\\
+	
+	
+	
+	Calibration of results mention here!\\
 
 \subsubsection{Android API}
 smaller issues(API and energy efficiency?):\\
