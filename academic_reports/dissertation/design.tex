@@ -4,29 +4,40 @@ The section describes the design of the software components and the experiments 
 
 \subsection{Sensors energy measurements}
 \label{s:design:measurements}
-Sensors energy measurements is a part of the project, where I determine how energy efficient different sensors are. To achieve this aim, the series of simple Android applications, \textbg{Sample Sensor Applications},  is created. Each of those applications keeps continuously sampling one sensor and switch off all others. Sample Sensor Applications are designed in the way that only one difference between them should be which sensor is being sampled. To compare sensors' energy demands, the method of measuring energy efficiency of the applications is being proposed. The method calculates time which applications need to deplete one percentage of battery life. The order of energy efficiency of different sensors may be established by comparing those time measurements. The most energy efficient sensor will be the one which one percentage battery depletion takes the longest. 
+Sensors energy measurements is a part of the project, where I determine how energy efficient different sensors are. To achieve this aim, the series of simple Android applications, \textbf{Sample Sensor Applications},  is created. Each of those applications keeps continuously sampling one sensor and switch off all others. Sample Sensor Applications are designed in the way that only one difference between them should be which sensor is being sampled. To compare sensors' energy demands, the method of measuring energy efficiency of the applications is being proposed. The method calculates time which applications need to deplete one percentage of battery life. The order of energy efficiency of different sensors may be established by comparing those time measurements. The most energy efficient sensor will be the one which one percentage battery depletion takes the longest. 
 
 \subsubsection{Sample sensor applications}
 \label{s:design:measurements:sampleapps}
-To determine differences in sensors' energy efficiency, each of sample applications keep sampling only one sensor while all others sensors are being switched off. To only study the energy efficiency of sampling, we try to minimize the impact of other issues such as different sampling frequencies of sensors and various sensors' output.
+To determine differences in sensors' energy efficiency, each of sample applications keep sampling only one sensor while all others sensors are being switched off. To only study the energy efficiency of sampling, we try to minimize the impact of other issues such as different sampling frequencies of sensors and various size of sensors' data.
 
 Sampling frequencies vary among sensors. Inertial sensors e.g., accelerometer or gyroscope could be sampled as often as every 20 milliseconds, whereas the minimum frequency of GPS equals to 20 seconds. The issue is more complex in case of wireless communication sensors such as Bluetooth or IEEE 802.11. A full Bluetooth scan takes around 12 secs, but it could be stopped earlier and started again. To alleviate those differences, the least energy-efficient strategy of complete, correct sampling is chosen for the comparison of sensors' energy efficiency. Sensors are being sampled as often as possible providing that the previous sample delivered valid data. For example, the next IEEE 802.11 scan will be started once the previous one has been finished\ (IEEE 802.11 scan takes around 2.5 secs depending on the device). This provides complete information on available access points while minimizing sampling frequency, which increases its energy consumption. The strategy will look similar for GPS and Bluetooth. In case of other sensors (inertial sensors, camera and microphone), the strategy will be executed by sensors being sampled as often as possible (sampling is immediate). 
 
+[XXX ^^ REASON WHY I CHOSE this strategy of comparison]
 
-Sensors also deliver different sizes of raw data. The result of wireless communication scans\ (IEEE 802.11 and Bluetooth) is the list of records (e.g., 20 hot spots with their names and other parameters), whereas inertial navigation is three coordinates. More complex data is also delivered by camera or microphone (XXX not finished!!)
-					
-		-standardized output\\
-				-its frequency\\
-					results will come on different frequencies\\
-					but they are printed on the same frequency\\
-						even if there are no new results\\
-				-how it looks like\\
-					WiFi Scan results look different (20 records) than light sensor (1 int)\\
-					solution:\\
-						standardized to "values: int int int" or "values: int"
-							e.g. Wireless scanning(WiFi, Bluetooth, Bluetooth LTE) only shows number of records\\
-							show example\\	
-		-conclusion: hope to only measure what we want to measure\\				
+To check whether Sample Sensor Applications work correctly, each application prints out its raw sensor data. The frequency of this output equals to 1 second and is the same for all applications. As described in the previous paragraph, sensors data are delivered on different frequencies. If the raw data would be also printed on different frequencies, this could add noise to our experiments. By using the same frequency of printing out raw data for all applications, the differences in sampling frequencies are mitigated. GPS sample application will print out its raw sensor data as often as accelerometer sample application, though those applications have different sensor sampling frequencies. It is worth noticing that as a side effect, printed values may be repetitive or missing, when no new sensor data were delivered. 
+
+Another issue concerning application's output is different sizes of raw data among sensors. The result of wireless communication scans\ (IEEE 802.11 and Bluetooth) is the list of records (e.g., 20 hot spots with their names and other parameters), whereas light sensor's result  is just single number. Furthermore, more complex data is delivered by camera or microphone. Instead of printing out different data, the output is standardized and has the same form for all applications:
+
+\begin{lstlisting}[frame=single]
+Values: x1 x2 x3
+\end{lstlisting}, where x1, x2, x3 are integeres and x2, x3 are optional. 
+
+Standardization process differs among sensors:
+\begin{itemize}
+	\item For wireless communications sensors, only the amount of available hotspot/devices is printed as x1. 
+		\begin{lstlisting}[frame=single]
+Values:2
+		\end{lstlisting}
+	\item For microphone, the maximum absolute amplitude for every second is printed as x1.
+	\item For camera, the total size of recorder video is printed as x1.
+	\item For light and proximity sensor, there is only one value x1 available.
+	\item Other inertial sensor provide all three coordinates: x1, x2 and x3.
+		\begin{lstlisting}[frame=single]
+Values: -0.17076111 -0.28128052 10.112656
+		\end{lstlisting}
+\end{itemize}
+
+There are still other issues, which could add noise to our experiments e.g., various API among sensors or IEEE 802.11 wireless card. However, all differences on application level are eliminated. The design of Sample Sensor Applications guarantees that we will only compare the differences in sensing among sensors.			
 				
 \subsubsection{1\% battery depletion}	
 \label{s:design:measurements:method}			
