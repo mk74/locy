@@ -3,7 +3,7 @@ set boxwidth 0.5
 set lmargin 10
 set style fill solid
 set xtics rotate
-set title "HTC desire: Failed samples per sensor" font "Arial Bold, 24" 
+#set title "HTC desire: Failed samples per sensor" font "Arial Bold, 24" 
 set xlabel "Sensors" font "Arial Bold, 18" 
 set ylabel "Percentage of failed samples [%]" font "Arial Bold,18" 
 set xtics font "Arial Bold, 14"

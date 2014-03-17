@@ -3,7 +3,7 @@ set boxwidth 0.5
 set lmargin 10
 set style fill solid
 set xtics rotate
-set title "Percentage of failed samples among devices" font "Arial Bold, 24" 
+#set title "Percentage of failed samples among devices" font "Arial Bold, 24" 
 set xlabel "Device" font "Arial Bold, 18" 
 set ylabel "Percentage of failed samples [%]" font "Arial Bold,18" 
 set xtics font "Arial Bold, 14"

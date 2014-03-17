@@ -3,7 +3,7 @@ set boxwidth 0.5
 set lmargin 10
 #set style fill solid
 set xtics rotate
-set title "HTC Flyer: Energy consumption of different sensors" font "Arial Bold, 24" 
+#set title "HTC Flyer: Energy consumption of different sensors" font "Arial Bold, 24" 
 set xlabel "Sensors" font "Arial Bold, 18" 
 set ylabel "Approximate 1% battery life (in seconds)" font "Arial Bold,18" 
 set xtics font "Arial Bold, 14"
