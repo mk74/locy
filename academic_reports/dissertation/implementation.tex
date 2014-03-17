@@ -72,25 +72,12 @@ problem: different percentage for different phones\\
 problem: hardware differences between phones\\
 	camera:\\
 		not enough dynamic memory on HTC desire -> but standardize codecs/size to fit all\\
-		-Google Nexus 7, HTC desire, HTC flyer:\\
-					-Codec H263\\
-					-Resolution	176\&144\\
-					-Frame rate		~10(HTC flyer),	~12(HTC desire),	~15(Google Nexus 7)\\
 		audio saving -> memory issues\\
 			codex issues then\\
+			XXX reference appendics camera
 	microphone:\\
 		(standarized as much as possible)
-		Google Nexus 7:\\
-			-Codec: AMR narrow band(samr)\\
-			-channels: 		mono\\
-			-sample rate:	8000 Hz\\
-			-bits per sample 	32\\
-		HTC desire, HTC flyer:\\
-			-Codec: AMR narrow band(samr)\\
-			-channels:		1\\
-			-sample rate:	8000 Hz\\
-			-bits per sample:	16\\
-			-Bitrate:		128 kb/s	\\
+		XXX reference appendixs microphone
 			
 \subsubsection{Failed samples}
 problem: failed samples\\
@@ -102,56 +89,12 @@ problem: failed samples\\
 	
 	also, battery seems to be getting less stable
 	
-	Google Nexus 7\\
-\begin{table}
-    \begin{tabular}{| l | c | c | c |}
-    \hline
-    Plain                  & 902 & 902 & 841 \\ \hline
-    Ambient Light          & 841 & 902 & 841\\ \hline
-    Bluetooth Low Energy*  & 782 & 842 & 781 \\ \hline
-    Magnetic field:        & 782 & 782 & 721\\ \hline
-    Microphone             & 721 & 781 & 782 \\ \hline
-    Bluetooth classic      & 781 & 721 & 722 \\ \hline
-    Accelerometer:         & 781 & 721 & 661 \\ \hline
-    Gyroscope              & 721 & 722 & 721 \\ \hline
-    Bluetooth Low Energy** & 722 & 721 & 661 \\ \hline
-    \end{tabular}
-\end{table}
+	XXX REF to Google Nexus 7
+	
 
+	XXX REF to HTC FLYER
 
-   HTC Flyer\\
-\begin{table}
-    \begin{tabular}{| l | c | c | c | c | c | c | c | c | c |}
-    \hline
-    Plain          & \cellcolor{red!25}30  & 270  & 270   & 270   & 271       & 270 & 270      & ~   & ~   \\ \hline
-    Bluetooth      & 181\^ & 270  & \cellcolor{red!25}30   & \cellcolor{red!25}60   & 270       & 271 & 270      & 241 & 264 \\ \hline
-    Accelerometer  & 240  & 270  & 180\^ & 271   & 240       & 270 & 258      & ~   & ~   \\ \hline
-    Magnetic field & 270  & 180\^ & 240   & \cellcolor{red!25}30   & 300^^   & 240 & 270      & 270 & 258 \\ \hline
-    Light          & 240  & 240  & 271   & 270   & 270       & 258 & ~        & ~   & ~   \\ \hline
-    Microphone     & 240  & 240  & 240   & 300^^ & 270       & 240 & 246      & ~   & ~   \\ \hline
-    WiFiScan       & 240  & 241  & 236   & 248   & 240(HOME) & 240 & 240      & ~   & ~   \\ \hline
-    GPS            & 241  & 240  & 210   & \cellcolor{red!25}30   & 120^^   & 240 & 240(OUT) & 210 & 228 \\ \hline
-    Camera         & 121\^ & 240  & 180^^ & 210   & 241       & 240 & 210      & 228 & ~   \\ \hline
-    \end{tabular}
-\end{table}
-
-	HTC Desire\\
-	\begin{table}
-    \begin{tabular}{| l | c | c | c | c | c | c | c | c | c | c | c | c |}
-    \hline
-    Plain          & 250  & 253  & 251  & 201  & 250  & 240          & ~     & ~   & ~    & ~    & ~   & ~   \\\hline
-    Bluetooth      & 251  & 251  & 200  & 250  & 250  & 240          & ~     & ~   & ~    & ~    & ~   & ~   \\\hline
-    Light Sensor** & 251  & 251  & 251  & 200  & 451\^ & 451\^        & 200   & 230 & ~    & ~    & ~   & ~   \\ \hline
-    Proximity*     & 251  & 501\^ & 451\^ & 200  & 501\^ & 463\^        & 251** & 251 & 403\^ & 401\^ & 200 & 230 \\ \hline
-    Accelerometer  & 251  & 451\^ & 200  & 401\^ & 200  & 250          & 250   & 230 & ~    & ~    & ~   & ~   \\ \hline
-    Magnetic Field & 201  & 250  & 201  & 400\^ & 200  & 253          & 220   & ~   & ~    & ~    & ~   & ~   \\ \hline
-    Microphone     & 400\^ & 200  & 200  & 250  & 200  & 450\^        & 250   & 220 & ~    & ~    & ~   & ~   \\ \hline
-    WifiScan       & 150  & 300\^ & 251  & 201  & 250  & 251(LIBRARY) & 151   & 200 & ~    & ~    & ~   & ~   \\ \hline
-    Camera         & 150  & 200  & 201  & 200  & 200  & 190          & ~     & ~   & ~    & ~    & ~   & ~   \\ \hline
-    GPS            & 200  & 201  & 150  & 200  & 151  & 170          & ~     & ~   & ~    & ~    & ~   & ~   \\ \hline
-    Light Sensor*  & 501\^ & 451\^ & 501\^ & 451\^ & 502\^ & 480          & ~     & ~   & ~    & ~    & ~   & ~   \\ \hline
-    \end{tabular}
-\end{table}
+	XXX REF to HTC DESIRE
 
 
 \plot{devices_failed_samples}
