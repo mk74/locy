@@ -8,9 +8,9 @@
 
 \subsubsection{Sample sensor applications}
 \label{s:design:measurements:sampleapps}
-\hspace{10pt} To determine differences in sensors' energy efficiency, each of sample applications keep sampling only one sensor while all others sensors are being switched off. To only study the energy efficiency of sampling, we try to minimize the impact of other issues such as different sampling frequencies of sensors and various size of sensors' data.
+\hspace{10pt} To determine differences in sensors' energy efficiency, each of sample applications keep sampling only one sensor while all others sensors are being switched off. To only study the energy efficiency of sampling, we try to minimize the impact of other issues such as different sampling frequencies of sensors and various size of sensors' data. [XXX the same structure twice!]
 
-Sampling frequencies vary among sensors. Inertial sensors e.g., accelerometer or gyroscope could be sampled as often as every 20 milliseconds, whereas the minimum frequency of GPS equals to 20 seconds. The issue is more complex in case of wireless communication sensors such as Bluetooth or IEEE 802.11. A full Bluetooth scan takes around 12 secs, but it could be stopped earlier and started again. To alleviate those differences, the least energy-efficient strategy of complete, correct sampling is chosen for the comparison of sensors' energy efficiency. Sensors are being sampled as often as possible providing that the previous sample delivered valid data. For example, the next IEEE 802.11 scan will be started once the previous one has been finished\ (IEEE 802.11 scan takes around 2.5 secs depending on the device). This provides complete information on available access points while minimizing sampling frequency, which increases its energy consumption. The strategy will look similar for GPS and Bluetooth. In case of other sensors (inertial sensors, camera and microphone), the strategy will be executed by sensors being sampled as often as possible (sampling is immediate). 
+Sampling frequencies vary among sensors. Inertial sensors e.g., accelerometer or gyroscope could be sampled as often as every 20 milliseconds, whereas the minimum frequency of GPS equals to 20 seconds. The issue is more complex in case of wireless communication sensors such as Bluetooth or IEEE 802.11. A full Bluetooth scan takes around 12 secs, but it could be stopped earlier and started again. To alleviate those differences, the least energy-efficient strategy of complete, correct sampling is chosen for the comparison of sensors' energy efficiency.[XXX reason] Sensors are being sampled as often as possible providing that the previous sample delivered valid data. For example, the next IEEE 802.11 scan will be started once the previous one has been finished\ (IEEE 802.11 scan takes around 2.5 secs depending on the device). This provides complete information on available access points while minimizing sampling frequency, which increases its energy consumption. The strategy will look similar for GPS and Bluetooth. In case of other sensors (inertial sensors, camera and microphone), the strategy will be executed by sensors being sampled as often as possible (sampling is immediate). 
 
 [XXX ^^ REASON WHY I CHOSE this strategy of comparison]
 
@@ -55,3 +55,9 @@ Trepn Profiler + Conclusion\\
 		
 \subsection{Sensy}
 \label{s:design:sensy}
+
+\subsubsection{Adaptive sensing}
+\label{s:design:sensy:adaptive}
+
+\subsection{Conclusions}
+\label{s:design:conclusions}
