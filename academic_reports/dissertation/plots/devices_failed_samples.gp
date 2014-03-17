@@ -8,7 +8,8 @@ set xlabel "Device" font "Arial Bold, 18"
 set ylabel "Percentage of failed samples [%]" font "Arial Bold,18" 
 set xtics font "Arial Bold, 14"
 set yrange [0:100]
-set term png
-set terminal png size 1300,800
-set output "devices_failed_samples.png"
-plot "devices_failed_samples.dat"  using 1:3:xtic(2) with boxes
+set term post eps
+#set term png
+#set terminal png size 1300,800
+#set output "devices_failed_samples.png"
+plot "plots/devices_failed_samples.dat"  using 1:3:xtic(2) with boxes lc rgb "red"
