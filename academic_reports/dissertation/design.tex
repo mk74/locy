@@ -32,13 +32,15 @@ Those number may represent different information depending on a sensor:
 		\plot{output_inertial}
 \end{itemize}
 
-There are still other issues, which could add noise to our experiments e.g., various API among sensors or different capabilities of IEEE 802.11 wireless cards. However, all differences noticeable on the application level are eliminated. Such design of Sample Sensor Applications guarantees that on the energy efficiencies of different sensors' sampling will be compared. 
+There are still other issues, which could add noise to the experiments e.g., various API among sensors or different capabilities of IEEE 802.11 wireless cards. However, all differences noticeable on the application level are eliminated. Such design of Sample Sensor Applications guarantees that on the energy efficiencies of different sensors' sampling will be compared. 
 				
 \subsubsection{1\% battery depletion}	
 \label{s:design:measurements:method}
-\hspace{10pt} Once  Sample Sensor Applications are prepared, the order of their energy efficiency needs to be established. To compare their energy efficiency, I make time measurements on how long 1\% depletion of battery life takes. Then, those time measurements are compared. For any two sensors, if there is longer time needed for 1\% depletion of one of them, it means that this sensor is more energy-efficient. It is worth mentioning that Android API only provides 1\% precision on battery life's status. 
+\hspace{10pt} Once  Sample Sensor Applications are prepared, the order of their energy efficiency needs to be established. To compare their energy efficiency, I make time measurements on how long 1\% depletion of battery life takes. Then, those time measurements are compared. For any two sensors, if there is longer time needed for 1\% depletion of one of them, it means that this sensor is more energy-efficient. It is worth mentioning that 1\% is used, since that is a precision of the information on battery life's status which Android API provides.
 
-\textbf{The method should be accurate if the comparison is made on the same percentage of battery life} e.g., between 99\% and 98\%. Although the battery life is nonlinear, the battery should behave similarly on the same percentage across many runs. The measurements should be similar and repetitive. Also, time measurements should not take long, which creates a possibility of accurate online energy measurements. 
+\textbf{The method should be accurate if the comparison is made on the same percentage of battery life} e.g., between 99\% and 98\%. Although the battery life is nonlinear, the battery should behave similarly on the same percentage across many runs. The measurements should be similar and repetitive. Also, time measurements should not take long, which creates a chance for accurate online energy measurements. All of those assumptions will be validated in the next section.
+
+For the purpose of this dissertation, this measurement method was directly incorporated into Sample Sensor Applications. Each sample sensor application is continuously querying the battery status and the time of 1\% battery depletion is registered. The whole process is exactly the same for all sample sensor applications. Because of that, no noise to the experiments is added.
 
 [XXX how to incorporate it into sample apps]\\
 
