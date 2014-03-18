@@ -1,14 +1,15 @@
 \section{Implementation}
 \label{s:implementation}
-\hspace{10pt} In this section, the implementations of the the software components and the experiments involved in the dissertation are discussed. The design presented in the previous section is revisited. The first subsection summarizes the problems occurred while comparing sensors' energy profiles. It describes the issues related to Android operating system, differences between mobile devices, failed samples in the experiment and Android API. The second subsection presents the implementation details of the energy efficient sensing library, Sensy. [XXX keep going here on Sensy + rewrite next sentence]. The implementation process results in new knowledge on energy-accuracy of phone sensing, which is summarized in the last subsection.
+\hspace{10pt} In this section, the implementations of the the software components and the experiments involved in the dissertation are discussed. The design presented in the previous section is revisited. The first subsection summarizes the problems occurred while comparing sensors' energy profiles. Those issues are grouped in two categories: software and hardware problems. That subsection also undertakes the analysis of the failed samples in the experiment. The second subsection presents the implementation details of the energy efficient sensing library, Sensy. [XXX keep going here on Sensy + rewrite next sentence]. As a result of the implementation process, the conclusions on energy-accuracy of phone sensing are derived and presented in the last subsection.
 
 \subsection{Sensors energy measurements}
-intro:\\
-	how did i end up doing it/problems\\
-	generally: available phones + android versions, how old they were, specifications(sensors)\\
-		table!\\
+The implementation of the experiments' design raises some practical challenges. \textbf{Android operating system and its API poses software obstacles for the experiments}. First, the details on \textbf{how Android performs IEEE802.11 scanning} needs to be established. Second, \textbf{The main concern of Android API design decisions is sometimes not energy efficiency}\ (e.g., requirement of camera preview for video capturing). Other problems for the implementation are a result of many devices involved in the experiments. \textbf{There are hardware differences between mobile phones},  which creates additional problems. The specification of mobile phones involved in the experiments are presented in below table [XXX reference].
+
+LONG:\\
+The execution of the design raises many practical challenges. \textbf{Android operating system and its API poses some software obstacles for the experiments}. First, \textbf{information on Android functionality may be hidden}. For example, IEEE802.11 scanning may be undertaken in many different ways\ (active or passive, power save mode or not), but the API documentation does not provide any details on that. To make valid experiments and draw conclusions out of them, those details needs to be established. Second, \textbf{Android imposes design decisions on mobile developers}. Those decisions may not perceive energy efficiency as a main concern. For example, the application, which captures video, needs to provide camera preview for application's client. This maintains user's privacy, but also depletes battery life faster. Another type of practical challenges for the implementation are a result of many devices involved in the experiments. \textbf{There are differences between mobile phones}, which are shown in below table [XXX reference].
 	
 \begin{center}
+	\begin{table}
     \begin{tabular}{| l | c | c | c |}
     \hline
       & Google Nexus 7 & HTC Flyer & HTC desire \\ \hline
@@ -26,18 +27,34 @@ intro:\\
     Ambient Light & \checkmark & \checkmark & \checkmark\\ \hline
     Proximity & - & -& \checkmark\\ \hline
     \end{tabular}
+    \caption{The differences between mobile phones involved in the experiments.}
+	\label{table:devices_differences}
+	\end{table}
 \end{center}		
-	
-\subsubsection{Android operating system}
-problem: slow battery depletion\\
-	solution: screen on for all apps\\
-		increase battery consumption\\
-	result: comparison\\
 
-problem: Wireless\\
-	switching off WiFi on Android phones\\
-		Android switches wireless on from time to time -> special option for those \\
-		
+Although those software and hardware challenges are solved. The experiments still delivers many failed samples, which needs to be further investigated. The investigation shows that different devices have different characteristics of the failed samples. 
+
+\subsubsection{Software problems}
+Preliminary sample experiments showed that WiFi scanning was more energy-efficient than other sensors. That result was counter-intuitive, and thus why, IEEE802.11 was further investigated. Unlike other sensors, IEEE802.11 has many scanning parameters: active or passive; power save mode or not; scanning time for one channel, caching scanning results, complete scanning etc. Those parameters for Android were established through using KisMac [XXX reference]. As it can be seen in the below table [XXX], the parameters are as usual as no caching, no skipping  scanning channels are involved. It turned out that over optimistic preliminary sample experiments were a result of problems with other applications' sensors. As a side note, it is worth noticing that there is active scanning available in Android API, though it is depreciated. Passive scanning is more energy efficient than active scanning, as radio reception\ (passive scanning) usually requires 10 times less power than radio transmission (active scanning).
+
+
+XXX TABLE with results:
+passive scanning
+caching: no
+complete scanning: yes
+total time of scanning:
+
+The main concern of Android API design decisions is sometimes not energy efficiency. This leads to other software problems with the experiments' implementation. For making an accurate energy efficiency comparison, WiFi connectivity needs to be switched off while running other than IEEE802.11 sensor application. It turns out that switching if off from the standard menu is not enough, as Android reserves its right to switch it on any time for Google Location Service purposes. Other option needs to be toggled off to switch WiFI scanning completely. 
+
+[XXX photo!!]
+
+Another issue is Bluetooth Low Energy API. It is expected, 
+
+camera preview
+
+-------------------
+
+problem: Wireless\\	
 	active/passive sampling\\
 		why Google doesn't do active scanning?!
 			advanatages: faster
@@ -58,7 +75,29 @@ problem: Wireless\\
 			-are results the same?
 		checked with Kismac
 
-\subsubsection{Differences between mobile phones}
+smaller issues(API and energy efficiency?):\\
+	switching off WiFi on Android phones\\
+		Android switches wireless on from time to time -> special option for those \\
+			Google Location Service\\
+			photoXXX
+			
+	Bluetooth Low Energy\\
+		new in Android 18\\
+		shaky(no callback when finished):
+			-when devices visible ->prints a lot of logs) -> higher energy consumption\\
+			-no devices available is good
+		
+	Camera needs to have a preview\\
+		so uses more energy\\
+		
+\subsubsection{Hardware problems}
+many of those differences between mobile phones:	
+
+problem: slow battery depletion\\
+	solution: screen on for all apps\\
+		increase battery consumption\\
+	result: comparison\\
+	
 problem: different percentage for different phones\\
 	end up checking different ones for different phones\\
 		trace what I checked for each\\
@@ -112,20 +151,7 @@ Some reference to Figure XXX HOW?
 	
 	
 	Calibration of results mention here!\\
-
-\subsubsection{Android API}
-smaller issues(API and energy efficiency?):\\
-	Bluetooth Low Energy\\
-		new in Android 18\\
-		shaky(no callback when finished):
-			-when devices visible ->prints a lot of logs) -> higher energy consumption\\
-			-no devices available is good
-		
-	Camera needs to have a preview\\
-		so uses more energy\\
-   
-   switching off WiFi in Android:\\
-   		Google Location Service\\
+   		
    
 \subsubsection{Conclusions}   
 conclusion: on the whole method\\
