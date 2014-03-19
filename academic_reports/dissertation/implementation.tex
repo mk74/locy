@@ -5,9 +5,6 @@
 \subsection{Sensors energy measurements}
 The implementation of the experiments' design raises some practical challenges. \textbf{Android operating system and its API poses software obstacles for the experiments}. First, the details on \textbf{how Android performs IEEE802.11 scanning} needs to be established. Second, \textbf{
 The Android design decisions may not perceive energy efficiency as a main concern}\ (e.g., requirement of camera preview for video capturing). Other problems for the implementation are a result of many devices involved in the experiments. \textbf{There are hardware differences between mobile phones},  which creates additional problems. The specification of mobile phones involved in the experiments are presented in below table [XXX reference].
-
-LONG:\\
-The execution of the design raises many practical challenges. \textbf{Android operating system and its API poses some software obstacles for the experiments}. First, \textbf{information on Android functionality may be hidden}. For example, IEEE802.11 scanning may be undertaken in many different ways\ (active or passive, power save mode or not), but the API documentation does not provide any details on that. To make valid experiments and draw conclusions out of them, those details needs to be established. Second, \textbf{Android imposes design decisions on mobile developers}. Those decisions may not perceive energy efficiency as a main concern. For example, the application, which captures video, needs to provide camera preview for application's client. This maintains user's privacy, but also depletes battery life faster. Another type of practical challenges for the implementation are a result of many devices involved in the experiments. \textbf{There are differences between mobile phones}, which are shown in below table [XXX reference].
 	
 \begin{center}
 	\begin{table}
@@ -15,9 +12,11 @@ The execution of the design raises many practical challenges. \textbf{Android op
     \hline
       & Google Nexus 7 & HTC Flyer & HTC desire \\ \hline
     Android version & 4.3 & 3.3 &  2.3.3\\ \hline
-    Battery & X & X & X\\ \hline
-    Camera & \checkmark & \checkmark & \checkmark\\ \hline
-    Microphone & \checkmark & \checkmark & \checkmark \\ \hline
+  	CPU & Quad-core 1.2 GHz Cortex-A9 & 1.5 GHz Scorpion & 1 GHz Scorpion\\ \hline
+  	Intertal Memory & 1 GB RAM & 1 GB RAM & 576 MB RAM\\ \hline
+    Battery & Li-Ion 4325 mAh & Li-Po 4000 mAh & Li-Ion 1400 mAh\\ \hline
+    Camera & X & X & X\\ \hline
+    Microphone & X & X & X \\\hline
     IEEE 802.11 & \checkmark & \checkmark & \checkmark \\ \hline
     GPS & \checkmark & \checkmark & \checkmark \\ \hline
     Bluetooth & \checkmark & \checkmark & \checkmark\\ \hline
@@ -51,88 +50,15 @@ The Android design decisions may not perceive energy efficiency as a main concer
 [XXX photo!!]
 
 Another software issue is \textbf{Bluetooth Low Energy\ (LE) API}. Classic Bluetooth scanning is expected to be less energy-efficient than Bluetooth LE, since the latter is intended to reduce power demands while providing similar functionality. However, Bluetooth LE API is new\ (added in Android 18) and still under the development. In its current version\ (Android 18),  it prints out a lot of information to log file if any device is found. This leads to faster battery depletion than in case of Classic Bluetooth. This has been evidenced in the results of the experiments. If there is no device found, Bluetooth LE is more energy efficient than Classic Bluetooth. Lastly, Android imposes its \textbf{privacy policy on video capturing} applications. Those applications are required to provide camera preview in order customers to be aware of video capturing. This privacy policy results in higher energy demands, as camera preview requires additional computational power. The camera preview has been added to the Camera Sensor Application.
-
--------------------
-
-problem: Wireless\\	
-	active/passive sampling\\
-		why Google doesn't do active scanning?!
-			advanatages: faster
-			disadvanatages: 
-				-energy:
-					"radio modem transmission typically requires about 10 times as much power as reception"
-				-AP will only respond if i probe direct 
-				-introduce additional  traffic
-				-privacy:
-					Presence analytics\\
-						cisco tristan twitter\\
-							around time of chickenpox doughter\\
-							https://meraki.cisco.com/lib/pdf/meraki\_whitepaper\_presence.pdf\\
-				
-				
-	caching Wireless results\\
-		-move around check whether it changes
-			-are results the same?
-		checked with Kismac
-
-smaller issues(API and energy efficiency?):\\
-	switching off WiFi on Android phones\\
-		Android switches wireless on from time to time -> special option for those \\
-			Google Location Service\\
-			photoXXX
-			
-	Bluetooth Low Energy\\
-		new in Android 18\\
-		shaky(no callback when finished):
-			-when devices visible ->prints a lot of logs) -> higher energy consumption\\
-			-no devices available is good
-		
-	Camera needs to have a preview\\
-		so uses more energy\\
 		
 \subsubsection{Hardware problems}
 In new mobile phones, the hardware is more energy-efficient and its total battery life is substantial. \textbf{The time of 1\% percentage battery depletion may be significant}\ (around half an hour for accelerometer on Google Nexus 7). In order to investigate the possibility of online measurements and fasten the experiments, additional energy demands were needed to be added to all Sample Sensor Applications. Those demands could be generated by additional software operations. However, this is difficult as those operations should not involve any sensors not CPU power. Some of the sensors are more computationally intensive than others. If any additional software operation significantly involved CPU power, this could add noise to our experiments and invalidate our comparisons. The simple solution to this problem was \textbf{keeping the screen always on} for the applications.  This not only significantly increases energy demands of each of the Sample Sensor Applications, but can also be uniformly added to each of them without invalidating our experiments.  This operation has reduced the time of 1\% percentage battery depletion for acclerometer on Google Nexus 7 to around 13 minutes\ (56\% shorter).  
 
-Another issue is \textbf{choosing a battery percentage} for the experiments . In case of Google Nexus 7, battery behavior is stable and repetitive for any chosen percentage. To reduce time of full cycle of obtaining experiment's sample (charging and discharging battery),  the percentage between 99\% and 98\% was chosen. For other mobile phones, choosing the percentage was more complicated as batteries are older, and thus, less stable. HTC Flyer could be characterized by specific features of charging cycles. Charging was much slower for the last percentage of the battery\ (from 99\% to 100\%) than for any other percentages. After being fully charged, the battery depleted much slower for the last percentage\ (from 100\% to 99\%). Then, the depletion of the battery from 99\% to 95\% was immediate.  
+Another issue is \textbf{choosing a battery percentage} for the experiments . In case of Google Nexus 7, battery behavior is stable and repetitive for any chosen percentage. To reduce time of full cycle of obtaining experiment's sample (charging and discharging battery),  the percentage between 99\% and 98\% was chosen. For other mobile phones, choosing the percentage was more complicated as batteries are older, and thus, less stable. HTC Flyer could be characterized by specific features of charging cycles. Charging was much slower for the last percentage of the battery\ (from 99\% to 100\%) than for any other percentages. After being fully charged, the battery depleted much slower for the last percentage\ (from 100\% to 99\%). Then, the depletion of the battery from 99\% to 98\% was immediate.  This phenomenon was observed a few times. To avoid it, \textbf{the percentage between 98\% and 97\% was chosen for the experiments on HTC Flyer}. In case of HTC Desire, the charging was often not triggered while the battery level was more than 91\%. To mitigate this issue, I decided on \textbf{the percentage from 89\% to 88\% for HTC Desire}. 
 
--this phenomenon observed many times
-	couldn't finish 99 ->98
-	-so jump into something else
-		-but often not fully charged, to fasten the experiments 
+[XXX table different percentages]\\
 
-To avoid this phenomenon, .
-
-To fully charge its battery, 
-
-
-For Google Nexus 7, any percentage may be chosen that battery behavior will be repetitive and predictable\ (from 99\% to 98\% was chosen for experiments). Other phones' batteries are less stable 
-
-For Google Nexus 7, the behavior on any 
-
-problem: slow battery depletion\\
-	solution: screen on for all apps\\
-		increase battery consumption\\
-	result: comparison\\
-	
-problem: different percentage for different phones\\
-	end up checking different ones for different phones\\
-		trace what I checked for each\\
-		HTC Flyer\\
-			charging battery to 100\% took forever\\
-			then, battery depletion from 100\% to 99\% takes forever\\
-			very very fast depletion from 99\% to 95\%\\
-		HTC Desire\\
-			choose 89->88, as it is old phone and charging was not triggered till if battery level more than 91\%\\
-		
-problem: hardware differences between phones\\
-	camera:\\
-		not enough dynamic memory on HTC desire -> but standardize codecs/size to fit all\\
-		audio saving -> memory issues\\
-			codex issues then\\
-			XXX reference appendics camera
-	microphone:\\
-		(standarized as much as possible)
-		XXX reference appendixs microphone
+HTC Desire has less dynamic memory than other devices involved in the experiment. This affects the Camera Sensor Application. Initially, the experiment with video capturing could not be completed for HTC Desire, as there was no enough dynamic memory to encode and save the full video capture.  To alleviate this problem, the codecs were changed H.263\ (it uses less dynamic memory for video encoding) and the video dimensions were reduced\ (less data needs to be encoded). Those parameters were standardized in Camera Sensor Application across all devices. Because of consistency, the audio parameters were also standardized in Microphone Sensor Applications for all mobile phones. Full details on video and audio capture's parameters are available in Appendices [XXX reference];
 			
 \subsubsection{Failed samples}
 problem: failed samples\\
