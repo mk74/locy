@@ -3,8 +3,7 @@
 \hspace{10pt} In this section, the implementations of the the software components and the experiments involved in the dissertation are discussed. The design presented in the previous section is revisited. The first subsection summarizes the problems occurred while comparing sensors' energy profiles. Those issues are grouped in two categories: software and hardware problems. That subsection also undertakes the analysis of the failed samples in the experiment. The second subsection presents the implementation details of the energy efficient sensing library, Sensy. [XXX keep going here on Sensy + rewrite next sentence]. As a result of the implementation process, the conclusions on energy-accuracy of phone sensing are derived and presented in the last subsection.
 
 \subsection{Sensors energy measurements}
-The implementation of the experiments' design raises some practical challenges. \textbf{Android operating system and its API poses software obstacles for the experiments}. First, the details on \textbf{how Android performs IEEE802.11 scanning} needs to be established. Second, \textbf{
-The Android design decisions may not perceive energy efficiency as a main concern}\ (e.g., requirement of camera preview for video capturing). Other problems for the implementation are a result of many devices involved in the experiments. \textbf{There are hardware differences between mobile phones},  which creates additional problems. The specification of mobile phones involved in the experiments are presented in below table [XXX reference].
+The implementation of the experiments' design raises practical challenges. \textbf{Android operating system and its API affects the experiments' design}. A couple of software issues\ (IEEE802.11 scanning, Bluetooth Low Energy API and privacy policy for video capturing) is described later. Other problems for the implementation are a result of many devices involved in the experiments. \textbf{There are hardware differences between mobile phones},  which creates some difficulties. The specification of mobile phones involved in the experiments are presented in below table [XXX reference].
 	
 \begin{center}
 	\begin{table}
@@ -32,7 +31,7 @@ The Android design decisions may not perceive energy efficiency as a main concer
 	\end{table}
 \end{center}		
 
-Although those software and hardware challenges are solved. The experiments still delivers many failed samples, which needs to be further investigated. The investigation shows that different devices have different characteristics of the failed samples. 
+Although those software and hardware challenges are solved. The experiments still delivers many invalid samples, which needs to be further investigated. The investigation shows that different devices have different characteristics of the invalid samples. 
 
 \subsubsection{Software problems}
 Preliminary sample experiments showed that \textbf{WiFi scanning} was more energy-efficient than other sensors. That result was counter-intuitive, and thus why, IEEE802.11 was further investigated. Unlike other sensors, IEEE802.11 has many scanning parameters: active or passive; power save mode or not; scanning time for one channel, caching scanning results, complete scanning etc. Those parameters for Android were established through using KisMac [XXX reference]. As it can be seen in the below table [XXX], the parameters are as usual as no caching, no skipping  scanning channels are involved. It turned out that over optimistic preliminary sample experiments were a result of problems with other applications' sensors. As a side note, it is worth noticing that there is active scanning available in Android API, though it is depreciated. Passive scanning is more energy efficient than active scanning, as radio reception\ (passive scanning) usually requires 10 times less power than radio transmission (active scanning).
@@ -52,71 +51,39 @@ The Android design decisions may not perceive energy efficiency as a main concer
 Another software issue is \textbf{Bluetooth Low Energy\ (LE) API}. Classic Bluetooth scanning is expected to be less energy-efficient than Bluetooth LE, since the latter is intended to reduce power demands while providing similar functionality. However, Bluetooth LE API is new\ (added in Android 18) and still under the development. In its current version\ (Android 18),  it prints out a lot of information to log file if any device is found. This leads to faster battery depletion than in case of Classic Bluetooth. This has been evidenced in the results of the experiments. If there is no device found, Bluetooth LE is more energy efficient than Classic Bluetooth. Lastly, Android imposes its \textbf{privacy policy on video capturing} applications. Those applications are required to provide camera preview in order customers to be aware of video capturing. This privacy policy results in higher energy demands, as camera preview requires additional computational power. The camera preview has been added to the Camera Sensor Application.
 		
 \subsubsection{Hardware problems}
-In new mobile phones, the hardware is more energy-efficient and its total battery life is substantial. \textbf{The time of 1\% percentage battery depletion may be significant}\ (around half an hour for accelerometer on Google Nexus 7). In order to investigate the possibility of online measurements and fasten the experiments, additional energy demands were needed to be added to all Sample Sensor Applications. Those demands could be generated by additional software operations. However, this is difficult as those operations should not involve any sensors not CPU power. Some of the sensors are more computationally intensive than others. If any additional software operation significantly involved CPU power, this could add noise to our experiments and invalidate our comparisons. The simple solution to this problem was \textbf{keeping the screen always on} for the applications.  This not only significantly increases energy demands of each of the Sample Sensor Applications, but can also be uniformly added to each of them without invalidating our experiments.  This operation has reduced the time of 1\% percentage battery depletion for acclerometer on Google Nexus 7 to around 13 minutes\ (56\% shorter).  
+In new mobile phones, the hardware is more energy-efficient and its total battery life is substantial. \textbf{The time of 1\% percentage battery depletion may be significant}\ (around half an hour for accelerometer on Google Nexus 7). In order to investigate the possibility of online measurements and fasten the experiments, additional energy demands were needed to be added to all Sample Sensor Applications. Those demands could be generated by additional software operations. However, this is difficult as those operations should not involve any sensors not CPU power. Some of the sensors are more computationally intensive than others. If any additional software operation significantly involved CPU power, this could add noise to our experiments and invalidate our comparisons. The simple solution to this problem was \textbf{keeping the screen always on} for the applications.  This not only significantly increases energy demands of each of the Sample Sensor Applications, but can also be uniformly added to each of them without invalidating our experiments.  This operation has reduced the time of 1\% percentage battery depletion for accelerometer on Google Nexus 7 to around 13 minutes\ (56\% shorter).  
 
 Another issue is \textbf{choosing a battery percentage} for the experiments . In case of Google Nexus 7, battery behavior is stable and repetitive for any chosen percentage. To reduce time of full cycle of obtaining experiment's sample (charging and discharging battery),  the percentage between 99\% and 98\% was chosen. For other mobile phones, choosing the percentage was more complicated as batteries are older, and thus, less stable. HTC Flyer could be characterized by specific features of charging cycles. Charging was much slower for the last percentage of the battery\ (from 99\% to 100\%) than for any other percentages. After being fully charged, the battery depleted much slower for the last percentage\ (from 100\% to 99\%). Then, the depletion of the battery from 99\% to 98\% was immediate.  This phenomenon was observed a few times. To avoid it, \textbf{the percentage between 98\% and 97\% was chosen for the experiments on HTC Flyer}. In case of HTC Desire, the charging was often not triggered while the battery level was more than 91\%. To mitigate this issue, I decided on \textbf{the percentage from 89\% to 88\% for HTC Desire}. 
 
 [XXX table different percentages]\\
 
-HTC Desire has less dynamic memory than other devices involved in the experiment. This affects the Camera Sensor Application. Initially, the experiment with video capturing could not be completed for HTC Desire, as there was no enough dynamic memory to encode and save the full video capture.  To alleviate this problem, the codecs were changed H.263\ (it uses less dynamic memory for video encoding) and the video dimensions were reduced\ (less data needs to be encoded). Those parameters were standardized in Camera Sensor Application across all devices. Because of consistency, the audio parameters were also standardized in Microphone Sensor Applications for all mobile phones. Full details on video and audio capture's parameters are available in Appendices [XXX reference];
+\textbf{HTC Desire has less dynamic memory}\ (576 MB RAM) than other devices\ (1 GB RAM) involved in the experiments. This affects the Camera Sensor Application. Initially, the experiment with video capturing could not be completed for HTC Desire, as there was no enough dynamic memory to encode and save the full video capture.  To alleviate this problem, the codecs were changed H.263\ (it uses less dynamic memory for video encoding) and the video dimensions were reduced\ (less data needs to be encoded). Those parameters were standardized in Camera Sensor Application across all devices. Because of consistency, the audio parameters were also standardized in Microphone Sensor Applications for all mobile phones. Full details on video and audio capture's parameters are available in Appendices [XXX reference].
 			
-\subsubsection{Failed samples}
-problem: failed samples\\
-	table with failed samples\\
-	Google Nexus 7 nice:\\
-		results are stable, but others not really\\
-			-> so up to 5 successful samples for other phones\\
-	reasons why invalid\\
-	
-	also, battery seems to be getting less stable
-	
-	XXX REF to Google Nexus 7
-	
-
-	XXX REF to HTC FLYER
-
-	XXX REF to HTC DESIRE
-
+\subsubsection{Invalid samples}
+Although many problems with the experiments executions have been diagnosed and mitigated, the method still delivers invalid samples. In statistics sense, the invalid samples are defined as experiments samples whose values\ (time measurements) are \textbf{outliers}.  The proportion of the invalid samples varies among devices [XXX reference to devices-failed-samples]. Google Nexus 7 has 100\% of successful samples. The sample results are always valid, and therefore, the experiments are conducted up to \textbf{3 successful samples per sensor}. Other devices are characterized by higher proportion of invalid samples: between 20 and 30 percentages for HTC Flyer and HTC Desire. Because of that, \textbf{5 successful samples per sensor} has to be collected to complete the experiments for those devices. Also, the invalid samples have different characteristics for HTC Flyer and HTC Desire. 
 
 \plot{devices_failed_samples}
-
-Some reference to Figure XXX HOW?
+	
+The invalid samples for HTC Flyer may be characterized as \textbf{bursty errors}. The below figure\ [XXX reference to htc-flyer-bursty-error] shows that most of invalid samples\ (9 out of 11) are grouped in two periods: 9-13 samples and 24-33. The first period includes continuous series of 4 invalid samples, whereas the second period has 6 invalid samples within 11 samples made. Each group has different characteristics, and thus, the bursty errors are difficult to detect without knowing complete experiments results\ (i.e. in online energy measurements).   [XXX last sentence - very weak reasoning]
 
 \plot{htc_flyer_bursty_error}
+
+For HTC Desire, the proportion of the invalid samples varies depending on a sensor\ [XXX reference to htc-desire-failed-samples]. Some sensors such as "plain run", Bluetooth, GPS or Camera always provide successful samples. On the other hand, light and proximity sensors are characterized by high proportion of the invalid samples\ (each around 60\%). 
 
 \plot{htc_desire_failed_samples}
 
 
 
 	Trepn Profiler\\
-	
-	
-	
-	Calibration of results mention here!\\
+
+	Calibration of results mention here!\\ 
+		not really
    		
    
 \subsubsection{Conclusions}   
-conclusion: on the whole method\\
-	accurate\\
-	instability of battery\\
-		many invalid samples, bursty errors\\
-	not universal solution\\
-		different percentages work across devices\\
-	all of theses makes a method impractical, as requires many samples to get accurate result
-		-can't be used as online measurement tool\\
-		
-conclusions:
-	-software problems:
-		how significant mobile operating system is for energy-efficiency
-			its design decisions:
-				privacy ->
-				energy efficient hardware -> still very expensive
-	-hardware problems:
-		different \% for mobile phones  -> when mobile phones older
-	-failed samples
+The implementation of Sensor energy measurements shows how important role the mobile operating system plays in energy efficiency. It was evidenced that Android design decision may significantly influence the pace of battery depletion. For example, camera preview is required for video capturing as privacy was decided to be more important than energy efficiency. It was also shown how badly designed API may reduce energy efficiency. Bluetooth Low Energy is energy-efficient sensor, but its API drains the battery life much. This also raises the question of how energy aware mobile operating API should be.
 
-	-all in on:
-		no online measurements\\
-		....\\
+The energy measurement method was successfully applied for Google Nexus 7. It delivered 100\% of valid samples, and therefore, it may be classified as a stable method. The method did not perform so well for other two devices. The percentage for the experiments needed to be manually customized and the method still delivered as much as 25\% of invalid samples. Those two facts eliminates the possibility of online energy measurements. Furthermore, the invalid samples are determined basing on the whole set of conducted samples. This set is not available in online energy measurement. Even if it possible to mitigate those problems for online energy measurements, the method would be impractical as it requires collecting too many samples to get accurate results.  
+
 \subsection{Sensy}
 \subsection{Conclusions}
