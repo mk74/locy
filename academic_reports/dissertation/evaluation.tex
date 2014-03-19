@@ -1,37 +1,74 @@
 \section{Evaluation and critical appraisal}
 \label{s:evaluation}
+
 \subsection{Sensors energy measurements}
 
 \plot{google_nexus_7}
-
-The issue: Bluetooth vs Bluetooth LTE\\
-	new functionality-> prints a lot of logs -> not energy-efficient\\
-
-
-
 
 \plot{htc_flyer}
 
 \plot{htc_desire}
 
+Those results are intuitive and overlap with other research.
+	plain run is the most energy-efficient, camera and gps are the most energy 
+	
+	This gives validation for the energy measurement method.
 
-
-physical sensors are always in the group of cheapest \\
-
-Bluetooth - proximity the same, the cheapest group\\
-				exactly what industry does\\
-				References to beacons etc.\\
-
-microphone good results as well, people try to utilize it(research community)\\
-				SurroundSense \cite{azizyan:surroundsense}\\
-				however it's not always the cheapest\\
-				
+The API issue: Bluetooth vs Bluetooth LTE\\
+	new functionality-> prints a lot of logs -> not energy-efficient\\				
 				
 "the order" differs among devices\\
 	gives the reason for online measurement\\
 	disallows the usage of power models\\
 		(need to look further into how they are built)\\
 		related to fragmentation problem?!\\
+
+physical sensors are relative cheap group of sensors \\
+	however the difference is not so big,
+		reasons: IPC, continuous sampling
+			it gives better functionality; is more complex; uses more energy
+		result: smart sampling of physical sensors needs to be leveraged
+			-validates why people do duty-cycling, adaptive sampling
+	also don't know the cost when they are combined
+		characteristics of cost? -> is it just CPU ?
+			how WIFi and acceleromter vs wifi performs?
+			how accelerometer and gyroscope vs acceleterometer performs?
+				-intuition is that the result will not be much higher
+		
+		
+\subsubsection{Localization}
+
+The diagram of results across many devices for: camera, gps, wifi, microphone, bluetooth, bluetooth LE
+
+WiFI is cheaper than GPS
+	reason why peoplpe prefer one over another				
+				
+microphone good results, people try to utilize it(research community)\\
+				SurroundSense \cite{azizyan:surroundsense}\\
+				however it's not always the cheapest\\
+	
+Bluetooth - is the cheapest in comparison to others
+				exactly what industry does\\
+				Bluetooth LE even accelerates those efforts
+				References to beacons etc.\\
+				(requires infrastructure)
+				
+Another on maybe computer vision, but:				\\
+	Camera is the most expensive, and thus, not used yet for localization.\\
+	
+			
 								
 \subsection{Sensy}
 \subsection{Conclusions}
+Sensor energy measurements:
+	-validation for the method
+	-different results -> reason why power model can't be used
+
+Physical sensors:
+	provide more complex functionality, uses more energy
+		require different strategies of using those "simple" sensors
+
+Results for localization: 
+	-results explains why industry goes about it
+		-reiterate?
+		-indicates what future is about Bluetooth LE vs camera
