@@ -3,13 +3,17 @@
 
 \subsection{Sensors energy measurements}
 
-\plot{google_nexus_7}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.49\textwidth, scale=0.6]{plots/htc_flyer}
+\includegraphics[width=0.49\textwidth, scale=0.6]{plots/htc_desire}
+\includegraphics[width=\textwidth, scale=0.9]{plots/google_nexus_7}
+\caption{\label{p:all_results} The complete results of energy measurements for all devices. The comparison of energy efficiency of different sensors is intuitive and overlaps with other research. }
+\end{figure}
 
-\plot{htc_flyer}
-
-\plot{htc_desire}
 
 Those results are intuitive and overlap with other research.
+	XXX all diagrams together
 	plain run is the most energy-efficient
 	physical sensors are relatively cheap
 	microphone is a bit more expensive 
@@ -18,25 +22,28 @@ Those results are intuitive and overlap with other research.
 	XXX reference to some over research on it
 	
 
-The API issue: Bluetooth vs Bluetooth LTE\\
-	new functionality-> prints a lot of logs -> not energy-efficient\\				
+The API issue: Bluetooth vs Bluetooth LE\\
+	new functionality-> prints a lot of logs -> not energy-efficient\\
+	XXX diagram: bluetooth vs bluetooth le 	
 				
 "the order" differs among devices\\
 	gives the reason for online measurement\\
 	disallows the usage of power models\\
 		(need to look further into how they are built)\\
 		related to fragmentation problem?!\\
+	XXX diagrams: sensors in them same order -> different stairs
 
 physical sensors are relative cheap group of sensors \\
 	this gives reason to leverage physical sensors for "expensive" sensors replacement
+		for example versus GPS:
+			XXX diagram physical sensors vs GPS
 	however the difference is not so big,
 		reasons: IPC, continuous sampling
 			it gives better functionality; is more complex; uses more energy
 		result: smart sampling of physical sensors needs to be leveraged
 			-validates why people do duty-cycling, adaptive sampling
 		this was shown before in XXX
-			
-			
+
 Those results do not say anything on the cost when sensors are combined
 		(crucial for providing some functionality out of physical sensors?)
 		characteristics of cost? -> is it just CPU ?
@@ -51,7 +58,8 @@ Those results do not say anything on the cost when sensors are combined
 
 The diagram of results across many devices for: camera, gps, wifi, microphone, bluetooth, bluetooth LE
 
-WiFI is cheaper than GPS
+XXX diagram all devices, sensors: GPS, Camera, Mic, WiFi, Bluetooth (order least to most)
+WiFI may be cheaper than GPS
 	reason why peoplpe prefer one over another				
 				
 microphone good results, people try to utilize it(research community)\\

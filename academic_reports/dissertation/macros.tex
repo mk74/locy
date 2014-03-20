@@ -3,6 +3,7 @@
 \usepackage{pslatex}
 \usepackage{subfigure}
 \usepackage[usenames]{color}
+\usepackage{float}
 
 % any local macros can go here %
 
@@ -47,7 +48,7 @@
 % \plot{file} will read captionm from plots/file.tex and graphic
 % from plots/file.{eps,pdf}
 \newcommand{\plot}[1]{%
-\begin{figure}[tbp]
+\begin{figure}[H]
     \centerline{\resizebox{0.8\linewidth}{!}{\includegraphics{plots/#1}}}
     \caption{\label{p:#1}\protect\input{plots/#1}}
 \end{figure}
