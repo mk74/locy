@@ -24,7 +24,9 @@ Those results are intuitive and overlap with other research.
 
 The API issue: Bluetooth vs Bluetooth LE\\
 	new functionality-> prints a lot of logs -> not energy-efficient\\
-	XXX diagram: bluetooth vs bluetooth le 	
+	XXX diagram: bluetooth vs bluetooth le 
+	
+\plot{bluetooth_le_api}
 				
 "the order" differs among devices\\
 	gives the reason for online measurement\\
@@ -32,6 +34,14 @@ The API issue: Bluetooth vs Bluetooth LE\\
 		(need to look further into how they are built)\\
 		related to fragmentation problem?!\\
 	XXX diagrams: sensors in them same order -> different stairs
+	
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.3\textwidth, scale=0.6]{plots/google_nexus_7_shared}
+\includegraphics[width=0.3\textwidth, scale=0.6]{plots/htc_flyer_shared}
+\includegraphics[width=0.3\textwidth, scale=0.6]{plots/htc_desire_shared}
+\caption{\label{p:shared_sensors_results} Energy efficiency of shared sensors across different devices. The order of energy efficiency differs depending on a device. }
+\end{figure}
 
 physical sensors are relative cheap group of sensors \\
 	this gives reason to leverage physical sensors for "expensive" sensors replacement
