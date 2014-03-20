@@ -10,9 +10,13 @@
 \plot{htc_desire}
 
 Those results are intuitive and overlap with other research.
-	plain run is the most energy-efficient, camera and gps are the most energy 
+	plain run is the most energy-efficient
+	physical sensors are relatively cheap
+	microphone is a bit more expensive 
+	wifi is even more expensive
+	camera and gps have the highest energy demands
+	XXX reference to some over research on it
 	
-	This gives validation for the energy measurement method.
 
 The API issue: Bluetooth vs Bluetooth LTE\\
 	new functionality-> prints a lot of logs -> not energy-efficient\\				
@@ -24,16 +28,23 @@ The API issue: Bluetooth vs Bluetooth LTE\\
 		related to fragmentation problem?!\\
 
 physical sensors are relative cheap group of sensors \\
+	this gives reason to leverage physical sensors for "expensive" sensors replacement
 	however the difference is not so big,
 		reasons: IPC, continuous sampling
 			it gives better functionality; is more complex; uses more energy
 		result: smart sampling of physical sensors needs to be leveraged
 			-validates why people do duty-cycling, adaptive sampling
-	also don't know the cost when they are combined
+		this was shown before in XXX
+			
+			
+Those results do not say anything on the cost when sensors are combined
+		(crucial for providing some functionality out of physical sensors?)
 		characteristics of cost? -> is it just CPU ?
 			how WIFi and acceleromter vs wifi performs?
 			how accelerometer and gyroscope vs acceleterometer performs?
 				-intuition is that the result will not be much higher
+			those questions are important for the idea behind  the library
+				needs to be checked in practice separately.
 		
 		
 \subsubsection{Localization}
@@ -62,13 +73,21 @@ Another on maybe computer vision, but:				\\
 \subsection{Conclusions}
 Sensor energy measurements:
 	-validation for the method
-	-different results -> reason why power model can't be used
+			as results overlap with other research
+	-confirmation that Bluetooth LE API has problem with energy efficiency...
+	-complete set of results across three different phones including all sensors
+		-believed that first such measurement
+	-different results among different devices-> reason why power model can't be used and there needs to be online measurements
 
-Physical sensors:
-	provide more complex functionality, uses more energy
-		require different strategies of using those "simple" sensors
-
-Results for localization: 
-	-results explains why industry goes about it
-		-reiterate?
-		-indicates what future is about Bluetooth LE vs camera
+other paragraph:
+	Physical sensors:
+		less expensive so can be leveraged for energy-efficient sensing
+			-> validation for our library's design
+		but provide more complex functionality, uses more energy
+			require different strategies of using those "simple" sensors
+				which gives a validation for movement detection in the library
+		experiments does not say anything about combined values:
+			how accelerometer+ wifi will be compared to acceleteremetor
+				relevant for our energy-efficient library
+	Results for localization: 
+		-results explains why industry goes about it

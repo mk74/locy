@@ -4,16 +4,25 @@
 
 Sensor Energy measurement's method:
 	-design novel way of investigating energy efficiency
-	-checked it in practice, 
-		-identify its problems
-	-realize that it could be use in limited environment
-	-the method is validated as results are compared with other research
+	-checked it in practice, identify its problems
+	-the method is validated as the results are compared with other research
+	-cons:
+		-the method is instable for older batteries 
+			-and thus can only be used in limited environment: no online measurement
 	
 	
 Sensor Energy measurement's results:
-	
+	-complete set of results across three different phones including all sensors
+		-it is believed that the first one like this
+	-different energy characteristics across different devices
+		->reason for online measurement, invalidate power models
 	-the evolution of sensors for localization services
-	
+	-cons:
+		-no different parameters for phones are checked:
+			-no duty cycling checked, no different periods/sleeping intervals checked
+	-those results are used to design the energy-efficient algorithms for the library:
+		-sensor substitution as cheaper sensor may be leveraged to replace heavy-duty sensors
+		-results also raise questions: "combined sensors" -> how they are going to perform?
 	
 The energy-efficient library:
 
