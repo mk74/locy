@@ -5,7 +5,7 @@ This section mainly focuses on the analysis of energy efficiency of the componen
 
 \subsection{Sensors energy measurements}
 
-The Figure (XXX-ref-p:all-results) shows the complete set of the experiments results across three different devices. For all of those phones, the time of 1\% battery life depletion is the biggest when all sensors are switched off i.e. "plain" run. Next, all of the physical sensors belongs to the group of less energy-efficient sensors. On the boundary of this group, microphone may be noticed. Finally, IEEE802.11, GPS and Video Camera have relatively high energy demands on all of the three devices. Those results are intuitive. The order of sensors energy efficiency overlaps with other research, which used different measurement methods [XXX references]. 
+The Figure (XXX-ref-p:all-results) shows the complete set of the experiments results across three different devices. For all of those phones, the time of 1\% battery life depletion is the biggest when all sensors are switched off i.e. "plain" run. Next, all of the physical sensors belongs to the group of less energy-efficient sensors. On the boundary of this group, microphone may be noticed. Finally, IEEE802.11, GPS and Video Camera have relatively high energy demands on all of the three devices.
 
 \begin{figure}[H]
 \centering
@@ -41,27 +41,9 @@ Physical sensors are more energy efficient than traditional localization sensors
 
 
 \subsubsection{Conclusions}
-Sensor energy measurements:
-	-validation for the method
-			as results overlap with other research
-	-confirmation that Bluetooth LE API has problem with energy efficiency...
-	-complete set of results across three different phones including all sensors
-		-believed that first such measurement
-	-different results among different devices-> 
-			-reason why power model can't be used
-			-there needs to be online measurements
+The complete set of energy measurements' results are intuitive and overlap with other research, which uses different measurement methods [XXX references]. This gives validation to the energy measurement method used in this dissertation. For Google Nexus 7, the results confirm the energy-efficiency problems with Bluetooth Low Energy\ (API), which were noticed during the implementation phase. Finally, the energy measurement results vary among different devices. This justifies why the universal power model cannot be used. It also validates the necessity of online energy measurements. 
 
-Results for localization:
-	-Bluetooth
-			results explains why industry goes about it
-			Bluetooth LE may even accelerate it
-			References to beacons etc.\\
-				(though requires infrastructure)	
-		Microphone:
-			not bad results research community tried to utilize it
-			tried to be used SoundSense...\cite{azizyan:surroundsense}\\
-	-computer vision has a potential..., but:	
-		-Camera is the most expensive, and thus, not used yet for localization.\\
+The analysis of the localization sensors' efficiency explains how localization technologies evolve. Bluetooth, the most energy efficient sensor, is already widely adopted in the industry. iBeacons (XXX reference), provided by Apple Inc.,  leverages Bluetooth LE for the indoor positioning system. Also, promising energy-efficiency results of microphone attracted research community. SurroundSenses \cite{azizyan:surroundsense} utilizes microphone for localization through ambient sound fingerprinting. Lastly, camera is the most expensive sensor, and thus, computer vision is not widely used for localization yet.
 		
 accelerometer cheaper localizations:
 	this gives reason to leverage physical sensors for "expensive" sensors replacement
@@ -85,6 +67,11 @@ Those results do not say anything on the cost when sensors are combined
 \subsection{Sensy}
 \subsection{Conclusions}
 	TODO ? summary previous conclusions
+	
+	complete set of results across three different phones including all sensors
+		-believed that first such measurement
+		
+	the results which explain evolution of localization techniques
 	
 	Physical sensors:
 		less expensive so can be leveraged for energy-efficient sensing
