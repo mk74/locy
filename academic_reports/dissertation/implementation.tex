@@ -74,14 +74,7 @@ For HTC Desire, the proportion of the invalid samples varies depending on a sens
 
 
 \subsubsection{Energy efficiency levels}
-	Among valid samples ...
-	
-	if we approximate each results with precision of 10 secs
-	all measurements belong to specific set of discrete values
-		for HTC flyer there are: 210, 240, 270 (XXX ref to table)
-		also worth noticing that those values are every 30 secs
-		we could normalize those values by diving them 30 secs,
-			so we would achieve three "energy efficiency levels": 7, 8 and 9
+After rounding valid samples' time measurements to 10 seconds, it could be noticed that all measurements belong to specific set of discrete values. For HTC Flyer, there are only three such values: 210, 240 and 270 seconds\ (table \ref{table:discrete_values}). Those values are every 30 seconds. To simplify the valid samples' time measurements, they can be divided by this interval\ (30 seconds). I define the results of this operation as \textbf{energy efficiency levels}. For HTC Flyer, there will be three energy efficiency levels: 7, 8 and 9. A result of any experiment sample belongs to one of those levels. 
 			
 \begin{center}
 	\begin{table}
@@ -95,14 +88,7 @@ For HTC Desire, the proportion of the invalid samples varies depending on a sens
 	\end{table}
 \end{center}		
 			
-		analogically for HTC Desire: 150, 200, 250
-			values are every 50 secs, "energy efficiency levels": 3, 4, 5
-		
-		analogically for Google Nexus 7: 240, 300, 480, 540, 660, 720, 780, 840, 900
-			values are every 60 secs, "energy efficiency levels": 4, 5, 8, 9, 11, 12, 13, 14, 15
-			
-		complete table:
-			level, nexus(time), flyer(time), desire(time)
+Analogically for HTC Desire, all valid sample's results belong to set of three numbers: 150, 200 and 250 seconds. As the interval between them equals to 50, the energy efficiency levels will be 3, 4 and 5. Lastly for Google Nexus 7, there are 9 discrete values among the all experiments results. Each of this value is a multiplication of 60 seconds. Respectively, initial discrete values are divided by 60 to establish energy efficiency levels. The full list of all known energy efficiency levels among devices is shown in the table \ref{table:energy_efficiency_levels}.
 			
 \begin{center}
 	\begin{table}
@@ -129,13 +115,8 @@ For HTC Desire, the proportion of the invalid samples varies depending on a sens
 	\label{table:energy_efficiency_levels}
 	\end{table}
 \end{center}		
-			
-		energy efficiency levels:
-			the higher the level is, the lower energy consumption was in the experiment
-			useful for normalization, common scale among devices(though results for different phones are not compared)
-			such a scale not only shows the order of energy efficiency
-				but also may represent how different in terms of energy efficiency two solutions are
-					if one thing is on 6 and the other on 8 and we know about the exsistance of 7 then we could reason out of it
+	
+To compare the performance two sensors for a single device, the energy efficiency levels may be used. The sensor with higher energy efficiency level has lower energy consumption. The energy efficiency levels may also provide the information about \textbf{the energy distance} between two sensors. If there is a known energy efficiency level between two sensors' levels, it may be reasoned that the difference in energy consumption is "significant". For example, first sensor belongs to level 6 and another sensor belong to level 8. If the existence of level 7 is confirmed\ (there is a sample with its corresponding value), it could be stated that sensors are not "closed enough". Finally, the energy efficiency levels are used as a normalization tool. The experiments' results when represented as the level, could be shown on the same diagram (though they should not be compared). 
 
    
 \subsubsection{Conclusions}   
@@ -143,10 +124,7 @@ The implementation of Sensor energy measurements shows how important role the mo
 
 The energy measurement method was successfully applied for Google Nexus 7. It delivered 100\% of valid samples, and therefore, it may be classified as a stable method. The method did not perform so well for other two devices. The percentage for the experiments needed to be manually customized and the method still delivered as much as 25\% of invalid samples. Those two facts eliminates the possibility of online energy measurements. Furthermore, the invalid samples are determined basing on the whole set of conducted samples. This set is not available in online energy measurement. Even if it possible to mitigate those problems for online energy measurements, the method would be impractical as it requires collecting many samples to get accurate results.  
 
-XXX on energy efficiency levels:
-	-specific nature of energy measurement results
-	-discrete values with specific time interval
-	-this fact could be leveraged in further analysis
+All samples delivered by the energy measurement method belong to the small set of discrete values. Those values are further characterized by being a multiplication of some time interval. This observation is encapsulated in the energy efficiency levels, which will be leveraged for further analysis. 
 
 \subsection{Sensy}
 \subsection{Conclusions}
