@@ -73,17 +73,80 @@ For HTC Desire, the proportion of the invalid samples varies depending on a sens
 \plot{htc_desire_failed_samples}
 
 
+\subsubsection{Energy efficiency levels}
+	Among valid samples ...
+	
+	if we approximate each results with precision of 10 secs
+	all measurements belong to specific set of discrete values
+		for HTC flyer there are: 210, 240, 270 (XXX ref to table)
+		also worth noticing that those values are every 30 secs
+		we could normalize those values by diving them 30 secs,
+			so we would achieve three "energy efficiency levels": 7, 8 and 9
+			
+\begin{center}
+	\begin{table}
+    \begin{tabular}{| l | c | c | c | c |}
+    \hline
+      Value & 210 & 240 & 270 & Others\\ \hline
+    Amount of measurement samples with this value & 4 & 22 &  19 & 0\\ \hline
+    \end{tabular}
+    \caption{The values of energy measurement results for HTC Flyer. There are only 3 discrete values among all samples' results.}
+	\label{table:discrete_values}
+	\end{table}
+\end{center}		
+			
+		analogically for HTC Desire: 150, 200, 250
+			values are every 50 secs, "energy efficiency levels": 3, 4, 5
+		
+		analogically for Google Nexus 7: 240, 300, 480, 540, 660, 720, 780, 840, 900
+			values are every 60 secs, "energy efficiency levels": 4, 5, 8, 9, 11, 12, 13, 14, 15
+			
+		complete table:
+			level, nexus(time), flyer(time), desire(time)
+			
+\begin{center}
+	\begin{table}
+    \begin{tabular}{| l | c | c | c |}
+    \hline
+      Energy efficiency level & Google Nexus 7 & HTC Flyer & HTC desire \\ \hline
+    Level 1 & -& - &  -\\ \hline
+  	Level 2 & - & - & -\\ \hline
+  	Level 3 & - & - & 150 secs\\ \hline
+    Level 4 & 240 secs & - & 200 secs\\ \hline
+    Level 5 & 300 secs & - & 250 secs \\ \hline
+    Level 6 & - & - & - \\\hline
+    Level 7 & - & 210 secs & - \\ \hline
+    Level 8 & 480 secs & 240  secs & - \\ \hline
+    Level 9 & 540 secs & 270 secs & - \\ \hline
+    Level 10 & - & - & - \\ \hline
+    Level 11 & 660 secs & - & - \\ \hline
+    Level 12 & 720 secs & - & -\\ \hline
+    Level 13 & 780 secs & - & - \\ \hline
+    Level 14 & 840 secs & - & -\\ \hline
+    Level 15 & 900 secs & -& -\\ \hline
+    \end{tabular}
+    \caption{The complete list of known energy efficiency levels across different devices.}
+	\label{table:energy_efficiency_levels}
+	\end{table}
+\end{center}		
+			
+		energy efficiency levels:
+			the higher the level is, the lower energy consumption was in the experiment
+			useful for normalization, common scale among devices(though results for different phones are not compared)
+			such a scale not only shows the order of energy efficiency
+				but also may represent how different in terms of energy efficiency two solutions are
+					if one thing is on 6 and the other on 8 and we know about the exsistance of 7 then we could reason out of it
 
-	Trepn Profiler\\
-
-	Calibration of results mention here!\\ 
-		not really
-   		
    
 \subsubsection{Conclusions}   
 The implementation of Sensor energy measurements shows how important role the mobile operating system plays in energy efficiency. It was evidenced that Android design decision may significantly influence the pace of battery depletion. For example, camera preview is required for video capturing as privacy was decided to be more important than energy efficiency. It was also shown how badly designed API may reduce energy efficiency. Bluetooth Low Energy is energy-efficient sensor, but its API drains the battery life much. This also raises the question of how energy aware mobile operating API should be.
 
-The energy measurement method was successfully applied for Google Nexus 7. It delivered 100\% of valid samples, and therefore, it may be classified as a stable method. The method did not perform so well for other two devices. The percentage for the experiments needed to be manually customized and the method still delivered as much as 25\% of invalid samples. Those two facts eliminates the possibility of online energy measurements. Furthermore, the invalid samples are determined basing on the whole set of conducted samples. This set is not available in online energy measurement. Even if it possible to mitigate those problems for online energy measurements, the method would be impractical as it requires collecting too many samples to get accurate results.  
+The energy measurement method was successfully applied for Google Nexus 7. It delivered 100\% of valid samples, and therefore, it may be classified as a stable method. The method did not perform so well for other two devices. The percentage for the experiments needed to be manually customized and the method still delivered as much as 25\% of invalid samples. Those two facts eliminates the possibility of online energy measurements. Furthermore, the invalid samples are determined basing on the whole set of conducted samples. This set is not available in online energy measurement. Even if it possible to mitigate those problems for online energy measurements, the method would be impractical as it requires collecting many samples to get accurate results.  
+
+XXX on energy efficiency levels:
+	-specific nature of energy measurement results
+	-discrete values with specific time interval
+	-this fact could be leveraged in further analysis
 
 \subsection{Sensy}
 \subsection{Conclusions}
