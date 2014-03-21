@@ -74,25 +74,28 @@ For HTC Desire, the proportion of the invalid samples varies depending on a sens
 
 
 \subsubsection{Energy efficiency levels}
-After rounding valid samples' time measurements to 10 seconds, it could be noticed that all measurements belong to specific set of discrete values. For HTC Flyer, there are only three such values: 210, 240 and 270 seconds\ (table \ref{table:discrete_values}). Those values are every 30 seconds. To simplify the valid samples' time measurements, they can be divided by this interval\ (30 seconds). I define the results of this operation as \textbf{energy efficiency levels}. For HTC Flyer, there will be three energy efficiency levels: 7, 8 and 9. A result of any experiment sample belongs to one of those levels. 
+After rounding valid samples' time measurements to 10 seconds, it could be noticed that all measurements belong to specific set of discrete values. For HTC Flyer, there are only three such values: 210, 240 and 270 seconds\ (table XXXref-table-discrete-values). Those values are every 30 seconds. To simplify the valid samples' time measurements, they can be divided by this interval\ (30 seconds). I define the results of this operation as \textbf{energy efficiency levels}. For HTC Flyer, there will be three energy efficiency levels: 7, 8 and 9. A result of any experiment sample belongs to one of those levels. 
 			
-\begin{center}
-	\begin{table}
-    \begin{tabular}{| l | c | c | c | c |}
+\begin{table}[H]
+\centering
+    \begin{tabular}{| c | c |}
     \hline
-      Value & 210 & 240 & 270 & Others\\ \hline
-    Amount of measurement samples with this value & 4 & 22 &  19 & 0\\ \hline
+    	Value & Amount of sample \\ \hline
+    	210 & 4 \\ \hline
+    	240 & 22 \\ \hline
+    	270 & 19 \\ \hline
+    	Others & 0 \\ \hline
     \end{tabular}
     \caption{The values of energy measurement results for HTC Flyer. There are only 3 discrete values among all samples' results.}
-	\label{table:discrete_values}
-	\end{table}
-\end{center}		
+	\label{table:discretevalues}
+\end{table}
 			
-Analogically for HTC Desire, all valid sample's results belong to set of three numbers: 150, 200 and 250 seconds. As the interval between them equals to 50, the energy efficiency levels will be 3, 4 and 5. Lastly for Google Nexus 7, there are 9 discrete values among the all experiments results. Each of this value is a multiplication of 60 seconds. Respectively, initial discrete values are divided by 60 to establish energy efficiency levels. The full list of all known energy efficiency levels among devices is shown in the table \ref{table:energy_efficiency_levels}.
-			
-\begin{center}
-	\begin{table}
-    \begin{tabular}{| l | c | c | c |}
+Analogically for HTC Desire, all valid sample's results belong to set of three numbers: 150, 200 and 250 seconds. As the interval between them equals to 50, the energy efficiency levels will be 3, 4 and 5. Lastly for Google Nexus 7, there are 9 discrete values among the all experiments results. Each of this value is a multiplication of 60 seconds. Respectively, initial discrete values are divided by 60 to establish energy efficiency levels. The full list of all known energy efficiency levels among devices is shown in the table XXX-table:energy-efficiency-levels.
+		
+	
+\begin{table}[H]
+\centering
+    \begin{tabular}{| c | c | c | c |}
     \hline
       Energy efficiency level & Google Nexus 7 & HTC Flyer & HTC desire \\ \hline
     Level 1 & -& - &  -\\ \hline
@@ -113,8 +116,7 @@ Analogically for HTC Desire, all valid sample's results belong to set of three n
     \end{tabular}
     \caption{The complete list of known energy efficiency levels across different devices.}
 	\label{table:energy_efficiency_levels}
-	\end{table}
-\end{center}		
+\end{table}
 	
 To compare the performance two sensors for a single device, the energy efficiency levels may be used. The sensor with higher energy efficiency level has lower energy consumption. The energy efficiency levels may also provide the information about \textbf{the energy distance} between two sensors. If there is a known energy efficiency level between two sensors' levels, it may be reasoned that the difference in energy consumption is "significant". For example, first sensor belongs to level 6 and another sensor belong to level 8. If the existence of level 7 is confirmed\ (there is a sample with its corresponding value), it could be stated that sensors are not "closed enough". Finally, the energy efficiency levels are used as a normalization tool. The experiments' results when represented as the level, could be shown on the same diagram (though they should not be compared). 
 

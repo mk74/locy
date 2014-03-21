@@ -1,7 +1,11 @@
 \section{Evaluation and critical appraisal}
 \label{s:evaluation}
 
+This section mainly focuses on the analysis of energy efficiency of the components described in this dissertation. In the first subsection, the sensors energy measurements' results are evaluated. Basing on those results, I reach general conclusion and also inspect the sensors used for localization in more details.  In the second subsection, the energy efficiency of Sensy is investigated. [XXX go on Sensy].
+
 \subsection{Sensors energy measurements}
+
+The Figure (XXX-ref-p:all-results) shows the complete set of the experiments results across three different devices. For all of those phones, the time of 1\% battery life depletion is the biggest when all sensors are switched off i.e. "plain" run. Next, all of the physical sensors belongs to the group of less energy-efficient sensors. On the boundary of this group, microphone may be noticed. Finally, IEEE802.11, GPS and Video Camera have relatively high energy demands on all of the three devices. Those results are intuitive. The order of sensors energy efficiency overlaps with other research, which used different measurement methods [XXX references]. 
 
 \begin{figure}[H]
 \centering
@@ -11,29 +15,11 @@
 \caption{\label{p:all_results} The complete results of energy measurements for all devices. The comparison of energy efficiency of different sensors is intuitive and overlaps with other research. }
 \end{figure}
 
-
-Those results are intuitive and overlap with other research.
-	XXX all diagrams together
-	plain run is the most energy-efficient
-	physical sensors are relatively cheap
-	microphone is a bit more expensive 
-	wifi is even more expensive
-	camera and gps have the highest energy demands
-	XXX reference to some over research on it
-	
-
-The API issue: Bluetooth vs Bluetooth LE\\
-	new functionality-> prints a lot of logs -> not energy-efficient\\
-	XXX diagram: bluetooth vs bluetooth le 
+Bluetooth Low Energy\ (LE) may have higher energy demands than Classic Bluetooth. The figure (XXX-ref-bluetooth-le-api) compares their energy efficiency depending on the situation. In there is no device found, it takes longer for Bluetooth LE scanning to deplete the battery life by 1\% than for Classic Bluetooth scanning i.e. Bluetooth LE is more energy-efficient. However, if there is any device on the network, Bluetooth LE scanning depletes battery faster than Classic Bluetooth. The reason behind this phenomenon was analyzed in the previous section (the high output of Bluetooth LE API when any device is found).
 	
 \plot{bluetooth_le_api}
 				
-"the order" differs among devices\\
-	gives the reason for online measurement\\
-	disallows the usage of power models\\
-		(need to look further into how they are built)\\
-		related to fragmentation problem?!\\
-	XXX diagrams: sensors in them same order -> different stairs
+The sensors energy efficiency order differs among the devices. The figure XXX-ref-to-the-figure contrasts the energy efficiency results for the shared sensors between the devices.For each of its diagrams, the order of the sensors on x axis is the same. The diagram on the left\ (Google Nexus 7) is characterized by monotonically increasing energy efficiency of the sensors, whereas the other two diagrams are not. For example, Bluetooth is the most energy efficient sensor HTC Desire and HTC Flyer, but is average for Google Nexus 7.
 	
 \begin{figure}[H]
 \centering
@@ -41,22 +27,52 @@ The API issue: Bluetooth vs Bluetooth LE\\
 \includegraphics[width=0.3\textwidth, scale=0.6]{plots/htc_flyer_shared}
 \includegraphics[width=0.3\textwidth, scale=0.6]{plots/htc_desire_shared}
 \caption{\label{p:shared_sensors_results} Energy efficiency of shared sensors across different devices. The order of energy efficiency differs depending on a device. }
-\end{figure}
+\end{figure}		
+		
+\subsubsection{Localization}
 
-physical sensors are relative cheap group of sensors \\
+Different sensors may be used for localization purposes. The Figure (XXX-ref-all-locs) studies the energy efficiency of those sensors. For the comparison, the energy efficiency levels described in the previous section were used. For each of the devices, Bluetooth has the highest energy efficiency level i.e. it is the most energy-efficient. Also, microphone is always more energy efficient than traditional localization sensors\ (GPS and IEEE 802.11). On the other hand, the camera has worse energy performance than GPS and IEEE 802.11 on the two devices. Finally, the energy efficiency of GPS and IEEE 802.11 are similar, though WiFi scanning is more energy-efficient than GPS for two devices.  	
+
+\plot{all_locs}
+
+Physical sensors are more energy efficient than traditional localization sensors. The energy efficiency of accelerometer is compared with GPS and IEEE 802.11 scanning on the Figure (XXX-ref-acc-vs-loc). The accelerometer is more energy efficient, but the difference is not always substantial. For HTC Flyer and HTC Desire, the difference between the energy efficiency of accelerometer and traditional localization sensors is less than one energy efficiency level. It is worth reminding here that Accelerometer Sensor Application applies continuous sampling (i.e. sample as often as possible without sleeping intervals).
+	
+\plot{acc_vs_loc}		
+
+
+\subsubsection{Conclusions}
+Sensor energy measurements:
+	-validation for the method
+			as results overlap with other research
+	-confirmation that Bluetooth LE API has problem with energy efficiency...
+	-complete set of results across three different phones including all sensors
+		-believed that first such measurement
+	-different results among different devices-> 
+			-reason why power model can't be used
+			-there needs to be online measurements
+
+Results for localization:
+	-Bluetooth
+			results explains why industry goes about it
+			Bluetooth LE may even accelerate it
+			References to beacons etc.\\
+				(though requires infrastructure)	
+		Microphone:
+			not bad results research community tried to utilize it
+			tried to be used SoundSense...\cite{azizyan:surroundsense}\\
+	-computer vision has a potential..., but:	
+		-Camera is the most expensive, and thus, not used yet for localization.\\
+		
+accelerometer cheaper localizations:
 	this gives reason to leverage physical sensors for "expensive" sensors replacement
-		for example versus GPS:
-			XXX diagram acceleromter vs GPS
-	however the difference is not so big, 
-		(XXX the step equals to 1 thing)
+	accelerometer is still expensive
 		reasons: IPC, continuous sampling
 			it gives better functionality; is more complex; uses more energy
 		result: smart sampling of physical sensors needs to be leveraged
 			-validates why people do duty-cycling, adaptive sampling
+			-our method did not deliver energy measurements based depending on those parameters^^
 		this was shown before in XXX
-	
-\plot{acc_vs_loc}
-
+		
 Those results do not say anything on the cost when sensors are combined
 		(crucial for providing some functionality out of physical sensors?)
 		characteristics of cost? -> is it just CPU ?
@@ -64,45 +80,12 @@ Those results do not say anything on the cost when sensors are combined
 			how accelerometer and gyroscope vs acceleterometer performs?
 				-intuition is that the result will not be much higher
 			those questions are important for the idea behind  the library
-				needs to be checked in practice separately.
-		
-		
-\subsubsection{Localization}
-
-The diagram of results across many devices for: camera, gps, wifi, microphone, bluetooth, bluetooth LE
-
-\plot{all_locs}
-
-XXX diagram all devices, sensors: GPS, Camera, Mic, WiFi, Bluetooth (order least to most)
-WiFI may be cheaper than GPS
-	reason why peoplpe prefer one over another				
-				
-microphone good results, people try to utilize it(research community)\\
-				SurroundSense \cite{azizyan:surroundsense}\\
-				however it's not always the cheapest\\
-	
-Bluetooth - is the cheapest in comparison to others
-				exactly what industry does\\
-				Bluetooth LE even accelerates those efforts
-				References to beacons etc.\\
-				(requires infrastructure)
-				
-Another on maybe computer vision, but:				\\
-	Camera is the most expensive, and thus, not used yet for localization.\\
-	
-			
-								
+				needs to be checked in practice separately.	
+						
 \subsection{Sensy}
 \subsection{Conclusions}
-Sensor energy measurements:
-	-validation for the method
-			as results overlap with other research
-	-confirmation that Bluetooth LE API has problem with energy efficiency...
-	-complete set of results across three different phones including all sensors
-		-believed that first such measurement
-	-different results among different devices-> reason why power model can't be used and there needs to be online measurements
-
-other paragraph:
+	TODO ? summary previous conclusions
+	
 	Physical sensors:
 		less expensive so can be leveraged for energy-efficient sensing
 			-> validation for our library's design
@@ -112,5 +95,4 @@ other paragraph:
 		experiments does not say anything about combined values:
 			how accelerometer+ wifi will be compared to acceleteremetor
 				relevant for our energy-efficient library
-	Results for localization: 
-		-results explains why industry goes about it
+	
