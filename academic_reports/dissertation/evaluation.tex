@@ -46,13 +46,16 @@ The API issue: Bluetooth vs Bluetooth LE\\
 physical sensors are relative cheap group of sensors \\
 	this gives reason to leverage physical sensors for "expensive" sensors replacement
 		for example versus GPS:
-			XXX diagram physical sensors vs GPS
-	however the difference is not so big,
+			XXX diagram acceleromter vs GPS
+	however the difference is not so big, 
+		(XXX the step equals to 1 thing)
 		reasons: IPC, continuous sampling
 			it gives better functionality; is more complex; uses more energy
 		result: smart sampling of physical sensors needs to be leveraged
 			-validates why people do duty-cycling, adaptive sampling
 		this was shown before in XXX
+	
+\plot{acc_vs_loc}
 
 Those results do not say anything on the cost when sensors are combined
 		(crucial for providing some functionality out of physical sensors?)
@@ -67,6 +70,8 @@ Those results do not say anything on the cost when sensors are combined
 \subsubsection{Localization}
 
 The diagram of results across many devices for: camera, gps, wifi, microphone, bluetooth, bluetooth LE
+
+\plot{all_locs}
 
 XXX diagram all devices, sensors: GPS, Camera, Mic, WiFi, Bluetooth (order least to most)
 WiFI may be cheaper than GPS

@@ -2,11 +2,12 @@ set key off
 #set boxwidth 0.5
 set boxwidth 0.4
 set lmargin 10
+set bmargin 20
 set style fill solid
 set xtics rotate
-set xlabel "Sensors" font "Arial Bold, 18" 
+#set xlabel "Sensors" font "Arial Bold, 18" 
 set ylabel "Approx. 1% battery life (secs)" font "Arial Bold,18"
-set xtics font "Arial, 14"
+set xtics font "Arial, 36"
 #set xrange [-0.5:8.5]
 set xrange [-0.5:5.8]
 #set yrange [200:300]
