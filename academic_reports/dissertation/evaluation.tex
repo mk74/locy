@@ -1,11 +1,11 @@
 \section{Evaluation and critical appraisal}
 \label{s:evaluation}
 
-This section mainly focuses on the analysis of energy efficiency of the components described in this dissertation. In the first subsection, the sensors energy measurements' results are evaluated. Basing on those results, I reach general conclusion and also inspect the sensors used for localization in more details.  In the second subsection, the energy efficiency of Sensy is investigated. [XXX go on Sensy].
+\hspace{10pt} This section mainly focuses on the analysis of energy efficiency of the components described in this dissertation. In the first subsection, the sensors energy measurements' results are evaluated. Basing on those results, I reach general conclusion and also inspect the sensors used for localization in more details.  In the second subsection, the energy efficiency of Sensy is investigated. [XXX go on Sensy].
 
 \subsection{Sensors energy measurements}
 
-The Figure \ref{p:all_results} shows the complete set of the experiments results across three different devices. For all of those phones, the time of 1\% battery life depletion is the biggest when all sensors are switched off i.e. "plain" run. Next, all of the physical sensors belongs to the group of less energy-efficient sensors. On the boundary of this group, microphone may be noticed. Finally, IEEE802.11, GPS and Video Camera have relatively high energy demands on all of the three devices.
+\hspace{10pt} The Figure \ref{p:all_results} shows the complete set of the experiments results across three different devices. For all of those phones, the time of 1\% battery life depletion is the biggest when all sensors are switched off i.e. "plain" run. Next, all of the physical sensors belongs to the group of less energy-efficient sensors. On the boundary of this group, microphone may be noticed. Finally, IEEE802.11, GPS and Video Camera have relatively high energy demands on all of the three devices.
 
 \begin{figure}[H]
 \centering
@@ -31,7 +31,7 @@ The sensors energy efficiency order differs among the devices. The Figure \ref{p
 		
 \subsubsection{Localization}
 
-Different sensors may be used for localization purposes. The \plotref{all_locs} studies the energy efficiency of those sensors. For the comparison, the energy efficiency levels described in the previous section were used. For each of the devices, Bluetooth has the highest energy efficiency level i.e. it is the most energy-efficient. Also, microphone is always more energy efficient than traditional localization sensors\ (GPS and IEEE 802.11). On the other hand, the camera has worse energy performance than GPS and IEEE 802.11 on the two devices. Finally, the energy efficiency of GPS and IEEE 802.11 are similar, though WiFi scanning is more energy-efficient than GPS for two devices.  	
+\hspace{10pt} Different sensors may be used for localization purposes. The \plotref{all_locs} studies the energy efficiency of those sensors. For the comparison, the energy efficiency levels described in the previous section were used. For each of the devices, Bluetooth has the highest energy efficiency level i.e. it is the most energy-efficient. Also, microphone is always more energy efficient than traditional localization sensors\ (GPS and IEEE 802.11). On the other hand, the camera has worse energy performance than GPS and IEEE 802.11 on the two devices. Finally, the energy efficiency of GPS and IEEE 802.11 are similar, though WiFi scanning is more energy-efficient than GPS for two devices.  	
 
 \plot{all_locs}
 
@@ -39,47 +39,19 @@ Physical sensors are more energy efficient than traditional localization sensors
 	
 \plot{acc_vs_loc}		
 
-
 \subsubsection{Conclusions}
-The complete set of energy measurements' results are intuitive and overlap with other research, which uses different measurement methods \cite{constandache:localization} \cite{wang:eemss} \cite{chon:smartdc}. This gives validation to the energy measurement method used in this dissertation. For Google Nexus 7, the results confirm the energy-efficiency problems with Bluetooth Low Energy API, which were noticed during the implementation phase. Finally, the energy measurement results vary among different devices. This justifies why the universal power model cannot be used. It also validates the necessity of online energy measurements. 
+\hspace{10pt} The complete set of energy measurements' results are intuitive and overlap with other research, which uses different measurement methods \cite{constandache:localization} \cite{wang:eemss} \cite{chon:smartdc}. This gives validation to the energy measurement method used in this dissertation. For Google Nexus 7, the results confirm the energy-efficiency problems with Bluetooth Low Energy API, which were noticed during the implementation phase. Finally, the energy measurement results vary among different devices. This justifies why the universal power model cannot be used. It also validates the necessity of online energy measurements. 
 
-The analysis of the localization sensors' efficiency explains how localization technologies evolve. Bluetooth, the most energy efficient sensor, is already widely adopted in the industry. iBeacon \cite{apple:ibeacon}, provided by Apple Inc.,  leverages Bluetooth LE for the indoor positioning system. Also, promising energy-efficiency results of microphone attracted research community. SurroundSenses \cite{azizyan:surroundsense} utilizes microphone for localization through ambient sound fingerprinting. Lastly, camera is the most expensive sensor, and thus, computer vision is not widely used for localization yet.
-		
-accelerometer cheaper localizations:
-	this gives reason to leverage physical sensors for "expensive" sensors replacement
-	accelerometer is still expensive
-		reasons: IPC, continuous sampling
-			it gives better functionality; is more complex; uses more energy
-		result: smart sampling of physical sensors needs to be leveraged
-			-validates why people do duty-cycling, adaptive sampling
-			-our method did not deliver energy measurements based depending on those parameters^^
-		this was shown before in XXX
-		
-Those results do not say anything on the cost when sensors are combined
-		(crucial for providing some functionality out of physical sensors?)
-		characteristics of cost? -> is it just CPU ?
-			how WIFi and acceleromter vs wifi performs?
-			how accelerometer and gyroscope vs acceleterometer performs?
-				-intuition is that the result will not be much higher
-			those questions are important for the idea behind  the library
-				needs to be checked in practice separately.	
+The analysis of the localization sensors' efficiency explains how localization technologies evolve. Bluetooth, the most energy efficient sensor, is already widely adopted in the industry. iBeacon \cite{apple:ibeacon}, provided by Apple Inc.,  leverages Bluetooth LE for the indoor positioning system. Also, promising energy-efficiency results of microphone attracted research community. SurroundSenses \cite{azizyan:surroundsense} utilizes microphone for localization through ambient sound fingerprinting. Lastly, camera is the most expensive sensor, and thus, computer vision is not yet widely used for localization.
+
+Accelerometer is more energy efficient than traditional localization sensors. Opposite to what previous research\cite{benabdesslem:senseless} stated, the difference in energy consumption is not substantial. The nature of accelerometer usage has been changed. Currently, the values of physical sensors may be pulled more often\ e.g., three accelerometer values are delivered per second on Google Nexus 7. Higher frequency of raw data may have better accuracy, but also results in faster battery depletion.  Because of that, the smarter strategies for sampling needs to be designed. For example, accelerometer may sample for short period of time and if unsure what happens, it could sample longer. As accelerometer has lower energy demands than traditional localization sensors, it could be leveraged for "cheaper" replacement fo those "expensive" sensors. However, its sampling needs to be conducted in energy-efficient manner. 
+
+The energy measurement method does not provide the details on the nature of energy consumption. It is unknown which exact operations consume the most energy during sensing. For example, significant part of energy may be consumed by CPU which needs to be active while sensing accelerometer \cite{priyantha:littlerock}. As those characteristics are not recognized, it cannot be reason how energy efficient the applications with combined sensors\ (IEEE802.11 scanning and accelerometer) will be. Also, it is unfamiliar how energy efficiency of physical sensors will change depending on their parameters\ (size of sleeping and sampling windows).
 						
 \subsection{Sensy}
 \subsection{Conclusions}
-	TODO ? summary previous conclusions
-	
-	complete set of results across three different phones including all sensors
-		-believed that first such measurement
-		
-	the results which explain evolution of localization techniques
-	
-	Physical sensors:
-		less expensive so can be leveraged for energy-efficient sensing
-			-> validation for our library's design
-		but provide more complex functionality, uses more energy
-			require different strategies of using those "simple" sensors
-				which gives a validation for movement detection in the library
-		experiments does not say anything about combined values:
-			how accelerometer+ wifi will be compared to acceleteremetor
-				relevant for our energy-efficient library
-	
+The energy measurement method delivered the complete set of accurate energy efficiency results, and thus, the method was validated. The results were gathered across three different mobile phones and include all sensors. It is believed that it is first study of this type. 
+
+Physical sensors could be leveraged for localization purposes. The energy efficiency results gave a basis for how an energy-efficient library could be designed. The energy measurement method provided useful information and identified the challenges for Sensy. The energy efficiency of combined sensors and different energy efficiency of physical sensors depending on their parameters needed to be checked. 
+
+Those challenges were met by Sensy. XXX...
