@@ -1,10 +1,10 @@
 \documentclass[a4paper]{article}
 
-\usepackage{ifpdf}
+%\usepackage{ifpdf}
 \usepackage{enumerate}
 
 
-\ifpdf % options for PDF output
+%\ifpdf % options for PDF output
  \pdfoutput=1
  \pdfcompresslevel=9
  \pdfpagewidth=8.5truein % force US letter size to match ACM template
@@ -18,12 +18,12 @@
  /Author (YOUR NAME)
  /Keywords (sensors, social network)
  }
-\else
- \usepackage[dvips]{graphicx}
- \DeclareGraphicsExtensions{.eps, .png, .jpg}
- \usepackage[usenames]{color}%for color names
+%\else
+% \usepackage[dvips]{graphicx}
+% \DeclareGraphicsExtensions{.eps, .png, .jpg}
+% \usepackage[usenames]{color}%for color names
 % \newcommand{\url}[1]{#1} % hide hrefs
-\fi
+%\fi
 
 \usepackage{url}
 \usepackage{amssymb}
