@@ -50,9 +50,9 @@ Although those software and hardware challenges are solved. The experiments stil
 \end{table}
 
 
-The Android design decisions may not perceive energy efficiency as a main concern. This leads to other software problems with the implementation of the experiments. For making an accurate energy efficiency comparisons, WiFi connectivity needs to be complete disabled for most of the sensor applications. Disabling wireless connectivity in the settings is not sufficient, as Android may still utilize WiFi connectivity for \textbf{Google Location Service}. To undertake valid experiments, Google Location Service has to be also disabled [XXX photo below]. 
+The Android design decisions may not perceive energy efficiency as a main concern. This leads to other software problems with the implementation of the experiments. For making an accurate energy efficiency comparisons, WiFi connectivity needs to be complete disabled for most of the sensor applications. Disabling wireless connectivity in the settings is not sufficient, as Android may still utilize WiFi connectivity for \textbf{Google Location Service}. To undertake valid experiments, Google Location Service has to be also disabled\ (\plotref{android_advanced_wifi}). 
 
-[XXX photo!!]
+\plot{android_advanced_wifi}
 
 Another software issue is \textbf{Bluetooth Low Energy\ (LE) API}. Classic Bluetooth scanning is expected to be less energy-efficient than Bluetooth LE, since the latter is intended to reduce power demands while providing similar functionality. However, Bluetooth LE API is new\ (added in Android 18) and still under the development. In its current version\ (Android 18),  it prints out a lot of information to log file if any device is found. This leads to faster battery depletion than in case of Classic Bluetooth. This has been evidenced in the results of the experiments. If there is no device found, Bluetooth LE is more energy efficient than Classic Bluetooth. Lastly, Android imposes its \textbf{privacy policy on video capturing} applications. Those applications are required to provide camera preview in order customers to be aware of video capturing. This privacy policy results in higher energy demands, as camera preview requires additional computational power. The camera preview has been added to the Camera Sensor Application.
 		
@@ -81,7 +81,7 @@ Another issue is \textbf{choosing a battery percentage} for the experiments\ (Ta
 
 \plot{devices_failed_samples}
 	
-The invalid samples for HTC Flyer may be characterized as \textbf{bursty errors}. The \plotref{htc_flyer_bursty_error} shows that most of invalid samples\ (9 out of 11) are grouped in two periods: 9-13 samples and 24-33. The first period includes continuous series of 4 invalid samples, whereas the second period has 6 invalid samples within 11 samples made. Each group has different characteristics, and thus, the bursty errors are difficult to detect without knowing complete experiments results\ (i.e. in online energy measurements).   [XXX last sentence - very weak reasoning]
+The invalid samples for HTC Flyer may be characterized as \textbf{bursty errors}. The \plotref{htc_flyer_bursty_error} shows that most of invalid samples\ (9 out of 11) are grouped in two periods: 9-13 samples and 24-33. The first period includes continuous series of 4 invalid samples, whereas the second period has 6 invalid samples within 11 samples made. Each group has different characteristics, and thus, the bursty errors are difficult to detect without knowing complete experiments results\ (i.e. in online energy measurements).
 
 \plot{htc_flyer_bursty_error}
 
