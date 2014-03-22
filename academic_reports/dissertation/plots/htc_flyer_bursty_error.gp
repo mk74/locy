@@ -1,6 +1,6 @@
 set key off
 set boxwidth 0.5
-set lmargin 10
+set lmargin 15
 #set style fill solid
 set xtics rotate
 set xlabel "Sample nr." font "Arial Bold, 18"

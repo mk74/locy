@@ -42,16 +42,38 @@ There are still other issues, which could add noise to the experiments e.g., var
 
 For the purpose of this dissertation, this measurement method was directly incorporated into Sample Sensor Applications. Each sample sensor application is continuously querying the battery status and the time of 1\% battery depletion is registered. The whole process is exactly the same for all sample sensor applications. Because of that, no noise to the experiments is added.
 
-[XXX how to incorporate it into sample apps]\\
+\subsubsection{The list of sample sensor applications}	
+\label{s:design:measurements:applications}
+The below table consists of the complete list of Sample Sensor Applications created for this project. Beside the Sample Sensor Applications, a couple of supporting applications were implemented:
+\begin{itemize}
+	\item EnergyMeasurementListSensors - listing all physical sensors available in a mobile phone.,
+	\item EnergyMeasurementNetwork - determining energy efficiency of Android wireless-based localization.
+	\item EnergyMeasurementGPSSatellites - determining energy efficiency of Android wireless-based localization.	
+\end{itemize}
+All of those applications could be found in \textit{sensors\_energy\_measurement/sample\_apps} directory.
+		
+\begin{table}[H]
+	\centering
+    \begin{tabular}{| l | r | }
+    \hline
+    Sensor & Application name \\ \hline
+    Camera & EnergyMeasurementCamera \\ \hline
+    Microphone & EnergyMeasurementMicrophone \\\hline
+    IEEE 802.11 & EnergyMeasurementWifi80211 \\ \hline
+    GPS & EnergyMeasurementGPS \\ \hline
+    Bluetooth & EnergyMeasurementBluetooth \\ \hline
+    Bluetooth LTE & EnergyMeasurementBluetoothLE \\ \hline
+    Accelerometer & EnergyMeasurementAcceleromter \\ \hline
+    Gyroscope & EnergyMeasurementGyroscope \\ \hline
+    Magnetic Field & EnergyMeasurementMagneticField\\ \hline
+    Ambient Light & EnergyMeasurementLight \\ \hline
+    Proximity & EnergyMeasurementProximity \\ \hline
+    \end{tabular}
+    \caption{The complete list of Sample Sensor Applications.}
+	\label{table:samplesensorapps}
+\end{table}			
 
-Trepn Profiler + Conclusion\\
 
-[XXX Reiterate over this paragraph once context survey on energy is done;
-	do i write twice the same about full battery life, is it good?]			
-			
-		
-		
-		
 \subsection{Sensy}
 \label{s:design:sensy}
 
