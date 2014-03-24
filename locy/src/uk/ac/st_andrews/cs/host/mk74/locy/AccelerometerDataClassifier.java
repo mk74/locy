@@ -17,26 +17,24 @@ public class AccelerometerDataClassifier {
 	private ArrayList<Long> timestamps = new ArrayList<Long>();
 	private ArrayList<Double> magnitudes = new ArrayList<Double>();
 
-	public boolean add(float[] values) {
-		//todo race condtion
-		
+	public void add(float[] values) {
 		//add new fixtures
 		long currentTime = System.currentTimeMillis();
 		if(timeWindowStart==0)
 			timeWindowStart = currentTime;
 		timestamps.add(currentTime);
 		magnitudes.add(calcMagnitude(values));
-		long windowDurationTime = currentTime - timeWindowStart;
+	}
+	
+	public boolean recognizeActivity(){
+		long windowDurationTime = System.currentTimeMillis() - timeWindowStart;
 		
 		//check whether window is complete
 		if(windowDurationTime >= WINDOW_TIME_MILLISECS){
 			//classify current window
 			classify();
 			
-			//clear before next window
-			timeWindowStart=0;
-			timestamps.clear();
-			magnitudes.clear();
+			clearWindow();
 			
 			//check whether enough windows check to interference
 			leftWindowN--;
@@ -47,11 +45,31 @@ public class AccelerometerDataClassifier {
 				if(predictedMoving<0){
 					moving = false;
 				}
-				predictedMoving = 0;
-				leftWindowN = WINDOW_N;
+				clearClassifier();
 			}
 		}
 		return moving;
+	}
+	
+	public boolean isRecognitionOver() {
+		return (leftWindowN == WINDOW_N && magnitudes.size() == 0); //n windows to check + just cleared magnitudes 
+	}
+	
+	public void clear() {
+		clearWindow();
+		clearClassifier();
+	}
+	
+	private void clearWindow() {
+		timeWindowStart = 0;
+		lastStandardDeviation = 0.0;
+		timestamps.clear();
+		magnitudes.clear();
+	}
+	
+	private void clearClassifier() {
+		predictedMoving = 0;
+		leftWindowN = WINDOW_N;
 	}
 
 	private Double calcMagnitude(float[] values) {

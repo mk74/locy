@@ -13,11 +13,8 @@ import android.os.Bundle;
 // Sending over scan results happen as often as new ones are available
 // Assumes that WiFi is enabled
 public class GPSNavigator {
-	public static String WIFI_FINGERPRINTS_SERVER = "http://mk74.host.cs.st-andrews.ac.uk/locy/location.php";
-	public static String WIFI_FINGERPRINTS_SERVER_VAR = "wifi_scan_results";
 	
 	private boolean running = false;
-	private Context context; //maybe no need?!
 	LocationManager  locManager;
 	private LocationListener locListener;
 	private String locProvider;
@@ -26,7 +23,6 @@ public class GPSNavigator {
 	
 		
 	public GPSNavigator(Context context) {
-		this.context = context;
 		
 		//create listener for gps location service
 		location = new double[]{(double) 0.0, (double) 0.0};
@@ -55,15 +51,12 @@ public class GPSNavigator {
 	public void start() {
 		if(!running){
 			running = true;
-			//switch on GPS //order?
 			locManager.requestLocationUpdates(locProvider, minTime, minDistance, locListener);			
 		}
 	}
 	
 	public void stop() {
 		running = false;
-		//unregister listener
-		//switch off GPS //order?
 		locManager.removeUpdates(locListener);
 	}
 	

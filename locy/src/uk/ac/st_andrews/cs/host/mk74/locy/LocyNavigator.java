@@ -27,7 +27,7 @@ public class LocyNavigator {
 		gpsNavigator.stop();
 	}
 	
-	//if user is moving, start WiFiNavigator
+	//if user is moving, start GPSNavigator
 	public void activityMoving(){
 		inPlace = false;
 		if(!gpsNavigator.isRunning())
