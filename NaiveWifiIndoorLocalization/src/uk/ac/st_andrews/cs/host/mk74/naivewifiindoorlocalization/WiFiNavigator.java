@@ -81,6 +81,10 @@ public class WiFiNavigator {
 		if(!running){
 			running = true;
 			context.registerReceiver(wifiBroadcastReceiver, wifiIntentFilter);
+			wifiManager.setWifiEnabled(true);
+			while(!wifiManager.isWifiEnabled()){
+				//wait till WiFI is enabled
+			}
 			wifiManager.startScan();
 		}
 	}
@@ -88,6 +92,10 @@ public class WiFiNavigator {
 	public void stop() {
 		running = false;
 		context.unregisterReceiver(wifiBroadcastReceiver);
+		wifiManager.setWifiEnabled(false);
+		while(wifiManager.isWifiEnabled()){
+			//wait till WiFI is enabled
+		}
 	}
 	
 	public boolean isRunning() {
