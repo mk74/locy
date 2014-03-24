@@ -44,7 +44,6 @@ public class ActivityRecognition {
 							activityMoving = newActivityMoving;
 						}
 						
-						System.out.println("New activity!");
 						sleepingInterval();
 					}
 
@@ -59,7 +58,7 @@ public class ActivityRecognition {
 	        public void run() {
 	        	stop();
 	        	try {
-					Thread.sleep(10000);
+					Thread.sleep(AccelerometerDataClassifier.WINDOW_N * AccelerometerDataClassifier.WINDOW_TIME_MILLISECS);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}

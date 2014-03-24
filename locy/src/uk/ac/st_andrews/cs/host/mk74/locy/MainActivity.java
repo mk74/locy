@@ -11,8 +11,8 @@ import android.view.WindowManager;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
-	public static boolean EXPERIMENT_ON = false;
-	public static double SCREEN_UDPATE_FREQUENCY = 1.0; // 3.0 - experiment, 0.5 - debugging
+	public static boolean EXPERIMENT_ON = true;
+	public static double SCREEN_UDPATE_FREQUENCY = 3.0; // 3.0 - experiment, 0.5 - debugging
 
 	BatteryEvaluator batteryEvaluator;
 	LocyNavigator locyNavigator;

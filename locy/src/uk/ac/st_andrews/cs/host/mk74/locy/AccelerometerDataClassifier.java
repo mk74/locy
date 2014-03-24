@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class AccelerometerDataClassifier {
 	private static final double MOVEMENT_THRESHOLD = 15.0;
-	private static final int WINDOW_TIME_MILLISECS = 2666;
-	private static final int WINDOW_N = 3; 
+	public static final int WINDOW_TIME_MILLISECS = 2666;
+	public static final int WINDOW_N = 3; 
 	
 	private int predictedMoving = 0;
 	private int leftWindowN = WINDOW_N;
