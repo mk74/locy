@@ -59,7 +59,7 @@ public class LocyNavigator {
 
 	public String getInfo() {
 		String output = "Location: " + getLocation()[0] + " " + getLocation()[1] + " | " +
-						"WiFiNavigator running:" + gpsNavigator.isRunning()+ "\n";
+						"GPSNavigator running:" + gpsNavigator.isRunning()+ "\n";
 		if(!MainActivity.EXPERIMENT_ON)
 			output+=activityRecognition.getInfo();
 		return output;

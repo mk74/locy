@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void run() {
 				final String output = "Location: " + gpsNavigator.getLocation()[0] + " "+ gpsNavigator.getLocation()[1] + " | " +
-								"WiFiNavigator running:" +gpsNavigator.isRunning()+ "\n" +
+								"GPSNavigator running:" +gpsNavigator.isRunning()+ "\n" +
 								batteryEvaluator.getInfo();
 				System.out.println(output);
 				
