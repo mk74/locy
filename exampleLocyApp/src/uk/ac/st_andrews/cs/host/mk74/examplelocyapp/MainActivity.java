@@ -1,6 +1,7 @@
 package uk.ac.st_andrews.cs.host.mk74.examplelocyapp;
 
 import java.util.Timer;
+
 import java.util.TimerTask;
 
 import uk.ac.st_andrews.cs.host.mk74.locy.LocyNavigator;
@@ -40,8 +41,11 @@ public class MainActivity extends Activity {
 		TimerTask readValues = new TimerTask() {
 			@Override
 			public void run() {
-				final String output = locyNavigator.getInfo() 
-						  + batteryEvaluator.getInfo();
+				String locyInfo = locyNavigator.getInfo();
+				if(!EXPERIMENT_ON){
+					locyInfo += locyNavigator.getDebuggerInfo();
+				}
+				final String output = locyInfo + batteryEvaluator.getInfo();
 				System.out.println(output);
 								
 				runOnUiThread(new Runnable(){
