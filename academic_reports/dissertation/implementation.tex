@@ -2,7 +2,7 @@
 \label{s:implementation}
 \hspace{10pt} In this section, the implementations of the the software components and the experiments involved in the dissertation are discussed. The design presented in the previous section is revisited. The first subsection summarizes the problems occurred while comparing sensors' energy profiles. Those issues are grouped in two categories: software and hardware problems. That subsection also undertakes the analysis of the failed samples in the experiment. The second subsection presents the implementation details of the energy efficient sensing library, Sensy. [XXX keep going here on Sensy + rewrite next sentence]. As a result of the implementation process, the conclusions on energy-accuracy of phone sensing are derived and presented in the last subsection.
 
-\subsection{Sensors energy measurements}
+\subsection{Sensor energy measurements}
 \hspace{10pt} The implementation of the experiments' design raises practical challenges. \textbf{Android operating system and its API affects the experiments' design}. A couple of software issues\ (IEEE802.11 scanning, Bluetooth Low Energy API and privacy policy for video capturing) is described later. Other problems for the implementation are a result of many devices involved in the experiments. \textbf{There are hardware differences between mobile phones},  which creates some difficulties. The specification of mobile phones involved in the experiments are presented in Table \ref{table:devices_differences}.
 	
 \begin{table}[H]
@@ -12,7 +12,7 @@
       & Google Nexus 7 & HTC Flyer & HTC desire \\ \hline
     Android version & 4.3 & 3.3 &  2.3.3\\ \hline
   	CPU & Quad-core 1.2 GHz Cortex-A9 & 1.5 GHz Scorpion & 1 GHz Scorpion\\ \hline
-  	Intertal Memory & 1 GB RAM & 1 GB RAM & 576 MB RAM\\ \hline
+  	Internal Memory & 1 GB RAM & 1 GB RAM & 576 MB RAM\\ \hline
     Battery & Li-Ion 4325 mAh & Li-Po 4000 mAh & Li-Ion 1400 mAh\\ \hline
     Camera & \checkmark & \checkmark & \checkmark \\ \hline
     Microphone & \checkmark & \checkmark & \checkmark \\\hline
@@ -33,7 +33,7 @@
 Although those software and hardware challenges are solved. The experiments still delivers many invalid samples, which needs to be further investigated. The investigation shows that different devices have different characteristics of the invalid samples. 
 
 \subsubsection{Software problems}
-\hspace{10pt} Preliminary sample experiments showed that \textbf{WiFi scanning} was more energy-efficient than other sensors. Those results were counter-intuitive, and thus why, IEEE 802.11 was further investigated. Unlike other sensors, IEEE 802.11 has many scanning parameters: active or passive; power save mode or not; scanning time for one channel, caching scanning results, complete scanning etc. Those parameters for Android were established through using KisMac \cite{kismac:kismac}. As Table \ref{table:wifiparameters} shows, the parameters of IEEE 802.11 scanning are as usual: no caching, no any other specific energy optimization is involved. It turned out that the results of the preliminary sample experiments were a result of problems with other applications' sensors. As a side note, it is worth noticing that there is active scanning available in Android API, though it is depreciated. Passive scanning is more energy efficient than active scanning, as radio reception\ (passive scanning) usually requires 10 times less power than radio transmission (active scanning).
+\hspace{10pt} Preliminary sample experiments showed that \textbf{Wi-Fi scanning} was more energy-efficient than other sensors. Those results were counter-intuitive, and thus why, IEEE 802.11 was further investigated. Unlike other sensors, IEEE 802.11 has many scanning parameters: active or passive; power save mode or not; scanning time for one channel, caching scanning results, complete scanning etc. Those parameters for Android were established using KisMac \cite{kismac:kismac}. As Table \ref{table:wifiparameters} shows, the parameters of IEEE 802.11 scanning are as usual: no caching, no any other specific energy optimization is involved. It turned out that the results of the preliminary sample experiments were a result of problems with other applications' sensors. As a side note, it is worth noticing that there is active scanning available in Android API, though it is depreciated. Passive scanning is more energy efficient than active scanning, as radio reception\ (passive scanning) usually requires 10 times less power than radio transmission (active scanning).
 
 \begin{table}[H]
 \centering
