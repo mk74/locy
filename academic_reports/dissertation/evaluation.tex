@@ -5,33 +5,27 @@
 
 \subsection{Sensors energy measurements}
 
-\hspace{10pt} The Figure \ref{p:all_results} shows the complete set of the experiments results across three different devices. For all of those phones, the time of 1\% battery life depletion is the biggest when all sensors are switched off i.e. "plain" run. Next, all of the physical sensors belongs to the group of less energy-efficient sensors. On the boundary of this group, microphone may be noticed. Finally, IEEE802.11, GPS and Video Camera have relatively high energy demands on all of the three devices.
+\hspace{10pt} The Figure \ref{p:all_results} shows the complete set of the experiments results across three different devices. For all of those phones, the time of 1\% battery life depletion is the biggest when all sensors are switched off i.e. "plain" run. Next, all of the physical sensors belongs to the group of less energy-efficient sensors. On the boundary of this group, microphone may be noticed. Finally, IEEE 802.11, GPS and Video Camera have relatively high energy demands on all of the three devices.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.49\textwidth, scale=0.6]{plots/htc_flyer}
 \includegraphics[width=0.49\textwidth, scale=0.6]{plots/htc_desire}
 \includegraphics[width=\textwidth, scale=0.9]{plots/google_nexus_7}
-\caption{\label{p:all_results} The complete results of energy measurements for all devices. The comparison of energy efficiency of different sensors is intuitive and overlaps with other research. }
+\caption{\label{p:all_results} The complete results of energy measurements for all devices. The energy efficiency of different sensors is as expected and overlaps with the results of other research. }
 \end{figure}
 
 Bluetooth Low Energy\ (LE) may have higher energy demands than Classic Bluetooth. The \plotref{bluetooth_le_api} compares their energy efficiency depending on the situation. In there is no device found, it takes longer for Bluetooth LE scanning to deplete the battery life by 1\% than for Classic Bluetooth scanning i.e. Bluetooth LE is more energy-efficient. However, if there is any device on the network, Bluetooth LE scanning depletes battery faster than Classic Bluetooth. The reason behind this phenomenon was analyzed in the previous section (the high output of Bluetooth LE API when any device is found) \ref{p:all_results}.
 	
 \plot{bluetooth_le_api}
 				
-The sensors energy efficiency order differs among the devices. The Figure \ref{p:shared_sensors_results} contrasts the energy efficiency results for the shared sensors between the devices.For each of its diagrams, the order of the sensors on x axis is the same. The diagram on the left\ (Google Nexus 7) is characterized by monotonically increasing energy efficiency of the sensors, whereas the other two diagrams are not. For example, Bluetooth is the most energy efficient sensor HTC Desire and HTC Flyer, but is average for Google Nexus 7.
-	
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.3\textwidth, scale=0.6]{plots/google_nexus_7_shared}
-\includegraphics[width=0.3\textwidth, scale=0.6]{plots/htc_flyer_shared}
-\includegraphics[width=0.3\textwidth, scale=0.6]{plots/htc_desire_shared}
-\caption{\label{p:shared_sensors_results} Energy efficiency of shared sensors across different devices. The order of energy efficiency differs depending on a device. }
-\end{figure}		
+The sensors energy efficiency order differs among the devices. The \plotref{shared} contrasts the energy efficiency results for the shared sensors between the devices.For each of its diagrams, the order of the sensors on x axis is the same. The diagram on the left\ (Google Nexus 7) is characterized by monotonically increasing energy efficiency of the sensors, whereas the other two diagrams are not. For example, Bluetooth is the most energy efficient sensor HTC Desire and HTC Flyer, but is average for Google Nexus 7.
+
+\plot{shared}
 		
 \subsubsection{Localization}
 
-\hspace{10pt} Different sensors may be used for localization purposes. The \plotref{all_locs} studies the energy efficiency of those sensors. For the comparison, the energy efficiency levels described in the previous section were used. For each of the devices, Bluetooth has the highest energy efficiency level i.e. it is the most energy-efficient. Also, microphone is always more energy efficient than traditional localization sensors\ (GPS and IEEE 802.11). On the other hand, the camera has worse energy performance than GPS and IEEE 802.11 on the two devices. Finally, the energy efficiency of GPS and IEEE 802.11 are similar, though WiFi scanning is more energy-efficient than GPS for two devices.  	
+\hspace{10pt} Different sensors may be used for localization purposes. The \plotref{all_locs} studies the energy efficiency of those sensors. For the comparison, the energy efficiency levels described in the previous section were used. For each of the devices, Bluetooth has the highest energy efficiency level i.e. it is the most energy-efficient. Also, microphone is always more energy efficient than traditional localization sensors\ (GPS and IEEE 802.11). On the other hand, the camera has worse energy performance than GPS and IEEE 802.11 on the two devices. Finally, the energy efficiency of GPS and IEEE 802.11 are similar, though the latter is more energy-efficient for two out of three devices.  	
 
 \plot{all_locs}
 
@@ -46,7 +40,7 @@ The analysis of the localization sensors' efficiency explains how localization t
 
 Accelerometer is more energy efficient than traditional localization sensors. Opposite to what previous research\cite{benabdesslem:senseless} stated, the difference in energy consumption is not substantial. The nature of accelerometer usage has been changed. Currently, the values of physical sensors may be pulled more often\ e.g., three accelerometer values are delivered per second on Google Nexus 7. Higher frequency of raw data may have better accuracy, but also results in faster battery depletion.  Because of that, the smarter strategies for sampling needs to be designed. For example, accelerometer may sample for short period of time and if unsure what happens, it could sample longer. As accelerometer has lower energy demands than traditional localization sensors, it could be leveraged for "cheaper" replacement fo those "expensive" sensors. However, its sampling needs to be conducted in energy-efficient manner. 
 
-The energy measurement method does not provide the details on the nature of energy consumption. It is unknown which exact operations consume the most energy during sensing. For example, significant part of energy may be consumed by CPU which needs to be active while sensing accelerometer \cite{priyantha:littlerock}. As those characteristics are not recognized, it cannot be reason how energy efficient the applications with combined sensors\ (IEEE802.11 scanning and accelerometer) will be. Also, it is unfamiliar how energy efficiency of physical sensors will change depending on their parameters\ (size of sleeping and sampling windows).
+The energy measurement method does not provide the details on the nature of energy consumption. It is unknown which exact operations consume the most energy during sensing. For example, significant part of energy may be consumed by CPU which needs to be active while sensing accelerometer \cite{priyantha:littlerock}. As those characteristics are not recognized, it cannot be reason how energy efficient the applications with combined sensors\ (IEEE 802.11 scanning and accelerometer) will be. Also, it is unfamiliar how energy efficiency of physical sensors will change depending on their parameters\ (size of sleeping and sampling windows).
 						
 \subsection{Sensy}
 \subsection{Conclusions}
