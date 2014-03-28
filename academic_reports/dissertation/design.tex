@@ -81,9 +81,10 @@ sensor substitution
 
 \subsubsection{Moving detection}
 \label{s:design:moving}
--standard deviation
-	-threshold
--sliding window
+-total magnitude of accelerometer coordinates		graph before and after
+-sliding window \& standard deviation
+	-threshold			for one when moving and one where not moving
+-three sliding windows to make a decision
 
 -address whether it is user dependent algorithm
 
@@ -92,7 +93,4 @@ sensor substitution
 duty-cycling
 		why?
 adaptive depending on battery life
-
-\subsubsection{Software architecture}
-\label{s:design:architecture}
 
