@@ -45,59 +45,19 @@ CONCLUSIONS\\
 		something like Reality Mining \cite{eagle:realitymining}\\
 		
 \subsection{Energy measurement}
-Placeholder - make things flow\\
+\hspace{10pt} To improve the energy efficiency of phone sensing, an accurate method for measuring it needs to be established. This task is relatively easy for Nokia phones. Nokia Energy Profiler \cite{nokia:profiler}, an application delivered by Nokia,  accurately measures power consumption and is widely used by research community \cite{kjaergaard:entracked} \cite{lu:jigsaw} \cite{li:status}. However, Google does not provide an equivalent application for Android smartphones, which makes the task difficult.The first subsection reviews the methods for measuring power consumption available on Android, whereas the second subsection demonstrates their results.
+
 \subsubsection{Energy measurement methods}
-\hspace{10pt} To improve the energy-efficiency of sensing, an accurate method for measuring power consumption needs to be established. This task is relatively easy for Nokia phones. Nokia Energy Profiler \cite{nokia:profiler}, an application delivered by Nokia,  accurately measures power consumption and is widely used by research community \cite{kjaergaard:entracked} \cite{lu:jigsaw} \cite{li:status}. However, Google does not provide an equivalent application for Android smartphones, which makes the task difficult. [XXX reference to fragmentation problem across Android devices]
 
-The Power Monitor is a hardware power meter delivered by MoonSooon PowerSolutions \cite{monsoon:powermonitor}.  It is designed for analyzing power of single lithium\ (Li) batteries (all Android phones). Although the tool provides accurate measurements, it can only be used in lab environment e.g., it can't measure energy consumption of GPS sampling while a client is moving outdoor. It is also expensive, and thus, it can't be directly used by mobile phone clients. To easy this problem, mobile phone vendors establish power profiles and provide them on mobile phones \cite{android:powerprofiles}. This information may be further utilized by software power profilers.
+\hspace{10pt} The Power Monitor is a hardware power meter delivered by MoonSooon PowerSolutions \cite{monsoon:powermonitor}.  It is designed for analyzing power of single lithium\ (Li) batteries (all Android phones). Although the tool provides accurate measurements, it can only be used in a lab environment e.g., it cannot measure energy consumption of GPS sampling while a user is moving outdoor. It is also expensive, and thus, it cannot be directly used by mobile phone users. To easy this problem, mobile phone vendors establish power profiles and put them on mobile phones \cite{android:powerprofiles} as the part of their manufacturing process. This information may be further utilized by software power profilers.
 
-Software power profilers on Android smartphones use a power model to determine current energy consumption. They continuously query states of hardware components such as CPU, wireless card or screen. For example, wireless card may be switched off, listen or send information. Each state of every component has its corresponding energy consumption. This value is available in power profiles provided by a mobile phone vendor as described in the previous paragraph. Software power profilers aggregate all of those energy values to estimate current energy consumption of a device. Example applications using this method includes PowerTutor \cite{zhang:powertutor} and Battery Monitor Widget \cite{googleplay:batterymonitorwidget}. Although this method provides online energy measurement and it can by used by customers, those measurements are often inaccurate. With time, the power profiles, provided by vendors, can change as battery characteristics do [XXX references]. To easy this problem, PowerTutor adopts its algorithm basing on the device model. However, it only supports three mobile phones: HTC G1, HTC G2 and Nexus one. Furthermore, the power profilers are not applicable to phone sensing: power profiles are often not available for physical sensors e.g., PowerTutor does not support accelerometer nor camera.
+Software power profilers on Android smartphones use a power model to determine current energy consumption. They continuously query states of hardware components such as CPU, wireless card or screen. For example, wireless card may be switched off, be listening or sending information. Each state of every component has the corresponding value of its energy consumption. This value is available in power profiles provided by a mobile phone vendor as described in the previous paragraph. Software power profilers aggregate all of those values to estimate current energy consumption of a device. Applications using this method include PowerTutor \cite{zhang:powertutor} and Battery Monitor Widget \cite{googleplay:batterymonitorwidget}. Although this method provides online energy measurement and it can by used by users, those measurements are often inaccurate. With time, the power profiles, provided by vendors, can change as battery characteristics do [XXX references]. To easy this problem, PowerTutor adopts its algorithm basing on the device model. However, it only supports three mobile phones: HTC G1, HTC G2 and Nexus one. Furthermore, the power profilers are not applicable to phone sensing: power profiles are often not available for physical sensors e.g., PowerTutor does not support accelerometer.
 
-[XXX some better name than Software power profilers would be useful!
- maybe battery consumption measurement]\\
+Another approach to establish energy demands is measuring battery life. If a mobile device has high energy demands, its battery should deplete fast. For example, BetterBatteryStats \cite{googleplay:betterbatterystats} and Battery Stats Plus \cite{googleplay:batterystatsplus} use battery life as metrics to monitor mobile applications' energy consumptions. This idea was also utilized in research community. SenseLess \cite{benabdesslem:senseless} compares the energy efficiency of different sensors basing on how long the full battery depletion takes while only that sensor is being switched on. This approach provides the accurate approximation of a mobile's power consumption and does not require any additional hardware. Furthermore, it may be undertaken by mobile phone user and works for physical sensors. However, the measurement may be time consuming. In SenseLess, it took 170 hours to deplete the whole battery life while all sensors are being switched off. Since 2009\ (Senseless), the battery life increased and Android operating system is more energy efficient. The full battery depletion is likely to take even longer for modern mobile phones.
 
-Battery life as metrics\\
-	BetterBatteryStats\\
-	Battery Stats Plus\\
-	research community: SenseLess\cite{benabdesslem:senseless}\\
-	cons:\\
-		argument from Narseo's paper\\
-		take long\\
-			maybe don't measure full depletion
-			
-			[XXX
- It's a common method to deplete the full battery life to estimate energy demands. However, the method is not applicable to sensors' energy efficiency on modern mobile phones.]
+TrepnProfiler \cite{qualcomm:trepnprofiler} is a new way for measuring power consumption of a mobile phone. The tool, provided by Qualcomm, is a low level software, which runs only on SnapDragon chips, which are provided by the same company. The tool provides accurate measurements including physical sensors and may be undertaken by mobile phone users. Furthermore, the method is fast. However, the tool is still relatively new and works only on specific hardware.
 	
-	
-	
-SOFTWARE AND HARDWARE Together\\
-	TREPN PROFILER\cite{qualcomm:trepnprofiler}\\
-		QualComm\\
-		how it works??\\
-			"baseline computations and then delta difference"\\	
-			low level software running on specific chip-set,  SnapDragon chips\\
-				this software and chip-sets the same company produces\\
-		critical thinking:\\
-			relatively accurate\\
-				(repetitive results where conditions the same)\\
-			but\\
-				only work on specific hardware \\
-				still in progress\\
-		
-WHERE?\\
-	Android power consumption values when i list all sensors?\\
-		validate them?\\
-
-CURRENT ENERGY RESULTS\\
-	Senseless\cite{benabdesslem:senseless}\\
-	
-
-CONCLUSIONS\\
-	...\\
-	TrepnProfiler very interesting and that may be a future\\
-		so we try it later \\
-	measuring battery life:\\
-		 don't measure full depletion\\
+In this subsection, four different methods for energy measurement were reviewed. The characteristics of them are summarized in the below table [XXX]. Since accurate energy measurements outside of the lab environment are needed, \textbf{measuring battery life was chosen for the project}.  To reduce experiments' time, the 1\% percentage battery depletion is proposed instead of full battery depletion. That method should be still accurate, which is further explained in Sectio \ref{s:design:measurements:method}. TrepnProfiler was not chosen for this project, as it is still the technology under the development.
 
 \subsubsection{Energy measurement results}
 \cite{benabdesslem:senseless} \cite{constandache:localization} \cite{wang:eemss} \cite{chon:smartdc}
