@@ -55,7 +55,7 @@ Software power profilers on Android smartphones use a \textbf{power model} to de
 
 Another approach to establish energy demands is \textbf{measuring battery life}. If a mobile device has high energy demands, its battery should deplete fast. For example, BetterBatteryStats \cite{googleplay:betterbatterystats} and Battery Stats Plus \cite{googleplay:batterystatsplus} use battery life as metrics to monitor mobile applications' energy consumptions. This idea was also utilized in research community. SenseLess \cite{benabdesslem:senseless} compares the energy efficiency of different sensors basing on how long the full battery depletion takes while only that sensor is being switched on. This approach provides the accurate approximation of a mobile's power consumption and does not require any additional hardware. Furthermore, it may be undertaken by mobile phone user and works for physical sensors. However, the measurement may be time consuming. In SenseLess, it took 170 hours to deplete the whole battery life while all sensors are being switched off. Since 2009\ (Senseless), the battery life increased and Android operating system is more energy efficient. The full battery depletion is likely to take even longer for modern mobile phones.
 
-\textbf{TrepnProfiler} \cite{qualcomm:trepnprofiler} is a new way for measuring power consumption of a mobile phone. The tool, provided by Qualcomm, is a low level software, which runs only on SnapDragon chips, which are provided by the same company. The tool provides accurate measurements including physical sensors and may be undertaken by mobile phone users. Furthermore, the method is fast. However, the tool is still relatively new and works only on specific hardware.
+\textbf{TrepnProfiler} \cite{qualcomm:trepnprofiler} is a new way for measuring power consumption of a mobile phone. The tool, provided by Qualcomm, is a low level software, which runs only on SnapDragon chips, which are also provided by Qualcomm. The tool provides accurate measurements including physical sensors and may be used by mobile phone users. However, the tool is still relatively new and works only on specific hardware.
 
 \begin{table}[H]
 	\centering
@@ -68,22 +68,20 @@ Another approach to establish energy demands is \textbf{measuring battery life}.
     Additional hardware & & & &\\ \hline
     Specific mobile phones & & & &\\ \hline
     \end{tabular}
-    \caption{The comparison of energy measurement methods. }
+    \caption{The comparison of energy measurement methods. Using battery life as metrics is the most suitable method for the project.}
 	\label{table:energymeasurementmethods}
 \end{table}
 	
-In this subsection, four different methods for energy measurement were reviewed. The characteristics of them are summarized in the Table \ref{table:energymeasurementmethods}. Since accurate energy measurements outside of the lab environment are needed, \textbf{measuring battery life was chosen for the project}.  To reduce experiments' time, the 1\% percentage battery depletion is proposed instead of full battery depletion. That method should be still accurate, which is further explained in Section \ref{s:design:measurements:method}. TrepnProfiler was not chosen for this project, as it is still the technology under the development.
+In this subsection, four different methods for energy measurement were reviewed. The characteristics of them are summarized in the Table \ref{table:energymeasurementmethods}. Since accurate energy measurements outside of the lab environment are needed, \textbf{measuring battery life was chosen for the project}.  To reduce experiments' time, the 1\% percentage battery depletion is proposed instead of full battery depletion. That method should be still accurate, which is further explained in Section \ref{s:design:measurements:method}. TrepnProfiler was not chosen for this project, as it is still technology under the development.
 
 \subsubsection{Energy measurement results}
-the order of energy efficiency the same across sensors
+The energy efficiency of sensors has been examined before \cite{benabdesslem:senseless} \cite{constandache:localization} \cite{wang:eemss} \cite{chon:smartdc}. Regardless of used energy measurement method, those studies provide similar results e.g. the \plotref{senseless} shows the energy consumption of different sensors established in SenseLess \cite{benabdesslem:senseless}. All of the studies show that accelerometer is more energy-efficient than microphone. Microphone consumes less power than GPS and IEEE 802.11 scanning, which have lower power consumption than video camera.
 
-\cite{benabdesslem:senseless} \cite{constandache:localization} \cite{wang:eemss}
+\plot{senseless}
 
-those results are incomplete about some other sensors, often only per one device...
+Depending on the energy measurement method which is used, studies may provide more details on energy consumption. For example, GAC \cite{youssef:gac}, which leverages the Power Monsoon device, establishes the power consumption pattern of GPS over time. Also, energy consumption of sensors may be examined depending on their parameters. SmartDC \cite{chon:smartdc} studies how power consumption of GPS and Wi-Fi scan changes, dpeneding on their sampling interval. It also explores energy demands of accelerometer depending on its duty cycling's ratio\ (sampling time over sleeping interval).
 
-duty cycling results: depending on what ratio listen/not listen
- \cite{chon:smartdc}
- Rachuri as well?
+All of those studies either focus only  on few sensors (e.g. gpc, accelerometer and Wi-Fi in SmartDC \cite{chon:smartdc}) or measure sensors' power consumption only across one device \cite{benabdesslem:senseless}. To present the full picture, the project aims to provide the complete set of all sensors' energy measurements across three different devices. 
 	
 \subsection{Energy-efficient phone sensing}
 hierarchy/temporal relations\\
