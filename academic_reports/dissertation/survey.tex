@@ -86,40 +86,25 @@ The energy efficiency of sensors has been examined before \cite{benabdesslem:sen
 
 \plot{senseless}
 
-Depending on the energy measurement method which is used, studies may provide more details on energy consumption. For example, GAC \cite{youssef:gac}, which leverages the Power Monsoon device, establishes the power consumption pattern of GPS over time. Also, energy consumption of sensors may be examined depending on their parameters. SmartDC \cite{chon:smartdc} studies how power consumption of GPS and Wi-Fi scan changes, dpeneding on their sampling interval. It also explores energy demands of accelerometer depending on its duty cycling's ratio\ (sampling time over sleeping interval).
+Depending on the energy measurement method which is used, studies may provide more details on energy consumption. For example, GAC \cite{youssef:gac}, which leverages the Power Monsoon device, establishes the power consumption pattern of GPS over time. Also, energy consumption of sensors may be examined depending on their parameters. SmartDC \cite{chon:smartdc} studies how power consumption of GPS and Wi-Fi scan changes, depending on their sampling interval. It also explores energy demands of accelerometer depending on its duty cycling's ratio\ (sampling time over sleeping interval).
 
 All of those studies either focus only  on few sensors (e.g. gpc, accelerometer and Wi-Fi in SmartDC \cite{chon:smartdc}) or measure sensors' power consumption only across one device \cite{benabdesslem:senseless}. To present the full picture, the project aims to provide the complete set of all sensors' energy measurements across three different devices. 
 	
 \subsection{Energy-efficient phone sensing}
-hierarchy/temporal relations\\
-	Fused Location provider\cite{android:locationapi}\\
-		part of Location APIs, uses Google Play(activity recognition)\\
-	EEMSS \cite{wang:eemss}\\
-	senseless \cite{benabdesslem:senseless}\\
-	ACE \cite{nath:ace}\\
+\textbf{Hierarchical and temporal relations between sensors} may be exploited for energy optimization. For example, if an user is not moving, which can be detected by accelerometer, its GPS coordinates are not going to change. This observation is used in Fused Location Provider \cite{android:locationapi}, a smart location framework provided by Android, and research community e.g., SenseLess \cite{benabdesslem:senseless}. More complex examples of such frameworks are ACE \cite{nath:ace} and EEMMS \cite{wang:eemss}. Both of them are capable of learning relations between sensors and utilize those information to conserve power. They leverage motion information\ (accelerometer), location and background noise. Additionally, ACE acts as a middleware, which may save an energy among many applications.
 
-adaptive sampling\\
-	Rachuri et al. \cite{rachuri:dynamicsensing}\\
-	SociableSense \cite{rachuri:socialsense} \\
-	similar idea in other fields:\\
-		wireless:\\
-			channel sampling \cite{deshpande:channeling}\\
-			refocusing \cite{deshpande:refocusing}\\
-			coordinated sampling \cite{deshpande:coordinated}\\
+Continuous sampling results in fast battery depletion since all high-power hardware components needs to stay awake\ (LittleRock \cite{priyantha:littlerock}). To reduce energy demands, the sensor may be sampled by friction of time and stay inactive for the rest of time\ (sleeping interval). This approach is called \textbf{duty-cycling}. The sleeping interval may be adjusted depending on whether any interesting even is being detected. For example, if a user starts walking, the accelerometer sampling should be more aggressive. This adaptive sampling methodology was proposed by Rachuri et al. \cite{rachuri:dynamicsensing}. In SociableSense\cite{rachuri:socialsense} this methodology is further progressed. Sampling rate is controlled by a learning technique based on the theory of learning automata. It adapts how much sampling rate changes depending on the last history of the events. If some noise happened only once, the sampling should not be too aggressive, but if the noise keeps happening, the microphone sampling should be continuous not to miss any important events. Similar sort of ideas have been previously studied in wireless communication's field \cite{deshpande:channeling} \cite{deshpande:refocusing} \cite{deshpande:coordinated}.
 
 offloading to the cloud\\
 	Uploading strategies \cite{musolesi:offloading}\\
 	SociableSense \cite{rachuri:socialsense} \\
-	
-two-tier\\
-	Accurate two-tier classifier \cite{srinivasan:twotier}\\
 
 machine learning\\
 	Enloc \cite{constandache:enloc}\\
 	SmartDC \cite{chon:smartdc}\\
 
-others\\
-	this checking IPC thing \cite{hsieh:ipc} \\
+
+There are also \textbf{other approaches} to energy-efficient phone sensing. Srinivasan et al. \cite{srinivasan:twotier} proposes two-tier activity classification. It performs smaller window of accelerometer samples to establish whether a user is walking. If  so, it performs second longer sampling to determine exact physical activity. Hsieh et al. \cite{hsieh:ipc} analyzes different Android Inter-Process Communication mechanisms for continuous sensing applications. It established metrics\ (latency, memory footprint and CPU usage) of three mechanisms: Intent, Binder and Content Provider depending on the size of payload. Those metrics are also likely to impact energy consumption. For the payload sizes smaller than 4KB (all physical sensors), the Binder performs the best on each of the metrics.
 
 conclusions
 
