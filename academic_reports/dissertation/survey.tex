@@ -2,50 +2,57 @@
 \label{s:contextsurvey}
 Placeholder - description of section\\ make things flow
 
-\subsection{Phone sensing}
-ACTIVITY RECOGNITION\\
-	Google Activity recognition part of Google Play \cite{android:activityrecognition}\\
-		used by Google Maps\\
-		part of Google Play, which works while customer is online\\
-		
-	health monitoring
-		\url{http://techcrunch.com/2014/03/17/apple-healthbook-ios-8/}
-		too sidetracked?
-			\url{http://www.hapi.com/products-hapifork.asp#non}
-		
+phone sensing
+energy measurements: method + results
+energy-efficient sensing
+This section tries to address objectives...
 
-CONTEXT DETECTION\\
-	INERTIAL NAVIGATION\\
+\subsection{Phone sensing}
+
+XXX DIDN't say: However, those sensors are noisy and often inaccurate. 
+
+
+Sensor-based \textbf{activity recognition} aims to determine a user's physical activity e.g. sitting, walking or driving. Most of this recognition is based on accelerometer data, though other sensors may be leveraged\ (e.g. compass). As a part of Google Play Services, activity recognition service is provided in Android \cite{android:activityrecognition}. Currently, the service is capable of detecting five different types of activities: 
+ \begin{itemize}
+  	\item a user is in vehicle.
+    \item a user is on bike.
+    \item a user is on foot.
+    \item a user is still.
+    \item a mobile phone is tilting.
+  \end{itemize}
+  
+The service delivers the list of activities with the probabilities of them taking place at the given moment. The functionality requires Internet connectivity to work, since it is a part of Google Play Services. Research community has also established algorithms for detecting other activities:
+
+ \begin{itemize}
+  	\item a user is taking elevator\ (differentiate on a direction) \cite{Wang:unsupervised}.
+    \item a user is taking stairs\ (differentiate on a direction) \cite{Wang:unsupervised}.
+    \item a user is on escalator \ (differentiate on a direction) \cite{Wang:unsupervised}.
+    \item a user is running \cite{miluzzo:cenceme}.
+    \item a different position of a phone\ (chest pocket and trousers pocket) \cite{kawahara:positions}.
+  \end{itemize}
+
+Activity recognition algorithms are still in its early days. Some studies propose different algorithms for recognizing the same activity\ (e.g., walking \cite{benabdesslem:senseless} \cite{rachuri:socialsense} \cite{Kwapisz2011} ). Furthermore, the implementation of the proposed algorithms arbitrarily selects different parameters: threshold values (e.g. if standard deviation is more than 30, then a user is walking) and window size (e.g. classify weather a user is moving over the period of two seconds). Lastly, the evaluation of the algorithms is usually made on the limited amount of devices with few users holding their phones in the limited amount of positions (e.g. trouser pocket). 
+
+Physical sensors may be leveraged for \textbf{navigation}. The traditional navigation systems may not always be sufficient: GPS is often inaccurate and does not work indoors, whereas Wi-Fi based localization requires an additional infrastructure. Accelerometer, compass and gyroscope may assist in navigation. Those sensors provide information on the speed of a user's movement\ (accelerometer) and its direction\ (compass and gyroscope). Beside leveraging activity recognition, most of inertial navigation systems also calibrates its current location with the traditional navigation systems e.g. GAC \cite{youssef:gac} uses pedestrian dead reckoning algorithm\ (compass and accelerometer data) for relative navigation, but leverages GPS to calibrate its current position. What is interesting, Constandache et al.\cite{constandache:localization} proposes a navigation system which does not rely on GPS nor Wi-Fi based localization. Instead it leverages electronic maps, which are equipped with additional information on how sensors readings should be changing while a user is walking along a path. For this purpose, direction information is used\ (compass and gyroscope). For example, a user may be localized to be on curved path if his compass' readings steadily change in the same direction. Additional information for maps may be generated and pre-fetched to mobile phone.
+
+Inertial navigation is further leveraged for \textbf{indoor localization}. UnLoc \cite{Wang:unsupervised} identifies certain locations basing on their sensors signatures. For example, the elevator has a specific accelerometer signature or computer lab may create characteristic magnetic field. Those landmarks with their fingerprints are learned in an unsupervised manned by the system and it enables to localize a user if he visits those places again. The similar idea has been previously applied in Wi-Fi based indoor localization in Park et al.\cite{park:organic}. The hybrid solution, which combines Wi-Fi and other sensors signatures with pedestrian dead reckoning has been also suggested in Radu et al.\cite{radu:hybrid}. Lastly, SurroundSense \cite{azizyan:surroundsense} leverages the ambient sound for localization purposes.
+
+Another idea to improve capabilities of phone sensing is to put higher quality sensors on a mobile phone. Google is currently working on Project Tango \cite{google:tango}, which adopts this idea. The prototype of that project can localize itself and build the map of the environment basing on mobile phone's high sensors and camera. 		
+		
+Although sensors provide much information, it is very difficult to extract meaningful information out of them. This raises many practical challenges for activity recognition\ (different algorithms for the same activity, their various parameters and their generality), which affects all phone sensing applications. Like reality mining \cite{eagle:realitymining}, those challenges may be addressed by comparing and evaluating algorithms against shared labelled data set of different activities conducted across various mobile phones with different phone's position. This has been been proposed before in Hossmann et al.\cite{hossmann:bigdatasets} and conducted to some extent in   Kwapisz et al. \cite{Kwapisz2011} (collecting the sensors data across 29 different users).
+		
+NOT:
+	Activity recognition may be leveraged for health monitoring. Apple is believed to provide HealthBook in its next version of iOs \cite{apple:healthbook}. HealthBook is health and fitness tracking application, which leverages sensor-based activity recognition.
+		
+NOT:
 		navigation usually done by GPS or Wireless communication\\
 		but uses more energy and is often not precise enough(for indoor localization)\\
 			(some reference to geofencing)\\
 			 what Google exactly does when specified minimum distance for GPS update\\
 			http://www.youtube.com/user/qualcommdev\\
-		so improve its accuracy/energy consumption by inertial navigation\\
-		Towards Mobile Phone Localization without War-Driving\cite{constandache:localization}\\
-		GAC: Energy efficient hybrid GPS-Accelerometer-Compass GSM location\\
-		Indoor\\
-			growing organic..\\
-			unLoc\\
-			stuff from Valentin Radu\\
-	
-	SLAM\\
-
-	Localization \\
-		SurroundSense \cite{azizyan:surroundsense}\\
-
-Hardware improvements\\
-	Samsung Galaxy 5 -> step counter, step detector\\
-	Project Tango - rich sensors, making many difficult tasks possible\cite{google:tango}\\
-		\url{http://www.youtube.com/watch?feature=player_embedded&v=Qe10ExwzCqk}
-CONCLUSIONS\\
-	progress?\\
-	Collect Big Data\\
-		was already proposed Hossmann et al.\cite{hossmann:bigdatasets}\\
-		something like Reality Mining \cite{eagle:realitymining}\\
 		
 \subsection{Energy measurement}
-\hspace{10pt} To improve the energy efficiency of phone sensing, an accurate method for measuring it needs to be established. This task is relatively easy for Nokia phones. Nokia Energy Profiler \cite{nokia:profiler}, an application delivered by Nokia,  accurately measures power consumption and is widely used by research community \cite{kjaergaard:entracked} \cite{lu:jigsaw} \cite{li:status}. However, Google does not provide an equivalent application for Android smartphones, which makes the task difficult.The first subsection reviews the methods for measuring power consumption available on Android, whereas the second subsection demonstrates their results.
+\hspace{10pt} To improve the energy efficiency of phone sensing, an accurate method for measuring it needs to be established. This task is relatively easy for Nokia phones. Nokia Energy Profiler \cite{nokia:profiler}, an application delivered by Nokia,  accurately measures power consumption and is widely used by research community \cite{kjaergaard:entracked} \cite{lu:jigsaw} \cite{li:status}. However, Google does not provide any equivalent application for Android smartphones, which makes the task difficult.The first subsection reviews the methods for measuring power consumption available on Android, whereas the second subsection demonstrates their results.
 
 \subsubsection{Energy measurement methods}
 
@@ -112,8 +119,17 @@ machine learning\\
 	SmartDC \cite{chon:smartdc}\\
 
 others\\
-	this checking IPC thing\\
+	this checking IPC thing \cite{hsieh:ipc} \\
 
 conclusions
 
 \subsection{Conclusions}
+-capabilities of phone sensing
+	identify the possible improvement, reiterate !
+-energy measurement:
+	methods 
+	results
+	identify the method which needs to be used for this
+		+ possible enhancement , reiterate!
+-energy efficient sensing
+	identify the possible improvement, reiterate!
