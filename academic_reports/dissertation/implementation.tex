@@ -1,6 +1,6 @@
 \section{Implementation}
 \label{s:implementation}
-\hspace{10pt} In this section, the implementations of the the software components and the experiments involved in the dissertation are discussed. The design presented in the previous section is revisited. The first subsection summarizes the problems occurred while comparing sensors' energy profiles. Those issues are grouped in two categories: software and hardware problems. That subsection also undertakes the analysis of the failed samples in the experiment. The second subsection presents the implementation details of the energy efficient sensing library, Sensy. [XXX keep going here on Sensy + rewrite next sentence]. As a result of the implementation process, the conclusions on energy-accuracy of phone sensing are derived and presented in the last subsection.
+\hspace{10pt} In this section, the implementations of the the software components and the experiments involved in the dissertation are discussed. The design presented in the previous section is revisited. The first subsection summarizes the problems occurred while comparing sensors' energy profiles. Those issues are grouped in two categories: software and hardware problems. That subsection also undertakes the analysis of the failed samples in the experiment. The second subsection presents the implementation details of the energy efficient sensing library, Locy. [XXX keep going here on Locy + rewrite next sentence]. As a result of the implementation process, the conclusions on energy-accuracy of phone sensing are derived and presented in the last subsection.
 
 \subsection{Sensor energy measurements}
 \hspace{10pt} The implementation of the experiments' design raises practical challenges. \textbf{Android operating system and its API affects the experiments' design}. A couple of software issues\ (IEEE802.11 scanning, Bluetooth Low Energy API and privacy policy for video capturing) is described later. Other problems for the implementation are a result of many devices involved in the experiments. \textbf{There are hardware differences between mobile phones},  which creates some difficulties. The specification of mobile phones involved in the experiments are presented in Table \ref{table:devices_differences}.
@@ -145,11 +145,11 @@ The energy measurement method was successfully applied for Google Nexus 7. It de
 
 All samples delivered by the energy measurement method belong to the small set of discrete values. Those values are further characterized by being a multiplication of some time interval. This observation is encapsulated in the energy efficiency levels, which will be leveraged for further analysis. 
 
-\subsection{Sensy}
+\subsection{Locy}
 android issues?
 \subsubsection{Moving detection}
 accuracy of algorithm across some trace
 \subsection{Conclusions}
 The implementation of sensor energy measurements indicated the crucial importance of software layer in energy efficiency. It was proven that some of Android design decisions result in fast battery depletion. Furthermore, the energy measurement method indicated characteristics of battery lifes. Invalid samples among devices were a result of different phenomenons\ (bursty errors and error-prone sensors). Similarly, the results of valid samples seem to have a pattern\ (energy efficiency levels), which will be leveraged in further analysis. Although the method is stable, it cannot be applied as online energy measurement tool. For older batteries, the method requires many samples, which makes it impractical.
 
-Sensy XXX...
+Locy XXX...

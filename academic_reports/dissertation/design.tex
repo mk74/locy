@@ -1,6 +1,6 @@
 \section{Design}
 \label{s:design}
-\hspace{10pt} This section describes the design of the software components and the experiments involved in the dissertation. The first subsection outlines how energy demands of different sensors are compared. This includes the design principles behind sample sensor applications and the details on how to measure their energy efficiency. The second subsection layouts the energy efficient sensing library, Sensy. [XXX keep going here on Sensy]. The design presented in this section will be revisited in the next section.
+\hspace{10pt} This section describes the design of the software components and the experiments involved in the dissertation. The first subsection outlines how energy demands of different sensors are compared. This includes the design principles behind sample sensor applications and the details on how to measure their energy efficiency. The second subsection layouts the energy efficient sensing library, Locy. [XXX keep going here on Locy]. The design presented in this section will be revisited in the next section.
 
 \subsection{Sensor energy measurements}
 \label{s:design:measurements}
@@ -74,13 +74,13 @@ All of those applications could be found in \textit{sensors\_energy\_measurement
 \end{table}			
 
 
-\subsection{Sensy}
-\label{s:design:sensy}
+\subsection{Locy}
+\label{s:design:locy}
 
 sensor substitution
 
 \subsubsection{Moving detection}
-\label{s:design:moving}
+\label{s:design:locy:moving}
 -total magnitude of accelerometer coordinates		graph before and after
 -sliding window \& standard deviation
 	-threshold			for one when moving and one where not moving
@@ -89,7 +89,7 @@ sensor substitution
 -address whether it is user dependent algorithm
 
 \subsubsection{Adaptive duty-cycling sampling}
-\label{s:design:sensy:adaptive}
+\label{s:design:locy:adaptive}
 duty-cycling
 		why?
 adaptive depending on battery life
