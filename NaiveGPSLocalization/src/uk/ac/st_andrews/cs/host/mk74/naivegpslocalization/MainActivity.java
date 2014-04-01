@@ -32,12 +32,19 @@ public class MainActivity extends Activity {
 				WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		setContentView(R.layout.activity_main);
 		
-		//print(screen & logcat) state of Navigator:
+		//print (screen & logcat) state of Navigator:
 		//current localization, whether WiFiNavigator is enabled and battery info(level + time difference)
 		TimerTask readValues = new TimerTask() {
 			@Override
 			public void run() {
-				final String output = "Location: " + gpsNavigator.getLocation()[0] + " "+ gpsNavigator.getLocation()[1] + " | " +
+				String locationInfo;
+				if(gpsNavigator.getLocation()!=null){
+					 locationInfo = "Location: " + gpsNavigator.getLocation().getLongitude() + " "+ 
+							 						gpsNavigator.getLocation().getLatitude();
+				}else{
+					 locationInfo = "Location: unknown";
+				}
+				final String output = locationInfo + " | " +
 								"GPSNavigator running:" +gpsNavigator.isRunning()+ "\n" +
 								batteryEvaluator.getInfo();
 				System.out.println(output);

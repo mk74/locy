@@ -19,20 +19,19 @@ public class GPSNavigator {
 	private LocationListener locListener;
 	private String locProvider;
 	private int minTime = 0, minDistance = 0;
-	private double[] location;
+	private Location location;
 	
 		
 	public GPSNavigator(Context context) {
 		
 		//create listener for gps location service
-		location = new double[]{(double) 0.0, (double) 0.0};
+		location = null;
 		locManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
 		class EmptyLocationListener implements LocationListener{
 			
 			@Override
 			public void onLocationChanged(Location loc) {
-				location[0] = loc.getLongitude();
-				location[1] = loc.getLatitude();
+				location = new Location(loc);
 			}
 
 			@Override
@@ -64,7 +63,7 @@ public class GPSNavigator {
 		return running;
 	}
 	
-	public double[] getLocation() {
+	public Location getLocation() {
 		return location;
 	}
 }

@@ -36,7 +36,7 @@ public class MainActivity extends Activity {
 				WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		setContentView(R.layout.activity_main);
 		
-		//print(screen & logcat) state of Navigator:
+		//print (screen & logcat) state of Navigator:
 		//current localization, whether WiFiNavigator is enabled and battery info(level + time difference)
 		TimerTask readValues = new TimerTask() {
 			@Override

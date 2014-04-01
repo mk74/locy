@@ -1,6 +1,7 @@
 package uk.ac.st_andrews.cs.host.mk74.locy;
 
 import android.content.Context;
+import android.location.Location;
 
 public class LocyNavigator {
 	public static int BATTERY_SIGNIFICANT_CHANGE = 20;
@@ -10,7 +11,7 @@ public class LocyNavigator {
 	private ActivityRecognition activityRecognition;
 	private boolean running = false;
 	private boolean inPlace = false;
-	private double[] location;
+	private Location location;
 	
 	public LocyNavigator(Context context) {
 		batteryProxy = new BatteryProxy(this, context);
@@ -53,7 +54,7 @@ public class LocyNavigator {
 		activityRecognition.setSleepingIntervalWeight(sleepingIntervalWeight);
 	}
 
-	public double[] getLocation() {
+	public Location getLocation() {
 		if(inPlace)
 			return location;
 		else
@@ -69,8 +70,14 @@ public class LocyNavigator {
 	}
 
 	public String getInfo() {
-		String output = "Location: " + getLocation()[0] + " " + getLocation()[1] + " | " +
-						"GPSNavigator running:" + gpsNavigator.isRunning()+ "\n";
+		String output;
+		if(getLocation()!=null){
+		 output = "Location: " + getLocation().getLongitude() + " " + getLocation().getLatitude();
+		}else{
+			output = "Location: unknown";
+		}
+						
+		output += " | GPSNavigator running:" + gpsNavigator.isRunning()+ "\n";
 		return output;
 	}
 
