@@ -58,7 +58,8 @@ public class LocyManager{
 			locationListeners.add(listener);
 			if(locationListeners.size() == 1){
 				locyNavigator.start();
-				locyNavigatorThread.start();
+				if ( locyNavigatorThread.getState() == Thread.State.NEW )
+					locyNavigatorThread.start();
 			}
 		}
 	}
