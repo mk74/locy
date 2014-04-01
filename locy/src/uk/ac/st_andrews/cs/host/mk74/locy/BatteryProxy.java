@@ -17,7 +17,7 @@ public class BatteryProxy {
 	IntentFilter batteryIntentFilter;
 	private BroadcastReceiver batteryBroadcastReceiver;
 	private Context context;
-	private int lastBatteryLevel = -1;
+	private int lastBatteryLevel;
 	
 	public BatteryProxy(final LocyNavigator locyNavigator, Context context) {
 		this.context = context;
