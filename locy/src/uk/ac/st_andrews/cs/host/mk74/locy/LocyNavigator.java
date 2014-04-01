@@ -4,6 +4,7 @@ import android.content.Context;
 
 public class LocyNavigator {
 
+	private BatteryProxy batteryProxy;
 	private GPSNavigator gpsNavigator;
 	private ActivityRecognition activityRecognition;
 	private boolean running = false;
@@ -11,10 +12,12 @@ public class LocyNavigator {
 	private double[] location;
 	
 	public LocyNavigator(Context context) {
+		batteryProxy = new BatteryProxy(this, context);
 		gpsNavigator = new GPSNavigator(context);
 		activityRecognition = new ActivityRecognition(this, context);
 	}
 
+	//starts the system (trigger gpsNavigatior + activityRecognition system + BatteryEvalutor)
 	public void start() {
 		gpsNavigator.start();
 		activityRecognition.start();
@@ -40,6 +43,11 @@ public class LocyNavigator {
 		if(gpsNavigator.isRunning())
 			gpsNavigator.stop();
 		inPlace = true;
+	}
+	
+	//if battery levels has significantly changed:
+	public void batteryChanged(int level) {
+		
 	}
 
 	public double[] getLocation() {
