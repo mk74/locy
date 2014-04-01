@@ -15,9 +15,12 @@ public class ActivityRecognition {
 	private LocyNavigator locyNavigator;
 	private AccelerometerDataClassifier accelerometerDataClasifier;
 	private boolean activityMoving = true;
+	private int sleepingIntervalWeight;
 	
-	public ActivityRecognition(LocyNavigator navigator, Context context) {
+	public ActivityRecognition(LocyNavigator navigator, Context context, int sleepingIntervalWeight) {
 		this.locyNavigator = navigator;
+		this.sleepingIntervalWeight = sleepingIntervalWeight;
+		
 		accelerometerDataClasifier = new AccelerometerDataClassifier();
 		mSensorManager = (SensorManager) context.getSystemService(Context.SENSOR_SERVICE);
 		mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
@@ -52,21 +55,6 @@ public class ActivityRecognition {
 			
 		};
 	}
-
-	public void sleepingInterval() {
-		new Thread(new Runnable() {
-	        public void run() {
-	        	stop();
-	        	try {
-					Thread.sleep(AccelerometerDataClassifier.WINDOW_N * AccelerometerDataClassifier.WINDOW_TIME_MILLISECS);
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
-	        	accelerometerDataClasifier.clear();
-	        	start();
-	        }
-		}).start();
-	}
 	
 	public void start() {
 		running = true;
@@ -83,6 +71,28 @@ public class ActivityRecognition {
 	}
 
 	public String getInfo() {
-		return "running: " + isRunning() + " | " + accelerometerDataClasifier.getInfo();
+		return "running: " + isRunning() + " | " + "sleepign interval weight: " + sleepingIntervalWeight + 
+				" | " + accelerometerDataClasifier.getInfo();
+	}
+
+	public void setSleepingIntervalWeight(int sleepingIntervalWeight) {
+		this.sleepingIntervalWeight = sleepingIntervalWeight;
+	}
+	
+	private void sleepingInterval() {
+		new Thread(new Runnable() {
+
+			public void run() {
+	        	stop();
+	        	try {
+	        		int samplingTime= AccelerometerDataClassifier.WINDOW_N * AccelerometerDataClassifier.WINDOW_TIME_MILLISECS;
+					Thread.sleep(samplingTime * sleepingIntervalWeight);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+	        	accelerometerDataClasifier.clear();
+	        	start();
+	        }
+		}).start();
 	}
 }

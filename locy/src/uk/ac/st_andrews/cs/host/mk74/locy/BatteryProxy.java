@@ -10,8 +10,6 @@ import android.os.BatteryManager;
 //Monitors battery's level
 //It notifies LocyNavigator if a battery level has changed significantly
 public class BatteryProxy {
-	private final static int SIGNIFICANT_CHANGE = 20;
-	
 	private boolean enabled = false;
 	
 	IntentFilter batteryIntentFilter;
@@ -34,7 +32,7 @@ public class BatteryProxy {
 			public void onReceive(Context context, Intent intent) {
 				int newBatteryLevel = intent.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
 				
-				if( Math.abs(newBatteryLevel - lastBatteryLevel) > SIGNIFICANT_CHANGE){
+				if( Math.abs(newBatteryLevel - lastBatteryLevel) > LocyNavigator.BATTERY_SIGNIFICANT_CHANGE){
 					locyNavigator.batteryChanged(newBatteryLevel);
 					lastBatteryLevel = newBatteryLevel;
 				}

@@ -3,7 +3,8 @@ package uk.ac.st_andrews.cs.host.mk74.locy;
 import android.content.Context;
 
 public class LocyNavigator {
-
+	public static int BATTERY_SIGNIFICANT_CHANGE = 20;
+	
 	private BatteryProxy batteryProxy;
 	private GPSNavigator gpsNavigator;
 	private ActivityRecognition activityRecognition;
@@ -14,7 +15,8 @@ public class LocyNavigator {
 	public LocyNavigator(Context context) {
 		batteryProxy = new BatteryProxy(this, context);
 		gpsNavigator = new GPSNavigator(context);
-		activityRecognition = new ActivityRecognition(this, context);
+		int sleepingIntervalWeight = calcSleepingIntervalWeight(batteryProxy.getLastBatteryLevel());
+		activityRecognition = new ActivityRecognition(this, context, sleepingIntervalWeight);
 	}
 
 	//starts the system (trigger gpsNavigatior + activityRecognition system + BatteryEvalutor)
@@ -46,8 +48,9 @@ public class LocyNavigator {
 	}
 	
 	//if battery levels has significantly changed:
-	public void batteryChanged(int level) {
-		
+	public void batteryChanged(int batteryLevel) {
+		int sleepingIntervalWeight = calcSleepingIntervalWeight(batteryLevel);
+		activityRecognition.setSleepingIntervalWeight(sleepingIntervalWeight);
 	}
 
 	public double[] getLocation() {
@@ -74,5 +77,12 @@ public class LocyNavigator {
 	public String getDebuggerInfo() {
 		String output = activityRecognition.getInfo();
 		return output;
+	}
+	
+	//formula for calculating sleeping time weight for activity recognition
+	//depending on current battery level
+	private int calcSleepingIntervalWeight(int batteryLevel) {
+		int sleepingIntervalWeight = (100/batteryLevel)/BATTERY_SIGNIFICANT_CHANGE + 1;
+		return sleepingIntervalWeight;
 	}
 }
