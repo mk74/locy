@@ -12,11 +12,11 @@ There are two groups of challenges in the implementation of the experiments' des
 	\centering
     \begin{tabular}{| l | c | c | c |}
     \hline
-      & Google Nexus 7 & HTC Flyer & HTC desire \\ \hline
-    Android version & 4.3 & 3.3 &  2.3.3\\ \hline
-  	CPU & Quad-core 1.2 GHz Cortex-A9 & 1.5 GHz Scorpion & 1 GHz Scorpion\\ \hline
-  	Internal Memory & 1 GB RAM & 1 GB RAM & 576 MB RAM\\ \hline
-    Battery & Li-Ion 4325 mAh & Li-Po 4000 mAh & Li-Ion 1400 mAh\\ \hline
+      & \textbf{Google Nexus 7} & \textbf{HTC Flyer} & \textbf{HTC desire}\TBstrut  \\ \hline  
+    Android & 4.3 & 3.3 &  2.3.3\TBstrut \\ \hline
+  	CPU & Quad-core 1.2 GHz Cortex-A9 & 1.5 GHz Scorpion & 1 GHz Scorpion\TBstrut \\ \hline
+  	Memory & 1 GB RAM & 1 GB RAM & 576 MB RAM\TBstrut \\ \hline
+    Battery & Li-Ion 4325 mAh & Li-Po 4000 mAh & Li-Ion 1400 mAh\TBstrut \\ \hline
     Camera & \checkmark & \checkmark & \checkmark \\ \hline
     Microphone & \checkmark & \checkmark & \checkmark \\\hline
     IEEE 802.11 & \checkmark & \checkmark & \checkmark \\ \hline
@@ -160,11 +160,14 @@ this section:
 
 	 
 
-\subsubsection{Moving detection}
-paragraph: accuracy of algorithm across some traces
-	table
-	
-anecdote about 30, and not being suitable for other devices.
+\subsubsection{Moving detection algorithm}
+\label{s:implementation:moving}
+\hspace{10pt} The Section \ref{s:design:locy:moving} described the moving detection algorithm. The parameters were chosen by the trial-and-error approach. R script and the data set used for the trial-and-error approach can be found in the \textit{machine\_learning/movement\_detection} directory. The data set was collected over two activities: standing in one activity for 150 seconds\ (\textit{inPlace.csv} file) and walking also for 150 seconds\ (\textit{moving.csv} file). For most of the former activity, a mobile phone was either put on a desk in front of a user or kept in his front trousers pocket. Although a user occasionally moved his mobile phone or manually unlock it, he did not move during the whole period\ (his geographical position did not change). During the walking activity, a user kept his mobile phone in trousers pocket or held his mobile phone in front of him while walking all the time. The accelerometer data was collected by a sample application which can be found in the \textit{helpers/SensorsDataProducer} directory.
+
+Once the parameters for the moving detection algorithm were established\ (the duration of sampling window equaled to 2.5 seconds and the threshold of movement classification equaled to 15). They were also tested on other mobile phones. Those parameters were tested online by using SensorsGraphPlotter application, which could be found in the \textit{helpers/SensorsGraphPlotter} directory. The application draws the graph of the total magnitude of accelerometer data over time\ (\plotref{sensorsgraphplotter}). It updates its graph live while time is passing.
+
+
+\plot{sensorsgraphplotter}
 
 \subsubsection{inLocy}
 what it is:
