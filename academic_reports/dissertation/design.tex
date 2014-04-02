@@ -88,19 +88,31 @@ There are three important features in the library, which require further explana
 
 \subsubsection{Moving detection algorithm}
 \label{s:design:locy:moving}
-\hspace{10pt}The moving detection algorithm is based on accelerometer sensor. The sensor provides the raw data describing the acceleration of a device in three dimensions\ (x, y, z relatively to the position of a device).  The data is difficult to analyze: the acceleration of a user may be split between the axes in different ways depending on the initial position of a mobile phone. While a user is walking, accelerometer data will be significantly different depending on where a user is keeping his mobile phone\ (horizontally in a purse or vertically in trousers pocket). To simplify the analysis, \textbf{the total magnitude} is applied over accelerometer data (XXX ref formula). This reduces the dimension of the data to one and still has the information on the acceleration of a user. 
+\hspace{10pt}The moving detection algorithm is based on accelerometer sensor. The sensor provides the raw data describing the acceleration of a device in three dimensions\ (x, y, z relatively to the position of a device).  The data is difficult to analyze: the acceleration of a user may be split between the axes in different ways depending on the initial position of a mobile phone. While a user is walking, accelerometer data will be significantly different depending on where a user is keeping his mobile phone\ (horizontally in a purse or vertically in trousers pocket). To simplify the analysis, \textbf{the total magnitude} is applied over accelerometer data\ (Equation \ref{e:total_magnitude}). This reduces the dimension of the data to one and still has the information on the acceleration of a user. 
 
-(XXX formula here)
+\begin{equation}\label{e:total_magnitude}
+total\;magnitude = x^2 + y^2 + z^2
+\end{equation}
 
-Once the total magnitude over accelerometer data is applied, the accelerometer readings of a user's walking and his staying in one place may be compared (XXX reference). A user's walking may be characterized by \textbf{the series of peaks}. A user makes a step by lifting up his foot and putting it back on the ground. His another foot moves in similar patterns. A peak on a graph corresponds to a user's step. If a user is in place, there are no peaks observed. 
+Once the total magnitude over accelerometer data is applied, the accelerometer readings of a user's walking and his staying in one place may be compared\ (the Figure \ref{p:moving:magnitude}). A user's walking may be characterized by \textbf{the series of peaks}. A user makes a step by lifting up his foot and putting it back on the ground. His another foot moves in similar patterns. A peak on a graph corresponds to a user's step. If a user is in place, there are no peaks observed. 
 
-(XXX graph a user is walking and not)
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.49\textwidth, scale=0.6]{plots/no_walking}
+\includegraphics[width=0.49\textwidth, scale=0.6]{plots/walking}
+\caption{\label{p:moving:magnitude} The difference in total magnitude over accelerometer data between walking and not walking. Walking may be characterized by the series of peaks. One peak corresponds to  a step made by a user.}
+\end{figure}
 
-For the purpose of Locy, the difference between walking and staying in one place needs to be formalized. While a user is walking, the series of peaks means the high variation of the accelerometer data, which can be expressed by \textbf{standard deviation}. The Figure [XXX ref graph] contrasts the standard deviation while a user is walking and not\ (a standard deviation was calculated over 2.5 seconds intervals). It can be noticed that the standard deviation is much bigger when a user is walking.
+For the purpose of Locy, the difference between walking and staying in one place needs to be formalized. While a user is walking, the series of peaks means the high variation of the accelerometer data, which can be expressed by \textbf{standard deviation}. The Figure \ref{p:moving:stddev} contrasts the standard deviation while a user is walking and not\ (a standard deviation was calculated over 2.5 seconds intervals). It can be noticed that the standard deviation is much bigger when a user is walking.
 
-(XXX graph a user is walking and not  - standard deviation)
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.49\textwidth, scale=0.6]{plots/stddev_no_walking}
+\includegraphics[width=0.49\textwidth, scale=0.6]{plots/stddev_walking}
+\caption{\label{p:moving:stddev} The difference in standard deviation over total magnitude of accelerometer data between walking and not walking. Walking is characterized by higher standard deviation. The threshold of 15 is chosen to classify a user's movement.}
+\end{figure}
 
-There are two challenges in this approach. First, the duration of sampling windows\ (the interval over which a standard deviation is calculated) needs to be chosen. The Figure (XXX ref graph] uses 2.5 seconds as the duration of sampling windows. Second, the threshold of standard deviation for the movement classification needs to be determined.  The Figure [XXX ref graph] defines the threshold as 15. Both of those parameters were determined in \textbf{trial-and-error} approach. Different values were chosen and evaluated against the small data set collected for the purpose of this project. The best accuracy was provided by the parameters used in Figure [XXX ref graph] i.e. 2.5 seconds for sampling windows and 15 as the threshold for movement classification. 
+There are two challenges in this approach. First, the duration of sampling windows\ (the interval over which a standard deviation is calculated) needs to be chosen. The Figure \ref{p:moving:stddev} uses 2.5 seconds as the duration of sampling windows. Second, the threshold of standard deviation for the movement classification needs to be determined. The Figure \ref{p:moving:stddev} defines the threshold as 15. Both of those parameters were determined in \textbf{trial-and-error} approach. Different values were chosen and evaluated against the small data set collected for the purpose of this project. The best accuracy was provided by the parameters used in the Figure \ref{p:moving:stddev} i.e. 2.5 seconds for sampling windows and 15 as the threshold for movement classification. 
 
 Locy provides the accurate movement detection by undertaking the classification over three consecutive sampling windows. It at least two of them indicates that a user is walking\ (the standard deviation is above the threshold), then a user activity is classified as walking. Three consecutive sampling windows last in total 7.5 seconds\ (the duration of the sampling window is 2.5 seconds). It is assumed that such a movement detection algorithm is accurate and should be universal i.e. it does not dependent on a type of mobile phone, its position or a user.
 

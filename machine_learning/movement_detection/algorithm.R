@@ -15,10 +15,10 @@ offset <- 10000
 #total magnitude
 plot(trainDataInPlace$Time -offset, trainDataInPlace$Value, type='l',
      xlim=c(0, 20000), ylim = c (0, 300),
-     xlab="Time [miliseconds]",ylab="Total acceleration magnitude")
+     xlab="Time [miliseconds]",ylab="Total magnitude")
 plot(trainDataMoving$Time - offset, trainDataMoving$Value, type='l',
      xlim=c(0, 20000), ylim = c(0,300),
-     xlab="Time [miliseconds]",ylab="Total acceleration magnitude")
+     xlab="Time [miliseconds]",ylab="Total magnitude")
 
 #helper function to calculate standard deviation over data
 calc_stddevs <-function(localdata){
