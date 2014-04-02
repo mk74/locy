@@ -82,40 +82,76 @@ All of those applications could be found in \textit{sensors\_energy\_measurement
 
 \subsection{Locy}
 \label{s:design:locy}
+\hspace{10pt}Locy is an energy-efficient sensing library for Android phones. It utilizes the idea of a relation between sensors to provide energy-efficient localization for mobile applications. The relation is between accelerometer and GPS sensors. The former sensor may be user to check whether a user is moving or not. If a user is not moving, his geographical location does not change\ (his GPS coordinates do not change). Therefore, GPS sampling may be switched off. This operation will bring energy savings, since GPS sampling has higher energy demands than accelerometer does. 
 
-Locy is an energy-efficient sensing library for Android phones. It utilizes the idea of a relation between sensors to provide energy-efficient localization for mobile applications. The relation is between accelerometer and GPS sensors. The former sensor may be user to check whether a user is moving or not. If a user is not moving, his geographical location does not change\ (his GPS coordinates do not change). Therefore, GPS sampling may be switched off. This operation will bring energy savings, since GPS sampling has higher energy demands than accelerometer does. 
-
-There are three important features in the library, which require further explanation. First, a moving detection algorithm needs to be carefully designed to accurately check whether a user is moving. Second, this algorithm needs to be energy-efficient itself. This goal is achieved by duty-cycling sampling and its dependent on the battery life of a device (XXX ref objective/requirement performance dependent on battery life). Lastly, the software infrastructure of the library needs to be further discussed. Since the library is aimed at being plugged to existing applications (XXX ref objective/requirement ESM ), its API needs to satisfy specific needs. 
+There are three important features in the library, which require further explanation. First, a moving detection algorithm needs to be carefully designed to accurately check whether a user is moving. Second, this algorithm needs to be energy-efficient itself. This goal is achieved by duty-cycling sampling and its dependent on the battery life of a device (XXX ref objective/requirement performance dependent on battery life). Lastly, the software infrastructure of the library needs to be further discussed. Since the library is aimed at being plugged to existing applications (XXX ref objective/requirement ESM), its API needs to satisfy specific needs. 
 
 \subsubsection{Moving detection algorithm}
 \label{s:design:locy:moving}
-The moving detection algorithm is based on accelerometer sensor. The sensor provides the raw data describing the acceleration of a device in three dimensions\ (x, y, z relatively to the position of a device).  The data is difficult to analyze: the acceleration of a user may be split between the axes in different ways depending on the initial position of a mobile phone. While a user is walking, accelerometer data will be significantly different depending on where a user is keeping his mobile phone\ (horizontally in a purse or vertically in trousers pocket). To simplify the analysis, \textbf{the total magnitude} is applied over accelerometer data [XXX ref formula]. This reduces the dimension of the data to one and still has the information on the acceleration of a user. 
+\hspace{10pt}The moving detection algorithm is based on accelerometer sensor. The sensor provides the raw data describing the acceleration of a device in three dimensions\ (x, y, z relatively to the position of a device).  The data is difficult to analyze: the acceleration of a user may be split between the axes in different ways depending on the initial position of a mobile phone. While a user is walking, accelerometer data will be significantly different depending on where a user is keeping his mobile phone\ (horizontally in a purse or vertically in trousers pocket). To simplify the analysis, \textbf{the total magnitude} is applied over accelerometer data (XXX ref formula). This reduces the dimension of the data to one and still has the information on the acceleration of a user. 
 
-[XXX formula here ]
+(XXX formula here)
 
-Once the total magnitude over accelerometer data is applied, the accelerometer readings of a user's walking and his staying in one place may be compared [XXX reference]. A user's walking may be characterized by \textbf{the series of peaks}. A user makes a step by lifting up his foot and putting it back on the ground. His another foot moves in similar patterns. A peak on a graph corresponds to a user's step. If a user is in place, there are no peaks observed. 
+Once the total magnitude over accelerometer data is applied, the accelerometer readings of a user's walking and his staying in one place may be compared (XXX reference). A user's walking may be characterized by \textbf{the series of peaks}. A user makes a step by lifting up his foot and putting it back on the ground. His another foot moves in similar patterns. A peak on a graph corresponds to a user's step. If a user is in place, there are no peaks observed. 
 
-[XXX graph aa user is walking and not]
+(XXX graph a user is walking and not)
 
 For the purpose of Locy, the difference between walking and staying in one place needs to be formalized. While a user is walking, the series of peaks means the high variation of the accelerometer data, which can be expressed by \textbf{standard deviation}. The Figure [XXX ref graph] contrasts the standard deviation while a user is walking and not\ (a standard deviation was calculated over 2.5 seconds intervals). It can be noticed that the standard deviation is much bigger when a user is walking.
 
-[XXX graph a user is walking and not  - standard deviation]
+(XXX graph a user is walking and not  - standard deviation)
 
-There are two challenges in this approach. First, the duration of sampling windows\ (the interval over which a standard deviation is calculated) needs to be chosen. The Figure [XXX ref graph] uses 2.5 seconds as the duration of sampling windows. Second, the threshold of standard deviation for the movement classification needs to be determined.  The Figure [XXX ref graph] defines the threshold as 15. Both of those parameters were determined in \textbf{trial-and-error} approach. Different values were chosen and evaluated against the small data set collected for the purpose of this project. The best accuracy was provided by the parameters used in Figure [XXX ref graph] i.e. 2.5 seconds for sampling windows and 15 as the threshold for movement classification. 
+There are two challenges in this approach. First, the duration of sampling windows\ (the interval over which a standard deviation is calculated) needs to be chosen. The Figure (XXX ref graph] uses 2.5 seconds as the duration of sampling windows. Second, the threshold of standard deviation for the movement classification needs to be determined.  The Figure [XXX ref graph] defines the threshold as 15. Both of those parameters were determined in \textbf{trial-and-error} approach. Different values were chosen and evaluated against the small data set collected for the purpose of this project. The best accuracy was provided by the parameters used in Figure [XXX ref graph] i.e. 2.5 seconds for sampling windows and 15 as the threshold for movement classification. 
 
-Locy provides the accurate movement detection by undertaking the classification over three consecutive sampling windows. It at least two of them indicates that a user is walking\ (the standard deviation is above the threshold), then a user activity is classified as walking. Three consecutive sampling windows last in total 7.5 seconds\ (the duration of the sampling window is 2.5 seconds ). It is assumed that such a movement detection algorithm is accurate and should be universal i.e. it does not dependent on a type of mobile phone, its position or a user.
+Locy provides the accurate movement detection by undertaking the classification over three consecutive sampling windows. It at least two of them indicates that a user is walking\ (the standard deviation is above the threshold), then a user activity is classified as walking. Three consecutive sampling windows last in total 7.5 seconds\ (the duration of the sampling window is 2.5 seconds). It is assumed that such a movement detection algorithm is accurate and should be universal i.e. it does not dependent on a type of mobile phone, its position or a user.
 
 \subsubsection{Adaptive duty-cycling sampling}
 \label{s:design:locy:adaptive}
-A user is not likely to change its activity\ (moving or not) every 8 seconds. This observation could be leveraged for energy optimization. Instead of continuous accelerometer sampling and the movement classification, the device could sleep for the certain period of time and conserve an energy. After this sleeping interval, the device could start sampling again. This approach is called \textbf{duty-cycling} and is incorporated in Locy. 
+\hspace{10pt}A user is not likely to change its activity\ (moving or not) every 8 seconds. This observation could be leveraged for energy optimization. Instead of continuous accelerometer sampling and the movement classification, the device could sleep for the certain period of time and conserve an energy. After this sleeping interval, the device could start sampling again. This approach is called \textbf{duty-cycling} and is incorporated in Locy. 
 
-Duty-cycling sampling may be customized by changing its \textbf{ratio between the duration of sampling windows and sleeping intervals}. For example, the ratio equaled to 0.5 means that the duration of sampling windows is twice smaller than the duration of sleeping intervals. There is a \textbf{energy-accuracy trade-off} in choosing the ratio. If the ratio is smaller, the important events are more likely to be missed as sampling windows are relatively shorter. On the other hand, smaller ratio leads to bigger energy optimization as the sleeping intervals are relatively longer. The trade-off is utilized by Locy, which changes its duty-cycling ratio depending on \textbf{the battery life} of a device. If the level of battery life is high, the duty-cycling ratio is also high. In that case, Locy does not miss any important events, but may not be the most energy-efficient. If the level of battery level decreases, Locy also decreases its duty-cycling ratio, which leads to additional energy savings. Such approach satisfies one of secondary objectives (XXX ref objective/req). The details on how the ratio changes are shown in the table (XXX ref table)\ (proportional change).
+Duty-cycling sampling may be customized by changing its \textbf{duty-cycling ratio} between the duration of sampling windows and sleeping intervals. For example, the ratio equaled to 0.5 means that the duration of sampling windows is twice smaller than the duration of sleeping intervals. There is a \textbf{energy-accuracy trade-off} in choosing the ratio. If the ratio is smaller, the important events are more likely to be missed as sampling windows are relatively shorter. On the other hand, smaller ratio leads to bigger energy optimization as the sleeping intervals are relatively longer. The trade-off is utilized by Locy, which changes its duty-cycling ratio depending on \textbf{the battery life} of a device. If the level of battery life is high, the duty-cycling ratio is also high. In that case, Locy does not miss any important events, but may not be the most energy-efficient. If the level of battery level decreases, Locy also decreases its duty-cycling ratio, which leads to additional energy savings. Such approach satisfies one of the project's secondary objectives (XXX ref objective/req). The details on how the ratio changes are presented in the Table \ref{table:locy:dutycyclingratio}.
 
-[XXX table Locy's levels]
+\begin{table}[H]
+	\centering
+    \begin{tabular}{| c | c | }
+    \hline
+    Battery life & Duty-cycling ratio \\ \hline
+    80-100\% & 1 \\ \hline
+    60-80\% & 0.5\\ \hline
+    40-60\% & 0.33\\ \hline
+    20-40\% & 0.25\\ \hline
+    0-20\% & 0.2 \\ \hline
+    \end{tabular}
+    \caption{The different duty-cycling ratios in Locy depending on the battery life of a device. Locy adopts its algorithm depending on a current battery life. }
+	\label{table:locy:dutycyclingratio}
+\end{table}	
 
-\subsection{Software architecture}
+\subsubsection{Software architecture}
 \label{s:design:locy:architecture}
-Locy is Android library project. It is intended to be plugged to the existing applications. Most of those applications use localization services in LocalizationManager provided by Android. Optimally, developers should not have much difficulties in replacing LocalizationManager with Locy. To achieve this aim, Locy API is consistent with LocalizationManager. A developer only needs to add Locy library to its existing project and change one line in his source code. Instead of LocalizationManager, LocyManager needs to be created [XXX ref one line change]. All other code should work without additional changes. This approach allowed to plug Locy in Tristan's Experience Sampling Method\ (ESM) mobile application with minimal effort, which was one of the primary objectives (XXX ref objective/requirement).
+\hspace{10pt}Locy is an Android library project, which is intended to be plugged into the existing applications. Most of those applications use localization services provided by Android's LocationManager. Developers wishing replacing LocalizationManager with Locy should not have much difficulties. Locy API is consistent with LocationManager API. A developer only needs to add Locy library to its existing project and change one line in his source code: instead of getting LocationManager\ (Listing\ref{ls:locationmanager}), LocyManager needs to be created\ (Listing \ref{ls:locymanager}). All other parts of the code should work perfectly without any additional changes. This approach was tested by plugging Locy in Tristan's Experience Sampling Method\ (ESM) mobile application. This primary objective (XXX ref objective/requirement) was achieved without any difficulties and its result may be viewed in the \textit{ESM/} directory.
 
-[XXX one line change]
+%\begin{tabular}{@{}p{\dimexpr0.4\linewidth-\tabcolsep}% can be up to 0.5\linewidth 
+%                | p{\dimexpr0.5\linewidth-\tabcolsep}@{}}
+                 
+\begin{lstlisting}[language=Java,
+       basicstyle=\ttfamily,
+       keywordstyle=\color{blue}\ttfamily,
+       stringstyle=\color{red}\ttfamily,
+       commentstyle=\color{green}\ttfamily,
+      breaklines=true,
+      frame=single,    
+      label=ls:locationmanager,caption=Localization services with LocationManager.]
+LocationManager locationManager =  (LocationManager) getSystemService(LOCATION_SERVICE);
+\end{lstlisting}
+%&
+\begin{lstlisting}[language=Java,
+       basicstyle=\ttfamily,
+       keywordstyle=\color{blue}\ttfamily,
+       stringstyle=\color{red}\ttfamily,
+       commentstyle=\color{green}\ttfamily,
+      breaklines=true,
+      frame=single,    
+      label=ls:locymanager,caption=Localization services with LocyManager.]
+LocyManager locationManager = new LocyManager(this);
+\end{lstlisting}
 
+%\end{tabular}
