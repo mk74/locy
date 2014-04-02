@@ -1,6 +1,8 @@
 \section{Design}
 \label{s:design}
-\hspace{10pt} This section describes the design of the software components and the experiments involved in the dissertation. The first subsection outlines how energy demands of different sensors are compared. This includes the design principles behind sample sensor applications and the details on how to measure their energy efficiency. The second subsection layouts the energy efficient sensing library, Locy. [XXX keep going here on Locy]. The design presented in this section will be revisited in the next section.
+\hspace{10pt} This section describes the design of the software components and the experiments involved in the dissertation. The first subsection outlines how energy demands of different sensors are compared. This includes the design principles behind sample sensor applications and the details on how to measure their energy efficiency. The second subsection layouts the energy efficient sensing library, Locy. [XXX keep going here on Locy]. 
+
+The design presented in this section will be revisited in the next section.
 
 \subsection{Sensor energy measurements}
 \label{s:design:measurements}
@@ -77,24 +79,50 @@ All of those applications could be found in \textit{sensors\_energy\_measurement
 \subsection{Locy}
 \label{s:design:locy}
 
-sensor substitution
+what: energy-efficient sensing library
+idea: leverages the relation between sensors: GPS and accelerometer
+		detecting movement (ref), if not moving then switch off GPS
+features summary -> requirements/objectives:
+	moving detection algorithm (ref)
+	energy efficiency usage of that algorithm + it depending on the battery life (ref)
+	library must have specific architecture to be plugged into ESM (ref)
 
-\subsubsection{Moving detection}
+\subsubsection{Moving detection algorithm}
 \label{s:design:locy:moving}
--total magnitude of accelerometer coordinates		graph before and after
--sliding window \& standard deviation
-	-threshold			for one when moving and one where not moving
--three sliding windows to make a decision
-
--address whether it is user dependent algorithm
+algorithm for movement detection:
+-simplification: total magnitude of accelerometer coordinates		
+-idea: peak when walking
+	-graph: walking and not walking
+-formalize: standard deviation
+-problem: threshold \& sliding window
+-solution:
+	-trial and error against different data sets
+	-2,5 seconds sliding window
+	-30 as a threshold
+		show: the same graph walking and not walking but standard deviation and threshold
+	-three sliding windows to make sure
+	-such algorithm should be universal
+		(not user dependent)
 
 \subsubsection{Adaptive duty-cycling sampling}
 \label{s:design:locy:adaptive}
-duty-cycling
-		why?
-adaptive depending on battery life
+what: duty-cycling
+	-instead of continuous 
+	-listen \& sleep -> conserve an energy
+reason: user's does not change its activity so often
+	but what ratio is sufficient?
+advancement:
+	dependent it on battery life
+	battery life low, sample less
+		show table
 
 \subsection{Software architecture}
-\label{s:design:locy:adaptive}
-library
+\label{s:design:locy:architecture}
+problem: plug to existed programs
+	don't want to force developers to change much things
+solution: looks like LocationManager provided by Android
+	one class is visible LoctManager which has LocationManagerAPI
+	effectively for ESM it requires changing one line:
+		show example
+	
 
