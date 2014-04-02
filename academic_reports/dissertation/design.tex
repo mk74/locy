@@ -112,7 +112,7 @@ For the purpose of Locy, the difference between walking and staying in one place
 \caption{\label{p:moving:stddev} The difference in standard deviation over total magnitude of accelerometer data between walking and not walking. Walking is characterized by higher standard deviation. The threshold of 15 is chosen to classify a user's movement.}
 \end{figure}
 
-There are two challenges in this approach. First, the duration of sampling windows\ (the interval over which a standard deviation is calculated) needs to be chosen. The Figure \ref{p:moving:stddev} uses 2.5 seconds as the duration of sampling windows. Second, the threshold of standard deviation for the movement classification needs to be determined. The Figure \ref{p:moving:stddev} defines the threshold as 15. Both of those parameters were determined in \textbf{trial-and-error} approach. Different values were chosen and evaluated against the small data set collected for the purpose of this project. The best accuracy was provided by the parameters used in the Figure \ref{p:moving:stddev} i.e. 2.5 seconds for sampling windows and 15 as the threshold for movement classification. 
+There are two challenges in this approach. First, the duration of sampling windows\ (the interval over which a standard deviation is calculated) needs to be chosen. The Figure \ref{p:moving:stddev} uses 2.5 seconds as the duration of sampling windows. Second, the threshold of standard deviation for the movement classification needs to be determined. The Figure \ref{p:moving:stddev} defines the threshold as 15. Both of those parameters were determined in a \textbf{trial-and-error} approach. Different values were chosen and evaluated against the small data set collected for the purpose of this project. The best accuracy was provided by the parameters used in the Figure \ref{p:moving:stddev} i.e. 2.5 seconds for sampling windows and 15 as the threshold for movement classification. R script and the data set used for the trial-and-error approach can be found in the \textit{machine\_learning/movement\_detection} directory. The data set was collected over two activities: standing in one activity for 150 seconds\ (\textit{inPlace.csv} file) and walking also for 150 seconds\ (\textit{moving.csv}). For most of the former activity, a mobile phone was either put on a desk in front of a user or kept in his front trousers pocket. Although a user occasionally moved his mobile phone or unlock manually his mobile phone, he did not move during the whole period. During the walking activity, a user kept his mobile phone in trousers pocket or held his mobile phone in front of him while walking all the time.
 
 Locy provides the accurate movement detection by undertaking the classification over three consecutive sampling windows. It at least two of them indicates that a user is walking\ (the standard deviation is above the threshold), then a user activity is classified as walking. Three consecutive sampling windows last in total 7.5 seconds\ (the duration of the sampling window is 2.5 seconds). It is assumed that such a movement detection algorithm is accurate and should be universal i.e. it does not dependent on a type of mobile phone, its position or a user.
 
@@ -141,8 +141,6 @@ Duty-cycling sampling may be customized by changing its \textbf{duty-cycling rat
 \label{s:design:locy:architecture}
 \hspace{10pt}Locy is an Android library project, which is intended to be plugged into the existing applications. Most of those applications use localization services provided by Android's LocationManager. Developers wishing replacing LocalizationManager with Locy should not have much difficulties. Locy API is consistent with LocationManager API. A developer only needs to add Locy library to its existing project and change one line in his source code: instead of getting LocationManager\ (Listing\ref{ls:locationmanager}), LocyManager needs to be created\ (Listing \ref{ls:locymanager}). All other parts of the code should work perfectly without any additional changes. This approach was tested by plugging Locy in Tristan's Experience Sampling Method\ (ESM) mobile application. This primary objective (XXX ref objective/requirement) was achieved without any difficulties and its result may be viewed in the \textit{ESM/} directory.
 
-%\begin{tabular}{@{}p{\dimexpr0.4\linewidth-\tabcolsep}% can be up to 0.5\linewidth 
-%                | p{\dimexpr0.5\linewidth-\tabcolsep}@{}}
                  
 \begin{lstlisting}[language=Java,
        basicstyle=\ttfamily,
@@ -154,7 +152,7 @@ Duty-cycling sampling may be customized by changing its \textbf{duty-cycling rat
       label=ls:locationmanager,caption=Localization services with LocationManager.]
 LocationManager locationManager =  (LocationManager) getSystemService(LOCATION_SERVICE);
 \end{lstlisting}
-%&
+
 \begin{lstlisting}[language=Java,
        basicstyle=\ttfamily,
        keywordstyle=\color{blue}\ttfamily,
@@ -166,4 +164,3 @@ LocationManager locationManager =  (LocationManager) getSystemService(LOCATION_S
 LocyManager locationManager = new LocyManager(this);
 \end{lstlisting}
 
-%\end{tabular}
