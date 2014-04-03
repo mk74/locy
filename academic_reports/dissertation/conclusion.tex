@@ -1,11 +1,20 @@
 \section{Conclusions}
 \label{s:conc}
-XXX here on context survey conlusions \\
+Context survey conclusions \\
+	-critically reviewed three most important areas for the project:
+		-phone sensing, energy measurement methods(results), energy-efficient sensing
+	-in each of them the possible enhancement was identified
+	-(big data set, hybrid approached to energy-efficient phone sensing)
+	-most importantly, the energy method was chosen suitable for the research
+		-plus the improvement over it
 
 Sensor Energy measurement's method:\\
 	-design novel way of investigating energy efficiency\\
 	-checked it in practice, identify its problems\\
 	-the method is validated since the results are compared with other research\\
+	-specific characteristics of the batteries:
+		-wrong samples
+		-energy efficiency levels
 	-cons:\\
 		-the method is instable for older batteries \\
 			-and thus cannot be used as online measurement, as it is not practical (too many samples )\\
@@ -25,11 +34,26 @@ Sensor Energy measurement's results:\\
 	-those results are used to design the energy-efficient algorithms for the library:\\
 		-sensor substitution as cheaper sensor may be leveraged to replace heavy-duty sensors\\
 	
-Locy, the energy-efficient sensing library:\\
-
-
-
-
-
+Locy, the energy-efficient sensing library the design:\\
+	-leverage sensors
+		-moving detection algorithm
+			-standard deviation, three windows
+	-duty-cycling in order sensing to be more energy-efficient
+		-differentiate it depending on battery level
+	-easily plugged to exsisting applications
+		behave as Android APi, requires just one single line change
+		example ESM.
+	
+Locy, the evaluation: \\
+	compare against baseline implementation
+	two scenarios, three different devices
+	Locy is more energy-efficient
+	should convince a reader that it is worth incorporating
 
 Future work as well\\
+	extensions of the library:
+		inLocy
+		Library as a service could be compared
+		+ evaluation
+	other idea for optimization:
+		leveraging the history for sensing
