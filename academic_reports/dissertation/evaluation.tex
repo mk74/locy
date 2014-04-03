@@ -1,7 +1,7 @@
 \section{Evaluation and critical appraisal}
 \label{s:evaluation}
 
-\hspace{10pt} This section mainly focuses on the analysis of energy efficiency of the components described in this dissertation. In the first subsection, the sensor energy measurements' results are evaluated. Basing on those results, I reach general conclusion and also inspect the sensors used for localization in more details.  In the second subsection, the energy efficiency of Locy is investigated. [XXX go on Locy].
+\hspace{10pt} This section mainly focuses on the analysis of energy efficiency of the components described in this dissertation. In the first subsection, the sensor energy measurements' results are evaluated. Basing on those results, I reach general conclusion and also inspect the sensors used for localization in more details. In the second subsection, the energy efficiency of Locy is investigated. [XXX go on Locy].
 
 \subsection{Sensor energy measurements}
 
@@ -43,16 +43,33 @@ Accelerometer is more energy efficient than traditional localization sensors. Op
 The energy measurement method does not provide the details on the nature of energy consumption. It is unknown which exact operations consume the most energy during sensing. For example, significant part of energy may be consumed by CPU which needs to be active while sensing accelerometer \cite{priyantha:littlerock}. As those characteristics are not recognized, it cannot be reason how energy efficient the applications with combined sensors\ (IEEE 802.11 scanning and accelerometer) will be. Also, it is unfamiliar how energy efficiency of physical sensors will change depending on their parameters\ (size of sleeping and sampling windows).
 						
 \subsection{Locy}
--Three different scenarios
--results across three different mobile phones
+-two different scenarios of user movement 
+-compared against baseline implementation
+	-naive GPS
+	-found in the directory..
+-compared on three different devices
+-each single case sampled three times !
 
+-first scenario: a user sitting in one place whole time
+	-outdoor in front of the John Honey building
+-the results are in \plotref{locy_eval_inplace}
+-Locy performs better for each mobile phone
+-why:
+	movement detection algorithm is triggered and GPS is switched off all the time
 \plot{locy_eval_inplace}
 
+-second scenario: walk for half a time and stand in one place for half a time 
+	-outdoor along jack cole building + stopped just in front of john honey building
+-the results are in \plotref{locy_eval_other}
+-Locy performs better (but not so good like inPlace) or equally good
+-why:
+	-movement detection algorithm is triggered and switches off GPS after half of the time
+	-but through the first phase GPS and accelerometer is being sampled while other application only GPS	
 \plot{locy_eval_other}
 
 \subsection{Conclusions}
-The energy measurement method delivered the complete set of accurate energy efficiency results, and thus, the method was validated. The results were gathered across three different mobile phones and include all sensors. It is believed that it is first study of this type. 
+The energy measurement method delivered the complete set of accurate energy efficiency results, and thus, the method was validated. The results were gathered across three different mobile phones and include all sensors. It is believed that it is the first study of this type. 
 
 Physical sensors could be leveraged for localization purposes. The energy efficiency results gave a basis for how an energy-efficient library could be designed. The energy measurement method provided useful information and identified the challenges for Locy. The energy efficiency of combined sensors and different energy efficiency of physical sensors depending on their parameters needed to be checked. 
 
-Those challenges were met by Sensy. XXX...
+Those challenges were met by Locy. The energy-efficient sensing library was evaluated against naive GPS  implementation in two real life scenarios. While a user is staying in one place, Locy is more energy-efficient on three different devices. While a user is walking for half of the time and staying in one place for the rest, Locy outperforms naive GPS implementation. However, the difference is not as significant as in the first scenario.
