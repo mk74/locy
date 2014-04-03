@@ -150,7 +150,7 @@ The energy measurement method was successfully applied for Google Nexus 7. It de
 All samples delivered by the energy measurement method belong to the small set of discrete values. Those values are further characterized by being a multiplication of some time interval. This observation is encapsulated in the energy efficiency levels, which will be leveraged for further analysis. 
 
 \subsection{Locy}
-There were no significant challenges occurred while implementing the primary requirements of the energy-efficient library, Locy. The parameters of the moving detection algorithm were established using the trial-and-error approach. The methodology and sample applications which were used require further explanation. Furthermore, inLocy was proposed. It  is the variation of Locy which uses Wi-Fi based localization instead of GPS. Lastly, Locy was prototyped to work as a service. Such an approach significantly increased the energy consumption of Locy, and therefore, was not introduced. The final version of the library is available in the \texit{locy/} directory. 
+There were no significant challenges occurred while implementing the primary requirements of the energy-efficient library, Locy. The parameters of the moving detection algorithm were established using the trial-and-error approach. The methodology and sample applications which were used require further explanation. Furthermore, inLocy was proposed. It  is the variation of Locy which uses Wi-Fi based localization instead of GPS. Lastly, Locy was prototyped to work as a service. Such an approach significantly increased the energy consumption of Locy, and therefore, was not introduced. The final version of the library is available in the \textit{locy/} directory. 
 
 [XXX look too much like introduction]
 
@@ -163,9 +163,12 @@ Once the parameters for the moving detection algorithm were established\ (the du
 \plot{sensorsgraphplotter}
 
 \subsubsection{inLocy}
-inLocy is a variation of Locy, which services Wi-Fi based localization. Unlike Locy, there was no ready localization system available for testing. For the purpose of inLocy, a simple Wi-Fi based localization system was mocked. The mock system receives the results of IEEE 802.11 scanning made by a device. It checks whether the results contain a specific BSSID\ (i.e. \textit{9C:4E:20:C8:9E:71} - one of the access points available in Josh Honey Building). If so, a user is localized as being in the Josh Honey building. The mock system is available to inLocy under \url{http://mk74.host.cs.st-andrews.ac.uk/locy/location.php}. The source of the system is available in the \texit{inLocyBackend/} directory. inLocy itself uses the same movement detection algorithm as Locy and its source code is available in \texit{inLocy/} directory. However, inLocy is only prototype, and thus, it serves as a single application and it also does not leverage duty-cycling for its purposes. 
+inLocy is a variation of Locy, which services Wi-Fi based localization. Unlike Locy, there was no ready localization system available for testing. For the purpose of inLocy, a simple Wi-Fi based localization system was mocked. The mock system receives the results of IEEE 802.11 scanning made by a device. It checks whether the results contain a specific BSSID\ (i.e. \textit{9C:4E:20:C8:9E:71} - one of the access points available in Josh Honey Building). If so, a user is localized as being in the Josh Honey building. The mock system is available to inLocy under \url{http://mk74.host.cs.st-andrews.ac.uk/locy/location.php}. The source of the system is available in the \textit{inLocyBackend/} directory. inLocy itself uses the same movement detection algorithm as Locy and its source code is available in \textit{inLocy/} directory. However, inLocy is only prototype, and thus, it serves as a single application and it also does not leverage duty-cycling for its purposes. 
 
 \subsubsection{Library as a service}
+One of the primary requirements was to 
+There was a prototype of Locy working as a separate service. The 
+
 why: address the objective...
 what: put the library as a service, shared states across many application
 problem: energy measurement results	
