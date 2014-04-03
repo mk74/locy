@@ -150,9 +150,7 @@ The energy measurement method was successfully applied for Google Nexus 7. It de
 All samples delivered by the energy measurement method belong to the small set of discrete values. Those values are further characterized by being a multiplication of some time interval. This observation is encapsulated in the energy efficiency levels, which will be leveraged for further analysis. 
 
 \subsection{Locy}
-There were no significant challenges occurred while implementing the primary requirements of the energy-efficient library, Locy. The parameters of the moving detection algorithm were established using the trial-and-error approach. The methodology and sample applications which were used require further explanation. Furthermore, inLocy was proposed. It  is the variation of Locy which uses Wi-Fi based localization instead of GPS. Lastly, Locy was prototyped to work as a service. Such an approach significantly increased the energy consumption of Locy, and therefore, was not introduced. The final version of the library is available in the \textit{locy/} directory. 
-
-[XXX look too much like introduction]
+There were no significant challenges occurred while implementing the primary requirements of the energy-efficient library, Locy. The parameters of the moving detection algorithm were established using the trial-and-error approach. Two sample applications were used to achieve it. Furthermore, inLocy was proposed as the extension of Locy. It also leverages moving detection for Wi-Fi based localization. Lastly, a prototype was implemented as a separate service. This approach may be leveraged to handle mobile applications contention. However, it also increases energy demands, and thus, it was not incorporated in Locy. The final version of the library is available in the \textit{locy/} directory. 
 
 \subsubsection{Moving detection algorithm}
 \label{s:implementation:moving}
