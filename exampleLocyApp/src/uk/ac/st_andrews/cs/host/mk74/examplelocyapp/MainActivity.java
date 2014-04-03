@@ -1,33 +1,70 @@
 package uk.ac.st_andrews.cs.host.mk74.examplelocyapp;
 
 import java.util.Timer;
-
 import java.util.TimerTask;
 
-import uk.ac.st_andrews.cs.host.mk74.locy.LocyNavigator;
+import uk.ac.st_andrews.cs.host.mk74.locy.LocyNavigatorApi;
 
 import android.app.Activity;
+import android.content.ComponentName;
+import android.content.Intent;
+import android.content.ServiceConnection;
 import android.os.Bundle;
+import android.os.IBinder;
+import android.os.RemoteException;
+import android.util.Log;
 import android.view.Menu;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
+	protected static final String TAG = "Examplelocyapp";
+	
 	public static boolean EXPERIMENT_ON = true;
 	public static double SCREEN_UDPATE_FREQUENCY = 3.0; // 3.0 - experiment, 0.5 - debugging
 
 	BatteryEvaluator batteryEvaluator;
-	LocyNavigator locyNavigator;
+//	LocyNavigator locyNavigator;
 	
+	private LocyNavigatorApi api;
+	
+	private ServiceConnection serviceConnection = new ServiceConnection() {
+		  @Override
+		  public void onServiceConnected(ComponentName name, IBinder service) {
+		    Log.i(TAG, "Service connection established");
+		 
+		    // that's how we get the client side of the IPC connection
+		    api = LocyNavigatorApi.Stub.asInterface(service);
+		    try {
+		    	api.start();
+		    } catch (RemoteException e) {
+		      Log.e(TAG, "Failed to start service", e);
+		    }
+		     
+		  }
+		 
+		  @Override
+		  public void onServiceDisconnected(ComponentName name) {
+		    Log.i(TAG, "Service connection closed");      
+		  }
+		};
+		
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
+		//declare api + start LocyNavigator
+		String intentName = "uk.ac.st_andrews.cs.host.mk74.locy.LocyNavigatorService";
+		Intent intent = new Intent(intentName);
+		startService(intent);
+	    bindService(intent, serviceConnection, 0);
+	      
+		
 		//set up components: WiFiNavigator and BatteryEvaluator	
-		locyNavigator = new LocyNavigator(getApplicationContext());
+//		locyNavigator = new LocyNavigator(getApplicationContext());
 		batteryEvaluator = new BatteryEvaluator(getApplicationContext());
-		locyNavigator.start();
+//		locyNavigator.start();
 		batteryEvaluator.enable();
 		
 		//prepare screen/layout
@@ -41,9 +78,21 @@ public class MainActivity extends Activity {
 		TimerTask readValues = new TimerTask() {
 			@Override
 			public void run() {
-				String locyInfo = locyNavigator.getInfo();
+//				String locyInfo = locyNavigator.getInfo();
+				String locyInfo = "";
+				try {
+					locyInfo += api.getInfo();
+				} catch (RemoteException e) {
+					e.printStackTrace();
+				}
+				
 				if(!EXPERIMENT_ON){
-					locyInfo += locyNavigator.getDebuggerInfo();
+//					locyInfo += locyNavigator.getDebuggerInfo();
+					try {
+						locyInfo += api.getDebuggerInfo();
+					} catch (RemoteException e) {
+						e.printStackTrace();
+					}
 				}
 				final String output = locyInfo + batteryEvaluator.getInfo();
 				System.out.println(output);
