@@ -1,0 +1,477 @@
+--------- beginning of /dev/log/main
+04-04 15:47:55.840 D/AndroidRuntime( 4393): 
+04-04 15:47:55.840 D/AndroidRuntime( 4393): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+04-04 15:47:55.840 D/AndroidRuntime( 4393): CheckJNI is OFF
+04-04 15:47:55.850 D/dalvikvm( 4393): Trying to load lib libjavacore.so 0x0
+04-04 15:47:55.850 D/dalvikvm( 4393): Added shared lib libjavacore.so 0x0
+04-04 15:47:55.860 D/dalvikvm( 4393): Trying to load lib libnativehelper.so 0x0
+04-04 15:47:55.860 D/dalvikvm( 4393): Added shared lib libnativehelper.so 0x0
+04-04 15:47:55.980 D/AndroidRuntime( 4393): Calling main entry com.android.commands.pm.Pm
+--------- beginning of /dev/log/system
+04-04 15:47:55.990 I/ActivityManager(  520): No longer want com.android.vending (pid 1281): empty for 1824s
+04-04 15:47:55.990 I/ActivityManager(  520): No longer want com.google.android.gms (pid 791): empty for 1838s
+04-04 15:47:55.990 I/ActivityManager(  520): No longer want com.google.android.googlequicksearchbox (pid 1319): empty for 1838s
+04-04 15:47:55.990 I/ActivityManager(  520): No longer want com.android.musicfx (pid 1614): empty for 1838s
+04-04 15:47:56.000 I/ActivityManager(  520): No longer want com.google.android.talk (pid 1706): empty for 1838s
+04-04 15:47:56.000 I/ActivityManager(  520): No longer want android.process.acore (pid 824): empty for 1838s
+04-04 15:47:56.000 I/ActivityManager(  520): No longer want com.google.android.partnersetup (pid 1188): empty for 1839s
+04-04 15:47:56.000 I/ActivityManager(  520): No longer want com.android.keychain (pid 1598): empty for 1839s
+04-04 15:47:56.030 W/ActivityManager(  520): Scheduling restart of crashed service com.android.vending/com.google.android.finsky.services.DailyHygiene in 5000ms
+04-04 15:47:56.030 W/ActivityManager(  520): No content provider found for permission revoke: file:///data/local/tmp/NaiveGPSLocalization.apk
+04-04 15:47:56.040 I/ActivityManager(  520): Start proc com.android.vending for broadcast com.android.vending/com.google.android.vending.verifier.PackageVerificationReceiver: pid=4408 uid=10049 gids={50049, 3003, 1015, 1028}
+04-04 15:47:56.120 D/Finsky  ( 4408): [1] FinskyApp.onCreate: Initializing network with DFE https://android.clients.google.com/fdfe/
+04-04 15:47:56.151 D/Finsky  ( 4408): [1] DailyHygiene.goMakeHygieneIfDirty: Dirty, need more hygiene.
+04-04 15:47:56.161 D/dalvikvm( 4408): GC_CONCURRENT freed 311K, 4% free 9061K/9412K, paused 3ms+3ms, total 22ms
+04-04 15:47:56.181 W/Settings( 4408): Setting download_manager_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+04-04 15:47:56.181 W/Settings( 4408): Setting download_manager_recommended_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+04-04 15:47:56.191 W/Finsky  ( 4408): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+04-04 15:47:56.191 W/Finsky  ( 4408): [1] FinskyApp.getDfeApi: No account configured on this device.
+04-04 15:47:56.191 D/Finsky  ( 4408): [1] PackageVerificationReceiver.checkPrerequisites: Skipping verification because network inactive
+04-04 15:47:56.201 D/Finsky  ( 4408): [1] PackageVerificationReceiver.checkPrerequisites: Skipping verification because network inactive
+04-04 15:47:56.201 W/ActivityManager(  520): No content provider found for permission revoke: file:///data/local/tmp/NaiveGPSLocalization.apk
+04-04 15:47:56.201 I/PackageManager(  520): Copying native libraries to /data/app-lib/vmdl479822515
+04-04 15:47:56.201 W/PackageManager(  520): Invalid verification token 2 received
+04-04 15:47:56.221 D/Finsky  ( 4408): [1] GmsCoreHelper.cleanupNlp: result=false type=4
+04-04 15:47:56.271 D/dalvikvm(  520): GC_CONCURRENT freed 1710K, 18% free 15933K/19264K, paused 2ms+7ms, total 61ms
+04-04 15:47:56.271 D/dalvikvm(  520): WAIT_FOR_CONCURRENT_GC blocked 26ms
+04-04 15:47:56.291 I/ActivityManager(  520): Force stopping package uk.ac.st_andrews.cs.host.mk74.naivegpslocalization appid=10101 user=-1
+04-04 15:47:56.411 I/PackageManager(  520): Running dexopt on: uk.ac.st_andrews.cs.host.mk74.naivegpslocalization
+04-04 15:47:56.411 I/PackageManager(  520): Package uk.ac.st_andrews.cs.host.mk74.naivegpslocalization codePath changed from /data/app/uk.ac.st_andrews.cs.host.mk74.naivegpslocalization-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.naivegpslocalization-1.apk; Retaining data and using new
+04-04 15:47:56.691 D/dalvikvm( 4440): DexOpt: load 47ms, verify+opt 171ms, 1004052 bytes
+04-04 15:47:56.741 I/ActivityManager(  520): Force stopping package uk.ac.st_andrews.cs.host.mk74.naivegpslocalization appid=10101 user=-1
+04-04 15:47:56.741 W/PackageManager(  520): Code path for pkg : uk.ac.st_andrews.cs.host.mk74.naivegpslocalization changing from /data/app/uk.ac.st_andrews.cs.host.mk74.naivegpslocalization-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.naivegpslocalization-1.apk
+04-04 15:47:56.741 W/PackageManager(  520): Resource path for pkg : uk.ac.st_andrews.cs.host.mk74.naivegpslocalization changing from /data/app/uk.ac.st_andrews.cs.host.mk74.naivegpslocalization-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.naivegpslocalization-1.apk
+04-04 15:47:56.881 I/ActivityManager(  520): Force stopping package uk.ac.st_andrews.cs.host.mk74.naivegpslocalization appid=10101 user=0
+04-04 15:47:56.901 I/InputReader(  520): Reconfiguring input devices.  changes=0x00000010
+04-04 15:47:56.911 I/ActivityManager(  520): Start proc android.process.acore for broadcast com.android.providers.contacts/.PackageIntentReceiver: pid=4441 uid=10000 gids={50000, 3003, 1015, 1028}
+04-04 15:47:56.911 W/ActivityManager(  520): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization flg=0x8000010 (has extras) }: user 10 is stopped
+04-04 15:47:56.961 I/InputReader(  520): Reconfiguring input devices.  changes=0x00000010
+04-04 15:47:56.961 W/ActivityManager(  520): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization flg=0x8000010 (has extras) }: user 10 is stopped
+04-04 15:47:56.961 W/ActivityManager(  520): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization flg=0x8000010 (has extras) }: user 10 is stopped
+04-04 15:47:56.961 W/ActivityManager(  520): Skipping broadcast of Intent { act=android.intent.action.MY_PACKAGE_REPLACED flg=0x8000010 pkg=uk.ac.st_andrews.cs.host.mk74.naivegpslocalization (has extras) }: user 10 is stopped
+04-04 15:47:57.001 D/BackupManagerService(  520): Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization flg=0x8000010 (has extras) }
+04-04 15:47:57.011 D/BackupManagerService(  520): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization flg=0x8000010 (has extras) }
+04-04 15:47:57.011 V/BackupManagerService(  520): removePackageParticipantsLocked: uid=10101 #1
+04-04 15:47:57.021 V/BackupManagerService(  520): addPackageParticipantsLocked: #1
+04-04 15:47:57.041 D/dalvikvm( 4441): GC_CONCURRENT freed 214K, 3% free 9112K/9364K, paused 1ms+1ms, total 16ms
+04-04 15:47:57.061 D/dalvikvm(  520): GC_EXPLICIT freed 1234K, 18% free 15978K/19264K, paused 7ms+8ms, total 94ms
+04-04 15:47:57.061 D/AndroidRuntime( 4393): Shutting down VM
+04-04 15:47:57.061 D/jdwp    ( 4393): Got wake-up signal, bailing out of select
+04-04 15:47:57.061 D/dalvikvm( 4393): Debugger has detached; object registry had 1 entries
+04-04 15:47:57.081 I/ActivityManager(  520): Start proc com.android.keychain for broadcast com.android.keychain/.KeyChainBroadcastReceiver: pid=4466 uid=1000 gids={41000, 1015, 1028, 3002, 3001, 3003, 3007}
+04-04 15:47:57.101 W/ContextImpl( 4466): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1385 android.content.ContextWrapper.startService:473 android.content.ContextWrapper.startService:473 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2424 
+04-04 15:47:57.121 I/ActivityManager(  520): Start proc com.android.musicfx for broadcast com.android.musicfx/.Compatibility$Receiver: pid=4479 uid=10042 gids={50042, 3003, 3002, 1028}
+04-04 15:47:57.131 I/ContactLocale( 4441): AddressBook Labels [en_US]: [, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, , А, Б, В, Г, Д, Е, Є, Ж, З, И, І, Ї, Й, К, Л, М, Н, О, П, Р, С, Т, У, Ф, Х, Ц, Ч, Ш, Щ, Ю, Я, , א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, , ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, , ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, , ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, , あ, か, さ, た, な, は, ま, や, ら, わ, #, ]
+04-04 15:47:57.162 I/ActivityManager(  520): Start proc com.google.android.gms for broadcast com.google.android.gms/.games.receiver.GamesSystemBroadcastReceiver: pid=4494 uid=10021 gids={50021, 3003, 1007, 1028, 1015, 1006, 2001, 3006}
+04-04 15:47:57.242 I/ActivityManager(  520): Start proc com.google.android.googlequicksearchbox for broadcast com.google.android.googlequicksearchbox/com.google.android.apps.sidekick.GmmLocationProviderImpl$GmmPackageWatcher: pid=4515 uid=10057 gids={50057, 3003, 1028, 3002, 1015}
+04-04 15:47:57.282 D/dalvikvm( 4494): GC_CONCURRENT freed 289K, 4% free 9022K/9344K, paused 3ms+5ms, total 37ms
+04-04 15:47:57.312 I/ActivityManager(  520): Start proc com.google.android.partnersetup for content provider com.google.android.partnersetup/.RlzAppProvider: pid=4548 uid=10026 gids={50026, 3003, 1028}
+04-04 15:47:57.322 D/dalvikvm( 4494): No JNI_OnLoad found in /system/lib/libAppDataSearch.so 0x41dbf540, skipping init
+04-04 15:47:57.332 D/Icing   ( 4494): Init last flush num docs 63 last docstore size 17408
+04-04 15:47:57.332 D/Icing   ( 4494): Docid map file has data, scanning...
+04-04 15:47:57.332 D/Icing   ( 4494): Scanning /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.docids found 65 documents, last docstore location 17664
+04-04 15:47:57.332 D/Icing   ( 4494): File /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.perdocdata contains 65 records of size 6
+04-04 15:47:57.332 D/Icing   ( 4494): Corpus scoring data inited successfully num corpora 1
+04-04 15:47:57.332 D/Icing   ( 4494): Init docstore ok num docs 65 bytes 17920
+04-04 15:47:57.332 D/dalvikvm(  178): GC_EXPLICIT freed 40K, 1% free 8863K/8940K, paused 1ms+2ms, total 18ms
+04-04 15:47:57.342 V/Icing   ( 4494): Lite index crc computed in 0.488ms
+04-04 15:47:57.342 V/Icing   ( 4494): Lite index init ok in 2.625ms
+04-04 15:47:57.342 D/Icing   ( 4494): Lite index recovered docid (62, 64]
+04-04 15:47:57.342 V/Icing   ( 4494): Warming lite-index took 0.031ms
+04-04 15:47:57.342 V/Icing   ( 4494): Warming lexicon took 0.000ms
+04-04 15:47:57.342 V/Icing   ( 4494): Warming display mappings took 0.000ms
+04-04 15:47:57.342 D/Icing   ( 4494): Init index ok num docs 65
+04-04 15:47:57.342 D/Icing   ( 4494): Init done
+04-04 15:47:57.352 D/dalvikvm(  178): GC_EXPLICIT freed <1K, 1% free 8863K/8940K, paused 1ms+2ms, total 16ms
+04-04 15:47:57.362 D/dalvikvm(  178): GC_EXPLICIT freed <1K, 1% free 8863K/8940K, paused 2ms+2ms, total 16ms
+04-04 15:47:57.372 D/dalvikvm( 4515): GC_CONCURRENT freed 248K, 4% free 9097K/9384K, paused 5ms+2ms, total 32ms
+04-04 15:47:57.372 W/GAV2    ( 4515): Thread[main,5,main]: Need to call initialize() and be in fallback mode to start dispatch.
+04-04 15:47:57.412 I/Icing   ( 4494): 0 corpora need re-polling
+04-04 15:47:57.462 D/dalvikvm( 4494): GC_CONCURRENT freed 295K, 4% free 9116K/9448K, paused 2ms+1ms, total 14ms
+04-04 15:47:57.462 I/PeopleDatabaseHelper( 4494): cleanUpNonGplusAccounts done.
+04-04 15:47:57.502 I/ActivityManager(  520): Start proc com.google.android.talk for broadcast com.google.android.talk/com.google.android.apps.babel.phone.PackageReplacedReceiver: pid=4591 uid=10030 gids={50030, 3003, 1015, 1006, 3002, 1028}
+04-04 15:47:57.562 D/dalvikvm( 4515): GC_CONCURRENT freed 237K, 3% free 9259K/9536K, paused 1ms+1ms, total 17ms
+04-04 15:47:57.562 W/Settings( 4591): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+04-04 15:47:57.572 D/dalvikvm( 4591): GC_CONCURRENT freed 320K, 4% free 9055K/9412K, paused 6ms+1ms, total 22ms
+04-04 15:47:57.572 D/dalvikvm( 4591): WAIT_FOR_CONCURRENT_GC blocked 8ms
+04-04 15:47:57.572 D/dalvikvm( 4591): WAIT_FOR_CONCURRENT_GC blocked 7ms
+04-04 15:47:57.572 D/dalvikvm( 4591): WAIT_FOR_CONCURRENT_GC blocked 8ms
+04-04 15:47:57.582 D/AndroidRuntime( 4565): 
+04-04 15:47:57.582 D/AndroidRuntime( 4565): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+04-04 15:47:57.582 D/AndroidRuntime( 4565): CheckJNI is OFF
+04-04 15:47:57.592 D/dalvikvm( 4565): Trying to load lib libjavacore.so 0x0
+04-04 15:47:57.592 D/dalvikvm( 4565): Added shared lib libjavacore.so 0x0
+04-04 15:47:57.602 D/dalvikvm( 4565): Trying to load lib libnativehelper.so 0x0
+04-04 15:47:57.602 D/dalvikvm( 4565): Added shared lib libnativehelper.so 0x0
+04-04 15:47:57.642 W/GAV2    ( 4515): Thread[Thread-174,5,main]: dispatch call queued.  Need to call GAServiceManager.getInstance().initialize().
+04-04 15:47:57.662 I/Recovery( 4494): Received: Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.recovery.AccountRecoveryBackgroundService$Receiver }
+04-04 15:47:57.672 I/GCoreUlr(  713): Ensuring that reporting is stopped because of reasons: (no Google accounts)
+04-04 15:47:57.682 I/ActivityManager(  520): Start proc com.google.android.gsf.login for service com.google.android.gms/.recovery.AccountRecoveryBackgroundService: pid=4648 uid=10021 gids={50021, 3003, 1007, 1028, 1015, 1006, 2001, 3006}
+04-04 15:47:57.682 D/GCoreFlp(  713): Unknown pending intent to remove.
+04-04 15:47:57.682 I/GCoreUlr(  713): Unbound from all location providers
+04-04 15:47:57.692 D/GCM     (  813): GcmService start Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.gcm.GcmService } com.google.android.gms.INITIALIZE
+04-04 15:47:57.722 D/AndroidRuntime( 4565): Calling main entry com.android.commands.am.Am
+04-04 15:47:57.722 D/dalvikvm( 4565): Note: class Landroid/app/ActivityManagerNative; has 163 unimplemented (abstract) methods
+04-04 15:47:57.732 I/Recovery( 4494): Received: Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.recovery.AccountRecoveryBackgroundService$Receiver }
+04-04 15:47:57.732 I/ActivityManager(  520): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.st_andrews.cs.host.mk74.naivegpslocalization/.MainActivity} from pid 4565
+04-04 15:47:57.812 D/dalvikvm(  520): GC_FOR_ALLOC freed 670K, 14% free 16602K/19264K, paused 62ms, total 62ms
+04-04 15:47:57.872 D/dalvikvm(  520): GC_FOR_ALLOC freed 1122K, 17% free 16043K/19264K, paused 60ms, total 60ms
+04-04 15:47:57.872 D/AndroidRuntime( 4565): Shutting down VM
+04-04 15:47:57.872 D/jdwp    ( 4565): Got wake-up signal, bailing out of select
+04-04 15:47:57.872 D/dalvikvm( 4565): Debugger has detached; object registry had 1 entries
+04-04 15:47:57.892 D/dalvikvm( 4671): Late-enabling CheckJNI
+04-04 15:47:57.902 I/ActivityManager(  520): Start proc uk.ac.st_andrews.cs.host.mk74.naivegpslocalization for activity uk.ac.st_andrews.cs.host.mk74.naivegpslocalization/.MainActivity: pid=4671 uid=10101 gids={50101, 1028}
+04-04 15:47:57.902 D/GCM     (  813): GcmService start Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.gcm.GcmService } com.google.android.gms.INITIALIZE
+04-04 15:47:57.912 E/jdwp    ( 4671): Failed sending reply to debugger: Broken pipe
+04-04 15:47:57.912 D/dalvikvm( 4671): Debugger has detached; object registry had 1 entries
+04-04 15:47:57.962 D/dalvikvm( 4494): GC_CONCURRENT freed 302K, 4% free 9213K/9552K, paused 6ms+5ms, total 26ms
+04-04 15:47:58.012 D/libEGL  ( 4671): loaded /system/lib/egl/libEGL_adreno200.so
+04-04 15:47:58.012 D/libEGL  ( 4671): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+04-04 15:47:58.012 D/libEGL  ( 4671): loaded /system/lib/egl/libGLESv2_adreno200.so
+04-04 15:47:58.012 I/Adreno200-EGL( 4671): <qeglDrvAPI_eglInitialize:265>: EGL 1.4 QUALCOMM Build: Iabe52cfaeae4c5fab1acacfe6f056ba15fa93274
+04-04 15:47:58.032 D/dalvikvm(  813): GC_EXPLICIT freed 210K, 5% free 9411K/9820K, paused 1ms+3ms, total 28ms
+04-04 15:47:58.042 D/dalvikvm( 4441): GC_CONCURRENT freed 180K, 3% free 9383K/9604K, paused 2ms+1ms, total 15ms
+04-04 15:47:58.052 D/OpenGLRenderer( 4671): Enabling debug mode 0
+04-04 15:47:58.142 I/ActivityManager(  520): Displayed uk.ac.st_andrews.cs.host.mk74.naivegpslocalization/.MainActivity: +253ms
+04-04 15:47:58.183 D/dalvikvm( 4591): GC_CONCURRENT freed 389K, 5% free 9061K/9488K, paused 1ms+1ms, total 13ms
+04-04 15:47:58.723 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:47:58.723 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:47:58.733 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:47:58.733 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:47:58.743 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:47:58.743 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:47:58.763 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:47:58.763 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:47:58.783 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:47:58.783 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:47:58.803 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:47:58.803 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:48:00.965 I/System.out( 4671): Location: unknown | GPSNavigator running:true
+04-04 15:48:00.965 I/System.out( 4671): Battery level: 100 | Time difference: -1
+04-04 15:48:02.377 W/GAV2    ( 4515): Thread[GAThread,5,main]: Service unavailable (code=1), will retry.
+04-04 15:48:02.377 I/GAV2    ( 4515): Thread[GAThread,5,main]: No campaign data found.
+04-04 15:48:02.377 W/ActivityManager(  520): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+04-04 15:48:03.448 D/dalvikvm( 4671): Debugger has detached; object registry had 1 entries
+04-04 15:48:03.488 D/dalvikvm( 3737): Debugger has detached; object registry had 1 entries
+04-04 15:48:03.528 I/System.out( 4671): Battery level start is reached
+04-04 15:48:03.528 D/PicasaSyncManager( 1569): battery info: false
+04-04 15:48:03.548 D/PicasaUploaderSyncManager( 1819): battery info: false
+04-04 15:48:03.558 D/dalvikvm( 1819): GC_CONCURRENT freed 289K, 4% free 8965K/9292K, paused 6ms+1ms, total 23ms
+04-04 15:48:03.968 I/System.out( 4671): Location: unknown | GPSNavigator running:true
+04-04 15:48:03.968 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:06.971 I/System.out( 4671): Location: unknown | GPSNavigator running:true
+04-04 15:48:06.971 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:07.381 W/GAV2    ( 4515): Thread[Service Reconnect,5,main]: Service unavailable (code=1), using local store.
+04-04 15:48:07.381 W/ActivityManager(  520): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+04-04 15:48:09.964 I/System.out( 4671): Location: unknown | GPSNavigator running:true
+04-04 15:48:09.964 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:12.496 D/dalvikvm( 4408): GC_CONCURRENT freed 204K, 3% free 9265K/9508K, paused 3ms+3ms, total 27ms
+04-04 15:48:12.587 D/Finsky  ( 4408): [1] 5.onFinished: Installation state replication succeeded.
+04-04 15:48:12.967 I/System.out( 4671): Location: unknown | GPSNavigator running:true
+04-04 15:48:12.967 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:15.970 I/System.out( 4671): Location: unknown | GPSNavigator running:true
+04-04 15:48:15.970 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:18.983 I/System.out( 4671): Location: unknown | GPSNavigator running:true
+04-04 15:48:18.983 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:21.976 I/System.out( 4671): Location: unknown | GPSNavigator running:true
+04-04 15:48:21.976 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:24.979 I/System.out( 4671): Location: unknown | GPSNavigator running:true
+04-04 15:48:24.979 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:27.982 I/System.out( 4671): Location: unknown | GPSNavigator running:true
+04-04 15:48:27.982 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:30.985 I/System.out( 4671): Location: unknown | GPSNavigator running:true
+04-04 15:48:30.985 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:33.987 I/System.out( 4671): Location: unknown | GPSNavigator running:true
+04-04 15:48:33.987 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:36.990 I/System.out( 4671): Location: unknown | GPSNavigator running:true
+04-04 15:48:36.990 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:39.983 I/System.out( 4671): Location: -2.80901569 56.33997231 | GPSNavigator running:true
+04-04 15:48:39.983 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:42.996 I/System.out( 4671): Location: -2.80904111 56.33997762 | GPSNavigator running:true
+04-04 15:48:42.996 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:45.999 I/System.out( 4671): Location: -2.80896032 56.33998708 | GPSNavigator running:true
+04-04 15:48:45.999 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:49.002 I/System.out( 4671): Location: -2.80889017 56.34001634 | GPSNavigator running:true
+04-04 15:48:49.002 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:52.005 I/System.out( 4671): Location: -2.8088224 56.34003878 | GPSNavigator running:true
+04-04 15:48:52.005 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:54.998 I/System.out( 4671): Location: -2.80877716 56.34004106 | GPSNavigator running:true
+04-04 15:48:54.998 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:48:58.001 I/System.out( 4671): Location: -2.80873077 56.34006014 | GPSNavigator running:true
+04-04 15:48:58.001 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:01.004 I/System.out( 4671): Location: -2.8086831 56.34008251 | GPSNavigator running:true
+04-04 15:49:01.004 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:03.997 I/System.out( 4671): Location: -2.80863447 56.34010018 | GPSNavigator running:true
+04-04 15:49:03.997 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:07.000 I/System.out( 4671): Location: -2.80859358 56.34011943 | GPSNavigator running:true
+04-04 15:49:07.010 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:07.911 D/dalvikvm(  713): GC_CONCURRENT freed 391K, 9% free 9916K/10832K, paused 5ms+2ms, total 65ms
+04-04 15:49:10.003 I/System.out( 4671): Location: -2.80854111 56.34014255 | GPSNavigator running:true
+04-04 15:49:10.003 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:13.005 I/System.out( 4671): Location: -2.8084864 56.34016433 | GPSNavigator running:true
+04-04 15:49:13.005 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:16.008 I/System.out( 4671): Location: -2.80843502 56.34018628 | GPSNavigator running:true
+04-04 15:49:16.008 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:19.011 I/System.out( 4671): Location: -2.80838852 56.34019501 | GPSNavigator running:true
+04-04 15:49:19.011 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:22.004 I/System.out( 4671): Location: -2.80834777 56.34020665 | GPSNavigator running:true
+04-04 15:49:22.004 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:25.017 I/System.out( 4671): Location: -2.80832539 56.34019956 | GPSNavigator running:true
+04-04 15:49:25.017 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:28.010 I/System.out( 4671): Location: -2.8083406 56.34017685 | GPSNavigator running:true
+04-04 15:49:28.010 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:28.220 I/rmt_storage(  185): rmt_storage_rw_iovec_cb: /boot/modem_fs2: clnt_h=0x2: req_h=0x13 msg_id=3: R/W request received
+04-04 15:49:28.220 I/rmt_storage(  185): wakelock acquired: 1, error no: 110
+04-04 15:49:28.220 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 Unblock worker thread (th_id: -1202649792)
+04-04 15:49:28.250 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0x13 msg_id=3: Bytes written = 261632
+04-04 15:49:28.260 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0x13 msg_id=3: Bytes written = 512
+04-04 15:49:28.260 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0x13 msg_id=3: Send response: res=0 err=0
+04-04 15:49:28.260 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 About to block rmt_storage client thread (th_id: -1202649792) wakelock released: 1, error no: 0
+04-04 15:49:28.260 I/rmt_storage(  185): 
+04-04 15:49:31.013 I/System.out( 4671): Location: -2.80837537 56.34016135 | GPSNavigator running:true
+04-04 15:49:31.013 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:34.016 I/System.out( 4671): Location: -2.80843436 56.34012718 | GPSNavigator running:true
+04-04 15:49:34.016 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:37.019 I/System.out( 4671): Location: -2.80848536 56.3401061 | GPSNavigator running:true
+04-04 15:49:37.019 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:40.022 I/System.out( 4671): Location: -2.80853234 56.34009245 | GPSNavigator running:true
+04-04 15:49:40.032 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:43.025 I/System.out( 4671): Location: -2.80858156 56.34008067 | GPSNavigator running:true
+04-04 15:49:43.025 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:46.028 I/System.out( 4671): Location: -2.80863574 56.34007015 | GPSNavigator running:true
+04-04 15:49:46.028 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:49.031 I/System.out( 4671): Location: -2.80869787 56.34005735 | GPSNavigator running:true
+04-04 15:49:49.031 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:52.034 I/System.out( 4671): Location: -2.80876221 56.34004453 | GPSNavigator running:true
+04-04 15:49:52.034 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:55.037 I/System.out( 4671): Location: -2.80882522 56.34002609 | GPSNavigator running:true
+04-04 15:49:55.037 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:49:58.039 I/System.out( 4671): Location: -2.80888775 56.34000618 | GPSNavigator running:true
+04-04 15:49:58.039 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:00.121 D/dalvikvm(  520): GC_CONCURRENT freed 1705K, 15% free 16025K/18704K, paused 31ms+5ms, total 112ms
+04-04 15:50:01.042 I/System.out( 4671): Location: -2.80895354 56.33998454 | GPSNavigator running:true
+04-04 15:50:01.042 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:04.025 I/System.out( 4671): Location: -2.80902517 56.33996357 | GPSNavigator running:true
+04-04 15:50:04.035 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:07.038 I/System.out( 4671): Location: -2.80908812 56.33994837 | GPSNavigator running:true
+04-04 15:50:07.038 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:10.041 I/System.out( 4671): Location: -2.80909328 56.33994876 | GPSNavigator running:true
+04-04 15:50:10.041 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:13.044 I/System.out( 4671): Location: -2.80903402 56.339971 | GPSNavigator running:true
+04-04 15:50:13.044 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:14.906 D/dalvikvm( 4671): GC_CONCURRENT freed 194K, 3% free 9055K/9288K, paused 2ms+3ms, total 39ms
+04-04 15:50:16.037 I/System.out( 4671): Location: -2.80897224 56.33998637 | GPSNavigator running:true
+04-04 15:50:16.037 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:19.040 I/System.out( 4671): Location: -2.80902841 56.33995881 | GPSNavigator running:true
+04-04 15:50:19.040 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:19.951 D/dalvikvm(  713): GC_CONCURRENT freed 367K, 9% free 9933K/10832K, paused 4ms+2ms, total 63ms
+04-04 15:50:22.043 I/System.out( 4671): Location: -2.80908933 56.33995163 | GPSNavigator running:true
+04-04 15:50:22.043 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:25.046 I/System.out( 4671): Location: -2.80910655 56.3399506 | GPSNavigator running:true
+04-04 15:50:25.046 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:28.049 I/System.out( 4671): Location: -2.80911306 56.3399458 | GPSNavigator running:true
+04-04 15:50:28.049 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:31.052 I/System.out( 4671): Location: -2.80911301 56.33994165 | GPSNavigator running:true
+04-04 15:50:31.052 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:34.045 I/System.out( 4671): Location: -2.80910706 56.33994007 | GPSNavigator running:true
+04-04 15:50:34.045 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:37.058 I/System.out( 4671): Location: -2.80910303 56.33993931 | GPSNavigator running:true
+04-04 15:50:37.058 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:40.060 I/System.out( 4671): Location: -2.80910098 56.33993944 | GPSNavigator running:true
+04-04 15:50:40.060 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:43.063 I/System.out( 4671): Location: -2.80909974 56.33994 | GPSNavigator running:true
+04-04 15:50:43.063 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:46.066 I/System.out( 4671): Location: -2.80909944 56.33994073 | GPSNavigator running:true
+04-04 15:50:46.066 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:49.059 I/System.out( 4671): Location: -2.80909942 56.33994146 | GPSNavigator running:true
+04-04 15:50:49.059 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:52.062 I/System.out( 4671): Location: -2.80909934 56.33994189 | GPSNavigator running:true
+04-04 15:50:52.062 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:55.065 I/System.out( 4671): Location: -2.80909913 56.33994209 | GPSNavigator running:true
+04-04 15:50:55.065 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:50:57.938 W/System.err(  713): java.net.UnknownHostException: Unable to resolve host "www.google.com": No address associated with hostname
+04-04 15:50:57.938 W/System.err(  713): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:424)
+04-04 15:50:57.938 W/System.err(  713): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:236)
+04-04 15:50:57.938 W/System.err(  713): 	at java.net.InetAddress.getAllByName(InetAddress.java:214)
+04-04 15:50:57.938 W/System.err(  713): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+04-04 15:50:57.938 W/System.err(  713): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+04-04 15:50:57.948 W/System.err(  713): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+04-04 15:50:57.948 W/System.err(  713): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+04-04 15:50:57.948 W/System.err(  713): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+04-04 15:50:57.948 W/System.err(  713): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+04-04 15:50:57.948 W/System.err(  713): 	at android.net.http.AndroidHttpClient.execute(AndroidHttpClient.java:257)
+04-04 15:50:57.948 W/System.err(  713): 	at le.a(SourceFile:202)
+04-04 15:50:57.948 W/System.err(  713): 	at le.execute(SourceFile:244)
+04-04 15:50:57.948 W/System.err(  713): 	at le.execute(SourceFile:312)
+04-04 15:50:57.968 W/System.err(  713): 	at dxo.g(SourceFile:126)
+04-04 15:50:57.968 W/System.err(  713): 	at dxo.c(SourceFile:172)
+04-04 15:50:57.968 W/System.err(  713): 	at eaa.run(SourceFile:418)
+04-04 15:50:57.968 W/System.err(  713): 	at dzz.b(SourceFile:224)
+04-04 15:50:57.968 W/System.err(  713): 	at dzz.run(SourceFile:198)
+04-04 15:50:57.968 W/System.err(  713): 	at dxw.run(SourceFile:96)
+04-04 15:50:57.968 W/System.err(  713): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+04-04 15:50:57.968 W/System.err(  713): 	at libcore.io.Posix.getaddrinfo(Native Method)
+04-04 15:50:57.968 W/System.err(  713): 	at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:61)
+04-04 15:50:57.968 W/System.err(  713): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:405)
+04-04 15:50:57.978 W/System.err(  713): 	... 18 more
+04-04 15:50:58.068 I/System.out( 4671): Location: -2.809099 56.33994219 | GPSNavigator running:true
+04-04 15:50:58.068 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:01.071 I/System.out( 4671): Location: -2.80909892 56.33994227 | GPSNavigator running:true
+04-04 15:51:01.071 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:04.074 I/System.out( 4671): Location: -2.80909882 56.33994232 | GPSNavigator running:true
+04-04 15:51:04.074 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:07.067 I/System.out( 4671): Location: -2.80909869 56.3399423 | GPSNavigator running:true
+04-04 15:51:07.067 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:10.070 I/System.out( 4671): Location: -2.80909851 56.33994226 | GPSNavigator running:true
+04-04 15:51:10.070 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:10.971 D/dalvikvm(  713): GC_CONCURRENT freed 377K, 9% free 9942K/10832K, paused 4ms+2ms, total 93ms
+04-04 15:51:13.073 I/System.out( 4671): Location: -2.80909833 56.33994225 | GPSNavigator running:true
+04-04 15:51:13.073 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:16.066 I/System.out( 4671): Location: -2.8090982 56.33994227 | GPSNavigator running:true
+04-04 15:51:16.076 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:19.078 I/System.out( 4671): Location: -2.80909809 56.33994227 | GPSNavigator running:true
+04-04 15:51:19.078 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:22.081 I/System.out( 4671): Location: -2.80909799 56.33994227 | GPSNavigator running:true
+04-04 15:51:22.081 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:25.084 I/System.out( 4671): Location: -2.80909796 56.3399423 | GPSNavigator running:true
+04-04 15:51:25.084 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:28.087 I/System.out( 4671): Location: -2.80909797 56.33994239 | GPSNavigator running:true
+04-04 15:51:28.087 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:31.090 I/System.out( 4671): Location: -2.80909796 56.33994245 | GPSNavigator running:true
+04-04 15:51:31.090 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:34.093 I/System.out( 4671): Location: -2.80909793 56.3399425 | GPSNavigator running:true
+04-04 15:51:34.093 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:34.734 I/rmt_storage(  185): rmt_storage_rw_iovec_cb: /boot/modem_fs1: clnt_h=0x1: req_h=0x14 msg_id=3: R/W request received
+04-04 15:51:34.734 I/rmt_storage(  185): wakelock acquired: 1, error no: 110
+04-04 15:51:34.734 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1 Unblock worker thread (th_id: -1202650640)
+04-04 15:51:34.764 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1: req_h=0x14 msg_id=3: Bytes written = 261632
+04-04 15:51:34.764 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1: req_h=0x14 msg_id=3: Bytes written = 512
+04-04 15:51:34.764 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1: req_h=0x14 msg_id=3: Send response: res=0 err=0
+04-04 15:51:34.764 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1 About to block rmt_storage client thread (th_id: -1202650640) wakelock released: 1, error no: 0
+04-04 15:51:34.764 I/rmt_storage(  185): 
+04-04 15:51:37.086 I/System.out( 4671): Location: -2.80909794 56.33994258 | GPSNavigator running:true
+04-04 15:51:37.096 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:40.089 I/System.out( 4671): Location: -2.80909785 56.33994275 | GPSNavigator running:true
+04-04 15:51:40.099 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:43.102 I/System.out( 4671): Location: -2.80909766 56.33994295 | GPSNavigator running:true
+04-04 15:51:43.102 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:46.095 I/System.out( 4671): Location: -2.80909741 56.33994302 | GPSNavigator running:true
+04-04 15:51:46.095 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:49.098 I/System.out( 4671): Location: -2.80909717 56.33994303 | GPSNavigator running:true
+04-04 15:51:49.098 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:52.101 I/System.out( 4671): Location: -2.80909698 56.33994303 | GPSNavigator running:true
+04-04 15:51:52.101 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:55.104 I/System.out( 4671): Location: -2.80909684 56.33994306 | GPSNavigator running:true
+04-04 15:51:55.104 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:51:58.107 I/System.out( 4671): Location: -2.80909671 56.33994307 | GPSNavigator running:true
+04-04 15:51:58.107 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:52:01.110 I/System.out( 4671): Location: -2.80909662 56.33994307 | GPSNavigator running:true
+04-04 15:52:01.110 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:52:04.112 I/System.out( 4671): Location: -2.80909654 56.33994307 | GPSNavigator running:true
+04-04 15:52:04.112 I/System.out( 4671): Battery level: 99 | Time difference: -1
+04-04 15:52:06.064 I/System.out( 4671): Battery level end is reached
+04-04 15:52:07.115 I/System.out( 4671): Location: -2.80909641 56.33994315 | GPSNavigator running:true
+04-04 15:52:07.115 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:52:10.108 I/System.out( 4671): Location: -2.80909621 56.3399433 | GPSNavigator running:true
+04-04 15:52:10.108 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:52:13.111 I/System.out( 4671): Location: -2.80909606 56.33994337 | GPSNavigator running:true
+04-04 15:52:13.111 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:52:16.114 I/System.out( 4671): Location: -2.80909599 56.33994334 | GPSNavigator running:true
+04-04 15:52:16.114 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:52:19.117 I/System.out( 4671): Location: -2.80909592 56.33994331 | GPSNavigator running:true
+04-04 15:52:19.117 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:52:22.120 I/System.out( 4671): Location: -2.80909584 56.33994328 | GPSNavigator running:true
+04-04 15:52:22.120 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:52:24.903 D/dalvikvm(  713): GC_CONCURRENT freed 392K, 9% free 9935K/10828K, paused 5ms+2ms, total 44ms
+04-04 15:52:25.123 I/System.out( 4671): Location: -2.80909578 56.33994325 | GPSNavigator running:true
+04-04 15:52:25.123 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:52:28.116 I/System.out( 4671): Location: -2.80909568 56.33994323 | GPSNavigator running:true
+04-04 15:52:28.116 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:52:31.119 I/System.out( 4671): Location: -2.8090956 56.33994327 | GPSNavigator running:true
+04-04 15:52:31.119 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:52:34.122 I/System.out( 4671): Location: -2.80909549 56.33994334 | GPSNavigator running:true
+04-04 15:52:34.122 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:52:37.115 I/System.out( 4671): Location: -2.8090955 56.33994334 | GPSNavigator running:true
+04-04 15:52:37.115 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:52:40.118 I/System.out( 4671): Location: -2.80909557 56.33994329 | GPSNavigator running:true
+04-04 15:52:40.118 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:52:43.130 I/System.out( 4671): Location: -2.80909562 56.33994329 | GPSNavigator running:true
+04-04 15:52:43.130 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:52:45.893 E/PPDaemon(  197): acceptFd not set!
+04-04 15:52:46.123 I/System.out( 4671): Location: -2.80909562 56.33994338 | GPSNavigator running:true
+04-04 15:52:46.123 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:52:49.126 I/System.out( 4671): Location: -2.80909557 56.33994342 | GPSNavigator running:true
+04-04 15:52:49.126 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:52:52.129 I/System.out( 4671): Location: -2.80909672 56.33994382 | GPSNavigator running:true
+04-04 15:52:52.129 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:52:55.132 I/System.out( 4671): Location: -2.8091009 56.33996 | GPSNavigator running:true
+04-04 15:52:55.132 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:52:56.564 I/EventLogService(  813): Aggregate from 1396621376489 (log), 1396621376489 (data)
+04-04 15:52:56.614 I/ServiceDumpSys(  813): dumping service [account]
+04-04 15:52:58.135 I/System.out( 4671): Location: -2.80912919 56.33996905 | GPSNavigator running:true
+04-04 15:52:58.135 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:53:01.138 I/System.out( 4671): Location: -2.8091229 56.33996796 | GPSNavigator running:true
+04-04 15:53:01.138 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:53:04.141 I/System.out( 4671): Location: -2.80910476 56.33998139 | GPSNavigator running:true
+04-04 15:53:04.141 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:53:07.134 I/System.out( 4671): Location: -2.80905889 56.33998281 | GPSNavigator running:true
+04-04 15:53:07.134 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:53:10.147 I/System.out( 4671): Location: -2.80902252 56.33996325 | GPSNavigator running:true
+04-04 15:53:10.147 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:53:13.140 I/System.out( 4671): Location: -2.80898199 56.33996475 | GPSNavigator running:true
+04-04 15:53:13.140 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:53:16.143 I/System.out( 4671): Location: -2.80896026 56.33995827 | GPSNavigator running:true
+04-04 15:53:16.143 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:53:19.146 I/System.out( 4671): Location: -2.80900335 56.33994616 | GPSNavigator running:true
+04-04 15:53:19.146 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:53:22.149 I/System.out( 4671): Location: -2.80902544 56.33994115 | GPSNavigator running:true
+04-04 15:53:22.149 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:53:23.990 D/dalvikvm(  520): GC_CONCURRENT freed 1785K, 15% free 15909K/18704K, paused 3ms+5ms, total 67ms
+04-04 15:53:25.151 I/System.out( 4671): Location: -2.80903651 56.33993471 | GPSNavigator running:true
+04-04 15:53:25.151 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:53:28.154 I/System.out( 4671): Location: -2.80904183 56.33992901 | GPSNavigator running:true
+04-04 15:53:28.154 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:53:29.866 I/EntropyMixer(  520): Writing entropy...
+04-04 15:53:29.866 I/ActivityManager(  520): No longer want com.google.android.music:main (pid 3760): empty for 1809s
+04-04 15:53:29.876 I/ActivityManager(  520): No longer want uk.ac.st_andrews.cs.host.mk74.locy:remote (pid 3737): empty for 1824s
+04-04 15:53:29.886 W/PowerUI (  597): unknown intent: Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x8000010 }
+04-04 15:53:29.896 D/PicasaUploaderSyncManager( 1819): battery info: true
+04-04 15:53:29.916 D/PicasaSyncManager( 1569): battery info: true
+04-04 15:53:29.926 W/ActivityManager(  520): Scheduling restart of crashed service uk.ac.st_andrews.cs.host.mk74.locy/.LocyNavigatorService in 5000ms
+04-04 15:53:29.926 W/ActivityManager(  520): Scheduling restart of crashed service com.google.android.music/.playback.MusicPlaybackService in 14995ms
+04-04 15:53:31.147 I/System.out( 4671): Location: -2.80904858 56.33992448 | GPSNavigator running:true
+04-04 15:53:31.147 I/System.out( 4671): Battery level: 98 | Time difference: 242
+04-04 15:53:31.428 D/MtpService(  662): updating state; isCurrentUser=true, mMtpLocked=false
+04-04 15:53:31.428 D/MtpService(  662): addStorageLocked 65537 /storage/emulated/0
+04-04 15:53:31.438 D/MtpService(  662): updating state; isCurrentUser=true, mMtpLocked=false
+04-04 15:53:31.438 D/MtpService(  662): starting MTP server in MTP mode
+04-04 15:53:31.438 D/MtpService(  662): addStorageLocked 65537 /storage/emulated/0
+04-04 15:53:34.150 I/System.out( 4671): Location: -2.80905071 56.33992319 | GPSNavigator running:true
+04-04 15:53:34.150 I/System.out( 4671): Battery level: 99 | Time difference: 242
+04-04 15:53:34.971 D/dalvikvm( 4864): Late-enabling CheckJNI
+04-04 15:53:34.991 I/ActivityManager(  520): Start proc uk.ac.st_andrews.cs.host.mk74.locy:remote for service uk.ac.st_andrews.cs.host.mk74.locy/.LocyNavigatorService: pid=4864 uid=10100 gids={50100, 1028}
+04-04 15:53:35.011 I/LocyNavigatorService( 4864): Service creating
+04-04 15:53:37.143 I/System.out( 4671): Location: -2.80905113 56.33992303 | GPSNavigator running:true
+04-04 15:53:37.143 I/System.out( 4671): Battery level: 99 | Time difference: 242
+04-04 15:53:38.915 D/dalvikvm(  713): GC_CONCURRENT freed 386K, 9% free 9935K/10828K, paused 5ms+13ms, total 75ms
+04-04 15:53:40.156 I/System.out( 4671): Location: -2.80905118 56.33992301 | GPSNavigator running:true
+04-04 15:53:40.156 I/System.out( 4671): Battery level: 99 | Time difference: 242
+04-04 15:53:43.159 I/System.out( 4671): Location: -2.8090512 56.33992299 | GPSNavigator running:true
+04-04 15:53:43.159 I/System.out( 4671): Battery level: 99 | Time difference: 242
+04-04 15:53:44.971 I/ActivityManager(  520): Start proc com.google.android.music:main for service com.google.android.music/.playback.MusicPlaybackService: pid=4886 uid=10041 gids={50041, 3003, 1015, 1028}
+04-04 15:53:45.031 I/MusicStore( 4886): Database version: 70
+04-04 15:53:45.081 D/dalvikvm( 4886): GC_CONCURRENT freed 271K, 4% free 9045K/9356K, paused 2ms+1ms, total 25ms
+04-04 15:53:45.151 D/SystemUtils( 4886): getSystemProperty: lpa.decode=null
+04-04 15:53:45.171 D/CacheService( 4886): onCreate
+04-04 15:53:45.181 D/CacheService( 4886): onBind
+04-04 15:53:45.191 I/LocalDevicePlayback( 4886): Streaming client created.
+04-04 15:53:46.152 I/System.out( 4671): Location: -2.8090512 56.33992298 | GPSNavigator running:true
+04-04 15:53:46.152 I/System.out( 4671): Battery level: 99 | Time difference: 242
+04-04 15:53:46.232 D/dalvikvm( 4886): GC_CONCURRENT freed 221K, 3% free 9296K/9560K, paused 3ms+2ms, total 22ms
+04-04 15:53:46.262 I/MediaStoreImporter( 4886): Update: incremental Added music: 0 Updated music: 0 Deleted music: 0 Created playlists: 0 Updated playlists: 0 Deleted playlists: 0 Inserted playlist items: 0 Deleted playlist items: 0 Removed orphaned playlist items: 0
+04-04 15:53:49.155 I/System.out( 4671): Location: -2.8090512 56.33992298 | GPSNavigator running:true
+04-04 15:53:49.155 I/System.out( 4671): Battery level: 99 | Time difference: 242
+04-04 15:53:50.186 I/MusicLeanback( 4886): Conditions not met for autocaching.
+04-04 15:53:50.186 I/MusicLeanback( 4886): Stop autocaching.
+04-04 15:53:52.158 I/System.out( 4671): Location: -2.8090512 56.33992298 | GPSNavigator running:true
+04-04 15:53:52.158 I/System.out( 4671): Battery level: 99 | Time difference: 242
