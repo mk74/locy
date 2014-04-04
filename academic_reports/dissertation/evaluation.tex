@@ -43,24 +43,14 @@ Accelerometer is more energy efficient than traditional localization sensors. Op
 The energy measurement method does not provide the details on the nature of energy consumption. It is unknown which exact operations consume the most energy during sensing. For example, significant part of energy may be consumed by CPU which needs to be active while sensing accelerometer \cite{priyantha:littlerock}. As those characteristics are not recognized, it cannot be reason how energy efficient the applications with combined sensors\ (IEEE 802.11 scanning and accelerometer) will be. Also, it is unfamiliar how energy efficiency of physical sensors will change depending on their parameters\ (size of sleeping and sampling windows).
 						
 \subsection{Locy}
--two different scenarios of user movement 
--compared against baseline implementation
-	-naive GPS
-	-found in the directory..
--compared on three different devices
--each single case sampled three times !
+\hspace{10pt} To evaluate the energy efficiency of Locy against the baseline implementation (the Requirement \ref{r:library:evaluation}), two example applications were created. First of the applications uses naive Android's LocalizationManager to obtain GPS position, while another uses smart Locy's LocyManager. Beside that, there are no other differences between the applications. The former application may be found in the \textit{LocyGPSLocalization/} directory, whereas the latter is available in the \textit{NaiveGPSLocalization/} directory. The energy efficiency of the applications were compared in two real-life scenarios across three different devices. For each pair of a scenario and a device, three samples of energy performance were collected.
 
--first scenario: a user sitting in one place whole time
-	-outdoor in front of the John Honey building
--the results are in \plotref{locy_eval_inplace}
--Locy performs better for each mobile phone
--why:
-	movement detection algorithm is triggered and GPS is switched off all the time
+In the first scenari,  a user is staying in one place for the whole period of sample collection\ (i.e. time of 1\% battery depletion). A user was staying in front of the John Honey building and did not move. The comparison of Locy and the naive GPS implementation are presented in the \plotref{locy_eval_inplace}.  Locy has lower energy consumption than the naive GPS implementation for all three devices. Locy detects a user not moving and switches off GPS.  Locy's Accelerometer sampling is more energy efficient than GPS, and thus, its energy consumption is lower.
+
 \plot{locy_eval_inplace}
 
--second scenario: walk for half a time and stand in one place for half a time 
-	-outdoor along jack cole building + stopped just in front of john honey building
--the results are in \plotref{locy_eval_other}
+The second scenario checked how Locy performs in more complex situation. A user was walking for the half of the period of sample collection and he stayed in one place over the rest of the time. A user was walking along the Jack Cole building to stop and stand later in front of the John Honey building. The \plotref{locy_eval_other} shows the energy efficiency levels of Locy and the naive GPS implementation .
+
 -Locy performs better (but not so good like inPlace) or equally good
 -why:
 	-movement detection algorithm is triggered and switches off GPS after half of the time
@@ -68,7 +58,7 @@ The energy measurement method does not provide the details on the nature of ener
 \plot{locy_eval_other}
 
 \subsection{Conclusions}
-The energy measurement method delivered the complete set of accurate energy efficiency results, and thus, the method was validated. The results were gathered across three different mobile phones and include all sensors. It is believed that it is the first study of this type. 
+\hspace{10pt} The energy measurement method delivered the complete set of accurate energy efficiency results, and thus, the method was validated. The results were gathered across three different mobile phones and include all sensors. It is believed that it is the first study of this type. 
 
 Physical sensors could be leveraged for localization purposes. The energy efficiency results gave a basis for how an energy-efficient library could be designed. The energy measurement method provided useful information and identified the challenges for Locy. The energy efficiency of combined sensors and different energy efficiency of physical sensors depending on their parameters needed to be checked. 
 
