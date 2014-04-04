@@ -35,7 +35,7 @@ This section specifies the properties the software solution must satisfy to fulf
      \multicolumn{2}{| l |}{ \textbf{3. The project should empirically determine the energy costs of different sensors.} }  \\ \hline
     \bf{Type} & functional\\ \hline
     \bf{Priority} & 1\\ \hline
-    \bf{Description} & In the experiments, the order of different sensors' energy efficiency should be established. The Sample Sensor Applications and a measurement method are involved in this requirement.\\ \hline
+    \bf{Description} & In the experiments, the order of different sensors' energy efficiency should be established. Basing on that order, an energy-efficient sensing library may be designed.\\ \hline
     \end{tabular}
     \label{r:measurement:main}
 \end{table}
@@ -48,7 +48,7 @@ This section specifies the properties the software solution must satisfy to fulf
      \multicolumn{2}{| l |}{ \textbf{4. The library will calculate energy costs of different sensors in real time.} }  \\ \hline
     \bf{Type} & functional\\ \hline
     \bf{Priority} & 2\\ \hline
-    \bf{Description} & The energy measurements of the sensors could be calculated online once a library is installed on a user's device. \\ \hline
+    \bf{Description} & The energy measurements of the sensors could be calculated online once a library is installed on a user's device. This would allow to modify the behaviour of a library depending on the energy efficiency of different sensors at a given time.\\ \hline
     \end{tabular}
     \label{something4}
     \label{r:measurement:online}
@@ -62,7 +62,7 @@ This section specifies the properties the software solution must satisfy to fulf
      \multicolumn{2}{| p{14.0cm} |}{ \textbf{5. Energy efficiency of the library should be tested against a baseline implementation.} }  \\ \hline
     \bf{Type} & functional\\ \hline
     \bf{Priority} & 1\\ \hline
-    \bf{Description} & In another series of the experiments, the power consumption of smart library needs to be compared against a naive implementation. This will allow to validate the utility of the library. \\ \hline
+    \bf{Description} & In another series of the experiments, the power consumption of a smart library needs to be compared against a naive implementation. This will allow to validate the utility of the library. \\ \hline
     \end{tabular}
     \label{r:library:evaluation}
 \end{table}
@@ -74,7 +74,7 @@ This section specifies the properties the software solution must satisfy to fulf
      \multicolumn{2}{| p{14.0cm} |}{ \textbf{6. The library will be integrated with Tristan's experience sampling method~ (ESM) mobile application.} }  \\ \hline
     \bf{Type} & functional\\ \hline
     \bf{Priority} & 1\\ \hline
-    \bf{Description} & The library should be easily plugged to the existing mobile applications. Tristan's ESM is used as an example application for that purpose.\\ \hline
+    \bf{Description} & The library should be easily plugged to the existing mobile applications. Tristan's ESM is used as an example application to check that.\\ \hline
     \end{tabular}
     \label{r:library:esm}
 \end{table}
@@ -86,7 +86,7 @@ This section specifies the properties the software solution must satisfy to fulf
      \multicolumn{2}{| l |}{ \textbf{7. The energy saving algorithm should be adaptive according to current battery life.} }  \\ \hline
     \bf{Type} & functional\\ \hline
     \bf{Priority} & 2\\ \hline
-    \bf{Description} & x\\ \hline
+    \bf{Description} & The algorithm should be more energy-efficient and less accurate while battery level is low. This would allow to utilize better the remains of the battery life.\\ \hline
     \end{tabular}
     \label{r:library:adaptive}
 \end{table}
@@ -98,7 +98,7 @@ This section specifies the properties the software solution must satisfy to fulf
      \multicolumn{2}{| l |}{ \textbf{8. The library intends to manage mobile applications' contention for sensor usage.} }  \\ \hline
     \bf{Type} & functional\\ \hline
     \bf{Priority} & 2\\ \hline
-    \bf{Description} & x\\ \hline
+    \bf{Description} & Many application can use a library in energy-efficient manner. That would make a library more practical for industry purposes. \\ \hline
     \end{tabular}
     \label{r:library:contention}
 \end{table}
@@ -110,7 +110,7 @@ This section specifies the properties the software solution must satisfy to fulf
      \multicolumn{2}{| p{14.0cm} |}{ \textbf{9. The energy saving algorithm should improve its performance by learning from user behaviour. } }  \\ \hline
     \bf{Type} & functional\\ \hline
     \bf{Priority} & 3\\ \hline
-    \bf{Description} & x\\ \hline
+    \bf{Description} & A library may improve its energy efficiency while regular patterns in a user behaviour are known. The utility if the library would be higher in users' eyes and it is considered as original idea in research community. \\ \hline
     \end{tabular}
     \label{r:library:history}
 \end{table}
