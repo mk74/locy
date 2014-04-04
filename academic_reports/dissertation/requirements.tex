@@ -1,6 +1,108 @@
 \section{Requirements specification}
 \label{s:requirements}
-//This section specifies the properties the software solution must have. It identifies 
+This section specifies the properties the software solution must satisfy to fulfill the objectives of the project. Analogically to the objectives, the requirements are characterizes by their priority: primary\ (priority 1), secondary\ (2) and tertiary requirements\ (3). Furthermore, the requirements are separated into two sections.
+
+\subsection{Mobile phones and energy measurements}
+
+\begin{table}[H]
+	\centering
+    \begin{tabular}{| l | l |}
+    \hline
+     \multicolumn{2}{| l |}{ \textbf{All software components of the project will work on the Android mobile operating system.} }  \\ \hline
+    \bf{Type} & non-functional\\ \hline
+    \bf{Priority} & 1\\ \hline
+    \bf{Description} & x\\ \hline
+    \end{tabular}
+    \label{something1}
+\end{table}
+
+\begin{table}[H]
+	\centering
+    \begin{tabular}{| l | l |}
+    \hline
+     \multicolumn{2}{| l |}{ \textbf{Software components should work on a variety of Android devices.} }  \\ \hline
+    \bf{Type} & non-functional\\ \hline
+    \bf{Priority} & 2\\ \hline
+    \bf{Description} & x\\ \hline
+    \end{tabular}
+    \label{something2}
+\end{table}
+
+\begin{table}[H]
+	\centering
+    \begin{tabular}{| l | l |}
+    \hline
+     \multicolumn{2}{| l |}{ \textbf{The project should empirically determine the energy costs of different sensors.} }  \\ \hline
+    \bf{Type} & functional\\ \hline
+    \bf{Priority} & 1\\ \hline
+    \bf{Description} & x\\ \hline
+    \end{tabular}
+    \label{something3}
+\end{table}
+
+
+\begin{table}[H]
+	\centering
+    \begin{tabular}{| l | l |}
+    \hline
+     \multicolumn{2}{| l |}{ \textbf{The library will calculate energy costs of different sensors in real time.} }  \\ \hline
+    \bf{Type} & functional\\ \hline
+    \bf{Priority} & 2\\ \hline
+    \bf{Description} & x\\ \hline
+    \end{tabular}
+    \label{something4}
+\end{table}
+
+
+ 
+All software components of the project will work on the Android mobile operating system.
+priority:1
+type: non-functional
+Description: 
+
+Software components should work on a variety of Android devices.
+priority:2
+type: non-functional
+Description: 
+
+
+The project should empirically determine the energy costs of different sensors.
+priority:1
+type: functional
+Description: 
+ 
+The library will calculate energy costs of different sensors in real time.
+priority:2
+type: functional
+Description: 
+
+\subsection{The energy-efficient sensing library}
+Energy efficiency and accuracy of the library should be tested against a baseline 
+implementation.
+priority:1
+type:functional
+Description: 
+
+The library will be integrated with Tristan's experience sampling method~ (ESM) mobile application.
+priority:1
+type:functional
+Description: 
+
+The energy saving algorithm should be adaptive according to current battery life.
+priority:2
+type:functional
+Description: 
+
+The library intends to manage mobile applications' contention for sensor usage
+priority:2.  
+type:functional
+Description: 
+
+The energy saving algorithm should improve its performance by learning from user behaviour. 
+priority:3
+type:functional
+Description: 
+
 
 The project and the library should satisfy the following set of requirements:
 \begin{enumerate}[(a)]
@@ -12,7 +114,6 @@ system.
 implementation.
     \item The project should empirically determine energy costs of different sensors.
     \item The library will be integrated with Tristan's experience sampling method~ (ESM) mobile application.
-    \item As part of the project, a study with real users should be conducted.
   \end{itemize}
   \item Secondary requirements
   \begin{itemize}
