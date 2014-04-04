@@ -1,0 +1,1040 @@
+--------- beginning of /dev/log/main
+04-04 15:17:15.885 D/AndroidRuntime( 3474): 
+04-04 15:17:15.885 D/AndroidRuntime( 3474): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+04-04 15:17:15.885 D/AndroidRuntime( 3474): CheckJNI is OFF
+04-04 15:17:15.895 D/dalvikvm( 3474): Trying to load lib libjavacore.so 0x0
+04-04 15:17:15.895 D/dalvikvm( 3474): Added shared lib libjavacore.so 0x0
+04-04 15:17:15.905 D/dalvikvm( 3474): Trying to load lib libnativehelper.so 0x0
+04-04 15:17:15.905 D/dalvikvm( 3474): Added shared lib libnativehelper.so 0x0
+04-04 15:17:16.025 D/AndroidRuntime( 3474): Calling main entry com.android.commands.pm.Pm
+04-04 15:17:16.035 D/Finsky  ( 1281): [1] PackageVerificationReceiver.checkPrerequisites: Skipping verification because network inactive
+--------- beginning of /dev/log/system
+04-04 15:17:16.035 W/ActivityManager(  520): No content provider found for permission revoke: file:///data/local/tmp/LocyGPSLocalization.apk
+04-04 15:17:16.045 D/Finsky  ( 1281): [1] PackageVerificationReceiver.checkPrerequisites: Skipping verification because network inactive
+04-04 15:17:16.045 W/ActivityManager(  520): No content provider found for permission revoke: file:///data/local/tmp/LocyGPSLocalization.apk
+04-04 15:17:16.045 I/PackageManager(  520): Copying native libraries to /data/app-lib/vmdl-2030795798
+04-04 15:17:16.055 W/PackageManager(  520): Invalid verification token 1 received
+04-04 15:17:16.085 I/ActivityManager(  520): Force stopping package uk.ac.st_andrews.cs.host.mk74.locygpslocalization appid=10103 user=-1
+04-04 15:17:16.185 I/PackageManager(  520): Running dexopt on: uk.ac.st_andrews.cs.host.mk74.locygpslocalization
+04-04 15:17:16.185 I/PackageManager(  520): Package uk.ac.st_andrews.cs.host.mk74.locygpslocalization codePath changed from /data/app/uk.ac.st_andrews.cs.host.mk74.locygpslocalization-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.locygpslocalization-1.apk; Retaining data and using new
+04-04 15:17:16.466 D/dalvikvm( 3489): DexOpt: load 47ms, verify+opt 174ms, 1019660 bytes
+04-04 15:17:16.536 W/PackageManager(  520): Code path for pkg : uk.ac.st_andrews.cs.host.mk74.locygpslocalization changing from /data/app/uk.ac.st_andrews.cs.host.mk74.locygpslocalization-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.locygpslocalization-1.apk
+04-04 15:17:16.536 I/ActivityManager(  520): Force stopping package uk.ac.st_andrews.cs.host.mk74.locygpslocalization appid=10103 user=-1
+04-04 15:17:16.536 W/PackageManager(  520): Resource path for pkg : uk.ac.st_andrews.cs.host.mk74.locygpslocalization changing from /data/app/uk.ac.st_andrews.cs.host.mk74.locygpslocalization-2.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.locygpslocalization-1.apk
+04-04 15:17:16.666 I/ActivityManager(  520): Force stopping package uk.ac.st_andrews.cs.host.mk74.locygpslocalization appid=10103 user=0
+04-04 15:17:16.696 I/InputReader(  520): Reconfiguring input devices.  changes=0x00000010
+04-04 15:17:16.716 W/ActivityManager(  520): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.locygpslocalization flg=0x8000010 (has extras) }: user 10 is stopped
+04-04 15:17:16.716 D/dalvikvm(  597): GC_EXPLICIT freed 34832K, 68% free 16425K/51292K, paused 2ms+12ms, total 54ms
+04-04 15:17:16.766 I/InputReader(  520): Reconfiguring input devices.  changes=0x00000010
+04-04 15:17:16.766 W/ActivityManager(  520): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.locygpslocalization flg=0x8000010 (has extras) }: user 10 is stopped
+04-04 15:17:16.776 W/ActivityManager(  520): Skipping broadcast of Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:uk.ac.st_andrews.cs.host.mk74.locygpslocalization flg=0x8000010 (has extras) }: user 10 is stopped
+04-04 15:17:16.776 W/ActivityManager(  520): Skipping broadcast of Intent { act=android.intent.action.MY_PACKAGE_REPLACED flg=0x8000010 pkg=uk.ac.st_andrews.cs.host.mk74.locygpslocalization (has extras) }: user 10 is stopped
+04-04 15:17:16.786 D/dalvikvm(  520): GC_CONCURRENT freed 2280K, 18% free 15963K/19256K, paused 13ms+5ms, total 67ms
+04-04 15:17:16.786 D/dalvikvm(  520): WAIT_FOR_CONCURRENT_GC blocked 12ms
+04-04 15:17:16.786 W/ContextImpl( 1598): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1385 android.content.ContextWrapper.startService:473 android.content.ContextWrapper.startService:473 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2424 
+04-04 15:17:16.796 D/BackupManagerService(  520): Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.locygpslocalization flg=0x8000010 (has extras) }
+04-04 15:17:16.826 D/dalvikvm(  761): GC_CONCURRENT freed 209K, 3% free 9339K/9584K, paused 2ms+1ms, total 13ms
+04-04 15:17:16.846 D/BackupManagerService(  520): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.locygpslocalization flg=0x8000010 (has extras) }
+04-04 15:17:16.846 V/BackupManagerService(  520): removePackageParticipantsLocked: uid=10103 #1
+04-04 15:17:16.846 V/BackupManagerService(  520): addPackageParticipantsLocked: #1
+04-04 15:17:16.886 D/dalvikvm(  520): JIT code cache reset in 1 ms (1048576 bytes 1/0)
+04-04 15:17:16.886 D/dalvikvm(  520): GC_EXPLICIT freed 353K, 17% free 16003K/19256K, paused 3ms+13ms, total 103ms
+04-04 15:17:16.896 D/AndroidRuntime( 3474): Shutting down VM
+04-04 15:17:16.896 D/jdwp    ( 3474): Got wake-up signal, bailing out of select
+04-04 15:17:16.896 D/dalvikvm( 3474): Debugger has detached; object registry had 1 entries
+04-04 15:17:17.066 I/GCoreUlr(  713): Ensuring that reporting is stopped because of reasons: (no Google accounts)
+04-04 15:17:17.066 D/GCoreFlp(  713): Unknown pending intent to remove.
+04-04 15:17:17.066 I/GCoreUlr(  713): Unbound from all location providers
+04-04 15:17:17.497 D/AndroidRuntime( 3523): 
+04-04 15:17:17.497 D/AndroidRuntime( 3523): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+04-04 15:17:17.497 D/AndroidRuntime( 3523): CheckJNI is OFF
+04-04 15:17:17.507 D/dalvikvm( 3523): Trying to load lib libjavacore.so 0x0
+04-04 15:17:17.517 D/dalvikvm( 3523): Added shared lib libjavacore.so 0x0
+04-04 15:17:17.517 D/dalvikvm( 3523): Trying to load lib libnativehelper.so 0x0
+04-04 15:17:17.517 D/dalvikvm( 3523): Added shared lib libnativehelper.so 0x0
+04-04 15:17:17.637 D/AndroidRuntime( 3523): Calling main entry com.android.commands.am.Am
+04-04 15:17:17.647 D/dalvikvm( 3523): Note: class Landroid/app/ActivityManagerNative; has 163 unimplemented (abstract) methods
+04-04 15:17:17.647 I/ActivityManager(  520): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.st_andrews.cs.host.mk74.locygpslocalization/.MainActivity} from pid 3523
+04-04 15:17:17.737 D/dalvikvm(  520): GC_FOR_ALLOC freed 1480K, 17% free 16042K/19256K, paused 61ms, total 61ms
+04-04 15:17:17.757 D/AndroidRuntime( 3523): Shutting down VM
+04-04 15:17:17.757 D/jdwp    ( 3523): Got wake-up signal, bailing out of select
+04-04 15:17:17.757 D/dalvikvm( 3523): Debugger has detached; object registry had 1 entries
+04-04 15:17:17.767 D/dalvikvm( 3539): Late-enabling CheckJNI
+04-04 15:17:17.767 I/ActivityManager(  520): Start proc uk.ac.st_andrews.cs.host.mk74.locygpslocalization for activity uk.ac.st_andrews.cs.host.mk74.locygpslocalization/.MainActivity: pid=3539 uid=10103 gids={50103, 1028}
+04-04 15:17:17.847 D/dalvikvm(  824): GC_CONCURRENT freed 547K, 6% free 9307K/9896K, paused 3ms+4ms, total 32ms
+04-04 15:17:17.877 I/System.out( 3539): LocyNavigatorThread has started
+04-04 15:17:17.927 D/libEGL  ( 3539): loaded /system/lib/egl/libEGL_adreno200.so
+04-04 15:17:17.927 D/libEGL  ( 3539): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+04-04 15:17:17.937 D/libEGL  ( 3539): loaded /system/lib/egl/libGLESv2_adreno200.so
+04-04 15:17:17.937 I/Adreno200-EGL( 3539): <qeglDrvAPI_eglInitialize:265>: EGL 1.4 QUALCOMM Build: Iabe52cfaeae4c5fab1acacfe6f056ba15fa93274
+04-04 15:17:17.977 D/OpenGLRenderer( 3539): Enabling debug mode 0
+04-04 15:17:18.027 I/ActivityManager(  520): Displayed uk.ac.st_andrews.cs.host.mk74.locygpslocalization/.MainActivity: +269ms
+04-04 15:17:18.067 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:17:18.067 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:17:18.077 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:17:18.077 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:17:18.077 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:17:18.077 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:17:18.087 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:17:18.087 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:17:18.097 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:17:18.097 W/ActivityManager(  520): Permission denied: checkComponentPermission() owningUid=10057
+04-04 15:17:20.910 I/System.out( 3539): Location: unknown | GPSNavigator running:true
+04-04 15:17:20.910 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:17:21.991 D/dalvikvm( 3539): Debugger has detached; object registry had 1 entries
+04-04 15:17:21.991 D/dalvikvm( 1410): Debugger has detached; object registry had 1 entries
+04-04 15:17:22.071 D/PicasaSyncManager( 1569): battery info: false
+04-04 15:17:22.091 D/PicasaUploaderSyncManager( 1819): battery info: false
+04-04 15:17:23.893 I/System.out( 3539): Location: unknown | GPSNavigator running:true
+04-04 15:17:23.903 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:17:26.896 I/System.out( 3539): Location: unknown | GPSNavigator running:true
+04-04 15:17:26.906 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:17:29.909 I/System.out( 3539): Location: unknown | GPSNavigator running:true
+04-04 15:17:29.909 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:17:32.071 D/dalvikvm( 1281): GC_CONCURRENT freed 416K, 5% free 9452K/9908K, paused 3ms+4ms, total 20ms
+04-04 15:17:32.141 D/Finsky  ( 1281): [1] 5.onFinished: Installation state replication succeeded.
+04-04 15:17:32.912 I/System.out( 3539): Location: unknown | GPSNavigator running:true
+04-04 15:17:32.912 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:17:35.905 I/System.out( 3539): Location: unknown | GPSNavigator running:true
+04-04 15:17:35.905 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:17:38.818 D/dalvikvm( 3539): GC_CONCURRENT freed 199K, 3% free 9050K/9288K, paused 8ms+1ms, total 53ms
+04-04 15:17:38.908 I/System.out( 3539): Location: unknown | GPSNavigator running:true
+04-04 15:17:38.908 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:17:41.911 I/System.out( 3539): Location: unknown | GPSNavigator running:true
+04-04 15:17:41.911 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:17:44.913 I/System.out( 3539): Location: unknown | GPSNavigator running:true
+04-04 15:17:44.913 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:17:47.916 I/System.out( 3539): Location: unknown | GPSNavigator running:true
+04-04 15:17:47.916 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:17:50.909 I/System.out( 3539): Location: unknown | GPSNavigator running:true
+04-04 15:17:50.909 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:17:53.912 I/System.out( 3539): Location: unknown | GPSNavigator running:true
+04-04 15:17:53.912 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:17:56.915 I/System.out( 3539): Location: -2.80901701 56.34001792 | GPSNavigator running:true
+04-04 15:17:56.915 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:17:59.918 I/System.out( 3539): Location: -2.80907015 56.33994437 | GPSNavigator running:true
+04-04 15:17:59.918 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:02.921 I/System.out( 3539): Location: -2.80905453 56.33992482 | GPSNavigator running:true
+04-04 15:18:02.921 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:05.914 I/System.out( 3539): Location: -2.80904219 56.33990727 | GPSNavigator running:true
+04-04 15:18:05.914 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:08.917 I/System.out( 3539): Location: -2.80907462 56.33993659 | GPSNavigator running:true
+04-04 15:18:08.917 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:11.920 I/System.out( 3539): Location: -2.80909797 56.33995244 | GPSNavigator running:true
+04-04 15:18:11.920 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:13.952 D/dalvikvm(  713): GC_CONCURRENT freed 396K, 5% free 9980K/10488K, paused 5ms+7ms, total 72ms
+04-04 15:18:14.923 I/System.out( 3539): Location: -2.80912394 56.33996492 | GPSNavigator running:true
+04-04 15:18:14.923 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:17.926 I/System.out( 3539): Location: -2.80912485 56.33995973 | GPSNavigator running:true
+04-04 15:18:17.926 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:20.929 I/System.out( 3539): Location: -2.80911031 56.3399454 | GPSNavigator running:true
+04-04 15:18:20.929 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:23.932 I/System.out( 3539): Location: -2.80911611 56.33994624 | GPSNavigator running:true
+04-04 15:18:23.932 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:26.924 I/System.out( 3539): Location: -2.80913333 56.33995785 | GPSNavigator running:true
+04-04 15:18:26.924 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:29.927 I/System.out( 3539): Location: -2.80913661 56.33995079 | GPSNavigator running:true
+04-04 15:18:29.927 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:32.930 I/System.out( 3539): Location: -2.80911714 56.33993563 | GPSNavigator running:true
+04-04 15:18:32.930 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:35.923 I/System.out( 3539): Location: -2.80913147 56.33994177 | GPSNavigator running:true
+04-04 15:18:35.923 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:38.926 I/System.out( 3539): Location: -2.8091381 56.3399466 | GPSNavigator running:true
+04-04 15:18:38.926 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:41.148 D/dalvikvm( 3539): GC_CONCURRENT freed 358K, 5% free 9078K/9476K, paused 7ms+2ms, total 58ms
+04-04 15:18:41.929 I/System.out( 3539): Location: -2.80913245 56.33993899 | GPSNavigator running:true
+04-04 15:18:41.929 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:44.932 I/System.out( 3539): Location: -2.80911393 56.33992228 | GPSNavigator running:true
+04-04 15:18:44.942 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:47.925 I/System.out( 3539): Location: -2.80911463 56.33993456 | GPSNavigator running:true
+04-04 15:18:47.935 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:50.938 I/System.out( 3539): Location: -2.8090958 56.3399609 | GPSNavigator running:true
+04-04 15:18:50.938 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:53.931 I/System.out( 3539): Location: -2.80904747 56.33998274 | GPSNavigator running:true
+04-04 15:18:53.941 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:56.934 I/System.out( 3539): Location: -2.80899174 56.34000349 | GPSNavigator running:true
+04-04 15:18:56.934 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:18:59.937 I/System.out( 3539): Location: -2.80893033 56.34002394 | GPSNavigator running:true
+04-04 15:18:59.937 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:02.940 I/System.out( 3539): Location: -2.80886536 56.34004389 | GPSNavigator running:true
+04-04 15:19:02.940 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:05.943 I/System.out( 3539): Location: -2.80880415 56.34006607 | GPSNavigator running:true
+04-04 15:19:05.943 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:08.935 I/System.out( 3539): Location: -2.80874301 56.34008753 | GPSNavigator running:true
+04-04 15:19:08.935 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:11.938 I/System.out( 3539): Location: -2.80868311 56.34011101 | GPSNavigator running:true
+04-04 15:19:11.938 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:14.941 I/System.out( 3539): Location: -2.80862406 56.34013412 | GPSNavigator running:true
+04-04 15:19:14.941 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:17.944 I/System.out( 3539): Location: -2.80856659 56.34015659 | GPSNavigator running:true
+04-04 15:19:17.944 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:20.937 I/System.out( 3539): Location: -2.80850713 56.34017739 | GPSNavigator running:true
+04-04 15:19:20.937 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:23.940 I/System.out( 3539): Location: -2.80844539 56.34019671 | GPSNavigator running:true
+04-04 15:19:23.950 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:26.933 I/System.out( 3539): Location: -2.80839134 56.34021766 | GPSNavigator running:true
+04-04 15:19:26.933 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:28.915 D/dalvikvm(  713): GC_CONCURRENT freed 381K, 5% free 9986K/10468K, paused 5ms+2ms, total 63ms
+04-04 15:19:29.946 I/System.out( 3539): Location: -2.80833617 56.34023118 | GPSNavigator running:true
+04-04 15:19:29.946 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:32.949 I/System.out( 3539): Location: -2.8082804 56.34025115 | GPSNavigator running:true
+04-04 15:19:32.949 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:35.952 I/System.out( 3539): Location: -2.80826205 56.34025153 | GPSNavigator running:true
+04-04 15:19:35.952 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:36.963 D/dalvikvm(  520): GC_CONCURRENT freed 1708K, 12% free 16008K/18152K, paused 14ms+8ms, total 104ms
+04-04 15:19:38.955 I/System.out( 3539): Location: -2.80827735 56.34024741 | GPSNavigator running:true
+04-04 15:19:38.955 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:41.908 D/dalvikvm( 3539): GC_CONCURRENT freed 387K, 5% free 9078K/9504K, paused 6ms+1ms, total 52ms
+04-04 15:19:41.948 I/System.out( 3539): Location: -2.80831031 56.34023242 | GPSNavigator running:true
+04-04 15:19:41.948 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:44.951 I/System.out( 3539): Location: -2.80832268 56.34022543 | GPSNavigator running:true
+04-04 15:19:44.951 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:47.943 I/System.out( 3539): Location: -2.80836787 56.34022086 | GPSNavigator running:true
+04-04 15:19:47.943 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:50.946 I/System.out( 3539): Location: -2.80844311 56.34018899 | GPSNavigator running:true
+04-04 15:19:50.946 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:53.949 I/System.out( 3539): Location: -2.80852965 56.34015583 | GPSNavigator running:true
+04-04 15:19:53.949 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:56.952 I/System.out( 3539): Location: -2.80859158 56.34015256 | GPSNavigator running:true
+04-04 15:19:56.952 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:19:59.955 I/System.out( 3539): Location: -2.80864433 56.34014355 | GPSNavigator running:true
+04-04 15:19:59.955 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:02.948 I/System.out( 3539): Location: -2.80869048 56.34013063 | GPSNavigator running:true
+04-04 15:20:02.948 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:05.951 I/System.out( 3539): Location: -2.80873607 56.34012269 | GPSNavigator running:true
+04-04 15:20:05.961 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:08.954 I/System.out( 3539): Location: -2.8087852 56.34010722 | GPSNavigator running:true
+04-04 15:20:08.954 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:11.957 I/System.out( 3539): Location: -2.80885361 56.3400683 | GPSNavigator running:true
+04-04 15:20:11.957 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:14.960 I/System.out( 3539): Location: -2.80893371 56.34001399 | GPSNavigator running:true
+04-04 15:20:14.960 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:17.963 I/System.out( 3539): Location: -2.80899312 56.33998594 | GPSNavigator running:true
+04-04 15:20:17.963 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:20.966 I/System.out( 3539): Location: -2.809013 56.33997155 | GPSNavigator running:true
+04-04 15:20:20.966 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:23.959 I/System.out( 3539): Location: -2.80899186 56.33998173 | GPSNavigator running:true
+04-04 15:20:23.959 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:26.962 I/System.out( 3539): Location: -2.80894752 56.34000261 | GPSNavigator running:true
+04-04 15:20:26.962 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:29.964 I/System.out( 3539): Location: -2.80889955 56.34002151 | GPSNavigator running:true
+04-04 15:20:29.964 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:32.957 I/System.out( 3539): Location: -2.80884895 56.34003618 | GPSNavigator running:true
+04-04 15:20:32.957 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:35.970 I/System.out( 3539): Location: -2.80880258 56.34005703 | GPSNavigator running:true
+04-04 15:20:35.970 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:38.953 I/System.out( 3539): Location: -2.8087548 56.34007528 | GPSNavigator running:true
+04-04 15:20:38.963 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:41.956 I/System.out( 3539): Location: -2.80870318 56.34009355 | GPSNavigator running:true
+04-04 15:20:41.966 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:42.557 D/dalvikvm( 3539): GC_CONCURRENT freed 390K, 5% free 9075K/9504K, paused 2ms+8ms, total 61ms
+04-04 15:20:42.927 D/dalvikvm(  713): GC_CONCURRENT freed 385K, 5% free 9986K/10468K, paused 7ms+3ms, total 56ms
+04-04 15:20:44.959 I/System.out( 3539): Location: -2.80865214 56.340116 | GPSNavigator running:true
+04-04 15:20:44.969 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:47.972 I/System.out( 3539): Location: -2.80860078 56.34013905 | GPSNavigator running:true
+04-04 15:20:47.972 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:50.975 I/System.out( 3539): Location: -2.80854936 56.34016083 | GPSNavigator running:true
+04-04 15:20:50.975 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:53.968 I/System.out( 3539): Location: -2.8084959 56.34017972 | GPSNavigator running:true
+04-04 15:20:53.968 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:56.971 I/System.out( 3539): Location: -2.80843904 56.34019671 | GPSNavigator running:true
+04-04 15:20:56.971 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:20:59.974 I/System.out( 3539): Location: -2.80838075 56.34021447 | GPSNavigator running:true
+04-04 15:20:59.974 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:02.967 I/System.out( 3539): Location: -2.80832898 56.34022849 | GPSNavigator running:true
+04-04 15:21:02.967 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:05.970 I/System.out( 3539): Location: -2.80831094 56.34022301 | GPSNavigator running:true
+04-04 15:21:05.970 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:08.973 I/System.out( 3539): Location: -2.80831826 56.34021018 | GPSNavigator running:true
+04-04 15:21:08.973 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:11.965 I/System.out( 3539): Location: -2.80835113 56.34019186 | GPSNavigator running:true
+04-04 15:21:11.965 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:14.968 I/System.out( 3539): Location: -2.80837951 56.340177 | GPSNavigator running:true
+04-04 15:21:14.968 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:17.981 I/System.out( 3539): Location: -2.80842118 56.34016295 | GPSNavigator running:true
+04-04 15:21:17.981 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:20.974 I/System.out( 3539): Location: -2.80847001 56.34015714 | GPSNavigator running:true
+04-04 15:21:20.974 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:23.977 I/System.out( 3539): Location: -2.80853105 56.34013366 | GPSNavigator running:true
+04-04 15:21:23.977 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:26.980 I/System.out( 3539): Location: -2.80858867 56.34011036 | GPSNavigator running:true
+04-04 15:21:26.980 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:29.983 I/System.out( 3539): Location: -2.80864574 56.34009412 | GPSNavigator running:true
+04-04 15:21:29.983 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:32.986 I/System.out( 3539): Location: -2.80870019 56.34008399 | GPSNavigator running:true
+04-04 15:21:32.986 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:35.989 I/System.out( 3539): Location: -2.80875448 56.34006248 | GPSNavigator running:true
+04-04 15:21:35.989 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:38.982 I/System.out( 3539): Location: -2.80881274 56.34004375 | GPSNavigator running:true
+04-04 15:21:38.982 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:41.975 I/System.out( 3539): Location: -2.80887347 56.34002723 | GPSNavigator running:true
+04-04 15:21:41.975 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:43.196 D/dalvikvm( 3539): GC_CONCURRENT freed 389K, 5% free 9072K/9504K, paused 5ms+10ms, total 68ms
+04-04 15:21:44.988 I/System.out( 3539): Location: -2.80893002 56.34000878 | GPSNavigator running:true
+04-04 15:21:44.988 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:47.991 I/System.out( 3539): Location: -2.80897987 56.33998739 | GPSNavigator running:true
+04-04 15:21:47.991 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:50.994 I/System.out( 3539): Location: -2.8090328 56.3399681 | GPSNavigator running:true
+04-04 15:21:50.994 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:53.986 I/System.out( 3539): Location: -2.80906605 56.33996179 | GPSNavigator running:true
+04-04 15:21:53.986 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:56.929 D/dalvikvm(  713): GC_CONCURRENT freed 385K, 5% free 9987K/10468K, paused 22ms+2ms, total 53ms
+04-04 15:21:56.989 I/System.out( 3539): Location: -2.80906768 56.33996392 | GPSNavigator running:true
+04-04 15:21:56.989 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:21:59.992 I/System.out( 3539): Location: -2.80902462 56.33997891 | GPSNavigator running:true
+04-04 15:21:59.992 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:02.995 I/System.out( 3539): Location: -2.80897196 56.33999578 | GPSNavigator running:true
+04-04 15:22:02.995 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:05.998 I/System.out( 3539): Location: -2.80891337 56.34001226 | GPSNavigator running:true
+04-04 15:22:05.998 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:09.001 I/System.out( 3539): Location: -2.80885638 56.34003324 | GPSNavigator running:true
+04-04 15:22:09.001 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:11.994 I/System.out( 3539): Location: -2.80879853 56.34005425 | GPSNavigator running:true
+04-04 15:22:11.994 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:14.997 I/System.out( 3539): Location: -2.80874117 56.34007643 | GPSNavigator running:true
+04-04 15:22:14.997 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:18.000 I/System.out( 3539): Location: -2.80868593 56.34009868 | GPSNavigator running:true
+04-04 15:22:18.000 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:21.003 I/System.out( 3539): Location: -2.80863287 56.34012139 | GPSNavigator running:true
+04-04 15:22:21.003 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:23.996 I/System.out( 3539): Location: -2.80857882 56.34014138 | GPSNavigator running:true
+04-04 15:22:23.996 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:26.999 I/System.out( 3539): Location: -2.80852573 56.34016023 | GPSNavigator running:true
+04-04 15:22:26.999 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:30.002 I/System.out( 3539): Location: -2.80846915 56.34017966 | GPSNavigator running:true
+04-04 15:22:30.002 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:33.005 I/System.out( 3539): Location: -2.80841198 56.34019804 | GPSNavigator running:true
+04-04 15:22:33.005 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:36.007 I/System.out( 3539): Location: -2.80835944 56.34021254 | GPSNavigator running:true
+04-04 15:22:36.007 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:39.010 I/System.out( 3539): Location: -2.80831182 56.34022432 | GPSNavigator running:true
+04-04 15:22:39.010 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:42.003 I/System.out( 3539): Location: -2.80828968 56.3402147 | GPSNavigator running:true
+04-04 15:22:42.003 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:43.825 D/dalvikvm( 3539): GC_CONCURRENT freed 391K, 5% free 9066K/9500K, paused 6ms+10ms, total 67ms
+04-04 15:22:45.006 I/System.out( 3539): Location: -2.80832712 56.34019345 | GPSNavigator running:true
+04-04 15:22:45.006 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:48.009 I/System.out( 3539): Location: -2.80837026 56.34017679 | GPSNavigator running:true
+04-04 15:22:48.009 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:51.012 I/System.out( 3539): Location: -2.80841233 56.3401652 | GPSNavigator running:true
+04-04 15:22:51.012 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:54.005 I/System.out( 3539): Location: -2.80845748 56.34015281 | GPSNavigator running:true
+04-04 15:22:54.005 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:22:56.417 I/ActivityManager(  520): No longer want com.google.android.apps.currents (pid 906): empty for 1801s
+04-04 15:22:56.477 I/EventLogService(  813): Aggregate from 1396619576356 (log), 1396619576356 (data)
+04-04 15:22:56.487 W/ActivityManager(  520): Scheduling restart of crashed service com.google.android.apps.currents/com.google.apps.dots.android.dotslib.service.AudioPlayerService in 5000ms
+04-04 15:22:56.527 I/ServiceDumpSys(  813): dumping service [account]
+04-04 15:22:57.008 I/System.out( 3539): Location: -2.80851208 56.34013677 | GPSNavigator running:true
+04-04 15:22:57.008 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:00.001 I/ActivityManager(  520): No longer want com.android.providers.calendar (pid 1016): empty #17
+04-04 15:23:00.001 I/ActivityManager(  520): No longer want com.google.android.music:main (pid 1432): empty #18
+04-04 15:23:00.011 I/ActivityManager(  520): No longer want uk.ac.st_andrews.cs.host.mk74.locy:remote (pid 1410): empty for 1802s
+04-04 15:23:00.011 I/System.out( 3539): Location: -2.80856578 56.34011313 | GPSNavigator running:true
+04-04 15:23:00.021 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:00.081 W/ActivityManager(  520): Scheduling restart of crashed service uk.ac.st_andrews.cs.host.mk74.locy/.LocyNavigatorService in 5000ms
+04-04 15:23:00.081 W/ActivityManager(  520): Scheduling restart of crashed service com.google.android.music/.playback.MusicPlaybackService in 14998ms
+04-04 15:23:00.151 D/dalvikvm(  520): GC_CONCURRENT freed 1815K, 13% free 15858K/18152K, paused 4ms+4ms, total 62ms
+04-04 15:23:03.014 I/System.out( 3539): Location: -2.80862486 56.340094 | GPSNavigator running:true
+04-04 15:23:03.014 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:05.106 D/dalvikvm( 3737): Late-enabling CheckJNI
+04-04 15:23:05.116 I/ActivityManager(  520): Start proc uk.ac.st_andrews.cs.host.mk74.locy:remote for service uk.ac.st_andrews.cs.host.mk74.locy/.LocyNavigatorService: pid=3737 uid=10100 gids={50100, 1028}
+04-04 15:23:05.206 I/LocyNavigatorService( 3737): Service creating
+04-04 15:23:06.017 I/System.out( 3539): Location: -2.808684 56.34007899 | GPSNavigator running:true
+04-04 15:23:06.017 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:09.020 I/System.out( 3539): Location: -2.80874337 56.34006513 | GPSNavigator running:true
+04-04 15:23:09.020 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:10.932 D/dalvikvm(  713): GC_CONCURRENT freed 386K, 5% free 9987K/10468K, paused 9ms+1ms, total 51ms
+04-04 15:23:12.023 I/System.out( 3539): Location: -2.80880362 56.34004444 | GPSNavigator running:true
+04-04 15:23:12.023 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:15.026 I/System.out( 3539): Location: -2.80886494 56.3400293 | GPSNavigator running:true
+04-04 15:23:15.026 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:15.096 I/ActivityManager(  520): Start proc com.google.android.music:main for service com.google.android.music/.playback.MusicPlaybackService: pid=3760 uid=10041 gids={50041, 3003, 1015, 1028}
+04-04 15:23:15.156 I/MusicStore( 3760): Database version: 70
+04-04 15:23:15.226 D/dalvikvm( 3760): GC_CONCURRENT freed 268K, 4% free 9098K/9404K, paused 4ms+12ms, total 39ms
+04-04 15:23:15.286 D/SystemUtils( 3760): getSystemProperty: lpa.decode=null
+04-04 15:23:15.306 D/CacheService( 3760): onCreate
+04-04 15:23:15.306 D/CacheService( 3760): onBind
+04-04 15:23:15.326 I/LocalDevicePlayback( 3760): Streaming client created.
+04-04 15:23:16.397 D/dalvikvm( 3760): GC_CONCURRENT freed 221K, 3% free 9309K/9568K, paused 3ms+7ms, total 57ms
+04-04 15:23:16.437 I/MediaStoreImporter( 3760): Update: incremental Added music: 0 Updated music: 0 Deleted music: 0 Created playlists: 0 Updated playlists: 0 Deleted playlists: 0 Inserted playlist items: 0 Deleted playlist items: 0 Removed orphaned playlist items: 0
+04-04 15:23:18.018 I/System.out( 3539): Location: -2.8089273 56.34001433 | GPSNavigator running:true
+04-04 15:23:18.018 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:20.331 I/MusicLeanback( 3760): Conditions not met for autocaching.
+04-04 15:23:20.331 I/MusicLeanback( 3760): Stop autocaching.
+04-04 15:23:21.021 I/System.out( 3539): Location: -2.80897929 56.33999548 | GPSNavigator running:true
+04-04 15:23:21.021 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:24.024 I/System.out( 3539): Location: -2.80901564 56.3399849 | GPSNavigator running:true
+04-04 15:23:24.024 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:27.027 I/System.out( 3539): Location: -2.80903779 56.33998669 | GPSNavigator running:true
+04-04 15:23:27.027 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:30.030 I/System.out( 3539): Location: -2.8090356 56.3399908 | GPSNavigator running:true
+04-04 15:23:30.030 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:33.033 I/System.out( 3539): Location: -2.80899249 56.34000247 | GPSNavigator running:true
+04-04 15:23:33.033 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:36.026 I/System.out( 3539): Location: -2.80894867 56.34001763 | GPSNavigator running:true
+04-04 15:23:36.026 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:39.029 I/System.out( 3539): Location: -2.80889636 56.34002963 | GPSNavigator running:true
+04-04 15:23:39.029 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:42.032 I/System.out( 3539): Location: -2.80883961 56.34004523 | GPSNavigator running:true
+04-04 15:23:42.032 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:44.514 D/dalvikvm( 3539): GC_CONCURRENT freed 389K, 5% free 9064K/9500K, paused 19ms+2ms, total 66ms
+04-04 15:23:45.025 I/System.out( 3539): Location: -2.80878589 56.34006395 | GPSNavigator running:true
+04-04 15:23:45.025 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:48.028 I/System.out( 3539): Location: -2.80873024 56.34008365 | GPSNavigator running:true
+04-04 15:23:48.028 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:51.031 I/System.out( 3539): Location: -2.8086735 56.34010589 | GPSNavigator running:true
+04-04 15:23:51.031 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:54.034 I/System.out( 3539): Location: -2.80861604 56.34012919 | GPSNavigator running:true
+04-04 15:23:54.034 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:23:57.037 I/System.out( 3539): Location: -2.80855877 56.34015041 | GPSNavigator running:true
+04-04 15:23:57.037 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:00.029 I/System.out( 3539): Location: -2.80850173 56.34017154 | GPSNavigator running:true
+04-04 15:24:00.029 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:03.032 I/System.out( 3539): Location: -2.80844284 56.3401912 | GPSNavigator running:true
+04-04 15:24:03.032 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:06.035 I/System.out( 3539): Location: -2.80838527 56.34020855 | GPSNavigator running:true
+04-04 15:24:06.035 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:09.038 I/System.out( 3539): Location: -2.80834654 56.34022034 | GPSNavigator running:true
+04-04 15:24:09.038 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:12.041 I/System.out( 3539): Location: -2.80833134 56.3402178 | GPSNavigator running:true
+04-04 15:24:12.041 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:15.044 I/System.out( 3539): Location: -2.80834224 56.34020259 | GPSNavigator running:true
+04-04 15:24:15.044 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:18.037 I/System.out( 3539): Location: -2.80838929 56.34017839 | GPSNavigator running:true
+04-04 15:24:18.037 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:21.040 I/System.out( 3539): Location: -2.80842067 56.34016649 | GPSNavigator running:true
+04-04 15:24:21.040 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:24.043 I/System.out( 3539): Location: -2.80844651 56.34017167 | GPSNavigator running:true
+04-04 15:24:24.043 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:25.154 D/dalvikvm(  713): GC_CONCURRENT freed 388K, 5% free 9986K/10468K, paused 4ms+2ms, total 53ms
+04-04 15:24:27.036 I/System.out( 3539): Location: -2.80849328 56.34015852 | GPSNavigator running:true
+04-04 15:24:27.036 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:30.039 I/System.out( 3539): Location: -2.80855339 56.34013262 | GPSNavigator running:true
+04-04 15:24:30.039 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:33.042 I/System.out( 3539): Location: -2.80861463 56.34010695 | GPSNavigator running:true
+04-04 15:24:33.042 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:36.035 I/System.out( 3539): Location: -2.8086718 56.34008886 | GPSNavigator running:true
+04-04 15:24:36.035 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:39.047 I/System.out( 3539): Location: -2.80872436 56.34007364 | GPSNavigator running:true
+04-04 15:24:39.047 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:42.050 I/System.out( 3539): Location: -2.80877724 56.34005561 | GPSNavigator running:true
+04-04 15:24:42.050 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:45.013 D/dalvikvm( 3539): GC_CONCURRENT freed 368K, 5% free 9081K/9488K, paused 2ms+2ms, total 18ms
+04-04 15:24:45.043 I/System.out( 3539): Location: -2.80884054 56.34003219 | GPSNavigator running:true
+04-04 15:24:45.043 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:48.046 I/System.out( 3539): Location: -2.80890948 56.34000908 | GPSNavigator running:true
+04-04 15:24:48.046 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:51.049 I/System.out( 3539): Location: -2.80896341 56.33999113 | GPSNavigator running:true
+04-04 15:24:51.049 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:54.052 I/System.out( 3539): Location: -2.80899728 56.33998471 | GPSNavigator running:true
+04-04 15:24:54.052 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:24:57.045 I/System.out( 3539): Location: -2.80903987 56.33998236 | GPSNavigator running:true
+04-04 15:24:57.045 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:00.048 I/System.out( 3539): Location: -2.80906279 56.33998223 | GPSNavigator running:true
+04-04 15:25:00.048 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:03.051 I/System.out( 3539): Location: -2.80901857 56.33999503 | GPSNavigator running:true
+04-04 15:25:03.051 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:06.054 I/System.out( 3539): Location: -2.80896362 56.34000813 | GPSNavigator running:true
+04-04 15:25:06.054 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:09.057 I/System.out( 3539): Location: -2.80890922 56.34002303 | GPSNavigator running:true
+04-04 15:25:09.057 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:12.050 I/System.out( 3539): Location: -2.80885436 56.34003754 | GPSNavigator running:true
+04-04 15:25:12.050 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:15.053 I/System.out( 3539): Location: -2.80880262 56.34005503 | GPSNavigator running:true
+04-04 15:25:15.053 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:15.083 I/rmt_storage(  185): rmt_storage_rw_iovec_cb: /boot/modem_fs2: clnt_h=0x2: req_h=0x11 msg_id=3: R/W request received
+04-04 15:25:15.083 I/rmt_storage(  185): wakelock acquired: 1, error no: 110
+04-04 15:25:15.083 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 Unblock worker thread (th_id: -1202649792)
+04-04 15:25:15.103 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0x11 msg_id=3: Bytes written = 261632
+04-04 15:25:15.103 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0x11 msg_id=3: Bytes written = 512
+04-04 15:25:15.103 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0x11 msg_id=3: Send response: res=0 err=0
+04-04 15:25:15.103 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 About to block rmt_storage client thread (th_id: -1202649792) wakelock released: 1, error no: 0
+04-04 15:25:15.103 I/rmt_storage(  185): 
+04-04 15:25:18.056 I/System.out( 3539): Location: -2.80874709 56.34007469 | GPSNavigator running:true
+04-04 15:25:18.056 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:21.048 I/System.out( 3539): Location: -2.80869104 56.34009465 | GPSNavigator running:true
+04-04 15:25:21.058 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:24.061 I/System.out( 3539): Location: -2.80863479 56.3401174 | GPSNavigator running:true
+04-04 15:25:24.061 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:27.064 I/System.out( 3539): Location: -2.80857957 56.34013964 | GPSNavigator running:true
+04-04 15:25:27.064 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:30.057 I/System.out( 3539): Location: -2.8085263 56.34016233 | GPSNavigator running:true
+04-04 15:25:30.057 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:33.060 I/System.out( 3539): Location: -2.80847008 56.34018175 | GPSNavigator running:true
+04-04 15:25:33.060 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:36.063 I/System.out( 3539): Location: -2.80841209 56.34019938 | GPSNavigator running:true
+04-04 15:25:36.063 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:39.066 I/System.out( 3539): Location: -2.80835472 56.34021673 | GPSNavigator running:true
+04-04 15:25:39.066 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:39.957 D/dalvikvm(  713): GC_CONCURRENT freed 385K, 5% free 9987K/10468K, paused 5ms+12ms, total 85ms
+04-04 15:25:42.059 I/System.out( 3539): Location: -2.80829994 56.34023909 | GPSNavigator running:true
+04-04 15:25:42.059 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:45.062 I/System.out( 3539): Location: -2.80826595 56.34025643 | GPSNavigator running:true
+04-04 15:25:45.062 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:45.352 D/dalvikvm( 3539): GC_CONCURRENT freed 392K, 5% free 9072K/9504K, paused 3ms+7ms, total 49ms
+04-04 15:25:48.055 I/System.out( 3539): Location: -2.80832351 56.34022322 | GPSNavigator running:true
+04-04 15:25:48.055 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:51.068 I/System.out( 3539): Location: -2.80837771 56.34020174 | GPSNavigator running:true
+04-04 15:25:51.068 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:54.071 I/System.out( 3539): Location: -2.80842047 56.34018495 | GPSNavigator running:true
+04-04 15:25:54.071 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:25:57.074 I/System.out( 3539): Location: -2.80846993 56.34017006 | GPSNavigator running:true
+04-04 15:25:57.074 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:00.067 I/System.out( 3539): Location: -2.80852603 56.34014583 | GPSNavigator running:true
+04-04 15:26:00.067 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:03.069 I/System.out( 3539): Location: -2.80858587 56.34012421 | GPSNavigator running:true
+04-04 15:26:03.069 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:06.072 I/System.out( 3539): Location: -2.80864372 56.34010663 | GPSNavigator running:true
+04-04 15:26:06.072 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:09.065 I/System.out( 3539): Location: -2.80869653 56.34009835 | GPSNavigator running:true
+04-04 15:26:09.065 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:12.078 I/System.out( 3539): Location: -2.80874762 56.34008552 | GPSNavigator running:true
+04-04 15:26:12.078 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:15.071 I/System.out( 3539): Location: -2.80880138 56.34006698 | GPSNavigator running:true
+04-04 15:26:15.071 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:18.064 I/System.out( 3539): Location: -2.80885857 56.3400489 | GPSNavigator running:true
+04-04 15:26:18.064 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:21.067 I/System.out( 3539): Location: -2.80891798 56.34003426 | GPSNavigator running:true
+04-04 15:26:21.067 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:24.080 I/System.out( 3539): Location: -2.80896984 56.34001351 | GPSNavigator running:true
+04-04 15:26:24.080 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:27.073 I/System.out( 3539): Location: -2.80901292 56.33999852 | GPSNavigator running:true
+04-04 15:26:27.073 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:28.074 D/dalvikvm(  520): GC_CONCURRENT freed 1623K, 13% free 15862K/18152K, paused 14ms+5ms, total 97ms
+04-04 15:26:30.066 I/System.out( 3539): Location: -2.80905172 56.33998725 | GPSNavigator running:true
+04-04 15:26:30.076 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:33.079 I/System.out( 3539): Location: -2.80908072 56.33998879 | GPSNavigator running:true
+04-04 15:26:33.079 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:36.072 I/System.out( 3539): Location: -2.8090383 56.33999575 | GPSNavigator running:true
+04-04 15:26:36.082 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:39.075 I/System.out( 3539): Location: -2.80898966 56.34000121 | GPSNavigator running:true
+04-04 15:26:39.075 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:42.078 I/System.out( 3539): Location: -2.80893672 56.3400094 | GPSNavigator running:true
+04-04 15:26:42.078 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:45.080 I/System.out( 3539): Location: -2.80888545 56.3400235 | GPSNavigator running:true
+04-04 15:26:45.080 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:45.911 D/dalvikvm( 3539): GC_CONCURRENT freed 391K, 5% free 9066K/9504K, paused 5ms+2ms, total 51ms
+04-04 15:26:48.083 I/System.out( 3539): Location: -2.80883225 56.3400362 | GPSNavigator running:true
+04-04 15:26:48.083 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:51.076 I/System.out( 3539): Location: -2.80878049 56.34005144 | GPSNavigator running:true
+04-04 15:26:51.076 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:53.979 D/dalvikvm(  713): GC_CONCURRENT freed 385K, 5% free 9987K/10468K, paused 4ms+6ms, total 78ms
+04-04 15:26:54.079 I/System.out( 3539): Location: -2.80872908 56.34007108 | GPSNavigator running:true
+04-04 15:26:54.079 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:26:57.082 I/System.out( 3539): Location: -2.80867559 56.3400929 | GPSNavigator running:true
+04-04 15:26:57.082 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:00.075 I/System.out( 3539): Location: -2.80862362 56.34011487 | GPSNavigator running:true
+04-04 15:27:00.075 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:03.078 I/System.out( 3539): Location: -2.80857427 56.34013389 | GPSNavigator running:true
+04-04 15:27:03.078 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:06.081 I/System.out( 3539): Location: -2.80852343 56.34015486 | GPSNavigator running:true
+04-04 15:27:06.081 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:09.084 I/System.out( 3539): Location: -2.80846786 56.34017272 | GPSNavigator running:true
+04-04 15:27:09.084 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:12.087 I/System.out( 3539): Location: -2.80841195 56.3401835 | GPSNavigator running:true
+04-04 15:27:12.087 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:15.090 I/System.out( 3539): Location: -2.80835972 56.34019432 | GPSNavigator running:true
+04-04 15:27:15.090 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:18.083 I/System.out( 3539): Location: -2.80830996 56.34020158 | GPSNavigator running:true
+04-04 15:27:18.093 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:21.096 I/System.out( 3539): Location: -2.80829022 56.34020491 | GPSNavigator running:true
+04-04 15:27:21.096 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:24.099 I/System.out( 3539): Location: -2.80831522 56.3401931 | GPSNavigator running:true
+04-04 15:27:24.099 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:27.101 I/System.out( 3539): Location: -2.80836182 56.34017909 | GPSNavigator running:true
+04-04 15:27:27.101 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:30.094 I/System.out( 3539): Location: -2.80840457 56.34017254 | GPSNavigator running:true
+04-04 15:27:30.094 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:33.097 I/System.out( 3539): Location: -2.80845737 56.34015422 | GPSNavigator running:true
+04-04 15:27:33.097 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:36.100 I/System.out( 3539): Location: -2.8085082 56.34014295 | GPSNavigator running:true
+04-04 15:27:36.100 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:39.103 I/System.out( 3539): Location: -2.80856763 56.34013422 | GPSNavigator running:true
+04-04 15:27:39.103 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:42.096 I/System.out( 3539): Location: -2.80861739 56.34012378 | GPSNavigator running:true
+04-04 15:27:42.096 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:45.099 I/System.out( 3539): Location: -2.80866525 56.34011764 | GPSNavigator running:true
+04-04 15:27:45.099 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:46.620 D/dalvikvm( 3539): GC_CONCURRENT freed 389K, 5% free 9064K/9504K, paused 6ms+7ms, total 70ms
+04-04 15:27:48.102 I/System.out( 3539): Location: -2.80871611 56.34011304 | GPSNavigator running:true
+04-04 15:27:48.102 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:51.095 I/System.out( 3539): Location: -2.80876548 56.34010729 | GPSNavigator running:true
+04-04 15:27:51.095 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:54.108 I/System.out( 3539): Location: -2.80880905 56.34011114 | GPSNavigator running:true
+04-04 15:27:54.108 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:57.111 I/System.out( 3539): Location: -2.80884182 56.34011139 | GPSNavigator running:true
+04-04 15:27:57.111 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:27:57.741 I/rmt_storage(  185): rmt_storage_rw_iovec_cb: /boot/modem_fs1: clnt_h=0x1: req_h=0x12 msg_id=3: R/W request received
+04-04 15:27:57.741 I/rmt_storage(  185): wakelock acquired: 1, error no: 110
+04-04 15:27:57.741 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1 Unblock worker thread (th_id: -1202650640)
+04-04 15:27:57.761 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1: req_h=0x12 msg_id=3: Bytes written = 261632
+04-04 15:27:57.761 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1: req_h=0x12 msg_id=3: Bytes written = 512
+04-04 15:27:57.771 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1: req_h=0x12 msg_id=3: Send response: res=0 err=0
+04-04 15:27:57.771 I/rmt_storage(  185): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1 About to block rmt_storage client thread (th_id: -1202650640) wakelock released: 1, error no: 0
+04-04 15:27:57.771 I/rmt_storage(  185): 
+04-04 15:28:00.104 I/System.out( 3539): Location: -2.80887252 56.34012369 | GPSNavigator running:true
+04-04 15:28:00.104 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:28:03.107 I/System.out( 3539): Location: -2.80890857 56.34012988 | GPSNavigator running:true
+04-04 15:28:03.107 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:28:06.110 I/System.out( 3539): Location: -2.80895162 56.34011671 | GPSNavigator running:true
+04-04 15:28:06.110 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:28:08.922 D/dalvikvm(  713): GC_CONCURRENT freed 386K, 5% free 9987K/10468K, paused 5ms+2ms, total 54ms
+04-04 15:28:09.112 I/System.out( 3539): Location: -2.80898509 56.34012346 | GPSNavigator running:true
+04-04 15:28:09.112 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:28:12.105 I/System.out( 3539): Location: -2.80894096 56.34012831 | GPSNavigator running:true
+04-04 15:28:12.105 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:28:15.108 I/System.out( 3539): Location: -2.80888886 56.34012342 | GPSNavigator running:true
+04-04 15:28:15.108 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:28:18.111 I/System.out( 3539): Location: -2.80884186 56.34011924 | GPSNavigator running:true
+04-04 15:28:18.111 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:28:21.104 I/System.out( 3539): Location: -2.80879204 56.34012212 | GPSNavigator running:true
+04-04 15:28:21.104 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:28:24.107 I/System.out( 3539): Location: -2.80872233 56.34014994 | GPSNavigator running:true
+04-04 15:28:24.107 I/System.out( 3539): Battery level: 100 | Time difference: -1
+04-04 15:28:25.749 I/System.out( 3539): Battery level start is reached
+04-04 15:28:27.110 I/System.out( 3539): Location: -2.80866164 56.3401742 | GPSNavigator running:true
+04-04 15:28:27.110 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:28:30.103 I/System.out( 3539): Location: -2.8086077 56.34018957 | GPSNavigator running:true
+04-04 15:28:30.103 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:28:33.106 I/System.out( 3539): Location: -2.80856319 56.34019997 | GPSNavigator running:true
+04-04 15:28:33.106 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:28:36.109 I/System.out( 3539): Location: -2.80852336 56.3402111 | GPSNavigator running:true
+04-04 15:28:36.109 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:28:39.112 I/System.out( 3539): Location: -2.80847447 56.34022554 | GPSNavigator running:true
+04-04 15:28:39.112 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:28:42.115 I/System.out( 3539): Location: -2.80842064 56.34023315 | GPSNavigator running:true
+04-04 15:28:42.115 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:28:45.118 I/System.out( 3539): Location: -2.80837035 56.34024523 | GPSNavigator running:true
+04-04 15:28:45.118 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:28:47.120 D/dalvikvm( 3539): GC_CONCURRENT freed 368K, 5% free 9081K/9496K, paused 5ms+2ms, total 70ms
+04-04 15:28:48.120 I/System.out( 3539): Location: -2.80832134 56.34025732 | GPSNavigator running:true
+04-04 15:28:48.120 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:28:51.123 I/System.out( 3539): Location: -2.80828216 56.34027019 | GPSNavigator running:true
+04-04 15:28:51.123 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:28:54.126 I/System.out( 3539): Location: -2.80824056 56.34027438 | GPSNavigator running:true
+04-04 15:28:54.126 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:28:57.129 I/System.out( 3539): Location: -2.80828328 56.34024419 | GPSNavigator running:true
+04-04 15:28:57.129 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:00.122 I/System.out( 3539): Location: -2.80834379 56.34020063 | GPSNavigator running:true
+04-04 15:29:00.122 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:03.125 I/System.out( 3539): Location: -2.80839911 56.34017104 | GPSNavigator running:true
+04-04 15:29:03.125 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:06.118 I/System.out( 3539): Location: -2.80844631 56.34015412 | GPSNavigator running:true
+04-04 15:29:06.118 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:09.121 I/System.out( 3539): Location: -2.80849901 56.34012551 | GPSNavigator running:true
+04-04 15:29:09.131 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:12.124 I/System.out( 3539): Location: -2.80855836 56.34009084 | GPSNavigator running:true
+04-04 15:29:12.124 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:15.127 I/System.out( 3539): Location: -2.80861534 56.34006483 | GPSNavigator running:true
+04-04 15:29:15.127 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:18.130 I/System.out( 3539): Location: -2.80867789 56.34004639 | GPSNavigator running:true
+04-04 15:29:18.130 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:21.133 I/System.out( 3539): Location: -2.80873174 56.34005611 | GPSNavigator running:true
+04-04 15:29:21.133 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:23.905 D/dalvikvm(  713): GC_CONCURRENT freed 385K, 5% free 9987K/10468K, paused 4ms+2ms, total 51ms
+04-04 15:29:24.126 I/System.out( 3539): Location: -2.80879323 56.34004503 | GPSNavigator running:true
+04-04 15:29:24.126 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:27.139 I/System.out( 3539): Location: -2.80885934 56.34003648 | GPSNavigator running:true
+04-04 15:29:27.139 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:30.131 I/System.out( 3539): Location: -2.80891506 56.34002131 | GPSNavigator running:true
+04-04 15:29:30.141 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:33.134 I/System.out( 3539): Location: -2.8089727 56.33999492 | GPSNavigator running:true
+04-04 15:29:33.134 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:36.137 I/System.out( 3539): Location: -2.80904082 56.33996681 | GPSNavigator running:true
+04-04 15:29:36.137 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:39.140 I/System.out( 3539): Location: -2.80909945 56.33995965 | GPSNavigator running:true
+04-04 15:29:39.140 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:42.143 I/System.out( 3539): Location: -2.80905597 56.33997456 | GPSNavigator running:true
+04-04 15:29:42.143 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:45.146 I/System.out( 3539): Location: -2.80899378 56.33999181 | GPSNavigator running:true
+04-04 15:29:45.146 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:47.909 D/dalvikvm( 3539): GC_CONCURRENT freed 391K, 5% free 9077K/9508K, paused 6ms+2ms, total 32ms
+04-04 15:29:48.139 I/System.out( 3539): Location: -2.80893196 56.34000624 | GPSNavigator running:true
+04-04 15:29:48.139 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:51.142 I/System.out( 3539): Location: -2.80886266 56.3400324 | GPSNavigator running:true
+04-04 15:29:51.152 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:54.145 I/System.out( 3539): Location: -2.80878168 56.34006797 | GPSNavigator running:true
+04-04 15:29:54.145 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:29:57.148 I/System.out( 3539): Location: -2.8087078 56.34009638 | GPSNavigator running:true
+04-04 15:29:57.148 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:00.151 I/System.out( 3539): Location: -2.80865169 56.34011833 | GPSNavigator running:true
+04-04 15:30:00.151 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:01.042 V/DigitalWidgetViewsFactory( 1074): DigitalWidget sets next alarm string to null
+04-04 15:30:03.144 I/System.out( 3539): Location: -2.80859369 56.34011944 | GPSNavigator running:true
+04-04 15:30:03.144 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:03.504 D/dalvikvm(  713): GC_CONCURRENT freed 268K, 4% free 10107K/10468K, paused 10ms+2ms, total 78ms
+04-04 15:30:04.815 D/dalvikvm(  713): GC_CONCURRENT freed 313K, 4% free 10301K/10652K, paused 2ms+3ms, total 50ms
+04-04 15:30:04.815 D/dalvikvm(  713): WAIT_FOR_CONCURRENT_GC blocked 11ms
+04-04 15:30:04.895 D/dalvikvm(  713): GC_CONCURRENT freed 454K, 5% free 10356K/10848K, paused 9ms+2ms, total 32ms
+04-04 15:30:04.895 D/dalvikvm(  713): WAIT_FOR_CONCURRENT_GC blocked 13ms
+04-04 15:30:06.147 I/System.out( 3539): Location: -2.80864296 56.34010167 | GPSNavigator running:true
+04-04 15:30:06.147 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:06.987 D/dalvikvm(  520): GC_CONCURRENT freed 1624K, 13% free 15868K/18152K, paused 11ms+7ms, total 135ms
+04-04 15:30:09.150 I/System.out( 3539): Location: -2.80870635 56.34008342 | GPSNavigator running:true
+04-04 15:30:09.150 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:10.000 D/dalvikvm(  713): GC_EXPLICIT freed 517K, 9% free 9910K/10848K, paused 9ms+3ms, total 47ms
+04-04 15:30:12.152 I/System.out( 3539): Location: -2.80877244 56.34005775 | GPSNavigator running:true
+04-04 15:30:12.162 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:13.824 I/dalvikvm(  713): Jit: resizing JitTable from 4096 to 8192
+04-04 15:30:13.894 D/dalvikvm(  713): GC_CONCURRENT freed 381K, 8% free 10041K/10848K, paused 9ms+2ms, total 30ms
+04-04 15:30:13.904 D/dalvikvm(  713): WAIT_FOR_CONCURRENT_GC blocked 23ms
+04-04 15:30:13.904 D/dalvikvm(  713): WAIT_FOR_CONCURRENT_GC blocked 28ms
+04-04 15:30:15.155 I/System.out( 3539): Location: -2.80884243 56.34003861 | GPSNavigator running:true
+04-04 15:30:15.155 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:18.158 I/System.out( 3539): Location: -2.80891572 56.34002253 | GPSNavigator running:true
+04-04 15:30:18.158 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:21.161 I/System.out( 3539): Location: -2.80898441 56.34000424 | GPSNavigator running:true
+04-04 15:30:21.161 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:22.863 D/dalvikvm(  713): GC_CONCURRENT freed 399K, 7% free 10145K/10848K, paused 3ms+3ms, total 45ms
+04-04 15:30:22.863 D/dalvikvm(  713): WAIT_FOR_CONCURRENT_GC blocked 10ms
+04-04 15:30:22.943 D/dalvikvm(  713): GC_CONCURRENT freed 376K, 6% free 10281K/10848K, paused 2ms+3ms, total 39ms
+04-04 15:30:22.943 D/dalvikvm(  713): WAIT_FOR_CONCURRENT_GC blocked 13ms
+04-04 15:30:24.154 I/System.out( 3539): Location: -2.80904766 56.33999366 | GPSNavigator running:true
+04-04 15:30:24.154 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:27.157 I/System.out( 3539): Location: -2.80908435 56.33998811 | GPSNavigator running:true
+04-04 15:30:27.157 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:29.920 W/System.err(  713): java.net.UnknownHostException: Unable to resolve host "www.google.com": No address associated with hostname
+04-04 15:30:29.920 W/System.err(  713): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:424)
+04-04 15:30:29.920 W/System.err(  713): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:236)
+04-04 15:30:29.920 W/System.err(  713): 	at java.net.InetAddress.getAllByName(InetAddress.java:214)
+04-04 15:30:29.920 W/System.err(  713): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+04-04 15:30:29.920 W/System.err(  713): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+04-04 15:30:29.920 W/System.err(  713): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+04-04 15:30:29.920 W/System.err(  713): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+04-04 15:30:29.920 W/System.err(  713): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+04-04 15:30:29.920 W/System.err(  713): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+04-04 15:30:29.920 W/System.err(  713): 	at android.net.http.AndroidHttpClient.execute(AndroidHttpClient.java:257)
+04-04 15:30:29.920 W/System.err(  713): 	at le.a(SourceFile:202)
+04-04 15:30:29.920 W/System.err(  713): 	at le.execute(SourceFile:244)
+04-04 15:30:29.920 W/System.err(  713): 	at le.execute(SourceFile:312)
+04-04 15:30:29.920 W/System.err(  713): 	at dxo.g(SourceFile:126)
+04-04 15:30:29.920 W/System.err(  713): 	at dxo.c(SourceFile:172)
+04-04 15:30:29.920 W/System.err(  713): 	at eaa.run(SourceFile:418)
+04-04 15:30:29.920 W/System.err(  713): 	at dzz.b(SourceFile:224)
+04-04 15:30:29.920 W/System.err(  713): 	at dzz.run(SourceFile:198)
+04-04 15:30:29.920 W/System.err(  713): 	at dxw.run(SourceFile:96)
+04-04 15:30:29.920 W/System.err(  713): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+04-04 15:30:29.920 W/System.err(  713): 	at libcore.io.Posix.getaddrinfo(Native Method)
+04-04 15:30:29.920 W/System.err(  713): 	at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:61)
+04-04 15:30:29.920 W/System.err(  713): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:405)
+04-04 15:30:29.930 W/System.err(  713): 	... 18 more
+04-04 15:30:29.950 D/dalvikvm(  713): GC_CONCURRENT freed 784K, 9% free 9923K/10840K, paused 27ms+1ms, total 71ms
+04-04 15:30:30.160 I/System.out( 3539): Location: -2.80909707 56.33997648 | GPSNavigator running:true
+04-04 15:30:30.160 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:33.163 I/System.out( 3539): Location: -2.80911254 56.33996784 | GPSNavigator running:true
+04-04 15:30:33.163 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:36.156 I/System.out( 3539): Location: -2.80912294 56.33996172 | GPSNavigator running:true
+04-04 15:30:36.156 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:39.159 I/System.out( 3539): Location: -2.80912501 56.3399603 | GPSNavigator running:true
+04-04 15:30:39.159 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:42.162 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:30:42.162 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:45.165 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:30:45.165 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:48.168 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:30:48.168 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:49.449 D/dalvikvm( 3539): GC_CONCURRENT freed 384K, 5% free 9081K/9508K, paused 6ms+2ms, total 67ms
+04-04 15:30:51.161 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:30:51.171 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:54.163 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:30:54.163 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:30:57.166 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:30:57.166 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:00.169 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:00.169 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:03.172 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:03.172 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:06.165 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:06.165 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:09.168 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:09.168 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:12.171 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:12.171 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:15.174 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:15.174 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:18.167 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:18.167 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:21.170 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:21.170 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:24.173 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:24.173 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:27.176 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:27.176 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:30.179 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:30.179 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:33.182 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:33.182 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:36.174 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:36.174 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:39.177 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:39.177 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:42.180 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:42.180 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:45.183 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:45.183 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:48.186 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:48.186 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:51.189 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:51.189 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:54.192 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:54.192 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:31:54.963 D/dalvikvm( 3539): GC_CONCURRENT freed 395K, 5% free 9070K/9508K, paused 8ms+2ms, total 66ms
+04-04 15:31:57.195 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:31:57.195 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:00.188 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:00.188 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:03.191 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:03.191 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:06.194 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:06.194 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:09.187 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:09.187 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:12.200 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:12.200 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:15.193 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:15.193 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:18.195 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:18.195 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:21.198 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:21.198 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:24.191 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:24.201 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:27.194 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:27.194 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:30.197 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:30.197 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:33.200 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:33.200 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:36.193 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:36.193 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:39.196 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:39.196 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:42.209 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:42.209 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:45.212 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:45.212 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:48.215 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:48.215 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:51.208 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:51.208 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:54.211 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:54.211 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:32:57.214 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:32:57.214 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:00.216 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:00.216 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:03.219 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:03.219 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:06.212 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:06.212 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:07.874 D/dalvikvm( 3539): GC_CONCURRENT freed 393K, 5% free 9063K/9508K, paused 8ms+2ms, total 63ms
+04-04 15:33:09.215 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:09.215 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:12.218 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:12.218 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:15.221 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:15.221 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:18.224 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:18.224 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:21.217 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:21.217 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:24.220 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:24.220 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:27.223 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:27.223 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:30.226 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:30.226 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:33.229 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:33.229 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:36.232 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:36.232 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:39.224 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:39.224 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:42.227 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:42.227 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:45.230 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:45.230 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:48.233 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:48.233 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:51.226 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:51.226 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:54.229 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:54.229 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:33:57.232 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:33:57.242 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:34:00.235 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:00.235 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:34:03.238 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:03.238 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:34:06.241 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:06.241 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:34:09.244 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:09.244 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:34:12.237 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:12.237 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:34:15.240 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:15.240 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:34:18.243 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:18.243 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:34:20.675 D/dalvikvm( 3539): GC_CONCURRENT freed 392K, 5% free 9057K/9500K, paused 5ms+6ms, total 83ms
+04-04 15:34:21.245 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:21.245 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:34:23.117 D/dalvikvm(  713): GC_CONCURRENT freed 294K, 7% free 10141K/10836K, paused 3ms+5ms, total 44ms
+04-04 15:34:23.117 D/dalvikvm(  713): WAIT_FOR_CONCURRENT_GC blocked 21ms
+04-04 15:34:23.187 D/dalvikvm(  713): GC_CONCURRENT freed 414K, 6% free 10238K/10836K, paused 3ms+2ms, total 39ms
+04-04 15:34:23.187 D/dalvikvm(  713): WAIT_FOR_CONCURRENT_GC blocked 22ms
+04-04 15:34:24.248 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:24.248 I/System.out( 3539): Battery level: 99 | Time difference: -1
+04-04 15:34:26.721 I/System.out( 3539): Battery level end is reached
+04-04 15:34:27.251 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:27.251 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:34:30.254 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:30.254 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:34:32.136 D/dalvikvm(  713): GC_CONCURRENT freed 716K, 8% free 10028K/10848K, paused 10ms+2ms, total 35ms
+04-04 15:34:32.136 D/dalvikvm(  713): WAIT_FOR_CONCURRENT_GC blocked 17ms
+04-04 15:34:33.247 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:33.247 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:34:36.250 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:36.250 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:34:39.253 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:39.253 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:34:41.105 D/dalvikvm(  713): GC_CONCURRENT freed 382K, 7% free 10142K/10848K, paused 3ms+2ms, total 43ms
+04-04 15:34:41.105 D/dalvikvm(  713): WAIT_FOR_CONCURRENT_GC blocked 12ms
+04-04 15:34:41.155 D/dalvikvm(  713): GC_CONCURRENT freed 397K, 6% free 10256K/10848K, paused 1ms+3ms, total 22ms
+04-04 15:34:41.155 D/dalvikvm(  713): WAIT_FOR_CONCURRENT_GC blocked 10ms
+04-04 15:34:42.246 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:42.246 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:34:45.259 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:45.259 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:34:47.481 D/dalvikvm(  713): GC_CONCURRENT freed 725K, 9% free 9918K/10832K, paused 5ms+9ms, total 64ms
+04-04 15:34:48.252 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:48.252 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:34:50.074 D/dalvikvm(  713): GC_CONCURRENT freed 407K, 8% free 10022K/10832K, paused 2ms+2ms, total 25ms
+04-04 15:34:50.074 D/dalvikvm(  713): WAIT_FOR_CONCURRENT_GC blocked 13ms
+04-04 15:34:51.245 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:51.245 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:34:54.248 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:54.258 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:34:57.251 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:34:57.251 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:35:00.244 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:00.244 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:35:03.246 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:03.246 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:35:06.259 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:06.259 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:35:09.262 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:09.262 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:35:12.255 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:12.255 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:35:15.258 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:15.258 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:35:17.410 I/EntropyMixer(  520): Writing entropy...
+04-04 15:35:17.430 W/PowerUI (  597): unknown intent: Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x8000010 }
+04-04 15:35:17.440 D/PicasaSyncManager( 1569): battery info: true
+04-04 15:35:17.450 D/PicasaUploaderSyncManager( 1819): battery info: true
+04-04 15:35:18.261 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:18.261 I/System.out( 3539): Battery level: 98 | Time difference: 360
+04-04 15:35:21.174 D/MtpService(  662): updating state; isCurrentUser=true, mMtpLocked=false
+04-04 15:35:21.184 D/MtpService(  662): addStorageLocked 65537 /storage/emulated/0
+04-04 15:35:21.184 D/MtpService(  662): updating state; isCurrentUser=true, mMtpLocked=false
+04-04 15:35:21.184 D/MtpService(  662): starting MTP server in MTP mode
+04-04 15:35:21.184 D/MtpService(  662): addStorageLocked 65537 /storage/emulated/0
+04-04 15:35:21.254 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:21.254 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:35:24.257 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:24.257 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:35:27.260 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:27.260 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:35:30.263 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:30.263 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:35:33.266 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:33.266 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:35:36.259 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:36.259 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:35:39.262 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:39.262 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:35:42.255 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:42.255 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:35:45.267 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:45.267 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:35:48.260 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:48.260 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:35:51.263 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:51.263 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:35:52.424 D/dalvikvm( 3539): GC_FOR_ALLOC freed 512K, 6% free 9059K/9608K, paused 61ms, total 61ms
+04-04 15:35:54.256 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:54.256 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:35:57.259 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:35:57.259 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:00.262 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:00.262 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:03.265 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:03.265 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:06.268 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:06.268 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:09.261 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:09.271 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:12.254 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:12.254 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:15.267 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:15.267 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:18.270 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:18.270 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:21.263 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:21.263 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:24.255 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:24.266 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:27.268 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:27.268 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:30.271 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:30.271 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:33.264 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:33.264 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:36.267 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:36.267 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:39.270 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:39.270 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:42.263 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:42.263 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:45.266 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:45.266 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:48.269 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:48.269 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:51.272 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:51.272 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:54.265 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:54.265 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:36:57.268 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:36:57.268 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:37:00.271 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:37:00.271 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:37:03.274 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:37:03.274 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:37:06.266 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:37:06.266 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:37:09.269 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:37:09.269 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:37:12.272 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:37:12.272 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:37:15.265 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:37:15.265 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:37:18.268 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:37:18.268 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:37:21.271 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:37:21.271 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:37:24.324 D/dalvikvm( 3539): GC_FOR_ALLOC freed 507K, 6% free 9062K/9608K, paused 63ms, total 65ms
+04-04 15:37:24.334 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:37:24.334 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:37:27.267 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:37:27.267 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:37:30.270 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:37:30.270 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:37:33.273 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:37:33.273 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:37:36.266 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:37:36.266 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:37:39.269 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:37:39.269 I/System.out( 3539): Battery level: 99 | Time difference: 360
+04-04 15:37:42.272 I/System.out( 3539): Location: -2.80912519 56.33996016 | GPSNavigator running:true
+04-04 15:37:42.272 I/System.out( 3539): Battery level: 99 | Time difference: 360
