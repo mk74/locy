@@ -6,135 +6,111 @@ This section specifies the properties the software solution must satisfy to fulf
 
 \begin{table}[H]
 	\centering
-    \begin{tabular}{| l | l |}
+    \begin{tabular}{| l | p{12.0cm} |}
     \hline
-     \multicolumn{2}{| l |}{ \textbf{All software components of the project will work on the Android mobile operating system.} }  \\ \hline
+     \multicolumn{2}{| l |}{ \textbf{1. All software components of the project will work on the Android mobile operating system.} }  \\ \hline
     \bf{Type} & non-functional\\ \hline
     \bf{Priority} & 1\\ \hline
     \bf{Description} & x\\ \hline
     \end{tabular}
-    \label{something1}
+    \label{r:devices:android}
 \end{table}
 
 \begin{table}[H]
 	\centering
-    \begin{tabular}{| l | l |}
+    \begin{tabular}{| l | p{12.0cm} |}
     \hline
-     \multicolumn{2}{| l |}{ \textbf{Software components should work on a variety of Android devices.} }  \\ \hline
+     \multicolumn{2}{| l |}{ \textbf{2. Software components should work on a variety of Android devices.} }  \\ \hline
     \bf{Type} & non-functional\\ \hline
     \bf{Priority} & 2\\ \hline
     \bf{Description} & x\\ \hline
     \end{tabular}
-    \label{something2}
+     \label{r:devices:different}
 \end{table}
 
 \begin{table}[H]
 	\centering
-    \begin{tabular}{| l | l |}
+    \begin{tabular}{| l | p{12.0cm} |}
     \hline
-     \multicolumn{2}{| l |}{ \textbf{The project should empirically determine the energy costs of different sensors.} }  \\ \hline
+     \multicolumn{2}{| l |}{ \textbf{3. The project should empirically determine the energy costs of different sensors.} }  \\ \hline
     \bf{Type} & functional\\ \hline
     \bf{Priority} & 1\\ \hline
     \bf{Description} & x\\ \hline
     \end{tabular}
-    \label{something3}
+    \label{r:measurement:main}
 \end{table}
 
 
 \begin{table}[H]
 	\centering
-    \begin{tabular}{| l | l |}
+    \begin{tabular}{| l | p{12.0cm} |}
     \hline
-     \multicolumn{2}{| l |}{ \textbf{The library will calculate energy costs of different sensors in real time.} }  \\ \hline
+     \multicolumn{2}{| l |}{ \textbf{4. The library will calculate energy costs of different sensors in real time.} }  \\ \hline
     \bf{Type} & functional\\ \hline
     \bf{Priority} & 2\\ \hline
     \bf{Description} & x\\ \hline
     \end{tabular}
     \label{something4}
+    \label{r:measurement:online}
 \end{table}
 
-
- 
-All software components of the project will work on the Android mobile operating system.
-priority:1
-type: non-functional
-Description: 
-
-Software components should work on a variety of Android devices.
-priority:2
-type: non-functional
-Description: 
-
-
-The project should empirically determine the energy costs of different sensors.
-priority:1
-type: functional
-Description: 
- 
-The library will calculate energy costs of different sensors in real time.
-priority:2
-type: functional
-Description: 
-
 \subsection{The energy-efficient sensing library}
-Energy efficiency and accuracy of the library should be tested against a baseline 
-implementation.
-priority:1
-type:functional
-Description: 
-
-The library will be integrated with Tristan's experience sampling method~ (ESM) mobile application.
-priority:1
-type:functional
-Description: 
-
-The energy saving algorithm should be adaptive according to current battery life.
-priority:2
-type:functional
-Description: 
-
-The library intends to manage mobile applications' contention for sensor usage
-priority:2.  
-type:functional
-Description: 
-
-The energy saving algorithm should improve its performance by learning from user behaviour. 
-priority:3
-type:functional
-Description: 
-
-
-The project and the library should satisfy the following set of requirements:
-\begin{enumerate}[(a)]
- \item Primary requirements
-  \begin{itemize}
-  	\item All software components of the project will work on the Android mobile operating 
-system.
-    \item Energy efficiency and accuracy of the library should be tested against a baseline 
-implementation.
-    \item The project should empirically determine energy costs of different sensors.
-    \item The library will be integrated with Tristan's experience sampling method~ (ESM) mobile application.
-  \end{itemize}
-  \item Secondary requirements
-  \begin{itemize}
-	\item The library will calculate energy costs of different sensors in real time.
-  	\item Software components should work on a variety of Android devices.
-    \item The energy saving algorithm should be adaptive according to current battery life.
-    \item The library intends to manage mobile applications' contention for sensor usage.  
-  \end{itemize}
-  \item Tertiary requirements
-  \begin{itemize}
-  	\item The energy saving algorithm should improve its performance by learning from user behaviour. 
-  \end{itemize}
-\end{enumerate}
+\begin{table}[H]
+	\centering
+    \begin{tabular}{| l | p{12.0cm} |}
+    \hline
+     \multicolumn{2}{| p{14.0cm} |}{ \textbf{5. Energy efficiency and accuracy of the library should be tested against a baseline implementation.} }  \\ \hline
+    \bf{Type} & functional\\ \hline
+    \bf{Priority} & 1\\ \hline
+    \bf{Description} & x\\ \hline
+    \end{tabular}
+    \label{r:library:evaluation}
+\end{table}
 
 \begin{table}[H]
 	\centering
-    \begin{tabular}{| l | l |}
+    \begin{tabular}{| l | p{12.0cm} |}
     \hline
-     \multicolumn{2}{| l |}{Var}  \\ \hline
-    Type & x\\ \hline
-    Priority & x\\ \hline
-    Description & x\\ \hline
+     \multicolumn{2}{| p{14.0cm} |}{ \textbf{6. The library will be integrated with Tristan's experience sampling method~ (ESM) mobile application.} }  \\ \hline
+    \bf{Type} & functional\\ \hline
+    \bf{Priority} & 1\\ \hline
+    \bf{Description} & x\\ \hline
     \end{tabular}
-\end{table}	
+    \label{r:library:esm}
+\end{table}
+
+\begin{table}[H]
+	\centering
+    \begin{tabular}{| l | p{12.0cm} |}
+    \hline
+     \multicolumn{2}{| l |}{ \textbf{7. The energy saving algorithm should be adaptive according to current battery life.} }  \\ \hline
+    \bf{Type} & functional\\ \hline
+    \bf{Priority} & 2\\ \hline
+    \bf{Description} & x\\ \hline
+    \end{tabular}
+    \label{r:library:adaptive}
+\end{table}
+
+\begin{table}[H]
+	\centering
+    \begin{tabular}{| l | p{12.0cm} |}
+    \hline
+     \multicolumn{2}{| l |}{ \textbf{8. The library intends to manage mobile applications' contention for sensor usage.} }  \\ \hline
+    \bf{Type} & functional\\ \hline
+    \bf{Priority} & 2\\ \hline
+    \bf{Description} & x\\ \hline
+    \end{tabular}
+    \label{r:library:contention}
+\end{table}
+
+\begin{table}[H]
+	\centering
+    \begin{tabular}{| l | p{12.0cm} |}
+    \hline
+     \multicolumn{2}{| p{14.0cm} |}{ \textbf{9. The energy saving algorithm should improve its performance by learning from user behaviour. } }  \\ \hline
+    \bf{Type} & functional\\ \hline
+    \bf{Priority} & 3\\ \hline
+    \bf{Description} & x\\ \hline
+    \end{tabular}
+    \label{r:library:history}
+\end{table}
