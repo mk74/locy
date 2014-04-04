@@ -1,0 +1,1866 @@
+--------- beginning of /dev/log/main
+04-04 17:38:52.601 I/power   ( 1574): *** set_screen_state 0
+04-04 17:38:52.601 D/PowerManagerService( 1574): setScreenStateLocked++, on: false, err: 0
+04-04 17:38:52.611 D/PowerManagerService( 1574): setScreenStateLocked, turn off the button light 
+04-04 17:38:52.611 D/lights  ( 1574): set_light_buttons_func: on=0 brightness=0
+04-04 17:38:52.611 D/lights  ( 1574): set_rotated_rgb_led: on=0 brightness=0
+04-04 17:38:52.611 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber-portrait/brightness string=0,len=1
+04-04 17:38:52.611 D/lights  ( 1574): set_rotated_rgb_led: on=0 brightness=0
+04-04 17:38:52.611 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green-portrait/brightness string=0,len=1
+04-04 17:38:52.611 D/lights  ( 1574): set_rotated_rgb_led: on=0 brightness=0
+04-04 17:38:52.621 E/lights  ( 1574): [LedErr] open attr failed name=/sys/class/leds/blue-portrait/brightness errno: 2
+04-04 17:38:52.621 V/KeyguardViewMediator( 1574): password timeout now
+04-04 17:38:52.631 D/HtcLockScreen( 1574): createPatternUnlockScreen() ...
+04-04 17:38:52.631 D/HtcLockScreen( 1574): packageInfo - PackageInfo{4095b198 com.htc.lockscreen}
+04-04 17:38:52.641 D/Sensors ( 1574): Enable akm: en = 0
+04-04 17:38:52.681 D/HostWidgetManager( 1683): pauseWidgets: 2
+04-04 17:38:52.691 D/PhoneWindow( 1683): couldn't save which view has focus because the focused view android.widget.RelativeLayout@407c12a0 has no id.
+04-04 17:38:52.691 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+--------- beginning of /dev/log/system
+04-04 17:38:52.691 D/AlarmManager( 1574): ACTION_SCREEN_OFF
+04-04 17:38:52.701 D/UsbnetService( 1574): onReceive SCREEN_OFF
+04-04 17:38:52.711 D/RemoveMe( 1671): DCT got intent android.intent.action.SCREEN_OFF
+04-04 17:38:52.711 D/DataConnectionTracker( 1671): power saving case 6
+04-04 17:38:52.711 D/DataConnectionTracker( 1671): power saving case 6
+04-04 17:38:52.711 D/ConnectivityService( 1574): getMobileDataEnabled returning false
+04-04 17:38:52.711 D/ConnectivityService( 1574): getMobileDataEnabled returning false
+04-04 17:38:52.721 D/ContactMessageStore( 1671): start background delete task...
+04-04 17:38:52.721 D/RemoveMe( 1671): DCT got intent android.intent.action.SCREEN_OFF
+04-04 17:38:52.721 D/RemoveMe( 1671): DCT got intent android.intent.action.SCREEN_OFF
+04-04 17:38:52.741 D/AutoSetting( 3574): service - mHandler: cancel location update
+04-04 17:38:52.741 I/TabletStatusBar( 1648): DISABLE_CLOCK: yes
+04-04 17:38:52.741 I/TabletStatusBar( 1648): DISABLE_EXPAND: yes
+04-04 17:38:52.741 I/TabletStatusBar( 1648): DISABLE_NAVIGATION: yes
+04-04 17:38:52.781 D/SurfaceFlinger( 1438): getTokenForSurface(0xc79f4) => 0 (client=0xa2580, bitmap=00000003), pid=1574
+04-04 17:38:52.781 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+04-04 17:38:52.821 D/dalvikvm( 3551): GC_EXPLICIT freed 6K, 8% free 7018K/7623K, paused 1ms+5ms
+04-04 17:38:52.831 D/AutoSetting( 3574): service -           changes count: 0
+04-04 17:38:52.841 D/AK8975  ( 1448): Compass CLOSE 
+04-04 17:38:52.851 D/dalvikvm( 3551): GC_EXPLICIT freed 1K, 8% free 7018K/7623K, paused 1ms+1ms
+04-04 17:38:52.861 D/SurfaceFlinger( 1438): About to give-up screen, flinger = 0xa830
+04-04 17:38:52.861 I/TabletStatusBar( 1648): DISABLE_BACK: yes
+04-04 17:38:52.901 D/ContactMessageStore( 1671): size: 0 , 0
+04-04 17:38:52.911 D/SurfaceFlinger( 1438): getTokenForSurface(0xa2764) => 0 (client=0xc7e80, bitmap=00000001), pid=3551
+04-04 17:38:52.921 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+04-04 17:38:52.931 D/IdleScreen_base( 3551): onRingUnlockEnd
+04-04 17:38:52.961 W/msm7x30.hwcomposer( 1438): hwc_set invalid context or list
+04-04 17:38:52.961 D/msm7x30.hwcomposer( 1438): HWC called FB enableHDMIOutput(0)
+04-04 17:38:52.961 D/ContactMessageStore( 1671): Background delete complete
+04-04 17:38:52.961 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+04-04 17:38:57.836 D/dalvikvm( 3574): GC_EXPLICIT freed 174K, 5% free 6766K/7111K, paused 6ms+1ms
+04-04 17:39:12.650 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+04-04 17:39:12.650 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+04-04 17:39:12.650 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = true
+04-04 17:39:12.650 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+04-04 17:39:12.650 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+04-04 17:39:12.660 D/BatteryService( 1574): SendIntentforPowersaver
+04-04 17:39:12.660 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 5 2 false
+04-04 17:39:12.680 D/RemoveMe( 1671): DCT got intent android.intent.action.BATTERY_CHANGED
+04-04 17:39:12.680 D/PowerUI ( 1648): closing low battery warning: level=100
+04-04 17:39:12.690 D/RemoveMe( 1671): DCT got intent android.intent.action.BATTERY_CHANGED
+04-04 17:39:12.690 D/RemoveMe( 1671): DCT got intent android.intent.action.BATTERY_CHANGED
+04-04 17:39:12.690 D/PowerUI ( 1648): plugged = true, health = 2, mBatteryLevel = 100, mPluggedBatteryLevel = 100, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+04-04 17:39:34.311 D/KeyguardViewMediator( 1574): wakeWhenReadyLocked(26)
+04-04 17:39:34.311 I/power   ( 1574): *** set_screen_state 1
+04-04 17:39:34.321 D/PowerManagerService( 1574): setScreenStateLocked++, on: true, err: 0
+04-04 17:39:34.321 D/lights  ( 1574): set_light_buttons_func: on=16777215 brightness=255
+04-04 17:39:34.321 D/lights  ( 1574): set_rotated_rgb_led: on=0 brightness=0
+04-04 17:39:34.321 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber-portrait/brightness string=0,len=1
+04-04 17:39:34.321 D/lights  ( 1574): set_rotated_rgb_led: on=1 brightness=255
+04-04 17:39:34.321 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green-portrait/brightness string=255,len=3
+04-04 17:39:34.321 D/lights  ( 1574): set_rotated_rgb_led: on=0 brightness=0
+04-04 17:39:34.321 E/lights  ( 1574): [LedErr] open attr failed name=/sys/class/leds/blue-portrait/brightness errno: 2
+04-04 17:39:34.321 D/Sensors ( 1574): Enable akm: en = 1
+04-04 17:39:34.321 D/PowerManagerService( 1574): button light setOrientation:-1
+04-04 17:39:34.321 D/PowerManagerService( 1574): setPenMenuButtonLed: 2
+04-04 17:39:34.321 D/PowerManagerService( 1574): Set pen menu button led (amber, green, blue) = 0, -1, 0), portrait = true
+04-04 17:39:34.331 D/Launcher.Model( 1683): updateAppUsageStatCache +
+04-04 17:39:34.331 D/Launcher.Model( 1683): updateAppUsageStatCache - diff: 3
+04-04 17:39:34.361 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+04-04 17:39:34.361 D/UsbnetService( 1574): onReceive SCREEN_ON
+04-04 17:39:34.361 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+04-04 17:39:34.361 D/AlarmManager( 1574): ACTION_SCREEN_ON
+04-04 17:39:34.371 D/RemoveMe( 1671): DCT got intent android.intent.action.SCREEN_ON
+04-04 17:39:34.371 D/SurfaceFlinger( 1438): Screen about to return, flinger = 0xa830
+04-04 17:39:34.371 D/msm7x30.hwcomposer( 1438): HWC called FB enableHDMIOutput(0)
+04-04 17:39:34.371 D/ConnectivityService( 1574): getMobileDataEnabled returning false
+04-04 17:39:34.381 D/ConnectivityService( 1574): getMobileDataEnabled returning false
+04-04 17:39:34.391 D/PREF    ( 1683): setWidgetTilt .FriendStreamLarge2Widget : 39
+04-04 17:39:34.401 D/StatusBar.NetworkController( 1648): mSignalStrength.isGsm() == true
+04-04 17:39:34.411 D/RemoveMe( 1671): DCT got intent android.intent.action.SCREEN_ON
+04-04 17:39:34.411 D/HostWidgetManager( 1683): onResumeInKeyguard: 2
+04-04 17:39:34.411 D/FxWorkspace( 1683): prepareUnlockAnimation
+04-04 17:39:34.411 D/FxWorkspaceClient( 1683): showAllScreens()
+04-04 17:39:34.411 D/FxWorkspaceClient( 1683): freezeAllScreens
+04-04 17:39:34.421 D/RemoveMe( 1671): DCT got intent android.intent.action.SCREEN_ON
+04-04 17:39:34.421 D/AK8975  ( 1448): Compass Start
+04-04 17:39:34.431 D/UnlockAnimator( 1683): setFrame: unlock_to_03
+04-04 17:39:34.431 D/Rotate.Performance( 1683): FxWorkspace.show()
+04-04 17:39:35.042 D/HtcLockScreen3.0( 1574): HtcLockScreen: onInterceptTouchEvent ACTION_DOWN
+04-04 17:39:35.583 D/HtcLockScreen3.0( 1574): HtcLockScreen: onInterceptTouchEvent ACTION_UP
+04-04 17:39:35.593 D/IdleScreen_base( 3551): onRingUnlockStart
+04-04 17:39:35.903 D/KeyguardViewManager( 1574): hide()
+04-04 17:39:35.903 I/TabletStatusBar( 1648): DISABLE_CLOCK: no
+04-04 17:39:35.903 I/TabletStatusBar( 1648): DISABLE_NAVIGATION: no
+04-04 17:39:35.913 D/MyHTC   ( 3654): PoweronReceiver.onReceive(): intent=android.intent.action.USER_PRESENT
+04-04 17:39:35.913 D/FxWorkspace( 1683): unlockAnimation
+04-04 17:39:35.913 D/FxWorkspace( 1683): onUnlockAnimationStart()
+04-04 17:39:35.913 D/UnlockAnimator( 1683): playMarker: unlock_to_03
+04-04 17:39:35.923 D/FxWorkspaceClient( 1683): showAllScreens()
+04-04 17:39:35.923 D/Rotate.Performance( 1683): FxWorkspace.show()
+04-04 17:39:35.923 D/Twitter-MessageReceiver( 3747): action android.intent.action.USER_PRESENT
+04-04 17:39:35.933 D/Sensors ( 1574): Enable akm: en = 0
+04-04 17:39:35.943 D/SyncProvider( 3747): match settings
+04-04 17:39:35.963 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+04-04 17:39:35.963 D/FacebookReceiver( 3747): Intent.ACTION_USER_PRESENT SyncInterval=3600000,currTime=1396633175957
+04-04 17:39:35.963 W/InputManagerService( 1574): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40a07690
+04-04 17:39:35.973 D/FacebookReceiver( 3747): Intent.ACTION_USER_PRESENT lastStreamSyncTime=1396633175982,lastFriendSyncTime=1396633175982
+04-04 17:39:35.973 D/SyncProvider( 3747): match settings
+04-04 17:39:35.983 D/FlickrReceiver( 3747): Intent.ACTION_USER_PRESENT SyncInterval=3600000,currTime=1396633175988
+04-04 17:39:35.983 D/FlickrReceiver( 3747): Intent.ACTION_USER_PRESENT lastStreamSyncTime=1396633175993,lastFriendSyncTime=1396633175993
+04-04 17:39:36.013 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=48, status=0, token=0)
+04-04 17:39:36.013 D/Sensors ( 1574): Enable akm: en = 1
+04-04 17:39:36.023 I/TabletStatusBar( 1648): DISABLE_BACK: no
+04-04 17:39:36.043 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=47, status=0, token=0)
+04-04 17:39:36.043 D/Sensors ( 1574): Enable akm: en = 0
+04-04 17:39:36.083 D/dalvikvm( 3551): GC_EXPLICIT freed 156K, 8% free 7019K/7623K, paused 5ms+2ms
+04-04 17:39:36.123 D/SyncProvider( 3747): match settings
+04-04 17:39:36.123 D/dalvikvm( 3551): GC_EXPLICIT freed 3K, 8% free 7017K/7623K, paused 1ms+6ms
+04-04 17:39:36.133 D/AK8975  ( 1448): Compass CLOSE 
+04-04 17:39:36.443 D/dalvikvm( 3551): GC_EXPLICIT freed 5K, 8% free 7017K/7623K, paused 2ms+2ms
+04-04 17:39:36.483 D/dalvikvm( 3551): GC_EXPLICIT freed 1K, 8% free 7017K/7623K, paused 1ms+2ms
+04-04 17:39:36.904 D/FxWorkspace( 1683): onUnlockAnimationEnd()
+04-04 17:39:36.904 D/HostWidgetManager( 1683): onUserPresent: 2
+04-04 17:39:36.904 D/HostWidgetManager( 1683): resumeWidgets: 2 sort: true
+04-04 17:39:36.904 D/FxWorkspace( 1683): changeScreensVisibility
+04-04 17:39:36.904 D/FxWorkspace( 1683): changeScreensVisibility
+04-04 17:39:37.404 D/Sensors ( 1574): Enable akm: en = 1
+04-04 17:39:37.424 D/AK8975  ( 1448): Compass Start
+04-04 17:39:38.736 D/AndroidRuntime( 3805): 
+04-04 17:39:38.736 D/AndroidRuntime( 3805): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+04-04 17:39:38.736 D/AndroidRuntime( 3805): CheckJNI is OFF
+04-04 17:39:38.886 D/CursorWindowStats( 3805): Get CursorWindow size from framework resource:4194304
+04-04 17:39:38.956 D/AndroidRuntime( 3805): Calling main entry com.android.commands.pm.Pm
+04-04 17:39:38.986 I/ActivityManager( 1574): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=3813 uid=10087 gids={1015, 2001}
+04-04 17:39:39.046 D/dalvikvm( 3813): GC_EXPLICIT freed 34K, 5% free 6458K/6787K, paused 1ms+1ms
+04-04 17:39:39.336 W/ActivityManager( 1574): No content provider found for: 
+04-04 17:39:39.356 W/ActivityManager( 1574): No content provider found for: 
+04-04 17:39:39.356 D/PackageParser( 1574): Scanning package: /data/app/vmdl-1896669526.tmp
+04-04 17:39:39.456 I/PackageManager( 1574): Removing non-system package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization
+04-04 17:39:39.456 I/ActivityManager( 1574): Force stopping package uk.ac.st_andrews.cs.host.mk74.naivegpslocalization uid=10116
+04-04 17:39:39.837 D/PackageManager( 1574): Scanning package uk.ac.st_andrews.cs.host.mk74.naivegpslocalization
+04-04 17:39:39.837 I/ActivityManager( 1574): Start proc com.google.android.apps.maps for service com.google.android.apps.maps/com.google.googlenav.prefetch.android.PrefetcherService: pid=3821 uid=10046 gids={3003, 1015}
+04-04 17:39:39.837 I/PackageManager( 1574): Package uk.ac.st_andrews.cs.host.mk74.naivegpslocalization codePath changed from /data/app/uk.ac.st_andrews.cs.host.mk74.naivegpslocalization-1.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.naivegpslocalization-2.apk; Retaining data and using new
+04-04 17:39:39.857 I/PackageManager( 1574): Unpacking native libraries for /data/app/uk.ac.st_andrews.cs.host.mk74.naivegpslocalization-2.apk
+04-04 17:39:39.987 D/dalvikvm( 3821): GC_CONCURRENT freed 150K, 4% free 6809K/7047K, paused 1ms+4ms
+04-04 17:39:40.157 D/dalvikvm( 3821): GC_CONCURRENT freed 137K, 4% free 7147K/7431K, paused 1ms+4ms
+04-04 17:39:40.157 I/ActivityThread( 3821): Pub com.google.android.maps.SearchHistoryProvider: com.google.googlenav.provider.SearchHistoryProvider
+04-04 17:39:40.157 I/ActivityThread( 3821): Pub com.google.android.maps.LayerInfoProvider: com.google.googlenav.layer.LayerInfoProvider
+04-04 17:39:40.157 D/SqliteDatabaseCpp( 3821): dbopen(): path = /data/data/com.google.android.apps.maps/databases , key = LYqevA, flag = 6, file size = 5120
+04-04 17:39:40.167 D/SqliteDatabaseCpp( 3821): dbopen(): path = /data/data/com.google.android.apps.maps/databases , key = LYqevA, mode: delete, disk free size: 7849 M, handle: 0x15e1e0
+04-04 17:39:40.187 I/ActivityThread( 3821): Pub com.google.android.maps.TrafficAppWidgetProvider: com.google.googlenav.appwidget.traffic.TrafficAppWidgetProvider
+04-04 17:39:40.187 I/ActivityThread( 3821): Pub com.google.android.maps.SuggestionProvider: com.google.googlenav.suggest.android.SuggestProvider
+04-04 17:39:40.187 I/ActivityThread( 3821): Pub com.google.android.maps.LocalActivePlacesProvider: com.google.googlenav.provider.LocalActivePlacesProvider
+04-04 17:39:40.187 I/ActivityThread( 3821): Pub com.google.android.maps.StarredItemProvider: com.google.googlenav.provider.StarredItemProvider
+04-04 17:39:40.317 I/ActivityThread( 3821): Pub com.google.android.maps.LocalSuggestionProvider: com.google.googlenav.provider.LocalSuggestionProvider
+04-04 17:39:40.317 I/ActivityThread( 3821): Pub com.google.android.maps.NavigationAvailabilityProvider: com.google.googlenav.provider.NavigationAvailabilityProvider
+04-04 17:39:40.347 D/dalvikvm( 3821): GC_CONCURRENT freed 155K, 4% free 7507K/7751K, paused 1ms+14ms
+04-04 17:39:40.427 D/Socket_Alarm( 3821): registerHTCSocketMonitorCallBack
+04-04 17:39:40.427 D/Socket_Alarm( 3821): set mSocketMonitor
+04-04 17:39:40.427 D/Socket_Alarm( 3821): HTCSocketMonitorImpl::HTCSocketMonitorImpl
+04-04 17:39:40.457 D/dalvikvm( 3828): DexOpt: load 93ms, verify+opt 348ms
+04-04 17:39:40.718 I/ActivityManager( 1574): Force stopping package uk.ac.st_andrews.cs.host.mk74.naivegpslocalization uid=10116
+04-04 17:39:40.718 W/PackageManager( 1574): Code path for pkg : uk.ac.st_andrews.cs.host.mk74.naivegpslocalization changing from /data/app/uk.ac.st_andrews.cs.host.mk74.naivegpslocalization-1.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.naivegpslocalization-2.apk
+04-04 17:39:40.718 D/PackageManager( 1574):   Activities: uk.ac.st_andrews.cs.host.mk74.naivegpslocalization.MainActivity
+04-04 17:39:40.718 W/PackageManager( 1574): Resource path for pkg : uk.ac.st_andrews.cs.host.mk74.naivegpslocalization changing from /data/app/uk.ac.st_andrews.cs.host.mk74.naivegpslocalization-1.apk to /data/app/uk.ac.st_andrews.cs.host.mk74.naivegpslocalization-2.apk
+04-04 17:39:41.088 D/PackageManager( 1574): [embedded] New package installed in /data/app/uk.ac.st_andrews.cs.host.mk74.naivegpslocalization-2.apk
+04-04 17:39:41.168 D/dalvikvm( 1574): GC_CONCURRENT freed 1759K, 19% free 18177K/22215K, paused 2ms+5ms
+04-04 17:39:41.368 I/ActivityManager( 1574): Force stopping package uk.ac.st_andrews.cs.host.mk74.naivegpslocalization uid=10116
+04-04 17:39:41.388 D/Launcher.Model( 1683): onReceive intent=Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization flg=0x10000010 (has extras) }
+04-04 17:39:41.388 D/PhoneApp( 1671): -- PackageChangeBroadcastReceiver  action = android.intent.action.PACKAGE_REMOVED
+04-04 17:39:41.398 I/ActivityManager( 1574): Start proc com.android.smith for broadcast com.android.smith/.PackageReceiver: pid=3842 uid=10009 gids={1007, 1015}
+04-04 17:39:41.488 I/SM:lib  ( 3842): JNI_OnLoad(): library version = 5
+04-04 17:39:41.498 I/SM:lib  ( 3842): JNI_OnLoad(): result = 0x10004
+04-04 17:39:41.498 D/SM:HtcNative( 3842): system lib, 4.0.honeycomb.HTK75C-flyer-l5-s16
+04-04 17:39:41.498 D/SM:PackageReceiver( 3842): package removed: package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization
+04-04 17:39:41.508 D/Launcher.Model( 1683): onReceive intent=Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization flg=0x10000010 (has extras) }
+04-04 17:39:41.508 D/Launcher.Model( 1683): mAllAppsList.updatePackage uk.ac.st_andrews.cs.host.mk74.naivegpslocalization
+04-04 17:39:41.508 D/PhoneApp( 1671): -- PackageChangeBroadcastReceiver  action = android.intent.action.PACKAGE_ADDED
+04-04 17:39:41.508 I/ActivityManager( 1574): No longer want com.google.android.apps.uploader (pid 3115): hidden #16
+04-04 17:39:41.518 D/WidgetScanner( 1683): onReceive: Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization flg=0x10000010 cmp=com.htc.launcher/.widget.WidgetScannerTrigger (has extras) }
+04-04 17:39:41.528 I/ActivityManager( 1574): Start proc com.htc.launcher.widgetscanner for service com.htc.launcher/.widget.WidgetScannerService: pid=3849 uid=9999 gids={3003, 3002, 3001, 2001, 1015}
+04-04 17:39:41.538 I/ActivityManager( 1574): Start proc com.htc.opensense for broadcast com.htc.opensense/.pluginmanager.RegisterReceiver: pid=3850 uid=10013 gids={2001, 3003, 1006, 1015}
+04-04 17:39:41.588 D/PackageManager( 1574): generateServicesMap(android.accounts.AccountAuthenticator): 13 services unchanged
+04-04 17:39:41.639 I/ActivityManager( 1574): Start proc com.htc.cs for broadcast com.htc.cs/.plugin.PluginRegisterReceiver: pid=3863 uid=10041 gids={3003, 1015}
+04-04 17:39:41.739 I/ActivityThread( 3863): Pub com.htc.connectedservice.csprovider: com.htc.cs.provider.ConnectedServiceProvider
+04-04 17:39:41.769 I/ActivityThread( 3863): Pub com.htc.cs.dashboard: com.htc.cs.sync.dashboard.DashboardProvider
+04-04 17:39:41.769 D/PackageManager( 1574): generateServicesMap(android.content.SyncAdapter): 21 services unchanged
+04-04 17:39:41.769 D/CombinedWidgetProvider( 1683): +addAppWidget
+04-04 17:39:41.769 D/CombinedWidgetProvider( 1683): addAppWidget: WidgetSummary(YouTube/APP_WIDGET/[I@407a2370 x [I@407a2390/-1/ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.widget.WidgetProvider}/[I@407a23b0)
+04-04 17:39:41.769 D/CombinedWidgetProvider( 1683): addAppWidget: WidgetSummary(Twitter (large)/APP_WIDGET/[I@407a6f90 x [I@407a6fb0/-1/ComponentInfo{com.twitter.android/com.twitter.android.client.WidgetLargeProvider}/[I@407a6fd0)
+04-04 17:39:41.779 D/CombinedWidgetProvider( 1683): addAppWidget: WidgetSummary(Twitter (small)/APP_WIDGET/[I@407a9398 x [I@407a93b8/-1/ComponentInfo{com.twitter.android/com.twitter.android.client.WidgetSmallProvider}/[I@407a93d8)
+04-04 17:39:41.779 D/CombinedWidgetProvider( 1683): addAppWidget: WidgetSummary(Traffic/APP_WIDGET/[I@407aba80 x [I@407abaa0/-1/ComponentInfo{com.google.android.apps.maps/com.google.googlenav.appwidget.traffic.TrafficAppWidget}/[I@407abac0)
+04-04 17:39:41.779 D/CombinedWidgetProvider( 1683): addAppWidget: WidgetSummary(Latitude/APP_WIDGET/[I@407acc98 x [I@407accb8/-1/ComponentInfo{com.google.android.apps.maps/com.google.googlenav.appwidget.friends.FriendsAppWidgetProvider}/[I@407accd8)
+04-04 17:39:41.779 D/CombinedWidgetProvider( 1683): addAppWidget: WidgetSummary(Market/APP_WIDGET/[I@407a4008 x [I@407a4028/-1/ComponentInfo{com.android.vending/com.android.vending.MarketWidgetProvider}/[I@407a4048)
+04-04 17:39:41.779 D/CombinedWidgetProvider( 1683): addAppWidget: WidgetSummary(Google Search/APP_WIDGET/[I@407ead40 x [I@407ead60/-1/ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchWidgetProvider}/[I@407ead80)
+04-04 17:39:41.779 D/CombinedWidgetProvider( 1683): addAppWidget: WidgetSummary(Gmail/APP_WIDGET/[I@407ebb78 x [I@407ebb98/-1/ComponentInfo{com.google.android.gm/com.google.android.gm.widget.GmailWidgetProvider}/[I@407ebbb8)
+04-04 17:39:41.779 D/CombinedWidgetProvider( 1683): addAppWidget: WidgetSummary(Bookmarks/APP_WIDGET/[I@40b4f7c8 x [I@40b4f7e8/-1/ComponentInfo{com.android.browser/com.android.browser.widget.BookmarkThumbnailWidgetProvider}/[I@40b4f808)
+04-04 17:39:41.779 D/CombinedWidgetProvider( 1683): -addAppWidget
+04-04 17:39:41.779 D/PackageManager( 1574): generateServicesMap(android.accounts.AccountAuthenticator): 13 services unchanged
+04-04 17:39:41.789 D/vicky   ( 3863): vicky received: android.intent.action.PACKAGE_REMOVED
+04-04 17:39:41.789 I/ActivityManager( 1574): No longer want com.htc.music:mediaplaybackservice (pid 3565): hidden #16
+04-04 17:39:41.799 D/CombinedWidgetProvider( 1683): +addHtcWidgets, cat: -1
+04-04 17:39:41.799 D/CombinedWidgetProvider( 1683):  uri: content://com.htc.launcher.widget.htcwidget/htcwidgets?widget_only=true
+04-04 17:39:41.799 D/HtcWidgetProvider( 1683): row 1
+04-04 17:39:41.809 I/ActivityManager( 1574): Start proc com.android.vending for broadcast com.android.vending/com.google.android.finsky.receivers.PersistentPackageMonitorReceiver: pid=3871 uid=10049 gids={3003, 1015}
+04-04 17:39:41.829 D/PackageManager( 1574): generateServicesMap(android.content.SyncAdapter): 21 services unchanged
+04-04 17:39:41.829 D/CombinedWidgetProvider( 1683): addHtcWidget: WidgetSummary(Tips for Home/HTC_WIDGET/[I@40b52e28 x [I@40b52e48/1101/ComponentInfo{com.htc.rosiewidgets.tip/com.htc.rosiewidgets.tip.TipWidgetItem}/[I@40b52e68)
+04-04 17:39:41.839 D/CombinedWidgetProvider( 1683): -addHtcWidgets
+04-04 17:39:41.839 D/CombinedWidgetProvider( 1683): +addFxWidgets , provider: null
+04-04 17:39:41.839 D/FxWidgetProviderInfoCollector( 1683): getAllStyles + [Ljava.lang.String;@406d1dc8 @ 
+04-04 17:39:41.869 D/FxWidgetProvider( 1683): row 94
+04-04 17:39:41.919 D/LauncherApplication( 3849): + LauncherApplication onCreate()
+04-04 17:39:42.029 D/dalvikvm( 1683): GC_CONCURRENT freed 1794K, 24% free 11512K/15047K, paused 2ms+23ms
+04-04 17:39:42.079 D/LauncherApplication( 3849): - LauncherApplication onCreate()
+04-04 17:39:42.139 D/dalvikvm( 3849): GC_CONCURRENT freed 169K, 4% free 6766K/7047K, paused 1ms+10ms
+04-04 17:39:42.239 I/ActivityThread( 3871): Pub com.google.android.finsky.RecentSuggestionsProvider: com.google.android.finsky.providers.RecentSuggestionsProvider
+04-04 17:39:42.429 D/WidgetScanner( 3849): onReceiveInternal: Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization flg=0x10000010 cmp=com.htc.launcher/.widget.WidgetScannerService (has extras) }
+04-04 17:39:42.519 I/RegisterService( 3850): android.intent.action.PACKAGE_REMOVED package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization
+04-04 17:39:42.579 W/ContentService( 1574): binderDied() at ObserverNode name com.google.android.gsf.gservices
+04-04 17:39:42.650 D/HtcWidgetScanner( 3849): onPackageRemoved: uk.ac.st_andrews.cs.host.mk74.naivegpslocalization
+04-04 17:39:42.670 D/HtcWidgetProvider( 1683): update 0
+04-04 17:39:42.670 D/FxWidgetScanner( 3849): onPackageRemoved: uk.ac.st_andrews.cs.host.mk74.naivegpslocalization
+04-04 17:39:42.670 D/FxWidgetScanner( 3849): removeFxWidgetList
+04-04 17:39:42.680 D/BatteryService( 1574): SendIntentforPowersaver
+04-04 17:39:42.680 D/BatteryService( 1574): Current powersaver status == NORMAL_STATUS1 5 2 false
+04-04 17:39:42.710 D/RemoveMe( 1671): DCT got intent android.intent.action.BATTERY_CHANGED
+04-04 17:39:42.710 D/RemoveMe( 1671): DCT got intent android.intent.action.BATTERY_CHANGED
+04-04 17:39:42.710 D/PowerUI ( 1648): closing low battery warning: level=100
+04-04 17:39:42.710 D/PowerUI ( 1648): plugged = true, health = 2, mBatteryLevel = 100, mPluggedBatteryLevel = 100, mLowBatteryWarningLevel2 = 25, mshowLowChargingWarning2 = true
+04-04 17:39:42.720 D/RemoveMe( 1671): DCT got intent android.intent.action.BATTERY_CHANGED
+04-04 17:39:42.770 D/SqliteDatabaseCpp( 3871): dbopen(): path = /data/data/com.android.vending/databases , key = mYvoet[Ywwetw, flag = 6, file size = 7168
+04-04 17:39:42.770 D/SqliteDatabaseCpp( 3871): dbopen(): path = /data/data/com.android.vending/databases , key = mYvoet[Ywwetw, mode: delete, disk free size: 7849 M, handle: 0x1ae3e8
+04-04 17:39:42.820 D/Socket_Alarm( 3871): registerHTCSocketMonitorCallBack
+04-04 17:39:42.820 D/Socket_Alarm( 3871): set mSocketMonitor
+04-04 17:39:42.820 D/Socket_Alarm( 3871): HTCSocketMonitorImpl::HTCSocketMonitorImpl
+04-04 17:39:42.860 D/dalvikvm( 3871): GC_CONCURRENT freed 205K, 5% free 6722K/7047K, paused 1ms+1ms
+04-04 17:39:42.870 D/Finsky  ( 3871): [1] SanityChecker.run: # LocalAssets corrected : 0
+04-04 17:39:42.870 D/Finsky  ( 3871): Sanity check took : 12 ms
+04-04 17:39:42.890 I/ActivityManager( 1574): Start proc com.htc.recommend for broadcast com.htc.recommend/.receiver.AppInstalledReceiver: pid=3896 uid=10056 gids={2001, 3003}
+04-04 17:39:42.910 I/ActivityManager( 1574): No longer want com.htc.musicenhancer (pid 3623): hidden #16
+04-04 17:39:42.990 I/ActivityThread( 3896): Pub com.htc.recommend.provider.HTCRecommendCarouselProvider: com.htc.recommend.provider.HTCRecommendCarouselProvider
+04-04 17:39:43.020 I/ActivityThread( 3896): Pub com.htc.recommend.provider.HTCRecommendContentProvider: com.htc.recommend.provider.HTCRecommendContentProvider
+04-04 17:39:43.020 D/HTC Recommends( 3896): /mnt/sdcard/.LHYGB/CKCL
+04-04 17:39:43.030 D/HTC Recommends( 3896): no token file
+04-04 17:39:43.030 D/HTC Recommends( 3896): no token file
+04-04 17:39:43.030 D/HTC Recommends( 3896): Log settings are 
+04-04 17:39:43.030 D/UsbnetService( 1574): BroadcastReceiver::onReceive+
+04-04 17:39:43.030 D/HTC Recommends( 3896): Enable General Log : false
+04-04 17:39:43.030 D/UsbnetService( 1574): onReceive BATTERY_CHANGED
+04-04 17:39:43.030 D/UsbnetService( 1574):  --> pluggedType = 2, mPluggedType = 0, mScreenOff = false
+04-04 17:39:43.030 D/UsbnetService( 1574): BroadcastReceiver::onReceive-
+04-04 17:39:43.030 D/HTC Recommends( 3896): Enable Analytic Log : false
+04-04 17:39:43.030 D/HTC Recommends( 3896): Enable Normal Log Level (dependent on General Log) : false
+04-04 17:39:43.030 D/HTC Recommends( 3896): Enable Critical Log Level (dependent on General Log) : false
+04-04 17:39:43.030 D/FxWidgetScanner( 3849): delete 0
+04-04 17:39:43.030 D/SqliteDatabaseCpp( 3896): dbopen(): path = /data/data/com.htc.recommend/databases , key = `tgvegkmmejd, flag = 6, file size = 69632
+04-04 17:39:43.030 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_BATTERY_CHANGED
+04-04 17:39:43.040 D/WidgetScanner( 3849): upadted? false
+04-04 17:39:43.040 D/SqliteDatabaseCpp( 3896): dbopen(): path = /data/data/com.htc.recommend/databases , key = `tgvegkmmejd, mode: delete, disk free size: 7849 M, handle: 0xdad10
+04-04 17:39:43.070 I/ActivityManager( 1574): No longer want com.htc.android.worldclock (pid 3643): hidden #16
+04-04 17:39:43.070 I/ActivityManager( 1574): No longer want com.htc.calendar (pid 3695): hidden #16
+04-04 17:39:43.120 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.130 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Watch/FX_WIDGET/[I@409b14e0 x [I@409b1500/-2/ComponentInfo{com.htc.widget3d.watch/com.htc.widget3d.watch.WatchProvider}/[I@409b1520)
+04-04 17:39:43.130 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.250 D/dalvikvm( 3616): GC_CONCURRENT freed 516K, 9% free 6680K/7303K, paused 1ms+517ms
+04-04 17:39:43.260 D/dalvikvm( 3821): GC_CONCURRENT freed 201K, 5% free 7722K/8071K, paused 1ms+50ms
+04-04 17:39:43.330 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Airplane Mode/FX_WIDGET/[I@409b3820 x [I@409b3840/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.AirplaneWidget}/[I@409b3860)
+04-04 17:39:43.330 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.340 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Bluetooth/FX_WIDGET/[I@40ca57e0 x [I@40ca5800/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.BTWidget}/[I@40ca5820)
+04-04 17:39:43.340 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.350 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(GPS/FX_WIDGET/[I@40ca7b50 x [I@40ca7b70/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.GPSWidget}/[I@40ca7b90)
+04-04 17:39:43.350 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.350 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Wi-Fi Hotspot/FX_WIDGET/[I@40cd1028 x [I@40cd1048/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.HotspotWidget}/[I@40cd1068)
+04-04 17:39:43.360 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.360 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Mobile Network/FX_WIDGET/[I@40cd3510 x [I@40cd3530/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.MobileNetworkWidget}/[I@40cd3550)
+04-04 17:39:43.360 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.370 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Wi-Fi/FX_WIDGET/[I@40cd59a8 x [I@40cd59c8/-2/ComponentInfo{com.htc.htcsettingwidgets/com.htc.htcsettingwidgets.WiFiWidget}/[I@40cd59e8)
+04-04 17:39:43.370 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.380 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@40981e70 x [I@40981e90/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@40981eb0)
+04-04 17:39:43.380 D/FxWidgetProvider( 1683): row 3
+04-04 17:39:43.380 D/FxWidgetProviderInfoCollector( 1683): more than one style shared the same component! Return the first one found.
+04-04 17:39:43.380 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@409841d0 x [I@409841f0/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@40984210)
+04-04 17:39:43.380 D/FxWidgetProvider( 1683): row 3
+04-04 17:39:43.390 D/FxWidgetProviderInfoCollector( 1683): more than one style shared the same component! Return the first one found.
+04-04 17:39:43.390 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@4098b658 x [I@4098b678/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@4098b698)
+04-04 17:39:43.390 D/FxWidgetProvider( 1683): row 3
+04-04 17:39:43.390 D/FxWidgetProviderInfoCollector( 1683): more than one style shared the same component! Return the first one found.
+04-04 17:39:43.400 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@4098d798 x [I@4098d7b8/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@4098d7d8)
+04-04 17:39:43.400 D/FxWidgetProvider( 1683): row 3
+04-04 17:39:43.400 D/FxWidgetProviderInfoCollector( 1683): more than one style shared the same component! Return the first one found.
+04-04 17:39:43.410 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@40d249c8 x [I@40d249e8/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@40d24a08)
+04-04 17:39:43.410 D/FxWidgetProvider( 1683): row 3
+04-04 17:39:43.410 D/FxWidgetProviderInfoCollector( 1683): more than one style shared the same component! Return the first one found.
+04-04 17:39:43.410 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@40d26cf0 x [I@40d26d10/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@40d26d30)
+04-04 17:39:43.420 D/FxWidgetProvider( 1683): row 3
+04-04 17:39:43.420 D/FxWidgetProviderInfoCollector( 1683): more than one style shared the same component! Return the first one found.
+04-04 17:39:43.420 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Mail/FX_WIDGET/[I@40d28e78 x [I@40d28e98/-2/ComponentInfo{com.htc.htcmailwidgets/com.htc.htcmailwidgets.WidgetReceiver}/[I@40d28eb8)
+04-04 17:39:43.430 D/FxWidgetProvider( 1683): row 5
+04-04 17:39:43.430 D/FxWidgetProviderInfoCollector( 1683): more than one style shared the same component! Return the first one found.
+04-04 17:39:43.430 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(People/FX_WIDGET/[I@40a70a58 x [I@40a70a78/-2/ComponentInfo{com.htc.htccontactwidgets_3d_fusion/com.htc.htccontactwidgets_3d_fusion.WidgetReceiver}/[I@40a70a98)
+04-04 17:39:43.430 D/FxWidgetProvider( 1683): row 5
+04-04 17:39:43.430 D/FxWidgetProviderInfoCollector( 1683): more than one style shared the same component! Return the first one found.
+04-04 17:39:43.430 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(People/FX_WIDGET/[I@40a730d8 x [I@40a730f8/-2/ComponentInfo{com.htc.htccontactwidgets_3d_fusion/com.htc.htccontactwidgets_3d_fusion.WidgetReceiver}/[I@40a73118)
+04-04 17:39:43.440 D/FxWidgetProvider( 1683): row 5
+04-04 17:39:43.440 D/FxWidgetProviderInfoCollector( 1683): more than one style shared the same component! Return the first one found.
+04-04 17:39:43.440 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(People/FX_WIDGET/[I@408e3e08 x [I@408e3e28/-2/ComponentInfo{com.htc.htccontactwidgets_3d_fusion/com.htc.htccontactwidgets_3d_fusion.WidgetReceiver}/[I@408e3e48)
+04-04 17:39:43.450 D/FxWidgetProvider( 1683): row 5
+04-04 17:39:43.450 D/FxWidgetProviderInfoCollector( 1683): more than one style shared the same component! Return the first one found.
+04-04 17:39:43.450 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(People/FX_WIDGET/[I@408e6258 x [I@408e6278/-2/ComponentInfo{com.htc.htccontactwidgets_3d_fusion/com.htc.htccontactwidgets_3d_fusion.WidgetReceiver}/[I@408e6298)
+04-04 17:39:43.450 D/FxWidgetProvider( 1683): row 5
+04-04 17:39:43.460 D/FxWidgetProviderInfoCollector( 1683): more than one style shared the same component! Return the first one found.
+04-04 17:39:43.460 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(People/FX_WIDGET/[I@40927198 x [I@409271b8/-2/ComponentInfo{com.htc.htccontactwidgets_3d_fusion/com.htc.htccontactwidgets_3d_fusion.WidgetReceiver}/[I@409271d8)
+04-04 17:39:43.470 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.480 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Calendar/FX_WIDGET/[I@40929668 x [I@40929688/-2/ComponentInfo{com.htc.htccalendarwidgets/com.htc.htccalendarwidgets.WidgetReceiver}/[I@409296a8)
+04-04 17:39:43.480 D/FxWidgetProvider( 1683): row 3
+04-04 17:39:43.480 D/FxWidgetProviderInfoCollector( 1683): more than one style shared the same component! Return the first one found.
+04-04 17:39:43.480 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Calendar/FX_WIDGET/[I@4092b988 x [I@40c21570/-2/ComponentInfo{com.htc.htccalendarwidgets/com.htc.htccalendarwidgets.WidgetReceiver}/[I@40c21590)
+04-04 17:39:43.480 D/FxWidgetProvider( 1683): row 3
+04-04 17:39:43.490 D/FxWidgetProviderInfoCollector( 1683): more than one style shared the same component! Return the first one found.
+04-04 17:39:43.490 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Calendar/FX_WIDGET/[I@40c23a08 x [I@40c23a28/-2/ComponentInfo{com.htc.htccalendarwidgets/com.htc.htccalendarwidgets.WidgetReceiver}/[I@40c23a48)
+04-04 17:39:43.490 D/FxWidgetProvider( 1683): row 3
+04-04 17:39:43.500 D/FxWidgetProviderInfoCollector( 1683): more than one style shared the same component! Return the first one found.
+04-04 17:39:43.500 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Calendar/FX_WIDGET/[I@40c25c90 x [I@40c25cb0/-2/ComponentInfo{com.htc.htccalendarwidgets/com.htc.htccalendarwidgets.WidgetReceiver}/[I@40c25cd0)
+04-04 17:39:43.500 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.500 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Calendar/FX_WIDGET/[I@4094fc68 x [I@4094fc88/-2/ComponentInfo{com.htc.htccalendarwidgets/com.htc.htccalendarwidgets.WidgetReceiver}/[I@4094fca8)
+04-04 17:39:43.510 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.510 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Bookmarks/FX_WIDGET/[I@40952040 x [I@40952060/-2/ComponentInfo{com.htc.fusion.htcbookmarkwidget/com.htc.fusion.htcbookmarkwidget.WidgetReceiver}/[I@40952080)
+04-04 17:39:43.510 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.520 D/PhoneApp( 1671): EVENT_QUERY_MO_PACKAGES
+04-04 17:39:43.540 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Bookmarks/FX_WIDGET/[I@40bbfec8 x [I@40bbfee8/-2/ComponentInfo{com.htc.fusion.htcbookmarkwidget/com.htc.fusion.htcbookmarkwidget.WidgetReceiver}/[I@40bbff08)
+04-04 17:39:43.540 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.550 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40bc23f0 x [I@40bc2410/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40bc2430)
+04-04 17:39:43.550 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.560 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40bc46c0 x [I@40bc46e0/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40bc4700)
+04-04 17:39:43.560 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.600 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40b7b4a8 x [I@40b7b4c8/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40b7b4e8)
+04-04 17:39:43.600 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.600 D/PhoneApp( 1671): -- N1 =0
+04-04 17:39:43.610 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40b7d778 x [I@40b7d798/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40b7d7b8)
+04-04 17:39:43.610 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.610 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@40b7fa48 x [I@40b7fa68/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@40b7fa88)
+04-04 17:39:43.620 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.620 D/Finsky  ( 3871): [23] DownloadRecords.initializeAndPrune: Pruned 0 old downloads from the cursor.
+04-04 17:39:43.630 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@4096a4a0 x [I@4096a4c0/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@4096a4e0)
+04-04 17:39:43.630 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.630 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Messages/FX_WIDGET/[I@4096c790 x [I@4096c7b0/-2/ComponentInfo{com.htc.htcmsgwidgets3d/com.htc.htcmsgwidgets.MsgWidgetProvider}/[I@4096c7d0)
+04-04 17:39:43.640 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.640 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Twitter/FX_WIDGET/[I@4096ea80 x [I@4096eaa0/-2/ComponentInfo{com.htc.Twitter3DWidget/com.htc.Twitter3DWidget.TwitterWidgetProvider}/[I@4096eac0)
+04-04 17:39:43.640 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.640 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Twitter/FX_WIDGET/[I@40970e98 x [I@40970eb8/-2/ComponentInfo{com.htc.Twitter3DWidget/com.htc.Twitter3DWidget.TwitterWidgetProvider}/[I@40970ed8)
+04-04 17:39:43.650 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.650 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Twitter/FX_WIDGET/[I@40b5df20 x [I@40b5df40/-2/ComponentInfo{com.htc.Twitter3DWidget/com.htc.Twitter3DWidget.TwitterWidgetProvider}/[I@40b5df60)
+04-04 17:39:43.660 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.660 D/PhoneApp( 1671): -- N2 =0
+04-04 17:39:43.660 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Twitter/FX_WIDGET/[I@40b60338 x [I@40b60358/-2/ComponentInfo{com.htc.Twitter3DWidget/com.htc.Twitter3DWidget.TwitterWidgetProvider}/[I@40b60378)
+04-04 17:39:43.671 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.671 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Trends/FX_WIDGET/[I@40b62740 x [I@40b62760/-2/ComponentInfo{com.htc.Trends3DWidget/com.htc.Trends3DWidget.TrendsWidgetProvider}/[I@40b62780)
+04-04 17:39:43.671 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.681 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Sync All/FX_WIDGET/[I@40b64b00 x [I@40b64b20/-2/ComponentInfo{com.htc.Sync3DWidget/com.htc.Sync3DWidget.SyncWidgetProvider}/[I@40b64b40)
+04-04 17:39:43.681 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.691 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Music/FX_WIDGET/[I@4090cb20 x [I@4090cb40/-2/ComponentInfo{com.htc.MusicWidget3D/com.htc.MusicWidget3D.MusicWidget3DProvider}/[I@4090cb60)
+04-04 17:39:43.691 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.701 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Music/FX_WIDGET/[I@4090eec0 x [I@4090eee0/-2/ComponentInfo{com.htc.MusicWidget3D/com.htc.MusicWidget3D.MusicWidget3DProvider}/[I@4090ef00)
+04-04 17:39:43.701 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.741 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Music/FX_WIDGET/[I@40911368 x [I@40911388/-2/ComponentInfo{com.htc.MusicWidget3D/com.htc.MusicWidget3D.MusicWidget3DProvider}/[I@409113a8)
+04-04 17:39:43.741 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.741 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Friend Stream/FX_WIDGET/[I@40913708 x [I@40913728/-2/ComponentInfo{com.htc.FriendStream3DWidget/com.htc.FriendStream3DWidget.FriendStreamWidgetProvider}/[I@40913748)
+04-04 17:39:43.751 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.751 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Friend Stream/FX_WIDGET/[I@40bcf7e0 x [I@40bcf800/-2/ComponentInfo{com.htc.FriendStream3DWidget/com.htc.FriendStream3DWidget.FriendStreamWidgetProvider}/[I@40bcf820)
+04-04 17:39:43.761 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.761 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Friend Stream/FX_WIDGET/[I@40bd1ef0 x [I@40bd1f10/-2/ComponentInfo{com.htc.FriendStream3DWidget/com.htc.FriendStream3DWidget.FriendStreamWidgetProvider}/[I@40bd1f30)
+04-04 17:39:43.761 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.771 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Friend Stream/FX_WIDGET/[I@40bd4600 x [I@40bd4620/-2/ComponentInfo{com.htc.FriendStream3DWidget/com.htc.FriendStream3DWidget.FriendStreamWidgetProvider}/[I@40bd4640)
+04-04 17:39:43.771 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.781 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Friend Channel/FX_WIDGET/[I@40bd6cf8 x [I@40bd6d18/-2/ComponentInfo{com.htc.FriendStream3DWidget/com.htc.FriendStream3DWidget.FriendStreamWidgetProvider}/[I@40bd6d38)
+04-04 17:39:43.781 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.791 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(My Shelf/FX_WIDGET/[I@40bd9300 x [I@40bd9320/-2/ComponentInfo{com.htc.ereader.widget3d/com.htc.ereader.widget3d.ereaderwidget3d.SimpleWidgetProvider}/[I@40bd9340)
+04-04 17:39:43.791 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.791 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Weather/FX_WIDGET/[I@40c70870 x [I@40c70890/-2/ComponentInfo{com.htc.widget3d.weather/com.htc.widget3d.weather.WeatherWidgetProvider}/[I@40c708b0)
+04-04 17:39:43.791 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.801 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Weather/FX_WIDGET/[I@40c72c80 x [I@40c72ca0/-2/ComponentInfo{com.htc.widget3d.weather/com.htc.widget3d.weather.WeatherWidgetProvider}/[I@40c72cc0)
+04-04 17:39:43.801 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.801 D/PhoneApp( 1671): -- N3 =0
+04-04 17:39:43.811 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Weather/FX_WIDGET/[I@40c75090 x [I@40c750b0/-2/ComponentInfo{com.htc.widget3d.weather/com.htc.widget3d.weather.WeatherWidgetProvider}/[I@40c750d0)
+04-04 17:39:43.811 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.811 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Screen Timeout/FX_WIDGET/[I@40c774a0 x [I@40c774c0/-2/ComponentInfo{com.htc.rosiewidgets.screentimeout/com.htc.rosiewidgets.screentimeout.ScreenTimeoutWidgetProvider}/[I@40c774e0)
+04-04 17:39:43.811 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.821 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Screen Brightness/FX_WIDGET/[I@40c79ac0 x [I@40c79ae0/-2/ComponentInfo{com.htc.rosiewidgets.screenbrightness/com.htc.rosiewidgets.screenbrightness.ScreenBrightnessWidgetProvider}/[I@40c79b00)
+04-04 17:39:43.821 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.831 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Notes/FX_WIDGET/[I@40a47220 x [I@40a47240/-2/ComponentInfo{com.htc.htcrichnoteswidget3d/com.htc.htcrichnoteswidget3d.NotesWidgetProvider}/[I@40a47260)
+04-04 17:39:43.831 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.841 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Notes/FX_WIDGET/[I@40a49780 x [I@40a497a0/-2/ComponentInfo{com.htc.htcrichnoteswidget3d/com.htc.htcrichnoteswidget3d.NotesWidgetProvider}/[I@40a497c0)
+04-04 17:39:43.841 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.841 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(HTC Likes/FX_WIDGET/[I@40a4bcd0 x [I@40a4bcf0/-2/ComponentInfo{com.htc.android.fusion.recommend/com.htc.android.fusion.recommend.RosieIntentReceiver}/[I@40a4bd10)
+04-04 17:39:43.851 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.851 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Profile/FX_WIDGET/[I@40a4e1d0 x [I@40a4e1f0/-2/ComponentInfo{com.htc.widget.profile/com.htc.widget.profile.HtcWidgetReceiver}/[I@40a4e210)
+04-04 17:39:43.861 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.861 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Power Dashboard/FX_WIDGET/[I@40a509d8 x [I@40a509f8/-2/ComponentInfo{com.htc.rosiewidgets.powerstrip/com.htc.rosiewidgets.powerstrip.PowerStripWidgetProvider}/[I@40a50a18)
+04-04 17:39:43.861 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.871 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Photo Album/FX_WIDGET/[I@40a52f60 x [I@40a52f80/-2/ComponentInfo{com.htc.photowidget3d/com.htc.photowidget3d.album.PhotoAlbumWidgetProvider}/[I@40a52fa0)
+04-04 17:39:43.871 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.881 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Photo Frame/FX_WIDGET/[I@40a556b0 x [I@40a556d0/-2/ComponentInfo{com.htc.photowidget3d/com.htc.photowidget3d.frame.PhotoFrameWidgetProvider}/[I@40a556f0)
+04-04 17:39:43.881 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.891 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Photo Grid/FX_WIDGET/[I@40a57e00 x [I@40a57e20/-2/ComponentInfo{com.htc.rosiewidgets.photogridwidget3d/com.htc.rosiewidgets.photogridwidget3d.PhotoGridWidget3DProvider}/[I@40a57e40)
+04-04 17:39:43.891 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.891 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Navigate/FX_WIDGET/[I@40a5a728 x [I@40a5a748/-2/ComponentInfo{com.htc.laputa.widget3d.navigate/com.htc.laputa.widget3d.navigate.NavigateWidgetProvider}/[I@40a5a768)
+04-04 17:39:43.901 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.901 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Navigate/FX_WIDGET/[I@408c3690 x [I@408c36b0/-2/ComponentInfo{com.htc.laputa.widget3d.navigate/com.htc.laputa.widget3d.navigate.NavigateWidgetProvider}/[I@408c36d0)
+04-04 17:39:43.901 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.911 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Locations/FX_WIDGET/[I@408c5d58 x [I@408c5d78/-2/ComponentInfo{com.htc.laputa.widget3d.locations/com.htc.laputa.widget3d.locations.LocationsWidgetProvider}/[I@408c5d98)
+04-04 17:39:43.911 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.911 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(News/FX_WIDGET/[I@408c83e0 x [I@408c8400/-2/ComponentInfo{com.htc.googlereaderwidget/com.htc.googlereaderwidget.RosieWidgetReceiver}/[I@408c8420)
+04-04 17:39:43.921 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.921 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(News/FX_WIDGET/[I@408ca8b0 x [I@408ca8d0/-2/ComponentInfo{com.htc.googlereaderwidget/com.htc.googlereaderwidget.RosieWidgetReceiver}/[I@408ca8f0)
+04-04 17:39:43.931 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.931 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Data Dashboard/FX_WIDGET/[I@408ccda0 x [I@408ccdc0/-2/ComponentInfo{com.htc.rosiewidgets.datastrip/com.htc.rosiewidgets.datastrip.DataStripWidgetProvider}/[I@408ccde0)
+04-04 17:39:43.931 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.941 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Data Roaming/FX_WIDGET/[I@408cf2e0 x [I@408cf300/-2/ComponentInfo{com.htc.rosiewidgets.dataroaming/com.htc.rosiewidgets.dataroaming.WidgetProvider}/[I@408cf320)
+04-04 17:39:43.941 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.951 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@408d18d0 x [I@408d18f0/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@408d1910)
+04-04 17:39:43.951 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.961 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@408d3d80 x [I@408d3da0/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@408d3dc0)
+04-04 17:39:43.961 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.961 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Weather Clock/FX_WIDGET/[I@408d61b0 x [I@408d61d0/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@408d61f0)
+04-04 17:39:43.971 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.971 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Travel Clock/FX_WIDGET/[I@408d8758 x [I@408d8778/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@408d8798)
+04-04 17:39:43.971 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.981 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Digital Clock/FX_WIDGET/[I@408dab90 x [I@408dabb0/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@408dabd0)
+04-04 17:39:43.981 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.981 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@4086a768 x [I@4086a788/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@4086a7a8)
+04-04 17:39:43.991 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:43.991 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@4086cc18 x [I@4086cc38/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@4086cc58)
+04-04 17:39:44.001 I/ActivityThread( 3896): Pub com.htc.recommend.provider.HTCRecommendSuggestionProvider: com.htc.recommend.provider.HTCRecommendSuggestionProvider
+04-04 17:39:44.011 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.031 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@4086f0c8 x [I@4086f0e8/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@4086f108)
+04-04 17:39:44.031 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.031 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40871578 x [I@40871598/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@408715b8)
+04-04 17:39:44.041 I/ActivityManager( 1574): Start proc com.htc.wdm for broadcast com.htc.wdm/.receiver.HTCDirectReceiver: pid=3905 uid=10070 gids={3003, 2001, 1015}
+04-04 17:39:44.051 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.051 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40873a28 x [I@40873a48/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40873a68)
+04-04 17:39:44.061 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.061 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40875ed8 x [I@40875ef8/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40875f18)
+04-04 17:39:44.071 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.071 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40878388 x [I@408783a8/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@408783c8)
+04-04 17:39:44.081 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.091 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Social Clock/FX_WIDGET/[I@4087a838 x [I@4087a858/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@4087a878)
+04-04 17:39:44.091 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.101 I/ActivityManager( 1574): No longer want com.android.settings (pid 3660): hidden #16
+04-04 17:39:44.111 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Beam Clock/FX_WIDGET/[I@4087cd98 x [I@4087cdb8/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@4087cdd8)
+04-04 17:39:44.111 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.121 I/ActivityThread( 3905): Pub com.htc.wdm.provider.HtcDirectCarouselProvider: com.htc.wdm.provider.HtcDirectCarouselProvider
+04-04 17:39:44.121 D/dalvikvm( 1683): GC_CONCURRENT freed 1321K, 22% free 11822K/15047K, paused 2ms+14ms
+04-04 17:39:44.141 I/ActivityThread( 3905): Pub com.htc.wdm.status.HtcDirectProvider: com.htc.wdm.status.HtcDirectProvider
+04-04 17:39:44.251 D/dalvikvm( 1672): GC_CONCURRENT freed 837K, 12% free 7788K/8775K, paused 69ms+16ms
+04-04 17:39:44.281 D/dalvikvm( 1574): GC_EXPLICIT freed 1642K, 19% free 18146K/22215K, paused 68ms+6ms
+04-04 17:39:44.311 D/AndroidRuntime( 3805): Shutting down VM
+04-04 17:39:44.321 D/dalvikvm( 3805): GC_CONCURRENT freed 105K, 83% free 364K/2048K, paused 0ms+0ms
+04-04 17:39:44.321 D/dalvikvm( 3805): Debugger has detached; object registry had 1 entries
+04-04 17:39:44.331 I/AndroidRuntime( 3805): NOTE: attach of thread 'Binder Thread #3' failed
+04-04 17:39:44.401 D/dalvikvm( 1574): GC_EXPLICIT freed 43K, 19% free 18111K/22215K, paused 3ms+10ms
+04-04 17:39:44.411 D/HTC Hub ( 3905): /mnt/sdcard/.LHYGB/CKCL
+04-04 17:39:44.411 D/HTC Hub ( 3905): no token file
+04-04 17:39:44.411 D/HTC Hub ( 3905): no token file
+04-04 17:39:44.411 D/HTC Hub ( 3905): Log settings are 
+04-04 17:39:44.411 D/HTC Hub ( 3905): Enable General Log : false
+04-04 17:39:44.411 D/HTC Hub ( 3905): Enable Analytic Log : false
+04-04 17:39:44.411 D/HTC Hub ( 3905): Enable Normal Log Level (dependent on General Log) : false
+04-04 17:39:44.411 D/HTC Hub ( 3905): Enable Critical Log Level (dependent on General Log) : false
+04-04 17:39:44.411 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Ring Clock/FX_WIDGET/[I@4087f1d0 x [I@4087f1f0/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@4087f210)
+04-04 17:39:44.411 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.421 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Spin Cycle Clock/FX_WIDGET/[I@40c742b8 x [I@40c71ea8/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40c6f7b0)
+04-04 17:39:44.421 I/ActivityManager( 1574): No longer want com.htc.dockmode (pid 3709): hidden #16
+04-04 17:39:44.431 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.441 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Analog Clock/FX_WIDGET/[I@40b6f188 x [I@40b6e850/-2/ComponentInfo{com.htc.clock3dwidget/com.htc.clock3dwidget.ClockWidgetProvider}/[I@40b6e6d0)
+04-04 17:39:44.451 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.551 D/SM:PackageReceiver( 3842): package added: package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization
+04-04 17:39:44.551 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Calculator/FX_WIDGET/[I@40b46a08 x [I@40b440c0/-2/ComponentInfo{com.htc.android.fusion.calculator/com.htc.android.fusion.calculator.RosieIntentReceiver}/[I@40b42d08)
+04-04 17:39:44.551 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.551 D/WidgetScanner( 1683): onReceive: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization flg=0x10000010 cmp=com.htc.launcher/.widget.WidgetScannerTrigger (has extras) }
+04-04 17:39:44.571 I/ActivityManager( 1574): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=3919 uid=10031 gids={}
+04-04 17:39:44.581 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Calculator/FX_WIDGET/[I@409b2a90 x [I@409b11a8/-2/ComponentInfo{com.htc.android.fusion.calculator/com.htc.android.fusion.calculator.RosieIntentReceiver}/[I@409b0f70)
+04-04 17:39:44.581 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.591 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Calculator/FX_WIDGET/[I@4084dad0 x [I@4084d530/-2/ComponentInfo{com.htc.android.fusion.calculator/com.htc.android.fusion.calculator.RosieIntentReceiver}/[I@4084cbc8)
+04-04 17:39:44.601 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.621 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Calculator/FX_WIDGET/[I@40822028 x [I@40821e80/-2/ComponentInfo{com.htc.android.fusion.calculator/com.htc.android.fusion.calculator.RosieIntentReceiver}/[I@408216a8)
+04-04 17:39:44.621 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.631 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Auto-sync/FX_WIDGET/[I@407e3b28 x [I@407ddff0/-2/ComponentInfo{com.htc.rosiewidgets.backgrounddata/com.htc.rosiewidgets.backgrounddata.BackgroundDataWidgetProvider}/[I@407ddaf8)
+04-04 17:39:44.631 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.651 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Auto-rotate/FX_WIDGET/[I@40788f08 x [I@40785da0/-2/ComponentInfo{com.htc.autorotatewidget/com.htc.autorotatewidget.AutoRotateWidgetProvider}/[I@40778588)
+04-04 17:39:44.651 I/ActivityThread( 3919): Pub com.svox.pico.providers.SettingsProvider: com.svox.pico.providers.SettingsProvider
+04-04 17:39:44.661 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.661 D/dalvikvm( 1439): GC_EXPLICIT freed 12K, 5% free 6453K/6787K, paused 1ms+1ms
+04-04 17:39:44.661 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Stocks/FX_WIDGET/[I@407317a0 x [I@407310f0/-2/ComponentInfo{com.htc.android.fusion.StockWidget/com.htc.android.fusion.StockWidget.RosieWidgetReceiver}/[I@40730fb8)
+04-04 17:39:44.671 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.671 D/AndroidRuntime( 3916): 
+04-04 17:39:44.671 D/AndroidRuntime( 3916): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+04-04 17:39:44.671 D/AndroidRuntime( 3916): CheckJNI is OFF
+04-04 17:39:44.712 D/dalvikvm( 1439): GC_EXPLICIT freed <1K, 5% free 6453K/6787K, paused 1ms+2ms
+04-04 17:39:44.752 D/dalvikvm( 1439): GC_EXPLICIT freed <1K, 5% free 6453K/6787K, paused 2ms+1ms
+04-04 17:39:44.772 I/RegisterService( 3850): android.intent.action.PACKAGE_ADDED package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization
+04-04 17:39:44.772 D/WidgetScanner( 3849): onReceiveInternal: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization flg=0x10000010 cmp=com.htc.launcher/.widget.WidgetScannerService (has extras) }
+04-04 17:39:44.792 D/HtcWidgetScanner( 3849): onPackageAdded: uk.ac.st_andrews.cs.host.mk74.naivegpslocalization
+04-04 17:39:44.812 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Stocks/FX_WIDGET/[I@406f8460 x [I@406f82b8/-2/ComponentInfo{com.htc.android.fusion.StockWidget/com.htc.android.fusion.StockWidget.RosieWidgetReceiver}/[I@406f7608)
+04-04 17:39:44.812 D/vicky   ( 3863): vicky received: android.intent.action.PACKAGE_ADDED
+04-04 17:39:44.812 D/FxWidgetProvider( 1683): row 1
+04-04 17:39:44.822 D/CursorWindowStats( 3916): Get CursorWindow size from framework resource:4194304
+04-04 17:39:44.912 D/AndroidRuntime( 3916): Calling main entry com.android.commands.am.Am
+04-04 17:39:44.912 D/CombinedWidgetProvider( 1683): addFxWidget: WidgetSummary(Stocks/FX_WIDGET/[I@406a4858 x [I@406a4730/-2/ComponentInfo{com.htc.android.fusion.StockWidget/com.htc.android.fusion.StockWidget.RosieWidgetReceiver}/[I@406a29c0)
+04-04 17:39:44.912 D/CombinedWidgetProvider( 1683): -addFxWidgets diff: 3068
+04-04 17:39:44.912 D/CombinedWidgetProvider( 1683): +addAppWidgetCategories
+04-04 17:39:44.932 I/ActivityManager( 1574): Start proc com.htc.htchubsyncprovider for content provider com.htc.htchubsyncprovider/.provider.MyDownloadsProvider: pid=3934 uid=10069 gids={3003, 2001, 1015}
+04-04 17:39:44.942 D/CombinedWidgetProvider( 1683): add AppWidget category: WidgetCategory(YouTube/APP_WIDGET/0)
+04-04 17:39:44.942 D/CombinedWidgetProvider( 1683): add AppWidget category: WidgetCategory(Twitter (large)/APP_WIDGET/0)
+04-04 17:39:44.942 D/CombinedWidgetProvider( 1683): add AppWidget category: WidgetCategory(Twitter (small)/APP_WIDGET/0)
+04-04 17:39:44.942 D/CombinedWidgetProvider( 1683): add AppWidget category: WidgetCategory(Traffic/APP_WIDGET/0)
+04-04 17:39:44.942 D/CombinedWidgetProvider( 1683): add AppWidget category: WidgetCategory(Latitude/APP_WIDGET/0)
+04-04 17:39:44.942 D/CombinedWidgetProvider( 1683): add AppWidget category: WidgetCategory(Market/APP_WIDGET/0)
+04-04 17:39:44.942 D/CombinedWidgetProvider( 1683): add AppWidget category: WidgetCategory(Google Search/APP_WIDGET/0)
+04-04 17:39:44.942 D/CombinedWidgetProvider( 1683): add AppWidget category: WidgetCategory(Gmail/APP_WIDGET/0)
+04-04 17:39:44.942 D/CombinedWidgetProvider( 1683): add AppWidget category: WidgetCategory(Bookmarks/APP_WIDGET/0)
+04-04 17:39:44.942 D/CombinedWidgetProvider( 1683): -addAppWidgetCategories
+04-04 17:39:44.942 D/CombinedWidgetProvider( 1683): +addHtcWidgetCategories
+04-04 17:39:44.942 D/CombinedWidgetProvider( 1683):  uri: content://com.htc.launcher.widget.htcwidget/htcwidgets?category_only=true
+04-04 17:39:44.942 I/ActivityManager( 1574): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.st_andrews.cs.host.mk74.naivegpslocalization/.MainActivity } from pid 3916
+04-04 17:39:44.952 D/HtcWidgetProvider( 1683): row 1
+04-04 17:39:44.962 D/CombinedWidgetProvider( 1683): addHtcWidget Category: WidgetCategory(Tips for Home/HTC_WIDGET/1101)
+04-04 17:39:44.982 D/CombinedWidgetProvider( 1683): -addHtcWidgetCategories
+04-04 17:39:44.982 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories
+04-04 17:39:44.982 D/FxWidgetProvider( 1683): row 94
+04-04 17:39:44.992 D/AndroidRuntime( 3916): Shutting down VM
+04-04 17:39:44.992 D/dalvikvm( 3916): GC_CONCURRENT freed 106K, 81% free 397K/2048K, paused 0ms+0ms
+04-04 17:39:44.992 D/dalvikvm( 3916): Debugger has detached; object registry had 1 entries
+04-04 17:39:45.002 I/AndroidRuntime( 3916): NOTE: attach of thread 'Binder Thread #3' failed
+04-04 17:39:45.012 D/ActivityManager( 1574): isSketcherDisabledInCurrentTask():false, ActivityRecord{409b1178 uk.ac.st_andrews.cs.host.mk74.naivegpslocalization/.MainActivity}
+04-04 17:39:45.012 D/HostWidgetManager( 1683): pauseWidgets: 2
+04-04 17:39:45.022 I/ActivityManager( 1574): Start proc uk.ac.st_andrews.cs.host.mk74.naivegpslocalization for activity uk.ac.st_andrews.cs.host.mk74.naivegpslocalization/.MainActivity: pid=3942 uid=10116 gids={}
+04-04 17:39:45.042 I/ActivityManager( 1574): No longer want com.sdgtl.watch.flyer (pid 3720): hidden #16
+04-04 17:39:45.052 D/HtcWidgetProvider( 1683): row 3
+04-04 17:39:45.102 D/HtcWidgetScanner( 3849): count(onPackageUpdated) - 3
+04-04 17:39:45.112 D/SurfaceFlinger( 1438): getTokenForSurface(0xc79f4) => 0 (client=0xa2580, bitmap=00000003), pid=1574
+04-04 17:39:45.112 D/FxWidgetScanner( 3849): onPackageAdded: uk.ac.st_andrews.cs.host.mk74.naivegpslocalization
+04-04 17:39:45.112 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  2 
+04-04 17:39:45.122 D/GTalkService( 1715): [GTalkService.1] handlePackageInstalled: re-initialize providers
+04-04 17:39:45.132 D/GTalkService( 1715): [RawStanzaProvidersMgr] ##### searchProvidersFromIntent
+04-04 17:39:45.152 I/ActivityThread( 3934): Pub com.htc.wdm.provider.WDMProvider: com.htc.htchubsyncprovider.provider.WDMProvider
+04-04 17:39:45.182 I/ActivityThread( 3934): Pub com.htc.wotaproviders.MyDownloadsProvider: com.htc.htchubsyncprovider.provider.MyDownloadsProvider
+04-04 17:39:45.182 D/FxWidgetScanner( 3849): addWidgetList
+04-04 17:39:45.192 V/LocationManagerService( 1574): requestLocationUpdates
+04-04 17:39:45.192 D/GpsLocationProvider( 1574): addListener+ @id: 10116
+04-04 17:39:45.192 D/GpsLocationProvider( 1574): setMinTime 0
+04-04 17:39:45.192 V/GpsLocationProvider( 1574): enableLocationTracking ++
+04-04 17:39:45.192 D/GpsLocationProvider( 1574): [shen] debug
+04-04 17:39:45.192 V/LocationManagerService( 1574): _requestLocationUpdates: listener = Receiver{41332ff8 Listener android.os.BinderProxy@41332fc0}mUpdateRecords: {}
+04-04 17:39:45.192 V/LocationManagerService( 1574): requestLocationUpdatesLocked: updateProvidersLocked
+04-04 17:39:45.202 V/LocationManagerService( 1574): _requestLocationUpdates: provider = gps listener = Receiver{41332ff8 Listener android.os.BinderProxy@41332fc0}mUpdateRecords: {gps=UpdateRecord{40c29038 mProvider: gps mUid: 10116}}
+04-04 17:39:45.222 D/SM:PackageReceiver( 3842): package replaced: package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization
+04-04 17:39:45.222 V/WindowManager( 1574): Starting animation in AppWindowToken{40b7df00 token=ActivityRecord{40a0cf70 com.htc.launcher/.Launcher}} @ 62938404
+04-04 17:39:45.222 V/WindowManager( 1574): Starting animation in AppWindowToken{41305ab8 token=ActivityRecord{409b1178 uk.ac.st_andrews.cs.host.mk74.naivegpslocalization/.MainActivity}} @ 62938404
+04-04 17:39:45.232 V/WindowManager( 1574): Finished animation in AppWindowToken{40b7df00 token=ActivityRecord{40a0cf70 com.htc.launcher/.Launcher}} @ 62938434
+04-04 17:39:45.232 V/WindowManager( 1574): Finished animation in AppWindowToken{41305ab8 token=ActivityRecord{409b1178 uk.ac.st_andrews.cs.host.mk74.naivegpslocalization/.MainActivity}} @ 62938434
+04-04 17:39:45.242 D/FxWidgetScanner( 3849): ResolveInfo size 0
+04-04 17:39:45.242 I/ActivityManager( 1574): Start proc com.google.android.apps.maps:FriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.android.ServiceReceiver: pid=3950 uid=10046 gids={3003, 1015}
+04-04 17:39:45.292 D/ActivityManager( 1574): isSketcherDisabledInCurrentTask():false, ActivityRecord{409b1178 uk.ac.st_andrews.cs.host.mk74.naivegpslocalization/.MainActivity}
+04-04 17:39:45.312 D/SurfaceFlinger( 1438): getTokenForSurface(0xb08ac) => 0 (client=0xc8be0, bitmap=00000001), pid=3942
+04-04 17:39:45.332 D/SqliteDatabaseCpp( 3934): dbopen(): path = /data/data/com.htc.htchubsyncprovider/databases , key = mqdksjlkYdw, flag = 6, file size = 6144
+04-04 17:39:45.332 D/SqliteDatabaseCpp( 3934): dbopen(): path = /data/data/com.htc.htchubsyncprovider/databases , key = mqdksjlkYdw, mode: delete, disk free size: 7850 M, handle: 0xdacd0
+04-04 17:39:45.372 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  2 
+04-04 17:39:45.412 I/ActivityManager( 1574): Displayed uk.ac.st_andrews.cs.host.mk74.naivegpslocalization/.MainActivity: +387ms (total +17h27m55s82ms)
+04-04 17:39:45.432 D/GpsLocationProvider( 1574): [handleMessage] message :8
+04-04 17:39:45.432 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  2 
+04-04 17:39:45.442 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=49, status=0, token=0)
+04-04 17:39:45.482 I/RegisterService( 3850): android.intent.action.PACKAGE_REPLACED package:uk.ac.st_andrews.cs.host.mk74.naivegpslocalization
+04-04 17:39:45.502 D/dalvikvm( 3950): GC_CONCURRENT freed 153K, 4% free 6805K/7047K, paused 3ms+15ms
+04-04 17:39:45.522 D/WidgetScanner( 3849): upadted? false
+04-04 17:39:45.592 D/GpsLocationProvider( 1574): [handleMessage] ADD_LISTENER
+04-04 17:39:45.592 I/ActivityManager( 1574): No longer want com.htc.messagecs (pid 3731): hidden #16
+04-04 17:39:45.602 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=8, status=0, token=2)
+04-04 17:39:45.642 D/dalvikvm( 3950): GC_CONCURRENT freed 134K, 5% free 7134K/7431K, paused 2ms+14ms
+04-04 17:39:45.692 D/Socket_Alarm( 3950): registerHTCSocketMonitorCallBack
+04-04 17:39:45.692 D/Socket_Alarm( 3950): set mSocketMonitor
+04-04 17:39:45.692 D/Socket_Alarm( 3950): HTCSocketMonitorImpl::HTCSocketMonitorImpl
+04-04 17:39:45.713 I/ActivityManager( 1574): No longer want com.android.browser (pid 3756): hidden #16
+04-04 17:39:45.733 I/ActivityManager( 1574): Start proc com.google.android.googlequicksearchbox for broadcast com.google.android.googlequicksearchbox/.SourceUpdateReceiver: pid=3960 uid=10080 gids={3003}
+04-04 17:39:45.793 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=7, status=0, token=1)
+04-04 17:39:45.803 I/ActivityThread( 3960): Pub com.google.android.googlequicksearchbox.shortcuts: com.google.android.googlequicksearchbox.WebHistoryProvider
+04-04 17:39:45.803 I/ActivityThread( 3960): Pub com.google.android.googlequicksearchbox.google: com.google.android.googlequicksearchbox.google.GoogleSuggestionProvider
+04-04 17:39:45.813 D/GpsLocationProvider( 1574): addListener(uk.ac.st_andrews.cs.host.mk74.naivegpslocalization)
+04-04 17:39:45.853 D/SqliteDatabaseCpp( 3960): dbopen(): path = /data/data/com.google.android.googlequicksearchbox/databases , key = iwf-`awtkvq, flag = 6, file size = 6144
+04-04 17:39:45.853 D/SqliteDatabaseCpp( 3960): dbopen(): path = /data/data/com.google.android.googlequicksearchbox/databases , key = iwf-`awtkvq, mode: delete, disk free size: 7850 M, handle: 0x194870
+04-04 17:39:45.863 D/PhoneWindow( 1683): couldn't save which view has focus because the focused view android.widget.RelativeLayout@407c12a0 has no id.
+04-04 17:39:45.863 D/GpsLocationProvider( 1574): [handleMessage] message :3
+04-04 17:39:45.863 D/GpsLocationProvider( 1574): [handleMessage] ENABLE_TRACKING
+04-04 17:39:45.863 D/GpsLocationProvider( 1574): startNavigating
+04-04 17:39:45.873 D/GpsLocationProvider( 1574): HtcBuildFlag.HtcCIQFlag(FALSE)
+04-04 17:39:45.873 W/InputManagerService( 1574): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@407f4df0 (uid=9999 pid=1683)
+04-04 17:39:45.883 I/ActivityManager( 1574): Start proc com.htc.pen for broadcast com.htc.pen/.plugin.PenReceiver: pid=3974 uid=10040 gids={}
+04-04 17:39:45.883 I/ActivityManager( 1574): No longer want com.htc.bg (pid 3747): hidden #16
+04-04 17:39:45.923 I/ActivityThread( 3974): Pub com.htc.penmenu: com.htc.pen.provider.PenMenuProvider
+04-04 17:39:45.923 D/lib_locapi( 1574): [GPS:] loc_eng_set_qos_time_out(standalone = 60000, agps = 89000)
+04-04 17:39:45.933 I/ActivityThread( 3974): Pub com.htc.pen: com.htc.pen.provider.PenProvider
+04-04 17:39:45.943 V/GpsLocationProvider( 1574): set_agps_qos_time_out complete
+04-04 17:39:45.953 D/GpsLocationProvider( 1574): GpsLocationProvider_set_position_mode
+04-04 17:39:45.953 D/SqliteDatabaseCpp( 3974): dbopen(): path = /data/data/com.htc.pen/databases , key = hej, flag = 6, file size = 15360
+04-04 17:39:45.973 D/lib_locapi( 1574): [loc_eng_set_position_mode] host strcmp:15
+04-04 17:39:45.973 D/lib_locapi( 1574): [GPS:] loc_eng_set_position mode, client = 1, interval = 1000, mode = 1
+04-04 17:39:45.973 D/lib_locapi( 1574): [GPS:] htc_set_qos_accuracy(accuracy = 50)
+04-04 17:39:45.973 D/lib_locapi( 1574): [GPS:] loc_eng_set_position mode: GPS_POSITION_MODE_MS_BASED
+04-04 17:39:45.973 D/lib_locapi( 1574): [GPS:] loc_eng_set_position mode before IOCTL, interval=1000, mode =2 preferred_accuracy=50, qos_timeout_standalone=89000, recurrence_type=2
+04-04 17:39:45.973 V/lib_locapi( 1574): loc_eng_ioctl called: client = 1, ioctl_type = 2
+04-04 17:39:45.973 D/locapi_rpc_glue( 1574): loc_ioctl
+04-04 17:39:45.983 D/AutoSetting( 3574): service - mRequestRunnable: screen on delay 10s, request NLP now
+04-04 17:39:45.983 D/RPC     ( 1574): written RPC packet size: [96]
+04-04 17:39:45.983 D/SqliteDatabaseCpp( 3974): dbopen(): path = /data/data/com.htc.pen/databases , key = hej, mode: delete, disk free size: 7850 M, handle: 0x19bb90
+04-04 17:39:45.983 D/RPC     ( 1574): read RPC packet
+04-04 17:39:45.983 D/RPC     ( 1574): read RPC packet size: [28]
+04-04 17:39:45.993 D/RPC     ( 1574): read RPC packet
+04-04 17:39:45.993 D/RPC     ( 1574): read RPC packet size: [80]
+04-04 17:39:45.993 V/locapi_rpc_glue( 1574): Callback received: 80 (cb_id=0x6260000 handle=1)
+04-04 17:39:45.993 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:45.993 V/locapi_rpc_glue( 1574): loc_api_callback_process_sync_call: callback arrives before wait, slot i=0
+04-04 17:39:45.993 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call
+04-04 17:39:45.993 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:45.993 V/locapi_rpc_glue( 1574): loc_api_sync_ioctl: select_id = 0, loc_ioctl returned 0
+04-04 17:39:45.993 V/locapi_rpc_glue( 1574): +loc_wait_callback: select_id: 0
+04-04 17:39:45.993 V/locapi_rpc_glue( 1574): -loc_wait_callback: cb has arrived
+04-04 17:39:45.993 V/lib_locapi( 1574): loc_eng_ioctl result: client = 1, ioctl_type = 2, SUCCESS
+04-04 17:39:45.993 V/GpsLocationProvider( 1574): set_position_mode complete
+04-04 17:39:45.993 D/lib_locapi( 1574): [GPS:] loc_eng_start
+04-04 17:39:46.003 D/AutoSetting( 3574): service - requestNLP() NetworkLocationProvider not enabled
+04-04 17:39:46.003 D/locapi_rpc_glue( 1574): loc_start_fix
+04-04 17:39:46.003 D/RPC     ( 1574): written RPC packet size: [44]
+04-04 17:39:46.003 D/RPC     ( 1574): read RPC packet
+04-04 17:39:46.003 D/RPC     ( 1574): read RPC packet size: [28]
+04-04 17:39:46.003 D/GpsLocationProvider( 1574): reset SV count to zero
+04-04 17:39:46.013 D/RPC     ( 1574): read RPC packet
+04-04 17:39:46.013 D/RPC     ( 1574): read RPC packet size: [80]
+04-04 17:39:46.013 V/locapi_rpc_glue( 1574): Callback received: 100 (cb_id=0x6260000 handle=1)
+04-04 17:39:46.013 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:46.013 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:46.013 D/lib_locapi( 1574): [GPS:] loc_eng_report_status: GPS_STATUS_SESSION_BEGIN
+04-04 17:39:46.013 D/lib_locapi( 1574): [GPS:] loc_eng_report_status: issue callback with status 1
+04-04 17:39:46.013 V/GpsLocationProvider( 1574): reportStatus status: 0
+04-04 17:39:46.013 D/GpsLocationProvider( 1574): [reportStatus] mNavigating:false mEngineOn:false mDownloadXtraDataPending:true
+04-04 17:39:46.013 D/GpsLocationProvider( 1574): [reportStatus] trigger DOWNLOAD_XTRA_DATA
+04-04 17:39:46.013 D/lib_locapi( 1574): [GPS:] loc_eng_report_status: update status
+04-04 17:39:46.013 V/GpsLocationProvider( 1574): reportStatus status: 1
+04-04 17:39:46.013 W/GpsLocationProvider( 1574): GPS notify that the GPS has been change action
+04-04 17:39:46.023 W/GpsLocationProvider( 1574): GPS_ENABLED_CHANGE_ACTION: android.location.GPS_ENABLED_CHANGE EXTRA_GPS_ENABLED: enabled
+04-04 17:39:46.023 D/GpsLocationProvider( 1574): [reportStatus] mNavigating:true mEngineOn:false mDownloadXtraDataPending:true
+04-04 17:39:46.023 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:46.033 D/GpsLocationProvider( 1574): [handleMessage] message :6
+04-04 17:39:46.063 D/RPC     ( 1574): read RPC packet
+04-04 17:39:46.063 D/RPC     ( 1574): read RPC packet size: [84]
+04-04 17:39:46.063 D/ActivityManager( 1574): isSketcherDisabledInCurrentTask():false, ActivityRecord{409b1178 uk.ac.st_andrews.cs.host.mk74.naivegpslocalization/.MainActivity}
+04-04 17:39:46.073 V/locapi_rpc_glue( 1574): Callback received: 40 (cb_id=0x6260000 handle=1)
+04-04 17:39:46.073 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:46.073 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:46.073 D/lib_locapi( 1574): loc_event_cb: GPS_REQUEST_AGPS_DATA_CONN
+04-04 17:39:46.073 D/GpsLocationProvider( 1574): GPS_REQUEST_AGPS_DATA_CONN
+04-04 17:39:46.073 D/GpsLocationProvider( 1574): mConnMgr.startUsingNetworkFeature result: 2
+04-04 17:39:46.073 D/GpsLocationProvider( 1574): startUsingNetworkFeature failed
+04-04 17:39:46.073 D/lib_locapi( 1574): [GPS:] loc_eng_agps_data_conn_failed
+04-04 17:39:46.073 D/lib_locapi( 1574): [GPS:] loc_eng_process_atl_deferred_action 
+04-04 17:39:46.073 D/lib_locapi( 1574): loc_eng_process_atl_deferred_action, send ATL_OPEN_FAIL
+04-04 17:39:46.073 D/ConnectivityService( 1574): startUsingNetworkFeature for net 0: enableSUPL by 1574/1000
+04-04 17:39:46.073 D/ConnectivityService( 1574): special network 3 not available
+04-04 17:39:46.083 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:46.083 D/SurfaceFlinger( 1438): getTokenForSurface(0xae0d4) => 1 (client=0xa3ca8, bitmap=00000003), pid=1648
+04-04 17:39:46.083 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+04-04 17:39:46.093 D/GpsLocationProvider( 1574): [handleMessage] DOWNLOAD_XTRA_DATA mSupportsXtra:true
+04-04 17:39:46.093 D/GpsLocationProvider( 1574): handleDownloadXtraData+++
+04-04 17:39:46.103 D/GpsLocationProvider( 1574): [handleDownloadXtraData] mNetworkAvailable:false mDisableXtraDownload:false mNavigating:true mEngineOn:false
+04-04 17:39:46.103 D/PenUtils( 3974): getDefaultPen() start 15
+04-04 17:39:46.103 D/GpsLocationProvider( 1574): [handleDownloadXtraData] pending until Network available or GPS Engine stop
+04-04 17:39:46.183 D/RPC     ( 1574): read RPC packet
+04-04 17:39:46.183 D/RPC     ( 1574): read RPC packet size: [80]
+04-04 17:39:46.183 V/locapi_rpc_glue( 1574): Callback received: 100 (cb_id=0x6260000 handle=1)
+04-04 17:39:46.183 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:46.193 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:46.193 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:46.243 D/PenUtils( 3974): getDefaultPen() end 46
+04-04 17:39:46.253 I/MySketcher( 3652): onReceive: com.htc.pen.refreshed
+04-04 17:39:46.253 I/MySketcher( 3652): [SketcherWorker] onStartCommand: com.htc.action.PREPARE_VARS
+04-04 17:39:46.253 I/MySketcher( 3652): prepareContentVars entered
+04-04 17:39:46.253 I/MySketcher( 3652):  getContentView  , in thread:3652
+04-04 17:39:46.253 I/MySketcher( 3652):  ContentView null , inflate it
+04-04 17:39:46.283 D/PenUtils( 3652): getAllPen() start 0
+04-04 17:39:46.283 I/ActivityManager( 1574): No longer want com.htc.notes (pid 3774): hidden #16
+04-04 17:39:46.303 I/StateManager( 3652): pen down before = false
+04-04 17:39:46.383 D/dalvikvm( 3652): GC_CONCURRENT freed 126K, 4% free 6813K/7047K, paused 7ms+3ms
+04-04 17:39:46.393 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+04-04 17:39:46.473 D/dalvikvm( 3652): GC_FOR_ALLOC freed 264K, 7% free 6948K/7431K, paused 20ms
+04-04 17:39:46.663 D/dalvikvm( 3652): GC_CONCURRENT freed 111K, 3% free 7360K/7559K, paused 1ms+1ms
+04-04 17:39:46.804 D/PenUtils( 3652): getAllPen() start 0
+04-04 17:39:46.804 D/dalvikvm( 3652): GC_CONCURRENT freed 135K, 3% free 7784K/8007K, paused 1ms+2ms
+04-04 17:39:46.874 I/SimplePen( 3652): created render with defaul alpha: 180, color: -1275068161, width: 3.0
+04-04 17:39:46.874 D/PenUtils( 3652): getAllPen() end 133
+04-04 17:39:46.994 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:46.994 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Watch/FX_WIDGET/-2)
+04-04 17:39:46.994 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:46.994 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Mail/FX_WIDGET/-2)
+04-04 17:39:46.994 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:46.994 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(People/FX_WIDGET/-2)
+04-04 17:39:46.994 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:46.994 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Calendar/FX_WIDGET/-2)
+04-04 17:39:46.994 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:46.994 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Bookmarks/FX_WIDGET/-2)
+04-04 17:39:46.994 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:46.994 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Messages/FX_WIDGET/-2)
+04-04 17:39:47.004 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.004 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Twitter/FX_WIDGET/-2)
+04-04 17:39:47.004 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.004 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Trends/FX_WIDGET/-2)
+04-04 17:39:47.004 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.004 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Sync All/FX_WIDGET/-2)
+04-04 17:39:47.004 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.004 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Music/FX_WIDGET/-2)
+04-04 17:39:47.004 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.004 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Friend Stream/FX_WIDGET/-2)
+04-04 17:39:47.014 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.014 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(My Shelf/FX_WIDGET/-2)
+04-04 17:39:47.014 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.014 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Weather/FX_WIDGET/-2)
+04-04 17:39:47.014 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.014 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Notes/FX_WIDGET/-2)
+04-04 17:39:47.014 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.014 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(HTC Likes/FX_WIDGET/-2)
+04-04 17:39:47.014 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.014 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Photo Album/FX_WIDGET/-2)
+04-04 17:39:47.014 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.014 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Photo Frame/FX_WIDGET/-2)
+04-04 17:39:47.014 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.014 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Photo Grid/FX_WIDGET/-2)
+04-04 17:39:47.014 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.014 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Navigate/FX_WIDGET/-2)
+04-04 17:39:47.024 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.024 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Locations/FX_WIDGET/-2)
+04-04 17:39:47.024 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.024 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(News/FX_WIDGET/-2)
+04-04 17:39:47.024 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.024 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Clock/FX_WIDGET/-2)
+04-04 17:39:47.024 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.024 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Calculator/FX_WIDGET/-2)
+04-04 17:39:47.024 D/CombinedWidgetProvider( 1683): +addFxWidgetCategories: default
+04-04 17:39:47.024 D/CombinedWidgetProvider( 1683): addFxWidget Category: WidgetCategory(Stocks/FX_WIDGET/-2)
+04-04 17:39:47.024 D/CombinedWidgetProvider( 1683): -addFxWidgetCategories
+04-04 17:39:47.074 D/dalvikvm( 3652): GC_CONCURRENT freed 373K, 7% free 7866K/8391K, paused 1ms+1ms
+04-04 17:39:47.074 V/lib_locapi( 1574): loc_eng_ioctl called: client = 1, ioctl_type = 409
+04-04 17:39:47.074 D/locapi_rpc_glue( 1574): loc_ioctl
+04-04 17:39:47.074 D/RPC     ( 1574): written RPC packet size: [164]
+04-04 17:39:47.084 D/RPC     ( 1574): read RPC packet
+04-04 17:39:47.084 D/RPC     ( 1574): read RPC packet size: [28]
+04-04 17:39:47.084 V/locapi_rpc_glue( 1574): loc_api_sync_ioctl: select_id = 0, loc_ioctl returned 0
+04-04 17:39:47.084 V/locapi_rpc_glue( 1574): +loc_wait_callback: select_id: 0
+04-04 17:39:47.084 D/RPC     ( 1574): read RPC packet
+04-04 17:39:47.084 D/RPC     ( 1574): read RPC packet size: [80]
+04-04 17:39:47.084 V/locapi_rpc_glue( 1574): Callback received: 80 (cb_id=0x6260000 handle=1)
+04-04 17:39:47.084 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:47.084 V/locapi_rpc_glue( 1574): loc_api_callback_process_sync_call: signal cb wait, slot i=0
+04-04 17:39:47.084 V/locapi_rpc_glue( 1574): loc_wait_callback: wait cb SUCCESS
+04-04 17:39:47.084 V/locapi_rpc_glue( 1574): -loc_wait_callback
+04-04 17:39:47.084 V/lib_locapi( 1574): loc_eng_ioctl result: client = 1, ioctl_type = 409, SUCCESS
+04-04 17:39:47.084 D/lib_locapi( 1574): [GPS:] loc_eng_report_status: GPS_STATUS_ENGINE_ON
+04-04 17:39:47.084 D/lib_locapi( 1574): [GPS:] loc_eng_report_status: issue callback with status 3
+04-04 17:39:47.084 V/GpsLocationProvider( 1574): reportStatus status: 0
+04-04 17:39:47.084 D/GpsLocationProvider( 1574): [reportStatus] mNavigating:true mEngineOn:false mDownloadXtraDataPending:true
+04-04 17:39:47.084 V/GpsLocationProvider( 1574): reportStatus status: 0
+04-04 17:39:47.084 D/GpsLocationProvider( 1574): [reportStatus] mNavigating:true mEngineOn:false mDownloadXtraDataPending:true
+04-04 17:39:47.084 D/lib_locapi( 1574): [GPS:] loc_eng_report_status: update status
+04-04 17:39:47.084 V/GpsLocationProvider( 1574): reportStatus status: 3
+04-04 17:39:47.084 D/GpsLocationProvider( 1574): [reportStatus] mNavigating:true mEngineOn:true mDownloadXtraDataPending:true
+04-04 17:39:47.084 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call
+04-04 17:39:47.084 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:47.104 I/SimplePen( 3652): created render with defaul alpha: 180, color: -1275068161, width: 3.0
+04-04 17:39:47.104 D/PenUtils( 3652): getAllPen() end 94
+04-04 17:39:47.104 D/PenMenu ( 3652): mPenTypeLoadingListener runnable - onFinish
+04-04 17:39:47.194 D/dalvikvm( 3652): GC_FOR_ALLOC freed 117K, 6% free 8057K/8519K, paused 16ms
+04-04 17:39:47.234 D/dalvikvm( 3652): GC_FOR_ALLOC freed 10K, 6% free 8254K/8711K, paused 25ms
+04-04 17:39:47.264 D/dalvikvm( 3652): GC_FOR_ALLOC freed 5K, 6% free 8515K/8967K, paused 14ms
+04-04 17:39:47.294 D/dalvikvm( 3652): GC_FOR_ALLOC freed 179K, 7% free 8715K/9351K, paused 14ms
+04-04 17:39:47.374 D/dalvikvm( 3652): GC_FOR_ALLOC freed 1034K, 16% free 8148K/9607K, paused 18ms
+04-04 17:39:47.434 D/dalvikvm( 3652): GC_CONCURRENT freed 20K, 10% free 8691K/9607K, paused 1ms+1ms
+04-04 17:39:47.464 D/dalvikvm( 3652): GC_FOR_ALLOC freed 410K, 9% free 8746K/9607K, paused 17ms
+04-04 17:39:47.654 D/RPC     ( 1574): read RPC packet
+04-04 17:39:47.654 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:47.654 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:47.654 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:47.654 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:47.654 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:47.654 D/RPC     ( 1574): read RPC packet
+04-04 17:39:47.654 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:47.654 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:47.654 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:47.654 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:47.654 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:47.664 D/RPC     ( 1574): read RPC packet
+04-04 17:39:47.664 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:47.664 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:47.664 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:47.664 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:47.664 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:47.664 D/RPC     ( 1574): read RPC packet
+04-04 17:39:47.664 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:47.664 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:47.664 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:47.664 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:47.664 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:47.664 D/RPC     ( 1574): read RPC packet
+04-04 17:39:47.664 D/RPC     ( 1574): read RPC packet size: [96]
+04-04 17:39:47.664 V/locapi_rpc_glue( 1574): Callback received: 2 (cb_id=0x6260000 handle=1)
+04-04 17:39:47.664 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:47.664 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:47.664 D/lib_locapi( 1574): loc_eng_report_sv: valid_mask = 0x30, num of sv = 0
+04-04 17:39:47.664 D/GpsLocationProvider( 1574): reportSvStatus
+04-04 17:39:47.664 V/GpsLocationProvider( 1574): SV count: 0 ephemerisMask: 0 almanacMask: 0
+04-04 17:39:47.664 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:47.664 D/RPC     ( 1574): read RPC packet
+04-04 17:39:47.664 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:47.664 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:47.664 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:47.664 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:47.664 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:47.664 D/RPC     ( 1574): read RPC packet
+04-04 17:39:47.674 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:47.674 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:47.674 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:47.674 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:47.674 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:47.674 D/RPC     ( 1574): read RPC packet
+04-04 17:39:47.674 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:47.674 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:47.674 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:47.674 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:47.674 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:47.674 D/RPC     ( 1574): read RPC packet
+04-04 17:39:47.674 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:47.674 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:47.674 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:47.674 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:47.674 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:47.925 D/dalvikvm( 1672): GC_CONCURRENT freed 269K, 10% free 7905K/8775K, paused 2ms+2ms
+04-04 17:39:48.015 D/RPC     ( 1574): read RPC packet
+04-04 17:39:48.015 D/RPC     ( 1574): read RPC packet size: [208]
+04-04 17:39:48.015 V/locapi_rpc_glue( 1574): Callback received: 1 (cb_id=0x6260000 handle=1)
+04-04 17:39:48.015 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:48.015 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:48.015 D/lib_locapi( 1574): loc_eng_report_position: valid mask = 0x606d, sess status = 1
+04-04 17:39:48.015 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:48.275 I/System.out( 3942): Location: unknown | GPSNavigator running:true
+04-04 17:39:48.275 I/System.out( 3942): Battery level: 100 | Time difference: -1
+04-04 17:39:48.675 D/RPC     ( 1574): read RPC packet
+04-04 17:39:48.675 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:48.675 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:48.675 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:48.675 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:48.675 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:48.675 D/RPC     ( 1574): read RPC packet
+04-04 17:39:48.675 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:48.675 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:48.675 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:48.675 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:48.675 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:48.675 D/RPC     ( 1574): read RPC packet
+04-04 17:39:48.675 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:48.675 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:48.675 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:48.675 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:48.675 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:48.675 D/RPC     ( 1574): read RPC packet
+04-04 17:39:48.675 D/RPC     ( 1574): read RPC packet size: [96]
+04-04 17:39:48.675 V/locapi_rpc_glue( 1574): Callback received: 2 (cb_id=0x6260000 handle=1)
+04-04 17:39:48.685 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:48.685 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:48.685 D/lib_locapi( 1574): loc_eng_report_sv: valid_mask = 0x30, num of sv = 0
+04-04 17:39:48.685 D/GpsLocationProvider( 1574): reportSvStatus
+04-04 17:39:48.685 V/GpsLocationProvider( 1574): SV count: 0 ephemerisMask: 0 almanacMask: 0
+04-04 17:39:48.685 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:48.685 D/RPC     ( 1574): read RPC packet
+04-04 17:39:48.685 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:48.685 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:48.685 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:48.695 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:48.695 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:48.695 D/RPC     ( 1574): read RPC packet
+04-04 17:39:48.695 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:48.695 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:48.695 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:48.695 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:48.695 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:48.695 D/RPC     ( 1574): read RPC packet
+04-04 17:39:48.695 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:48.705 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:48.705 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:48.705 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:48.705 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:48.705 D/RPC     ( 1574): read RPC packet
+04-04 17:39:48.705 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:48.705 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:48.705 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:48.705 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:48.715 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:49.016 D/RPC     ( 1574): read RPC packet
+04-04 17:39:49.016 D/RPC     ( 1574): read RPC packet size: [208]
+04-04 17:39:49.016 V/locapi_rpc_glue( 1574): Callback received: 1 (cb_id=0x6260000 handle=1)
+04-04 17:39:49.016 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:49.016 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:49.016 D/lib_locapi( 1574): loc_eng_report_position: valid mask = 0x606d, sess status = 1
+04-04 17:39:49.016 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:49.156 D/WindowManager( 1574): file does not exist.
+04-04 17:39:49.156 D/ConnectivityService( 1574): getMobileDataEnabled returning false
+04-04 17:39:49.166 D/GlobalActions( 1574): updateDialogSelector()
+04-04 17:39:49.166 I/TabletStatusBar( 1648): DISABLE_EXPAND: yes
+04-04 17:39:49.176 D/ActivityManager( 1574): isSketcherDisabledInCurrentTask():false, ActivityRecord{409b1178 uk.ac.st_andrews.cs.host.mk74.naivegpslocalization/.MainActivity}
+04-04 17:39:49.196 I/WindowManager( 1574): [mPowerLongLongPress]--------------->
+04-04 17:39:49.276 D/SurfaceFlinger( 1438): getTokenForSurface(0x9876c) => 0 (client=0xa2580, bitmap=00000003), pid=1574
+04-04 17:39:49.276 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+04-04 17:39:49.656 D/RPC     ( 1574): read RPC packet
+04-04 17:39:49.656 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:49.666 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:49.666 D/RPC     ( 1574): read RPC packet
+04-04 17:39:49.666 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:49.666 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:49.666 D/RPC     ( 1574): read RPC packet
+04-04 17:39:49.666 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:49.666 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:49.666 D/RPC     ( 1574): read RPC packet
+04-04 17:39:49.666 D/RPC     ( 1574): read RPC packet size: [96]
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): Callback received: 2 (cb_id=0x6260000 handle=1)
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:49.666 D/lib_locapi( 1574): loc_eng_report_sv: valid_mask = 0x30, num of sv = 0
+04-04 17:39:49.666 D/GpsLocationProvider( 1574): reportSvStatus
+04-04 17:39:49.666 V/GpsLocationProvider( 1574): SV count: 0 ephemerisMask: 0 almanacMask: 0
+04-04 17:39:49.666 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:49.666 D/RPC     ( 1574): read RPC packet
+04-04 17:39:49.666 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:49.666 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:49.666 D/RPC     ( 1574): read RPC packet
+04-04 17:39:49.666 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:49.666 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:49.666 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:49.666 D/RPC     ( 1574): read RPC packet
+04-04 17:39:49.666 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:49.676 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:49.676 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:49.676 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:49.676 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:49.676 D/RPC     ( 1574): read RPC packet
+04-04 17:39:49.676 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:49.676 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:49.676 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:49.676 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:49.676 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:50.037 D/RPC     ( 1574): read RPC packet
+04-04 17:39:50.037 D/RPC     ( 1574): read RPC packet size: [208]
+04-04 17:39:50.037 V/locapi_rpc_glue( 1574): Callback received: 1 (cb_id=0x6260000 handle=1)
+04-04 17:39:50.037 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:50.037 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:50.037 D/lib_locapi( 1574): loc_eng_report_position: valid mask = 0x606d, sess status = 1
+04-04 17:39:50.047 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:50.397 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+04-04 17:39:50.497 I/ActivityManager( 1574): No longer want com.android.defcontainer (pid 3813): hidden #16
+04-04 17:39:50.657 D/RPC     ( 1574): read RPC packet
+04-04 17:39:50.657 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:50.657 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:50.657 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:50.657 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:50.657 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:50.657 D/RPC     ( 1574): read RPC packet
+04-04 17:39:50.657 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:50.657 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:50.657 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:50.657 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:50.657 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:50.657 D/RPC     ( 1574): read RPC packet
+04-04 17:39:50.667 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:50.667 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:50.667 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:50.667 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:50.667 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:50.667 D/RPC     ( 1574): read RPC packet
+04-04 17:39:50.667 D/RPC     ( 1574): read RPC packet size: [96]
+04-04 17:39:50.667 V/locapi_rpc_glue( 1574): Callback received: 2 (cb_id=0x6260000 handle=1)
+04-04 17:39:50.667 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:50.667 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:50.667 D/lib_locapi( 1574): loc_eng_report_sv: valid_mask = 0x30, num of sv = 0
+04-04 17:39:50.667 D/GpsLocationProvider( 1574): reportSvStatus
+04-04 17:39:50.667 V/GpsLocationProvider( 1574): SV count: 0 ephemerisMask: 0 almanacMask: 0
+04-04 17:39:50.667 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:50.677 D/RPC     ( 1574): read RPC packet
+04-04 17:39:50.677 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:50.677 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:50.677 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:50.677 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:50.677 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:50.677 D/RPC     ( 1574): read RPC packet
+04-04 17:39:50.677 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:50.677 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:50.677 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:50.677 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:50.677 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:50.677 D/RPC     ( 1574): read RPC packet
+04-04 17:39:50.677 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:50.677 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:50.677 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:50.677 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:50.677 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:50.677 D/RPC     ( 1574): read RPC packet
+04-04 17:39:50.677 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:50.677 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:50.687 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:50.687 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:50.687 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:50.737 V/HtcAlertDialog( 1574): onStop
+04-04 17:39:50.767 D/ActivityManager( 1574): isSketcherDisabledInCurrentTask():false, ActivityRecord{409b1178 uk.ac.st_andrews.cs.host.mk74.naivegpslocalization/.MainActivity}
+04-04 17:39:50.797 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=53, status=0, token=0)
+04-04 17:39:50.807 D/SurfaceFlinger( 1438): getTokenForSurface(0xb3424) => 2 (client=0xa2580, bitmap=00000007), pid=1574
+04-04 17:39:50.807 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+04-04 17:39:51.018 D/RPC     ( 1574): read RPC packet
+04-04 17:39:51.018 D/RPC     ( 1574): read RPC packet size: [208]
+04-04 17:39:51.018 V/locapi_rpc_glue( 1574): Callback received: 1 (cb_id=0x6260000 handle=1)
+04-04 17:39:51.018 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:51.018 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:51.018 D/lib_locapi( 1574): loc_eng_report_position: valid mask = 0x606d, sess status = 1
+04-04 17:39:51.018 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:51.278 I/System.out( 3942): Location: unknown | GPSNavigator running:true
+04-04 17:39:51.278 I/System.out( 3942): Battery level: 100 | Time difference: -1
+04-04 17:39:51.398 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=52, status=0, token=1)
+04-04 17:39:51.558 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+04-04 17:39:51.578 I/ActivityManager( 1574): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.htc.launcher/.Launcher } from pid 1574
+04-04 17:39:51.638 D/ActivityManager( 1574): isSketcherDisabledInCurrentTask():false, ActivityRecord{40a0cf70 com.htc.launcher/.Launcher}
+04-04 17:39:51.638 D/WindowManager( 1574): mStatusBarCanHide: true
+04-04 17:39:51.638 V/HtcAlertDialog( 1574): onStop
+04-04 17:39:51.648 W/SyncManager( 1574): Writing sync state before shutdown...
+04-04 17:39:51.668 D/RPC     ( 1574): read RPC packet
+04-04 17:39:51.678 D/SurfaceFlinger( 1438): getTokenForSurface(0xae0d4) => 0 (client=0xa2580, bitmap=00000007), pid=1574
+04-04 17:39:51.678 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  2 
+04-04 17:39:51.688 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=54, status=0, token=2)
+04-04 17:39:51.698 I/SharedBufferStack( 1438): ShareClientTryLock succeed after 11 trial
+04-04 17:39:51.708 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:51.718 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:51.718 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:51.728 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:51.728 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:51.738 D/RPC     ( 1574): read RPC packet
+04-04 17:39:51.738 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:51.738 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:51.738 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:51.748 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:51.748 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:51.748 D/RPC     ( 1574): read RPC packet
+04-04 17:39:51.748 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:51.748 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:51.748 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:51.748 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:51.748 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:51.748 D/RPC     ( 1574): read RPC packet
+04-04 17:39:51.748 D/RPC     ( 1574): read RPC packet size: [96]
+04-04 17:39:51.748 V/locapi_rpc_glue( 1574): Callback received: 2 (cb_id=0x6260000 handle=1)
+04-04 17:39:51.748 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:51.748 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:51.748 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:51.758 D/RPC     ( 1574): read RPC packet
+04-04 17:39:51.758 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:51.758 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:51.758 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:51.758 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:51.758 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:51.758 D/RPC     ( 1574): read RPC packet
+04-04 17:39:51.758 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:51.758 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:51.758 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:51.758 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:51.758 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:51.758 D/RPC     ( 1574): read RPC packet
+04-04 17:39:51.758 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:51.758 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:51.758 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:51.768 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:51.768 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:51.768 D/RPC     ( 1574): read RPC packet
+04-04 17:39:51.768 D/RPC     ( 1574): read RPC packet size: [272]
+04-04 17:39:51.768 V/locapi_rpc_glue( 1574): Callback received: 4 (cb_id=0x6260000 handle=1)
+04-04 17:39:51.768 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:51.768 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:51.778 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:51.828 D/lib_locapi( 1574): loc_eng_report_sv: valid_mask = 0x30, num of sv = 0
+04-04 17:39:51.828 D/GpsLocationProvider( 1574): reportSvStatus
+04-04 17:39:51.828 D/dalvikvm( 1574): GC_FOR_ALLOC freed 2100K, 23% free 17143K/22215K, paused 65ms
+04-04 17:39:51.828 V/GpsLocationProvider( 1574): SV count: 0 ephemerisMask: 0 almanacMask: 0
+04-04 17:39:51.838 D/FxWorkspace( 1683): changeScreensVisibility
+04-04 17:39:51.838 D/Launcher.Model( 1683): updateAppUsageStatCache +
+04-04 17:39:51.838 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/brightness string=0,len=1
+04-04 17:39:51.838 D/NotificationService( 1574): mIntentReceiver() Intent.ACTION_SHUTDOWN
+04-04 17:39:51.838 V/NotificationService( 1574): Battery Full, Charging
+04-04 17:39:51.848 D/Launcher.Model( 1683): updateAppUsageStatCache - diff: 3
+04-04 17:39:51.848 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/blink string=0,len=1
+04-04 17:39:51.848 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/off_timer string=0 0,len=3
+04-04 17:39:51.848 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/brightness string=1,len=1
+04-04 17:39:51.858 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/blink string=0,len=1
+04-04 17:39:51.858 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/off_timer string=0 0,len=3
+04-04 17:39:51.869 D/GpsLocationProvider( 1574): ACTION_SHUTDOWN
+04-04 17:39:51.869 D/GpsLocationProvider( 1574): stopNavigating
+04-04 17:39:51.869 D/lib_locapi( 1574): [GPS:] loc_eng_stop
+04-04 17:39:51.869 D/locapi_rpc_glue( 1574): loc_stop_fix
+04-04 17:39:51.869 D/RPC     ( 1574): written RPC packet size: [44]
+04-04 17:39:51.869 D/RPC     ( 1574): read RPC packet
+04-04 17:39:51.869 D/RPC     ( 1574): read RPC packet size: [28]
+04-04 17:39:51.869 D/lib_locapi( 1574): loc_eng_report_status: update status
+04-04 17:39:51.869 V/GpsLocationProvider( 1574): reportStatus status: 2
+04-04 17:39:51.869 W/GpsLocationProvider( 1574): GPS notify that the GPS has been change action
+04-04 17:39:51.879 W/GpsLocationProvider( 1574): GPS_ENABLED_CHANGE_ACTION: android.location.GPS_ENABLED_CHANGE EXTRA_GPS_ENABLED: enabled
+04-04 17:39:51.879 D/GpsLocationProvider( 1574): [reportStatus] mNavigating:false mEngineOn:true mDownloadXtraDataPending:true
+04-04 17:39:51.879 D/HostWidgetManager( 1683): resumeWidgets: 2 sort: false
+04-04 17:39:51.879 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/brightness string=0,len=1
+04-04 17:39:51.879 D/RPC     ( 1574): read RPC packet
+04-04 17:39:51.879 V/NotificationService( 1574): Battery Full, Charging
+04-04 17:39:51.879 I/ActivityManager( 1574): Start proc com.htc.cspeoplesync for broadcast com.htc.cspeoplesync/.service.SyncServiceBroadCastReceiver: pid=3993 uid=10092 gids={}
+04-04 17:39:51.889 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/blink string=0,len=1
+04-04 17:39:51.889 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/amber/off_timer string=0 0,len=3
+04-04 17:39:51.889 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/brightness string=1,len=1
+04-04 17:39:51.889 D/RPC     ( 1574): read RPC packet size: [208]
+04-04 17:39:51.889 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/blink string=0,len=1
+04-04 17:39:51.899 D/lights  ( 1574): [LedInfo] write attr ok name=/sys/class/leds/green/off_timer string=0 0,len=3
+04-04 17:39:51.899 D/NotificationService( 1574): cancelNotification, ACTION_NOTIFICATION_REMOVE,pkg=com.android.systemui,id=252119
+04-04 17:39:51.919 V/locapi_rpc_glue( 1574): Callback received: 1 (cb_id=0x6260000 handle=1)
+04-04 17:39:51.929 D/FxWorkspace( 1683): changeScreensVisibility
+04-04 17:39:51.929 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:51.939 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:51.939 D/SurfaceFlinger( 1438): getTokenForSurface(0xa5504) => 0 (client=0xad908, bitmap=00000001), pid=1683
+04-04 17:39:51.949 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  4 
+04-04 17:39:51.959 D/SurfaceFlinger( 1438): getTokenForSurface(0x63674) => 1 (client=0xad908, bitmap=00000003), pid=1683
+04-04 17:39:51.969 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+04-04 17:39:51.969 D/lib_locapi( 1574): loc_eng_report_position: valid mask = 0x1, sess status = 4
+04-04 17:39:51.969 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:51.989 D/RPC     ( 1574): read RPC packet
+04-04 17:39:52.009 D/RPC     ( 1574): read RPC packet size: [80]
+04-04 17:39:52.009 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  4 
+04-04 17:39:52.019 V/locapi_rpc_glue( 1574): Callback received: 100 (cb_id=0x6260000 handle=1)
+04-04 17:39:52.029 I/ActivityThread( 3993): Pub com.htc.cspeoplesync.providers.synctrackingprovider: com.htc.cspeoplesync.providers.SyncTrackingProvider
+04-04 17:39:52.039 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:52.039 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:52.049 D/lib_locapi( 1574): [GPS:] loc_eng_report_status: GPS_STATUS_SESSION_END
+04-04 17:39:52.049 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:52.049 D/PendingAddWidgetInfo( 1683): PendingAddWidgetInfo: ComponentInfo{com.htc.fusion.htcbookmarkwidget/com.htc.fusion.htcbookmarkwidget.GridWidgetView} / grid
+04-04 17:39:52.049 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  2 
+04-04 17:39:52.069 D/SqliteDatabaseCpp( 3993): dbopen(): path = /data/data/com.htc.cspeoplesync/databases , key = GWwqjgtvYgoajc, flag = 6, file size = 13312
+04-04 17:39:52.069 D/RPC     ( 1574): read RPC packet
+04-04 17:39:52.069 D/PendingAddWidgetInfo( 1683): PendingAddWidgetInfo: ComponentInfo{com.htc.fusion.htcbookmarkwidget/com.htc.fusion.htcbookmarkwidget.ListWidgetView} / list
+04-04 17:39:52.069 D/SqliteDatabaseCpp( 3993): dbopen(): path = /data/data/com.htc.cspeoplesync/databases , key = GWwqjgtvYgoajc, mode: delete, disk free size: 7850 M, handle: 0x15c460
+04-04 17:39:52.079 D/RPC     ( 1574): read RPC packet size: [80]
+04-04 17:39:52.089 V/locapi_rpc_glue( 1574): Callback received: 100 (cb_id=0x6260000 handle=1)
+04-04 17:39:52.099 V/locapi_rpc_glue( 1574): +loc_api_callback_process_sync_call
+04-04 17:39:52.099 V/locapi_rpc_glue( 1574): -loc_api_callback_process_sync_call, no sync call in use
+04-04 17:39:52.109 D/lib_locapi( 1574): [GPS:] loc_eng_report_status: GPS_STATUS_ENGINE_OFF
+04-04 17:39:52.109 D/lib_locapi( 1574): [GPS:] loc_eng_report_status: issue callback with status 4
+04-04 17:39:52.109 V/GpsLocationProvider( 1574): reportStatus status: 0
+04-04 17:39:52.109 D/GpsLocationProvider( 1574): [reportStatus] mNavigating:false mEngineOn:true mDownloadXtraDataPending:true
+04-04 17:39:52.109 D/lib_locapi( 1574): [GPS:] loc_eng_report_status: update status
+04-04 17:39:52.109 V/GpsLocationProvider( 1574): reportStatus status: 4
+04-04 17:39:52.109 D/GpsLocationProvider( 1574): [reportStatus] mNavigating:false mEngineOn:false mDownloadXtraDataPending:true
+04-04 17:39:52.109 D/GpsLocationProvider( 1574): [reportStatus] trigger DOWNLOAD_XTRA_DATA
+04-04 17:39:52.109 D/GpsLocationProvider( 1574): [handleMessage] message :6
+04-04 17:39:52.129 I/ActivityThread( 3993): Pub com.htc.cspeoplesync.CSSyncAccountAdapter: com.htc.cspeoplesync.CSSyncAccountAdapter
+04-04 17:39:52.129 D/RPC     ( 1574): written RPC packet size: [28]
+04-04 17:39:52.149 D/FxWorkspace( 1683): changeScreensVisibility
+04-04 17:39:52.149 I/ActivityManager( 1574): No longer want android.process.media (pid 3594): hidden #16
+04-04 17:39:52.169 D/msm7x30.gralloc( 1438): gpu_context_t::getGrallocInformationFromFormat  1 
+04-04 17:39:52.249 D/dalvikvm( 1574): GC_FOR_ALLOC freed 180K, 18% free 18222K/22215K, paused 52ms
+04-04 17:39:52.249 I/dalvikvm-heap( 1574): Grow heap (frag case) to 19.069MB for 1228816-byte allocation
+04-04 17:39:52.339 D/dalvikvm( 1574): GC_FOR_ALLOC freed 2K, 18% free 19419K/23431K, paused 56ms
+04-04 17:39:52.359 I/TelephonyRegistry( 1574): notifyDataConnection: state=0 isDataConnectivityPossible=false reason='radioTurnedOff' apn='null' apnType=default networkType=0
+04-04 17:39:52.359 V/WindowManager( 1574): Starting animation in AppWindowToken{41305ab8 token=ActivityRecord{409b1178 uk.ac.st_andrews.cs.host.mk74.naivegpslocalization/.MainActivity}} @ 62945543
+04-04 17:39:52.359 V/WindowManager( 1574): Starting animation in AppWindowToken{40b7df00 token=ActivityRecord{40a0cf70 com.htc.launcher/.Launcher}} @ 62945543
+04-04 17:39:52.429 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1244K, 23% free 18211K/23431K, paused 54ms
+04-04 17:39:52.429 D/GpsLocationProvider( 1574): [handleMessage] DOWNLOAD_XTRA_DATA mSupportsXtra:true
+04-04 17:39:52.429 D/GpsLocationProvider( 1574): handleDownloadXtraData+++
+04-04 17:39:52.429 D/GpsLocationProvider( 1574): [handleDownloadXtraData] mNetworkAvailable:false mDisableXtraDownload:false mNavigating:false mEngineOn:false
+04-04 17:39:52.439 D/GpsLocationProvider( 1574): [handleDownloadXtraData] pending until Network available or GPS Engine stop
+04-04 17:39:52.469 V/WindowManager( 1574): Finished animation in AppWindowToken{41305ab8 token=ActivityRecord{409b1178 uk.ac.st_andrews.cs.host.mk74.naivegpslocalization/.MainActivity}} @ 62945672
+04-04 17:39:52.469 D/ConnectivityService( 1574): getMobileDataEnabled returning false
+04-04 17:39:52.469 V/WindowManager( 1574): Finished animation in AppWindowToken{40b7df00 token=ActivityRecord{40a0cf70 com.htc.launcher/.Launcher}} @ 62945672
+04-04 17:39:52.489 D/SurfaceFlinger( 1438): virtual void android::Layer::onRemoved(): lcblk (identity=51, status=0, token=0)
+04-04 17:39:52.499 D/MobileDataStateTracker( 1574): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:52.499 D/MobileDataStateTracker( 1574): default: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:52.509 D/MobileDataStateTracker( 1574): mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:52.509 D/MobileDataStateTracker( 1574): mms: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:52.519 D/MobileDataStateTracker( 1574): supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:52.519 D/MobileDataStateTracker( 1574): supl: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:52.629 D/dalvikvm( 1683): GC_CONCURRENT freed 2699K, 28% free 10884K/15047K, paused 2ms+9ms
+04-04 17:39:52.639 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1302K, 23% free 18210K/23431K, paused 94ms
+04-04 17:39:52.649 D/MobileDataStateTracker( 1574): dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:52.649 D/MobileDataStateTracker( 1574): dun: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:52.799 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1231K, 23% free 18207K/23431K, paused 86ms
+04-04 17:39:52.829 D/MobileDataStateTracker( 1574): hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:52.829 D/MobileDataStateTracker( 1574): hipri: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:52.839 D/MobileDataStateTracker( 1574): wapgateway: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:52.839 D/MobileDataStateTracker( 1574): wapgateway: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:52.849 D/MobileDataStateTracker( 1574): httpproxy: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:52.859 D/MobileDataStateTracker( 1574): httpproxy: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:52.859 D/MobileDataStateTracker( 1574): fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:52.859 D/MobileDataStateTracker( 1574): fota: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:52.879 D/MobileDataStateTracker( 1574): admin: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:52.879 D/MobileDataStateTracker( 1574): admin: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:52.900 D/MobileDataStateTracker( 1574): internet: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:52.900 D/MobileDataStateTracker( 1574): internet: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:52.960 D/dalvikvm( 1683): GC_CONCURRENT freed 745K, 24% free 11529K/15047K, paused 1ms+15ms
+04-04 17:39:52.980 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1333K, 23% free 18206K/23431K, paused 74ms
+04-04 17:39:52.980 D/MobileDataStateTracker( 1574): MM: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:52.980 D/MobileDataStateTracker( 1574): MM: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:53.000 D/MobileDataStateTracker( 1574): cmmail: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:53.000 D/MobileDataStateTracker( 1574): cmmail: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:53.000 D/MobileDataStateTracker( 1574): vzwapp: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:53.000 D/MobileDataStateTracker( 1574): vzwapp: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:53.000 D/MobileDataStateTracker( 1574): ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:53.010 D/MobileDataStateTracker( 1574): ims: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:53.010 D/MobileDataStateTracker( 1574): null: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:53.010 D/MobileDataStateTracker( 1574): null: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:53.090 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1311K, 23% free 18203K/23431K, paused 51ms
+04-04 17:39:53.190 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1224K, 23% free 18203K/23431K, paused 50ms
+04-04 17:39:53.280 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1224K, 23% free 18203K/23431K, paused 51ms
+04-04 17:39:53.410 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1224K, 23% free 18203K/23431K, paused 65ms
+04-04 17:39:53.500 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1224K, 23% free 18203K/23431K, paused 51ms
+04-04 17:39:53.600 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1224K, 23% free 18203K/23431K, paused 51ms
+04-04 17:39:53.690 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1224K, 23% free 18203K/23431K, paused 49ms
+04-04 17:39:53.780 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1224K, 23% free 18203K/23431K, paused 50ms
+04-04 17:39:53.870 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1224K, 23% free 18203K/23431K, paused 51ms
+04-04 17:39:53.961 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1224K, 23% free 18203K/23431K, paused 51ms
+04-04 17:39:54.061 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1224K, 23% free 18203K/23431K, paused 49ms
+04-04 17:39:54.151 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1224K, 23% free 18203K/23431K, paused 50ms
+04-04 17:39:54.241 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1224K, 23% free 18203K/23431K, paused 51ms
+04-04 17:39:54.281 I/System.out( 3942): Location: unknown | GPSNavigator running:true
+04-04 17:39:54.281 I/System.out( 3942): Battery level: 100 | Time difference: -1
+04-04 17:39:54.331 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1224K, 23% free 18203K/23431K, paused 52ms
+04-04 17:39:54.441 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1225K, 23% free 18203K/23431K, paused 51ms
+04-04 17:39:54.491 I/TelephonyRegistry( 1574): notifyServiceState: 3 home null null null  3 Unknown CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EriInd: -1EriMode: -1RadioPowerSv: falseEmergOnly: false
+04-04 17:39:54.491 D/StatusBar.NetworkController( 1648): updateDataIcon()
+04-04 17:39:54.491 D/StatusBar.NetworkController( 1648): mSignalStrength.isGsm() == true
+04-04 17:39:54.501 D/StatusBar.NetworkController( 1648): no wifi only----------
+04-04 17:39:54.501 D/StatusBar.NetworkController( 1648): mSignalStrength.isGsm() == true
+04-04 17:39:54.501 I/ActivityManager( 1574): No longer want com.htc.wdm (pid 3905): hidden #16
+04-04 17:39:54.501 D/AutoSetting( 3574): receiver - intent: android.intent.action.SERVICE_STATE
+04-04 17:39:54.501 D/AutoSetting( 3574): receiver - flag: Service state 3
+04-04 17:39:54.561 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1233K, 23% free 18205K/23431K, paused 57ms
+04-04 17:39:54.561 I/TelephonyRegistry( 1574): notifyDataConnection: state=0 isDataConnectivityPossible=false reason='radioTurnedOff' apn='null' apnType=default networkType=0
+04-04 17:39:54.611 D/AutoSetting( 3574): service - onStartCommand() action: com.htc.app.autosetting.timezoneupdate
+04-04 17:39:54.611 I/TelephonyRegistry( 1574): notifyDataConnection: state=0 isDataConnectivityPossible=false reason='radioTurnedOff' apn='null' apnType=default networkType=0
+04-04 17:39:54.681 D/dalvikvm( 1671): GC_CONCURRENT freed 423K, 9% free 7195K/7879K, paused 1ms+1ms
+04-04 17:39:54.691 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1245K, 23% free 18210K/23431K, paused 73ms
+04-04 17:39:54.701 D/MobileDataStateTracker( 1574): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:54.701 D/MobileDataStateTracker( 1574): default: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:54.701 I/TelephonyRegistry( 1574): notifyDataConnection: state=0 isDataConnectivityPossible=false reason='radioTurnedOff' apn='null' apnType=default networkType=0
+04-04 17:39:54.701 D/MobileDataStateTracker( 1574): mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:54.711 D/MobileDataStateTracker( 1574): mms: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:54.711 I/TelephonyRegistry( 1574): notifyDataConnection: state=0 isDataConnectivityPossible=false reason='radioTurnedOff' apn='null' apnType=default networkType=0
+04-04 17:39:54.721 D/StatusBar.NetworkController( 1648): updateDataIcon()
+04-04 17:39:54.721 D/StatusBar.NetworkController( 1648): mSignalStrength.isGsm() == true
+04-04 17:39:54.731 D/MyHTC   ( 3654): PoweronReceiver.onReceive(): intent=android.intent.action.SIM_STATE_CHANGED
+04-04 17:39:54.731 D/MyHTC   ( 3654): PoweronReceiver onReceive(): ACTION_SIM_STATE_CHANGED ss = NOT_READY
+04-04 17:39:54.741 I/ActivityManager( 1574): Start proc com.sdgtl.watch.flyer for broadcast com.sdgtl.watch.flyer/com.sdgtl.watch.service.ModeChangeReceiver: pid=4003 uid=10016 gids={3003, 1015}
+04-04 17:39:54.741 D/StatusBar.NetworkController( 1648): no wifi only----------
+04-04 17:39:54.741 D/StatusBar.NetworkController( 1648): no wifi only----------
+04-04 17:39:54.741 D/StatusBar.NetworkController( 1648): mSignalStrength.isGsm() == true
+04-04 17:39:54.751 D/MobileDataStateTracker( 1574): supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:54.751 D/MobileDataStateTracker( 1574): supl: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:54.771 D/MobileDataStateTracker( 1574): dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:54.771 D/MobileDataStateTracker( 1574): dun: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:54.791 D/MobileDataStateTracker( 1574): hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:54.791 D/MobileDataStateTracker( 1574): hipri: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:54.801 D/MobileDataStateTracker( 1574): wapgateway: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:54.801 D/MobileDataStateTracker( 1574): wapgateway: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:54.841 D/MobileDataStateTracker( 1574): httpproxy: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:54.841 D/MobileDataStateTracker( 1574): httpproxy: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:54.841 D/MobileDataStateTracker( 1574): fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:54.841 D/MobileDataStateTracker( 1574): fota: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:54.851 D/MobileDataStateTracker( 1574): admin: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:54.851 W/HtcShutdownThread( 1574): radioOff: true, bluetoothOff: true, wifiOff: true, wifiApOff: true, wimaxOff: true, IsAirplaneMode=0
+04-04 17:39:54.851 I/PackageManager( 1574): Updating external media status from mounted to unmounted
+04-04 17:39:54.851 D/MobileDataStateTracker( 1574): admin: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:54.851 I/MountService( 1574): Shutting down
+04-04 17:39:54.851 D/MountService( 1574): child of /mnt/sdcard: /mnt/sdcard/ext_sd
+04-04 17:39:54.851 D/MountService( 1574): child of /mnt/sdcard: /mnt/sdcard/usb
+04-04 17:39:54.921 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1393K, 23% free 18217K/23431K, paused 59ms
+04-04 17:39:54.931 D/MobileDataStateTracker( 1574): internet: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:54.931 D/HostWidgetManager( 1683): pauseWidgets: 2
+04-04 17:39:54.931 D/MobileDataStateTracker( 1574): internet: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:54.952 D/PhoneWindow( 1683): couldn't save which view has focus because the focused view android.widget.RelativeLayout@407c12a0 has no id.
+04-04 17:39:54.962 D/MobileDataStateTracker( 1574): MM: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:54.962 D/MobileDataStateTracker( 1574): MM: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:54.962 I/UsageStats( 1574): Writing usage stats before shutdown...
+04-04 17:39:54.982 I/ActivityThread( 4003): Pub com.sdgtl.watchapp.widget: com.sdgtl.watch.widget.WatchAppContentProvider
+04-04 17:39:54.982 D/MobileDataStateTracker( 1574): cmmail: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:54.982 D/MobileDataStateTracker( 1574): cmmail: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:54.992 I/ActivityThread( 4003): Pub searchformovies: com.sdgtl.watch.search.CatalogSearchProvider
+04-04 17:39:54.992 D/MobileDataStateTracker( 1574): vzwapp: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:54.992 D/MobileDataStateTracker( 1574): vzwapp: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.002 I/ActivityThread( 4003): Pub com.sdgtl.watch.WatchAppCarouselProvider: com.sdgtl.watch.WatchAppCarouselProvider
+04-04 17:39:55.002 D/MobileDataStateTracker( 1574): ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.002 D/MobileDataStateTracker( 1574): ims: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.022 I/ActivityManager( 1574): No longer want com.htc.launcher.widgetscanner (pid 3849): hidden #16
+04-04 17:39:55.022 D/MobileDataStateTracker( 1574): null: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.022 D/MobileDataStateTracker( 1574): null: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.032 D/SmsReceiver( 3678): Don't handle ACTION_SIM_STATE_CHANGED not ready action 
+04-04 17:39:55.062 D/ExchangePolicystatus( 3678): onReceive()
+04-04 17:39:55.072 W/BatteryStats( 1574): Writing battery stats before shutdown...
+04-04 17:39:55.102 D/dalvikvm( 3678): GC_CONCURRENT freed 416K, 8% free 6830K/7367K, paused 2ms+1ms
+04-04 17:39:55.142 I/rmt_storage( 1455): rmt_storage write event
+04-04 17:39:55.142 I/rmt_storage( 1455): rmt_storage events processing done
+04-04 17:39:55.142 I/rmt_storage( 1455): unblock rmt_storage client thread
+04-04 17:39:55.142 I/rmt_storage( 1455): rmt_storage lseek...
+04-04 17:39:55.142 I/rmt_storage( 1455): rmt_storage lseek ret = 1
+04-04 17:39:55.142 I/rmt_storage( 1455): rmt_storage write buf = 0x40011000, num_sector = 6143
+04-04 17:39:55.202 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1472K, 23% free 18247K/23431K, paused 81ms
+04-04 17:39:55.202 D/UserBehaviorLoggingService( 1574): stop() is called at first time!
+04-04 17:39:55.202 I/ActivityManager( 1574): Start proc com.htc.messagecs for broadcast com.htc.messagecs/.MessageCSReceiver: pid=4011 uid=10063 gids={1015, 3003}
+04-04 17:39:55.392 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1267K, 23% free 18212K/23431K, paused 79ms
+04-04 17:39:55.392 W/ContentService( 1574): binderDied() at ObserverNode name favorites
+04-04 17:39:55.392 D/VoldCmdListener( 1434): asec list
+04-04 17:39:55.402 D/VoldConnector( 1574): listenToSocket read--: (29,0)
+04-04 17:39:55.402 D/VoldConnector( 1574): RCV <- {200 asec operation succeeded}
+04-04 17:39:55.402 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:55.402 D/Launcher.Model( 1683): updateAppUsageStatCache +
+04-04 17:39:55.402 D/VoldConnector( 1574): doCommand++ (Wait Response)
+04-04 17:39:55.412 D/Launcher.Model( 1683): updateAppUsageStatCache - diff: 9
+04-04 17:39:55.412 D/MobileDataStateTracker( 1574): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.412 D/MobileDataStateTracker( 1574): default: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.442 D/HostWidgetManager( 1683): resumeWidgets: 2 sort: false
+04-04 17:39:55.452 I/ActivityThread( 4011): Pub com.htc.messagecs.provider: com.htc.messagecs.provider.MessageCSProvider
+04-04 17:39:55.482 D/SqliteDatabaseCpp( 4011): dbopen(): path = /data/data/com.htc.messagecs/databases , key = mewwYcegw, flag = 6, file size = 14336
+04-04 17:39:55.482 D/MobileDataStateTracker( 1574): mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.482 D/MobileDataStateTracker( 1574): mms: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.492 D/HostWidgetManager( 1683): pauseWidgets: 2
+04-04 17:39:55.502 D/MobileDataStateTracker( 1574): supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.502 D/PhoneWindow( 1683): couldn't save which view has focus because the focused view android.widget.RelativeLayout@407c12a0 has no id.
+04-04 17:39:55.502 D/MobileDataStateTracker( 1574): supl: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.522 D/SqliteDatabaseCpp( 4011): dbopen(): path = /data/data/com.htc.messagecs/databases , key = mewwYcegw, mode: delete, disk free size: 7850 M, handle: 0x15d780
+04-04 17:39:55.532 D/MobileDataStateTracker( 1574): dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.532 D/MobileDataStateTracker( 1574): dun: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.542 D/MobileDataStateTracker( 1574): hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.542 D/MobileDataStateTracker( 1574): hipri: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.562 D/MobileDataStateTracker( 1574): wapgateway: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.562 D/MobileDataStateTracker( 1574): wapgateway: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.592 D/MobileDataStateTracker( 1574): httpproxy: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.592 D/MobileDataStateTracker( 1574): httpproxy: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.602 I/ActivityManager( 1574): No longer want com.svox.pico (pid 3919): hidden #16
+04-04 17:39:55.602 D/MobileDataStateTracker( 1574): fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.602 D/AutoSetting( 3574): receiver - intent: android.intent.action.SIM_STATE_CHANGED
+04-04 17:39:55.602 D/MobileDataStateTracker( 1574): fota: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.622 D/MobileDataStateTracker( 1574): admin: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.622 D/MobileDataStateTracker( 1574): admin: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.632 D/MobileDataStateTracker( 1574): internet: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.632 D/MobileDataStateTracker( 1574): internet: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.722 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1532K, 23% free 18208K/23431K, paused 87ms
+04-04 17:39:55.722 D/MobileDataStateTracker( 1574): MM: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.722 D/MobileDataStateTracker( 1574): MM: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.732 D/MobileDataStateTracker( 1574): cmmail: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.732 D/MobileDataStateTracker( 1574): cmmail: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.772 D/MobileDataStateTracker( 1574): vzwapp: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.772 D/MobileDataStateTracker( 1574): vzwapp: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.812 D/dalvikvm( 1671): GC_CONCURRENT freed 407K, 9% free 7190K/7879K, paused 2ms+6ms
+04-04 17:39:55.872 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1288K, 23% free 18205K/23431K, paused 62ms
+04-04 17:39:55.882 D/Launcher.Model( 1683): updateAppUsageStatCache +
+04-04 17:39:55.882 D/Launcher.Model( 1683): updateAppUsageStatCache - diff: 2
+04-04 17:39:55.882 D/MobileDataStateTracker( 1574): ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.882 D/MobileDataStateTracker( 1574): ims: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.902 D/PREF    ( 1683): setWidgetTilt .FriendStreamLarge2Widget : 12
+04-04 17:39:55.912 D/HostWidgetManager( 1683): resumeWidgets: 2 sort: false
+04-04 17:39:55.912 D/MobileDataStateTracker( 1574): null: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.912 D/MobileDataStateTracker( 1574): null: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.932 D/HostWidgetManager( 1683): pauseWidgets: 2
+04-04 17:39:55.952 D/MobileDataStateTracker( 1574): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.952 D/PhoneWindow( 1683): couldn't save which view has focus because the focused view android.widget.RelativeLayout@407c12a0 has no id.
+04-04 17:39:55.952 D/MobileDataStateTracker( 1574): default: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.963 D/MobileDataStateTracker( 1574): mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.963 D/MobileDataStateTracker( 1574): mms: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.963 D/MobileDataStateTracker( 1574): supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.963 D/MobileDataStateTracker( 1574): supl: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.983 D/MobileDataStateTracker( 1574): dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:55.983 D/MobileDataStateTracker( 1574): dun: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:55.983 D/VoldConnector( 1574): RSP <- {200 asec operation succeeded}
+04-04 17:39:55.983 D/MobileDataStateTracker( 1574): hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.003 D/MobileDataStateTracker( 1574): hipri: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.003 D/MobileDataStateTracker( 1574): wapgateway: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.003 D/MobileDataStateTracker( 1574): wapgateway: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.023 D/AutoSetting( 3574): receiver - flag: SIM state NOT_READY
+04-04 17:39:56.083 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1496K, 23% free 18205K/23431K, paused 61ms
+04-04 17:39:56.093 D/MobileDataStateTracker( 1574): httpproxy: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.093 D/MobileDataStateTracker( 1574): httpproxy: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.113 D/MobileDataStateTracker( 1574): fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.113 D/MobileDataStateTracker( 1574): fota: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.123 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:56.123 D/MobileDataStateTracker( 1574): admin: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.123 D/MobileDataStateTracker( 1574): admin: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.153 D/AutoSetting( 3574): service - onStartCommand() action: com.htc.app.autosetting.timezoneupdate
+04-04 17:39:56.153 D/AutoSetting( 3574): service - onStartCommand() SIM state: NOT_READY
+04-04 17:39:56.153 D/MobileDataStateTracker( 1574): internet: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.153 D/MobileDataStateTracker( 1574): internet: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.153 D/MobileDataStateTracker( 1574): MM: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.153 D/MobileDataStateTracker( 1574): MM: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.163 D/MobileDataStateTracker( 1574): cmmail: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.163 D/MobileDataStateTracker( 1574): cmmail: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.163 D/MobileDataStateTracker( 1574): vzwapp: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.163 D/MobileDataStateTracker( 1574): vzwapp: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.173 D/VoldConnector( 1574): doCommand-- (complete)
+04-04 17:39:56.183 D/MobileDataStateTracker( 1574): ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.183 D/MobileDataStateTracker( 1574): ims: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.183 D/VoldConnector( 1574): List terminated with {200 asec operation succeeded}
+04-04 17:39:56.253 I/PackageManager( 1574): No secure containers on sdcard
+04-04 17:39:56.253 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1365K, 23% free 18201K/23431K, paused 66ms
+04-04 17:39:56.253 D/MobileDataStateTracker( 1574): null: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.253 D/MobileDataStateTracker( 1574): null: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.263 D/MobileDataStateTracker( 1574): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.263 D/MobileDataStateTracker( 1574): default: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.283 D/MobileDataStateTracker( 1574): mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.283 D/MobileDataStateTracker( 1574): mms: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.283 D/MobileDataStateTracker( 1574): supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.283 D/MobileDataStateTracker( 1574): supl: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.303 D/MobileDataStateTracker( 1574): dun: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.303 D/MobileDataStateTracker( 1574): dun: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.313 D/MobileDataStateTracker( 1574): hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.313 D/MobileDataStateTracker( 1574): hipri: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.313 D/MobileDataStateTracker( 1574): wapgateway: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.313 D/MobileDataStateTracker( 1574): wapgateway: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.333 D/MobileDataStateTracker( 1574): httpproxy: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.333 D/MobileDataStateTracker( 1574): httpproxy: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.343 D/MobileDataStateTracker( 1574): fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.343 D/MobileDataStateTracker( 1574): fota: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.343 I/rmt_storage( 1455): rmt_storage write: bytes written = 3145216
+04-04 17:39:56.343 I/rmt_storage( 1455): rmt_storage lseek...
+04-04 17:39:56.343 I/rmt_storage( 1455): rmt_storage lseek ret = 6143
+04-04 17:39:56.343 I/rmt_storage( 1455): rmt_storage write buf = 0x40310e00, num_sector = 1
+04-04 17:39:56.343 D/MobileDataStateTracker( 1574): admin: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.353 D/MobileDataStateTracker( 1574): admin: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.363 D/MobileDataStateTracker( 1574): internet: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.363 D/MobileDataStateTracker( 1574): internet: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.363 D/MobileDataStateTracker( 1574): MM: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.363 D/MobileDataStateTracker( 1574): MM: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.413 I/rmt_storage( 1455): rmt_storage write: bytes written = 512
+04-04 17:39:56.413 I/rmt_storage( 1455): rmt_storage status handle = 1
+04-04 17:39:56.463 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1429K, 23% free 18236K/23431K, paused 80ms
+04-04 17:39:56.483 D/MobileDataStateTracker( 1574): cmmail: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.483 D/androidNlpServiceThread( 1715): updateState: shouldBeEnabled false shouldBeRunning false
+04-04 17:39:56.483 D/MobileDataStateTracker( 1574): cmmail: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.493 D/MobileDataStateTracker( 1574): vzwapp: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.493 D/MobileDataStateTracker( 1574): vzwapp: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.493 D/MobileDataStateTracker( 1574): ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.493 D/MobileDataStateTracker( 1574): ims: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.523 D/MobileDataStateTracker( 1574): null: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff; networkYype=0, networkName=UNKNOWN
+04-04 17:39:56.523 D/MobileDataStateTracker( 1574): null: MobileDST got ACTION_ANY_DATA_CONNECTION_STATE_CHANGED: state=DISCONNECTED unavailable=true reason=radioTurnedOff lP=null lC=null apn=null type=default
+04-04 17:39:56.573 D/dalvikvm( 1671): GC_CONCURRENT freed 393K, 9% free 7187K/7879K, paused 2ms+1ms
+04-04 17:39:56.643 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1478K, 23% free 18269K/23431K, paused 50ms
+04-04 17:39:56.773 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1251K, 23% free 18252K/23431K, paused 61ms
+04-04 17:39:56.903 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1300K, 23% free 18265K/23431K, paused 62ms
+04-04 17:39:56.923 D/VoldCmdListener( 1434): storage users /mnt/sdcard
+04-04 17:39:56.923 D/VoldConnector( 1574): doCommand++ (Wait Response)
+04-04 17:39:57.104 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1288K, 23% free 18203K/23431K, paused 109ms
+04-04 17:39:57.104 D/androidNlpServiceThread( 1715): updateState: shouldBeEnabled false shouldBeRunning false
+04-04 17:39:57.244 D/VoldCmdListener( 1434): processName(3785) = logcat
+04-04 17:39:57.244 D/VoldCmdListener( 1434): processName(3790) = logcat
+04-04 17:39:57.244 D/VoldCmdListener( 1434): processName(3821) = com.google.android.apps.maps
+04-04 17:39:57.274 I/System.out( 3942): Location: unknown | GPSNavigator running:true
+04-04 17:39:57.274 I/System.out( 3942): Battery level: 100 | Time difference: -1
+04-04 17:39:57.324 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1230K, 23% free 18200K/23431K, paused 112ms
+04-04 17:39:57.324 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:39:57.324 D/VoldConnector( 1574): RCV <- {112 3785 logcat}
+04-04 17:39:57.324 D/VoldConnector( 1574): RSP <- {112 3785 logcat}
+04-04 17:39:57.324 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:57.324 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:57.324 D/VoldConnector( 1574): listenToSocket read--: (54,0)
+04-04 17:39:57.324 D/VoldConnector( 1574): RCV <- {112 3790 logcat}
+04-04 17:39:57.324 D/VoldConnector( 1574): RSP <- {112 3790 logcat}
+04-04 17:39:57.324 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:57.324 D/VoldConnector( 1574): RCV <- {112 3821 com.google.android.apps.maps}
+04-04 17:39:57.324 D/VoldConnector( 1574): RSP <- {112 3821 com.google.android.apps.maps}
+04-04 17:39:57.324 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:57.324 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:57.364 D/androidNlpServiceThread( 1715): updateState: shouldBeEnabled false shouldBeRunning false
+04-04 17:39:57.384 D/VoldConnector( 1574): listenToSocket read--: (31,0)
+04-04 17:39:57.384 D/VoldConnector( 1574): RCV <- {200 Storage user list complete}
+04-04 17:39:57.384 D/VoldConnector( 1574): RSP <- {200 Storage user list complete}
+04-04 17:39:57.384 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:57.384 D/VoldConnector( 1574): doCommand-- (complete)
+04-04 17:39:57.384 D/VoldConnector( 1574): List terminated with {200 Storage user list complete}
+04-04 17:39:57.384 W/ActivityManager( 1574): Killing processes unmount media at adjustment 7
+04-04 17:39:57.384 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:57.384 W/ActivityManager( 1574): Killing ProcessRecord{411379e0 3821:com.google.android.apps.maps/10046} (adj 10): unmount media
+04-04 17:39:57.384 D/VoldConnector( 1574): doCommand++ (Wait Response)
+04-04 17:39:57.384 D/VoldCmdListener( 1434): storage users /mnt/sdcard
+04-04 17:39:57.564 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1241K, 23% free 18201K/23431K, paused 118ms
+04-04 17:39:57.644 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:39:57.644 D/VoldConnector( 1574): RCV <- {112 3785 logcat}
+04-04 17:39:57.644 D/VoldConnector( 1574): RSP <- {112 3785 logcat}
+04-04 17:39:57.644 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:57.644 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:57.644 D/VoldCmdListener( 1434): processName(3785) = logcat
+04-04 17:39:57.654 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:39:57.654 D/VoldConnector( 1574): RCV <- {112 3790 logcat}
+04-04 17:39:57.654 D/VoldConnector( 1574): RSP <- {112 3790 logcat}
+04-04 17:39:57.654 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:57.654 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:57.654 D/VoldCmdListener( 1434): processName(3790) = logcat
+04-04 17:39:57.744 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1229K, 23% free 18201K/23431K, paused 76ms
+04-04 17:39:57.744 D/VoldConnector( 1574): listenToSocket read--: (31,0)
+04-04 17:39:57.744 D/VoldConnector( 1574): RCV <- {200 Storage user list complete}
+04-04 17:39:57.754 D/androidNlpServiceThread( 1715): updateState: shouldBeEnabled false shouldBeRunning false
+04-04 17:39:57.754 D/VoldConnector( 1574): RSP <- {200 Storage user list complete}
+04-04 17:39:57.754 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:57.754 D/VoldConnector( 1574): doCommand-- (complete)
+04-04 17:39:57.754 D/VoldConnector( 1574): List terminated with {200 Storage user list complete}
+04-04 17:39:57.754 I/MountService( 1574): Retrying to kill storage users again
+04-04 17:39:57.754 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:57.764 D/Launcher.Model( 1683): updateAppUsageStatCache +
+04-04 17:39:57.764 D/Launcher.Model( 1683): updateAppUsageStatCache - diff: 2
+04-04 17:39:57.784 D/HostWidgetManager( 1683): resumeWidgets: 2 sort: false
+04-04 17:39:57.784 D/VoldCmdListener( 1434): storage users /mnt/sdcard
+04-04 17:39:57.794 D/VoldConnector( 1574): doCommand++ (Wait Response)
+04-04 17:39:57.824 D/HostWidgetManager( 1683): pauseWidgets: 2
+04-04 17:39:57.844 D/PhoneWindow( 1683): couldn't save which view has focus because the focused view android.widget.RelativeLayout@407c12a0 has no id.
+04-04 17:39:58.065 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1367K, 23% free 18197K/23431K, paused 130ms
+04-04 17:39:58.075 D/androidNlpServiceThread( 1715): updateState: shouldBeEnabled false shouldBeRunning false
+04-04 17:39:58.115 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:39:58.115 D/VoldConnector( 1574): RCV <- {112 3785 logcat}
+04-04 17:39:58.115 D/VoldConnector( 1574): RSP <- {112 3785 logcat}
+04-04 17:39:58.115 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:58.125 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:58.135 D/VoldCmdListener( 1434): processName(3785) = logcat
+04-04 17:39:58.135 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:39:58.135 D/VoldConnector( 1574): RCV <- {112 3790 logcat}
+04-04 17:39:58.135 D/VoldConnector( 1574): RSP <- {112 3790 logcat}
+04-04 17:39:58.135 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:58.135 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:58.135 D/VoldCmdListener( 1434): processName(3790) = logcat
+04-04 17:39:58.275 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1233K, 23% free 18196K/23431K, paused 98ms
+04-04 17:39:58.285 D/VoldConnector( 1574): listenToSocket read--: (31,0)
+04-04 17:39:58.285 D/VoldConnector( 1574): RCV <- {200 Storage user list complete}
+04-04 17:39:58.285 D/VoldConnector( 1574): RSP <- {200 Storage user list complete}
+04-04 17:39:58.295 D/androidNlpServiceThread( 1715): updateState: shouldBeEnabled false shouldBeRunning false
+04-04 17:39:58.295 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:58.295 D/VoldConnector( 1574): doCommand-- (complete)
+04-04 17:39:58.295 D/VoldConnector( 1574): List terminated with {200 Storage user list complete}
+04-04 17:39:58.295 W/ActivityManager( 1574): Killing processes unmount media at adjustment 0
+04-04 17:39:58.295 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:58.295 D/VoldCmdListener( 1434): storage users /mnt/sdcard
+04-04 17:39:58.305 D/VoldConnector( 1574): doCommand++ (Wait Response)
+04-04 17:39:58.495 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1233K, 23% free 18196K/23431K, paused 107ms
+04-04 17:39:58.535 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:39:58.535 D/VoldConnector( 1574): RCV <- {112 3785 logcat}
+04-04 17:39:58.535 D/VoldConnector( 1574): RSP <- {112 3785 logcat}
+04-04 17:39:58.535 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:58.535 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:58.555 D/VoldCmdListener( 1434): processName(3785) = logcat
+04-04 17:39:58.555 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:39:58.555 D/VoldConnector( 1574): RCV <- {112 3790 logcat}
+04-04 17:39:58.555 D/VoldConnector( 1574): RSP <- {112 3790 logcat}
+04-04 17:39:58.555 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:58.555 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:58.555 D/VoldCmdListener( 1434): processName(3790) = logcat
+04-04 17:39:58.695 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1229K, 23% free 18196K/23431K, paused 93ms
+04-04 17:39:58.695 D/VoldConnector( 1574): listenToSocket read--: (31,0)
+04-04 17:39:58.695 D/VoldConnector( 1574): RCV <- {200 Storage user list complete}
+04-04 17:39:58.695 D/VoldConnector( 1574): RSP <- {200 Storage user list complete}
+04-04 17:39:58.695 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:58.695 D/VoldConnector( 1574): doCommand-- (complete)
+04-04 17:39:58.695 D/VoldConnector( 1574): List terminated with {200 Storage user list complete}
+04-04 17:39:58.695 I/MountService( 1574): Retrying to kill storage users again
+04-04 17:39:58.695 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:58.735 D/VoldCmdListener( 1434): storage users /mnt/sdcard
+04-04 17:39:58.745 D/VoldConnector( 1574): doCommand++ (Wait Response)
+04-04 17:39:58.765 D/androidNlpServiceThread( 1715): updateState: shouldBeEnabled false shouldBeRunning false
+04-04 17:39:58.775 I/ActivityManager( 1574): Start proc com.htc.bg for broadcast com.htc.CustomizationSetup/.SIMStateChangeReceiver: pid=4019 uid=10013 gids={2001, 3003, 1006, 1015}
+04-04 17:39:58.895 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1236K, 23% free 18196K/23431K, paused 84ms
+04-04 17:39:58.915 I/ActivityThread( 4019): Pub com.htc.socialnetwork.flickr.provider.StreamProvider: com.htc.socialnetwork.flickr.provider.FlickrStreamProvider
+04-04 17:39:58.955 I/ActivityThread( 4019): Pub com.htc.accounts: com.htc.CustomizationSetup.AccountsProvider
+04-04 17:39:58.965 I/ActivityThread( 4019): Pub com.htc.htctwitter.Users: com.htc.htctwitter.FriendProvider
+04-04 17:39:58.985 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:39:58.985 D/VoldConnector( 1574): RCV <- {112 3785 logcat}
+04-04 17:39:58.985 D/VoldConnector( 1574): RSP <- {112 3785 logcat}
+04-04 17:39:58.985 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:58.985 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:58.995 D/VoldCmdListener( 1434): processName(3785) = logcat
+04-04 17:39:58.995 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:39:58.995 D/VoldConnector( 1574): RCV <- {112 3790 logcat}
+04-04 17:39:59.005 D/VoldConnector( 1574): RSP <- {112 3790 logcat}
+04-04 17:39:59.005 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:59.005 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:59.005 D/VoldCmdListener( 1434): processName(3790) = logcat
+04-04 17:39:59.086 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1232K, 23% free 18200K/23431K, paused 88ms
+04-04 17:39:59.096 I/ActivityThread( 4019): Pub com.htc.opensense.snprovider: com.htc.opensense.snprovider.SocialNetworkProvider
+04-04 17:39:59.096 D/VoldConnector( 1574): listenToSocket read--: (31,0)
+04-04 17:39:59.096 D/VoldConnector( 1574): RCV <- {200 Storage user list complete}
+04-04 17:39:59.096 D/VoldConnector( 1574): RSP <- {200 Storage user list complete}
+04-04 17:39:59.096 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:59.096 D/VoldConnector( 1574): doCommand-- (complete)
+04-04 17:39:59.096 D/VoldConnector( 1574): List terminated with {200 Storage user list complete}
+04-04 17:39:59.096 W/ActivityManager( 1574): Killing processes unmount media at adjustment 0
+04-04 17:39:59.096 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:59.096 D/VoldConnector( 1574): doCommand++ (Wait Response)
+04-04 17:39:59.096 D/VoldCmdListener( 1434): storage users /mnt/sdcard
+04-04 17:39:59.116 D/SocialNetworkProvider( 4019): onCreate
+04-04 17:39:59.116 I/ActivityThread( 4019): Pub com.htc.socialnetwork.flickr.provider.CacheImageProvider: com.htc.socialnetwork.flickr.provider.FlickrCacheImageProvider
+04-04 17:39:59.116 I/ActivityThread( 4019): Pub com.htc.friendstream.provider.FriendStreamProvider: com.htc.friendstream.provider.FriendStreamProvider
+04-04 17:39:59.146 I/ActivityThread( 4019): Pub com.htc.chirp.provider.Tweet;com.htc.htctwitter: com.htc.htctwitter.TwitterProvider
+04-04 17:39:59.166 I/ActivityThread( 4019): Pub com.htc.provider.settings: com.htc.provider.settings.NotificationFlashLightProvider
+04-04 17:39:59.186 I/ActivityThread( 4019): Pub com.htc.settings.accountsync.SYNC: com.htc.opensense.syncprovider.SyncProvider
+04-04 17:39:59.186 D/SyncProvider( 4019): onCreate
+04-04 17:39:59.186 I/ActivityThread( 4019): Pub com.htc.providers.uploads: com.htc.providers.uploads.UploadProvider
+04-04 17:39:59.196 D/UploadProvider( 4019): UploadProvider is running
+04-04 17:39:59.206 I/ActivityThread( 4019): Pub com.htc.cachemanager: com.htc.opensense.cachemanager.CacheProvider
+04-04 17:39:59.206 I/ActivityThread( 4019): Pub com.htc.socialnetwork.facebook.provider.CacheImageProvider: com.htc.socialnetwork.facebook.provider.FacebookCacheImageProvider
+04-04 17:39:59.286 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1232K, 23% free 18200K/23431K, paused 81ms
+04-04 17:39:59.316 I/ActivityThread( 4019): Pub com.htc.htctwitter.provider.CacheImageProvider: com.htc.htctwitter.provider.TwitterCacheImageProvider
+04-04 17:39:59.316 I/ActivityThread( 4019): Pub com.htc.socialnetwork.facebook: com.htc.socialnetwork.facebook.FacebookDB
+04-04 17:39:59.336 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:39:59.336 D/VoldConnector( 1574): RCV <- {112 3785 logcat}
+04-04 17:39:59.336 D/VoldConnector( 1574): RSP <- {112 3785 logcat}
+04-04 17:39:59.336 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:59.336 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:59.346 D/SIMStateChangeReceiver( 4019): SIM state: NOT_READY
+04-04 17:39:59.346 I/ActivityManager( 1574): Start proc com.android.browser for broadcast com.android.browser/.htc.util.HTCBrowserCustomizationChangeReceiver: pid=4028 uid=10094 gids={3003, 1015}
+04-04 17:39:59.356 D/VoldCmdListener( 1434): processName(3785) = logcat
+04-04 17:39:59.356 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:39:59.356 D/VoldConnector( 1574): RCV <- {112 3790 logcat}
+04-04 17:39:59.356 D/VoldConnector( 1574): RSP <- {112 3790 logcat}
+04-04 17:39:59.356 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:59.356 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:59.356 D/VoldCmdListener( 1434): processName(3790) = logcat
+04-04 17:39:59.486 D/dalvikvm( 4019): GC_CONCURRENT freed 180K, 5% free 6715K/7047K, paused 1ms+6ms
+04-04 17:39:59.496 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1256K, 23% free 18205K/23431K, paused 73ms
+04-04 17:39:59.496 D/VoldConnector( 1574): listenToSocket read--: (31,0)
+04-04 17:39:59.496 D/VoldConnector( 1574): RCV <- {200 Storage user list complete}
+04-04 17:39:59.496 D/VoldConnector( 1574): RSP <- {200 Storage user list complete}
+04-04 17:39:59.496 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:59.506 D/VoldConnector( 1574): doCommand-- (complete)
+04-04 17:39:59.506 D/VoldConnector( 1574): List terminated with {200 Storage user list complete}
+04-04 17:39:59.506 I/MountService( 1574): Retrying to kill storage users again
+04-04 17:39:59.506 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:59.536 D/VoldCmdListener( 1434): storage users /mnt/sdcard
+04-04 17:39:59.536 D/VoldConnector( 1574): doCommand++ (Wait Response)
+04-04 17:39:59.576 I/ActivityThread( 4028): Pub com.android.browser;browser: com.android.browser.provider.BrowserProvider2
+04-04 17:39:59.596 I/ActivityThread( 4028): Pub htcbrowser.currenturlprovider: com.android.browser.CurrentUrlProvider
+04-04 17:39:59.606 I/ActivityThread( 4028): Pub com.android.browser.home: com.android.browser.homepages.HomeProvider
+04-04 17:39:59.606 I/ActivityThread( 4028): Pub com.android.browser.htc.bookmarks.BookmarkCarouselProvider: com.android.browser.htc.BookmarkCarouselProvider
+04-04 17:39:59.606 I/ActivityThread( 4028): Pub com.android.browser.htc.util.BrowserPrintProvider: com.android.browser.htc.util.BrowserPrintProvider
+04-04 17:39:59.616 I/ActivityThread( 4028): Pub htcbrowser: com.android.browser.htc.util.ShareImageProvider
+04-04 17:39:59.686 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1231K, 23% free 18204K/23431K, paused 83ms
+04-04 17:39:59.706 D/SqliteDatabaseCpp( 4028): dbopen(): path = /data/data/com.android.browser/databases , key = sefraes, flag = 6, file size = 14336
+04-04 17:39:59.706 D/SqliteDatabaseCpp( 4028): dbopen(): path = /data/data/com.android.browser/databases , key = sefraes, mode: wal, disk free size: 7850 M, handle: 0xd8ce8
+04-04 17:39:59.706 V/HTCBrowserCustomizationChangeReceiver( 4028): Intent received: android.intent.action.SIM_STATE_CHANGED, Extra: NOT_READY
+04-04 17:39:59.706 I/ActivityManager( 1574): No longer want com.htc.cs (pid 3863): hidden #16
+04-04 17:39:59.756 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:39:59.756 D/VoldConnector( 1574): RCV <- {112 3785 logcat}
+04-04 17:39:59.756 D/VoldConnector( 1574): RSP <- {112 3785 logcat}
+04-04 17:39:59.756 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:59.756 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:59.756 D/VoldCmdListener( 1434): processName(3785) = logcat
+04-04 17:39:59.756 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:39:59.756 D/VoldConnector( 1574): RCV <- {112 3790 logcat}
+04-04 17:39:59.756 D/VoldConnector( 1574): RSP <- {112 3790 logcat}
+04-04 17:39:59.766 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:59.766 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:59.766 D/VoldCmdListener( 1434): processName(3790) = logcat
+04-04 17:39:59.796 D/VoldConnector( 1574): listenToSocket read--: (31,0)
+04-04 17:39:59.796 D/VoldConnector( 1574): RCV <- {200 Storage user list complete}
+04-04 17:39:59.796 D/VoldConnector( 1574): RSP <- {200 Storage user list complete}
+04-04 17:39:59.796 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:39:59.796 D/VoldConnector( 1574): doCommand-- (complete)
+04-04 17:39:59.796 D/VoldConnector( 1574): List terminated with {200 Storage user list complete}
+04-04 17:39:59.796 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:39:59.796 W/ActivityManager( 1574): Killing processes unmount media at adjustment 0
+04-04 17:39:59.806 D/VoldConnector( 1574): doCommand++ (Wait Response)
+04-04 17:39:59.816 D/VoldCmdListener( 1434): storage users /mnt/sdcard
+04-04 17:39:59.886 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1248K, 23% free 18205K/23431K, paused 80ms
+04-04 17:39:59.906 D/Launcher.Model( 1683): updateAppUsageStatCache +
+04-04 17:39:59.916 D/Launcher.Model( 1683): updateAppUsageStatCache - diff: 7
+04-04 17:39:59.926 D/HostWidgetManager( 1683): resumeWidgets: 2 sort: false
+04-04 17:39:59.946 D/HostWidgetManager( 1683): pauseWidgets: 2
+04-04 17:39:59.956 D/PhoneWindow( 1683): couldn't save which view has focus because the focused view android.widget.RelativeLayout@407c12a0 has no id.
+04-04 17:40:00.177 D/VoldCmdListener( 1434): processName(3785) = logcat
+04-04 17:40:00.177 D/VoldCmdListener( 1434): processName(3790) = logcat
+04-04 17:40:00.237 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1370K, 23% free 18204K/23431K, paused 170ms
+04-04 17:40:00.237 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:40:00.237 D/VoldConnector( 1574): RCV <- {112 3785 logcat}
+04-04 17:40:00.237 D/VoldConnector( 1574): RSP <- {112 3785 logcat}
+04-04 17:40:00.237 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:40:00.237 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:40:00.237 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:40:00.237 D/VoldConnector( 1574): RCV <- {112 3790 logcat}
+04-04 17:40:00.237 D/VoldConnector( 1574): RSP <- {112 3790 logcat}
+04-04 17:40:00.237 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:40:00.237 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:40:00.287 D/VoldConnector( 1574): listenToSocket read--: (31,0)
+04-04 17:40:00.287 D/VoldConnector( 1574): RCV <- {200 Storage user list complete}
+04-04 17:40:00.287 D/VoldConnector( 1574): RSP <- {200 Storage user list complete}
+04-04 17:40:00.287 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:40:00.287 D/VoldConnector( 1574): doCommand-- (complete)
+04-04 17:40:00.287 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:40:00.287 D/VoldConnector( 1574): List terminated with {200 Storage user list complete}
+04-04 17:40:00.287 I/MountService( 1574): Retrying to kill storage users again
+04-04 17:40:00.357 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1235K, 23% free 18202K/23431K, paused 52ms
+04-04 17:40:00.357 D/VoldCmdListener( 1434): storage users /mnt/sdcard
+04-04 17:40:00.367 D/VoldConnector( 1574): doCommand++ (Wait Response)
+04-04 17:40:00.487 I/System.out( 3942): Location: unknown | GPSNavigator running:true
+04-04 17:40:00.487 I/System.out( 3942): Battery level: 100 | Time difference: -1
+04-04 17:40:00.517 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1225K, 23% free 18202K/23431K, paused 89ms
+04-04 17:40:00.537 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:40:00.537 D/VoldConnector( 1574): RCV <- {112 3785 logcat}
+04-04 17:40:00.537 D/VoldConnector( 1574): RSP <- {112 3785 logcat}
+04-04 17:40:00.537 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:40:00.537 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:40:00.557 D/VoldCmdListener( 1434): processName(3785) = logcat
+04-04 17:40:00.557 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:40:00.557 D/VoldConnector( 1574): RCV <- {112 3790 logcat}
+04-04 17:40:00.557 D/VoldConnector( 1574): RSP <- {112 3790 logcat}
+04-04 17:40:00.557 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:40:00.557 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:40:00.557 D/VoldCmdListener( 1434): processName(3790) = logcat
+04-04 17:40:00.657 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1229K, 23% free 18203K/23431K, paused 64ms
+04-04 17:40:00.657 D/VoldConnector( 1574): listenToSocket read--: (31,0)
+04-04 17:40:00.657 D/VoldConnector( 1574): RCV <- {200 Storage user list complete}
+04-04 17:40:00.657 D/VoldConnector( 1574): RSP <- {200 Storage user list complete}
+04-04 17:40:00.657 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:40:00.657 D/VoldConnector( 1574): doCommand-- (complete)
+04-04 17:40:00.657 D/VoldConnector( 1574): List terminated with {200 Storage user list complete}
+04-04 17:40:00.657 W/ActivityManager( 1574): Killing processes unmount media at adjustment 0
+04-04 17:40:00.657 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:40:00.667 D/VoldCmdListener( 1434): storage users /mnt/sdcard
+04-04 17:40:00.677 D/VoldConnector( 1574): doCommand++ (Wait Response)
+04-04 17:40:00.837 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1230K, 23% free 18203K/23431K, paused 96ms
+04-04 17:40:00.857 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:40:00.857 D/VoldConnector( 1574): RCV <- {112 3785 logcat}
+04-04 17:40:00.857 D/VoldConnector( 1574): RSP <- {112 3785 logcat}
+04-04 17:40:00.857 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:40:00.857 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:40:00.857 D/VoldCmdListener( 1434): processName(3785) = logcat
+04-04 17:40:00.857 D/VoldConnector( 1574): listenToSocket read--: (16,0)
+04-04 17:40:00.857 D/VoldConnector( 1574): RCV <- {112 3790 logcat}
+04-04 17:40:00.867 D/VoldConnector( 1574): RSP <- {112 3790 logcat}
+04-04 17:40:00.867 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:40:00.867 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:40:00.867 D/VoldCmdListener( 1434): processName(3790) = logcat
+04-04 17:40:00.967 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1229K, 23% free 18203K/23431K, paused 71ms
+04-04 17:40:00.967 D/VoldConnector( 1574): listenToSocket read--: (31,0)
+04-04 17:40:00.977 D/VoldConnector( 1574): RCV <- {200 Storage user list complete}
+04-04 17:40:00.977 D/VoldConnector( 1574): RSP <- {200 Storage user list complete}
+04-04 17:40:00.977 D/VoldConnector( 1574): miNoRespCnt=0
+04-04 17:40:00.977 D/VoldConnector( 1574): doCommand-- (complete)
+04-04 17:40:00.977 D/VoldConnector( 1574): List terminated with {200 Storage user list complete}
+04-04 17:40:00.977 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:40:00.977 I/MountService( 1574): Failed to unmount media inspite of 4 retries. Forcibly killing processes now
+04-04 17:40:01.118 D/SqliteDatabaseCpp( 4028): dbopen(): path = /data/data/com.android.browser/databases , key = Yutkball, flag = 6, file size = 4096
+04-04 17:40:01.128 D/dalvikvm( 1574): GC_EXPLICIT freed 7K, 18% free 19427K/23431K, paused 2ms+3ms
+04-04 17:40:01.148 D/SqliteDatabaseCpp( 4028): dbopen(): path = /data/data/com.android.browser/databases , key = Yutkball, mode: delete, disk free size: 7850 M, handle: 0x1cf0d8
+04-04 17:40:01.198 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1224K, 23% free 18202K/23431K, paused 61ms
+04-04 17:40:01.198 I/PackageManager( 1574): Updating external media status from unmounted to unmounted
+04-04 17:40:01.198 D/Ringer  ( 1671): -- intent.getAction() =android.intent.action.MEDIA_EJECT
+04-04 17:40:01.198 D/VoldCmdListener( 1434): volume unmount /mnt/sdcard force
+04-04 17:40:01.198 D/Vold    ( 1434): Volume sdcard state changing 4 (Mounted) -> 5 (Unmounting)
+04-04 17:40:01.198 D/VoldConnector( 1574): listenToSocket read--: (79,0)
+04-04 17:40:01.198 D/VoldConnector( 1574): doCommand++ (Wait Response)
+04-04 17:40:01.198 D/VoldConnector( 1574): RCV <- {605 Volume sdcard /mnt/sdcard state changed from 4 (Mounted) to 5 (Unmounting)}
+04-04 17:40:01.198 D/MountService( 1574): sendStorageIntent Intent { act=android.intent.action.MEDIA_EJECT dat=file:///mnt/sdcard (has extras) }
+04-04 17:40:01.208 D/SM:MediaMountReceiver( 3842): onReceive(): android.intent.action.MEDIA_EJECT, path: /mnt/sdcard, tool version: 4.0.honeycomb.HTK75C-flyer
+04-04 17:40:01.208 D/SM:dir  ( 3842): --> checking /sdcard2
+04-04 17:40:01.208 D/SM:dir  ( 3842): --> link /mnt/sdcard/ext_sd
+04-04 17:40:01.208 D/SM:dir  ( 3842): external --> use /mnt/sdcard/ext_sd
+04-04 17:40:01.208 D/SM:dir  ( 3842): --> checking /sdcard
+04-04 17:40:01.208 D/SM:dir  ( 3842): --> link /mnt/sdcard
+04-04 17:40:01.208 D/SM:dir  ( 3842): external --> use previous /mnt/sdcard/ext_sd
+04-04 17:40:01.208 D/SM:dir  ( 3842): phone --> use /mnt/sdcard
+04-04 17:40:01.208 D/SM:MediaMountReceiver( 3842): REMOVED path=/mnt/sdcard
+04-04 17:40:01.208 D/VoldConnector( 1574): listenToSocket read++
+04-04 17:40:01.218 D/QXDM2SD:conf( 1671): /data/data/com.htc.android.qxdm2sd/data/qxdm2sd.conf: No such file or directory
+04-04 17:40:01.218 D/QXDM2SD:Device( 1671): cmd: /data/data/com.htc.android.qxdm2sd/bin/htcqxdm2sd -p
+04-04 17:40:01.248 E/QXDM2SD:htcqxdm2sd( 4040): expired!
+04-04 17:40:01.258 D/QXDM2SD:Device( 1671): code: 255
+04-04 17:40:01.258 D/QXDM2SD:Device( 1671): out: 
+04-04 17:40:01.258 E/QXDM2SD ( 1671): getDaemonPID(): java.lang.NumberFormatException: Invalid int: ""
+04-04 17:40:01.258 I/ActivityManager( 1574): Start proc com.htc.home.personalize for broadcast com.htc.home.personalize/.localresource.DownloadDelegant: pid=4041 uid=10033 gids={3003, 2001, 1015}
+04-04 17:40:01.318 D/SM:MediaMountReceiver( 3842): reschedule message (2) before boot completed ...
+04-04 17:40:01.348 D/dalvikvm( 1439): GC_EXPLICIT freed 11K, 5% free 6453K/6787K, paused 1ms+1ms
+04-04 17:40:01.408 D/dalvikvm( 1439): GC_EXPLICIT freed <1K, 5% free 6453K/6787K, paused 8ms+1ms
+04-04 17:40:01.448 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1238K, 23% free 18207K/23431K, paused 120ms
+04-04 17:40:01.478 I/ActivityThread( 4041): Pub com.htc.home.personalize.scene: com.htc.home.personalize.scene.provider.SceneProvider
+04-04 17:40:01.488 I/[SceneProvider]( 4041): onCreate() +
+04-04 17:40:01.498 I/SceneProvider.DatabaseHelper( 4041): DatabaseHelper(): name: scene.db, version: 1
+04-04 17:40:01.498 I/[SceneProvider]( 4041): onCreate() -
+04-04 17:40:01.508 D/dalvikvm( 1439): GC_EXPLICIT freed <1K, 5% free 6453K/6787K, paused 1ms+1ms
+04-04 17:40:01.528 I/ActivityManager( 1574): Start proc android.process.media for broadcast com.android.providers.media/.MediaScannerReceiver: pid=4049 uid=10044 gids={1015, 1023, 1024, 2001, 3003}
+04-04 17:40:01.608 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1229K, 23% free 18208K/23431K, paused 64ms
+04-04 17:40:01.608 I/ActivityManager( 1574): No longer want com.android.vending (pid 3871): hidden #16
+04-04 17:40:01.638 I/ActivityThread( 4049): Pub downloads: com.android.providers.downloads.DownloadProvider
+04-04 17:40:01.728 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1228K, 23% free 18209K/23431K, paused 51ms
+04-04 17:40:01.748 I/ActivityThread( 4049): Pub drm: com.android.providers.drm.DrmProvider
+04-04 17:40:01.748 D/SqliteDatabaseCpp( 4049): dbopen(): path = /data/data/com.android.providers.downloads/databases , key = dksjlkYdw, flag = 6, file size = 9216
+04-04 17:40:01.748 I/ActivityThread( 4049): Pub media: com.android.providers.media.MediaProvider
+04-04 17:40:01.758 D/SqliteDatabaseCpp( 4049): dbopen(): path = /data/data/com.android.providers.downloads/databases , key = dksjlkYdw, mode: delete, disk free size: 7850 M, handle: 0x1b26a8
+04-04 17:40:01.788 W/ContentService( 1574): binderDied() at ObserverNode name com.google.android.gsf.gservices
+04-04 17:40:01.788 D/Launcher.Model( 1683): updateAppUsageStatCache +
+04-04 17:40:01.788 D/Launcher.Model( 1683): updateAppUsageStatCache - diff: 2
+04-04 17:40:01.808 D/HostWidgetManager( 1683): resumeWidgets: 2 sort: false
+04-04 17:40:01.838 D/HostWidgetManager( 1683): pauseWidgets: 2
+04-04 17:40:01.838 D/PhoneWindow( 1683): couldn't save which view has focus because the focused view android.widget.RelativeLayout@407c12a0 has no id.
+04-04 17:40:01.888 D/dalvikvm( 4049): GC_FOR_ALLOC freed 76K, 4% free 6540K/6787K, paused 126ms
+04-04 17:40:01.898 I/dalvikvm-heap( 4049): Grow heap (frag case) to 6.972MB for 524304-byte allocation
+04-04 17:40:01.938 D/SqliteDatabaseCpp( 4028): dbclose(): path = /data/data/com.android.browser/databases/autofill.db, handle = 0x1cf0d8
+04-04 17:40:01.938 D/dalvikvm( 4049): GC_FOR_ALLOC freed 0K, 5% free 7052K/7367K, paused 29ms
+04-04 17:40:01.948 D/MediaProvider( 4049): [MediaProvider][onCreate]+true
+04-04 17:40:01.988 D/dalvikvm( 4049): GC_CONCURRENT freed 6K, 5% free 7261K/7623K, paused 1ms+5ms
+04-04 17:40:01.988 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1356K, 23% free 18210K/23431K, paused 89ms
+04-04 17:40:02.088 D/dalvikvm( 1574): GC_FOR_ALLOC freed 1225K, 23% free 18212K/23431K, paused 54ms
+04-04 17:40:02.098 D/MediaProvider( 4049): [MediaProvider][onCreate]+state=mounted
+04-04 17:40:02.098 D/SqliteDatabaseCpp( 4049): dbopen(): path = /data/data/com.android.providers.media/databases , key = eptevjYl, flag = 6, file size = 64512
+04-04 17:40:02.108 D/SqliteDatabaseCpp( 4049): dbopen(): path = /data/data/com.android.providers.media/databases , key = eptevjYl, mode: wal, disk free size: 7850 M, handle: 0x1bff00
+04-04 17:40:02.159 D/skia    ( 1574): --- SkImageDecoder::Factory returned null
+04-04 17:40:02.199 I/Vold    ( 1434): /mnt/secure/staging/.android_secure sucessfully unmounted
+04-04 17:40:02.199 I/Vold    ( 1434): /mnt/secure/asec sucessfully unmounted
+04-04 17:40:02.199 W/Vold    ( 1434): Failed to unmount /mnt/secure/staging (Device or resource busy, retries 4, action 0)
+04-04 17:40:02.329 E/VoldProcessKiller( 1434): Process logcat (3785) has open file /mnt/secure/staging/logs/logcat.txt (deleted) in /mnt/secure/staging
+04-04 17:40:02.339 E/VoldProcessKiller( 1434): Process logcat (3790) has open file /mnt/secure/staging/logs/logcat.txt in /mnt/secure/staging
+04-04 17:40:02.439 D/SM:MediaMountReceiver( 3842): reschedule message (2) before boot completed ...
+04-04 17:40:02.629 D/MediaProvider( 4049): [MediaProvider][onCreate]-
+04-04 17:40:02.629 I/EMMC    ( 4049): Action mounted + path: /mnt/sdcard,/mnt/sdcard,/mnt/sdcard/ext_sd,android.intent.action.MEDIA_EJECT, volumId=-1
+04-04 17:40:02.629 D/MediaScannerReceiver( 4049): action: android.intent.action.MEDIA_EJECT path: /mnt/sdcard
+04-04 17:40:02.639 I/ActivityManager( 1574): Start proc com.htc.sdm for broadcast com.htc.sdm/.receiver.SDMReceiver: pid=4059 uid=10033 gids={3003, 2001, 1015}
+04-04 17:40:02.789 I/ActivityManager( 1574): No longer want com.htc.recommend (pid 3896): hidden #16
+04-04 17:40:02.799 I/ActivityThread( 4059): Pub com.htc.sdm.provider.SDMProvider: com.htc.sdm.provider.SDMProvider
+04-04 17:40:02.809 D/Launcher.Model( 1683): updateAppUsageStatCache +
+04-04 17:40:02.809 D/Launcher.Model( 1683): updateAppUsageStatCache - diff: 1
+04-04 17:40:02.819 D/PREF    ( 1683): setWidgetTilt .FriendStreamLarge2Widget : 13
+04-04 17:40:02.829 D/HostWidgetManager( 1683): resumeWidgets: 2 sort: false
+04-04 17:40:02.839 D/HostWidgetManager( 1683): pauseWidgets: 2
+04-04 17:40:02.859 D/PhoneWindow( 1683): couldn't save which view has focus because the focused view android.widget.RelativeLayout@407c12a0 has no id.
+04-04 17:40:02.909 D/SqliteDatabaseCpp( 4059): dbopen(): path = /data/data/com.htc.sdm/databases , key = wdm, flag = 6, file size = 22528
+04-04 17:40:02.919 D/SqliteDatabaseCpp( 4059): dbopen(): path = /data/data/com.htc.sdm/databases , key = wdm, mode: delete, disk free size: 7850 M, handle: 0x15c308
+04-04 17:40:02.949 I/ActivityManager( 1574): Start proc com.htc.ereader.drmengine for broadcast com.htc.ereader/.drmengine.DRMDownloadReceiver: pid=4069 uid=9995 gids={3003, 1015, 2001}
+04-04 17:40:02.989 I/ActivityManager( 1574): No longer want com.htc.htchubsyncprovider (pid 3934): hidden #16
+04-04 17:40:02.999 D/Launcher.Model( 1683): updateAppUsageStatCache +
+04-04 17:40:02.999 D/Launcher.Model( 1683): updateAppUsageStatCache - diff: 7
+04-04 17:40:03.019 D/PREF    ( 1683): setWidgetTilt .FriendStreamLarge2Widget : 14
+04-04 17:40:03.029 D/HostWidgetManager( 1683): resumeWidgets: 2 sort: false
+04-04 17:40:03.049 D/HostWidgetManager( 1683): pauseWidgets: 2
+04-04 17:40:03.059 D/PhoneWindow( 1683): couldn't save which view has focus because the focused view android.widget.RelativeLayout@407c12a0 has no id.
