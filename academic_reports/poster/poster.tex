@@ -6,7 +6,7 @@
 \usepackage{flowfram}
 \setlength{\vcolumnsep}{\baselineskip}
 \setlength{\columnsep}{\vcolumnsep}
-\Ncolumntop{static}{3}{4in}
+\Ncolumntop{static}{3}{3in}
 \setstaticframe{1}{label={title}}
 \newlength\offset
 \setlength{\offset}{5in}
@@ -20,70 +20,65 @@
 \setstaticframe{2}{clear}
 \setallflowframes{border=plain}
 \setallstaticframes{border=plain}
-\title{Energy-efficient sensing with Android smartphones.}
-\author{Martin Maciej Kukla\\
-School of Computer Science\\
-University of St Andrews
-\and
-Dr Tristan Henderson\\
-School of Computer Science\\
-University of St Andrews}
+\title{Locy: Energy-efficient sensing with Android smartphones.}
+\author{Martin Kukla (Supervisor: Dr Tristan Henderson)}
 \date{}
 \begin{document}
 \begin{staticcontents*}{title}
 \maketitle
 \end{staticcontents*}
 \thispagestyle{empty}
-\section*{What is a problem?}
+\section*{Introduction}
 \begin{itemize}
-   \item Advanced services/ examples
+   \item Advanced services/ examples [GRAPH SERVICES LOGOS]
    \item Phone sensing
    \item Energy
-   \item Energy-efficient phone sensing
-   \item structure: sensor energy measurements + Locy
+   \item Energy-efficient phone sensing [GIF SAD FACE + mobile phone + dead battery]
   \end{itemize}
 
 \mbox{}\framebreak
-\section*{What is the solution?}
-\subsection*{Sensor energy measurements}
+\section*{Solution}
 \begin{itemize}
-   \item Sample sensor applications
-   \item 1\% battery depletion
-   \item ?
-  \end{itemize}
-\subsection*{Locy}
-\begin{itemize}
-   \item leverage acceleromter
-   \item movement detection
-   \item adaptive duty-cycling
+   \item different energy efficiency levels across devices [GRAPH the difference]
+   \item however, accelerometer always better than others [GRAPH accelerometer]
+   \item movement detection which leverages energy-efficient accelerometer to switch off GPS [MAYBE GRAPH]
+   \item duty-cycling + adaptive towards the battery life
   \end{itemize}
 
-\mbox{}\framebreak
-\section*{Does it work?}
-\subsection*{Sensor energy measurements}
-\begin{itemize}
-   \item complete results
-   \item accelerometer versus localization services
-  \end{itemize}
-  
-  \begin{figure}[H]
-\centering
-\includegraphics{plots/htc_flyer}
-\includegraphics{plots/htc_desire}
-%\includegraphics[width=\textwidth, scale=0.9]{plots/google_nexus_7}
-\caption{\label{p:all_results} The complete results of energy measurements for all devices. The energy efficiency of different sensors is as expected and overlaps with the results of other research. }
+\begin{figure}[H]
+\includegraphics{plots/shared}
+\caption{\label{p:shared} Energy efficiency of shared sensors across different devices. The order of energy efficiency differs depending on a device e.g. Bluetooth is the most energy efficient sensor for HTC Desire and HTC Flyer, but not for Google Nexus 7. }
 \end{figure}
 
 \begin{figure}[H]
 \includegraphics{plots/acc_vs_loc}
-\caption{\label{p:all_results} Energy efficiency levels of IEEE 802.11, GPS and accelerometer sensors across different devices. Acceleromter is more energy-efficient, but the difference is not substantial, and thus, efficient accelerometer sampling strategies needs to be introduced. }
+\caption{\label{p:acc_vs_loc} Energy efficiency levels of IEEE 802.11, GPS and accelerometer sensors across different devices. Acceleromter is more energy-efficient, but the difference is not substantial, and thus, efficient accelerometer sampling strategies needs to be introduced. }
 \end{figure}
 
-\subsection*{Locy}
+
+\mbox{}\framebreak
+\section*{Evaluation}
 \begin{itemize}
-   \item energy efficiency performance, different scenarios, different mobile phones
+   \item scenario I [GRAPH]
+   \item scenario II [GRAPH]
   \end{itemize}
-\mbox{}
+  
+\begin{figure}[H]
+\includegraphics{plots/locy_eval_inplace}
+\caption{\label{p:locy_eval_place} Energy efficiency levels of Locy library and Naive GPS Localization while a user is in place. Locy is more energy-efficient than baseline implementation for every phone.}
+\end{figure}
+
+
+\begin{figure}[H]
+\includegraphics{plots/locy_eval_other}
+\caption{\label{p:locy_eval_other} Energy efficiency levels of Locy library and Naive GPS Localization while a user is half of the time moving and the rest he is staying in one place. Locy is more energy-efficient than baseline implementation for every phone. }
+\end{figure}
+
+
+
+\section*{Conclusions}
+What does it mean?
+[GIF HAPPY FACE + mobile phone + full battery]
 
 
 \end{document}
