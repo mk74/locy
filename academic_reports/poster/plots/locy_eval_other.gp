@@ -1,5 +1,6 @@
 set auto x
 set yrange [0:15]
+set xrange [-0.5:1.5]
 #set yrange [5:10]
 set style data histogram
 set style histogram cluster gap 1

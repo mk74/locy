@@ -5,6 +5,8 @@
 \usepackage{postercols}
 \usepackage{flowfram}
 \usepackage{graphicx}
+\usepackage{adjustbox}
+
 \setlength{\vcolumnsep}{\baselineskip}
 \setlength{\columnsep}{\vcolumnsep}
 \Ncolumntop{static}{3}{1.75in}
@@ -76,7 +78,7 @@
 %\caption{\label{p:shared} \footnotesize{Energy efficiency of sensors differs depending on a device.} }
 %\end{figure}
 
-   \item For all mobile phones, \textbf{accelerometer is more energy-efficient} than the standard localization sensors.
+   \item \textbf{Accelerometer is always more energy-efficient} than the standard localization sensors.
 
 %\begin{figure}[H]
 \includegraphics[scale=0.7]{plots/acc_vs_loc}
@@ -86,9 +88,9 @@
    \item Locy is an energy-efficient sensing library:
   	   \begin{itemize}		
   	   \item if a user is not moving, it switches off high-power GPS. 
-  	   \item a user movement is detected basing on energy-efficient accelerometer (the standard deviation of the total magnitude over accelerometer data). [GRAPH]
-  	   \item the library uses duty-cycling sampling\ (it samples and sleeps on repeat).
-  	   \item duty-cycling ratio\ (sampling time over sleeping one) is adjusted depending on the battery life of a mobile. 
+  	   \item movement detection is based on energy-efficient accelerometer (the standard deviation of the total magnitude over accelerometer data). [GRAPH]
+  	   \item the library uses duty-cycling sampling\ (sleeping period interleaves sampling).
+  	   \item duty-cycling ratio\ (sampling over sleeping period) is adaptive to battery life. 
     \end{itemize} 
   \end{itemize}
 
@@ -99,24 +101,16 @@
 \end{center}
 \begin{itemize}
    \item the \textbf{first scenario}:
-   
-%\begin{figure}[H]
-\includegraphics[scale=0.65]{plots/locy_eval_inplace}
-%\caption{\label{p:locy_eval_place} \footnotesize{Locy is more energy-efficient than the naive GPS localization while a user is in place.} }
-%\end{figure}
 
-%\begin{tabular}[t]{l r}
-%       \includegraphics[scale=0.65]{plots/locy_eval_inplace} & While a user is staying in one place, Locy is more energy-efficient than the naive GPS localization. 
- %     \end{tabular}
+\begin{tabular}[t]{p{8.0cm} p{8.0cm}}
+       \vspace{0cm}\includegraphics[scale=0.65]{plots/locy_eval_inplace} &  \vspace{0cm}While a user is staying in one place, Locy is more energy-efficient than the naive GPS localization.
+      \end{tabular}
 
    \item the \textbf{second scenario}:
-   
-%\begin{figure}[H]
-\includegraphics[scale=0.65]{plots/locy_eval_other}
-%\caption{\label{p:locy_eval_other} \footnotesize{Locy is more energy-efficient than the naive GPS localization while a user is half of the time moving and the rest he is staying in one place.} }
-%\end{figure}
-XXX explain 
 
+\begin{tabular}[t]{p{8.0cm} p{8.0cm}}
+	\vspace{0cm}\includegraphics[scale=0.65]{plots/locy_eval_other} &  \vspace{0cm}While a user is half of the time moving and the rest of the time he is staying in one place, Locy is more energy-efficient than the naive GPS localization.
+\end{tabular}
   \end{itemize}
 
 \begin{center}
