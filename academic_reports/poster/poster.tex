@@ -47,6 +47,7 @@
    \item Energy-efficient phone sensing vs Tristan's results? or maybe HOW (what approach) ?!
   \end{itemize}
   
+\centering
 \includegraphics[scale=0.7]{plots/low_battery}
 \includegraphics[scale=0.7]{plots/sad_face}
 
@@ -55,46 +56,47 @@
 \begin{itemize}
    \item different energy efficiency levels across devices [GRAPH the difference]
    
-\begin{figure}[H]
+%\begin{figure}[H]
 \includegraphics[scale=1]{plots/shared}
-\caption{\label{p:shared} \footnotesize{Energy efficiency of sensors differs depending on a device.} }
-\end{figure}
+%\caption{\label{p:shared} \footnotesize{Energy efficiency of sensors differs depending on a device.} }
+%\end{figure}
 
    \item however, accelerometer always better than others [GRAPH accelerometer]
+
+%\begin{figure}[H]
+\includegraphics[scale=1]{plots/acc_vs_loc}
+%\caption{\label{p:acc_vs_loc} \footnotesize{Accelerometer is more energy-efficient than the standard localization sensors.} }
+%\end{figure}
+
    \item movement detection which leverages energy-efficient accelerometer to switch off GPS [MAYBE GRAPH]
    \item duty-cycling + adaptive towards the battery life
   \end{itemize}
-
-\begin{figure}[H]
-\includegraphics[scale=1]{plots/acc_vs_loc}
-\caption{\label{p:acc_vs_loc} \footnotesize{Accelerometer is more energy-efficient than the standard localization sensors.} }
-\end{figure}
 
 
 \mbox{}\framebreak
 \section*{Evaluation}
 \begin{itemize}
    \item scenario I [GRAPH]
-\begin{figure}[H]
-\includegraphics[scale=1]{plots/locy_eval_inplace}
-\caption{\label{p:locy_eval_place} \footnotesize{Locy is more energy-efficient than the naive GPS localization while a user is in place.} }
-\end{figure}
+   
+%\begin{figure}[H]
+\includegraphics[scale=0.7]{plots/locy_eval_inplace}
+%\caption{\label{p:locy_eval_place} \footnotesize{Locy is more energy-efficient than the naive GPS localization while a user is in place.} }
+%\end{figure}
+
    \item scenario II [GRAPH]
+   
+%\begin{figure}[H]
+\includegraphics[scale=0.7]{plots/locy_eval_other}
+%\caption{\label{p:locy_eval_other} \footnotesize{Locy is more energy-efficient than the naive GPS localization while a user is half of the time moving and the rest he is staying in one place.} }
+%\end{figure}
+
   \end{itemize}
-  
-
-
-
-\begin{figure}[H]
-\includegraphics[scale=1]{plots/locy_eval_other}
-\caption{\label{p:locy_eval_other} \footnotesize{Locy is more energy-efficient than the naive GPS localization while a user is half of the time moving and the rest he is staying in one place.} }
-\end{figure}
-
 
 
 \section*{Conclusions}
 What does it mean?
 [GIF HAPPY FACE + mobile phone + full battery]\\
+\centering
 \includegraphics[scale=0.7]{plots/full_battery}
 \includegraphics[scale=0.7]{plots/happy_face}
 
