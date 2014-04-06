@@ -32,7 +32,7 @@
 \end{staticcontents*}
 \thispagestyle{empty}
 
-\setlength{\tabcolsep}{6pt}
+\setlength{\tabcolsep}{3pt}
 \begin{center}
  \section*{Introduction}
 \end{center}
@@ -71,17 +71,25 @@
 \section*{Solution}
 \end{center}
 \begin{itemize}
-   \item Energy efficiency of sensors is \textbf{different among the devices}.
+   \item Energy efficiency of sensors are \textbf{different among the devices}.\\
+   \includegraphics[scale=1]{plots/shared}
+ %\begin{tabular}[t]{p{12.5cm} p{4.5cm}}
+  %     \vspace{0cm}\includegraphics[scale=1]{plots/shared} & \vspace{2cm}different among the devices.
+   %   \end{tabular}
    
 %\begin{figure}[H]
-\includegraphics[scale=0.8]{plots/shared}
+%\includegraphics[scale=0.8]{plots/shared}
 %\caption{\label{p:shared} \footnotesize{Energy efficiency of sensors differs depending on a device.} }
 %\end{figure}
 
-   \item \textbf{Accelerometer is always more energy-efficient} than the standard localization sensors.
+ \begin{tabular}[t]{p{8.0cm} p{9.0cm}}
+       \vspace{0cm} However, \textbf{accelerometer is always more energy-efficient} than the standard localization sensors. & \vspace{0cm}\includegraphics[scale=0.6]{plots/acc_vs_loc}
+      \end{tabular}
+      
+%   \item .
 
 %\begin{figure}[H]
-\includegraphics[scale=0.7]{plots/acc_vs_loc}
+%\includegraphics[scale=0.7]{plots/acc_vs_loc}
 %\caption{\label{p:acc_vs_loc} \footnotesize{Accelerometer is more energy-efficient than the standard localization sensors.} }
 %\end{figure}
 
