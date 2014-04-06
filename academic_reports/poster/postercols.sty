@@ -2,10 +2,12 @@
 \ProvidesPackage{postercols}
 \RequirePackage[dvipsnames]{xcolor}
 
+\setlength{\tabcolsep}{155pt}
+
 \renewcommand\@maketitle{%
   \newpage
   \null
-  \vskip 1.5em%
+  \vskip 1.0em%
   \begin{center}%
   \let \footnote \thanks
     {% set colour and font for the title 
@@ -15,9 +17,12 @@
     {% set colour and font for the author
       \color{CornflowerBlue}\sffamily\large
       \lineskip .1em%
-      \begin{tabular}[t]{c r}%
-        \@author & {\includegraphics[scale=0.15]{plots/crest}
-\includegraphics[scale=0.25]{plots/sicsa} }
+      %\begin{tabbing}
+      %\@author \= \= \= something else \= \= somethign else \\
+      %\end{tabbing}\par}%
+      \begin{tabular}[t]{l c r}%
+        & \@author & {\includegraphics[scale=0.15]{plots/crest}
+		\includegraphics[scale=0.25]{plots/sicsa} }
       \end{tabular}\par}%
     \vskip 1em%
     {% set colour and font for the date
