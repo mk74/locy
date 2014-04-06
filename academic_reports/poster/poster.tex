@@ -6,6 +6,7 @@
 \usepackage{flowfram}
 \usepackage{graphicx}
 \usepackage{adjustbox}
+\usepackage{tikz}
 
 \setlength{\vcolumnsep}{\baselineskip}
 \setlength{\columnsep}{\vcolumnsep}
@@ -20,9 +21,12 @@
 %\setflowframe{2,3}{y=\offset,height=\ffareaheight}
 %\newstaticframe{\ffareawidth}{5in}{\ffareax}{0in}[table]
 
+\newcommand{\redborder}[1]{\tikz \node[draw,rectangle,blue] {#1};}
+
 \setstaticframe{2}{clear}
-\setallflowframes{border=plain}
-\setallstaticframes{border=plain}
+\setallflowframes{border=plain, bordercolor=blue}
+\setallstaticframes{border=plain, bordercolor=blue}
+\setallflowframes{border=redborder}
 \title{Locy: Energy-efficient sensing with Android smartphones.}
 \author{Martin Kukla (Supervisor: Dr Tristan Henderson)}
 \date{}
@@ -33,8 +37,10 @@
 \thispagestyle{empty}
 
 \setlength{\tabcolsep}{3pt}
+
+
 \begin{center}
- \section*{Introduction}
+\section*{Introduction}
 \end{center}
 		
 \begin{itemize}
@@ -54,13 +60,15 @@
    \item Phone sensing has \textbf{high energy demands}, which is crucially important to mobile phone users.
    \item To solve the problem:
 	   \begin{itemize}
-   			\item investigate many devices.
+   			\item investigate three different devices.
    			\item establish the energy efficiency of their sensors.
    			\item leverage results for energy-efficient sensing.
    			\item build \textbf{Locy}, an energy efficient sensing library.
+   			\item evaluate its energy efficiency in real-life scenarios.
 	   \end{itemize}
   \end{itemize}
   
+\vspace{0.9cm}
 \begin{center}
 \includegraphics[scale=0.7]{plots/low_battery}
 \includegraphics[scale=0.7]{plots/sad_face}
@@ -71,19 +79,21 @@
 \section*{Solution}
 \end{center}
 \begin{itemize}
-   \item Energy efficiency of sensors are \textbf{different among the devices}.\\
+   \item Energy efficiency of sensors are \textbf{different among the three devices}.\\
    \includegraphics[width=16cm, height=7.5cm]{plots/shared}
 
  \begin{tabular}[t]{p{8.0cm} p{9.0cm}}
        \vspace{0cm} However, \textbf{accelerometer is always more energy-efficient} than the standard localization sensors. & \vspace{0cm}\includegraphics[scale=0.6]{plots/acc_vs_loc}
       \end{tabular}
 
-   \item \textbf{Locy} leverages an efficient accelerometer:
+   \item \textbf{Locy} leverages an efficient \textbf{accelerometer}:
   	   \begin{itemize}		
-  	   \item if a user is not moving, it switches off high-power GPS. 
-  	   \item movement detection based on the standard deviation of the total magnitude over accelerometer data). [GRAPH]
-  	   \item the library uses duty-cycling sampling\ (sleeping period interleaves sampling).
-  	   \item duty-cycling ratio\ (sampling over sleeping period) is adaptive to battery life. 
+  	   \item if a user is not moving, it \textbf{switches off GPS}. 
+  	   \item \textbf{movement detection} based on "peaks"\ (steps):
+  	   %based on the standard deviation of the total magnitude over accelerometer data).\\
+  	   \includegraphics[scale=0.4]{plots/walking}
+	   \includegraphics[scale=0.4]{plots/no_walking}
+  	   \item Locy uses \textbf{duty-cycling sampling}\ (sleeping periods interleaves sampling), whose ratio\ (sampling over sleeping period) is \textbf{adaptive according to current battery life}. 
     \end{itemize} 
   \end{itemize}
 
@@ -111,6 +121,7 @@
 \end{center}
 
 \textbf{Locy} is more energy-efficient than the standard Android implementation. 
+\vspace{1.25cm}
 \begin{center}
 \includegraphics[scale=0.7]{plots/full_battery}
 \includegraphics[scale=0.7]{plots/happy_face}
