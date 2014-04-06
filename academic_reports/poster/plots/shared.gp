@@ -7,6 +7,7 @@ set style histogram cluster gap 1
 set style fill solid border -1
 set xtics font "Arial, 18"
 set xrange [-0.5:7.5]
+set boxwidth 0.9
 set ylabel "Energy efficiency order" font "Arial Bold,18"
 set term post eps
 
