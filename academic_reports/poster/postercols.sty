@@ -7,7 +7,7 @@
 \renewcommand\@maketitle{%
   \newpage
   \null
-  \vskip 1.0em%
+  \vskip .1em%
   \begin{center}%
   \let \footnote \thanks
     {% set colour and font for the title 
@@ -24,12 +24,13 @@
         & \@author & {\includegraphics[scale=0.15]{plots/crest}
 		\includegraphics[scale=0.25]{plots/sicsa} }
       \end{tabular}\par}%
-    \vskip 1em%
+    \vskip .1em%
     {% set colour and font for the date
     \color{CornflowerBlue}\sffamily\large \@date}%
   \end{center}%
   \par
-  \vskip 1.5em}
+  \vskip .1em}
+
 
 \renewcommand\section{%
 \@startsection{section}{1}{\z@}%
