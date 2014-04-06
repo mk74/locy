@@ -31,9 +31,8 @@
 \thispagestyle{empty}
 
 \setlength{\tabcolsep}{6pt}
-
 \begin{center}
-\section*{Introduction}
+ \section*{Introduction}
 \end{center}
 		
 \begin{itemize}
@@ -50,7 +49,7 @@
 \end{center}
 	
    \item \textbf{Phone sensing} fetches raw sensor data\ (e.g. from an accelerometer) and tries to extract high-level information from it\ (e.g. a user is walking).
-   \item Such a process may have \textbf{high energy demands}, which is crucially important to mobile phone users.
+   \item Phone sensing has \textbf{high energy demands}, which is crucially important to mobile phone users.
    \item To solve the problem:
 	   \begin{itemize}
    			\item investigate many devices.
@@ -73,20 +72,24 @@
    \item Energy efficiency of sensors is \textbf{different among the devices}.
    
 %\begin{figure}[H]
-\includegraphics[scale=0.9]{plots/shared}
+\includegraphics[scale=0.8]{plots/shared}
 %\caption{\label{p:shared} \footnotesize{Energy efficiency of sensors differs depending on a device.} }
 %\end{figure}
 
    \item For all mobile phones, \textbf{accelerometer is more energy-efficient} than the standard localization sensors.
 
 %\begin{figure}[H]
-\includegraphics[scale=0.8]{plots/acc_vs_loc}
+\includegraphics[scale=0.7]{plots/acc_vs_loc}
 %\caption{\label{p:acc_vs_loc} \footnotesize{Accelerometer is more energy-efficient than the standard localization sensors.} }
 %\end{figure}
 
-   \item Locy
-   \item movement detection which leverages energy-efficient accelerometer to switch off GPS [MAYBE GRAPH]
-   \item duty-cycling + adaptive towards the battery life
+   \item Locy is an energy-efficient sensing library:
+  	   \begin{itemize}		
+  	   \item if a user is not moving, it switches off high-power GPS. 
+  	   \item a user movement is detected basing on energy-efficient accelerometer (the standard deviation of the total magnitude over accelerometer data). [GRAPH]
+  	   \item the library uses duty-cycling sampling\ (it samples and sleeps on repeat).
+  	   \item duty-cycling ratio\ (sampling time over sleeping one) is adjusted depending on the battery life of a mobile. 
+    \end{itemize} 
   \end{itemize}
 
 
@@ -101,7 +104,10 @@
 \includegraphics[scale=0.65]{plots/locy_eval_inplace}
 %\caption{\label{p:locy_eval_place} \footnotesize{Locy is more energy-efficient than the naive GPS localization while a user is in place.} }
 %\end{figure}
-XXX explain 
+
+%\begin{tabular}[t]{l r}
+%       \includegraphics[scale=0.65]{plots/locy_eval_inplace} & While a user is staying in one place, Locy is more energy-efficient than the naive GPS localization. 
+ %     \end{tabular}
 
    \item the \textbf{second scenario}:
    
