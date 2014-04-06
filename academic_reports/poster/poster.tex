@@ -72,16 +72,16 @@
 \end{center}
 \begin{itemize}
    \item Energy efficiency of sensors are \textbf{different among the devices}.\\
-   \includegraphics[width=17cm, height=7.5cm]{plots/shared}
+   \includegraphics[width=16cm, height=7.5cm]{plots/shared}
 
  \begin{tabular}[t]{p{8.0cm} p{9.0cm}}
        \vspace{0cm} However, \textbf{accelerometer is always more energy-efficient} than the standard localization sensors. & \vspace{0cm}\includegraphics[scale=0.6]{plots/acc_vs_loc}
       \end{tabular}
 
-   \item Locy is an energy-efficient sensing library:
+   \item \textbf{Locy} leverages an efficient accelerometer:
   	   \begin{itemize}		
   	   \item if a user is not moving, it switches off high-power GPS. 
-  	   \item movement detection is based on energy-efficient accelerometer (the standard deviation of the total magnitude over accelerometer data). [GRAPH]
+  	   \item movement detection based on the standard deviation of the total magnitude over accelerometer data). [GRAPH]
   	   \item the library uses duty-cycling sampling\ (sleeping period interleaves sampling).
   	   \item duty-cycling ratio\ (sampling over sleeping period) is adaptive to battery life. 
     \end{itemize} 
