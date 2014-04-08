@@ -8,8 +8,12 @@
 \usepackage{adjustbox}
 \usepackage{tikz}
 
+%\usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
+\usepackage[top=0.5in, bottom=0.5in, left=0.25in, right=0.25in]{geometry}
+
 \setlength{\vcolumnsep}{\baselineskip}
-\setlength{\columnsep}{\vcolumnsep}
+%\setlength{\columnsep}{\vcolumnsep}
+\setlength{\columnsep}{1.25in}
 \Ncolumntop{static}{3}{1.75in}
 \setstaticframe{1}{label={title}}
 \newlength\offset
@@ -23,7 +27,9 @@
 
 \newcommand{\redborder}[1]{\tikz \node[draw,rectangle,blue] {#1};}
 
-\setstaticframe{2}{clear}
+%\setstaticframe{2}{clear}
+%]{hwidthi}{hheighti}{hxi}{hyi}[hlabeli]
+
 %\setallflowframes{border=plain, bordercolor=blue}
 %\setallstaticframes{border=plain, bordercolor=blue}
 %\setallflowframes{border=redborder}
@@ -82,8 +88,9 @@
    \item Energy efficiency of sensors are \textbf{different among the three devices}.\\
    \includegraphics[width=16cm, height=7.5cm]{plots/shared}
 
+\vspace{0.35cm}
  \begin{tabular}[t]{p{8.0cm} p{9.0cm}}
-       \vspace{0cm} However, \textbf{accelerometer is always more energy-efficient} than the standard localization sensors. & \vspace{0cm}\includegraphics[scale=0.6]{plots/acc_vs_loc}
+       \vspace{0cm} However, \textbf{accelerometer is always more energy-efficient} than the standard localization sensors. & \vspace{0cm}\includegraphics[width=8cm, height=5.75cm]{plots/acc_vs_loc}
       \end{tabular}
 
    \item \textbf{Locy} leverages an efficient \textbf{accelerometer}:
@@ -94,7 +101,7 @@
   	   
   	   \hspace{0.75cm}\includegraphics[scale=0.4]{plots/walking}
 	   \includegraphics[scale=0.4]{plots/no_walking}
-  	   \item Locy uses \textbf{duty-cycling sampling}\ (sleeping periods interleaves sampling), whose ratio\ (sampling over sleeping period) is \textbf{adaptive according to current battery life}. 
+  	   \item Locy uses \textbf{duty-cycling sampling}\ (sleeping periods interleaves sampling), whose ratio\ (sampling over sleeping periods) is \textbf{adaptive according to current battery life}. 
     \end{itemize} 
   \end{itemize}
 
@@ -122,7 +129,7 @@
 \end{center}
 
 \textbf{Locy} is more energy-efficient than the standard Android implementation. 
-\vspace{1.25cm}
+\vspace{2.6cm}
 \begin{center}
 \includegraphics[scale=0.7]{plots/full_battery}
 \includegraphics[scale=0.7]{plots/happy_face}
